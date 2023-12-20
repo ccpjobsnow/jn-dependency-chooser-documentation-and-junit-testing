@@ -1,0 +1,16 @@
+{
+    "mappings": {
+            "dynamic": "strict",
+			"properties": {
+                "email": {
+                    "type": "keyword"
+                },
+				 "token": {
+                    "type": "text"
+                },
+				"chatId":{
+                    "type": "long"
+				}
+            }
+        }
+}

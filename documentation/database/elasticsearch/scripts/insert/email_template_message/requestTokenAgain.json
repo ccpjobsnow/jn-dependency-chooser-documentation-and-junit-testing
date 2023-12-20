@@ -1,0 +1,7 @@
+{
+	"language": "portuguese",
+	"templateId": "requestTokenAgain",
+	"subject": "Reenvio de token ao usuário",
+	"message": "Olá, a pouco você nos solicitou reenvio de token para o usuário {email} e este token é {token}"
+
+}

@@ -1,0 +1,24 @@
+{
+	"mappings": {
+		"dynamic": "strict",
+		"properties": {
+			"json": {
+				"dynamic": "true",
+					"properties": {}
+			},
+			"id": {
+				"type": "keyword"
+			},
+			"entity": {
+				"type": "keyword"
+			},
+			"operation": {
+				"type": "keyword"
+			},
+			"date": {
+				"type": "long"
+			}
+
+		}
+	}
+}

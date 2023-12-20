@@ -1,0 +1,134 @@
+package com.ccp.jn.test.asserting.login;
+
+import org.junit.Test;
+
+import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.especifications.http.CcpHttpResponseType;
+import com.ccp.jn.test.asserting.TemplateDeTestes;
+import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.commons.utils.JnConstants;
+
+public class CadastroDeSenha extends TemplateDeTestes{
+
+	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
+	private static final SolicitacaoDeDesbloqueioDeToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new SolicitacaoDeDesbloqueioDeToken();
+//	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
+	private static final ConfirmacaoDeEmail CONFIRMACAO_DE_EMAIL = new ConfirmacaoDeEmail();
+	private static final PreRegistro PRE_REGISTRO = new PreRegistro();
+	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
+	private final int tokenDigitadoIncorretamente = 401;
+	private final int tokenPendenteDeDesbloqueio = 420;
+	private final int senhaAvaliadaComoFraca = 422;
+	private final int usuarioNovoNoSistema = 404;
+	private final int faltandoPreRegistro = 201;
+	private final int tokenBloqueado = 403;
+	private final int emailInvalido = 400;
+
+
+	@Test
+	public void emailInvalido() {
+		this.cadastrarSenha(
+				ConstantesParaTestesDeLogin.INVALID_EMAIL, 
+				ConstantesParaTestesDeLogin.INCORRECT_TOKEN_TO_SAVE_PASSWORD, 
+				ConstantesParaTestesDeLogin.STRONG_PASSWORD, this.emailInvalido);
+	}
+
+	@Test
+	public void tokenDigitadoIncorretamente() {
+		CONFIRMACAO_DE_EMAIL.faltandoCadastrarSenha();
+		this.cadastrarSenhaForteComTokenIncorreto(this.tokenDigitadoIncorretamente);
+	}
+	
+	
+	@Test
+	public void senhaAvaliadaComoFraca() {
+		CONFIRMACAO_DE_EMAIL.faltandoCadastrarSenha();
+		String tokenToValidateLogin = this.getTokenToValidateLogin();
+		this.cadastrarSenhaFracaComTokenCorreto(tokenToValidateLogin, this.senhaAvaliadaComoFraca);
+	}
+	
+	@Test
+	public void usuarioNovoNoSistema() {
+		this.cadastrarSenhaForteComTokenIncorreto(this.usuarioNovoNoSistema);
+	}
+
+	@Test
+	public void tokenBloqueado() {
+		CONFIRMACAO_DE_EMAIL.faltandoCadastrarSenha();
+
+		for(int k = 0; k < (JnConstants.maxTries); k++) {
+			this.cadastrarSenhaForteComTokenIncorreto(this.tokenDigitadoIncorretamente);
+		}
+		this.cadastrarSenhaForteComTokenIncorreto(this.tokenBloqueado);
+	}
+	
+	@Test
+	public void tokenPendenteDeDesbloqueio() {
+		SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN.caminhoFeliz();
+		this.cadastrarSenhaFracaComTokenIncorreto(this.tokenPendenteDeDesbloqueio );
+	}
+
+	@Test
+	public void senhaDeDesbloqueioDeTokenEstaBloqueada() {
+		DESBLOQUEIO_DE_TOKEN.senhaDeDesbloqueioDeTokenEstaBloqueada();
+		this.cadastrarSenhaFracaComTokenIncorreto(this.senhaDeDesbloqueioDeTokenEstaBloqueada);
+		
+	}
+
+	@Test
+	public void caminhoFeliz() {
+		CONFIRMACAO_DE_EMAIL.faltandoCadastrarSenha();
+		String tokenToValidateLogin = this.getTokenToValidateLogin();
+		this.cadastrarSenhaForteComTokenCorreto(tokenToValidateLogin, this.faltandoPreRegistro);
+		PRE_REGISTRO.cadastrarPreRegistration(this.caminhoFeliz);
+	}
+
+	@Test
+	public void faltandoPreRegistro() {
+		CONFIRMACAO_DE_EMAIL.faltandoCadastrarSenha();
+		String tokenToValidateLogin = this.getTokenToValidateLogin();
+		this.cadastrarSenhaForteComTokenCorreto(tokenToValidateLogin, this.faltandoPreRegistro);
+	}
+
+	private void cadastrarSenhaFracaComTokenIncorreto(int expectedStatus) {
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.INCORRECT_TOKEN_TO_SAVE_PASSWORD, ConstantesParaTestesDeLogin.WEAK_PASSWORD,
+				expectedStatus);
+	}
+	private void cadastrarSenhaFracaComTokenCorreto(String tokenToValidateLogin, int expectedStatus) {
+		this.cadastrarSenha(tokenToValidateLogin, ConstantesParaTestesDeLogin.WEAK_PASSWORD,
+				expectedStatus);
+	}
+	private void cadastrarSenhaForteComTokenIncorreto(int expectedStatus) {
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.INCORRECT_TOKEN_TO_SAVE_PASSWORD, ConstantesParaTestesDeLogin.STRONG_PASSWORD, expectedStatus);
+	}
+	private void cadastrarSenhaForteComTokenCorreto(String tokenToValidateLogin, int expectedStatus) {
+		this.cadastrarSenha(tokenToValidateLogin, ConstantesParaTestesDeLogin.STRONG_PASSWORD, expectedStatus);
+	}
+	
+	private void cadastrarSenha(String tokenToValidateLogin, String password, int expectedStatus) {
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, tokenToValidateLogin, password, expectedStatus);
+	}
+	
+	private void cadastrarSenha(String email, String tokenToValidateLogin, String password, int expectedStatus) {
+		String uri = "login/"
+		+ email
+		+ "/password";
+		CcpMapDecorator body = new CcpMapDecorator().put("password", password).put("token", tokenToValidateLogin);
+		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
+	}
+
+	private String getTokenToValidateLogin() {
+		CcpMapDecorator put = new CcpMapDecorator().put("email", ConstantesParaTestesDeLogin.VALID_EMAIL);
+		JnEntityLoginToken jnEntityLoginToken = new JnEntityLoginToken();
+		CcpMapDecorator data = jnEntityLoginToken.getOneById(put);
+		String token = data.getAsString("token");
+		return token;
+
+	}
+	@Override
+	protected String getMethod() {
+		return "POST";
+	}
+
+
+}

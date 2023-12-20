@@ -1,0 +1,7 @@
+{
+	"language": "portuguese",
+	"templateId": "requestUnlockToken",
+	"subject": "Requisição para desbloqueio de token",
+	"message": "Olá, a pouco você nos solicitou um desbloqueio de token para o usuário {email}, este desbloqueio será finalizado quando você <a href='{accessLink}' target = '_blank'>Clicar aqui</a> e confirmar a operação."
+
+}

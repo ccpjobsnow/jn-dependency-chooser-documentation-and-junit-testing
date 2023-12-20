@@ -1,0 +1,33 @@
+{
+	"mappings": {
+		"dynamic": "strict",
+		"properties": {
+			"apiKey": {
+				"type": "keyword"
+			},
+			"apiUrl": {
+				"type": "keyword"
+			},
+			"response": {
+				"type": "text"
+			},
+			"httpStatus": {
+				"type": "integer"
+			},
+			"tries": {
+				"type": "integer"
+			},
+			"date": {
+				"type": "long"
+			},
+			"request": {
+				"type": "text"
+			},
+			"headers": {
+				"dynamic": "true",
+				"properties": {}
+			}
+
+		}
+	}
+}
