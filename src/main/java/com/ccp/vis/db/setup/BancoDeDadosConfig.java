@@ -20,10 +20,10 @@ public class BancoDeDadosConfig {
 		
 		CcpDbSetupCreator dependency = CcpDependencyInjection.getDependency(CcpDbSetupCreator.class);	
 		
-		String mainPath = "scripts\\";
+		String mainPath = "documentation\\database\\elasticsearch\\scripts";
 		String createFolder = mainPath + "create_table";
 		String insertFolder = mainPath + "insert";
-		dependency.setup("vis", createFolder, insertFolder);
+		dependency.setup("jn", createFolder, insertFolder);
 	}
 
 }
