@@ -28,8 +28,8 @@ public abstract class TemplateDeTestes {
 	}
 	
 	public synchronized void resetAllData() {
-		String mainPath = "documentation\\database\\elasticsearch\\scripts";
-		String createFolder = mainPath + "create_table";
+		String mainPath = "documentation\\database\\elasticsearch\\scripts\\";
+		String createFolder = mainPath + "insert";
 
 		CcpDbSetupCreator dbSetup = CcpDependencyInjection.getDependency(CcpDbSetupCreator.class);
 		dbSetup.resetAllData("jn", createFolder);
