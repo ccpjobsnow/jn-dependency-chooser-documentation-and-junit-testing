@@ -8,13 +8,13 @@ import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.jn.commons.entities.JnEntityLoginToken;
 import com.jn.commons.utils.JnConstants;
 
-public class CadastroDeSenha extends TemplateDeTestes{
+public class UpdatePassword extends TemplateDeTestes{
 
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
-	private static final SolicitacaoDeDesbloqueioDeToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new SolicitacaoDeDesbloqueioDeToken();
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
+	private static final RequestUnlockToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new RequestUnlockToken();
 //	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
-	private static final ConfirmacaoDeEmail CONFIRMACAO_DE_EMAIL = new ConfirmacaoDeEmail();
-	private static final PreRegistro PRE_REGISTRO = new PreRegistro();
+	private static final CreateLoginToken CONFIRMACAO_DE_EMAIL = new CreateLoginToken();
+	private static final SavePreRegistration PRE_REGISTRO = new SavePreRegistration();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenDigitadoIncorretamente = 401;
 	private final int tokenPendenteDeDesbloqueio = 420;

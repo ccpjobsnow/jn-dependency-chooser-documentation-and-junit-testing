@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 
-public class VerificacaoDeEmail extends TemplateDeTestes{
+public class ExistsLoginToken extends TemplateDeTestes{
 
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenPendenteDeDesbloqueio = 420;
 	private final int faltandoCadastrarSenha = 202;
@@ -30,36 +30,36 @@ public class VerificacaoDeEmail extends TemplateDeTestes{
 
 	@Test
 	public void tokenBloqueado() {
-		new CadastroDeSenha().tokenBloqueado();
+		new UpdatePassword().tokenBloqueado();
 		this.verificarExistenciaDeEmail(this.tokenBloqueado);
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
-		new CadastroDeSenha().faltandoPreRegistro();
+		new UpdatePassword().faltandoPreRegistro();
 		this.verificarExistenciaDeEmail(this.faltandoPreRegistro);
 	}
 	
 	@Test
 	public void faltandoCadastrarSenha() {
-		new PreRegistro().faltandoCadastrarSenha();
+		new SavePreRegistration().faltandoCadastrarSenha();
 		this.verificarExistenciaDeEmail(this.faltandoCadastrarSenha);
 	}
 
 	@Test
 	public void senhaBloqueada() {
-		new ExecucaoDeLogin().senhaBloqueada();
+		new ExecuteLogin().senhaBloqueada();
 		this.verificarExistenciaDeEmail(this.senhaBloqueada);
 	}
 	@Test
 	public void usuarioJaLogado() {
-		new ExecucaoDeLogin().usuarioJaLogado();
+		new ExecuteLogin().usuarioJaLogado();
 		this.verificarExistenciaDeEmail(this.usuarioJaLogado);
 	}
 	
 	@Test
 	public void tokenPendenteDeDesbloqueio() {
-		new SolicitacaoDeDesbloqueioDeToken().caminhoFeliz();
+		new RequestUnlockToken().caminhoFeliz();
 		this.verificarExistenciaDeEmail(this.tokenPendenteDeDesbloqueio);
 	}
 	
@@ -71,7 +71,7 @@ public class VerificacaoDeEmail extends TemplateDeTestes{
 	
 	@Test
 	public void caminhoFeliz() {
-		new Logout().caminhoFeliz();
+		new ExecuteLogout().caminhoFeliz();
 		this.verificarExistenciaDeEmail(this.caminhoFeliz);
 	}
 	

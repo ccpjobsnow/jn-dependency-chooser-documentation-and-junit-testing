@@ -9,10 +9,10 @@ import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VerificacaoDeStatusDaTarefaAssincrona;
 import com.jn.commons.entities.JnEntityRequestUnlockToken;
 
-public class SolicitacaoDeDesbloqueioDeToken  extends TemplateDeTestes{
+public class RequestUnlockToken  extends TemplateDeTestes{
 	
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
-	private static final CadastroDeSenha CADASTRO_DE_SENHA = new CadastroDeSenha();
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
+	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
 	private final int solicitacaoDeDesbloqueioDeTokenJaFeita = 409;
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenNaoBloqueado = 404;///TODO token existente

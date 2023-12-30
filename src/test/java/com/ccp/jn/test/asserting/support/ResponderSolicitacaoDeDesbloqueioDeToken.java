@@ -7,15 +7,15 @@ import org.junit.Test;
 import com.ccp.decorators.CcpMapDecorator;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.login.ConstantesParaTestesDeLogin;
-import com.ccp.jn.test.asserting.login.DesbloqueioDeToken;
-import com.ccp.jn.test.asserting.login.PreRegistro;
-import com.ccp.jn.test.asserting.login.SolicitacaoDeDesbloqueioDeToken;
+import com.ccp.jn.test.asserting.login.UnlockToken;
+import com.ccp.jn.test.asserting.login.SavePreRegistration;
+import com.ccp.jn.test.asserting.login.RequestUnlockToken;
 import com.jn.commons.entities.JnEntityRequestUnlockTokenAnswered;
 
 public class ResponderSolicitacaoDeDesbloqueioDeToken extends TemplateDeTestes {
-	private static final SolicitacaoDeDesbloqueioDeToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new SolicitacaoDeDesbloqueioDeToken();
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
-	private static final PreRegistro PRE_REGISTRO = new PreRegistro();
+	private static final RequestUnlockToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new RequestUnlockToken();
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
+	private static final SavePreRegistration PRE_REGISTRO = new SavePreRegistration();
 	private final int usuarioNaoRegistradoComoOperadorDeSuporte = 401;
 	private final int requisicaoDeDesbloqueioDeTokenNaoExiste = 422;
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;

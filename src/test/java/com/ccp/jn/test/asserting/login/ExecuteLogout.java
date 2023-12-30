@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 
-public class Logout  extends TemplateDeTestes{
+public class ExecuteLogout  extends TemplateDeTestes{
 
-	private static final ExecucaoDeLogin EXECUCAO_DE_LOGIN = new ExecucaoDeLogin();
+	private static final ExecuteLogin EXECUCAO_DE_LOGIN = new ExecuteLogin();
 	private final int usuarioNaoLogado = 404;
 	private final int emailInvalido = 400;
 	

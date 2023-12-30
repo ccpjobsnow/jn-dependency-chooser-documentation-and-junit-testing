@@ -1,0 +1,9 @@
+0) Ajustes nos retornos dos endpoints
+1) Ajustar testes que estão dando errado
+2) Ajuste dos testes em conjunto
+3) Criar variáveis de ambiente no app engine
+4) Criar variáveis de ambiente no compute engine
+5) Fazer deploy do appengine
+6) Fazer deploy do compute engine
+7) Executar bateria de testes
+8) Primeiro TDD do VIS

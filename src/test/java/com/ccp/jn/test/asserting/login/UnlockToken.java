@@ -12,11 +12,11 @@ import com.jn.commons.entities.JnEntityFailedUnlockToken;
 import com.jn.commons.entities.JnEntityRequestUnlockTokenAnswered;
 import com.jn.commons.utils.JnConstants;
 
-public class DesbloqueioDeToken extends TemplateDeTestes{
+public class UnlockToken extends TemplateDeTestes{
 	
-	private static final CadastroDeSenha CADASTRO_DE_SENHA = new CadastroDeSenha();
+	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
 	private static final ResponderSolicitacaoDeDesbloqueioDeToken RESPONDER_SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new ResponderSolicitacaoDeDesbloqueioDeToken();
-	private static final SolicitacaoDeDesbloqueioDeToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new SolicitacaoDeDesbloqueioDeToken();
+	private static final RequestUnlockToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new RequestUnlockToken();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int aguardandoVerificacaoDoSuporte = 202;
 	private final int senhaDigitadaIncorretamente = 401;

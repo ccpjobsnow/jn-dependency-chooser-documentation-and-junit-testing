@@ -11,9 +11,9 @@ import com.jn.commons.entities.JnEntityEmailMessageSent;
 import com.jn.commons.utils.JnTopic;
 
 @SuppressWarnings("unchecked")
-public class ConfirmacaoDeEmail  extends TemplateDeTestes{
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
-	private static final CadastroDeSenha CADASTRO_DE_SENHA = new CadastroDeSenha();
+public class CreateLoginToken  extends TemplateDeTestes{
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
+	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenPendenteDeDesbloqueio = 420;
 	private final int faltandoCadastrarSenha = 202;
@@ -51,19 +51,19 @@ public class ConfirmacaoDeEmail  extends TemplateDeTestes{
 	
 	@Test
 	public void senhaBloqueada() {
-		new ExecucaoDeLogin().senhaBloqueada();
+		new ExecuteLogin().senhaBloqueada();
 		this.confirmarEmail(this.senhaBloqueada);
 	}
 
 	@Test
 	public void usuarioJaLogado() {
-		new ExecucaoDeLogin().caminhoFeliz();
+		new ExecuteLogin().caminhoFeliz();
 		this.confirmarEmail(this.usuarioJaLogado);
 	}
 
 	@Test
 	public void tokenPendenteDeDesbloqueio() {
-		new SolicitacaoDeDesbloqueioDeToken().caminhoFeliz();
+		new RequestUnlockToken().caminhoFeliz();
 		this.confirmarEmail(this.tokenPendenteDeDesbloqueio);
 	}
 
@@ -76,7 +76,7 @@ public class ConfirmacaoDeEmail  extends TemplateDeTestes{
 	
 	@Test
 	public void caminhoFeliz() {
-		new Logout().caminhoFeliz();
+		new ExecuteLogout().caminhoFeliz();
 		this.confirmarEmail(this.caminhoFeliz);
 	}
 

@@ -6,8 +6,8 @@ import com.ccp.decorators.CcpMapDecorator;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 
-public class PreRegistro  extends TemplateDeTestes{
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
+public class SavePreRegistration  extends TemplateDeTestes{
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenPendenteDeDesbloqueio = 420;
 	private final int faltandoCadastrarSenha = 202;
@@ -30,31 +30,31 @@ public class PreRegistro  extends TemplateDeTestes{
 	
 	@Test
 	public void tokenBloqueado() {
-		new CadastroDeSenha().tokenBloqueado();
+		new UpdatePassword().tokenBloqueado();
 		this.cadastrarPreRegistration(this.tokenBloqueado);
 	}
 	
 	@Test
 	public void faltandoCadastrarSenha() {
-		new ConfirmacaoDeEmail().faltandoCadastrarSenha();
+		new CreateLoginToken().faltandoCadastrarSenha();
 		this.cadastrarPreRegistration(this.faltandoCadastrarSenha);
 	}
 
 	@Test
 	public void senhaBloqueada() {
-		new ExecucaoDeLogin().senhaBloqueada();
+		new ExecuteLogin().senhaBloqueada();
 		this.cadastrarPreRegistration(this.senhaBloqueada);
 	}
 	
 	@Test
 	public void usuarioJaLogado() {
-		new ExecucaoDeLogin().usuarioJaLogado();
+		new ExecuteLogin().usuarioJaLogado();
 		this.cadastrarPreRegistration(this.usuarioJaLogado);
 	}
 	
 	@Test
 	public void tokenPendenteDeDesbloqueio() {
-		new SolicitacaoDeDesbloqueioDeToken().caminhoFeliz();
+		new RequestUnlockToken().caminhoFeliz();
 		this.cadastrarPreRegistration(this.tokenPendenteDeDesbloqueio);
 	}
 	
@@ -66,7 +66,7 @@ public class PreRegistro  extends TemplateDeTestes{
 	
 	@Test
 	public void caminhoFeliz() {
-		new CadastroDeSenha().faltandoPreRegistro();
+		new UpdatePassword().faltandoPreRegistro();
 		this.cadastrarPreRegistration(this.caminhoFeliz);
 	}
 

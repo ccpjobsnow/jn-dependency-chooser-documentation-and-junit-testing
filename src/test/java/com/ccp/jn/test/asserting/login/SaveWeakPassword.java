@@ -4,8 +4,8 @@ import org.junit.Test;
 
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 
-public class ConfirmacaoDeSenhaFraca extends TemplateDeTestes{
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
+public class SaveWeakPassword extends TemplateDeTestes{
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenPendenteDeDesbloqueio = 420;
 
@@ -26,19 +26,19 @@ public class ConfirmacaoDeSenhaFraca extends TemplateDeTestes{
 
 	@Test
 	public void tokenBloqueado() {
-		new CadastroDeSenha().tokenBloqueado();
+		new UpdatePassword().tokenBloqueado();
 		this.confirmarSenhaFraca(this.tokenBloqueado); 
 	}
 
 	@Test
 	public void faltandoPreRegistro() {
-		new CadastroDeSenha().faltandoPreRegistro();
+		new UpdatePassword().faltandoPreRegistro();
 		this.confirmarSenhaFraca(this.faltandoPreRegistro);
 	}
 
 	@Test
 	public void tokenPendenteDeDesbloqueio() {
-		new SolicitacaoDeDesbloqueioDeToken().caminhoFeliz();
+		new RequestUnlockToken().caminhoFeliz();
 		this.confirmarSenhaFraca(this.tokenPendenteDeDesbloqueio);
 	}
 	
@@ -50,7 +50,7 @@ public class ConfirmacaoDeSenhaFraca extends TemplateDeTestes{
 	
 	@Test
 	public void caminhoFeliz() {
-		new PreRegistro().caminhoFeliz();
+		new SavePreRegistration().caminhoFeliz();
 		this.confirmarSenhaFraca(this.caminhoFeliz);
 	}
 

@@ -6,22 +6,22 @@ import org.junit.Test;
 
 import com.ccp.decorators.CcpMapDecorator;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
-import com.ccp.jn.test.asserting.login.CadastroDeSenha;
+import com.ccp.jn.test.asserting.login.UpdatePassword;
 import com.ccp.jn.test.asserting.login.ConstantesParaTestesDeLogin;
-import com.ccp.jn.test.asserting.login.DesbloqueioDeToken;
-import com.ccp.jn.test.asserting.login.PreRegistro;
-import com.ccp.jn.test.asserting.login.RessolicitacaoToken;
-import com.ccp.jn.test.asserting.login.SolicitacaoDeDesbloqueioDeToken;
+import com.ccp.jn.test.asserting.login.UnlockToken;
+import com.ccp.jn.test.asserting.login.SavePreRegistration;
+import com.ccp.jn.test.asserting.login.RequestTokenAgain;
+import com.ccp.jn.test.asserting.login.RequestUnlockToken;
 import com.jn.commons.entities.JnEntityRequestTokenAgain;
 import com.jn.commons.entities.JnEntityRequestTokenAgainAnswered;
 
 public class ResponderSolicitacaoDeReenvioDeToken extends TemplateDeTestes {
 
-	private static final SolicitacaoDeDesbloqueioDeToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new SolicitacaoDeDesbloqueioDeToken();
-	private static final RessolicitacaoToken RESSOLICITACAO_TOKEN = new RessolicitacaoToken();
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
-	private static final CadastroDeSenha CADASTRO_DE_SENHA = new CadastroDeSenha();
-	private static final PreRegistro PRE_REGISTRO = new PreRegistro();
+	private static final RequestUnlockToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new RequestUnlockToken();
+	private static final RequestTokenAgain RESSOLICITACAO_TOKEN = new RequestTokenAgain();
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
+	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
+	private static final SavePreRegistration PRE_REGISTRO = new SavePreRegistration();
 	private final int usuarioNaoRegistradoComoOperadorDeSuporte = 401;
 	private final int requisicaoDeDesbloqueioDeTokenNaoExiste = 422;
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;

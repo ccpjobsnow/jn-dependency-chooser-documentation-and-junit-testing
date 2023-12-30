@@ -8,10 +8,10 @@ import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.jn.commons.entities.JnEntityPassword;
 import com.jn.commons.utils.JnConstants;
 
-public class ExecucaoDeLogin extends TemplateDeTestes{
+public class ExecuteLogin extends TemplateDeTestes{
 
-	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
-	private static final CadastroDeSenha CADASTRO_DE_SENHA = new CadastroDeSenha();
+	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
+	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenPendenteDeDesbloqueio = 420;
 
@@ -36,19 +36,19 @@ public class ExecucaoDeLogin extends TemplateDeTestes{
 	
 	@Test
 	public void tokenBloqueado() {
-		new CadastroDeSenha().tokenBloqueado();
+		new UpdatePassword().tokenBloqueado();
 		this.executarLogin(this.tokenBloqueado, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
-		new CadastroDeSenha().faltandoPreRegistro();
+		new UpdatePassword().faltandoPreRegistro();
 		this.executarLogin(this.faltandoPreRegistro, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 	}
 	
 	@Test
 	public void faltandoCadastrarSenha() {
-		new CadastroDeSenha().caminhoFeliz();
+		new UpdatePassword().caminhoFeliz();
 		new JnEntityPassword().delete(new CcpMapDecorator().put("email", ConstantesParaTestesDeLogin.VALID_EMAIL));
 		this.executarLogin(this.faltandoCadastrarSenha, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 	}
@@ -56,7 +56,7 @@ public class ExecucaoDeLogin extends TemplateDeTestes{
 	
 	@Test
 	public void senhaBloqueada() {
-		new Logout().caminhoFeliz();
+		new ExecuteLogout().caminhoFeliz();
 		for(int k = 0; k < (JnConstants.maxTries); k++) {
 			this.executarLogin(this.senhaIncorreta, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 		}
@@ -65,7 +65,7 @@ public class ExecucaoDeLogin extends TemplateDeTestes{
 
 	@Test
 	public void senhaIncorreta() {
-		new CadastroDeSenha().caminhoFeliz();
+		new UpdatePassword().caminhoFeliz();
 		this.executarLogin(this.senhaIncorreta, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 	}
 
@@ -77,7 +77,7 @@ public class ExecucaoDeLogin extends TemplateDeTestes{
 	}
 	@Test
 	public void tokenPendenteDeDesbloqueio() {
-		new SolicitacaoDeDesbloqueioDeToken().caminhoFeliz();
+		new RequestUnlockToken().caminhoFeliz();
 		this.executarLogin(this.tokenPendenteDeDesbloqueio, ConstantesParaTestesDeLogin.STRONG_PASSWORD);
 	}
 	
