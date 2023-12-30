@@ -74,7 +74,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL,
 				"DELETE", 
 				CcpConstants.EMPTY_JSON, 
-				new CcpMapDecorator().put("password", STRONG_PASSWORD).asJson(), 200);
+				new CcpMapDecorator().put("password", STRONG_PASSWORD).asUgglyJson(), 200);
 		
 	}
 
@@ -84,7 +84,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL,
 				"DELETE", 
 				CcpConstants.EMPTY_JSON, 
-				new CcpMapDecorator().put("password", STRONG_PASSWORD).asJson(), 404);
+				new CcpMapDecorator().put("password", STRONG_PASSWORD).asUgglyJson(), 404);
 		
 	
 	}
@@ -96,7 +96,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL,
 				"POST", 
 				CcpConstants.EMPTY_JSON, 
-				new CcpMapDecorator().put("password", STRONG_PASSWORD).asJson(), 409);
+				new CcpMapDecorator().put("password", STRONG_PASSWORD).asUgglyJson(), 409);
 		
 	}
 
@@ -107,7 +107,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL,
 				"POST", 
 				CcpConstants.EMPTY_JSON, 
-				new CcpMapDecorator().put("password", STRONG_PASSWORD).asJson(), 200);
+				new CcpMapDecorator().put("password", STRONG_PASSWORD).asUgglyJson(), 200);
 	}
 
 	private void soOurUserExecuteCorrectLoginWithWeakPassword() {
@@ -116,7 +116,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL,
 				"POST", 
 				CcpConstants.EMPTY_JSON, 
-				new CcpMapDecorator().put("password", WEAK_PASSWORD).asJson(), 200);
+				new CcpMapDecorator().put("password", WEAK_PASSWORD).asUgglyJson(), 200);
 		
 	}
 
@@ -127,7 +127,7 @@ public class LoginTesting {
 				+ "/password", 
 				"POST", 
 				CcpConstants.EMPTY_JSON, 
-				new CcpMapDecorator().put("password", STRONG_PASSWORD).put("token", tokenToValidateLogin).asJson()
+				new CcpMapDecorator().put("password", STRONG_PASSWORD).put("token", tokenToValidateLogin).asUgglyJson()
 				,200);
 		
 		
@@ -156,7 +156,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL
 				+ "/password/weak", "POST", 
 				new CcpMapDecorator(), 
-				new CcpMapDecorator().put("password", STRONG_PASSWORD).put("token", token).asJson(), 200);
+				new CcpMapDecorator().put("password", STRONG_PASSWORD).put("token", token).asUgglyJson(), 200);
 		
 		
 		boolean weakPasswordHasBeenCreated = new JnEntityWeakPassword().exists(TESTING_JSON);
@@ -181,7 +181,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL
 				+ "/password", "POST", 
 				new CcpMapDecorator(), 
-				new CcpMapDecorator().put("password", WEAK_PASSWORD).put("token", INCORRECT_TOKEN_TO_SAVE_PASSWORD).asJson()
+				new CcpMapDecorator().put("password", WEAK_PASSWORD).put("token", INCORRECT_TOKEN_TO_SAVE_PASSWORD).asUgglyJson()
 				,401);
 		
 	}
@@ -193,7 +193,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL
 				+ "/pre-registration", "POST", 
 				new CcpMapDecorator(), 
-				new CcpMapDecorator().put("goal", "jobs").put("channel", "linkedin").asJson()
+				new CcpMapDecorator().put("goal", "jobs").put("channel", "linkedin").asUgglyJson()
 				,200);
 		
 	}
@@ -219,7 +219,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL
 				+ "/password", "POST", 
 				new CcpMapDecorator(), 
-				new CcpMapDecorator().put("password", WEAK_PASSWORD).put("token", token).asJson()
+				new CcpMapDecorator().put("password", WEAK_PASSWORD).put("token", token).asUgglyJson()
 				,422);
 		
 		
@@ -239,7 +239,7 @@ public class LoginTesting {
 				+ TESTING_EMAIL
 				+ "/password/weak", "POST", 
 				new CcpMapDecorator(), 
-				new CcpMapDecorator().put("password", WEAK_PASSWORD).put("token", token).asJson()
+				new CcpMapDecorator().put("password", WEAK_PASSWORD).put("token", token).asUgglyJson()
 				,200);
 		
 		
@@ -278,7 +278,7 @@ public class LoginTesting {
 		for(int k = 0; k < 10; k++) {
 			CcpHttpResponse endpointResponse = this.ccpHttp.executeHttpRequest(BASE_URL
 					+ "async/task/" + asyncTaskId, "GET", 
-					new CcpMapDecorator(), new CcpMapDecorator().asJson(),200);
+					new CcpMapDecorator(), new CcpMapDecorator().asUgglyJson(),200);
 
 			
 			CcpMapDecorator json = endpointResponse.asSingleJson();
@@ -308,7 +308,7 @@ public class LoginTesting {
 				+ "/login/"
 				+ TESTING_EMAIL
 				+ "/token/language/portuguese", "POST", new CcpMapDecorator(), 
-				new CcpMapDecorator().asJson(), 200);
+				new CcpMapDecorator().asUgglyJson(), 200);
 		
 		String asyncTaskId = new CcpMapDecorator(endpointResponse.httpResponse).getAsString("asyncTaskId");
 
@@ -321,7 +321,7 @@ public class LoginTesting {
 		this.ccpHttp.executeHttpRequest(BASE_URL
 				+ "login/"
 				+ TESTING_EMAIL
-				+ "/token", "HEAD", new CcpMapDecorator(), new CcpMapDecorator().asJson(), 404);
+				+ "/token", "HEAD", new CcpMapDecorator(), new CcpMapDecorator().asUgglyJson(), 404);
 	
 	}
 }

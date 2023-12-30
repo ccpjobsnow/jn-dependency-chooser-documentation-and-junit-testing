@@ -27,7 +27,7 @@ public class ConfirmacaoDeSenhaFraca extends TemplateDeTestes{
 	@Test
 	public void tokenBloqueado() {
 		new CadastroDeSenha().tokenBloqueado();
-		this.confirmarSenhaFraca(this.tokenBloqueado);
+		this.confirmarSenhaFraca(this.tokenBloqueado); 
 	}
 
 	@Test
