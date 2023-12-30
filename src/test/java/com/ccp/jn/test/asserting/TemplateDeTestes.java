@@ -72,8 +72,15 @@ public abstract class TemplateDeTestes {
 	}
 
 	private <V> void logRequestAndResponse(Integer expectedStatus, CcpMapDecorator body, V executeHttpRequest) {
-		CcpMapDecorator put = new CcpMapDecorator().put("request", body).put("response", executeHttpRequest);
+		
+		CcpMapDecorator md = new CcpMapDecorator().put("x", executeHttpRequest);
+		
+		if(executeHttpRequest instanceof CcpMapDecorator json) {
+			md = json;
+		}
+		CcpMapDecorator put = new CcpMapDecorator().put("request", body).put("response", md);
 		String asPrettyJson = put.asPrettyJson();
+		
 		new CcpStringDecorator("c:\\ccp\\jn\\logs\\").folder()
 				.createNewFolderIfNotExists(this.getClass().getSimpleName())
 				.writeInTheFile(expectedStatus + ".json", asPrettyJson);
