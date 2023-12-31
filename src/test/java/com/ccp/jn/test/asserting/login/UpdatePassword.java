@@ -81,6 +81,8 @@ public class UpdatePassword extends TemplateDeTestes{
 		String tokenToValidateLogin = this.getTokenToValidateLogin();
 		this.cadastrarSenhaForteComTokenCorreto(tokenToValidateLogin, this.faltandoPreRegistro);
 		PRE_REGISTRO.cadastrarPreRegistration(this.caminhoFeliz);
+		this.cadastrarSenhaForteComTokenCorreto(tokenToValidateLogin, this.caminhoFeliz);
+		
 	}
 
 	@Test
