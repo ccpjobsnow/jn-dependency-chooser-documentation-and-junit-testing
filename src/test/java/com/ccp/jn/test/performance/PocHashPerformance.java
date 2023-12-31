@@ -1,7 +1,7 @@
 package com.ccp.jn.test.performance;
 
 import com.ccp.decorators.CcpHashDecorator;
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.utils.CcpDbRequester;
@@ -24,7 +24,7 @@ public class PocHashPerformance {
 	static void x() {
 		CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
 		CcpDbRequester dependency2 = CcpDependencyInjection.getDependency(CcpDbRequester.class);
-		CcpMapDecorator connectionDetails = dependency2.getConnectionDetails();
+		CcpJsonRepresentation connectionDetails = dependency2.getConnectionDetails();
 		String databaseUrl = connectionDetails.getAsString("DB_URL");
 		CcpHttpResponse executeHttpRequest = dependency.executeHttpRequest(databaseUrl, "GET", connectionDetails, "", 200);
 		System.out.println(executeHttpRequest);

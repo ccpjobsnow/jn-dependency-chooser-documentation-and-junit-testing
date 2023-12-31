@@ -2,7 +2,8 @@ package com.ccp.jn.test.asserting.login;
 
 import org.junit.Test;
 
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.constantes.CcpConstants;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 
@@ -75,7 +76,7 @@ public class SavePreRegistration  extends TemplateDeTestes{
 	}
 	
 	private void cadastrarPreRegistration(String email, int expectedStatus) {
-		CcpMapDecorator body = new CcpMapDecorator().put("goal", "jobs").put("channel", "linkedin");
+		CcpJsonRepresentation body = CcpConstants.EMPTY_JSON.put("goal", "jobs").put("channel", "linkedin");
 		String uri = "login/"+ email 	+ "/pre-registration";
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
 	}

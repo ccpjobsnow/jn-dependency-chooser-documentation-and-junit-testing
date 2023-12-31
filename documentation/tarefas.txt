@@ -1,4 +1,3 @@
-0) Ajustes nos retornos dos endpoints
 1) Ajustar testes que estão dando errado
 2) Ajuste dos testes em conjunto
 3) Criar variáveis de ambiente no app engine

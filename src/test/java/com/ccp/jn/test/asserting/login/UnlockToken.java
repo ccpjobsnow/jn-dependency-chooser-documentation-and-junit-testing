@@ -4,7 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.constantes.CcpConstants;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.support.ResponderSolicitacaoDeDesbloqueioDeToken;
@@ -68,13 +69,13 @@ public class UnlockToken extends TemplateDeTestes{
 	public void caminhoFeliz() {
 		RESPONDER_SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN.caminhoFeliz();
 		
-		CcpMapDecorator oneById = new JnEntityRequestUnlockTokenAnswered().getOneById(ConstantesParaTestesDeLogin.TESTING_JSON);
+		CcpJsonRepresentation oneById = new JnEntityRequestUnlockTokenAnswered().getOneById(ConstantesParaTestesDeLogin.TESTING_JSON);
 		String senhaCorreta = oneById.getAsString("token");
 		this.desbloquearToken(ConstantesParaTestesDeLogin.VALID_EMAIL, senhaCorreta, this.caminhoFeliz);
 	}
 
 	private void desbloquearToken(String email, String password, int expectedStatus) {
-		CcpMapDecorator put = new CcpMapDecorator().put("password", password);
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("password", password);
 		String uri = "/login/" + email + "/token/lock";
 		Integer valueOf = Integer.valueOf(expectedStatus);
 		this.testarEndpoint(valueOf, put, uri, CcpHttpResponseType.singleRecord);

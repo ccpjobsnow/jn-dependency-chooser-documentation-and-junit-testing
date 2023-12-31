@@ -2,7 +2,8 @@ package com.ccp.jn.test.asserting.login;
 
 import org.junit.Test;
 
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.constantes.CcpConstants;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.jn.commons.entities.JnEntityLoginToken;
@@ -115,14 +116,14 @@ public class UpdatePassword extends TemplateDeTestes{
 		String uri = "login/"
 		+ email
 		+ "/password";
-		CcpMapDecorator body = new CcpMapDecorator().put("password", password).put("token", tokenToValidateLogin);
+		CcpJsonRepresentation body = CcpConstants.EMPTY_JSON.put("password", password).put("token", tokenToValidateLogin);
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
 	}
 
 	private String getTokenToValidateLogin() {
-		CcpMapDecorator put = new CcpMapDecorator().put("email", ConstantesParaTestesDeLogin.VALID_EMAIL);
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("email", ConstantesParaTestesDeLogin.VALID_EMAIL);
 		JnEntityLoginToken jnEntityLoginToken = new JnEntityLoginToken();
-		CcpMapDecorator data = jnEntityLoginToken.getOneById(put);
+		CcpJsonRepresentation data = jnEntityLoginToken.getOneById(put);
 		String token = data.getAsString("token");
 		return token;
 

@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.login.UpdatePassword;
 import com.ccp.jn.test.asserting.login.ConstantesParaTestesDeLogin;
@@ -93,7 +93,7 @@ public class ResponderSolicitacaoDeReenvioDeToken extends TemplateDeTestes {
 	
 	
 	
-	private CcpMapDecorator responderSolicitacaoDeReenvioDeToken(Long chatId, String email, Integer expectedStatus) {
+	private CcpJsonRepresentation responderSolicitacaoDeReenvioDeToken(Long chatId, String email, Integer expectedStatus) {
 		
 		String uri = "support/"
 				+ chatId
@@ -102,7 +102,7 @@ public class ResponderSolicitacaoDeReenvioDeToken extends TemplateDeTestes {
 				+ email
 				+ "/resending";
 		
-		CcpMapDecorator testarEndpoint = this.testarEndpoint(uri, expectedStatus);
+		CcpJsonRepresentation testarEndpoint = this.testarEndpoint(uri, expectedStatus);
 		return testarEndpoint;
 		
 	}

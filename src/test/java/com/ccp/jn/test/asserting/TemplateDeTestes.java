@@ -3,7 +3,7 @@ package com.ccp.jn.test.asserting;
 import org.junit.Before;
 
 import com.ccp.constantes.CcpConstants;
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.setup.CcpDbSetupCreator;
@@ -40,27 +40,27 @@ public abstract class TemplateDeTestes {
 
 	protected abstract String getMethod();
 
-	protected CcpMapDecorator getHeaders() {
-		return new CcpMapDecorator();
+	protected CcpJsonRepresentation getHeaders() {
+		return CcpConstants.EMPTY_JSON;
 	}
 
-	protected CcpMapDecorator getCaminhoFeliz(String uri) {
-		CcpMapDecorator testarEndpoint = this.testarEndpoint(this.caminhoFeliz, CcpConstants.EMPTY_JSON, uri,
+	protected CcpJsonRepresentation getCaminhoFeliz(String uri) {
+		CcpJsonRepresentation testarEndpoint = this.testarEndpoint(this.caminhoFeliz, CcpConstants.EMPTY_JSON, uri,
 				CcpHttpResponseType.singleRecord);
 		return testarEndpoint;
 	}
 
-	protected CcpMapDecorator testarEndpoint(String uri, Integer expectedStatus) {
-		CcpMapDecorator testarEndpoint = this.testarEndpoint(expectedStatus, CcpConstants.EMPTY_JSON, uri,
+	protected CcpJsonRepresentation testarEndpoint(String uri, Integer expectedStatus) {
+		CcpJsonRepresentation testarEndpoint = this.testarEndpoint(expectedStatus, CcpConstants.EMPTY_JSON, uri,
 				CcpHttpResponseType.singleRecord);
 		return testarEndpoint;
 	}
 
-	protected <V> V testarEndpoint(Integer expectedStatus, CcpMapDecorator body, String uri,
+	protected <V> V testarEndpoint(Integer expectedStatus, CcpJsonRepresentation body, String uri,
 			CcpHttpResponseTransform<V> transformer) {
 
 		String method = this.getMethod();
-		CcpMapDecorator headers = this.getHeaders();
+		CcpJsonRepresentation headers = this.getHeaders();
 
 		CcpHttpHandler http = new CcpHttpHandler(expectedStatus);
 		String path = this.ENDPOINT_URL + uri;
@@ -71,14 +71,14 @@ public abstract class TemplateDeTestes {
 		return executeHttpRequest;
 	}
 
-	private <V> void logRequestAndResponse(Integer expectedStatus, CcpMapDecorator body, V executeHttpRequest) {
+	private <V> void logRequestAndResponse(Integer expectedStatus, CcpJsonRepresentation body, V executeHttpRequest) {
 		
-		CcpMapDecorator md = new CcpMapDecorator().put("x", executeHttpRequest);
+		CcpJsonRepresentation md = CcpConstants.EMPTY_JSON.put("x", executeHttpRequest);
 		
-		if(executeHttpRequest instanceof CcpMapDecorator json) {
+		if(executeHttpRequest instanceof CcpJsonRepresentation json) {
 			md = json;
 		}
-		CcpMapDecorator put = new CcpMapDecorator().put("request", body).put("response", md);
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("request", body).put("response", md);
 		String asPrettyJson = put.asPrettyJson();
 		
 		new CcpStringDecorator("c:\\ccp\\jn\\logs\\").folder()

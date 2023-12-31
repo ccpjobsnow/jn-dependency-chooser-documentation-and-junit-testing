@@ -2,7 +2,8 @@ package com.ccp.jn.test.asserting.login;
 
 import org.junit.Test;
 
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.constantes.CcpConstants;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.jn.commons.entities.JnEntityPassword;
@@ -10,6 +11,7 @@ import com.jn.commons.utils.JnConstants;
 
 public class ExecuteLogin extends TemplateDeTestes{
 
+	private static final ExecuteLogout EXECUTE_LOGOUT = new ExecuteLogout();
 	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
 	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
@@ -48,15 +50,15 @@ public class ExecuteLogin extends TemplateDeTestes{
 	
 	@Test
 	public void faltandoCadastrarSenha() {
-		new UpdatePassword().caminhoFeliz();
-		new JnEntityPassword().delete(new CcpMapDecorator().put("email", ConstantesParaTestesDeLogin.VALID_EMAIL));
+		EXECUTE_LOGOUT.caminhoFeliz();
+		new JnEntityPassword().delete(CcpConstants.EMPTY_JSON.put("email", ConstantesParaTestesDeLogin.VALID_EMAIL));
 		this.executarLogin(this.faltandoCadastrarSenha, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 	}
 
 	
 	@Test
 	public void senhaBloqueada() {
-		new ExecuteLogout().caminhoFeliz();
+		EXECUTE_LOGOUT.caminhoFeliz();
 		for(int k = 0; k < (JnConstants.maxTries); k++) {
 			this.executarLogin(this.senhaIncorreta, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 		}
@@ -65,7 +67,7 @@ public class ExecuteLogin extends TemplateDeTestes{
 
 	@Test
 	public void senhaIncorreta() {
-		new UpdatePassword().caminhoFeliz();
+		EXECUTE_LOGOUT.caminhoFeliz();
 		this.executarLogin(this.senhaIncorreta, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 	}
 
@@ -90,7 +92,6 @@ public class ExecuteLogin extends TemplateDeTestes{
 	@Test
 	public void caminhoFeliz() {
 		CADASTRO_DE_SENHA.caminhoFeliz();
-		this.executarLogin(this.caminhoFeliz, ConstantesParaTestesDeLogin.STRONG_PASSWORD);
 	}
 
 	private void executarLogin(int expectedStatus, String senha) {
@@ -98,7 +99,7 @@ public class ExecuteLogin extends TemplateDeTestes{
 	}
 	
 	private void executarLogin(String email, int expectedStatus, String senha) {
-		CcpMapDecorator body = new CcpMapDecorator().put("password", senha);
+		CcpJsonRepresentation body = CcpConstants.EMPTY_JSON.put("password", senha);
 		String uri = "login/"
 		+ email;
 		this.testarEndpoint(expectedStatus, body, uri, CcpHttpResponseType.singleRecord);

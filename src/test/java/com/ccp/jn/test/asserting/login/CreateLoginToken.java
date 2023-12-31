@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VerificacaoDeStatusDaTarefaAssincrona;
 import com.jn.commons.entities.JnEntityEmailMessageSent;
@@ -12,6 +12,7 @@ import com.jn.commons.utils.JnTopic;
 
 @SuppressWarnings("unchecked")
 public class CreateLoginToken  extends TemplateDeTestes{
+	private static final ExecuteLogout EXECUTE_LOGOUT = new ExecuteLogout();
 	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
 	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
@@ -22,7 +23,7 @@ public class CreateLoginToken  extends TemplateDeTestes{
 	private final int tokenBloqueado = 403;
 	private final int senhaBloqueada = 401;
 	private final int emailInvalido = 400;
-	
+
 	@Test
 	public void emailInvalido() {
 		this.confirmarEmail(ConstantesParaTestesDeLogin.INVALID_EMAIL, this.emailInvalido);
@@ -30,6 +31,7 @@ public class CreateLoginToken  extends TemplateDeTestes{
 	
 	@Test
 	public void tokenBloqueado() {
+		this.resetAllData();
 		CADASTRO_DE_SENHA.tokenBloqueado();
 		this.confirmarEmail(this.tokenBloqueado);
 	}
@@ -43,8 +45,9 @@ public class CreateLoginToken  extends TemplateDeTestes{
 
 	@Test
 	public void faltandoCadastrarSenha() {
+		this.resetAllData();
 	
-		CcpMapDecorator json = this.confirmarEmail(this.faltandoCadastrarSenha);
+		CcpJsonRepresentation json = this.confirmarEmail(this.faltandoCadastrarSenha);
 		
 		this.verificarEnvioDoToken(json);
 	}
@@ -63,6 +66,7 @@ public class CreateLoginToken  extends TemplateDeTestes{
 
 	@Test
 	public void tokenPendenteDeDesbloqueio() {
+		this.resetAllData();
 		new RequestUnlockToken().caminhoFeliz();
 		this.confirmarEmail(this.tokenPendenteDeDesbloqueio);
 	}
@@ -70,34 +74,36 @@ public class CreateLoginToken  extends TemplateDeTestes{
 	
 	@Test
 	public void senhaDeDesbloqueioDeTokenEstaBloqueada() {
+		this.resetAllData();
 		DESBLOQUEIO_DE_TOKEN.senhaDeDesbloqueioDeTokenEstaBloqueada();
 		this.confirmarEmail(this.senhaDeDesbloqueioDeTokenEstaBloqueada);
 	}
 	
 	@Test
 	public void caminhoFeliz() {
-		new ExecuteLogout().caminhoFeliz();
+		this.resetAllData();
+		EXECUTE_LOGOUT.caminhoFeliz();
 		this.confirmarEmail(this.caminhoFeliz);
 	}
 
-	private void verificarEnvioDoToken(CcpMapDecorator json) {
+	private void verificarEnvioDoToken(CcpJsonRepresentation json) {
 		String asyncTaskId = json.getAsString("asyncTaskId");
 		assertTrue(asyncTaskId.trim().isEmpty() == false);
-		CcpMapDecorator x = ConstantesParaTestesDeLogin.TESTING_JSON.put("subjectType" ,JnTopic.sendUserToken.name());
+		CcpJsonRepresentation x = ConstantesParaTestesDeLogin.TESTING_JSON.put("subjectType" ,JnTopic.sendUserToken.name());
 		VerificacaoDeStatusDaTarefaAssincrona verificacaoDeStatusDaTarefaAssincrona = new VerificacaoDeStatusDaTarefaAssincrona();
 		verificacaoDeStatusDaTarefaAssincrona.getCaminhoFeliz(asyncTaskId, x, jsonToTest -> new JnEntityEmailMessageSent().exists(jsonToTest));
 	}
 
-	private CcpMapDecorator confirmarEmail(int expectedStatus) {
+	private CcpJsonRepresentation confirmarEmail(int expectedStatus) {
 		return this.confirmarEmail(ConstantesParaTestesDeLogin.VALID_EMAIL, expectedStatus);
 	}
 	
-	private CcpMapDecorator confirmarEmail(String email, int expectedStatus) {
+	private CcpJsonRepresentation confirmarEmail(String email, int expectedStatus) {
 		
 		String uri = "/login/"
 		+ email
 		+ "/token/language/portuguese";
-		CcpMapDecorator asSingleJson = this.testarEndpoint(uri, expectedStatus);
+		CcpJsonRepresentation asSingleJson = this.testarEndpoint(uri, expectedStatus);
 		return asSingleJson;
 	}
 

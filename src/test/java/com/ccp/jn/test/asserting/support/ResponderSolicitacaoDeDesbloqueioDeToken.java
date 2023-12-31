@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ccp.decorators.CcpMapDecorator;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.login.ConstantesParaTestesDeLogin;
 import com.ccp.jn.test.asserting.login.UnlockToken;
@@ -70,7 +70,7 @@ public class ResponderSolicitacaoDeDesbloqueioDeToken extends TemplateDeTestes {
 	
 	
 	
-	private CcpMapDecorator desbloquearToken(Long chatId, String email, Integer expectedStatus) {
+	private CcpJsonRepresentation desbloquearToken(Long chatId, String email, Integer expectedStatus) {
 		
 		String uri = "support/"
 				+ chatId
@@ -79,7 +79,7 @@ public class ResponderSolicitacaoDeDesbloqueioDeToken extends TemplateDeTestes {
 				+ email
 				+ "/unlock";
 		
-		CcpMapDecorator testarEndpoint = this.testarEndpoint(uri, expectedStatus);
+		CcpJsonRepresentation testarEndpoint = this.testarEndpoint(uri, expectedStatus);
 		return testarEndpoint;
 		
 	}
