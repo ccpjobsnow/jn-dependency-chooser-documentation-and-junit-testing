@@ -7,7 +7,7 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 
-public class ResetAllData {
+public class RecreateAllTables {
 	
 	public static void main(String[] args) {
 		CcpDependencyInjection.loadAllDependencies
@@ -23,7 +23,7 @@ public class ResetAllData {
 		String mainPath = "documentation\\database\\elasticsearch\\scripts\\";
 		String createFolder = mainPath + "create_table";
 		String insertFolder = mainPath + "insert";
-		dependency.setup("jn", createFolder, insertFolder);
+		dependency.recreateAllTables("jn", createFolder, insertFolder);
 	}
 
 }

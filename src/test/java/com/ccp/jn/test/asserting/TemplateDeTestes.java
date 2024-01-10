@@ -35,7 +35,7 @@ public abstract class TemplateDeTestes {
 		String createFolder = mainPath + "insert";
 
 		CcpDbSetupCreator dbSetup = CcpDependencyInjection.getDependency(CcpDbSetupCreator.class);
-		dbSetup.resetAllData("jn", createFolder);
+		dbSetup.reinsertAllTables("jn", createFolder);
 	}
 
 	protected abstract String getMethod();
