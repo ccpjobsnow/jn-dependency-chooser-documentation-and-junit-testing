@@ -81,7 +81,7 @@ public abstract class TemplateDeTestes {
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("request", body).put("response", md);
 		String asPrettyJson = put.asPrettyJson();
 		
-		new CcpStringDecorator("c:\\ccp\\jn\\logs\\").folder()
+		new CcpStringDecorator("c:\\rh\\jn\\logs\\").folder()
 				.createNewFolderIfNotExists(this.getClass().getSimpleName())
 				.writeInTheFile(expectedStatus + ".json", asPrettyJson);
 	}
