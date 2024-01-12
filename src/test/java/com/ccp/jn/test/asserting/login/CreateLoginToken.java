@@ -8,7 +8,7 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VerificacaoDeStatusDaTarefaAssincrona;
 import com.jn.commons.entities.JnEntityEmailMessageSent;
-import com.jn.commons.utils.JnTopic;
+import com.jn.commons.utils.JnTopics;
 
 @SuppressWarnings("unchecked")
 public class CreateLoginToken  extends TemplateDeTestes{
@@ -89,7 +89,7 @@ public class CreateLoginToken  extends TemplateDeTestes{
 	private void verificarEnvioDoToken(CcpJsonRepresentation json) {
 		String asyncTaskId = json.getAsString("asyncTaskId");
 		assertTrue(asyncTaskId.trim().isEmpty() == false);
-		CcpJsonRepresentation x = ConstantesParaTestesDeLogin.TESTING_JSON.put("subjectType" ,JnTopic.sendUserToken.name());
+		CcpJsonRepresentation x = ConstantesParaTestesDeLogin.TESTING_JSON.put("subjectType" ,JnTopics.sendUserToken.getTopicName());
 		VerificacaoDeStatusDaTarefaAssincrona verificacaoDeStatusDaTarefaAssincrona = new VerificacaoDeStatusDaTarefaAssincrona();
 		verificacaoDeStatusDaTarefaAssincrona.getCaminhoFeliz(asyncTaskId, x, jsonToTest -> new JnEntityEmailMessageSent().exists(jsonToTest));
 	}
