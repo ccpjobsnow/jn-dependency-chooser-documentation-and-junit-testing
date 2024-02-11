@@ -1,0 +1,83 @@
+package com.ccp.jn.test.pocs.json.fields.assertions;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import com.ccp.constantes.CcpConstants;
+import com.ccp.decorators.CcpJsonRepresentation;
+import com.ccp.dependency.injection.CcpDependencyInjection;
+import com.ccp.implementations.db.dao.elasticsearch.CcpElasticSearchDao;
+import com.ccp.implementations.db.setup.elasticsearch.CcpElasticSearchDbSetup;
+import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
+import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
+import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+
+public class IfTheyAreAllNumbersThenEachOneHasTheSizeThatIs {
+	{
+		CcpDependencyInjection.loadAllDependencies(new CcpGsonJsonHandler(), new CcpElasticSearchDao(),
+				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp(), new CcpElasticSearchDbSetup());		
+	}
+	
+	
+	@Test
+	public void equalsTo() {
+		int number = 5;;
+		CcpJsonRepresentation givenTheJson = CcpConstants.EMPTY_JSON
+				.put("field1", number)
+				.put("field2", number)
+
+				;
+		givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isNumberAndItIs();
+		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAll().numbersThenEachOneIs().equalsTo(5d));
+
+	}
+
+	@Test
+	public void greaterOrEqualsTo() {
+		int number = 5;;
+		CcpJsonRepresentation givenTheJson = CcpConstants.EMPTY_JSON
+				.put("field1", number)
+				.put("field2", number) 
+
+				;
+		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAll().numbersThenEachOneIs().equalsOrGreaterThan(4d));
+		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAll().numbersThenEachOneIs().equalsOrGreaterThan(5d));
+	}
+
+	@Test
+	public void lessOrEqualsTo() {
+		int number = 5;;
+		CcpJsonRepresentation givenTheJson = CcpConstants.EMPTY_JSON
+				.put("field1", number)
+				.put("field2", number) 
+
+				;
+		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAll().numbersThenEachOneIs().equalsOrLessThan(6d));
+		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAll().numbersThenEachOneIs().equalsOrLessThan(5d));
+	}
+
+	
+	@Test
+	public void greaterThan() {
+		int number = 5;;
+		CcpJsonRepresentation givenTheJson = CcpConstants.EMPTY_JSON
+				.put("field1", number)
+				.put("field2", number) 
+
+				;
+		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAll().numbersThenEachOneIs().greaterThan(4d));
+	}
+
+	@Test
+	public void lessThan() {
+		int number = 5;
+		CcpJsonRepresentation givenTheJson = CcpConstants.EMPTY_JSON
+				.put("field1", number)
+				.put("field2", 5) 
+				;
+		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAll().numbersThenEachOneIs().lessThan(6d));
+	}
+
+	
+}
