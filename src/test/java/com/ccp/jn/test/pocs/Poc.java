@@ -2,8 +2,8 @@ package com.ccp.jn.test.pocs;
 
 public class Poc {
 	public static void main(String[] args) {
-		Pessoa p = new Pessoa(11, "lala2");
-		System.out.println(p.hashCode());
+		int x = 86_400_000;
+		System.out.println(x);
 	}
 }
 record Pessoa(int idade, String nome) {
