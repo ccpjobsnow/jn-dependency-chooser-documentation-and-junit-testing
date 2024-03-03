@@ -89,7 +89,7 @@ public class CreateLoginToken  extends TemplateDeTestes{
 	private void verificarEnvioDoToken(CcpJsonRepresentation json) {
 		String asyncTaskId = json.getAsString("asyncTaskId");
 		assertTrue(asyncTaskId.trim().isEmpty() == false);
-		CcpJsonRepresentation x = ConstantesParaTestesDeLogin.TESTING_JSON.put("subjectType" ,JnTopics.sendUserToken.getTopicName());
+		CcpJsonRepresentation x = ConstantesParaTestesDeLogin.TESTING_JSON.put("subjectType" ,JnTopics.sendUserToken);
 		VerificacaoDeStatusDaTarefaAssincrona verificacaoDeStatusDaTarefaAssincrona = new VerificacaoDeStatusDaTarefaAssincrona();
 		verificacaoDeStatusDaTarefaAssincrona.getCaminhoFeliz(asyncTaskId, x, jsonToTest -> new JnEntityEmailMessageSent().exists(jsonToTest));
 	}
