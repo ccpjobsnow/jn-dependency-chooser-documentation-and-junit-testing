@@ -20,7 +20,6 @@ public class ExecuteLogout  extends TemplateDeTestes{
 	public void usuarioNaoLogado() {
 		this.caminhoFeliz();
 		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, this.usuarioNaoLogado);
-		//TODO registrar logout sem login, fazer teste tambem???
 	}
 	
 	@Test
