@@ -22,7 +22,7 @@ public class UnlockToken extends TemplateDeTestes{
 	private final int aguardandoVerificacaoDoSuporte = 202;
 	private final int senhaDigitadaIncorretamente = 401;
 	private final int usuarioNovoNoSistema = 404;
-	private final int tokenNaoBloqueado = 422;
+	private final int tokenNaoBloqueado = 423;
 	private final int emailInvalido = 400;
 
 	@Test

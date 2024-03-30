@@ -19,7 +19,7 @@ public class UpdatePassword extends TemplateDeTestes{
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenDigitadoIncorretamente = 401;
 	private final int tokenPendenteDeDesbloqueio = 420;
-	private final int senhaAvaliadaComoFraca = 422;
+	private final int senhaAvaliadaComoFraca = 423;
 	private final int usuarioNovoNoSistema = 404;
 	private final int faltandoPreRegistro = 201;
 	private final int tokenBloqueado = 403;

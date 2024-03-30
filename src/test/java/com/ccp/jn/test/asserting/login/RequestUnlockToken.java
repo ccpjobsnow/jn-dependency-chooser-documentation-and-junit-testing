@@ -15,7 +15,7 @@ public class RequestUnlockToken  extends TemplateDeTestes{
 	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
 	private final int solicitacaoDeDesbloqueioDeTokenJaFeita = 420;
 	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
-	private final int tokenNaoBloqueado = 422;///TODO token existente
+	private final int tokenNaoBloqueado = 423;///TODO token existente
 	private final int emailInvalido = 400;
 
 	@Test

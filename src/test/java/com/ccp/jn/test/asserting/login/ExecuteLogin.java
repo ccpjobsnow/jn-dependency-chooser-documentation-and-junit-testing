@@ -22,7 +22,7 @@ public class ExecuteLogin extends TemplateDeTestes{
 	private final int faltandoPreRegistro = 201;
 	private final int usuarioJaLogado = 409;
 	private final int senhaBloqueada = 429;
-	private final int senhaIncorreta = 422;
+	private final int senhaIncorreta = 423;
 	private final int tokenBloqueado = 403;
 	private final int emailInvalido = 400;
 	
