@@ -1,7 +1,6 @@
 package com.ccp.jn.test.pocs;
 
 import com.ccp.decorators.CcpFileDecorator;
-import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
@@ -24,6 +23,32 @@ public class Poc {
 	static int counter;
 	
 	public static void main(String[] args) {
+	}
+
+	static int[] getPrimos(int numero, int[] primos) {
+		return null;
+	}
+	
+	static boolean ehPrimo(int numero, int[] primos) {
+		return false;
+	}
+	
+	static int getRaizQuadradaAproximada(int memoria, int numero) {
+		
+		int resposta = memoria * memoria;
+		if(resposta == numero) {
+			return memoria;
+		}
+
+		if(resposta > numero) {
+			return memoria - 1;
+		}
+		int raizQuadradaAproximada = getRaizQuadradaAproximada(memoria + 1, numero);
+		return raizQuadradaAproximada;
+	
+	}
+	
+	static void salvarVagaDoJobsNowAntigo() {
 		CcpQueryExecutor queryExecutor = CcpDependencyInjection.getDependency(CcpQueryExecutor.class);
 		CcpDbQueryOptions queryToSearchLastUpdatedResumes = 
 				new CcpDbQueryOptions()
@@ -36,14 +61,11 @@ public class Poc {
 				resourcesNames, 
 				"10m", 
 				10000, 
-				vagas -> {
-					for (CcpJsonRepresentation vaga : vagas) {
-						String texto = vaga.getAsString("vaga").replace("\n", "").trim();
-						String completeLeft = new CcpStringDecorator("" + ++counter).text().completeLeft('0', 6);
-						file.append(completeLeft + ": " + texto);
-						System.out.println(counter);
-					}
+				vaga -> {
+					String texto = vaga.getAsString("vaga").replace("\n", "").trim();
+					String completeLeft = new CcpStringDecorator("" + ++counter).text().completeLeft('0', 6);
+					file.append(completeLeft + ": " + texto);
+					System.out.println(counter);
 				}, "vaga");
-
 	}
 }

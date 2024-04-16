@@ -14,7 +14,6 @@ public class ContarMensagensDoTelegram {
 
 	public static String transform(String palavra) {
 		String s = "";
-//		new CcpStringDecorator(line).text().stripAccents()
 		char[] charArray = new CcpStringDecorator(palavra).text().stripAccents().toUpperCase().toCharArray();
 
 		for (char c : charArray) {
@@ -24,7 +23,6 @@ public class ContarMensagensDoTelegram {
 			if (c > 'Z') {
 				continue;
 			}
-
 			s += c;
 		}
 		return s;
@@ -67,31 +65,33 @@ public class ContarMensagensDoTelegram {
 					writer.write(content.toString());
 					System.out.println("Aceitos: " + ++aceitos);
 				}
-			}}
-			new CcpStringDecorator("vagas.txt").file().readLines((lineValue, lineNumber) -> {
-				
-				String substring = lineValue.substring(8);
-				
-				if (substring.length() < 135) {
-					return;
-				}
-				
-				String hash = getHash(substring);
+			}
+			reader.close();
+		}
+		new CcpStringDecorator("vagas.txt").file().readLines((lineValue, lineNumber) -> {
 
-				if (hashes.add(hash) == false) {
-					System.out.println("Negados: " + ++negados);
-					return;
-				}
-				content.append(substring).append("\n");
-				try {
-					writer.write(content.toString());
-					content.setLength(0);
-				} catch (IOException e) {
-					throw new RuntimeException(e);
-				}
-				System.out.println("Aceitos: " + ++aceitos);
-			});
-		
+			String substring = lineValue.substring(8);
+
+			if (substring.length() < 135) {
+				return;
+			}
+
+			String hash = getHash(substring);
+
+			if (hashes.add(hash) == false) {
+				System.out.println("Negados: " + ++negados);
+				return;
+			}
+			content.append(substring).append("\n");
+			try {
+				writer.write(content.toString());
+				content.setLength(0);
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+			System.out.println("Aceitos: " + ++aceitos);
+		});
+		writer.close();
 	}
 
 	private static String getHash(String line) {
