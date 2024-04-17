@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<S:Envelope
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Header/>
+    <S:Body>
+        <ns0:getVendasResponse
+            xmlns:ns0="http://oracle.e1.bssv.JP554201/">
+            <e1MessageList/>
+            <erroCod>00000</erroCod>
+            <erroDesc>Dados retornado com sucesso</erroDesc>
+            <pedidos>
+                <NPedido>1324564</NPedido>
+                <aplicarFrete>Y</aplicarFrete>
+                <ciaPedido>00960</ciaPedido>
+                <cliente>
+                    <bairro>DA PAZ</bairro>
+                    <cep>69049107</cep>
+                    <cidade>Manaus</cidade>
+                    <cnpj>03051269000195</cnpj>
+                    <codCadastro>47518</codCadastro>
+                    <complemento></complemento>
+                    <endereco>Av Des Paulo Jacob</endereco>
+                    <estado>AMAZONAS</estado>
+                    <ibge>1302603</ibge>
+                    <ie>042240891           </ie>
+                    <im></im>
+                    <linhaEntrega>47518</linhaEntrega>
+                    <no>2</no>
+                    <nome>CCG DISTRIB DE MATERIAL DE CONSTRUCAO LT</nome>
+                    <uf>AM</uf>
+                </cliente>
+                <codFrete>CIF</codFrete>
+                <codMoeda>BRL</codMoeda>
+                <condPagto>C42</condPagto>
+                <dtEntProgramada>2024-04-03T00:00:00-03:00</dtEntProgramada>
+                <dtPedido>2024-02-19T00:00:00-03:00</dtPedido>
+                <dtRetProgramada>2024-03-07T00:00:00-03:00</dtRetProgramada>
+                <dtSolicitacao>2024-02-19T00:00:00-03:00</dtSolicitacao>
+                <insPagto>4</insPagto>
+                <item>
+                    <catCodVenda3>656</catCodVenda3>
+                    <catCodVenda4>656</catCodVenda4>
+                    <catCodeCompra></catCodeCompra>
+                    <catCodeVenda5></catCodeVenda5>
+                    <catalagoVenda>IMP</catalagoVenda>
+                    <classeMerc>50</classeMerc>
+                    <codProduto>112551</codProduto>
+                    <codStatusProx>546</codStatusProx>
+                    <codStatusUlt>540</codStatusUlt>
+                    <contraPartidaContabil>IN30</contraPartidaContabil>
+                    <descricao>VEDACIT VEDAPREN PAREDE</descricao>
+                    <descricao2>BD 18 KG</descricao2>
+                    <envioParcial>N</envioParcial>
+                    <familiaPlanejamento>VDC</familiaPlanejamento>
+                    <noItemCurto>979423</noItemCurto>
+                    <noLinha>2.000</noLinha>
+                    <qtPedidoTrans>19</qtPedidoTrans>
+                    <qtdEnviada>19</qtdEnviada>
+                    <qtde>19</qtde>
+                    <release>1324564_SZ_1</release>
+                    <reservado>S</reservado>
+                    <subClasseMerc></subClasseMerc>
+                    <subSecao>966</subSecao>
+                    <tpLinha>BS</tpLinha>
+                    <unMedidaDigitada>UN</unMedidaDigitada>
+                    <unMedidaEntrada>UN</unMedidaEntrada>
+                    <unMedidaPeso>KG</unMedidaPeso>
+                    <unMedidaVolume>M3</unMedidaVolume>
+                    <unNegocio>9600000</unNegocio>
+                    <unidade>UN</unidade>
+                    <vendaTributavel></vendaTributavel>
+                    <vlrPesoUnitario>355.3000</vlrPesoUnitario>
+                    <vlrPrecoLista>311.7400</vlrPrecoLista>
+                    <vlrPrecoTotal>3520.20</vlrPrecoTotal>
+                    <vlrPrecoUnidade>185.2739</vlrPrecoUnidade>
+                    <vlrRelease>6561.82</vlrRelease>
+                    <vlrVolumeUnitario>0.0000</vlrVolumeUnitario>
+                </item>
+                <item>
+                    <catCodVenda3>656</catCodVenda3>
+                    <catCodVenda4>656</catCodVenda4>
+                    <catCodeCompra></catCodeCompra>
+                    <catCodeVenda5></catCodeVenda5>
+                    <catalagoVenda>IMP</catalagoVenda>
+                    <classeMerc>50</classeMerc>
+                    <codProduto>121839</codProduto>
+                    <codStatusProx>546</codStatusProx>
+                    <codStatusUlt>540</codStatusUlt>
+                    <contraPartidaContabil>IN30</contraPartidaContabil>
+                    <descricao>VEDACIT ADITIVO ACELERADOR CL</descricao>
+                    <descricao2>CX 4 GL 3,6 KG</descricao2>
+                    <envioParcial>N</envioParcial>
+                    <familiaPlanejamento>VDC</familiaPlanejamento>
+                    <noItemCurto>976564</noItemCurto>
+                    <noLinha>3.000</noLinha>
+                    <qtPedidoTrans>25</qtPedidoTrans>
+                    <qtdEnviada>25</qtdEnviada>
+                    <qtde>25</qtde>
+                    <release>1324564_SZ_1</release>
+                    <reservado>S</reservado>
+                    <subClasseMerc></subClasseMerc>
+                    <subSecao>966</subSecao>
+                    <tpLinha>BS</tpLinha>
+                    <unMedidaDigitada>UN</unMedidaDigitada>
+                    <unMedidaEntrada>UN</unMedidaEntrada>
+                    <unMedidaPeso>KG</unMedidaPeso>
+                    <unMedidaVolume>M3</unMedidaVolume>
+                    <unNegocio>9600000</unNegocio>
+                    <unidade>UN</unidade>
+                    <vendaTributavel></vendaTributavel>
+                    <vlrPesoUnitario>400.0000</vlrPesoUnitario>
+                    <vlrPrecoLista>167.7500</vlrPrecoLista>
+                    <vlrPrecoTotal>3041.62</vlrPrecoTotal>
+                    <vlrPrecoUnidade>121.6647</vlrPrecoUnidade>
+                    <vlrRelease>6561.82</vlrRelease>
+                    <vlrVolumeUnitario>0.0000</vlrVolumeUnitario>
+                </item>
+                <refEnvio>
+                    <bairro>DA PAZ</bairro>
+                    <cep>69049107</cep>
+                    <cidade>Manaus</cidade>
+                    <cnpj>03051269000195</cnpj>
+                    <codCadastro>47518</codCadastro>
+                    <complemento></complemento>
+                    <endereco>Av Des Paulo Jacob</endereco>
+                    <estado>AMAZONAS</estado>
+                    <ibge>1302603</ibge>
+                    <ie>042240891           </ie>
+                    <im></im>
+                    <linhaEntrega>47518</linhaEntrega>
+                    <no>2</no>
+                    <nome>CCG DISTRIB DE MATERIAL DE CONSTRUCAO LT</nome>
+                    <uf>AM</uf>
+                </refEnvio>
+                <tipPedido>SZ</tipPedido>
+                <unNegocio>9600000</unNegocio>
+                <vlrTotPedido>34814.60</vlrTotPedido>
+            </pedidos>
+        </ns0:getVendasResponse>
+    </S:Body>
+</S:Envelope>
