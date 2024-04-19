@@ -1,5 +1,8 @@
 package com.ccp.jn.test.pocs;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
@@ -23,14 +26,31 @@ public class Poc {
 	static int counter;
 	
 	public static void main(String[] args) {
+		System.out.println("Raiz quadrada de 37 eh " + ehPrimo(37));
 	}
 
-	static int[] getPrimos(int numero, int[] primos) {
-		return null;
-	}
-	
-	static boolean ehPrimo(int numero, int[] primos) {
-		return false;
+	static boolean ehPrimo(int numero) {
+		int raizQuadradaAproximada = getRaizQuadradaAproximada(1, numero);
+		
+		List<Integer> primos = new ArrayList<>();
+		
+		for(int contador = 1; contador <= raizQuadradaAproximada; contador += 2) {
+			boolean ehPrimo = ehPrimo(contador);
+			if(ehPrimo) {
+				primos.add(contador);
+			}
+		}
+		
+		Integer[] primos2 = primos.toArray(new Integer[primos.size()]);
+		
+		for (int primo : primos2) {
+			boolean esteNumeroEhDivisor = numero % primo == 0;
+			if(esteNumeroEhDivisor) {
+				return false;
+			}
+		}
+		
+		return true;
 	}
 	
 	static int getRaizQuadradaAproximada(int memoria, int numero) {

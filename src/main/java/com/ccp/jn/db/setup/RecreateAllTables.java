@@ -1,4 +1,4 @@
-package com.ccp.vis.db.setup;
+package com.ccp.jn.db.setup;
 
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.setup.CcpDbSetupCreator;
