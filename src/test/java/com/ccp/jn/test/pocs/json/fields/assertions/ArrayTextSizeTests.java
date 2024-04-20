@@ -10,12 +10,12 @@ import org.junit.Test;
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
-import com.ccp.fields.validations.enums.ArrayTextsSizeValidations;
 import com.ccp.implementations.db.dao.elasticsearch.CcpElasticSearchDao;
 import com.ccp.implementations.db.setup.elasticsearch.CcpElasticSearchDbSetup;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.ccp.validation.enums.ArrayTextSizeValidations;
 
 public class ArrayTextSizeTests {
 	{
@@ -33,7 +33,7 @@ public class ArrayTextSizeTests {
 				;
 		
 //		assertTrue(json.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isTextAndHasSizeThatIs().equalsTo(5d));
-		assertTrue(ArrayTextsSizeValidations.equalsTo.isValidJson(json, 5d, "field1", "field2"));
+		assertTrue(ArrayTextSizeValidations.equalsTo.isValidJson(json, 5d, "field1", "field2"));
 	}
 
 	@Test
@@ -46,8 +46,8 @@ public class ArrayTextSizeTests {
 				;
 //		assertTrue(json.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isTextAndHasSizeThatIs().equalsOrGreaterThan(4d));
 //		assertTrue(json.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isTextAndHasSizeThatIs().equalsOrGreaterThan(5d));
-		assertTrue(ArrayTextsSizeValidations.equalsOrGreaterThan.isValidJson(json, 4d, "field1", "field2"));
-		assertTrue(ArrayTextsSizeValidations.equalsOrGreaterThan.isValidJson(json, 5d, "field1", "field2"));
+		assertTrue(ArrayTextSizeValidations.equalsOrGreaterThan.isValidJson(json, 4d, "field1", "field2"));
+		assertTrue(ArrayTextSizeValidations.equalsOrGreaterThan.isValidJson(json, 5d, "field1", "field2"));
 	}
 
 	@Test
@@ -60,8 +60,8 @@ public class ArrayTextSizeTests {
 				;
 //		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isTextAndHasSizeThatIs().equalsOrLessThan(6d));
 //		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isTextAndHasSizeThatIs().equalsOrLessThan(5d));
-		assertTrue(ArrayTextsSizeValidations.equalsOrLessThan.isValidJson(json, 6d, "field1", "field2"));
-		assertTrue(ArrayTextsSizeValidations.equalsOrLessThan.isValidJson(json, 5d, "field1", "field2"));
+		assertTrue(ArrayTextSizeValidations.equalsOrLessThan.isValidJson(json, 6d, "field1", "field2"));
+		assertTrue(ArrayTextSizeValidations.equalsOrLessThan.isValidJson(json, 5d, "field1", "field2"));
 	}
 
 	
@@ -74,7 +74,7 @@ public class ArrayTextSizeTests {
 
 				;
 //		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isTextAndHasSizeThatIs().greaterThan(4d));
-		assertTrue(ArrayTextsSizeValidations.greaterThan.isValidJson(json, 4.9999999d, "field1", "field2"));
+		assertTrue(ArrayTextSizeValidations.greaterThan.isValidJson(json, 4.9999999d, "field1", "field2"));
 	}
 
 	@Test
@@ -85,7 +85,7 @@ public class ArrayTextSizeTests {
 				.put("field2", Arrays.asList("onias", "saino", "teste")) 
 				;
 //		assertTrue(givenTheJson.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().isTextAndHasSizeThatIs().lessThan(6d));
-		assertTrue(ArrayTextsSizeValidations.lessThan.isValidJson(json, 6d, "field1", "field2"));
+		assertTrue(ArrayTextSizeValidations.lessThan.isValidJson(json, 6d, "field1", "field2"));
 	}
 
 	

@@ -7,12 +7,12 @@ import org.junit.Test;
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
-import com.ccp.fields.validations.enums.ObjectNumberValidations;
 import com.ccp.implementations.db.dao.elasticsearch.CcpElasticSearchDao;
 import com.ccp.implementations.db.setup.elasticsearch.CcpElasticSearchDbSetup;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.ccp.validation.enums.ObjectNumberValidations;
 
 public class ObjectNumberTests {
 	{
