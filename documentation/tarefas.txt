@@ -1,8 +1,26 @@
-1) Ajustar testes que estão dando errado
-2) Ajuste dos testes em conjunto
-3) Criar variáveis de ambiente no app engine
-4) Criar variáveis de ambiente no compute engine
-5) Fazer deploy do appengine
-6) Fazer deploy do compute engine
-7) Executar bateria de testes
-8) Primeiro TDD do VIS
+A) Template de teste
+B) Testar bulk
+C) Testar mensageria
+D) Retestar login completamente
+E) Enviar currículo que está sendo salvo para vagas aderentes
+F) Salvar erro do business lenient
+G) Salvar ocorrencia de inactive position
+H) Salvar ocorrencia de negativated resume
+I) Salvar ocorrência de denied resume
+J) Salvar ocorrencia de resume does not match
+K) Salvar ocorrencia de inactive resume
+L) Retirar hashes quando desabilitar uma entidade (position ou resume)
+M) Repensar a parte do sinônimo
+N) Notificação para recrutador quando a vaga não encontrar currículo
+O) Notificação para recrutador quando saldo for insuficiente para enviar curriculos para vaga
+P) Notificação para recrutador quando não houver saldo cadastrado
+Q) Cálculo de saldos
+R) Registro de transação comercial
+S) Upload de resume
+T) Levantamento das palavras chaves
+U) TDD completo do VIS
+V) Deploy do appengine
+W) Deploy dos consumers de fila
+X) Deploy dos cron job
+Y) Associação com novo DNS
+ 
