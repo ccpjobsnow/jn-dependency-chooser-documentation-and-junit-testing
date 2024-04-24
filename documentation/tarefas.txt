@@ -1,14 +1,11 @@
 A) Template de teste
 B) Testar bulk e mensageria
-C) Gerar lista de currículos para vaga naquele exato momento
 D) Retestar login completamente
 E) Enviar currículo que está sendo salvo para vagas aderentes
 F) Salvar erro do business lenient
 G) Salvar ocorrencia de inactive position, negativated resume, denied resume, resume does not match, inactive resume
 H) Importação de dados do jobsNow antigo
 I) Criação de massa do projeto VIS
-J) GetById da vaga e do curriculo
-K) Lista de vagas e lista de currículos por vaga
 L) Retirar hashes quando desabilitar uma entidade (position ou resume)
 M) Repensar a parte do sinônimo
 N) Notificação para recrutador quando a vaga não encontrar currículo
@@ -16,7 +13,7 @@ O) Notificação para recrutador quando saldo for insuficiente para enviar curri
 P) Notificação para recrutador quando não houver saldo cadastrado
 Q) Cálculo de saldos
 R) Registro de transação comercial
-S) Upload e download de resume
+S) Upload de resume
 T) Levantamento das palavras chaves
 U) TDD completo do VIS
 V) Deploy do appengine
