@@ -122,8 +122,7 @@ public class UpdatePassword extends TemplateDeTestes{
 
 	private String getTokenToValidateLogin() {
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("email", ConstantesParaTestesDeLogin.VALID_EMAIL);
-		JnEntityLoginToken jnEntityLoginToken = new JnEntityLoginToken();
-		CcpJsonRepresentation data = jnEntityLoginToken.getOneById(put);
+		CcpJsonRepresentation data = JnEntityLoginToken.INSTANCE.getOneById(put);
 		String token = data.getAsString("token");
 		return token;
 

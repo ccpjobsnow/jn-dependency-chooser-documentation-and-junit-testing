@@ -51,7 +51,7 @@ public class ExecuteLogin extends TemplateDeTestes{
 	@Test
 	public void faltandoCadastrarSenha() {
 		EXECUTE_LOGOUT.caminhoFeliz();
-		new JnEntityPassword().delete(CcpConstants.EMPTY_JSON.put("email", ConstantesParaTestesDeLogin.VALID_EMAIL));
+		JnEntityPassword.INSTANCE.delete(CcpConstants.EMPTY_JSON.put("email", ConstantesParaTestesDeLogin.VALID_EMAIL));
 		this.executarLogin(this.faltandoCadastrarSenha, ConstantesParaTestesDeLogin.WRONG_PASSWORD);
 	}
 

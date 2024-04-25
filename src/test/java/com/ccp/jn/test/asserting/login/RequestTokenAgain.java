@@ -49,7 +49,7 @@ public class RequestTokenAgain extends TemplateDeTestes {
 	public void caminhoFeliz() {
 		CONFIRMACAO_DE_EMAIL.caminhoFeliz();
 		this.ressolicitarToken(ConstantesParaTestesDeLogin.VALID_EMAIL, this.caminhoFeliz);
-		boolean exists = new JnEntityRequestTokenAgain().exists(ConstantesParaTestesDeLogin.TESTING_JSON);
+		boolean exists = JnEntityRequestTokenAgain.INSTANCE.exists(ConstantesParaTestesDeLogin.TESTING_JSON);
 		assertTrue(exists);
 	}
 

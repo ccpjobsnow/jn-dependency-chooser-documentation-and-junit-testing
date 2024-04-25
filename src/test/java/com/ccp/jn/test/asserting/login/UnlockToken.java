@@ -54,7 +54,7 @@ public class UnlockToken extends TemplateDeTestes{
 			this.desbloquearToken(ConstantesParaTestesDeLogin.VALID_EMAIL, ConstantesParaTestesDeLogin.WRONG_PASSWORD, this.senhaDigitadaIncorretamente);
 		}
 		this.desbloquearToken(ConstantesParaTestesDeLogin.VALID_EMAIL, ConstantesParaTestesDeLogin.WRONG_PASSWORD, this.senhaDeDesbloqueioDeTokenEstaBloqueada);
-		boolean exists = new JnEntityFailedUnlockToken().exists(ConstantesParaTestesDeLogin.TESTING_JSON);
+		boolean exists = JnEntityFailedUnlockToken.INSTANCE.exists(ConstantesParaTestesDeLogin.TESTING_JSON);
 		assertTrue(exists);
 	}
 
@@ -69,7 +69,7 @@ public class UnlockToken extends TemplateDeTestes{
 	public void caminhoFeliz() {
 		RESPONDER_SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN.caminhoFeliz();
 		
-		CcpJsonRepresentation oneById = new JnEntityRequestUnlockTokenAnswered().getOneById(ConstantesParaTestesDeLogin.TESTING_JSON);
+		CcpJsonRepresentation oneById = JnEntityRequestUnlockTokenAnswered.INSTANCE.getOneById(ConstantesParaTestesDeLogin.TESTING_JSON);
 		String senhaCorreta = oneById.getAsString("token");
 		this.desbloquearToken(ConstantesParaTestesDeLogin.VALID_EMAIL, senhaCorreta, this.caminhoFeliz);
 	}

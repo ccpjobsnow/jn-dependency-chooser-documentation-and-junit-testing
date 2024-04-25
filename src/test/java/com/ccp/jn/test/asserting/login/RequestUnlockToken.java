@@ -51,7 +51,7 @@ public class RequestUnlockToken  extends TemplateDeTestes{
 		String asyncTaskId = solicitarDesbloqueioDeToken.getAsString("asyncTaskId");
 		assertFalse(asyncTaskId.trim().isEmpty());
 		VerificacaoDeStatusDaTarefaAssincrona verificacaoDeStatusDaTarefaAssincrona = new VerificacaoDeStatusDaTarefaAssincrona();
-		verificacaoDeStatusDaTarefaAssincrona.getCaminhoFeliz(asyncTaskId, ConstantesParaTestesDeLogin.TESTING_JSON, jsonToTest -> new JnEntityRequestUnlockToken().exists(jsonToTest));
+		verificacaoDeStatusDaTarefaAssincrona.getCaminhoFeliz(asyncTaskId, ConstantesParaTestesDeLogin.TESTING_JSON, jsonToTest -> JnEntityRequestUnlockToken.INSTANCE.exists(jsonToTest));
 	}
 	
 	private CcpJsonRepresentation solicitarDesbloqueioDeToken(int expectedStatus) {

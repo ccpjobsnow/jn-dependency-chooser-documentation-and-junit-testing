@@ -77,10 +77,10 @@ public class ResponderSolicitacaoDeReenvioDeToken extends TemplateDeTestes {
 	@Test
 	public void caminhoFeliz() {
 		RESSOLICITACAO_TOKEN.caminhoFeliz();
-		boolean exists1 = new JnEntityRequestTokenAgain().exists(ConstantesParaTestesDeLogin.TESTING_JSON);
+		boolean exists1 = JnEntityRequestTokenAgain.INSTANCE.exists(ConstantesParaTestesDeLogin.TESTING_JSON);
 		assertTrue(exists1);
 		this.responderSolicitacaoDeReenvioDeToken(ConstantesParaTestesDeSuporte.USUARIO_REGISTRADO_COMO_OPERADOR_DE_SUPORTE, ConstantesParaTestesDeSuporte.VALID_EMAIL, this.caminhoFeliz);
-		boolean exists = new JnEntityRequestTokenAgainAnswered().exists(ConstantesParaTestesDeLogin.TESTING_JSON);
+		boolean exists = JnEntityRequestTokenAgainAnswered.INSTANCE.exists(ConstantesParaTestesDeLogin.TESTING_JSON);
 		assertTrue(exists);
 	}
 	

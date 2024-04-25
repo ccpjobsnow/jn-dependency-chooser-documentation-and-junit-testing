@@ -57,7 +57,7 @@ public class ResponderSolicitacaoDeDesbloqueioDeToken extends TemplateDeTestes {
 		SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN.caminhoFeliz();	
 		this.desbloquearToken(ConstantesParaTestesDeSuporte.USUARIO_REGISTRADO_COMO_OPERADOR_DE_SUPORTE, 
 				ConstantesParaTestesDeSuporte.VALID_EMAIL, this.caminhoFeliz);
-		boolean exists = new JnEntityRequestUnlockTokenAnswered().exists(ConstantesParaTestesDeLogin.TESTING_JSON);
+		boolean exists = JnEntityRequestUnlockTokenAnswered.INSTANCE.exists(ConstantesParaTestesDeLogin.TESTING_JSON);
 		assertTrue(exists);
 	}
 	

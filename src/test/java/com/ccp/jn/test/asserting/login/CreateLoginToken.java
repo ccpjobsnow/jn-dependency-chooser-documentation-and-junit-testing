@@ -91,7 +91,7 @@ public class CreateLoginToken  extends TemplateDeTestes{
 		assertTrue(asyncTaskId.trim().isEmpty() == false);
 		CcpJsonRepresentation x = ConstantesParaTestesDeLogin.TESTING_JSON.put("subjectType" ,JnTopics.sendUserToken);
 		VerificacaoDeStatusDaTarefaAssincrona verificacaoDeStatusDaTarefaAssincrona = new VerificacaoDeStatusDaTarefaAssincrona();
-		verificacaoDeStatusDaTarefaAssincrona.getCaminhoFeliz(asyncTaskId, x, jsonToTest -> new JnEntityEmailMessageSent().exists(jsonToTest));
+		verificacaoDeStatusDaTarefaAssincrona.getCaminhoFeliz(asyncTaskId, x, jsonToTest -> JnEntityEmailMessageSent.INSTANCE.exists(jsonToTest));
 	}
 
 	private CcpJsonRepresentation confirmarEmail(int expectedStatus) {
