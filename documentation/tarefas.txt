@@ -1,23 +1,30 @@
+Lembretes
 A) Template de teste
 B) Testar bulk e mensageria
-D) Retestar login completamente
-E) Enviar currículo que está sendo salvo para vagas aderentes
-F) Salvar erro do business lenient
-G) Salvar ocorrencia de inactive position, negativated resume, denied resume, resume does not match, inactive resume
-H) Importação de dados do jobsNow antigo
-I) Criação de massa do projeto VIS
-L) Retirar hashes quando desabilitar uma entidade (position ou resume)
-M) Repensar a parte do sinônimo
-N) Notificação para recrutador quando a vaga não encontrar currículo
-O) Notificação para recrutador quando saldo for insuficiente para enviar curriculos para vaga
-P) Notificação para recrutador quando não houver saldo cadastrado
-Q) Cálculo de saldos
-R) Registro de transação comercial
-S) Upload de resume
-T) Levantamento das palavras chaves
-U) TDD completo do VIS
-V) Deploy do appengine
-W) Deploy dos consumers de fila
-X) Deploy dos cron job
-Y) Associação com novo DNS
- 
+C) Retestar login completamente
+D) Salvar erro do business lenient
+E) Salvar ocorrencia de inactive position, negativated resume, denied resume, resume does not match, inactive resume
+F) Desabilitar uma entidade (position ou resume)
+G) Repensar a parte do sinônimo
+H) Notificações para recrutadores e candidatos
+I) Upload de resume
+
+Passos pra colocar o deploy sem LN:
+A) Reteste completo do login;
+B) Completar as tarefas coadjuvantes do VIS;
+C) Elencar as 2 mil palavras e suas relações entre si;
+D) Testes do VIS de ponta a ponta;
+E) Integrar front e back;
+F) Migrar dados do JobsNow legado;
+G) Deploy dos endpoints, cron Jobs e consumidores de fila;
+H) Comunicar oficialmente candidatos e recrutadores;
+
+Passos pra colocar o deploy com LN:
+A) Preparar infra estrutura de LN;
+B) Implementar funcionalidades de LN;
+C) Testar funcionalidades de LN;
+D) Preparar funcionalidade de "amostra gratis" para recrutadores;
+E) Testar  funcionalidade de "amostra gratis" para recrutadores;
+F) Contratar o advogado tributarista;
+G) Implementar conselhos do advogado tributarista;
+H) Avisar candidatos sobre a possibilidade de ganhar dinheiro;
