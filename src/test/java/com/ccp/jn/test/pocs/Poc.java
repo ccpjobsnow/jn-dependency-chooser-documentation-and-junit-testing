@@ -26,7 +26,17 @@ public class Poc {
 	static int counter;
 	
 	public static void main(String[] args) {
-		System.out.println("Raiz quadrada de 37 eh " + ehPrimo(37));
+	
+		String cleaned = 
+		new CcpStringDecorator("Vaga para Executivo de vendas Externas TI em Ribeirão Preto - SP! <br>Acesse nosso site e faça seu cadastro: <a href=\"https://jobs.recrutei.com.br/IntegraRH/vacancy/4991-executivo-de-vendas-externas-software\">https://jobs.recrutei.com.br/IntegraRH/vacancy/4991-executivo-de-vendas-externas-software</a>\r\n"
+				+ ""
+				)
+		.text()
+		.removePieces("<", ">")
+		.replace("http", " http")
+		.removePieces(str -> str.toUpperCase().startsWith("HTTP"), " ")
+		.content;
+		System.out.println(cleaned);
 	}
 
 	static boolean ehPrimo(int numero) {
@@ -83,7 +93,7 @@ public class Poc {
 				10000, 
 				vaga -> {
 					String texto = vaga.getAsString("vaga").replace("\n", "").trim();
-					String completeLeft = new CcpStringDecorator("" + ++counter).text().completeLeft('0', 6);
+					String completeLeft = new CcpStringDecorator("" + ++counter).text().completeLeft('0', 6).content;
 					file.append(completeLeft + ": " + texto);
 					System.out.println(counter);
 				}, "vaga");

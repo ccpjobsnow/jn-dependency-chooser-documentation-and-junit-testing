@@ -8,6 +8,7 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VerificacaoDeStatusDaTarefaAssincrona;
 import com.jn.commons.entities.JnEntityEmailMessageSent;
+import com.jn.commons.entities.JnEntityLoginToken;
 import com.jn.commons.utils.JnAsyncBusiness;
 
 @SuppressWarnings("unchecked")
@@ -82,6 +83,7 @@ public class CreateLoginToken  extends TemplateDeTestes{
 	@Test
 	public void caminhoFeliz() {
 		this.resetAllData();
+		JnEntityLoginToken.INSTANCE.create(CcpJsonRepresentation.getEmptyJson().put("email", "devs.jobsnow@gmail.com").put("token", "ABCDEFGH"));
 		EXECUTE_LOGOUT.caminhoFeliz();
 		this.confirmarEmail(this.caminhoFeliz);
 	}

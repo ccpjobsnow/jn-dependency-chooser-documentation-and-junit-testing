@@ -34,7 +34,7 @@ public class PocHashPerformance {
 		String str = "ABCDEFGHIJKLMNOPQRSTUVWXZ01234567890!@#$%&*()_+=";
 		
 		CcpStringDecorator csd = new CcpStringDecorator(str);
-		String generateToken = csd.text().generateToken(50);
+		String generateToken = csd.text().generateToken(50).content;
 		
 		CcpHashDecorator hash = new CcpStringDecorator(generateToken).hash();
 
