@@ -1,6 +1,6 @@
 {
-	"email": "onias@ccpjobsnow.com",
-	"sender": "onias@ccpjobsnow.com",
+	"email": "devs.jobsnow@gmail.com",
+	"sender": "devs.jobsnow@gmail.com",
 	"subjectType": "requestUnlockToken",
 	"templateId": "requestUnlockToken",
 	"moreParameters": {

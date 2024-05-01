@@ -1,7 +1,9 @@
 package com.ccp.jn.test.pocs;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpStringDecorator;
@@ -26,17 +28,35 @@ public class Poc {
 	static int counter;
 	
 	public static void main(String[] args) {
-	
-		String cleaned = 
-		new CcpStringDecorator("Vaga para Executivo de vendas Externas TI em Ribeirão Preto - SP! <br>Acesse nosso site e faça seu cadastro: <a href=\"https://jobs.recrutei.com.br/IntegraRH/vacancy/4991-executivo-de-vendas-externas-software\">https://jobs.recrutei.com.br/IntegraRH/vacancy/4991-executivo-de-vendas-externas-software</a>\r\n"
-				+ ""
-				)
-		.text()
-		.removePieces("<", ">")
-		.replace("http", " http")
-		.removePieces(str -> str.toUpperCase().startsWith("HTTP"), " ")
-		.content;
-		System.out.println(cleaned);
+
+		Set<Integer> numeros = new HashSet<>();
+		outer:while(numeros.size() < 100) {
+			int numero = (int)(Math.random() * 1_000_000);
+			for (Integer outroNumero : numeros) {
+				
+				if(numero % outroNumero == 0) {
+					continue outer;
+				}
+				
+				if(outroNumero % numero == 0) {
+					continue outer;
+				}
+				
+				if(numero < 10) {
+					continue outer;
+				}
+				
+			}
+			
+			numeros.add(numero);
+		}
+		
+		CcpFileDecorator arquivo = new CcpStringDecorator("ivan.txt").file().reset();
+		
+		for (Integer numero : numeros) {
+			arquivo.append("" + numero);
+		}
+		
 	}
 
 	static boolean ehPrimo(int numero) {
