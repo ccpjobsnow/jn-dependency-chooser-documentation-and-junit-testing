@@ -6,7 +6,7 @@
 			"email": {
 				"type": "keyword"
 			},
-			"tries": {
+			"attempts": {
 				"type": "integer"
 			}
 		}

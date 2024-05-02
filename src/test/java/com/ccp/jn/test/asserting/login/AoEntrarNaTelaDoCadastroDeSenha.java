@@ -10,27 +10,27 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends TemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.criarTokenDeLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, CreateLoginToken.emailInvalido);
+		this.criarTokenDeLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, CreateLoginToken.invalidEmail);
 	}
 	
 	@Test
 	public void tokenBloqueado() {
-		this.criarTokenDeLogin(CreateLoginToken.tokenBloqueado);
+		this.criarTokenDeLogin(CreateLoginToken.lockedToken);
 	}
 	
 	@Test
 	public void tokenFaltando() {
-		this.criarTokenDeLogin(CreateLoginToken.tokenFaltando);
+		this.criarTokenDeLogin(CreateLoginToken.missingEmail);
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
-		this.criarTokenDeLogin(CreateLoginToken.faltandoPreRegistration);
+		this.criarTokenDeLogin(CreateLoginToken.missingAnswers);
 	}
 	
 	@Test
 	public void caminhoFeliz() {
-		this.criarTokenDeLogin(CreateLoginToken.caminhoFeliz);
+		this.criarTokenDeLogin(CreateLoginToken.expectedStatus);
 	}
 	
 	private void criarTokenDeLogin(EndpointsLogin expectedStatus) {

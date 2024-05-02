@@ -9,17 +9,17 @@ public class TelaDeLogout extends TemplateDeTestes {
 
 	@Test
 	public void emailInvalido() {
-		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.INVALID_EMAIL, ExecuteLogout.emailInvalido);
+		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.INVALID_EMAIL, ExecuteLogout.invalidEmail);
 	}
 
 	@Test
 	public void usuarioNaoLogado() {
-		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, ExecuteLogout.usuarioNaoLogado);
+		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, ExecuteLogout.missingLogin);
 	}
 
 	@Test
 	public void caminhoFeliz() {
-		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, ExecuteLogout.caminhoFeliz);
+		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, ExecuteLogout.expectedStatus);
 	}
 
 	@Override

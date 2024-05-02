@@ -13,12 +13,12 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.INVALID_EMAIL, SavePreRegistration.emailInvalido);
+		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.INVALID_EMAIL, SavePreRegistration.invalidEmail);
 	}
 
 	@Test
 	public void tokenBloqueado() {
-		this.cadastrarPreRegistration(SavePreRegistration.tokenBloqueado);
+		this.cadastrarPreRegistration(SavePreRegistration.lockedToken);
 	}
 
 	@Test
@@ -28,22 +28,22 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 
 	@Test
 	public void usuarioJaLogado() {
-		this.cadastrarPreRegistration(SavePreRegistration.usuarioJaLogado);
+		this.cadastrarPreRegistration(SavePreRegistration.loginConflict);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
-		this.cadastrarPreRegistration(SavePreRegistration.faltandoCadastrarSenha);
+		this.cadastrarPreRegistration(SavePreRegistration.missingPassword);
 	}
 
 	@Test
 	public void senhaBloqueada() {
-		this.cadastrarPreRegistration(SavePreRegistration.senhaBloqueada);
+		this.cadastrarPreRegistration(SavePreRegistration.lockedPassword);
 	}
 
 	@Test
 	public void caminhoFeliz() {
-		this.cadastrarPreRegistration(SavePreRegistration.caminhoFeliz);
+		this.cadastrarPreRegistration(SavePreRegistration.expectedStatus);
 	}
 
 	public void cadastrarPreRegistration(EndpointsLogin expectedStatus) {

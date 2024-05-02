@@ -10,42 +10,42 @@ public class TelaQuePedeEmail extends TemplateDeTestes{
 	
 	@Test
 	public void emailInvalido() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.emailInvalido, ConstantesParaTestesDeLogin.INVALID_EMAIL);
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.invalidEmail, ConstantesParaTestesDeLogin.INVALID_EMAIL);
 	}
 	
 	@Test
 	public void tokenBloqueado() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.tokenBloqueado);
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.lockedToken);
 	}
 	
 	@Test
 	public void tokenFaltando() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.tokenFaltando);		
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.missingEmail);		
 	}
 	
 	@Test
 	public void senhaBloqueada() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.senhaBloqueada);		
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.lockedPassword);		
 	}
 	
 	@Test
 	public void usuarioJaLogado() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.usuarioJaLogado);		
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.loginConflict);		
 	}
 	
 	@Test
 	public void faltandoCadastrarSenha() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.faltandoCadastrarSenha);		
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.missingPassword);		
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.faltandoPreRegistration);		
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.missingAnswers);		
 	}
 	
 	@Test
 	public void caminhoFeliz() {
-		this.verificarExistenciaDeEmail(ExistsLoginEmail.caminhoFeliz);		
+		this.verificarExistenciaDeEmail(ExistsLoginEmail.expectedStatus);		
 	}
 	
 	

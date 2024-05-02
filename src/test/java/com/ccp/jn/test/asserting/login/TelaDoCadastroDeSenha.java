@@ -14,38 +14,38 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		String tokenCorreto = "";
-		this.cadastrarSenha(ConstantesParaTestesDeLogin.INVALID_EMAIL, tokenCorreto, UpdatePassword.emailInvalido);
+		String token = this.getTokenToValidateLogin();
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.INVALID_EMAIL, token, UpdatePassword.invalidEmail);
 	}
 
 	@Test
 	public void tokenBloqueado() {
-		String token = "";
-		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.tokenBloqueado);
+		String token = this.getTokenToValidateLogin();
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.lockedToken);
 	}
 
 	@Test
 	public void tokenFaltando() {
-		String token = "";
-		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.tokenFaltando);
+		String token = this.getTokenToValidateLogin();
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.missingToken);
 	}
 
 	@Test
 	public void caminhoFeliz() {
-		String token = "";
-		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.caminhoFeliz);
+		String token = this.getTokenToValidateLogin();
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.expectedStatus);
 	}
 
 	@Test
 	public void tokenDigitadoIncorretamente() {
-		String token = "";
-		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.tokenDigitadoIncorretamente);
+		String token = this.getTokenToValidateLogin();
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.wrongToken);
 	}
 
 	@Test
 	public void tokenRecemBloqueado() {
-		String token = "";
-		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.tokenRecemBloqueado);
+		String token = this.getTokenToValidateLogin();
+		this.cadastrarSenha(ConstantesParaTestesDeLogin.VALID_EMAIL, token, UpdatePassword.tokenLockedRecently);
 	}
 
 	private void cadastrarSenha(String email, String tokenToValidateLogin, EndpointsLogin expectedStatus) {
@@ -58,8 +58,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	}
 
 	private String getTokenToValidateLogin() {
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("email", ConstantesParaTestesDeLogin.VALID_EMAIL);
-		CcpJsonRepresentation data = JnEntityLoginToken.INSTANCE.getOneById(put);
+		CcpJsonRepresentation data = JnEntityLoginToken.INSTANCE.getOneById(ConstantesParaTestesDeLogin.TESTING_JSON);
 		String token = data.getAsString("token");
 		return token;
 

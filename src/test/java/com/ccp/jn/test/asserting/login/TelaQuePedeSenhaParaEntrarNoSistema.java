@@ -14,49 +14,49 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 	@Test
 	public void emailInvalido() {
 		String senha = "";
-		this.executarLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, senha , ExecuteLogin.emailInvalido);
+		this.executarLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, senha , ExecuteLogin.invalidEmail);
 	}
 
 	@Test
 	public void tokenBloqueado() {
 		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.tokenBloqueado);
+		this.executarLogin(senha , ExecuteLogin.lockedToken);
 	}
 
 	@Test
 	public void tokenFaltando() {
 		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.tokenFaltando);
+		this.executarLogin(senha , ExecuteLogin.missingEmail);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
 		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.faltandoCadastrarSenha);
+		this.executarLogin(senha , ExecuteLogin.missingPassword);
 	}
 
 	@Test
 	public void senhaBloqueada() {
 		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.senhaBloqueada);
+		this.executarLogin(senha , ExecuteLogin.lockedPassword);
 	}
 
 	@Test
 	public void usuarioJaLogado() {
 		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.usuarioJaLogado);
+		this.executarLogin(senha , ExecuteLogin.loginConflict);
 	}
 
 	@Test
 	public void senhaIncorreta() {
 		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.senhaDigitadaIncorretamente);
+		this.executarLogin(senha , ExecuteLogin.wrongPassword);
 	}
 
 	@Test
 	public void caminhoFeliz() {
 		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.caminhoFeliz);
+		this.executarLogin(senha , ExecuteLogin.expectedStatus);
 	}
 
 	private void executarLogin(String senha, EndpointsLogin expectedStatus) {
