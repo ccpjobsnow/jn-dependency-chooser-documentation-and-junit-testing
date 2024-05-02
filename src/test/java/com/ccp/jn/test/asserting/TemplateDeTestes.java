@@ -15,6 +15,7 @@ import com.ccp.implementations.db.setup.elasticsearch.CcpElasticSearchDbSetup;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.ccp.process.CcpProcessStatus;
 
 public abstract class TemplateDeTestes {
 	protected final String ENDPOINT_URL = "http://localhost:8080/";
@@ -44,34 +45,29 @@ public abstract class TemplateDeTestes {
 		return CcpConstants.EMPTY_JSON;
 	}
 
-	protected CcpJsonRepresentation getCaminhoFeliz(String uri) {
-		CcpJsonRepresentation testarEndpoint = this.testarEndpoint(this.caminhoFeliz, CcpConstants.EMPTY_JSON, uri,
-				CcpHttpResponseType.singleRecord);
-		return testarEndpoint;
-	}
-
-	protected CcpJsonRepresentation testarEndpoint(String uri, Integer expectedStatus) {
+	protected CcpJsonRepresentation testarEndpoint(String uri, CcpProcessStatus expectedStatus) {
 		CcpJsonRepresentation testarEndpoint = this.testarEndpoint(expectedStatus, CcpConstants.EMPTY_JSON, uri,
 				CcpHttpResponseType.singleRecord);
 		return testarEndpoint;
 	}
 
-	protected <V> V testarEndpoint(Integer expectedStatus, CcpJsonRepresentation body, String uri,
+	protected <V> V testarEndpoint(CcpProcessStatus status, CcpJsonRepresentation body, String uri,
 			CcpHttpResponseTransform<V> transformer) {
 
 		String method = this.getMethod();
 		CcpJsonRepresentation headers = this.getHeaders();
 
-		CcpHttpHandler http = new CcpHttpHandler(expectedStatus);
+		int responseStatus = status.status();
+		CcpHttpHandler http = new CcpHttpHandler(responseStatus);
 		String path = this.ENDPOINT_URL + uri;
 		V executeHttpRequest = http.executeHttpRequest(this.getClass().getName(), path, method, headers, body, transformer);
 
-		this.logRequestAndResponse(expectedStatus, body, executeHttpRequest);
+		this.logRequestAndResponse(status, body, executeHttpRequest);
 
 		return executeHttpRequest;
 	}
 
-	private <V> void logRequestAndResponse(Integer expectedStatus, CcpJsonRepresentation body, V executeHttpRequest) {
+	private <V> void logRequestAndResponse(CcpProcessStatus status, CcpJsonRepresentation body, V executeHttpRequest) {
 		
 		CcpJsonRepresentation md = CcpConstants.EMPTY_JSON.put("x", executeHttpRequest);
 		
@@ -83,7 +79,7 @@ public abstract class TemplateDeTestes {
 		
 		new CcpStringDecorator("c:\\rh\\jn\\logs\\").folder()
 				.createNewFolderIfNotExists(this.getClass().getSimpleName())
-				.writeInTheFile(expectedStatus + ".json", asPrettyJson);
+				.writeInTheFile(status + ".json", asPrettyJson);
 	}
 
 }
