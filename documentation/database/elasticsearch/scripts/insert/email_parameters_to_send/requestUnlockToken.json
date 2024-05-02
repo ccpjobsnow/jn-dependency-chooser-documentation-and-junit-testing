@@ -1,9 +1,0 @@
-{
-	"email": "devs.jobsnow@gmail.com",
-	"sender": "devs.jobsnow@gmail.com",
-	"subjectType": "requestUnlockToken",
-	"templateId": "requestUnlockToken",
-	"moreParameters": {
-		"accessLink": "https://ccpjobsnow.com/#/tokenToSetPassword?email={email}&msgType=info&msgValue=newUser&token={token}"
-	}
-}

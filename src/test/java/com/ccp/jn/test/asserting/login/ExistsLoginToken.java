@@ -6,9 +6,6 @@ import com.ccp.jn.test.asserting.TemplateDeTestes;
 
 public class ExistsLoginToken extends TemplateDeTestes{
 
-	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
-	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
-	private final int tokenPendenteDeDesbloqueio = 420;
 	private final int faltandoCadastrarSenha = 202;
 	private final int usuarioNovoNoSistema = 404;
 	private final int faltandoPreRegistro = 201;
@@ -57,17 +54,6 @@ public class ExistsLoginToken extends TemplateDeTestes{
 		this.verificarExistenciaDeEmail(this.usuarioJaLogado);
 	}
 	
-	@Test
-	public void tokenPendenteDeDesbloqueio() {
-		new RequestUnlockToken().caminhoFeliz();
-		this.verificarExistenciaDeEmail(this.tokenPendenteDeDesbloqueio);
-	}
-	
-	@Test
-	public void senhaDeDesbloqueioDeTokenEstaBloqueada() {
-		DESBLOQUEIO_DE_TOKEN.senhaDeDesbloqueioDeTokenEstaBloqueada();
-		this.verificarExistenciaDeEmail(this.senhaDeDesbloqueioDeTokenEstaBloqueada);
-	}
 	
 	@Test
 	public void caminhoFeliz() {

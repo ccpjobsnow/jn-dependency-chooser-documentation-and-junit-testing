@@ -1,11 +1,16 @@
 package com.ccp.jn.test.pocs;
 
+import java.io.File;
+import java.lang.reflect.Constructor;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.ccp.decorators.CcpCollectionDecorator;
 import com.ccp.decorators.CcpFileDecorator;
+import com.ccp.decorators.CcpFolderDecorator;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
@@ -16,6 +21,7 @@ import com.ccp.implementations.db.setup.elasticsearch.CcpElasticSearchDbSetup;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.jn.commons.entities.base.JnBaseEntity;
 
 public class Poc {
 	static{
@@ -27,10 +33,45 @@ public class Poc {
 	}
 	static int counter;
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
+		CcpFolderDecorator folderJava = new CcpStringDecorator("C:\\eclipse-workspaces\\ccp\\jn\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities").folder();
+		Collection<Object> java = new ArrayList<>();
+		folderJava.readFiles(x -> {
+			String name = new File(x.content).getName();
+			if("base".equals(name)) {
+				return;
+			}
+			String replace = name.replace(".base", "").replace(".java", "");
+			String className = "com.jn.commons.entities." + replace;
+			Constructor<JnBaseEntity> declaredConstructor;
+			try {
+				declaredConstructor = (Constructor<JnBaseEntity>) Class.forName(className).getDeclaredConstructor();
+				declaredConstructor.setAccessible(true);
+				JnBaseEntity newInstance = declaredConstructor.newInstance();
+				String entityName = newInstance.getEntityName();
+				java.add(entityName);
+			} catch (Exception e) {
+				throw new RuntimeException(e);
+			}
+		});
+		Collection<Object> elastic = new ArrayList<>();
+		CcpFolderDecorator folderElastic = new CcpStringDecorator("C:\\eclipse-workspaces\\ccp\\jn\\jn-dependency-chooser-documentation-and-junit-testing\\documentation\\database\\elasticsearch\\scripts\\create_table").folder();
+		folderElastic.readFiles(x -> {
+			String entityName = new File(x.content).getName();
+			elastic.add(entityName);
+		});
+		
+		
+		List<Object> estaNoJavaMasNaoEstaNoElastic = new CcpCollectionDecorator(java).getExclusiveList(elastic);
+		List<Object> estaNoElasticMasNaoEstaNoJava = new CcpCollectionDecorator(elastic).getExclusiveList(java);
+		System.out.println(estaNoJavaMasNaoEstaNoElastic);
+		System.out.println(estaNoElasticMasNaoEstaNoJava);
+	}
 
+	static void levantarNumerosParaFatoracao(int limite, String pessoa) {
 		Set<Integer> numeros = new HashSet<>();
-		outer:while(numeros.size() < 100) {
+		outer:while(numeros.size() < limite) {
 			int numero = (int)(Math.random() * 1_000_000);
 			for (Integer outroNumero : numeros) {
 				
@@ -45,18 +86,14 @@ public class Poc {
 				if(numero < 10) {
 					continue outer;
 				}
-				
 			}
-			
 			numeros.add(numero);
 		}
-		
-		CcpFileDecorator arquivo = new CcpStringDecorator("ivan.txt").file().reset();
+		CcpFileDecorator arquivo = new CcpStringDecorator(pessoa + ".txt").file().reset();
 		
 		for (Integer numero : numeros) {
 			arquivo.append("" + numero);
 		}
-		
 	}
 
 	static boolean ehPrimo(int numero) {

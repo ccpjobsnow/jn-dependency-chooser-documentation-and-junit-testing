@@ -11,14 +11,10 @@ import com.jn.commons.utils.JnConstants;
 
 public class UpdatePassword extends TemplateDeTestes{
 
-	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
-	private static final RequestUnlockToken SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN = new RequestUnlockToken();
 //	private static final DesbloqueioDeToken DESBLOQUEIO_DE_TOKEN = new DesbloqueioDeToken();
 	private static final CreateLoginToken CONFIRMACAO_DE_EMAIL = new CreateLoginToken();
 	private static final SavePreRegistration PRE_REGISTRO = new SavePreRegistration();
-	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
 	private final int tokenDigitadoIncorretamente = 401;
-	private final int tokenPendenteDeDesbloqueio = 420;
 	private final int senhaAvaliadaComoFraca = 423;
 	private final int usuarioNovoNoSistema = 404;
 	private final int faltandoPreRegistro = 201;
@@ -64,19 +60,6 @@ public class UpdatePassword extends TemplateDeTestes{
 	}
 	
 	@Test
-	public void tokenPendenteDeDesbloqueio() {
-		SOLICITACAO_DE_DESBLOQUEIO_DE_TOKEN.caminhoFeliz();
-		this.cadastrarSenhaFracaComTokenIncorreto(this.tokenPendenteDeDesbloqueio );
-	}
-
-	@Test
-	public void senhaDeDesbloqueioDeTokenEstaBloqueada() {
-		DESBLOQUEIO_DE_TOKEN.senhaDeDesbloqueioDeTokenEstaBloqueada();
-		this.cadastrarSenhaFracaComTokenIncorreto(this.senhaDeDesbloqueioDeTokenEstaBloqueada);
-		
-	}
-
-	@Test
 	public void caminhoFeliz() {
 		CONFIRMACAO_DE_EMAIL.faltandoCadastrarSenha();
 		String tokenToValidateLogin = this.getTokenToValidateLogin();
@@ -93,10 +76,6 @@ public class UpdatePassword extends TemplateDeTestes{
 		this.cadastrarSenhaForteComTokenCorreto(tokenToValidateLogin, this.faltandoPreRegistro);
 	}
 
-	private void cadastrarSenhaFracaComTokenIncorreto(int expectedStatus) {
-		this.cadastrarSenha(ConstantesParaTestesDeLogin.INCORRECT_TOKEN_TO_SAVE_PASSWORD, ConstantesParaTestesDeLogin.WEAK_PASSWORD,
-				expectedStatus);
-	}
 	private void cadastrarSenhaFracaComTokenCorreto(String tokenToValidateLogin, int expectedStatus) {
 		this.cadastrarSenha(tokenToValidateLogin, ConstantesParaTestesDeLogin.WEAK_PASSWORD,
 				expectedStatus);

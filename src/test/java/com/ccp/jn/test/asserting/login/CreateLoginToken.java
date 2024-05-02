@@ -14,10 +14,7 @@ import com.jn.commons.utils.JnAsyncBusiness;
 @SuppressWarnings("unchecked")
 public class CreateLoginToken  extends TemplateDeTestes{
 	private static final ExecuteLogout EXECUTE_LOGOUT = new ExecuteLogout();
-	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
 	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
-	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
-	private final int tokenPendenteDeDesbloqueio = 420;
 	private final int faltandoCadastrarSenha = 202;
 	private final int faltandoPreRegistro = 201;
 	private final int usuarioJaLogado = 409;
@@ -65,21 +62,6 @@ public class CreateLoginToken  extends TemplateDeTestes{
 		this.confirmarEmail(this.usuarioJaLogado);
 	}
 
-	@Test
-	public void tokenPendenteDeDesbloqueio() {
-		this.resetAllData();
-		new RequestUnlockToken().caminhoFeliz();
-		this.confirmarEmail(this.tokenPendenteDeDesbloqueio);
-	}
-
-	
-	@Test
-	public void senhaDeDesbloqueioDeTokenEstaBloqueada() {
-		this.resetAllData();
-		DESBLOQUEIO_DE_TOKEN.senhaDeDesbloqueioDeTokenEstaBloqueada();
-		this.confirmarEmail(this.senhaDeDesbloqueioDeTokenEstaBloqueada);
-	}
-	
 	@Test
 	public void caminhoFeliz() {
 		this.resetAllData();

@@ -12,10 +12,7 @@ import com.jn.commons.utils.JnConstants;
 public class ExecuteLogin extends TemplateDeTestes{
 
 	private static final ExecuteLogout EXECUTE_LOGOUT = new ExecuteLogout();
-	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
 	private static final UpdatePassword CADASTRO_DE_SENHA = new UpdatePassword();
-	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
-	private final int tokenPendenteDeDesbloqueio = 420;
 
 	private final int faltandoCadastrarSenha = 202;
 	private final int usuarioNovoNoSistema = 404;
@@ -76,17 +73,6 @@ public class ExecuteLogin extends TemplateDeTestes{
 	public void usuarioJaLogado() {
 		this.caminhoFeliz();
 		this.executarLogin(this.usuarioJaLogado, ConstantesParaTestesDeLogin.STRONG_PASSWORD);
-	}
-	@Test
-	public void tokenPendenteDeDesbloqueio() {
-		new RequestUnlockToken().caminhoFeliz();
-		this.executarLogin(this.tokenPendenteDeDesbloqueio, ConstantesParaTestesDeLogin.STRONG_PASSWORD);
-	}
-	
-	@Test
-	public void senhaDeDesbloqueioDeTokenEstaBloqueada() {
-		DESBLOQUEIO_DE_TOKEN.senhaDeDesbloqueioDeTokenEstaBloqueada();
-		this.executarLogin(this.senhaDeDesbloqueioDeTokenEstaBloqueada, ConstantesParaTestesDeLogin.STRONG_PASSWORD);
 	}
 
 	@Test

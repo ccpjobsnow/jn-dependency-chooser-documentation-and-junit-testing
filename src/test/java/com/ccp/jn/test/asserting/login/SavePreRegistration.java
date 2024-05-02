@@ -8,9 +8,6 @@ import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 
 public class SavePreRegistration  extends TemplateDeTestes{
-	private static final UnlockToken DESBLOQUEIO_DE_TOKEN = new UnlockToken();
-	private final int senhaDeDesbloqueioDeTokenEstaBloqueada = 421;
-	private final int tokenPendenteDeDesbloqueio = 420;
 	private final int faltandoCadastrarSenha = 202;
 	private final int usuarioNovoNoSistema = 404;
 	private final int usuarioJaLogado = 409;
@@ -53,17 +50,6 @@ public class SavePreRegistration  extends TemplateDeTestes{
 		this.cadastrarPreRegistration(this.usuarioJaLogado);
 	}
 	
-	@Test
-	public void tokenPendenteDeDesbloqueio() {
-		new RequestUnlockToken().caminhoFeliz();
-		this.cadastrarPreRegistration(this.tokenPendenteDeDesbloqueio);
-	}
-	
-	@Test
-	public void senhaDeDesbloqueioDeTokenEstaBloqueada() {
-		DESBLOQUEIO_DE_TOKEN.senhaDeDesbloqueioDeTokenEstaBloqueada();
-		this.cadastrarPreRegistration(this.senhaDeDesbloqueioDeTokenEstaBloqueada);
-	}
 	
 	@Test
 	public void caminhoFeliz() {
