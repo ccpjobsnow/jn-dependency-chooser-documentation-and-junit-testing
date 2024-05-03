@@ -8,6 +8,12 @@ import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.EndpointsLogin;
 import com.ccp.jn.sync.status.login.SavePreRegistration;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
+import com.jn.commons.entities.JnEntityLockedPassword;
+import com.jn.commons.entities.JnEntityLockedToken;
+import com.jn.commons.entities.JnEntityLogin;
+import com.jn.commons.entities.JnEntityLoginEmail;
+import com.jn.commons.entities.JnEntityPassword;
+import com.jn.commons.entities.JnEntityPreRegistration;
 
 public class TelaDoPreRegistro  extends TemplateDeTestes{
 
@@ -18,6 +24,7 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 
 	@Test
 	public void tokenBloqueado() {
+		JnEntityLockedToken.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
 		this.cadastrarPreRegistration(SavePreRegistration.lockedToken);
 	}
 
@@ -28,25 +35,31 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 
 	@Test
 	public void usuarioJaLogado() {
+		JnEntityLogin.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
 		this.cadastrarPreRegistration(SavePreRegistration.loginConflict);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
+		JnEntityPreRegistration.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
 		this.cadastrarPreRegistration(SavePreRegistration.missingPassword);
 	}
 
 	@Test
 	public void senhaBloqueada() {
+		JnEntityLockedPassword.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
 		this.cadastrarPreRegistration(SavePreRegistration.lockedPassword);
 	}
 
 	@Test
 	public void caminhoFeliz() {
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		JnEntityPreRegistration.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
 		this.cadastrarPreRegistration(SavePreRegistration.expectedStatus);
 	}
 
-	public void cadastrarPreRegistration(EndpointsLogin expectedStatus) {
+	private void cadastrarPreRegistration(EndpointsLogin expectedStatus) {
 		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.VALID_EMAIL, expectedStatus);
 	}
 	

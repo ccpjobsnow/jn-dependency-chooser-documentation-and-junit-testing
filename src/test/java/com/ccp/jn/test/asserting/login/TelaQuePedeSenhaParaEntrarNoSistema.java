@@ -7,59 +7,72 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.EndpointsLogin;
 import com.ccp.jn.sync.status.login.ExecuteLogin;
+import com.ccp.jn.sync.status.login.UpdatePassword;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
+import com.jn.commons.entities.JnEntityLockedPassword;
+import com.jn.commons.entities.JnEntityLockedToken;
+import com.jn.commons.entities.JnEntityLogin;
+import com.jn.commons.entities.JnEntityLoginEmail;
+import com.jn.commons.entities.JnEntityPassword;
+import com.jn.commons.entities.JnEntityPreRegistration;
 
 public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		String senha = "";
-		this.executarLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, senha , ExecuteLogin.invalidEmail);
+		this.executarLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, ConstantesParaTestesDeLogin.STRONG_PASSWORD, ExecuteLogin.invalidEmail);
 	}
 
 	@Test
 	public void tokenBloqueado() {
-		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.lockedToken);
+		JnEntityLockedToken.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		this.executarLogin(ConstantesParaTestesDeLogin.STRONG_PASSWORD , ExecuteLogin.lockedToken);
 	}
 
 	@Test
 	public void tokenFaltando() {
-		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.missingEmail);
+		this.executarLogin(ConstantesParaTestesDeLogin.STRONG_PASSWORD, ExecuteLogin.missingEmail);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
-		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.missingPassword);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		JnEntityPreRegistration.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		this.executarLogin(ConstantesParaTestesDeLogin.STRONG_PASSWORD, ExecuteLogin.missingPassword);
 	}
 
 	@Test
 	public void senhaBloqueada() {
-		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.lockedPassword);
+		JnEntityLockedPassword.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		this.executarLogin(ConstantesParaTestesDeLogin.STRONG_PASSWORD, ExecuteLogin.lockedPassword);
 	}
 
 	@Test
 	public void usuarioJaLogado() {
-		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.loginConflict);
+		JnEntityLogin.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		this.executarLogin(ConstantesParaTestesDeLogin.STRONG_PASSWORD, ExecuteLogin.loginConflict);
 	}
 
 	@Test
 	public void senhaIncorreta() {
-		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.wrongPassword);
+		this.executarLogin(ConstantesParaTestesDeLogin.WRONG_PASSWORD, ExecuteLogin.wrongPassword);
 	}
 
 	@Test
 	public void caminhoFeliz() {
-		String senha = "";
-		this.executarLogin(senha , ExecuteLogin.expectedStatus);
+		this.executarLogin(ConstantesParaTestesDeLogin.STRONG_PASSWORD, ExecuteLogin.expectedStatus);
+	}
+
+	@Test
+	public void senhaRecemBloqueada() {
+		for(int k = 0; k < 3; k++) {
+			this.executarLogin("Novasenha1!", ExecuteLogin.wrongPassword);
+		}
+		this.executarLogin(ConstantesParaTestesDeLogin.STRONG_PASSWORD, ExecuteLogin.passwordLockedRecently);
 	}
 
 	private void executarLogin(String senha, EndpointsLogin expectedStatus) {
+		new TelaDoCadastroDeSenha().caminhoFeliz();
 		this.executarLogin(ConstantesParaTestesDeLogin.VALID_EMAIL, senha, expectedStatus);
 	}
 	

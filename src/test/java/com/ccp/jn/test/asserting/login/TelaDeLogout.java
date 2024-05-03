@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import com.ccp.jn.sync.status.login.ExecuteLogout;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
+import com.jn.commons.entities.JnEntityLogin;
 
 public class TelaDeLogout extends TemplateDeTestes {
 
@@ -19,6 +20,7 @@ public class TelaDeLogout extends TemplateDeTestes {
 
 	@Test
 	public void caminhoFeliz() {
+		JnEntityLogin.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
 		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, ExecuteLogout.expectedStatus);
 	}
 
