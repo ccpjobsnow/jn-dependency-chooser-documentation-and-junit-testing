@@ -15,7 +15,7 @@ import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
-import com.ccp.implementations.db.dao.elasticsearch.CcpElasticSearchDao;
+import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.setup.elasticsearch.CcpElasticSearchDbSetup;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -27,14 +27,18 @@ public class Poc {
 	static{
 		CcpDependencyInjection.loadAllDependencies(
 				new CcpElasticSearchQueryExecutor(),
-				new CcpGsonJsonHandler(), new CcpElasticSearchDao(),
+				new CcpGsonJsonHandler(), new CcpElasticSearchCrud(),
 				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp(), new CcpElasticSearchDbSetup());
 
 	}
 	static int counter;
 	
-	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
+		extracted();
+	}
+
+	@SuppressWarnings("unchecked")
+	 static void extracted() {
 		CcpFolderDecorator folderJava = new CcpStringDecorator("C:\\eclipse-workspaces\\ccp\\jn\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities").folder();
 		Collection<Object> java = new ArrayList<>();
 		folderJava.readFiles(x -> {
@@ -71,8 +75,10 @@ public class Poc {
 
 	static void levantarNumerosParaFatoracao(int limite, String pessoa) {
 		Set<Integer> numeros = new HashSet<>();
+		int k = 1;
 		outer:while(numeros.size() < limite) {
-			int numero = (int)(Math.random() * 1_000_000);
+			System.out.println(k++);
+			int numero = (int)(Math.random() * 1_000_0);
 			for (Integer outroNumero : numeros) {
 				
 				if(numero % outroNumero == 0) {
@@ -84,6 +90,7 @@ public class Poc {
 				}
 				
 				if(numero < 10) {
+					
 					continue outer;
 				}
 			}

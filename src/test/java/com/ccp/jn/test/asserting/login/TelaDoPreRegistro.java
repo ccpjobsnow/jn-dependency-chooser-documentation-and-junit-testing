@@ -5,65 +5,64 @@ import org.junit.Test;
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.http.CcpHttpResponseType;
-import com.ccp.jn.sync.status.login.EndpointsLogin;
-import com.ccp.jn.sync.status.login.SavePreRegistration;
+import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
+import com.ccp.jn.sync.status.login.StatusSavePreRegistration;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
-import com.jn.commons.entities.JnEntityLockedPassword;
-import com.jn.commons.entities.JnEntityLockedToken;
+import com.jn.commons.entities.JnEntityLoginLockedPassword;
+import com.jn.commons.entities.JnEntityLoginLockedToken;
 import com.jn.commons.entities.JnEntityLogin;
 import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityPassword;
-import com.jn.commons.entities.JnEntityPreRegistration;
+import com.jn.commons.entities.JnEntityLoginAnswers;
 
 public class TelaDoPreRegistro  extends TemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.INVALID_EMAIL, SavePreRegistration.invalidEmail);
+		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.INVALID_EMAIL, StatusSavePreRegistration.invalidEmail);
 	}
 
 	@Test
 	public void tokenBloqueado() {
-		JnEntityLockedToken.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(SavePreRegistration.lockedToken);
+		JnEntityLoginLockedToken.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		this.cadastrarPreRegistration(StatusSavePreRegistration.lockedToken);
 	}
 
 	@Test
 	public void tokenFaltando() {
-		this.cadastrarPreRegistration(SavePreRegistration.tokenFaltando);
+		this.cadastrarPreRegistration(StatusSavePreRegistration.tokenFaltando);
 	}
 
 	@Test
 	public void usuarioJaLogado() {
 		JnEntityLogin.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(SavePreRegistration.loginConflict);
+		this.cadastrarPreRegistration(StatusSavePreRegistration.loginConflict);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
-		JnEntityPreRegistration.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(SavePreRegistration.missingPassword);
+		this.cadastrarPreRegistration(StatusSavePreRegistration.missingPassword);
 	}
 
 	@Test
 	public void senhaBloqueada() {
-		JnEntityLockedPassword.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(SavePreRegistration.lockedPassword);
+		JnEntityLoginLockedPassword.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		this.cadastrarPreRegistration(StatusSavePreRegistration.lockedPassword);
 	}
 
 	@Test
 	public void caminhoFeliz() {
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityPreRegistration.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(SavePreRegistration.expectedStatus);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
+		this.cadastrarPreRegistration(StatusSavePreRegistration.expectedStatus);
 	}
 
-	private void cadastrarPreRegistration(EndpointsLogin expectedStatus) {
+	private void cadastrarPreRegistration(StatusEndpointsLogin expectedStatus) {
 		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.VALID_EMAIL, expectedStatus);
 	}
 	
-	private void cadastrarPreRegistration(String email, EndpointsLogin expectedStatus) {
+	private void cadastrarPreRegistration(String email, StatusEndpointsLogin expectedStatus) {
 		CcpJsonRepresentation body = CcpConstants.EMPTY_JSON.put("goal", "jobs").put("channel", "linkedin");
 		String uri = "login/"+ email 	+ "/pre-registration";
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
