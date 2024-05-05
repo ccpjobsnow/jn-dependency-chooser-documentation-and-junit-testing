@@ -50,7 +50,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends TemplateDeTestes{
 				+ "/token/language/portugese", expectedStatus);
 	}
 	
-	@Override
+	
 	protected String getMethod() {
 		return "POST";
 	}

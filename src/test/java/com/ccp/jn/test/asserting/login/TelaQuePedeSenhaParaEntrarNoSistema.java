@@ -82,7 +82,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		this.testarEndpoint(expectedStatus, body, uri, CcpHttpResponseType.singleRecord);
 	}
 
-	@Override
+	
 	protected String getMethod() {
 		return "POST";
 	}

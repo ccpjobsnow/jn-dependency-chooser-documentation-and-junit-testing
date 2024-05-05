@@ -79,7 +79,7 @@ public class TelaQuePedeEmail extends TemplateDeTestes{
 		this.testarEndpoint(uri, expectedStatus);
 	}
 
-	@Override
+	
 	protected String getMethod() {
 		return "HEAD";
 	}

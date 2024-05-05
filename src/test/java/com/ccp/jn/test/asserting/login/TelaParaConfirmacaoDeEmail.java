@@ -74,7 +74,7 @@ public class TelaParaConfirmacaoDeEmail  extends TemplateDeTestes{
 	}
 
 
-	@Override
+	
 	protected String getMethod() {
 		return "POST";
 	}

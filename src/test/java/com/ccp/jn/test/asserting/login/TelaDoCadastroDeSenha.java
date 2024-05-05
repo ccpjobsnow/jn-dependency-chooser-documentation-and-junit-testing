@@ -71,7 +71,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 		return token;
 
 	}
-	@Override
+	
 	protected String getMethod() {
 		return "POST";
 	}

@@ -24,7 +24,7 @@ public class TelaDeLogout extends TemplateDeTestes {
 		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, StatusExecuteLogout.expectedStatus);
 	}
 
-	@Override
+	
 	protected String getMethod() {
 		return "DELETE";
 	}
