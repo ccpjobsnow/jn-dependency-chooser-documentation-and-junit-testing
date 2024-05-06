@@ -34,7 +34,7 @@ public class Poc {
 	static int counter;
 	
 	public static void main(String[] args) {
-		extracted();
+		System.out.println(new CcpStringDecorator("handle_with_search_results_in_the_entity").text().toCamelCase());
 	}
 
 	@SuppressWarnings("unchecked")
