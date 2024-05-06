@@ -5,9 +5,10 @@ import org.junit.Test;
 import com.ccp.jn.sync.status.login.StatusCreateLoginToken;
 import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
-import com.jn.commons.entities.JnEntityLoginLockedToken;
-import com.jn.commons.entities.JnEntityLoginEmail;
+import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.jn.commons.entities.JnEntityLoginAnswers;
+import com.jn.commons.entities.JnEntityLoginEmail;
+import com.jn.commons.entities.JnEntityLoginTokenLocked;
 
 public class AoEntrarNaTelaDoCadastroDeSenha extends TemplateDeTestes{
 
@@ -18,36 +19,41 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends TemplateDeTestes{
 	
 	@Test
 	public void tokenBloqueado() { 
-		JnEntityLoginLockedToken.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.criarTokenDeLogin(StatusCreateLoginToken.statusLockedToken);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginTokenLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.criarTokenDeLogin(StatusCreateLoginToken.statusLockedToken, variaveisParaTeste);
 	}
 	
 	@Test
 	public void tokenFaltando() {
-		this.criarTokenDeLogin(StatusCreateLoginToken.statusMissingEmail);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		this.criarTokenDeLogin(StatusCreateLoginToken.statusMissingEmail, variaveisParaTeste);
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.criarTokenDeLogin(StatusCreateLoginToken.missingAnswers);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.criarTokenDeLogin(StatusCreateLoginToken.missingAnswers, variaveisParaTeste);
 	}
 	
 	@Test
 	public void caminhoFeliz() {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.criarTokenDeLogin(StatusCreateLoginToken.statusExpectedStatus);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.criarTokenDeLogin(StatusCreateLoginToken.statusExpectedStatus, variaveisParaTeste);
 	}
 	
-	public void criarTokenDeLogin(StatusEndpointsLogin expectedStatus) {
-		this.criarTokenDeLogin(ConstantesParaTestesDeLogin.VALID_EMAIL, expectedStatus);
+	private void criarTokenDeLogin(StatusEndpointsLogin expectedStatus, VariaveisParaTeste variaveisParaTeste) {
+		this.criarTokenDeLogin(variaveisParaTeste.VALID_EMAIL, expectedStatus);
 	}
 	
 	private void criarTokenDeLogin(String email, StatusEndpointsLogin expectedStatus) {
-		this.testarEndpoint("login/"
+		String uri = "login/"
 				+ email
-				+ "/token/language/portugese", expectedStatus);
+				+ "/token/language/portuguese";
+		this.testarEndpoint(uri, expectedStatus);
 	}
 	
 	

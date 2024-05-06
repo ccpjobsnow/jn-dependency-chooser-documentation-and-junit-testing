@@ -1,13 +1,28 @@
 {
     "mappings": {
-            "dynamic": "strict",
-			"properties": {
-                "email": {
-                    "type": "keyword"
-                },
-                "token": {
-                    "type": "text"
-                }
+        "dynamic": "strict",
+        "properties": {
+            "email": {
+                "type": "keyword"
+            },
+            "tokenHash": {
+                "type": "text"
+            },
+            "coordinates": {
+                "type": "text"
+            },
+            "ip": {
+                "type": "text"
+            },
+            "macAddress": {
+                "type": "text"
+            },
+            "sessionToken": {
+                "type": "text"
+            },
+            "userAgent": {
+                "type": "keyword"
             }
         }
+    }
 }

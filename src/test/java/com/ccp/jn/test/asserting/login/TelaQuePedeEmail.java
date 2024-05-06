@@ -5,12 +5,13 @@ import org.junit.Test;
 import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
 import com.ccp.jn.sync.status.login.StatusExistsLoginEmail;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
-import com.jn.commons.entities.JnEntityLoginLockedPassword;
-import com.jn.commons.entities.JnEntityLoginLockedToken;
-import com.jn.commons.entities.JnEntityLogin;
+import com.ccp.jn.test.asserting.VariaveisParaTeste;
+import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginAnswers;
+import com.jn.commons.entities.JnEntityLoginPasswordLocked;
+import com.jn.commons.entities.JnEntityLoginSessionCurrent;
+import com.jn.commons.entities.JnEntityLoginTokenLocked;
 
 public class TelaQuePedeEmail extends TemplateDeTestes{
 	
@@ -21,54 +22,61 @@ public class TelaQuePedeEmail extends TemplateDeTestes{
 	
 	@Test
 	public void tokenBloqueado() {
-		JnEntityLoginLockedToken.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.lockedToken);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginTokenLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.lockedToken);
 	}
 	
 	@Test
 	public void tokenFaltando() {
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.missingEmail);		
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.missingEmail);		
 	}
 	
 	@Test
 	public void senhaBloqueada() {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLoginLockedPassword.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.lockedPassword);		
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginPasswordLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.lockedPassword);		
 	}
 	
 	@Test
 	public void usuarioJaLogado() {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLogin.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.loginConflict);		
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.loginConflict);		
 	}
 	
 	@Test
 	public void faltandoCadastrarSenha() {
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.missingPassword);		
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.missingPassword);		
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.missingAnswers);		
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.missingAnswers);		
 	}
 	
 	@Test
 	public void caminhoFeliz() {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLoginPassword.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.expectedStatus);		
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginPassword.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.expectedStatus);		
 	}
 	
 	
 
-	private void verificarExistenciaDeEmail(StatusEndpointsLogin expectedStatus) {
-		this.verificarExistenciaDeEmail(expectedStatus, ConstantesParaTestesDeLogin.VALID_EMAIL);
+	private void verificarExistenciaDeEmail(VariaveisParaTeste variaveisParaTeste, StatusEndpointsLogin expectedStatus) {
+		this.verificarExistenciaDeEmail(expectedStatus, variaveisParaTeste.VALID_EMAIL);
 	}	
 	
 	private void verificarExistenciaDeEmail(StatusEndpointsLogin expectedStatus, String email) {

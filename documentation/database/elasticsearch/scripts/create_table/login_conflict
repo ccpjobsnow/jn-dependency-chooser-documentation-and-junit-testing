@@ -6,41 +6,13 @@
 				"type": "keyword"
 			},
             "newLogin": {
-				"dynamic": "strict",
-                "coordinates": {
-                    "type": "text"
-                },
-                "ip": {
-                    "type": "text"
-                },
-                "macAddress": {
-                    "type": "text"
-                },
-                "date": {
-                    "type": "long"
-                },
-                "userAgent": {
-                    "type": "keyword"
-                }
+				"dynamic": "true",
+                "properties": {}
             },
             "oldLogin": {
-				"dynamic": "strict",
-                "coordinates": {
-                    "type": "text"
-                },
-                "ip": {
-                    "type": "text"
-                },
-                "macAddress": {
-                    "type": "text"
-                },
-                "date": {
-                    "type": "long"
-                },
-                "userAgent": {
-                    "type": "keyword"
-                }
-            }
+				"dynamic": "true",
+                "properties": {}
+           }
         }
     }
 }

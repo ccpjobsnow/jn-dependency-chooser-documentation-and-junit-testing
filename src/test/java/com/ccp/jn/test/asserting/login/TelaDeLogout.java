@@ -2,9 +2,12 @@ package com.ccp.jn.test.asserting.login;
 
 import org.junit.Test;
 
+import com.ccp.constantes.CcpConstants;
+import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.sync.status.login.StatusExecuteLogout;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
-import com.jn.commons.entities.JnEntityLogin;
+import com.ccp.jn.test.asserting.VariaveisParaTeste;
+import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 
 public class TelaDeLogout extends TemplateDeTestes {
 
@@ -15,15 +18,23 @@ public class TelaDeLogout extends TemplateDeTestes {
 
 	@Test
 	public void usuarioNaoLogado() {
-		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, StatusExecuteLogout.missingLogin);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		this.testarEndpoint("/login/" + variaveisParaTeste.VALID_EMAIL, StatusExecuteLogout.missingLogin);
 	}
 
 	@Test
 	public void caminhoFeliz() {
-		JnEntityLogin.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.testarEndpoint("/login/" + ConstantesParaTestesDeLogin.VALID_EMAIL, StatusExecuteLogout.expectedStatus);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		String uri = "/login/" + variaveisParaTeste.VALID_EMAIL;
+		this.testarEndpoint(uri, StatusExecuteLogout.expectedStatus);
 	}
 
+	protected CcpJsonRepresentation getHeaders() {
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("sessionToken", variaveisParaTeste.SESSION_TOKEN);
+		return put;
+	}
 	
 	protected String getMethod() {
 		return "DELETE";

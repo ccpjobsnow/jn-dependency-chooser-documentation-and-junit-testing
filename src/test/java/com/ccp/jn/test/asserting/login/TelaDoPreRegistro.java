@@ -8,11 +8,13 @@ import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
 import com.ccp.jn.sync.status.login.StatusSavePreRegistration;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
-import com.jn.commons.entities.JnEntityLoginLockedPassword;
-import com.jn.commons.entities.JnEntityLoginLockedToken;
-import com.jn.commons.entities.JnEntityLogin;
-import com.jn.commons.entities.JnEntityLoginEmail;
+import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.jn.commons.entities.JnEntityLoginAnswers;
+import com.jn.commons.entities.JnEntityLoginEmail;
+import com.jn.commons.entities.JnEntityLoginPassword;
+import com.jn.commons.entities.JnEntityLoginPasswordLocked;
+import com.jn.commons.entities.JnEntityLoginSessionCurrent;
+import com.jn.commons.entities.JnEntityLoginTokenLocked;
 
 public class TelaDoPreRegistro  extends TemplateDeTestes{
 
@@ -23,43 +25,52 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 
 	@Test
 	public void tokenBloqueado() {
-		JnEntityLoginLockedToken.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(StatusSavePreRegistration.lockedToken);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginTokenLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.lockedToken);
 	}
 
 	@Test
 	public void tokenFaltando() {
-		this.cadastrarPreRegistration(StatusSavePreRegistration.tokenFaltando);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.tokenFaltando);
 	}
 
 	@Test
 	public void usuarioJaLogado() {
-		JnEntityLogin.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(StatusSavePreRegistration.loginConflict);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.loginConflict);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(StatusSavePreRegistration.missingPassword);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.missingPassword);
 	}
 
 	@Test
 	public void senhaBloqueada() {
-		JnEntityLoginLockedPassword.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(StatusSavePreRegistration.lockedPassword);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginPasswordLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.lockedPassword);
 	}
 
 	@Test
 	public void caminhoFeliz() {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(ConstantesParaTestesDeLogin.TESTING_JSON);
-		this.cadastrarPreRegistration(StatusSavePreRegistration.expectedStatus);
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginPassword.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.expectedStatus);
 	}
 
-	private void cadastrarPreRegistration(StatusEndpointsLogin expectedStatus) {
-		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.VALID_EMAIL, expectedStatus);
+	private void cadastrarPreRegistration(VariaveisParaTeste variaveisParaTeste, StatusEndpointsLogin expectedStatus) {
+		this.cadastrarPreRegistration(variaveisParaTeste.VALID_EMAIL, expectedStatus);
 	}
 	
 	private void cadastrarPreRegistration(String email, StatusEndpointsLogin expectedStatus) {
