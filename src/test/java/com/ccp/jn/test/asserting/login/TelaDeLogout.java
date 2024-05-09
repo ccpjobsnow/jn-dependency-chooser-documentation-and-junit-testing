@@ -31,8 +31,7 @@ public class TelaDeLogout extends TemplateDeTestes {
 	}
 
 	protected CcpJsonRepresentation getHeaders() {
-		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("sessionToken", variaveisParaTeste.SESSION_TOKEN);
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("sessionToken", VariaveisParaTeste.SESSION_TOKEN);
 		return put;
 	}
 	

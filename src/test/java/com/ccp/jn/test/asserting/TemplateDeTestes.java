@@ -1,8 +1,6 @@
 package com.ccp.jn.test.asserting;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
@@ -26,17 +24,7 @@ import com.ccp.process.CcpProcessStatus;
 
 public abstract class TemplateDeTestes {
 	protected final String ENDPOINT_URL = "http://localhost:8080/";
-	public TemplateDeTestes() {
-		String simpleName = this.getClass().getSimpleName();
-		boolean repeated = set.add(simpleName) == false;
-		if(repeated) {
-			return;
-		}
-		System.out.println(simpleName);
-//		this.resetAllData();
-	}
-	
-	static Set<String> set = new HashSet<>();
+
 	static {
 		CcpDependencyInjection.loadAllDependencies(
 				new CcpGsonJsonHandler(), 
@@ -46,11 +34,8 @@ public abstract class TemplateDeTestes {
 				new CcpMindrotPasswordHandler(),
 				new CcpElasticSerchDbBulk()
 				);
-	}
-
-	public static void main(String[] args) {
 		CcpDbRequester database = CcpDependencyInjection.getDependency(CcpDbRequester.class);
-	
+		
 		List<CcpBulkOperationResult> executeDatabaseSetup = database.executeDatabaseSetup("C:\\eclipse-workspaces\\ccp\\jn\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities", "java", e -> {
 				if(e instanceof ClassNotFoundException) {
 					e.printStackTrace();
@@ -62,7 +47,7 @@ public abstract class TemplateDeTestes {
 		CcpFileDecorator reset = new CcpStringDecorator("c:\\logs\\createJnEntities.json").file().reset();
 		reset.write(executeDatabaseSetup.toString());
 	}
-	
+
 	protected abstract String getMethod();
 
 	protected CcpJsonRepresentation getHeaders() {
