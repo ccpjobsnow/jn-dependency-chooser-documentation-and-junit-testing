@@ -1,6 +1,7 @@
 package com.ccp.jn.test.asserting;
 
 import java.util.List;
+import java.util.function.Consumer;
 
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
@@ -14,6 +15,7 @@ import com.ccp.especifications.http.CcpHttpHandler;
 import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.especifications.http.CcpHttpResponseTransform;
 import com.ccp.especifications.http.CcpHttpResponseType;
+import com.ccp.exceptions.db.CcpIncorrectEntityFields;
 import com.ccp.implementations.db.bulk.elasticsearch.CcpElasticSerchDbBulk;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -26,26 +28,36 @@ public abstract class TemplateDeTestes {
 	protected final String ENDPOINT_URL = "http://localhost:8080/";
 
 	static {
-		CcpDependencyInjection.loadAllDependencies(
-				new CcpGsonJsonHandler(), 
-				new CcpElasticSearchCrud(),
-				new CcpElasticSearchDbRequest(), 
-				new CcpApacheMimeHttp(), 
-				new CcpMindrotPasswordHandler(),
-				new CcpElasticSerchDbBulk()
-				);
+		CcpDependencyInjection.loadAllDependencies(new CcpGsonJsonHandler(), new CcpElasticSearchCrud(),
+				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp(), new CcpMindrotPasswordHandler(),
+				new CcpElasticSerchDbBulk());
 		CcpDbRequester database = CcpDependencyInjection.getDependency(CcpDbRequester.class);
+
+		CcpFileDecorator mappingJnEntitiesErrorsFile = new CcpStringDecorator("c:\\logs\\mappingJnEntitiesErrors.json")
+				.file().reset();
+		String pathToCreateEntityScript = "documentation\\database\\elasticsearch\\scripts\\entities\\create";
+		String pathToJavaClasses = "..\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities";
+		String hostFolder = "java";
+
+		Consumer<CcpIncorrectEntityFields> whenIsIncorrectMapping = e -> {
+			String message = e.getMessage();
+			mappingJnEntitiesErrorsFile.append(message);
+		};
+		Consumer<Throwable> whenOccursAnError = e -> {
+
+			if (e instanceof ClassNotFoundException) {
+				e.printStackTrace();
+				return;
+			}
+			throw new RuntimeException(e);
+		};
 		
-		List<CcpBulkOperationResult> executeDatabaseSetup = database.executeDatabaseSetup("C:\\eclipse-workspaces\\ccp\\jn\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities", "java", e -> {
-				if(e instanceof ClassNotFoundException) {
-					e.printStackTrace();
-					return;
-				}
-				throw new RuntimeException(e);
-		});
+		List<CcpBulkOperationResult> executeDatabaseSetup = database.executeDatabaseSetup(pathToJavaClasses, hostFolder,
+				pathToCreateEntityScript, whenIsIncorrectMapping, whenOccursAnError);
+
+		CcpFileDecorator createJnEntitiesFile = new CcpStringDecorator("c:\\logs\\createJnEntities.json").file().reset();
 		
-		CcpFileDecorator reset = new CcpStringDecorator("c:\\logs\\createJnEntities.json").file().reset();
-		reset.write(executeDatabaseSetup.toString());
+		createJnEntitiesFile.write(executeDatabaseSetup.toString());
 	}
 
 	protected abstract String getMethod();
@@ -71,45 +83,39 @@ public abstract class TemplateDeTestes {
 		String path = this.ENDPOINT_URL + uri;
 		String name = this.getClass().getName();
 		String asUgglyJson = body.asUgglyJson();
-		
+
 		CcpHttpResponse response = http.ccpHttp.executeHttpRequest(path, method, headers, asUgglyJson);
-		
+
 		V executeHttpRequest = http.executeHttpRequest(name, path, method, headers, asUgglyJson, transformer, response);
-		
+
 		int actualStatus = response.httpStatus;
-		
+
 		this.logRequestAndResponse(path, scenarioName, actualStatus, body, headers, executeHttpRequest);
-		
+
 		scenarioName.verifyStatus(actualStatus);
-		
+
 		return executeHttpRequest;
 	}
 
-	private <V> void logRequestAndResponse(String url, CcpProcessStatus status, int actualStatus,  CcpJsonRepresentation body, CcpJsonRepresentation headers, V executeHttpRequest) {
-		
+	private <V> void logRequestAndResponse(String url, CcpProcessStatus status, int actualStatus,
+			CcpJsonRepresentation body, CcpJsonRepresentation headers, V executeHttpRequest) {
+
 		CcpJsonRepresentation md = CcpConstants.EMPTY_JSON.put("x", executeHttpRequest);
-		
-		if(executeHttpRequest instanceof CcpJsonRepresentation json) {
+
+		if (executeHttpRequest instanceof CcpJsonRepresentation json) {
 			md = json;
 		}
-		
+
 		String date = new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss");
 
 		int expectedStatus = status.status();
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON
-				.put("url", url)
-				.put("actualStatus", actualStatus)
-				.put("expectedStatus", expectedStatus)
-				.put("headers", headers)
-				.put("request", body)
-				.put("response", md)
-				.put("date", date)
-				;
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("url", url).put("actualStatus", actualStatus)
+				.put("expectedStatus", expectedStatus).put("headers", headers).put("request", body).put("response", md)
+				.put("date", date);
 		String asPrettyJson = put.asPrettyJson();
-		
+
 		String testName = this.getClass().getSimpleName();
-		new CcpStringDecorator("c:\\rh\\jn\\logs\\").folder()
-				.createNewFolderIfNotExists(testName)
+		new CcpStringDecorator("c:\\rh\\jn\\logs\\").folder().createNewFolderIfNotExists(testName)
 				.writeInTheFile(status + ".json", asPrettyJson);
 	}
 
