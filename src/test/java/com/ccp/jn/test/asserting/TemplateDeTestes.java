@@ -1,20 +1,23 @@
 package com.ccp.jn.test.asserting;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import com.ccp.constantes.CcpConstants;
+import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
-import com.ccp.especifications.db.setup.CcpDbSetupCreator;
+import com.ccp.especifications.db.bulk.CcpBulkOperationResult;
+import com.ccp.especifications.db.utils.CcpDbRequester;
 import com.ccp.especifications.http.CcpHttpHandler;
 import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.especifications.http.CcpHttpResponseTransform;
 import com.ccp.especifications.http.CcpHttpResponseType;
+import com.ccp.implementations.db.bulk.elasticsearch.CcpElasticSerchDbBulk;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
-import com.ccp.implementations.db.setup.elasticsearch.CcpElasticSearchDbSetup;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
@@ -30,7 +33,7 @@ public abstract class TemplateDeTestes {
 			return;
 		}
 		System.out.println(simpleName);
-		this.resetAllData();
+//		this.resetAllData();
 	}
 	
 	static Set<String> set = new HashSet<>();
@@ -40,19 +43,26 @@ public abstract class TemplateDeTestes {
 				new CcpElasticSearchCrud(),
 				new CcpElasticSearchDbRequest(), 
 				new CcpApacheMimeHttp(), 
-				new CcpElasticSearchDbSetup(),
-				new CcpMindrotPasswordHandler()
+				new CcpMindrotPasswordHandler(),
+				new CcpElasticSerchDbBulk()
 				);
-
-	}
-	public  void resetAllData() {
-		String mainPath = "documentation\\database\\elasticsearch\\scripts\\";
-		String createFolder = mainPath + "insert";
-
-		CcpDbSetupCreator dbSetup = CcpDependencyInjection.getDependency(CcpDbSetupCreator.class);
-		dbSetup.reinsertAllTables("jn", createFolder);
 	}
 
+	public static void main(String[] args) {
+		CcpDbRequester database = CcpDependencyInjection.getDependency(CcpDbRequester.class);
+	
+		List<CcpBulkOperationResult> executeDatabaseSetup = database.executeDatabaseSetup("C:\\eclipse-workspaces\\ccp\\jn\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities", "java", e -> {
+				if(e instanceof ClassNotFoundException) {
+					e.printStackTrace();
+					return;
+				}
+				throw new RuntimeException(e);
+		});
+		
+		CcpFileDecorator reset = new CcpStringDecorator("c:\\logs\\createJnEntities.json").file().reset();
+		reset.write(executeDatabaseSetup.toString());
+	}
+	
 	protected abstract String getMethod();
 
 	protected CcpJsonRepresentation getHeaders() {
@@ -83,14 +93,14 @@ public abstract class TemplateDeTestes {
 		
 		int actualStatus = response.httpStatus;
 		
-		this.logRequestAndResponse(path, scenarioName, actualStatus, body, executeHttpRequest);
+		this.logRequestAndResponse(path, scenarioName, actualStatus, body, headers, executeHttpRequest);
 		
 		scenarioName.verifyStatus(actualStatus);
 		
 		return executeHttpRequest;
 	}
 
-	private <V> void logRequestAndResponse(String url, CcpProcessStatus status, int actualStatus,  CcpJsonRepresentation body, V executeHttpRequest) {
+	private <V> void logRequestAndResponse(String url, CcpProcessStatus status, int actualStatus,  CcpJsonRepresentation body, CcpJsonRepresentation headers, V executeHttpRequest) {
 		
 		CcpJsonRepresentation md = CcpConstants.EMPTY_JSON.put("x", executeHttpRequest);
 		
@@ -105,6 +115,7 @@ public abstract class TemplateDeTestes {
 				.put("url", url)
 				.put("actualStatus", actualStatus)
 				.put("expectedStatus", expectedStatus)
+				.put("headers", headers)
 				.put("request", body)
 				.put("response", md)
 				.put("date", date)
