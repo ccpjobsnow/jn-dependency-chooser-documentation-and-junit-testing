@@ -47,7 +47,7 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 	@Test
 	public void faltandoCadastrarSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.missingPassword);
 	}
@@ -64,7 +64,6 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 	public void caminhoFeliz() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		JnEntityLoginPassword.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.expectedStatus);
 	}

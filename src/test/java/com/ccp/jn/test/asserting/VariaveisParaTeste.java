@@ -2,6 +2,7 @@ package com.ccp.jn.test.asserting;
 
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
+import com.ccp.decorators.CcpStringDecorator;
 import com.jn.commons.utils.JnGenerateRandomToken;
 
 public class VariaveisParaTeste {
@@ -16,20 +17,18 @@ public class VariaveisParaTeste {
 			;
 			
 	public CcpJsonRepresentation TESTING_JSON = CcpConstants.EMPTY_JSON;
-	private static int contador;
 	public String VALID_EMAIL;
+
+	public CcpJsonRepresentation ANSWERS_JSON = CcpConstants.EMPTY_JSON;
 	
 
-	private static String getEmailFicticio() {
-		String zeroEsquerda = contador < 10 ? "0": "";
-		String emailFicticio = String.format("teste%s%s@jn.com", zeroEsquerda, contador++);
-		return emailFicticio;
-	}
 
 	public VariaveisParaTeste() {
-		this.VALID_EMAIL = getEmailFicticio();
+		String nome = new CcpStringDecorator("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toLowerCase()).text().generateToken(8).content;
+		this.VALID_EMAIL = nome + "@teste.com";
 		this.TESTING_JSON = this.TESTING_JSON.put("email", this.VALID_EMAIL);
 		this.REQUEST_TO_LOGIN = this.REQUEST_TO_LOGIN.put("email", this.VALID_EMAIL);
+		this.ANSWERS_JSON = this.TESTING_JSON.put("goal", "jobs").put("channel", "linkedin");
 	}
 	
 			

@@ -14,9 +14,6 @@
 			"templateId":{
 				"type": "keyword"
 			},
-			"format": {
-				"type": "keyword"
-			},
 			"moreParameters": {
 				"dynamic": "true",
 					"properties": {}

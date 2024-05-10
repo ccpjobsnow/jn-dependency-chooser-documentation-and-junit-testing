@@ -47,7 +47,7 @@ public class TelaParaConfirmacaoDeEmail  extends TemplateDeTestes{
 	@Test
 	public void faltandoCadastrarSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		this.confirmarEmail(variaveisParaTeste, StatusCreateLoginEmail.missingPassword);
 	}
@@ -65,7 +65,7 @@ public class TelaParaConfirmacaoDeEmail  extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		JnEntityLoginPassword.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		this.confirmarEmail(variaveisParaTeste, StatusCreateLoginEmail.expectedStatus);
 	}
 	

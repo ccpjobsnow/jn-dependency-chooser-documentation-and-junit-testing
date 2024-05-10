@@ -31,6 +31,7 @@ public abstract class TemplateDeTestes {
 		CcpDependencyInjection.loadAllDependencies(new CcpGsonJsonHandler(), new CcpElasticSearchCrud(),
 				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp(), new CcpMindrotPasswordHandler(),
 				new CcpElasticSerchDbBulk());
+		
 		CcpDbRequester database = CcpDependencyInjection.getDependency(CcpDbRequester.class);
 
 		CcpFileDecorator mappingJnEntitiesErrorsFile = new CcpStringDecorator("c:\\logs\\mappingJnEntitiesErrors.json")
@@ -46,7 +47,6 @@ public abstract class TemplateDeTestes {
 		Consumer<Throwable> whenOccursAnError = e -> {
 
 			if (e instanceof ClassNotFoundException) {
-				e.printStackTrace();
 				return;
 			}
 			throw new RuntimeException(e);
@@ -55,11 +55,15 @@ public abstract class TemplateDeTestes {
 		List<CcpBulkOperationResult> executeDatabaseSetup = database.executeDatabaseSetup(pathToJavaClasses, hostFolder,
 				pathToCreateEntityScript, whenIsIncorrectMapping, whenOccursAnError);
 
-		CcpFileDecorator createJnEntitiesFile = new CcpStringDecorator("c:\\logs\\createJnEntities.json").file().reset();
+		CcpFileDecorator createJnEntitiesFile = new CcpStringDecorator("c:\\logs\\insertErrors.json").file().reset();
 		
 		createJnEntitiesFile.write(executeDatabaseSetup.toString());
 	}
 
+	public static void main(String[] args) {
+		
+	}
+	
 	protected abstract String getMethod();
 
 	protected CcpJsonRepresentation getHeaders() {
@@ -111,7 +115,7 @@ public abstract class TemplateDeTestes {
 		int expectedStatus = status.status();
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("url", url).put("actualStatus", actualStatus)
 				.put("expectedStatus", expectedStatus).put("headers", headers).put("request", body).put("response", md)
-				.put("date", date);
+				.put("timestamp", date);
 		String asPrettyJson = put.asPrettyJson();
 
 		String testName = this.getClass().getSimpleName();

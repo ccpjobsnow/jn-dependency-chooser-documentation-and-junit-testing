@@ -1,23 +1,24 @@
 Lembretes
 A) Template de teste
-B) Testar bulk e mensageria
-C) Retestar login completamente
-D) Salvar erro do business lenient
-E) Salvar ocorrencia de inactive position, negativated resume, denied resume, resume does not match, inactive resume
-F) Desabilitar uma entidade (position ou resume)
-G) Repensar a parte do sinônimo
-H) Notificações para recrutadores e candidatos
-I) Upload de resume
+B) Corrigir mensageria e email enviado
+C) Salvar erro do business lenient
+D) Salvar ocorrencia de inactive position, negativated resume, denied resume, resume does not match, inactive resume
+E) Desabilitar uma entidade (position ou resume)
+F) Repensar a parte do sinônimo
+G) Upload de resume
+
 
 Passos pra colocar o deploy sem LN:
-A) Reteste completo do login;
-B) Completar as tarefas coadjuvantes do VIS;
-C) Elencar as 2 mil palavras e suas relações entre si;
-D) Testes do VIS de ponta a ponta;
-E) Integrar front e back;
-F) Migrar dados do JobsNow legado;
-G) Deploy dos endpoints, cron Jobs e consumidores de fila;
-H) Comunicar oficialmente candidatos e recrutadores;
+A) Terminar as funcionalidades menores do VIS (nao são grande coisa);
+B) Levantar palavras chaves e sinônimos;
+C) Criar testes para o VIS;
+D) Levantar massa de Dados para o VIS;
+E) Executar testes do backend do VIS;
+F) Migrar dados antigos;
+G) Ligar front no backend;
+H) Testar frontend;
+I) Fazer deploy;
+J) Comunicar recrutadores e candidatos;
 
 Passos pra colocar o deploy com LN:
 A) Preparar infra estrutura de LN;
@@ -27,4 +28,5 @@ D) Preparar funcionalidade de "amostra gratis" para recrutadores;
 E) Testar  funcionalidade de "amostra gratis" para recrutadores;
 F) Contratar o advogado tributarista;
 G) Implementar conselhos do advogado tributarista;
-H) Avisar candidatos sobre a possibilidade de ganhar dinheiro;
+H) Avisar candidatos sobre a possibilidade de ganhar dinheiro;1) Notificações para recrutadores e candidatos
+

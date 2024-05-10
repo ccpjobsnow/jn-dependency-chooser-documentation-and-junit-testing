@@ -7,6 +7,7 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.sync.status.login.StatusExecuteLogout;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
+import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 
 public class TelaDeLogout extends TemplateDeTestes {
@@ -25,6 +26,7 @@ public class TelaDeLogout extends TemplateDeTestes {
 	@Test
 	public void caminhoFeliz() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginEmail.INSTANCE.create(variaveisParaTeste.TESTING_JSON);
 		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		String uri = "/login/" + variaveisParaTeste.VALID_EMAIL;
 		this.testarEndpoint(uri, StatusExecuteLogout.expectedStatus);

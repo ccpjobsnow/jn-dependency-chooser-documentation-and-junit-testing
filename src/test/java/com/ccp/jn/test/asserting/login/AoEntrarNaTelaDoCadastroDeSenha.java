@@ -41,7 +41,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends TemplateDeTestes{
 	public void caminhoFeliz() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		this.criarTokenDeLogin(StatusCreateLoginToken.statusExpectedStatus, variaveisParaTeste);
 	}
 	

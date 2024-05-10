@@ -106,7 +106,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	
 	private String getTokenToValidateLogin(VariaveisParaTeste variaveisParaTeste) {
 		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate( variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginAnswers.INSTANCE.createOrUpdate( variaveisParaTeste.ANSWERS_JSON);
 		JnGenerateRandomToken transformer = new JnGenerateRandomToken(8, "token");
 		CcpJsonRepresentation loginToken =  variaveisParaTeste.TESTING_JSON.getTransformed(transformer);
 		String token = loginToken.getAsString("token");

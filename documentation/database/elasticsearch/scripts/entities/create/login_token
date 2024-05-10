@@ -17,9 +17,6 @@
             "macAddress": {
                 "type": "text"
             },
-            "sessionToken": {
-                "type": "text"
-            },
             "userAgent": {
                 "type": "keyword"
             }
