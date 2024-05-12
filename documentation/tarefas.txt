@@ -1,9 +1,6 @@
 Lembretes
-A) Template de teste do VIS
 D) Salvar ocorrencia de inactive position, negativated resume, 
 denied resume, resume does not match, inactive resume
-E) Desabilitar uma entidade (position ou resume)
-F) Upload de resume
 
 Passos pra colocar o deploy sem LN:
 A) Terminar as funcionalidades menores do VIS (nao são grande coisa);

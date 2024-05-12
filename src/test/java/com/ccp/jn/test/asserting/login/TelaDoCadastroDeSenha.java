@@ -3,6 +3,8 @@ package com.ccp.jn.test.asserting.login;
 import org.junit.Test;
 
 import com.ccp.decorators.CcpJsonRepresentation;
+import com.ccp.decorators.CcpTimeDecorator;
+import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
 import com.ccp.jn.sync.status.login.StatusUpdatePassword;
@@ -10,10 +12,9 @@ import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginPasswordLocked;
+import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.entities.JnEntityLoginToken;
-import com.jn.commons.entities.JnEntityLoginTokenLocked;
 import com.jn.commons.utils.JnGenerateRandomToken;
 import com.jn.commons.utils.JnGenerateRandomTokenWithHash;
 
@@ -30,7 +31,8 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	@Test
 	public void tokenBloqueado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginTokenLocked.INSTANCE.createOrUpdate( variaveisParaTeste.TESTING_JSON);
+		CcpEntity mirrorEntity = JnEntityLoginToken.INSTANCE.getMirrorEntity();
+		mirrorEntity.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
 		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.lockedToken);
 	}
@@ -46,7 +48,8 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	@Test
 	public void efetuarDesbloqueios() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginPasswordLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		CcpEntity mirrorEntity = JnEntityLoginPassword.INSTANCE.getMirrorEntity();
+		mirrorEntity.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		this.fluxoEsperado(variaveisParaTeste);
 	}
@@ -92,6 +95,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 			this.cadastrarSenha(variaveisParaTeste, "abcdefgh", StatusUpdatePassword.wrongToken);
 		}
 		this.cadastrarSenha(variaveisParaTeste, "abcdefgh", StatusUpdatePassword.tokenLockedRecently);
+		new CcpTimeDecorator().sleep(1000);
 		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.lockedToken);
 	}
 

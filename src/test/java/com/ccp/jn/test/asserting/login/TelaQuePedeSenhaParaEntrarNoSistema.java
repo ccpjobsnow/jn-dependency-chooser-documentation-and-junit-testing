@@ -5,6 +5,7 @@ import org.junit.Test;
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
+import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
 import com.ccp.jn.sync.status.login.StatusExecuteLogin;
@@ -12,9 +13,9 @@ import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginPasswordLocked;
+import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
-import com.jn.commons.entities.JnEntityLoginTokenLocked;
+import com.jn.commons.entities.JnEntityLoginToken;
 
 public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 
@@ -26,7 +27,8 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 	@Test
 	public void tokenBloqueado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginTokenLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		CcpEntity mirrorEntity = JnEntityLoginToken.INSTANCE.getMirrorEntity();
+		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD , StatusExecuteLogin.lockedToken);
 	}
 
@@ -48,7 +50,8 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 	public void senhaBloqueada() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginPasswordLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		CcpEntity mirrorEntity = JnEntityLoginPassword.INSTANCE.getMirrorEntity();
+		mirrorEntity.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.lockedPassword);
 	}
 

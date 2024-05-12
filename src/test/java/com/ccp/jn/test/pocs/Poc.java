@@ -29,6 +29,9 @@ public class Poc {
 
 	}
 	public static void main(String[] args) {
+	}
+
+	static void extracted() {
 		System.out.println("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("subjectType", "teste").put("email", "teste");
 		JnEntityContactUs.INSTANCE.create(put);
@@ -40,7 +43,6 @@ public class Poc {
 		new CcpTimeDecorator().sleep(400);
 		CcpJsonRepresentation oneById2 = JnEntityContactUs.INSTANCE.getOneById(put, x -> CcpConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
 		System.out.println(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
-
 	}
 
 	static void diposableEntity() {
