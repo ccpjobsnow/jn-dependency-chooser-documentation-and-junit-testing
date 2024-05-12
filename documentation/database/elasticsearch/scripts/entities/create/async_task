@@ -10,7 +10,7 @@
 					"dynamic": "true",
 					"properties": {}
 			},
-			"id": {
+			"messageId": {
 				"type": "keyword"
 			},
 			"success": {
@@ -23,6 +23,9 @@
 				"type": "long"
 			},
 			"started": {
+				"type": "long"
+			},
+			"enlapsedTime": {
 				"type": "long"
 			}
 

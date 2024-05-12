@@ -1,8 +1,7 @@
 Lembretes
 A) Template de teste do VIS
-B) Corrigir mensageria
-C) Salvar erro do business lenient
-D) Salvar ocorrencia de inactive position, negativated resume, denied resume, resume does not match, inactive resume
+D) Salvar ocorrencia de inactive position, negativated resume, 
+denied resume, resume does not match, inactive resume
 E) Desabilitar uma entidade (position ou resume)
 F) Upload de resume
 
@@ -26,5 +25,5 @@ D) Preparar funcionalidade de "amostra gratis" para recrutadores;
 E) Testar  funcionalidade de "amostra gratis" para recrutadores;
 F) Contratar o advogado tributarista;
 G) Implementar conselhos do advogado tributarista;
-H) Avisar candidatos sobre a possibilidade de ganhar dinheiro;1) Notificações para recrutadores e candidatos
+H) Avisar candidatos sobre a possibilidade de ganhar dinheiro;I) Notificações para recrutadores e candidatos
 

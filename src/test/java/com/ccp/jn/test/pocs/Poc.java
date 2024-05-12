@@ -1,6 +1,5 @@
 package com.ccp.jn.test.pocs;
 
-import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
@@ -12,25 +11,36 @@ import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecu
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
-import com.jn.commons.entities.JnEntityLoginAnswers;
+import com.jn.commons.entities.JnEntityDisposableRecords;
+import com.jn.commons.entities.JnEntityJobsnowError;
 
 public class Poc {
 	static{
 		CcpDependencyInjection.loadAllDependencies(
 				new CcpElasticSearchQueryExecutor(),
-				new CcpGsonJsonHandler(), new CcpElasticSearchCrud(),
-				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp()
+				new CcpElasticSearchDbRequest(), 
+				new CcpElasticSearchCrud(),
+				new CcpGsonJsonHandler(), 
+				new CcpApacheMimeHttp()
 				);
 
 	}
+	public static void main(String[] args) {
+		
+		RuntimeException e = new RuntimeException("erro de teste");
+		CcpJsonRepresentation values = new CcpJsonRepresentation(e);
+		JnEntityJobsnowError.INSTANCE.create(values);
+		String id = JnEntityJobsnowError.INSTANCE.getId(values);
+		CcpJsonRepresentation value1 = JnEntityJobsnowError.INSTANCE.getOneById(id);
+		System.out.println(value1);
+		CcpJsonRepresentation copyIdToSearch = JnEntityJobsnowError.INSTANCE.getCopyIdToSearch(value1);
+		CcpJsonRepresentation value2 = JnEntityDisposableRecords.INSTANCE.getOneById(copyIdToSearch);
+		System.out.println(value2);
+		
+	}
+
 	static int counter;
 	
-	public static void main(String[] args) {
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON
-				.put("email", "vh67nwjc@teste.com")
-				;
-		JnEntityLoginAnswers.INSTANCE.create(put);
-	}
 	static void salvarVagaDoJobsNowAntigo() {
 		CcpQueryExecutor queryExecutor = CcpDependencyInjection.getDependency(CcpQueryExecutor.class);
 		CcpDbQueryOptions queryToSearchLastUpdatedResumes = 
