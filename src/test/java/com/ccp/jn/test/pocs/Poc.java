@@ -1,8 +1,10 @@
 package com.ccp.jn.test.pocs;
 
+import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
+import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
@@ -11,6 +13,7 @@ import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecu
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityDisposableRecords;
 import com.jn.commons.entities.JnEntityJobsnowError;
 
@@ -26,7 +29,21 @@ public class Poc {
 
 	}
 	public static void main(String[] args) {
-		
+		System.out.println("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("subjectType", "teste").put("email", "teste");
+		JnEntityContactUs.INSTANCE.create(put);
+		CcpJsonRepresentation oneById = JnEntityContactUs.INSTANCE.getOneById(put);
+		System.out.println(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById);
+		new CcpTimeDecorator().sleep(500);
+		CcpJsonRepresentation oneById1 = JnEntityContactUs.INSTANCE.getOneById(put);
+		System.out.println(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById1);
+		new CcpTimeDecorator().sleep(400);
+		CcpJsonRepresentation oneById2 = JnEntityContactUs.INSTANCE.getOneById(put, x -> CcpConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
+		System.out.println(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
+
+	}
+
+	static void diposableEntity() {
 		RuntimeException e = new RuntimeException("erro de teste");
 		CcpJsonRepresentation values = new CcpJsonRepresentation(e);
 		JnEntityJobsnowError.INSTANCE.create(values);
@@ -36,7 +53,6 @@ public class Poc {
 		CcpJsonRepresentation copyIdToSearch = JnEntityJobsnowError.INSTANCE.getCopyIdToSearch(value1);
 		CcpJsonRepresentation value2 = JnEntityDisposableRecords.INSTANCE.getOneById(copyIdToSearch);
 		System.out.println(value2);
-		
 	}
 
 	static int counter;
