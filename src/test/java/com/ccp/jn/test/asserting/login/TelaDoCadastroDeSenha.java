@@ -10,6 +10,8 @@ import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
+import com.jn.commons.entities.JnEntityLoginPasswordLocked;
+import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.entities.JnEntityLoginToken;
 import com.jn.commons.entities.JnEntityLoginTokenLocked;
 import com.jn.commons.utils.JnGenerateRandomToken;
@@ -39,6 +41,14 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
 		JnEntityLoginEmail.INSTANCE.delete( variaveisParaTeste.TESTING_JSON);
 		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.missingEmail);
+	}
+
+	@Test
+	public void efetuarDesbloqueios() {
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		JnEntityLoginPasswordLocked.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		this.fluxoEsperado(variaveisParaTeste);
 	}
 
 	@Test
@@ -72,6 +82,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.expectedStatus);
 	}
 
+	
 	
 	@Test
 	public void tokenRecemBloqueado() {
