@@ -11,7 +11,7 @@
 					"properties": {}
 			},
 			"messageId": {
-				"type": "keyword"
+				"type": "text"
 			},
 			"success": {
 				"type": "boolean"

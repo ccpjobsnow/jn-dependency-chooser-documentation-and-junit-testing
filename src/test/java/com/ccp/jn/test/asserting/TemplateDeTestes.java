@@ -44,6 +44,7 @@ public abstract class TemplateDeTestes {
 			String message = e.getMessage();
 			mappingJnEntitiesErrorsFile.append(message);
 		};
+		
 		Consumer<Throwable> whenOccursAnError = e -> {
 
 			if (e instanceof ClassNotFoundException) {
