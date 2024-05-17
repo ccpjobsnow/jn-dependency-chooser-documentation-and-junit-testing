@@ -62,7 +62,7 @@ public class Poc {
 	static void salvarVagaDoJobsNowAntigo() {
 		CcpQueryExecutor queryExecutor = CcpDependencyInjection.getDependency(CcpQueryExecutor.class);
 		CcpDbQueryOptions queryToSearchLastUpdatedResumes = 
-				new CcpDbQueryOptions()
+				CcpDbQueryOptions.INSTANCE
 					.matchAll()
 				;
 		CcpFileDecorator file = new CcpStringDecorator("vagas.txt").file();
