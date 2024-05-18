@@ -7,15 +7,15 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
-import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
-import com.ccp.jn.sync.status.login.StatusExecuteLogin;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
+import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.commons.status.StatusExecuteLogin;
 
 public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 
@@ -98,12 +98,12 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.WRONG_PASSWORD, StatusExecuteLogin.passwordLockedRecently);
 		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.lockedPassword);
 	}
-
-	private void executarLogin(VariaveisParaTeste variaveisParaTeste, String senha, StatusEndpointsLogin expectedStatus) {
+ 
+	private void executarLogin(VariaveisParaTeste variaveisParaTeste, String senha, CcpProcessStatus expectedStatus) {
 		this.executarLogin(variaveisParaTeste.VALID_EMAIL, senha, expectedStatus);
 	}
 	
-	private void executarLogin(String email, String senha, StatusEndpointsLogin expectedStatus) {
+	private void executarLogin(String email, String senha, CcpProcessStatus expectedStatus) {
 		CcpJsonRepresentation body = CcpConstants.EMPTY_JSON.put("password", senha);
 		String uri = "login/"
 		+ email;

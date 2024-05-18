@@ -23,7 +23,7 @@ public class TelaDeLogout extends TemplateDeTestes {
 		this.testarEndpoint("/login/" + variaveisParaTeste.VALID_EMAIL, StatusExecuteLogout.missingLogin);
 	}
 
-	@Test
+	@Test 
 	public void caminhoFeliz() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.INSTANCE.create(variaveisParaTeste.TESTING_JSON);

@@ -22,7 +22,7 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 	public void emailInvalido() {
 		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.INVALID_EMAIL, StatusSavePreRegistration.invalidEmail);
 	}
-
+ 
 	@Test
 	public void tokenBloqueado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
@@ -63,7 +63,7 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 	}
 
 	@Test
-	public void caminhoFeliz() {
+	public void caminhoFeliz() { 
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
 		JnEntityLoginPassword.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);

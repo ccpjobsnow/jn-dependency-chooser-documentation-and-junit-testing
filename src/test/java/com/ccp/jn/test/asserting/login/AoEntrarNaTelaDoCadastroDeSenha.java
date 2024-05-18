@@ -16,7 +16,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends TemplateDeTestes{
 	@Test
 	public void emailInvalido() {
 		this.criarTokenDeLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, StatusCreateLoginToken.statusInvalidEmail);
-	}
+	} 
 	
 	@Test
 	public void tokenBloqueado() { 

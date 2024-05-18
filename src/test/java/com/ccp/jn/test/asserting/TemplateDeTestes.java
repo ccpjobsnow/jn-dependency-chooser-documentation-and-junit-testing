@@ -57,7 +57,7 @@ public abstract class TemplateDeTestes {
 				pathToCreateEntityScript, whenIsIncorrectMapping, whenOccursAnError);
 
 		CcpFileDecorator createJnEntitiesFile = new CcpStringDecorator("c:\\logs\\insertErrors.json").file().reset();
-		
+		 
 		createJnEntitiesFile.write(executeDatabaseSetup.toString());
 	}
 

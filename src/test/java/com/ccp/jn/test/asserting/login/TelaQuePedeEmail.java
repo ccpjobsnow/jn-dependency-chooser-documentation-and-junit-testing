@@ -39,7 +39,7 @@ public class TelaQuePedeEmail extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		CcpEntity mirrorEntity = JnEntityLoginPassword.INSTANCE.getMirrorEntity();
-		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN); 
 		this.verificarExistenciaDeEmail(variaveisParaTeste, StatusExistsLoginEmail.lockedPassword);		
 	}
 	
