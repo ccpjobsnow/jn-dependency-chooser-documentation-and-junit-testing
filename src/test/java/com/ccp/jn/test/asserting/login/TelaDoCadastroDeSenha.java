@@ -1,15 +1,17 @@
 package com.ccp.jn.test.asserting.login;
 
+import java.util.function.Function;
+
 import org.junit.Test;
 
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
-import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
 import com.ccp.jn.sync.status.login.StatusUpdatePassword;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
+import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
@@ -25,7 +27,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	
 	@Test
 	public void emailInvalido() {
-		this.requisicaoFake(ConstantesParaTestesDeLogin.INVALID_EMAIL, "abcdefgh", StatusUpdatePassword.invalidEmail);
+		this.requisicaoFake(VariaveisParaTeste.INVALID_EMAIL, "abcdefgh", StatusUpdatePassword.invalidEmail);
 	}
 
 	@Test
@@ -34,23 +36,23 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 		CcpEntity mirrorEntity = JnEntityLoginToken.INSTANCE.getMirrorEntity();
 		mirrorEntity.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
-		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.lockedToken);
+		this.execute(variaveisParaTeste, StatusUpdatePassword.lockedToken, x -> token);
 	}
 
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
-		JnEntityLoginEmail.INSTANCE.delete( variaveisParaTeste.TESTING_JSON);
-		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.missingEmail);
+		JnEntityLoginEmail.INSTANCE.delete( variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusUpdatePassword.missingEmail, x -> token);
 	}
 
 	@Test
 	public void efetuarDesbloqueios() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		CcpEntity mirrorEntity = JnEntityLoginPassword.INSTANCE.getMirrorEntity();
-		mirrorEntity.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.fluxoEsperado(variaveisParaTeste);
 	}
 
@@ -62,11 +64,11 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 
 	public void fluxoEsperado(VariaveisParaTeste variaveisParaTeste) {
 		String token = this.getToken(variaveisParaTeste);
-		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.expectedStatus);
+		this.execute(variaveisParaTeste,StatusUpdatePassword.expectedStatus, x -> token);
 	}
 
 	private String getToken(VariaveisParaTeste variaveisParaTeste) {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 
 		JnGenerateRandomTokenWithHash transformer = new JnGenerateRandomTokenWithHash(8, "token", "tokenHash");
 		CcpJsonRepresentation entityValue =  variaveisParaTeste.REQUEST_TO_LOGIN.getTransformed(transformer);
@@ -80,50 +82,52 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getToken(variaveisParaTeste);
 		for(int k = 1; k < 3; k++) {
-			this.cadastrarSenha(variaveisParaTeste, "abcdefgh", StatusUpdatePassword.wrongToken);
+			this.execute(variaveisParaTeste, StatusUpdatePassword.wrongToken, x -> "abcdefgh");
 		}
-		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.expectedStatus);
+		this.execute(variaveisParaTeste, StatusUpdatePassword.expectedStatus, x -> token);
 	}
-
-	
 	
 	@Test
 	public void tokenRecemBloqueado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getToken(variaveisParaTeste);
 		for(int k = 1; k < 3; k++) {
-			this.cadastrarSenha(variaveisParaTeste, "abcdefgh", StatusUpdatePassword.wrongToken);
+			this.execute(variaveisParaTeste, StatusUpdatePassword.wrongToken, x -> "abcdefgh");
 		}
-		this.cadastrarSenha(variaveisParaTeste, "abcdefgh", StatusUpdatePassword.tokenLockedRecently);
+		this.execute(variaveisParaTeste, StatusUpdatePassword.tokenLockedRecently, x -> "abcdefgh");
 		new CcpTimeDecorator().sleep(1000);
-		this.cadastrarSenha(variaveisParaTeste, token, StatusUpdatePassword.lockedToken);
+		this.execute(variaveisParaTeste, StatusUpdatePassword.lockedToken, x -> token);
 	}
 
-	private void cadastrarSenha(VariaveisParaTeste variaveisParaTeste, String tokenToValidateLogin, StatusEndpointsLogin expectedStatus) {
+	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {
+		String tokenToValidateLogin = producer.apply(variaveisParaTeste);
 		String uri = "login/"
 		+ variaveisParaTeste.VALID_EMAIL
 		+ "/password";
-		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put("password", ConstantesParaTestesDeLogin.CORRECT_PASSWORD)
+		
+		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put("password", VariaveisParaTeste.CORRECT_PASSWORD)
 				.put("token", tokenToValidateLogin);
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
+		String apply = producer.apply(variaveisParaTeste);
+		return apply;
 	}
 
-	private void requisicaoFake(String email, String tokenToValidateLogin, StatusEndpointsLogin expectedStatus) {
+	private void requisicaoFake(String email, String tokenToValidateLogin, CcpProcessStatus expectedStatus) {
 		String uri = "login/"
 		+ email
 		+ "/password";
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put("password", ConstantesParaTestesDeLogin.CORRECT_PASSWORD)
+		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put("password", VariaveisParaTeste.CORRECT_PASSWORD)
 				.put("token", tokenToValidateLogin);
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
 	}
 
 	
 	private String getTokenToValidateLogin(VariaveisParaTeste variaveisParaTeste) {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.INSTANCE.createOrUpdate( variaveisParaTeste.ANSWERS_JSON);
 		JnGenerateRandomToken transformer = new JnGenerateRandomToken(8, "token");
-		CcpJsonRepresentation loginToken =  variaveisParaTeste.TESTING_JSON.getTransformed(transformer);
+		CcpJsonRepresentation loginToken =  variaveisParaTeste.REQUEST_TO_LOGIN.getTransformed(transformer);
 		String token = loginToken.getAsString("token");
 		return token;
 

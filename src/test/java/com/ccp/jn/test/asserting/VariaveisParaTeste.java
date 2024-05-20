@@ -6,7 +6,11 @@ import com.ccp.decorators.CcpStringDecorator;
 import com.jn.commons.utils.JnGenerateRandomToken;
 
 public class VariaveisParaTeste {
-	
+	public final static String CORRECT_PASSWORD = "Jobsnow1!";
+	public final static String WRONG_PASSWORD = "Novasenha1!";
+	public final static String INCORRECT_TOKEN_TO_SAVE_PASSWORD = "qualquerCoisa";
+	public final static String INVALID_EMAIL = "devs.jobsnowgmail.com";
+
 	public final static String SESSION_TOKEN = CcpConstants.EMPTY_JSON.getTransformed(
 			new JnGenerateRandomToken(8, "token")).getAsString("token");
 	
@@ -16,22 +20,19 @@ public class VariaveisParaTeste {
 			.put("ip", "localhost:8080")
 			;
 			
-	public CcpJsonRepresentation TESTING_JSON = CcpConstants.EMPTY_JSON;
-	public String VALID_EMAIL;
+	public final String VALID_EMAIL;
 
-	public CcpJsonRepresentation ANSWERS_JSON = CcpConstants.EMPTY_JSON;
+	public final CcpJsonRepresentation ANSWERS_JSON;
 	
 
 
 	public VariaveisParaTeste() {
-		String nome = new CcpStringDecorator("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toLowerCase()).text().generateToken(8).content;
-		this.VALID_EMAIL = nome + "@teste.com";
-		this.TESTING_JSON = this.TESTING_JSON.put("email", this.VALID_EMAIL);
-		this.REQUEST_TO_LOGIN = this.REQUEST_TO_LOGIN.put("email", this.VALID_EMAIL);
-		this.ANSWERS_JSON = this.TESTING_JSON.put("goal", "jobs").put("channel", "linkedin");
+		this(new CcpStringDecorator("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toLowerCase()).text().generateToken(8).content + "@teste.com");
 	}
+	public VariaveisParaTeste(String email) {
 	
-			
-	
-
+		this.VALID_EMAIL = email;
+		this.REQUEST_TO_LOGIN = this.REQUEST_TO_LOGIN.put("email", this.VALID_EMAIL);
+		this.ANSWERS_JSON = this.REQUEST_TO_LOGIN.put("goal", "jobs").put("channel", "linkedin");
+	}	
 }

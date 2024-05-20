@@ -1,5 +1,7 @@
 package com.ccp.jn.test.asserting.login;
 
+import java.util.function.Function;
+
 import org.junit.Test;
 
 import com.ccp.constantes.CcpConstants;
@@ -21,7 +23,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.executarLogin(ConstantesParaTestesDeLogin.INVALID_EMAIL, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.invalidEmail);
+		this.executarLogin(VariaveisParaTeste.INVALID_EMAIL, VariaveisParaTeste.CORRECT_PASSWORD, StatusExecuteLogin.invalidEmail);
 	}
 
 	@Test
@@ -29,38 +31,38 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		CcpEntity mirrorEntity = JnEntityLoginToken.INSTANCE.getMirrorEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD , StatusExecuteLogin.lockedToken);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.lockedToken, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.missingEmail);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.missingEmail, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.missingPassword);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.missingPassword, x-> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
 	public void senhaBloqueada() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		CcpEntity mirrorEntity = JnEntityLoginPassword.INSTANCE.getMirrorEntity();
-		mirrorEntity.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.lockedPassword);
+		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.lockedPassword, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
 	public void usuarioJaLogado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.loginConflict);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.loginConflict, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
@@ -68,8 +70,8 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);;
 		new CcpTimeDecorator().sleep(10000);
-		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.TESTING_JSON);
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.expectedStatus);
+		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.expectedStatus, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
@@ -77,12 +79,12 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);
 		new CcpTimeDecorator().sleep(10000);
-		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
 		
 		for(int k = 1; k < 3; k++) {
-			this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.WRONG_PASSWORD, StatusExecuteLogin.wrongPassword);
+			this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		}
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.expectedStatus);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.expectedStatus, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 	
 	@Test
@@ -90,17 +92,20 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);;
 		new CcpTimeDecorator().sleep(10000);
-		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
 		
 		for(int k = 1; k < 3; k++) {
-			this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.WRONG_PASSWORD, StatusExecuteLogin.wrongPassword);
+			this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		}
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.WRONG_PASSWORD, StatusExecuteLogin.passwordLockedRecently);
-		this.executarLogin(variaveisParaTeste, ConstantesParaTestesDeLogin.CORRECT_PASSWORD, StatusExecuteLogin.lockedPassword);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.passwordLockedRecently, x -> VariaveisParaTeste.WRONG_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.lockedPassword, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
- 
-	private void executarLogin(VariaveisParaTeste variaveisParaTeste, String senha, CcpProcessStatus expectedStatus) {
+
+	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {
+		String senha = producer.apply(variaveisParaTeste);
 		this.executarLogin(variaveisParaTeste.VALID_EMAIL, senha, expectedStatus);
+		String apply = producer.apply(variaveisParaTeste);
+		return apply;
 	}
 	
 	private void executarLogin(String email, String senha, CcpProcessStatus expectedStatus) {

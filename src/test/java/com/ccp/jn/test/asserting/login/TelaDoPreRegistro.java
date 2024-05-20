@@ -1,15 +1,17 @@
 package com.ccp.jn.test.asserting.login;
 
+import java.util.function.Function;
+
 import org.junit.Test;
 
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
-import com.ccp.jn.sync.status.login.StatusEndpointsLogin;
-import com.ccp.jn.sync.status.login.StatusSavePreRegistration;
+import com.ccp.jn.sync.status.login.StatusSaveAnswers;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
+import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
@@ -20,7 +22,7 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.cadastrarPreRegistration(ConstantesParaTestesDeLogin.INVALID_EMAIL, StatusSavePreRegistration.invalidEmail);
+		this.cadastrarPreRegistration(VariaveisParaTeste.INVALID_EMAIL, StatusSaveAnswers.invalidEmail);
 	}
  
 	@Test
@@ -28,53 +30,55 @@ public class TelaDoPreRegistro  extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		CcpEntity mirrorEntity = JnEntityLoginToken.INSTANCE.getMirrorEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.lockedToken);
+		this.execute(variaveisParaTeste, StatusSaveAnswers.lockedToken);
 	}
 
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.tokenFaltando);
+		this.execute(variaveisParaTeste, StatusSaveAnswers.tokenFaltando);
 	}
 
 	@Test
 	public void usuarioJaLogado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.loginConflict);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusSaveAnswers.loginConflict);
 	}
 
 	@Test
 	public void faltandoCadastrarSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginAnswers.INSTANCE.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.missingPassword);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusSaveAnswers.missingPassword);
 	}
 
 	@Test
 	public void senhaBloqueada() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		CcpEntity mirrorEntity = JnEntityLoginPassword.INSTANCE.getMirrorEntity();
-		mirrorEntity.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.lockedPassword);
+		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusSaveAnswers.lockedPassword);
 	}
 
 	@Test
 	public void caminhoFeliz() { 
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		JnEntityLoginPassword.INSTANCE.createOrUpdate(variaveisParaTeste.TESTING_JSON);
-		this.cadastrarPreRegistration(variaveisParaTeste, StatusSavePreRegistration.expectedStatus);
+		JnEntityLoginEmail.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginPassword.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusSaveAnswers.expectedStatus);
 	}
-
-	private void cadastrarPreRegistration(VariaveisParaTeste variaveisParaTeste, StatusEndpointsLogin expectedStatus) {
+	//
+	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {
 		this.cadastrarPreRegistration(variaveisParaTeste.VALID_EMAIL, expectedStatus);
+		String apply = producer.apply(variaveisParaTeste);
+		return apply;
 	}
 	
-	private void cadastrarPreRegistration(String email, StatusEndpointsLogin expectedStatus) {
+	private void cadastrarPreRegistration(String email, CcpProcessStatus expectedStatus) {
 		CcpJsonRepresentation body = CcpConstants.EMPTY_JSON.put("goal", "jobs").put("channel", "linkedin");
 		String uri = "login/"+ email 	+ "/pre-registration";
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);

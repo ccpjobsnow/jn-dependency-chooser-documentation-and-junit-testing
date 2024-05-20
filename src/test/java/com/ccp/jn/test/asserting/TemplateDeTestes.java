@@ -2,6 +2,7 @@ package com.ccp.jn.test.asserting;
 
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
@@ -95,14 +96,14 @@ public abstract class TemplateDeTestes {
 
 		int actualStatus = response.httpStatus;
 
-		this.logRequestAndResponse(path, scenarioName, actualStatus, body, headers, executeHttpRequest);
+		this.logRequestAndResponse(path, method, scenarioName, actualStatus, body, headers, executeHttpRequest);
 
 		scenarioName.verifyStatus(actualStatus);
 
 		return executeHttpRequest;
 	}
 
-	private <V> void logRequestAndResponse(String url, CcpProcessStatus status, int actualStatus,
+	private <V> void logRequestAndResponse(String url, String method, CcpProcessStatus status, int actualStatus,
 			CcpJsonRepresentation body, CcpJsonRepresentation headers, V executeHttpRequest) {
 
 		CcpJsonRepresentation md = CcpConstants.EMPTY_JSON.put("x", executeHttpRequest);
@@ -114,7 +115,7 @@ public abstract class TemplateDeTestes {
 		String date = new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss");
 
 		int expectedStatus = status.status();
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("url", url).put("actualStatus", actualStatus)
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("url", url).put("method", method).put("actualStatus", actualStatus)
 				.put("expectedStatus", expectedStatus).put("headers", headers).put("request", body).put("response", md)
 				.put("timestamp", date);
 		String asPrettyJson = put.asPrettyJson();
@@ -123,5 +124,12 @@ public abstract class TemplateDeTestes {
 		new CcpStringDecorator("c:\\rh\\jn\\logs\\").folder().createNewFolderIfNotExists(testName)
 				.writeInTheFile(status + ".json", asPrettyJson);
 	}
+	
+	public final String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus) {
+		String execute = this.execute(variaveisParaTeste, expectedStatus, x -> "");
+		return execute;
+	}
+	
+	public abstract String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer); 
 
 }
