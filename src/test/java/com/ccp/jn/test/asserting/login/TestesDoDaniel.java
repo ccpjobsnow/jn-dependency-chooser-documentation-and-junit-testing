@@ -4,8 +4,6 @@ import static org.junit.Assert.assertFalse;
 
 import javax.swing.JOptionPane;
 
-import org.junit.Test;
-
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.jn.sync.status.login.StatusCreateLoginEmail;
 import com.ccp.jn.sync.status.login.StatusCreateLoginToken;
@@ -19,7 +17,6 @@ import com.jn.commons.status.StatusExecuteLogin;
 
 public class TestesDoDaniel {
 	
-	@Test
 	public void _20240518() {
 		String email = "onias@ccpjobsnow.com";
 		VariaveisParaTeste cenarioDeTeste = new VariaveisParaTeste(email);
@@ -51,6 +48,7 @@ public class TestesDoDaniel {
 		telaQuePedeSenhaParaEntrarNoSistema.execute(cenarioDeTeste, StatusExecuteLogin.expectedStatus, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 		new CcpTimeDecorator().sleep(10_000);
 		telaDeLogout.execute(cenarioDeTeste, StatusExecuteLogout.expectedStatus);
+		telaQuePedeSenhaParaEntrarNoSistema.execute(cenarioDeTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		telaQuePedeSenhaParaEntrarNoSistema.execute(cenarioDeTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		telaQuePedeSenhaParaEntrarNoSistema.execute(cenarioDeTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		telaQuePedeSenhaParaEntrarNoSistema.execute(cenarioDeTeste, StatusExecuteLogin.passwordLockedRecently, x -> VariaveisParaTeste.WRONG_PASSWORD);

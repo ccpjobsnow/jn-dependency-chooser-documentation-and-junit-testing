@@ -74,6 +74,20 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		this.execute(variaveisParaTeste, StatusExecuteLogin.expectedStatus, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
+	
+	@Test
+	public void errarSenha() {
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias@ccpjobsnow.com");
+		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);
+		new CcpTimeDecorator().sleep(10000);
+		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.passwordLockedRecently, x -> VariaveisParaTeste.WRONG_PASSWORD);
+		
+	}
+	
 	@Test
 	public void errarParaDepoisAcertarSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
@@ -94,7 +108,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		new CcpTimeDecorator().sleep(10000);
 		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
 		
-		for(int k = 1; k < 3; k++) {
+		for(int k = 1; k <= 3; k++) {
 			this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		}
 		this.execute(variaveisParaTeste, StatusExecuteLogin.passwordLockedRecently, x -> VariaveisParaTeste.WRONG_PASSWORD);

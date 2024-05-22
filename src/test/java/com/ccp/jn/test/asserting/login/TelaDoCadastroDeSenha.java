@@ -91,7 +91,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	public void tokenRecemBloqueado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getToken(variaveisParaTeste);
-		for(int k = 1; k < 3; k++) {
+		for(int k = 1; k <= 3; k++) {
 			this.execute(variaveisParaTeste, StatusUpdatePassword.wrongToken, x -> "abcdefgh");
 		}
 		this.execute(variaveisParaTeste, StatusUpdatePassword.tokenLockedRecently, x -> "abcdefgh");
