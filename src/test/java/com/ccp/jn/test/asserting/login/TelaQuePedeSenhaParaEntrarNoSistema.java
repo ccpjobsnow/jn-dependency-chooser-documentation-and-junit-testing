@@ -9,6 +9,7 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
+import com.ccp.jn.sync.status.login.StatusExistsLoginEmail;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
@@ -76,7 +77,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 
 	
 	@Test
-	public void errarSenha() {
+	public void bloquearSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias@ccpjobsnow.com");
 		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);
 		new CcpTimeDecorator().sleep(10000);
@@ -84,8 +85,8 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
-		this.execute(variaveisParaTeste, StatusExecuteLogin.passwordLockedRecently, x -> VariaveisParaTeste.WRONG_PASSWORD);
-		
+		new CcpTimeDecorator().sleep(10_000);
+		new TelaQuePedeEmail().execute(variaveisParaTeste, StatusExistsLoginEmail.lockedPassword);
 	}
 	
 	@Test
