@@ -7,7 +7,10 @@ import org.junit.Test;
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
+import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.utils.CcpEntity;
+import com.ccp.especifications.http.CcpHttpRequester;
+import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.StatusExistsLoginEmail;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
@@ -85,8 +88,23 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.passwordLockedRecently, x -> VariaveisParaTeste.WRONG_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.lockedPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		new CcpTimeDecorator().sleep(10_000);
 		new TelaQuePedeEmail().execute(variaveisParaTeste, StatusExistsLoginEmail.lockedPassword);
+	}
+	
+	@Test
+	public void x() {
+		CcpTimeDecorator ccpTimeDecorator = new CcpTimeDecorator();
+
+		while(true) {
+			CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
+			CcpHttpResponse executeHttpRequest = dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", "GET", CcpConstants.EMPTY_JSON, "");
+			System.out.println(executeHttpRequest.httpResponse);
+			ccpTimeDecorator.sleep(1_000);
+		}
+
 	}
 	
 	@Test

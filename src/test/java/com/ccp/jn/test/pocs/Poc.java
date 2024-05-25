@@ -15,7 +15,6 @@ import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityDisposableRecords;
-import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 
 public class Poc {
@@ -30,12 +29,9 @@ public class Poc {
 
 	}
 	public static void main(String[] args) {
-		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
-				+ "  \"templateId\": \"notifyError\"\r\n"
-				+ "} ");
-
-		String id = JnEntityInstantMessengerParametersToSend.INSTANCE.getId(json);
-		System.out.println(id);
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "org.springframework.web.HttpRequestMethodNotSupportedException");
+		boolean exists = JnEntityJobsnowError.INSTANCE.exists(put);
+		System.out.println(exists);
 	}
 
 	static void extracted() {
