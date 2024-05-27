@@ -95,7 +95,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 			this.execute(variaveisParaTeste, StatusUpdatePassword.wrongToken, x -> "abcdefgh");
 		}
 		this.execute(variaveisParaTeste, StatusUpdatePassword.tokenLockedRecently, x -> "abcdefgh");
-		new CcpTimeDecorator().sleep(1000);
+		new CcpTimeDecorator().sleep(10_000);
 		this.execute(variaveisParaTeste, StatusUpdatePassword.lockedToken, x -> token);
 	}
 

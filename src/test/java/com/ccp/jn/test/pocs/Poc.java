@@ -8,6 +8,8 @@ import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
+import com.ccp.especifications.http.CcpHttpRequester;
+import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -29,9 +31,14 @@ public class Poc {
 
 	}
 	public static void main(String[] args) {
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "org.springframework.web.HttpRequestMethodNotSupportedException");
-		boolean exists = JnEntityJobsnowError.INSTANCE.exists(put);
-		System.out.println(exists);
+		CcpTimeDecorator ccpTimeDecorator = new CcpTimeDecorator();
+
+		while(true) {
+			CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
+			CcpHttpResponse executeHttpRequest = dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", "GET", CcpConstants.EMPTY_JSON, "");
+			System.out.println(executeHttpRequest.httpResponse);
+			ccpTimeDecorator.sleep(1_000);
+		}
 	}
 
 	static void extracted() {
