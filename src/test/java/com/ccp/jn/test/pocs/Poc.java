@@ -16,7 +16,7 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.jn.commons.entities.JnEntityContactUs;
-import com.jn.commons.entities.JnEntityDisposableRecords;
+import com.jn.commons.entities.JnEntityDisposableRecord;
 import com.jn.commons.entities.JnEntityJobsnowError;
 
 public class Poc {
@@ -57,13 +57,13 @@ public class Poc {
 
 	static void diposableEntity() {
 		RuntimeException e = new RuntimeException("erro de teste");
-		CcpJsonRepresentation values = new CcpJsonRepresentation(e);
-		JnEntityJobsnowError.INSTANCE.create(values);
-		String id = JnEntityJobsnowError.INSTANCE.getId(values);
+		CcpJsonRepresentation json = new CcpJsonRepresentation(e);
+		JnEntityJobsnowError.INSTANCE.create(json);
+		String id = JnEntityJobsnowError.INSTANCE.calculateId(json);
 		CcpJsonRepresentation value1 = JnEntityJobsnowError.INSTANCE.getOneById(id);
 		System.out.println(value1);
 		CcpJsonRepresentation copyIdToSearch = JnEntityJobsnowError.INSTANCE.getCopyIdToSearch(value1);
-		CcpJsonRepresentation value2 = JnEntityDisposableRecords.INSTANCE.getOneById(copyIdToSearch);
+		CcpJsonRepresentation value2 = JnEntityDisposableRecord.INSTANCE.getOneById(copyIdToSearch);
 		System.out.println(value2);
 	}
 

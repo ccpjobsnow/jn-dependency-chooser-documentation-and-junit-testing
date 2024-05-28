@@ -6,6 +6,9 @@
 				"dynamic": "true",
 					"properties": {}
 			},
+			"date": {
+				"type": "text"
+			},
 			"id": {
 				"type": "keyword"
 			},

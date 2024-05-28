@@ -5,6 +5,9 @@
 			"json": {
 				"type": "text"
 			},
+			"date": {
+				"type": "text"
+			},
 			"id": {
 				"type": "keyword"
 			},
