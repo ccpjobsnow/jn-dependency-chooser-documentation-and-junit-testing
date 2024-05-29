@@ -18,6 +18,8 @@ import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityDisposableRecord;
+import com.jn.commons.entities.JnEntityEmailParametersToSend;
+import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 
 public class Poc {
@@ -33,6 +35,21 @@ public class Poc {
 	}
 	public static void main(String[] args) {
 		errarInfinitamente();
+	}
+
+	static void testarNotifyError() {
+		CcpCrud dependency = CcpDependencyInjection.getDependency(CcpCrud.class);
+		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
+				+ "  \"templateId\": \"notifyError\"\r\n"
+				+ "} ");
+		
+		CcpSelectUnionAll unionAll = dependency.unionAll(json
+				, JnEntityInstantMessengerParametersToSend.INSTANCE
+				, JnEntityEmailParametersToSend.INSTANCE
+				);
+		
+		System.out.println(JnEntityInstantMessengerParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
+		System.out.println(JnEntityEmailParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
 	}
 
 	static void testarDisposable() {

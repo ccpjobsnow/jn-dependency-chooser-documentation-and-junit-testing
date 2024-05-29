@@ -1,6 +1,5 @@
 package com.ccp.jn.test.performance;
 
-import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpHashDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
@@ -11,16 +10,14 @@ import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
-import com.jn.commons.entities.JnEntityJobsnowError;
 
 public class PocHashPerformance {
 	static{
 		CcpDependencyInjection.loadAllDependencies(new CcpApacheMimeHttp(), new CcpGsonJsonHandler(), new CcpElasticSearchDbRequest());
 	}
 	public static void main(String[] args) {
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "org.springframework.web.HttpRequestMethodNotSupportedException");
-		String calculateId = JnEntityJobsnowError.INSTANCE.calculateId(put);
-		System.out.println(calculateId);
+		
+		
 	}
 	
 	static void x() {
