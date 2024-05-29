@@ -6,10 +6,11 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
+import com.ccp.especifications.db.crud.CcpCrud;
+import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
 import com.ccp.especifications.http.CcpHttpRequester;
-import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -31,13 +32,35 @@ public class Poc {
 
 	}
 	public static void main(String[] args) {
+		errarInfinitamente();
+	}
+
+	static void testarDisposable() {
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "teste");
+		JnEntityJobsnowError instance = JnEntityJobsnowError.INSTANCE;
+//		instance.delete(put);
+		instance.create(put);
+		CcpCrud dependency = CcpDependencyInjection.getDependency(CcpCrud.class);
+		while(true) {
+			CcpTimeDecorator ccpTimeDecorator = new CcpTimeDecorator();
+			CcpSelectUnionAll unionAll = dependency.unionAll(put, instance);
+			boolean presentInThisUnionAll = instance.isPresentInThisUnionAll(unionAll, put);
+			String formattedDateTime = ccpTimeDecorator.getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS");
+			System.out.println(presentInThisUnionAll + " - " + formattedDateTime);
+			if(presentInThisUnionAll == false) {
+				instance.create(put);
+			}
+			ccpTimeDecorator.sleep(10_000);
+		}
+	}
+
+	static void errarInfinitamente() {
 		CcpTimeDecorator ccpTimeDecorator = new CcpTimeDecorator();
+		CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
 
 		while(true) {
-			CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
-			CcpHttpResponse executeHttpRequest = dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", "GET", CcpConstants.EMPTY_JSON, "");
-			System.out.println(executeHttpRequest.httpResponse);
-			ccpTimeDecorator.sleep(1_000);
+			dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", "GET", CcpConstants.EMPTY_JSON, "");
+			ccpTimeDecorator.sleep(60_000);
 		}
 	}
 

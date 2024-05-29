@@ -3,7 +3,7 @@ D) Salvar ocorrencia de inactive position, negativated resume,
 denied resume, resume does not match, inactive resume
 
 Passos pra colocar o deploy sem LN:
-A) Terminar as funcionalidades menores do VIS (nao são grande coisa);
+A) Terminar as funcionalidades menores do VIS;
 B) Levantar palavras chaves e sinônimos;
 C) Criar testes para o VIS;
 D) Levantar massa de Dados para o VIS;
