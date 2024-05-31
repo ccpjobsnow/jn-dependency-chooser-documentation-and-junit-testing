@@ -85,7 +85,7 @@ public abstract class TemplateDeTestes {
 		CcpJsonRepresentation headers = this.getHeaders();
 
 		int expectedStatus = scenarioName.status();
-		CcpHttpHandler http = new CcpHttpHandler(expectedStatus, CcpConstants.DO_BY_PASS);
+		CcpHttpHandler http = new CcpHttpHandler(expectedStatus, CcpConstants.DO_NOTHING);
 		String path = this.ENDPOINT_URL + uri;
 		String name = this.getClass().getName();
 		String asUgglyJson = body.asUgglyJson();

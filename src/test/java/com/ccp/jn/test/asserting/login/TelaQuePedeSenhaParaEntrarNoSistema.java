@@ -99,7 +99,6 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
 		
 		for(int k = 1; k < 3; k++) {
-			System.out.println(k);
 			this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);
 		}
 		this.execute(variaveisParaTeste, StatusExecuteLogin.expectedStatus, x -> VariaveisParaTeste.CORRECT_PASSWORD);

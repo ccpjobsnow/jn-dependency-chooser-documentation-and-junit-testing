@@ -31,10 +31,10 @@ public class Poc {
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
 				);
-
 	}
+
 	public static void main(String[] args) {
-		errarInfinitamente();
+		
 	}
 
 	static void testarNotifyError() {
@@ -48,8 +48,8 @@ public class Poc {
 				, JnEntityEmailParametersToSend.INSTANCE
 				);
 		
-		System.out.println(JnEntityInstantMessengerParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
-		System.out.println(JnEntityEmailParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
+		CcpTimeDecorator.log(JnEntityInstantMessengerParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
+		CcpTimeDecorator.log(JnEntityEmailParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
 	}
 
 	static void testarDisposable() {
@@ -63,7 +63,7 @@ public class Poc {
 			CcpSelectUnionAll unionAll = dependency.unionAll(put, instance);
 			boolean presentInThisUnionAll = instance.isPresentInThisUnionAll(unionAll, put);
 			String formattedDateTime = ccpTimeDecorator.getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS");
-			System.out.println(presentInThisUnionAll + " - " + formattedDateTime);
+			CcpTimeDecorator.log(presentInThisUnionAll + " - " + formattedDateTime);
 			if(presentInThisUnionAll == false) {
 				instance.create(put);
 			}
@@ -82,17 +82,17 @@ public class Poc {
 	}
 
 	static void extracted() {
-		System.out.println("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
+		CcpTimeDecorator.log("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("subjectType", "teste").put("email", "teste");
 		JnEntityContactUs.INSTANCE.create(put);
 		CcpJsonRepresentation oneById = JnEntityContactUs.INSTANCE.getOneById(put);
-		System.out.println(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById);
+		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById);
 		new CcpTimeDecorator().sleep(500);
 		CcpJsonRepresentation oneById1 = JnEntityContactUs.INSTANCE.getOneById(put);
-		System.out.println(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById1);
+		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById1);
 		new CcpTimeDecorator().sleep(400);
 		CcpJsonRepresentation oneById2 = JnEntityContactUs.INSTANCE.getOneById(put, x -> CcpConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
-		System.out.println(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
+		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
 	}
 
 	static void diposableEntity() {
@@ -101,10 +101,10 @@ public class Poc {
 		JnEntityJobsnowError.INSTANCE.create(json);
 		String id = JnEntityJobsnowError.INSTANCE.calculateId(json);
 		CcpJsonRepresentation value1 = JnEntityJobsnowError.INSTANCE.getOneById(id);
-		System.out.println(value1);
+		CcpTimeDecorator.log(value1);
 		CcpJsonRepresentation copyIdToSearch = JnEntityJobsnowError.INSTANCE.getCopyIdToSearch(value1);
 		CcpJsonRepresentation value2 = JnEntityDisposableRecord.INSTANCE.getOneById(copyIdToSearch);
-		System.out.println(value2);
+		CcpTimeDecorator.log(value2);
 	}
 
 	static int counter;
@@ -126,7 +126,7 @@ public class Poc {
 					String texto = vaga.getAsString("vaga").replace("\n", "").trim();
 					String completeLeft = new CcpStringDecorator("" + ++counter).text().completeLeft('0', 6).content;
 					file.append(completeLeft + ": " + texto);
-					System.out.println(counter);
+					CcpTimeDecorator.log(counter);
 				}, "vaga");
 	}
 }

@@ -1,6 +1,6 @@
 package com.ccp.jn.test.pocs;
 
-import java.io.*;
+import java.io.File;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpStringDecorator;
+import com.ccp.decorators.CcpTimeDecorator;
 
 public class ContarMensagensDoTelegram {
 
@@ -62,9 +63,9 @@ public class ContarMensagensDoTelegram {
 			for (String line : lines2) {
 				arquivoDeSaida.append(line);
 			}
-			System.out.println(format);
+			CcpTimeDecorator.log(format);
 		}
-		System.out.println("Total geral: " + totalGeral + ". Total de aceitos: " + totalDeAceitos);
+		CcpTimeDecorator.log("Total geral: " + totalGeral + ". Total de aceitos: " + totalDeAceitos);
 	}
 	private static String sanitizarLinha(String line) {
 		
