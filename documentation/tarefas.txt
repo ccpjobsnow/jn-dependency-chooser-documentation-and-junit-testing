@@ -1,6 +1,16 @@
 Lembretes
-D) Salvar ocorrencia de inactive position, negativated resume, 
-denied resume, resume does not match, inactive resume
+reteste do Login
+teste do verbo get
+timestamp
+campos de tabelas 
+validações
+scripts das tabelas
+skills da vaga
+salvar bucket
+excluir bucket 
+cache no compute engine
+memcache local 
+subida do endpoint do VIS no eclipse 
 
 Passos pra colocar o deploy sem LN:
 A) Terminar as funcionalidades menores do VIS;
