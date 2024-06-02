@@ -11,6 +11,7 @@ import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
 import com.ccp.especifications.http.CcpHttpRequester;
+import com.ccp.exceptions.process.CcpFlow;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -34,7 +35,8 @@ public class Poc {
 	}
 
 	public static void main(String[] args) {
-		
+		System.out.println(new CcpJsonRepresentation(new CcpFlow(CcpConstants.EMPTY_JSON, 200, 
+				"teste", args) ));
 	}
 
 	static void testarNotifyError() {
