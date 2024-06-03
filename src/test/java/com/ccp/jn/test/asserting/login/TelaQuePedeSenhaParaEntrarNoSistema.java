@@ -78,7 +78,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
 	
 	@Test
 	public void bloquearSenha() {
-		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias@ccpjobsnow.com");
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);
 		new CcpTimeDecorator().sleep(10000);
 		JnEntityLoginSessionCurrent.INSTANCE.delete(variaveisParaTeste.REQUEST_TO_LOGIN);

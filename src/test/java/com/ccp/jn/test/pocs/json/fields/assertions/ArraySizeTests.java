@@ -9,8 +9,8 @@ import org.junit.Test;
 
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
-import com.ccp.decorators.CcpJsonRepresentation.WrongType;
 import com.ccp.dependency.injection.CcpDependencyInjection;
+import com.ccp.exceptions.json.JsonFieldIncorrectType;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
@@ -24,7 +24,7 @@ public class ArraySizeTests {
 				);		
 	}
 	
-	@Test(expected = WrongType.class)
+	@Test(expected = JsonFieldIncorrectType.class)
 	public void wrongType() {
 		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
 				.put("field2", 1)

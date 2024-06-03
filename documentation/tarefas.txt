@@ -1,16 +1,22 @@
-Lembretes
-reteste do Login
-teste do verbo get
-timestamp
-campos de tabelas 
-validações
-scripts das tabelas
-skills da vaga
-salvar bucket
-excluir bucket 
-cache no compute engine
-memcache local 
-subida do endpoint do VIS no eclipse 
+Necessários para testes do Fernando
+A) validações
+B) scripts das tabelas
+C) salvar bucket
+D) excluir bucket 
+E) cache no compute engine
+F) memcache local 
+G) ligar memcache do google
+H) comunicar caches
+I) gemini
+J) subida do endpoint do VIS no eclipse 
+
+Tarefas paralelas (Enquanto o Fernando estiver testando)
+A) suporte (contact-us)
+B) suporte por telegram (responder contact-us)
+C) curriculo no telegram
+D) desbloqueio de token no telegram
+E) curriculos por e-mail
+
 
 Passos pra colocar o deploy sem LN:
 A) Terminar as funcionalidades menores do VIS;
