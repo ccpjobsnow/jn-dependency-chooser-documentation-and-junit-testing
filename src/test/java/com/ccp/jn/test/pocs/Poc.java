@@ -37,6 +37,22 @@ public class Poc {
 		errarInfinitamente();
 	}
 
+	static void testarTempo() {
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "teste");
+		JnEntityJobsnowError.INSTANCE.delete(put);
+		JnEntityJobsnowError.INSTANCE.create(put);
+		while(true) {
+			boolean x = JnEntityJobsnowError.INSTANCE.exists(put);
+			if(!x) {
+				JnEntityJobsnowError.INSTANCE.create(put);
+				System.out.println();
+			}
+			System.out.println(new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS") + " = " + x);
+			new CcpTimeDecorator().sleep(1000);
+			
+		}
+	}
+
 	static void testarNotifyError() {
 		CcpCrud dependency = CcpDependencyInjection.getDependency(CcpCrud.class);
 		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
