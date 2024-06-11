@@ -1,0 +1,17 @@
+{"skill":"ADVOGADA","count":2}
+{"skill":"AGENTE DE AEROPORTO","count":2}
+{"skill":"AGILE COACH","count":179}
+{"skill":"AGILE MASTER","count":108}
+{"skill":"AGILEMASTER","count":5}
+{"skill":"AGILISTA","count":54}
+{"skill":"AJUDANTE DE COZINHA","count":13}
+{"skill":"AJUDANTE GERAL","count":109}
+{"skill":"ALMOXARIFE","count":157}
+{"skill":"ARCHITECT","count":288}
+{"skill":"ATENDENTE","count":453}
+{"skill":"AUDITOR","count":198}
+{"skill":"AUXILIAR DE LIMPEZA","count":103}
+{"skill":"AUXILIAR DE SERVICOS GERAIS","count":184}
+{"skill":"BALCONISTA","count":48}
+{"skill":"BIBLIOTECARIO","count":6}
+{"skill":"MATEMATICO","count":2}

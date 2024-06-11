@@ -1,0 +1,56 @@
+{"skill":"ACTIVEDIRECTORY","count":3}
+{"skill":"ACTIVEMQ","count":51}
+{"skill":"ADM","count":525}
+{"skill":"ADMINISTRATION","count":52}
+{"skill":"ADMINISTRATIVAS","count":871}
+{"skill":"ADMINISTRATIVOS","count":244}
+{"skill":"ADMINSTRATIVO","count":2}
+{"skill":"ADVOCACIA","count":143}
+{"skill":"ADVOGADO CIVIL","count":16}
+{"skill":"ADVOGADO PREVIDENCIARIO","count":9}
+{"skill":"ADVOGADO SOCIETARIO","count":25}
+{"skill":"ADVOGADO TRABALHISTA","count":19}
+{"skill":"ADVOGADO TRIBUTARIO","count":14}
+{"skill":"ADVOGADOS","count":77}
+{"skill":"AGRICOLA","count":74}
+{"skill":"AGRICOLAS","count":82}
+{"skill":"AMAZON WEB SERVICES","count":62}
+{"skill":"AMAZONWEBSERVICES","count":4}
+{"skill":"ANDROIDE","count":3}
+{"skill":"ANGULAR JS","count":149}
+{"skill":"ANGULAR.JS","count":19}
+{"skill":"ANGULARJS","count":252}
+{"skill":"API REST","count":520}
+{"skill":"APIREST","count":24}
+{"skill":"APIS REST","count":921}
+{"skill":"APIS RESTFULL","count":38}
+{"skill":"ARQUITETA","count":60}
+{"skill":"ASP.NET","count":871}
+{"skill":"ASPNET","count":41}
+{"skill":"ATENDENTES","count":16}
+{"skill":"AUDITORES","count":30}
+{"skill":"AUDITORIAS","count":560}
+{"skill":"AUTO CAD","count":31}
+{"skill":"AUTOMATION","count":408}
+{"skill":"AUTOMATIZACAO","count":475}
+{"skill":"AUTOMATIZADO","count":148}
+{"skill":"AUTOMATIZADOR DE TESTES","count":67}
+{"skill":"AUTOMATIZADORES","count":16}
+{"skill":"AZUERE","count":3}
+{"skill":"B.I","count":24}
+{"skill":"BACK END","count":960}
+{"skill":"CONTROLM","count":3}
+{"skill":"SERVICE NOW","count":70}
+{"skill":"SPANISH","count":44}
+{"skill":"BIG DATA","count":543}
+{"skill":"BIG-DATA","count":2}
+{"skill":"BIGQUERY","count":58}
+{"skill":"BUSINESS INTELIGENCE","count":19}
+{"skill":"BUSINESS PROCESS MANAGEMENT","count":10}
+{"skill":"BUSINESSINTELIGENCE","count":7}
+{"skill":"CALLCENTER","count":16}
+{"skill":"CAKE PHP","count":5}
+{"skill":"CAMPAIGN","count":19}
+{"skill":"CHAT BOT","count":3}
+
+

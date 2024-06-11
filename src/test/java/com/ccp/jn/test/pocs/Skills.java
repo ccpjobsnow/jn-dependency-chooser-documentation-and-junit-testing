@@ -51,6 +51,8 @@ public class Skills {
 		novasPalavras.addAll(sinonimos);
 		System.out.println(novasPalavras.size());
 		Set<String> listaNegra = readSkills("documentation\\skills\\listaNegra.txt");
+		Set<String> readFolder = readFolder();
+		listaNegra.addAll(readFolder);
 		for (String string : listaNegra) {
 			novasPalavras.remove(string);
 		}
@@ -107,7 +109,7 @@ public class Skills {
 			String skill = ocorrencia.getAsString("skill");
 			boolean contains = set.contains(skill);
 			if(contains) {
-				continue;
+//				continue;
 			}
 			String asUgglyJson = ocorrencia.asUgglyJson();
 			estatisticas.append(asUgglyJson);
@@ -206,5 +208,26 @@ public class Skills {
 		} catch (Exception e) {
 			return upperCase;
 		}
+	}
+	
+	static Set<String> readFolder(){
+		Set<String> result = new HashSet<String>();
+		
+		new CcpStringDecorator("documentation\\skills\\classificacao")
+		.folder().readFiles(file -> {
+			file.readLines((line, number) -> {
+				try {
+					
+					CcpJsonRepresentation json = new CcpJsonRepresentation(line);
+					String skill = json.getAsString("skill");
+					result.add(skill);
+				} catch (Exception e) {
+				}
+			});
+		});;
+		
+		System.out.println(result.size());
+		return result;
+
 	}
 }
