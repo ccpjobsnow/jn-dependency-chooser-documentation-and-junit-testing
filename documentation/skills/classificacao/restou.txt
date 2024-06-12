@@ -1,1305 +1,2199 @@
-{"skill":"BIBLIOTECAS","count":451}
-{"skill":"BILL","count":10}
-{"skill":"BIOLOGO","count":2}
-{"skill":"BIOMEDICO","count":20}
-{"skill":"BIOQUIMICO","count":12}
-{"skill":"BOLSA DE VALORES","count":25}
-{"skill":"BOMBEIRO CIVIL","count":33}
-{"skill":"BOTANICO","count":58}
-{"skill":"BUILDING","count":121}
-{"skill":"BUSINESS DEVELOPMENT","count":74}
-{"skill":"BUSINESS ONE","count":104}
-{"skill":"BUSINESS SYSTEM ANALYST","count":2}
-{"skill":"BUSSINES","count":8}
-{"skill":"CABEAMENTO ESTRUTURADO","count":78}
-{"skill":"CACADOR","count":2}
-{"skill":"CADISTA","count":20}
-{"skill":"CALDEIREIRO","count":34}
-{"skill":"CAMAREIRA","count":14}
-{"skill":"CAMPOS","count":397}
-{"skill":"CANAIS","count":765}
-{"skill":"CANTEIRO","count":31}
-{"skill":"CAPTURA","count":78}
-{"skill":"CARGA","count":1223}
-{"skill":"CARGOS","count":686}
-{"skill":"CARPINTEIRO","count":8}
-{"skill":"CARREIRA","count":1466}
-{"skill":"CARRETEIRO","count":161}
-{"skill":"CARTAO","count":1434}
-{"skill":"CARTEIRA","count":1530}
-{"skill":"CARTOES","count":259}
-{"skill":"CATEGORIA","count":657}
-,{"skill":"CEO","count":55}
-{"skill":"CERAMISTA","count":2}
-{"skill":"CERIMONIALISTA","count":2}
-{"skill":"CERTIFICACAO","count":1565}
-{"skill":"CERTIFICADO AWS","count":2}
-{"skill":"CERTIFICATE","count":6}
-{"skill":"CERTIFICATION","count":59}
-{"skill":"CHAMADOS","count":796}
-{"skill":"CHARGEBACKS","count":2}
-{"skill":"CHEF","count":74}
-{"skill":"CHEFE DE COZINHA","count":15}
-{"skill":"CIENCIA DA COMPUTACAO","count":569}
-{"skill":"CIENCIAS BIOLOGICAS","count":2}
-{"skill":"CIENCIAS CONTABEIS","count":1036}
-{"skill":"CIENCIAS DA COMPUTACAO","count":338}
-{"skill":"CIENTIFICA","count":15}
-{"skill":"CIENTISTA DE DADOS","count":311}
-{"skill":"CLASSIC","count":19}
-{"skill":"CLEARSALE","count":18}
-{"skill":"CLIENT","count":146}
-{"skill":"CLINICA MEDICA","count":46}
-{"skill":"CLOUD AWS","count":689}
-{"skill":"CLOUD COMPUTING","count":250}
-{"skill":"CLOUD-BASED","count":28}
-{"skill":"CLOUDAWS","count":4}
-{"skill":"CLOUDAZURE","count":6}
-{"skill":"CLOUDS","count":60}
-{"skill":"CLOUDWATCH","count":57}
-{"skill":"CLUSTER","count":116}
-{"skill":"CLUSTERIZACAO","count":5}
-{"skill":"CNH","count":1291}
-{"skill":"COACHING","count":59}
-{"skill":"CODEIGNITER","count":15}
-{"skill":"CODIGO","count":3682}
-{"skill":"COFRE DE SENHA","count":8}
-{"skill":"COFRE DE SENHAS","count":19}
-{"skill":"COMERCIAIS","count":839}
-{"skill":"COMMUNICATION","count":502}
-{"skill":"COMMUNITY MANAGER","count":5}
-{"skill":"COMPANY","count":257}
-{"skill":"COMPRA","count":1012}
-{"skill":"COMPRADOR","count":493}
-{"skill":"COMUNICACAO","count":5188}
-{"skill":"CONCILIACAO","count":916}
-{"skill":"CONFERENCIA","count":1484}
-{"skill":"CONFERENTE","count":117}
-{"skill":"CONSORCIO","count":48}
-{"skill":"CONSTRUCAO NAVAL","count":2}
-{"skill":"CONSULTANT","count":126}
-{"skill":"CONSULTAS","count":745}
-{"skill":"CONSULTOR AZURE","count":15}
-{"skill":"CONSULTOR COMERCIAL","count":342}
-{"skill":"CONSULTOR COMERCIAL EXTERNO","count":19}
-{"skill":"CONSULTOR DE INVESTIMENTOS","count":3}
-{"skill":"CONSULTOR DE NEGOCIOS","count":82}
-{"skill":"CONSULTOR DE SEGURANCA DA INFORMACAO","count":18}
-{"skill":"CONSULTOR DE VENDAS EXTERNO","count":12}
-{"skill":"CONSULTOR FINANCEIRO","count":5}
-{"skill":"CONSULTOR FUNCIONAL","count":221}
-{"skill":"CONSULTORA","count":681}
-{"skill":"CONSULTORAS","count":16}
-{"skill":"CONSULTORES","count":458}
-{"skill":"CONSULTORIA","count":2580}
-{"skill":"CONSUMO","count":1243}
-{"skill":"CONTABILISTA","count":5}
-{"skill":"CONTADOR","count":85}
-{"skill":"CONTADORES","count":17}
-{"skill":"CONTAINERS","count":623}
-{"skill":"CONTAS A PAGAR","count":782}
-{"skill":"CONTASAPAGAR","count":6}
-{"skill":"CONTINUOUS DELIVERY","count":56}
-{"skill":"CONTINUOUS INTEGRATION","count":164}
-{"skill":"CONTINUOUSDELIVERY","count":4}
-{"skill":"CONTINUOUSINTEGRATION","count":16}
-{"skill":"CONTRATO","count":2318}
-{"skill":"CONTRATOS","count":1109}
-{"skill":"CONTROLADORIA","count":480}
-{"skill":"CONTROLE DE QUALIDADE","count":246}
-{"skill":"CONTROLES","count":973}
-{"skill":"CONTROLLER","count":76}
-{"skill":"COORDENACAO","count":717}
-{"skill":"COORDENADOR DE CREDITO","count":9}
-{"skill":"COORDENADOR DE PROJETOS","count":74}
-{"skill":"COORDENADOR DE SEGURANCA DA INFORMACAO","count":11}
-{"skill":"COORDENADOR DE SISTEMAS","count":12}
-{"skill":"COORDENADOR DE TI","count":55}
-{"skill":"COORDENADORA","count":457}
-{"skill":"COORDENADORFINANCEIRO","count":2}
-{"skill":"COPYWRITER","count":8}
-{"skill":"CORPORATIVA","count":284}
-{"skill":"CORPORATIVO","count":317}
-{"skill":"CORRETOR DE IMOVEIS","count":31}
-{"skill":"CORRETOR DE SEGUROS","count":3}
-{"skill":"CORRETORA","count":79}
-{"skill":"CORTADOR","count":12}
-{"skill":"COSTUREIRA","count":15}
-{"skill":"COSTUREIRO","count":24}
-{"skill":"COZINHEIRO","count":81}
-{"skill":"CREATORS","count":2}
-{"skill":"CRECHE","count":508}
-{"skill":"CROSS-PLATFORM","count":27}
-{"skill":"CROSS-SITE","count":5}
-{"skill":"CRYSTAL REPORTS","count":19}
-{"skill":"CSS  BOOTSTRAP","count":6}
-{"skill":"CTFL-AT","count":13}
-{"skill":"CTO","count":30}
-{"skill":"CUIDADOR DE IDOSOS","count":3}
-{"skill":"CURADORIA","count":32}
-{"skill":"CUSTOMER","count":521}
-{"skill":"CUSTOMERSUCCESS","count":4}
-{"skill":"CYBER SECURITY","count":97}
-{"skill":"CYBER SECURITY ANALYST","count":4}
-{"skill":"CYBER SEGURANCA","count":47}
-{"skill":"CYBERBANK","count":4}
-{"skill":"CYBERSEGURANCA","count":11}
-{"skill":"DASHBOARD","count":113}
-{"skill":"DATA BASE","count":22}
-{"skill":"DATA ENGINEER","count":231}
-{"skill":"DATA SCIENTIST","count":28}
-{"skill":"DATA STORE","count":2}
-{"skill":"DATA WAREHOUSE","count":111}
-{"skill":"DATABASES","count":135}
-{"skill":"DBA","count":793}
-{"skill":"DEEP SECURITY","count":5}
-{"skill":"DEMANDAS","count":1866}
-{"skill":"DENTISTA","count":9}
-{"skill":"DEPARTAMENTO PESSOAL","count":953}
-{"skill":"DEPARTAMENTOPESSOAL","count":42}
-{"skill":"DEPLOYMENT","count":256}
-,{"skill":"DERMATOLOGISTA","count":2}
-{"skill":"DESENHOS","count":750}
-{"skill":"DESENVOLVEDOR AZURE","count":14}
-{"skill":"DESENVOLVEDOR BACK-END","count":431}
-{"skill":"DESENVOLVEDOR CLOUD","count":20}
-{"skill":"DESENVOLVEDOR DE CHATBOT","count":2}
-{"skill":"DESENVOLVEDOR DE SISTEMAS","count":81}
-{"skill":"DESENVOLVEDOR DEVOPS","count":8}
-{"skill":"DESENVOLVEDOR FRONT END","count":632}
-{"skill":"DESENVOLVEDOR IOS","count":478}
-{"skill":"DESENVOLVEDOR IOS MOBILE","count":2}
-{"skill":"DESENVOLVEDOR MOBILE","count":674}
-{"skill":"DESENVOLVEDOR WEB","count":282}
-{"skill":"DESENVOLVEDORAS","count":161}
-{"skill":"DESENVOLVEDORES DE SOFTWARE","count":14}
-{"skill":"DESENVOLVIMENTO AGIL","count":181}
-{"skill":"DESENVOLVIMENTO HUMANO ORGANIZACIONAL","count":8}
-{"skill":"DESENVOLVIMENTOS","count":430}
-{"skill":"DESIGN DE AMBIENTES","count":2}
-{"skill":"DESIGN DE INTERIORES","count":14}
-{"skill":"DESIGN DE PRODUTO","count":23}
-{"skill":"DESIGN GRAFICO","count":64}
-{"skill":"DESIGN PATTERN","count":62}
-{"skill":"DESIGNER DE INTERIORES","count":13}
-{"skill":"DESIGNER DE PRODUTO","count":16}
-{"skill":"DESIGNER DE PRODUTOS","count":11}
-{"skill":"DESIGNER GRAFICO","count":65}
-{"skill":"DESIGNER UX UI","count":11}
-{"skill":"DESIGNERGRAFICO","count":2}
-{"skill":"DESIGNPATTERNS","count":7}
-{"skill":"DESKTOP","count":269}
-{"skill":"DEVELOPER WEB","count":5}
-{"skill":"DEVS","count":603}
-{"skill":"DIGITACAO","count":146}
-{"skill":"DIREITO ADMINISTRATIVO","count":4}
-{"skill":"DIREITO BANCARIO","count":2}
-{"skill":"DIREITO CIVIL","count":6}
-{"skill":"DIREITO CONTRATUAL","count":4}
-{"skill":"DIREITO DIGITAL","count":2}
-{"skill":"DIREITO EMPRESARIAL","count":3}
-{"skill":"DIREITO IMOBILIARIO","count":11}
-{"skill":"DIREITO SOCIETARIO","count":3}
-{"skill":"DIREITO TRABALHISTA","count":4}
-{"skill":"DIREITO TRIBUTARIO","count":18}
-{"skill":"DIRETOR COMERCIAL","count":12}
-{"skill":"DIRETOR DE ARTE","count":11}
-{"skill":"DIRETOR DE MARKETING","count":2}
-{"skill":"DIRETORIA","count":429}
-{"skill":"DIRETOS","count":315}
-{"skill":"DISTRIBUICAO","count":949}
-{"skill":"DISTRIBUIDORA","count":416}
-{"skill":"DOCKER-COMPOSE","count":55}
-{"skill":"DOCUMENTACAO","count":2818}
-{"skill":"DOCUMENTOS","count":2416}
-{"skill":"DOMAIN-DRIVEN","count":54}
-{"skill":"DOMAIN-DRIVEN-DESIGN","count":4}
-{"skill":"DOMINIO","count":2941}
-{"skill":"DOT.NET","count":22}
-{"skill":"DOTNET","count":397}
-{"skill":"E COMMERCE","count":61}
-{"skill":"E-SOCIAL","count":195}
-{"skill":"EAD","count":53}
-{"skill":"ECMA","count":4}
-{"skill":"ECMASCRIPT","count":68}
-{"skill":"ECONOMISTA","count":4}
-{"skill":"ECONOMISTAS","count":3}
-{"skill":"EDITOR","count":39}
-{"skill":"EDITORES","count":15}
-{"skill":"EDUCACAO FISICA","count":23}
-{"skill":"EDUCADOR FISICO","count":2}
-,{"skill":"ELASTIC SEARCH","count":66}
-{"skill":"ELETRICISTA","count":580}
-{"skill":"ELETRICISTAS","count":4}
-{"skill":"EMBARCADO","count":90}
-{"skill":"EMBARCADOS","count":89}
-{"skill":"EMISSAO","count":1673}
-{"skill":"ENCARGOS","count":334}
-{"skill":"ENCARREGADA","count":5}
-{"skill":"ENCARREGADO DE LOJA","count":2}
-{"skill":"ENDOCRINOLOGISTA","count":2}
-{"skill":"ENFERMEIRA","count":34}
-{"skill":"ENFERMEIRO","count":159}
-{"skill":"ENFERMEIROS","count":18}
-{"skill":"ENGENHARIA AGRONOMICA","count":13}
-{"skill":"ENGENHARIA AMBIENTAL","count":37}
-{"skill":"ENGENHARIA CIVIL","count":206}
-{"skill":"ENGENHARIA DE ALIMENTOS","count":26}
-{"skill":"ENGENHARIA DE COMPUTACAO","count":75}
-{"skill":"ENGENHARIA DE CONTROLE E AUTOMACAO","count":18}
-{"skill":"ENGENHARIA DE MATERIAIS","count":11}
-{"skill":"ENGENHARIA DE MINAS","count":5}
-{"skill":"ENGENHARIA DE PRODUCAO","count":256}
-{"skill":"ENGENHARIA DE SOFTWARE","count":432}
-{"skill":"ENGENHARIA DE TELECOMUNICACOES","count":19}
-{"skill":"ENGENHARIA ELETRICA","count":163}
-{"skill":"ENGENHARIA ELETRONICA","count":27}
-{"skill":"ENGENHARIA FLORESTAL","count":6}
-{"skill":"ENGENHARIA INFORMATICA","count":11}
-{"skill":"ENGENHARIA MECANICA","count":206}
-{"skill":"ENGENHARIA MECATRONICA","count":13}
-{"skill":"ENGENHARIA METALURGICA","count":7}
-{"skill":"ENGENHARIA QUIMICA","count":95}
-{"skill":"ENGENHARIA TEXTIL","count":5}
-{"skill":"ENGENHARIAS","count":166}
-{"skill":"ENGENHEIRA DE SOFTWARE","count":25}
-{"skill":"ENGENHEIRO AGRONOMO","count":2}
-{"skill":"ENGENHEIRO AMBIENTAL","count":3}
-{"skill":"ENGENHEIRO CIVIL","count":74}
-{"skill":"ENGENHEIRO DA COMPUTACAO","count":2}
-{"skill":"ENGENHEIRO DA QUALIDADE","count":7}
-{"skill":"ENGENHEIRO DE CIBERSEGURANCA","count":2}
-{"skill":"ENGENHEIRO DE CONTROLE E AUTOMACAO","count":9}
-{"skill":"ENGENHEIRO DE DADOS","count":967}
-{"skill":"ENGENHEIRO DE MACHINE LEARNING","count":4}
-{"skill":"ENGENHEIRO DE MANUFATURA","count":3}
-{"skill":"ENGENHEIRO DE MANUTENCAO","count":20}
-{"skill":"ENGENHEIRO DE MATERIAIS","count":2}
-{"skill":"ENGENHEIRO DE MINAS","count":6}
-{"skill":"ENGENHEIRO DE PRODUCAO","count":14}
-{"skill":"ENGENHEIRO DE QUALIDADE","count":55}
-{"skill":"ENGENHEIRO DE SEGURANCA DO TRABALHO","count":34}
-{"skill":"ENGENHEIRO DE SERVICOS","count":2}
-{"skill":"ENGENHEIRO DE SISTEMAS","count":40}
-{"skill":"ENGENHEIRO DE SOFTWARE","count":294}
-{"skill":"ENGENHEIRO DE TELECOM","count":5}
-{"skill":"ENGENHEIRO DE TELECOMUNICACOES","count":2}
-{"skill":"ENGENHEIRO DEVOPS","count":80}
-{"skill":"ENGENHEIRO ELETRICO","count":9}
-{"skill":"ENGENHEIRO ELETRONICO","count":7}
-{"skill":"ENGENHEIRO FLORESTAL","count":2}
-{"skill":"ENGENHEIRO FULL STACK","count":2}
-{"skill":"ENGENHEIRO INDUSTRIAL","count":2}
-{"skill":"ENGENHEIRO MECANICO","count":42}
-{"skill":"ENGENHEIRO QUIMICO","count":12}
-{"skill":"ENGENHEIRO TEXTIL","count":3}
-{"skill":"ENGENHEIROCIVIL","count":6}
-{"skill":"ENGINEERING","count":262}
-{"skill":"ENSAIOS","count":114}
-{"skill":"ENTERPRISE","count":314}
-{"skill":"ENTITY","count":800}
-{"skill":"ENTREVISTA","count":983}
-{"skill":"ENTREVISTAS","count":1037}
-{"skill":"ERPSAP","count":2}
-{"skill":"ESCALA","count":1603}
-{"skill":"ESCRITA","count":1471}
-{"skill":"ESCRITORIO","count":2701}
-{"skill":"ESPANOL","count":8}
-{"skill":"ESPECIALISTA CLOUD","count":42}
-{"skill":"ESPECIALISTA EM COMERCIO EXTERIOR","count":3}
-{"skill":"ESPECIALISTA EM E-COMMERCE","count":8}
-{"skill":"ESPECIALISTA EM SOLDA","count":4}
-{"skill":"ESPECIALISTAS EM TRANSFORMACAO DIGITAL","count":4}
-{"skill":"ESTATISTICAS","count":130}
-{"skill":"ESTATISTICO","count":39}
-{"skill":"ESTETICISTA","count":16}
-{"skill":"ESTILISTA","count":6}
-{"skill":"ESTOQUISTA","count":78}
-{"skill":"ESTRATEGIAS","count":1427}
-{"skill":"ESTRATEGICO","count":515}
-{"skill":"EVENT-DRIVEN","count":75}
-{"skill":"EXCHANGE","count":73}
-{"skill":"EXECUTIVE","count":137}
-{"skill":"EXECUTIVO COMERCIAL","count":60}
-{"skill":"EXECUTIVO DE CONTAS","count":78}
-{"skill":"EXECUTIVO DE VENDAS","count":217}
-{"skill":"EXECUTIVOCOMERCIAL","count":3}
-{"skill":"EXECUTIVODECONTAS","count":2}
-{"skill":"EXECUTIVODEVENDAS","count":3}
-{"skill":"EXPEDICAO","count":421}
-{"skill":"EXPERIENCIAS","count":936}
-{"skill":"EXPRESS","count":103}
-{"skill":"FARMACEUTICA","count":118}
-{"skill":"FARMACEUTICAS","count":34}
-{"skill":"FARMACEUTICO","count":233}
-{"skill":"FARMACEUTICOS","count":17}
-{"skill":"FATURISTA","count":28}
-{"skill":"FECHAMENTO","count":2036}
-{"skill":"FERRAMENTAS","count":9144}
-{"skill":"FIELD SERVICES","count":12}
-{"skill":"FIELDSERVICE","count":12}
-{"skill":"FILIAL","count":165}
-{"skill":"FINANCAS","count":298}
-{"skill":"FINANCEIRAS","count":491}
-{"skill":"FINANCIAL","count":96}
-{"skill":"FIREWALLS","count":196}
-{"skill":"FISCAIS","count":1254}
-{"skill":"FISCAL DE CAIXA","count":16}
-{"skill":"FISIOTERAPEUTA","count":21}
-{"skill":"FISIOTERAPEUTAS","count":2}
-{"skill":"FLOW","count":258}
-{"skill":"FLUENT","count":341}
-{"skill":"FLUENTE","count":1592}
-{"skill":"FLUXOS","count":787}
-{"skill":"FOLHA DE PAGAMENTO","count":854}
-{"skill":"FOLHA PAGAMENTO","count":19}
-{"skill":"FOLHADEPAGAMENTO","count":12}
-{"skill":"FONOAUDIOLOGICO","count":3}
-{"skill":"FONOAUDIOLOGO","count":12}
-{"skill":"FORMS","count":401}
-{"skill":"FORNECEDOR","count":187}
-{"skill":"FORNECEDORES","count":1572}
-{"skill":"FINANCE","count":79}
-{"skill":"FOTOGRAFIAS","count":12}
-{"skill":"FOTOGRAFO","count":2}
-{"skill":"FOTOGRAFOS","count":2}
-{"skill":"FRAMEWORK","count":3071}
-{"skill":"FRAMEWORKS","count":2031}
-{"skill":"FRONT-END DEVELOPER","count":163}
-{"skill":"FRONTEND","count":2534}
-{"skill":"FULL STACK","count":2280}
-{"skill":"FULLSTACK  .NET","count":11}
-{"skill":"FUNCIONAIS","count":1095}
-{"skill":"FUNCIONALIDADE","count":157}
-{"skill":"FUNCIONALIDADES","count":929}
-{"skill":"FUNCTIONS","count":180}
-{"skill":"FUNDIDOR MOLDADOR","count":6}
-{"skill":"FUNERARIOS","count":2}
-{"skill":"G SUITE","count":3}
-{"skill":"GARCOM","count":62}
-{"skill":"GARCONETE","count":13}
-{"skill":"GENTE","count":1464}
-{"skill":"GEOLOGO","count":6}
-{"skill":"GERENCIA","count":566}
-{"skill":"GERENCIAIS","count":511}
-{"skill":"GERENTE ADMINISTRATIVO","count":92}
-{"skill":"GERENTE COMERCIAL","count":219}
-{"skill":"GERENTE DE CONTAS","count":84}
-{"skill":"GERENTE DE ECOMMERCE","count":2}
-{"skill":"GERENTE DE NEGOCIOS","count":65}
-{"skill":"GERENTE DE OPERACOES","count":107}
-{"skill":"GERENTE DE PRODUTO","count":63}
-{"skill":"GERENTE DE PRODUTOS","count":13}
-{"skill":"GERENTE DE PROJETOS","count":948}
-{"skill":"GERENTE DE RECURSOS HUMANOS","count":51}
-{"skill":"GERENTE DE RESTAURANTE","count":21}
-{"skill":"GERENTE DE TI","count":69}
-{"skill":"GERENTE FINANCEIRO","count":78}
-{"skill":"GERENTE RH","count":5}
-{"skill":"GERENTECOMERCIAL","count":7}
-{"skill":"GESTAO AMBIENTAL","count":25}
-{"skill":"GESTAO DA INFORMACAO","count":22}
-{"skill":"GESTAO DE PESSOAS","count":611}
-{"skill":"GESTAO DE PROJETOS","count":976}
-{"skill":"GESTOR DE RECURSOS HUMANOS","count":2}
-{"skill":"GESTOR DE RH","count":16}
-{"skill":"GESTOR HOSPITALAR","count":2}
-{"skill":"GESTORES","count":445}
-{"skill":"GITHUB","count":464}
-{"skill":"GOOGLE CLOUD","count":565}
-{"skill":"GOOGLE CLOUD PLATFORM","count":141}
-{"skill":"GOOGLE CLOUD SQL","count":2}
-{"skill":"GOOGLECLOUD","count":18}
-{"skill":"GROWTH HACKER","count":4}
-{"skill":"GSUIT","count":4}
-{"skill":"GSUITE","count":5}
-{"skill":"HARDWARE","count":638}
-{"skill":"HCM","count":167}
-{"skill":"HEAD HUNTER","count":96}
-{"skill":"HEADHUNTER","count":55}
-{"skill":"HEADLESS","count":7}
-{"skill":"HELP DESK","count":77}
-{"skill":"HELP-DESK","count":2}
-{"skill":"HUMANRESOURCES","count":6}
-{"skill":"HUNTING","count":183}
-{"skill":"HYBRID","count":28}
-{"skill":"HYPER","count":5}
-{"skill":"HYPERV","count":5}
-{"skill":"ICMS-ST","count":11}
-{"skill":"IDIOMA","count":439}
-{"skill":"IMEDIATO","count":2138}
-{"skill":"IMPLANTACAO","count":2728}
-{"skill":"IMPLEMENTACAO","count":3183}
-{"skill":"IMPOSTOS","count":1037}
-{"skill":"INDIRETOS","count":237}
-{"skill":"INDUSTRIA","count":2569}
-{"skill":"INDUSTRIAIS","count":420}
-{"skill":"INFORMATION TECHNOLOGY","count":41}
-{"skill":"INFRA ESTRUTURA","count":45}
-{"skill":"INFRA-ESTRUTURA","count":68}
-{"skill":"INFRAESTRURA","count":4}
-{"skill":"INFRAESTRUTURA CLOUD","count":166}
-{"skill":"INGLESAVANCADO","count":5}
-{"skill":"INGLESFLUENTE","count":5}
-{"skill":"INOVACAO","count":1287}
-{"skill":"INSPETOR DE EQUIPAMENTOS","count":6}
-{"skill":"INSPETOR DE MANUTENCAO","count":9}
-{"skill":"INSTALACAO","count":1074}
-{"skill":"INSTALACOES","count":578}
-{"skill":"INSUMOS","count":359}
-{"skill":"INTEGRACAO","count":4978}
-{"skill":"INTEGRACOES","count":1616}
-{"skill":"INTEGRADO","count":237}
-{"skill":"INTEGRADOR","count":41}
-{"skill":"INTEGRAL","count":240}
-{"skill":"INTELIGENCIADEMERCADO","count":4}
-{"skill":"INTERFACE WEB","count":18}
-{"skill":"INTERFACES","count":751}
-{"skill":"INTERMEDIARIO","count":2935}
-{"skill":"INTERNET INFORMATION SERVICES","count":7}
-{"skill":"INTERNO","count":1183}
-{"skill":"INTERNOS","count":1602}
-{"skill":"IOS DEVELOPER","count":29}
-{"skill":"IOS SWIFT","count":79}
-{"skill":"IOT","count":139}
-{"skill":"JARDINEIRO","count":17}
-{"skill":"JASPER REPORTS","count":6}
-{"skill":"JASPERREPORT","count":7}
-{"skill":"JASPERREPORTS","count":5}
-{"skill":"JAVA SERVER PAGES","count":34}
-{"skill":"JAVASCRIPT","count":4306}
-{"skill":"JEKINS","count":7}
-{"skill":"JOGOS DIGITAIS","count":24}
-{"skill":"JORNALISTA","count":16}
-{"skill":"JORNALISTAS","count":6}
-{"skill":"JWT","count":127}
-{"skill":"KANBAN","count":1036}
-{"skill":"KNOCKOUT.JS","count":2}
-{"skill":"KNOCKOUTJS","count":9}
-{"skill":"KNOWLEDGE","count":580}
-{"skill":"KPIS","count":560}
-{"skill":"KUBERNETE","count":2}
-{"skill":"KUBERNETES","count":1022}
-{"skill":"LABORATORIOS","count":87}
-{"skill":"LANCAMENTOS","count":1039}
-{"skill":"LANGUAGE","count":116}
-{"skill":"LAVADOR DE CARROS","count":2}
-{"skill":"LAYOUT","count":389}
-{"skill":"LEADS","count":332}
-{"skill":"LEVANTAMENTO","count":1903}
-{"skill":"LIDER TECNICO","count":559}
-{"skill":"LINGUAGEM","count":3389}
-{"skill":"LINGUAGENS","count":2196}
-{"skill":"LINGUISTICA","count":3}
-{"skill":"LOGISTICO","count":353}
-{"skill":"LOJAS","count":527}
-{"skill":"LUCROS","count":202}
-{"skill":"MAC","count":79}
-{"skill":"MACHINELEARNING","count":42}
-{"skill":"MANDATORY","count":52}
-{"skill":"MANUTENCAO DE AERONAVES","count":5}
-{"skill":"MANUTENCOES","count":467}
-{"skill":"MAPEAMENTO","count":1068}
-{"skill":"MAPREDUCE","count":9}
-{"skill":"MAQUINA VIRTUAL","count":4}
-{"skill":"MAQUINISTA","count":7}
-{"skill":"MARCENEIRO","count":58}
-{"skill":"MARKETING DIGITAL","count":315}
-{"skill":"MARKETING OFFLINE","count":2}
-{"skill":"MARKETINGDIGITAL","count":19}
-{"skill":"MBA","count":303}
-{"skill":"MEDIADOR","count":11}
-{"skill":"MEDICAMENTOS","count":184}
-{"skill":"MEDICINA DO TRABALHO","count":88}
-{"skill":"MEDICINA VETERINARIA","count":22}
-{"skill":"MEDICO DO TRABALHO","count":45}
-{"skill":"MEIO AMBIENTE","count":166}
-{"skill":"MEIOSDEPAGAMENTOS","count":3}
-{"skill":"MELHORIA","count":1802}
-{"skill":"MELHORIAS","count":2575}
-{"skill":"MER","count":28}
-{"skill":"MERCADO","count":6170}
-{"skill":"MERCADORIAS","count":506}
-{"skill":"MERCADOS","count":512}
-{"skill":"MESTRE DE OBRAS","count":5}
-{"skill":"METAS","count":1363}
-{"skill":"METODOLOGIAAGIL","count":20}
-{"skill":"METODOLOGIAS AGEIS","count":2103}
-{"skill":"METODOLOGIASAGEIS","count":13}
-{"skill":"MICRO SERVICES","count":18}
-{"skill":"MICRO SERVICO","count":16}
-{"skill":"MICRO SERVICOS","count":429}
-{"skill":"MICRO-SERVICOS","count":177}
-{"skill":"MICROINFORMATICA","count":90}
-{"skill":"MICROSERVICE","count":46}
-{"skill":"MICROSERVICES","count":308}
-{"skill":"MICROSERVICO","count":23}
-{"skill":"MICROSOFT","count":1967}
-{"skill":"MICROSSERVICOS","count":642}
-{"skill":"MIDDLEWARES","count":3}
-{"skill":"MOBILE  ANDROID","count":6}
-{"skill":"MOBILE FLUTTER","count":80}
-{"skill":"MKT","count":149}
-{"skill":"MODELADOR","count":10}
-{"skill":"MODELAGEM DE DADOS","count":889}
-{"skill":"MODELO","count":2647}
-{"skill":"MONGO DB","count":123}
-{"skill":"MONITORACAO","count":390}
-{"skill":"MONITORAMENTO ZABBIX","count":9}
-{"skill":"MONITORIA","count":68}
-{"skill":"MONITORING","count":108}
-{"skill":"MONTADORA","count":20}
-{"skill":"MOTORISTA DE TAXI","count":2}
-{"skill":"MOTORISTA PARTICULAR","count":3}
-{"skill":"MOVEIS","count":526}
-{"skill":"MOVIMENTACAO","count":589}
-{"skill":"MYSQL","count":1542}
-{"skill":"NAO RELACIONAL","count":312}
-{"skill":"NAO-RELACIONAIS","count":42}
-{"skill":"NEGOCIACOES","count":683}
-{"skill":"NEST","count":21}
-{"skill":"NEWRELIC","count":8}
-{"skill":"NO-SQL","count":60}
-{"skill":"NODE-JS","count":7}
-{"skill":"NODE.JS","count":1196}
-{"skill":"NODEJS","count":1380}
-{"skill":"NON-COMPLIANCE","count":2}
-{"skill":"NORMAS","count":1410}
-{"skill":"NOSQL","count":933}
-{"skill":"NOTAS","count":1756}
-{"skill":"NUTRICIONISTA","count":42}
-{"skill":"NUTRICIONISTAS","count":3}
-{"skill":"NUVEM","count":1247}
-{"skill":"NUVENS","count":141}
-{"skill":"OBJECT ORIENTED","count":48}
-{"skill":"OBJECTIVE C","count":30}
-{"skill":"OBJECTIVEC","count":17}
-{"skill":"OBJETIVEC","count":2}
-{"skill":"OBJETO","count":177}
-{"skill":"OBSTETRA","count":7}
-{"skill":"ODONTO","count":206}
-{"skill":"ODONTOLOGICA","count":1292}
-{"skill":"ODONTOLOGICO","count":3105}
-{"skill":"OFFICE3","count":8}
-{"skill":"OFICIAL","count":435}
-{"skill":"OFTALMOLOGISTA","count":2}
-{"skill":"ON-PREMISES","count":68}
-{"skill":"ON-PREMISSE","count":35}
-{"skill":"ON-PREMISSES","count":33}
-{"skill":"OPERACAO","count":1568}
-{"skill":"OPERACIONAIS","count":1830}
-{"skill":"OPERADOR DE ARMAZEM","count":3}
-{"skill":"OPERADOR DE CAIXA","count":64}
-{"skill":"OPERADOR DE CAMARA","count":4}
-{"skill":"OPERADOR DE EMPILHADEIRA","count":164}
-{"skill":"OPERADOR DE LOJA","count":48}
-{"skill":"OPERADOR DE MAQUINAS","count":82}
-{"skill":"OPERADOR DE TELEMARKETING","count":41}
-{"skill":"OPERADOR DE VENDAS","count":8}
-{"skill":"OPERADORA","count":194}
-{"skill":"OPERADORAS","count":110}
-{"skill":"OPERADORES","count":187}
-{"skill":"OPERATIONS","count":178}
-{"skill":"ORACLE CLOUD","count":249}
-{"skill":"ORACLE SOA SUITE","count":28}
-{"skill":"ORACLECLOUD","count":5}
-{"skill":"ORGANIZACAO","count":2676}
-{"skill":"P.O","count":30}
-{"skill":"PABX","count":61}
-{"skill":"PADEIRO","count":24}
-{"skill":"PADRAO DE PROJETOS","count":3}
-{"skill":"PAGAMENTOS","count":732}
-{"skill":"PARALELISMO","count":13}
-{"skill":"PARCEIRO","count":236}
-{"skill":"PARTNER","count":319}
-{"skill":"PAT","count":18}
-{"skill":"PCI-DSS","count":8}
-{"skill":"PECAS","count":1527}
-{"skill":"PEDAGOGO","count":6}
-{"skill":"PEDIDOS","count":1197}
-{"skill":"PEDREIRO","count":22}
-{"skill":"PENTESTER","count":38}
-{"skill":"PENTESTS","count":10}
-{"skill":"PEOPLE","count":265}
-{"skill":"PERFORMANCE","count":2234}
-{"skill":"PERFUMISTA","count":19}
-{"skill":"PESQUISAS","count":485}
-{"skill":"PINTOR","count":98}
-{"skill":"PIPELINES","count":758}
-{"skill":"PIZZAIOLO","count":5}
-{"skill":"PL SQL","count":83}
-{"skill":"PLANEJAMENTOESTRATEGICO","count":2}
-{"skill":"PLANILHAS","count":1148}
-{"skill":"PLANNING","count":184}
-{"skill":"PLATAFORMA","count":4112}
-{"skill":"PLATAFORMAS","count":1872}
-{"skill":"PMBOOK","count":3}
-{"skill":"PMI","count":106}
-{"skill":"POLIDOR","count":47}
-{"skill":"POLITICA","count":444}
-{"skill":"PONTO","count":1309}
-{"skill":"POO","count":74}
-{"skill":"PORTAL","count":710}
-{"skill":"PORTARIA","count":116}
-{"skill":"PORTARIAS","count":20}
-{"skill":"PORTEIRO","count":44}
-{"skill":"PORTEIROS","count":3}
-{"skill":"POS-VENDA","count":86}
-{"skill":"POS-VENDAS","count":59}
-{"skill":"POST-PRODUCTION","count":2}
-{"skill":"POSTGRE","count":83}
-{"skill":"POSTGREE","count":83}
-{"skill":"POSTGRES","count":237}
-{"skill":"POSTGRESQL","count":754}
-{"skill":"POSTGRESSQL","count":15}
-{"skill":"POWERBI","count":180}
-{"skill":"POWERCENTER","count":110}
-{"skill":"POWERPOINT","count":112}
-{"skill":"PRE SALES","count":21}
-{"skill":"PRE-SALES","count":10}
-{"skill":"PRE-VENDA","count":42}
-{"skill":"PRE-VENDAS","count":138}
-{"skill":"PREDIAL","count":213}
-{"skill":"PRIMEFACES","count":55}
-{"skill":"PRIVACY","count":28}
-{"skill":"PRO-LABORE","count":2}
-{"skill":"PROCEDIMENTOS","count":1998}
-{"skill":"PROCEDURES","count":369}
-{"skill":"PROCESSO","count":6873}
-{"skill":"PRODUCAO WEB","count":4}
-{"skill":"PRODUCT DESIGNER","count":127}
-{"skill":"PRODUCT MANAGER","count":149}
-{"skill":"PRODUCT OWNER","count":638}
-{"skill":"PRODUCTION","count":79}
-{"skill":"PRODUCTOWNER","count":32}
-{"skill":"PRODUCTS","count":74}
-{"skill":"PRODUTOS DIGITAIS","count":233}
-{"skill":"PRODUTOS FINANCEIROS","count":50}
-{"skill":"PROFESSOR DE FISICA","count":2}
-{"skill":"PROFESSOR DE INGLES","count":7}
-{"skill":"PROFESSOR DE MATEMATICA","count":3}
-{"skill":"PROFESSORA","count":28}
-{"skill":"PROGRAMACAO","count":5310}
-{"skill":"PROGRAMADOR IOS","count":4}
-{"skill":"PROGRAMADORA","count":50}
-{"skill":"PROGRAMADORAS","count":5}
-{"skill":"PROGRAMADORES","count":138}
-{"skill":"PROGRAMAS","count":1381}
-{"skill":"PROGRAMMER","count":27}
-{"skill":"PROGRAMMING","count":257}
-{"skill":"PROJECT MANAGER","count":59}
-{"skill":"PROJECTMANAGER","count":5}
-{"skill":"PROJECTS","count":130}
-{"skill":"PROJETISTA","count":359}
-{"skill":"PROMOCIONAIS","count":101}
-{"skill":"PROMOTOR DE VENDAS","count":83}
-{"skill":"PROPOSTA","count":422}
-{"skill":"PROPOSTAS","count":959}
-{"skill":"PROSOFT","count":9}
-{"skill":"PROTOCOLO","count":384}
-{"skill":"PROTOCOLOS","count":910}
-{"skill":"PROXY","count":139}
-{"skill":"PSICOLOGO","count":68}
-{"skill":"PSICOLOGOS","count":11}
-{"skill":"PSICOPEDAGOGO","count":3}
-{"skill":"PSM-I","count":4}
-{"skill":"PSPO","count":16}
-{"skill":"PTC","count":45}
-{"skill":"PUBLICIDADE E PROPAGANDA","count":102}
-{"skill":"PUBLICITARIAS","count":21}
-{"skill":"PUBLICITARIO","count":19}
-{"skill":"PUBLICITARIOS","count":15}
-{"skill":"PUBSUB","count":60}
-{"skill":"PYTHON  PYTHON","count":3}
-{"skill":"QLIK VIEW","count":11}
-{"skill":"QUALIDADE DE DADOS","count":81}
-{"skill":"QUALIDADE DE SOFTWARE","count":211}
-{"skill":"QUALIDADE SOFTWARE","count":5}
-{"skill":"QUALITY ASSURANCE","count":236}
-{"skill":"QUALITYASSURANCE","count":16}
-{"skill":"RABBITMQ","count":303}
-{"skill":"RAC","count":40}
-{"skill":"RADIO E TV","count":6}
-{"skill":"REACT NATIVO","count":2}
-{"skill":"REACT-NATIVE","count":27}
-{"skill":"REACT.JS","count":399}
-{"skill":"REACTJS","count":567}
-{"skill":"REACTNATIVE","count":64}
-{"skill":"RECEBIMENTO","count":1013}
-{"skill":"RECEPCAO","count":324}
-{"skill":"RECEPCIONAR","count":141}
-{"skill":"RECEPCIONISTA","count":508}
-{"skill":"RECRUTADOR","count":135}
-{"skill":"RECRUTADORA","count":60}
-{"skill":"RECRUTADORES","count":79}
-{"skill":"RECRUTAMENTO  SELECAO","count":199}
-{"skill":"RECRUTAMENTO E SELECAO","count":1568}
-{"skill":"RECRUTAMENTOESELECAO","count":144}
-{"skill":"RECRUTAMENTOSELECAO","count":6}
-{"skill":"RECURSOS HUMANOS","count":2134}
-{"skill":"RECURSOSHUMANOS","count":231}
-{"skill":"REDATOR","count":38}
-{"skill":"REDATORES","count":5}
-{"skill":"REDE","count":2411}
-{"skill":"REDUX-SAGA","count":11}
-{"skill":"REF","count":5}
-{"skill":"REGISTRO","count":922}
-{"skill":"RELACIONADAS","count":1361}
-{"skill":"RELACIONAMENTO","count":2812}
-{"skill":"RELACOES INTERNACIONAIS","count":85}
-{"skill":"RELACOES PUBLICAS","count":48}
-{"skill":"RELATORIOS","count":4142}
-{"skill":"REPOSITOR","count":106}
-{"skill":"REPRESENTANTE DE DESENVOLVIMENTO DE NEGOCIOS","count":6}
-{"skill":"REQUIREMENTS","count":447}
-{"skill":"REQUISITO","count":212}
-{"skill":"RESPONSABILIDADES","count":1160}
-{"skill":"REST FULL","count":17}
-{"skill":"REST-ASSURED","count":17}
-{"skill":"RESTORE","count":38}
-{"skill":"REVISOR","count":12}
-{"skill":"REVISTA","count":22}
-{"skill":"RICHFACES","count":18}
-{"skill":"RIO DE JANEIRO","count":1153}
-{"skill":"RISCOS","count":1074}
-{"skill":"RISK","count":45}
-{"skill":"ROTINA","count":1182}
-{"skill":"ROTINAS","count":3708}
-{"skill":"ROUTE","count":39}
-{"skill":"S.O","count":31}
-{"skill":"SALARIOS","count":339}
-{"skill":"SALE","count":5}
-{"skill":"SALES DEVELOPMENT REPRESENTATIVE","count":24}
-{"skill":"SALES FORCE","count":76}
-{"skill":"SANTA CATARINA","count":71}
-{"skill":"SAP  SAP","count":8}
-{"skill":"SAP B","count":8}
-{"skill":"SAP BASIS HANA","count":3}
-{"skill":"SAP BUSINESS ONE","count":95}
-{"skill":"SAP EWM","count":82}
-{"skill":"SAP HYBRIS","count":54}
-{"skill":"SAPATEIRO","count":7}
-{"skill":"SAPIENS","count":29}
-{"skill":"SAS","count":154}
-{"skill":"SASS","count":371}
-{"skill":"SAT","count":20}
-{"skill":"SAUDE E BEM-ESTAR","count":40}
-{"skill":"SCA","count":21}
-{"skill":"SCADA","count":20}
-{"skill":"SCALA","count":234}
-{"skill":"SCCM","count":49}
-{"skill":"SCIKIT-LEARN","count":12}
-{"skill":"SCM","count":47}
-{"skill":"SCRAPING","count":8}
-{"skill":"SCRAPY","count":3}
-{"skill":"SCRIPTS","count":1010}
-{"skill":"SCRUM MASTER","count":698}
-{"skill":"SCRUMMASTER","count":44}
-{"skill":"SCSS","count":69}
-{"skill":"SD-WAN","count":9}
-{"skill":"SDET","count":19}
-{"skill":"SDK","count":120}
-{"skill":"SECRETARIA EXECUTIVA","count":67}
-{"skill":"SECRETARIADO EXECUTIVO","count":26}
-{"skill":"SEGMENTO","count":4386}
-{"skill":"SEGURADORA","count":59}
-{"skill":"SEGURANCA DA INFORMACAO","count":1142}
-{"skill":"SEGURANCADOTRABALHO","count":11}
-{"skill":"SEGURO","count":6523}
-{"skill":"SELECIONADOR","count":9}
-{"skill":"SELECIONADORA","count":15}
-{"skill":"SELETIVO","count":1019}
-{"skill":"SEPARACAO","count":344}
-{"skill":"SERRALHEIRO","count":79}
-{"skill":"SERVER-SIDE","count":31}
-{"skill":"SERVERS","count":34}
-{"skill":"SERVICE CLOUD","count":103}
-{"skill":"SERVICE MANAGER","count":19}
-{"skill":"SERVICE-BASED","count":2}
-{"skill":"SERVICE-ORIENTED","count":11}
-{"skill":"SERVICEDESK","count":21}
-{"skill":"SERVICO SOCIAL","count":32}
-{"skill":"SERVIDOR","count":504}
-{"skill":"SERVLET","count":14}
-{"skill":"SETOR","count":3044}
-{"skill":"SHELLSCRIPT","count":40}
-{"skill":"SHOPPER","count":8}
-{"skill":"SISTEMA FINANCEIRO","count":54}
-{"skill":"SISTEMA OPERACIONAL","count":397}
-{"skill":"SISTEMAOPERACIONAL","count":2}
-{"skill":"SISTEMAS DE INFORMACAO","count":379}
-{"skill":"SOCIAIS","count":771}
-{"skill":"SOCIALBAKERS","count":6}
-{"skill":"SOFTWARE ENGINEER","count":179}
-{"skill":"SOFTWARES","count":1246}
-{"skill":"SOLARES","count":7}
-{"skill":"SOLDADOR","count":218}
-{"skill":"SOLDADORES","count":3}
-{"skill":"SOLUTION","count":231}
-{"skill":"SOLUTIONS","count":585}
-{"skill":"SOM","count":15}
-{"skill":"SOMMELIER","count":3}
-{"skill":"SPECS","count":5}
-{"skill":"SPRING-BOOT","count":16}
-{"skill":"SPRINGBOOT","count":355}
-{"skill":"SPRINGDATA","count":17}
-{"skill":"SPRINGMVC","count":21}
-{"skill":"SQL-SERVER","count":7}
-{"skill":"SQLITE","count":107}
-{"skill":"SQLSERVER","count":226}
-{"skill":"STAKEHOLDERS","count":286}
-{"skill":"STARTEAM","count":6}
-{"skill":"STERLING","count":6}
-{"skill":"STORAGE","count":284}
-{"skill":"STORYBOARD","count":7}
-{"skill":"STORYBOOK","count":24}
-{"skill":"SUB-REDE","count":6}
-{"skill":"SUCCESS","count":162}
-{"skill":"SUCESSO","count":539}
-{"skill":"SUPERIOR","count":14894}
-{"skill":"SUPERMERCADO","count":99}
-{"skill":"SUPERSET","count":10}
-{"skill":"SUPERVISOR DE MECANICA","count":3}
-{"skill":"SUPERVISORA","count":202}
-{"skill":"SUPORTE DE REDES","count":2}
-{"skill":"SUPORTE DE SISTEMA","count":10}
-{"skill":"SUPORTE DE TI","count":57}
-{"skill":"SUPORTE N","count":61}
-{"skill":"SUPORTE REDES","count":4}
-{"skill":"SUPORTE TECNICO","count":877}
-{"skill":"SUPPLY","count":319}
-{"skill":"SUPPORT ENGINEER","count":10}
-{"skill":"SUPRIMENTOS","count":471}
-{"skill":"SUSTENTACAO","count":996}
-{"skill":"SWIFT ANDROID","count":18}
-{"skill":"SWING","count":32}
-{"skill":"SWITCH","count":53}
-{"skill":"SYS ADMIN","count":8}
-{"skill":"SYSADMIN","count":86}
-{"skill":"SYSOPS","count":9}
-{"skill":"SYSTEMS","count":327}
-{"skill":"T.I","count":116}
-{"skill":"TALENT","count":368}
-{"skill":"TALENTACQUISITION","count":17}
-{"skill":"TALENTOS","count":984}
-{"skill":"TAX","count":84}
-{"skill":"TAXA","count":532}
-{"skill":"TCP","count":54}
-{"skill":"TCPIP","count":175}
-{"skill":"TEAM","count":665}
-{"skill":"TECH LEAD","count":715}
-{"skill":"TECH LEADER","count":36}
-{"skill":"TECH MANAGER","count":12}
-{"skill":"TECH RECRUITER","count":393}
-{"skill":"TECHLEAD","count":44}
-{"skill":"TECHLEADER","count":2}
-{"skill":"TECHMANAGER","count":2}
-{"skill":"TECHNICAL RECRUITER","count":23}
-{"skill":"TECHRECRUITER","count":70}
-{"skill":"TECNICA","count":3043}
-{"skill":"TECNICAS","count":3456}
-{"skill":"TECNICO DE CAMPO","count":41}
-{"skill":"TECNICO DE CONTABILIDADE","count":3}
-{"skill":"TECNICO DE INFORMATICA","count":57}
-{"skill":"TECNICO DE MANUTENCAO ELETRONICA","count":6}
-{"skill":"TECNICO DE SUPORTE","count":420}
-{"skill":"TECNICO EM INSTRUMENTACAO","count":3}
-{"skill":"TECNICO EM MANUTENCAO","count":77}
-{"skill":"TECNICO EM SOLDA","count":4}
-{"skill":"TECNICOS","count":2644}
-{"skill":"TECNOLOGIA DA INFORMACAO","count":1056}
-{"skill":"TECNOLOGO EM LOGISTICA","count":12}
-{"skill":"TELEATENDIMENTO","count":9}
-{"skill":"TELEFONIA","count":354}
-{"skill":"TELEFONISTA","count":6}
-{"skill":"TELEVENDAS","count":98}
-{"skill":"TERAPEUTA OCUPACIONAL","count":7}
-{"skill":"TERAPIA OCUPACIONAL","count":6}
-{"skill":"TESTADOR","count":25}
-{"skill":"TESTADORES","count":20}
-{"skill":"TESTER","count":182}
-{"skill":"TESTING","count":274}
-{"skill":"TESTS","count":79}
-{"skill":"TI RECRUITER","count":3}
-{"skill":"TICKET","count":369}
-{"skill":"TRADE","count":223}
-{"skill":"TRADEMARKETING","count":3}
-{"skill":"TRADUTOR","count":4}
-{"skill":"TRANSACT-SQL","count":55}
-{"skill":"TRANSPORTE","count":4782}
-{"skill":"TRANSPORTES","count":338}
-{"skill":"TREINAMENTO","count":1893}
-{"skill":"TREINAMENTOEDESENVOLVIMENTO","count":2}
-{"skill":"TREINAMENTOS","count":1504}
-{"skill":"TREND","count":30}
-{"skill":"TRIAGEM","count":517}
-{"skill":"TRIBUTO","count":5}
-{"skill":"TSQL","count":28}
-{"skill":"TYPESCRIPT","count":1163}
-{"skill":"UIDESIGNER","count":8}
-{"skill":"URAS","count":3}
-{"skill":"UROLOGISTA","count":2}
-{"skill":"USABILIDADE","count":327}
-{"skill":"USER EXPERIENCE","count":106}
-{"skill":"USER INTERFACE","count":35}
-{"skill":"UX DESIGNER","count":234}
-{"skill":"UX UI","count":79}
-{"skill":"UXDESIGNER","count":5}
-{"skill":"UXUI","count":421}
-{"skill":"VAREJO","count":837}
-{"skill":"VB NET","count":19}
-{"skill":"VB.NET","count":157}
-{"skill":"VBA","count":154}
-{"skill":"VBCS","count":2}
-{"skill":"VBNET","count":8}
-{"skill":"VBSCRIPT","count":9}
-{"skill":"VEEAM","count":53}
-{"skill":"VELOCITY","count":14}
-{"skill":"VENDA","count":1342}
-{"skill":"VENDAS EXTERNAS","count":222}
-{"skill":"VENDEDOR DE LOJA","count":45}
-{"skill":"VENDEDOR EXTERNO","count":291}
-{"skill":"VENDEDOREXTERNO","count":4}
-{"skill":"VERSAO","count":1201}
-{"skill":"VERSION","count":114}
-{"skill":"VERSIONADOR","count":14}
-{"skill":"VERSIONAMENTO","count":1974}
-{"skill":"VETERINARIO","count":14}
-{"skill":"VETERINARIOS","count":13}
-{"skill":"VIAGENS","count":1278}
-{"skill":"VIDEOMAKER","count":13}
-{"skill":"VIGIA","count":15}
-{"skill":"VISUAL BASIC","count":61}
-{"skill":"VISUAL STUDIO","count":333}
-{"skill":"VISUAL STUDIO CODE","count":7}
-{"skill":"VSCODE","count":12}
-{"skill":"VTEX","count":191}
-{"skill":"VUE.JS","count":408}
-{"skill":"VUEJS","count":359}
-{"skill":"WEB API","count":381}
-{"skill":"WEB DESIGNER","count":78}
-{"skill":"WEB DEVELOPER","count":22}
-{"skill":"WEB SERVICE","count":105}
-{"skill":"WEB SERVICES","count":428}
-{"skill":"WEBAPI","count":210}
-{"skill":"WEBAPP","count":9}
-{"skill":"WEBDESIGN","count":2}
-{"skill":"WEBDESIGNER","count":17}
-{"skill":"WEBDRIVER","count":102}
-{"skill":"WEBFORM","count":4}
-{"skill":"WORD","count":434}
-{"skill":"WORK","count":544}
-{"skill":".NET","count":6708}
-{"skill":"ADMINISTRACAO","count":5140}
-{"skill":"ADMINISTRADOR","count":456}
-{"skill":"ADMINISTRATIVA","count":482}
-{"skill":"ADMINISTRATIVO","count":3250}
-{"skill":"ADVOGADO","count":327}
-{"skill":"AGEIS","count":3660}
-{"skill":"AGENTE","count":323}
-{"skill":"AGIL","count":2412}
-{"skill":"AGILE","count":1259}
-{"skill":"AGRONOMO","count":13}
-{"skill":"AJUDANTE","count":499}
-{"skill":"AMAZON","count":351}
-{"skill":"AMBIENTAL","count":170}
-{"skill":"ANALISE","count":7995}
-{"skill":"ANALISTA","count":29921}
-{"skill":"ANALYST","count":438}
-{"skill":"ANALYTICS","count":758}
-{"skill":"ANDROID","count":2351}
-{"skill":"ANT","count":51}
-{"skill":"ANTISPAM","count":9}
-{"skill":"ANTIVIRUS","count":131}
-{"skill":"APACHE","count":710}
-{"skill":"API","count":3854}
-{"skill":"APIS","count":4311}
-{"skill":"APOIO","count":2031}
-{"skill":"APS","count":11}
-{"skill":"ARQUITETO","count":2197}
-{"skill":"ARQUITETURA","count":5502}
-{"skill":"ARTE","count":126}
-{"skill":"ASP","count":410}
-{"skill":"ASSISTENTE","count":6807}
-{"skill":"ASSURANCE","count":377}
-{"skill":"ATENDIMENTO","count":7464}
-{"skill":"AUTOMATIZADOR","count":175}
-{"skill":"AUTOMATIZADOS","count":1436}
-{"skill":"AUXILIAR","count":7616}
-{"skill":"AZURE","count":3227}
-{"skill":"BACK","count":1573}
-{"skill":"BACK-END","count":1980}
-{"skill":"BANCARIO","count":178}
-{"skill":"BANCO","count":9053}
-{"skill":"BASIC","count":137}
-{"skill":"BASIS","count":241}
-{"skill":"BIBLIOTECONOMIA","count":7}
-{"skill":"BIG QUERY","count":19}
-{"skill":"BOLSA","count":1000}
-{"skill":"BOMBEIRO","count":59}
-{"skill":"BOOTSTRAP","count":697}
-{"skill":"BPM","count":116}
-{"skill":"BUSINESS","count":1703}
-{"skill":"CABEAMENTO","count":218}
-{"skill":"CADASTRO","count":1793}
-{"skill":"CAIXA","count":791}
-{"skill":"CAKE","count":13}
-{"skill":"CAMPO","count":8943}
-{"skill":"CAPYBARA","count":39}
-{"skill":"CEO","count":55}
-{"skill":"CERTIFICADO","count":309}
-{"skill":"CHATBOT","count":73}
-{"skill":"CIBERSEGURANCA","count":46}
-{"skill":"CIENCIA","count":1552}
-{"skill":"CIENCIAS","count":2996}
-{"skill":"CIENTISTA","count":389}
-{"skill":"CIVIL","count":642}
-{"skill":"CLIENTE","count":5960}
-{"skill":"COACH","count":251}
-{"skill":"COMERCIO","count":1114}
-{"skill":"COMMERCE","count":180}
-{"skill":"CONSTRUCAO","count":2790}
-{"skill":"CONSULTOR","count":5526}
-{"skill":"CONTABEIS","count":1498}
-{"skill":"CONTABILIDADE","count":1220}
-{"skill":"CONTAINER","count":206}
-{"skill":"CONTAS","count":2409}
-{"skill":"CONTROLE","count":6763}
-{"skill":"COORDENADOR","count":2912}
-{"skill":"CORRETOR","count":85}
-{"skill":"COZINHA","count":286}
-{"skill":"CREDITO","count":765}
-{"skill":"CRYSTAL","count":64}
-{"skill":"CSS","count":2472}
-{"skill":"CUSTOS","count":1347}
-{"skill":"CYBER","count":280}
-{"skill":"DADOS","count":15157}
-{"skill":"DATA","count":3574}
-{"skill":"DELIVERY","count":375}
-{"skill":"DEPARTAMENTO","count":2578}
-{"skill":"DERMATOLOGISTA","count":2}
-{"skill":"DESENVOLVEDOR","count":23833}
-{"skill":"DESENVOLVEDORA","count":2711}
-{"skill":"DESENVOLVEDORES","count":1725}
-{"skill":"DESENVOLVIMENTO","count":19212}
-{"skill":"DESIGN","count":4467}
-{"skill":"DESIGNER","count":1304}
-{"skill":"DESIGNER DE EMBALAGEM","count":4}
-{"skill":"DEV","count":2948}
-{"skill":"DEVELOPER","count":2272}
-{"skill":"DEVELOPMENT","count":774}
-{"skill":"DEVOPS","count":3586}
-{"skill":"DIGITAL","count":2048}
-{"skill":"DIREITO","count":471}
-{"skill":"DRIVEN","count":378}
-{"skill":"DYNAMICS","count":208}
-{"skill":"E-COMMERCE","count":855}
-{"skill":"E2E","count":90}
-{"skill":"ECOMMERCE","count":236}
-{"skill":"ELASTIC","count":367}
-{"skill":"ELASTIC SEARCH","count":66}
-{"skill":"ELETRICA","count":967}
-{"skill":"ELETRONICA","count":424}
-{"skill":"ELETRONICO","count":475}
-{"skill":"EMPILHADEIRA","count":327}
-{"skill":"EMPRESARIAL","count":268}
-{"skill":"ENCARREGADO","count":459}
-{"skill":"ENGENHARIA","count":5086}
-{"skill":"ENGENHEIRA","count":103}
-{"skill":"ENGENHEIRO","count":3016}
-{"skill":"ENGINEER","count":1074}
-{"skill":"EQUIPAMENTOS","count":2617}
-{"skill":"ESTRUTURA","count":1229}
-{"skill":"ETLS","count":36}
-{"skill":"EVENTOS","count":936}
-{"skill":"EWM","count":115}
-{"skill":"EXECUTIVA","count":142}
-{"skill":"EXECUTIVO","count":636}
-{"skill":"EXPERIENCE","count":1234}
-{"skill":"EXTERIOR","count":506}
-{"skill":"EXTERNO","count":687}
-{"skill":"FINANCEIRA","count":1036}
-{"skill":"FINANCEIROS","count":657}
-{"skill":"FISICA","count":286}
-{"skill":"FISICO","count":225}
-{"skill":"FLUIG","count":35}
-{"skill":"FLUTTER","count":642}
-{"skill":"FOLHA","count":2341}
-{"skill":"FRONT","count":2531}
-{"skill":"FRONT-END","count":2475}
-{"skill":"FULL","count":4989}
-{"skill":"FULLSTACK","count":2993}
-{"skill":"FUNCIONAL","count":1649}
-{"skill":"GERENTE","count":4925}
-{"skill":"GESTAO","count":11793}
-{"skill":"GESTOR","count":693}
-{"skill":"GIT","count":4025}
-{"skill":"GRAFICO","count":190}
-{"skill":"GROWTH","count":77}
-{"skill":"HANA","count":418}
-{"skill":"HELP","count":187}
-{"skill":"HOSPITALAR","count":179}
-{"skill":"HUMANOS","count":2211}
-{"skill":"HUNTER","count":251}
-{"skill":"HYBRIS","count":174}
-{"skill":"IBM","count":522}
-{"skill":"INDUSTRIAL","count":1176}
-{"skill":"INFORMACAO","count":3068}
-{"skill":"INFORMATICA","count":1425}
-{"skill":"INFRA","count":708}
-{"skill":"INFRAESTRUTURA","count":3183}
-{"skill":"INGLES","count":11527}
-{"skill":"INTEGRATION","count":629}
-{"skill":"INTERFACE","count":1287}
-{"skill":"INTERNET","count":572}
-{"skill":"INVESTIMENTOS","count":408}
-{"skill":"IOS","count":1808}
-{"skill":"JASPER","count":55}
-{"skill":"JAVA","count":11342}
-{"skill":"JAVAEE","count":30}
-{"skill":"JSE","count":7}
-{"skill":"JSON","count":436}
-{"skill":"JSP","count":114}
-{"skill":"KAFKA","count":556}
-{"skill":"KNOCKOUT","count":11}
-{"skill":"LEAD","count":1151}
-{"skill":"LEADER","count":131}
-{"skill":"LEARNING","count":389}
-{"skill":"LIDER","count":2770}
-{"skill":"LIMPEZA","count":1365}
-{"skill":"LOJA","count":1250}
-{"skill":"MACHINE","count":514}
-{"skill":"MANAGEMENT","count":925}
-{"skill":"MANAGER","count":951}
-{"skill":"MANUTENCAO","count":6903}
-{"skill":"MAQUINA","count":670}
-{"skill":"MAQUINAS","count":1441}
-{"skill":"MASTER","count":1007}
-{"skill":"MATERIAIS","count":2278}
-{"skill":"MECANICA","count":1329}
-{"skill":"MECANICO","count":1039}
-{"skill":"MEDICA","count":2726}
-{"skill":"MEDICINA","count":436}
-{"skill":"MEDICO","count":1657}
-{"skill":"METALURGICA","count":200}
-{"skill":"METODOLOGIA","count":3366}
-{"skill":"METODOLOGIAS","count":4667}
-{"skill":"MICROSERVICOS","count":684}
-{"skill":"MOBILE","count":3004}
-{"skill":"MODELAGEM","count":2134}
-{"skill":"MONGO","count":379}
-{"skill":"MOTORISTA","count":608}
-{"skill":"MVC","count":1187}
-{"skill":"NATIVO","count":412}
-{"skill":"NEGOCIO","count":2189}
-{"skill":"NEGOCIOS","count":4211}
-{"skill":"NET","count":834}
-{"skill":"NODE","count":1581}
-{"skill":"OBRAS","count":504}
-{"skill":"OPERACIONAL","count":1411}
-{"skill":"OPERACOES","count":2208}
-{"skill":"OPERADOR","count":1961}
-{"skill":"ORACLE","count":3838}
-{"skill":"ORGANIZACIONAL","count":294}
-{"skill":"PAGAMENTO","count":1528}
-{"skill":"PATTERNS","count":857}
-{"skill":"PESSOAL","count":2807}
-{"skill":"PHP","count":2437}
-{"skill":"PLATFORM","count":477}
-{"skill":"POWER","count":2423}
-{"skill":"PROCESS","count":293}
-{"skill":"PROCESSOS","count":9850}
-{"skill":"PRODUCAO","count":3775}
-{"skill":"PRODUCT","count":1568}
-{"skill":"PRODUTO","count":2099}
-{"skill":"PRODUTOS","count":5940}
-{"skill":"PROFESSOR","count":95}
-{"skill":"PROGRAMADOR","count":1545}
-{"skill":"PROJECT","count":577}
-{"skill":"PROJETO","count":6368}
-{"skill":"PROJETOS","count":12320}
-{"skill":"PROMOTOR","count":218}
-{"skill":"PUBLICITARIA","count":6}
-{"skill":"PYTHON","count":3045}
-{"skill":"QLIK","count":109}
-{"skill":"QUALIDADE","count":5585}
-{"skill":"QUALITY","count":483}
-{"skill":"QUERY","count":150}
-{"skill":"QUIMICA","count":381}
-{"skill":"QUIMICO","count":134}
-{"skill":"RABBIT","count":148}
-{"skill":"REACT","count":4766}
-{"skill":"RECRUITER","count":545}
-{"skill":"RECRUTAMENTO","count":3404}
-{"skill":"RECURSOS","count":4952}
-{"skill":"REDES","count":2813}
-{"skill":"RELACIONAL","count":1014}
-{"skill":"REPORT","count":349}
-{"skill":"REPORTS","count":401}
-{"skill":"REPRESENTANTE","count":366}
-{"skill":"REQUISITOS","count":8663}
-{"skill":"REST","count":3339}
-{"skill":"RESTFUL","count":795}
-{"skill":"RESTFULL","count":309}
-{"skill":"RISCO","count":322}
-{"skill":"RUBY","count":1119}
-{"skill":"SALES","count":609}
-{"skill":"SAP","count":5429}
-{"skill":"SAUDE","count":6576}
-{"skill":"SCIENCE","count":198}
-{"skill":"SCRIPT","count":716}
-{"skill":"SCRUM","count":3510}
-{"skill":"SEARCH","count":163}
-{"skill":"SECRETARIA","count":274}
-{"skill":"SECRETARIADO","count":103}
-{"skill":"SECURITY","count":776}
-{"skill":"SEGURANCA","count":4959}
-{"skill":"SEGUROS","count":377}
-{"skill":"SELECAO","count":2310}
-{"skill":"SERVER","count":3522}
-{"skill":"SERVICE","count":1856}
-{"skill":"SERVICES","count":988}
-{"skill":"SERVICO","count":1238}
-{"skill":"SERVICOS","count":8080}
-{"skill":"SERVIDORES","count":1184}
-{"skill":"SHELL","count":698}
-{"skill":"SISTEMA","count":7507}
-{"skill":"SISTEMAS","count":11686}
-{"skill":"SOA","count":296}
-{"skill":"SOCIAL","count":637}
-{"skill":"SOFTWARE","count":5850}
-{"skill":"SOLDA","count":412}
-{"skill":"SOLUCAO","count":2014}
-{"skill":"SOLUCOES","count":7753}
-{"skill":"SPARK","count":272}
-{"skill":"SPRING","count":2815}
-{"skill":"SQL","count":9278}
-{"skill":"SUPERVISOR","count":1835}
-{"skill":"SUPORTE","count":8353}
-{"skill":"SUPPORT","count":291}
-{"skill":"SWIFT","count":536}
-{"skill":"SYSTEM","count":601}
-{"skill":"TECH","count":2141}
-{"skill":"TECNICO","count":8967}
-{"skill":"TECNOLOGIA","count":6699}
-{"skill":"TELECOMUNICACOES","count":288}
-{"skill":"TELEMARKETING","count":160}
-{"skill":"TESTE","count":2488}
-{"skill":"TESTES","count":9066}
-{"skill":"TOMCAT","count":253}
-{"skill":"TOTVS","count":685}
-{"skill":"TRABALHISTA","count":344}
-{"skill":"USER","count":411}
-{"skill":"VENDAS","count":5460}
-{"skill":"VENDEDOR","count":1488}
-{"skill":"VISUALBASIC","count":5}
-{"skill":"VLANS","count":15}
-{"skill":"VS CODE","count":14}
-{"skill":"VUE","count":484}
-{"skill":"VULNERABILIDADES","count":246}
-{"skill":"WEB","count":6394}
-{"skill":"WEBLOGIC","count":170}
-{"skill":"WEBSERVICE","count":191}
-{"skill":"WEBSERVICES","count":537}
-{"skill":"ZABBIX","count":120}
-
+E{"skill":"BOLSA DE VALORES","count":25}
+E{"skill":"BUILDING","count":121}
+E{"skill":"BUSINESS DEVELOPMENT","count":74}
+S{"skill":"BUSINESS ONE","count":104}
+E{"skill":"BUSINESS SYSTEM ANALYST","count":2}
+E{"skill":"BUSSINES","count":8}
+E{"skill":"CABEAMENTO ESTRUTURADO","count":78}
+E{"skill":"CACADOR","count":2}
+E{"skill":"CAMPOS","count":397}
+E{"skill":"CANAIS","count":765}
+E{"skill":"CANTEIRO","count":31}
+E{"skill":"CAPTURA","count":78}
+E{"skill":"CARGA","count":1223}
+E{"skill":"CARGOS","count":686}
+E{"skill":"CARREIRA","count":1466}
+E{"skill":"CARTAO","count":1434}
+E{"skill":"CARTEIRA","count":1530}
+E{"skill":"CARTOES","count":259}
+E{"skill":"CATEGORIA","count":657}
+P{"skill":"CERAMISTA","count":2}
+S{"skill":"CERTIFICACAO","count":1565}
+E{"skill":"CERTIFICADO AWS","count":2}
+S{"skill":"CERTIFICATE","count":6}
+S{"skill":"CERTIFICATION","count":59}
+E{"skill":"CHAMADOS","count":796}
+E{"skill":"CHARGEBACKS","count":2}
+E{"skill":"CHEF","count":74}
+E{"skill":"CIENCIA DA COMPUTACAO","count":569}
+E{"skill":"CIENCIAS BIOLOGICAS","count":2}
+E{"skill":"CIENCIAS CONTABEIS","count":1036}
+E{"skill":"CIENCIAS DA COMPUTACAO","count":338}
+S{"skill":"CIENTIFICA","count":15}
+E{"skill":"CIENTISTA DE DADOS","count":311}
+E{"skill":"CLASSIC","count":19}
+E{"skill":"CLEARSALE","count":18}
+E{"skill":"CLIENT","count":146}
+E{"skill":"CLINICA MEDICA","count":46}
+E{"skill":"CLOUD AWS","count":689}
+E{"skill":"CLOUD COMPUTING","count":250}
+E{"skill":"CLOUD-BASED","count":28}
+E{"skill":"CLOUDAWS","count":4}
+E{"skill":"CLOUDAZURE","count":6}
+E{"skill":"CLOUDS","count":60}
+E{"skill":"CLOUDWATCH","count":57}
+S{"skill":"CLUSTER","count":116}
+S{"skill":"CLUSTERIZACAO","count":5}
+E{"skill":"CNH","count":1291}
+P{"skill":"COACHING","count":59}
+S{"skill":"CODEIGNITER","count":15}
+E{"skill":"CODIGO","count":3682}
+E{"skill":"COFRE DE SENHA","count":8}
+E{"skill":"COFRE DE SENHAS","count":19}
+E{"skill":"COMERCIAIS","count":839}
+E{"skill":"COMMUNICATION","count":502}
+E{"skill":"COMMUNITY MANAGER","count":5}
+E{"skill":"COMPANY","count":257}
+S{"skill":"COMPRA","count":1012}
+E{"skill":"COMUNICACAO","count":5188}
+E{"skill":"CONCILIACAO","count":916}
+E{"skill":"CONFERENCIA","count":1484}
+P{"skill":"CONFERENTE","count":117}
+S{"skill":"CONSORCIO","count":48}
+S{"skill":"CONSTRUCAO NAVAL","count":2}
+E{"skill":"CONSULTANT","count":126}
+E{"skill":"CONSULTAS","count":745}
+E{"skill":"CONSULTOR AZURE","count":15}
+E{"skill":"CONSULTOR COMERCIAL","count":342}
+E{"skill":"CONSULTOR COMERCIAL EXTERNO","count":19}
+E{"skill":"CONSULTOR DE INVESTIMENTOS","count":3}
+E{"skill":"CONSULTOR DE NEGOCIOS","count":82}
+E{"skill":"CONSULTOR DE SEGURANCA DA INFORMACAO","count":18}
+E{"skill":"CONSULTOR DE VENDAS EXTERNO","count":12}
+E{"skill":"CONSULTOR FINANCEIRO","count":5}
+E{"skill":"CONSULTOR FUNCIONAL","count":221}
+E{"skill":"CONSULTORA","count":681}
+E{"skill":"CONSULTORAS","count":16}
+E{"skill":"CONSULTORES","count":458}
+E{"skill":"CONSULTORIA","count":2580}
+E{"skill":"CONSUMO","count":1243}
+S{"skill":"CONTAINERS","count":623}
+E{"skill":"CONTAS A PAGAR","count":782}
+E{"skill":"CONTASAPAGAR","count":6}
+S{"skill":"CONTINUOUS DELIVERY","count":56}
+S{"skill":"CONTINUOUS INTEGRATION","count":164}
+E{"skill":"CONTINUOUSDELIVERY","count":4}
+E{"skill":"CONTINUOUSINTEGRATION","count":16}
+E{"skill":"CONTRATO","count":2318}
+E{"skill":"CONTRATOS","count":1109}
+S{"skill":"CONTROLADORIA","count":480}
+E{"skill":"CONTROLE DE QUALIDADE","count":246}
+E{"skill":"CONTROLES","count":973}
+E{"skill":"CONTROLLER","count":76}
+S{"skill":"COORDENACAO","count":717}
+E{"skill":"COORDENADOR DE CREDITO","count":9}
+E{"skill":"COORDENADOR DE PROJETOS","count":74}
+E{"skill":"COORDENADOR DE SEGURANCA DA INFORMACAO","count":11}
+E{"skill":"COORDENADOR DE SISTEMAS","count":12}
+E{"skill":"COORDENADOR DE TI","count":55}
+E{"skill":"COORDENADORFINANCEIRO","count":2}
+E{"skill":"COPYWRITER","count":8}
+E{"skill":"CORPORATIVA","count":284}
+E{"skill":"CORPORATIVO","count":317}
+E{"skill":"CORRETOR DE IMOVEIS","count":31}
+P{"skill":"CORRETOR DE SEGUROS","count":3}
+E{"skill":"CREATORS","count":2}
+E{"skill":"CRECHE","count":508}
+E{"skill":"CROSS-PLATFORM","count":27}
+E{"skill":"CROSS-SITE","count":5}
+E{"skill":"CRYSTAL REPORTS","count":19}
+E{"skill":"CSS  BOOTSTRAP","count":6}
+E{"skill":"CTFL-AT","count":13}
+P{"skill":"CTO","count":30}
+S{"skill":"CURADORIA","count":32}
+E{"skill":"CUSTOMER","count":521}
+E{"skill":"CUSTOMERSUCCESS","count":4}
+S{"skill":"CYBER SECURITY","count":97}
+E{"skill":"CYBER SECURITY ANALYST","count":4}
+E{"skill":"CYBER SEGURANCA","count":47}
+S{"skill":"CYBERBANK","count":4}
+S{"skill":"CYBERSEGURANCA","count":11}
+S{"skill":"DASHBOARD","count":113}
+S{"skill":"DATA BASE","count":22}
+P{"skill":"DATA ENGINEER","count":231}
+E{"skill":"DATA SCIENTIST","count":28}
+S{"skill":"DATA STORE","count":2}
+S{"skill":"DATA WAREHOUSE","count":111}
+S{"skill":"DATABASES","count":135}
+P{"skill":"DBA","count":793}
+E{"skill":"DEEP SECURITY","count":5}
+E{"skill":"DEMANDAS","count":1866}
+P{"skill":"DENTISTA","count":9}
+E{"skill":"DEPARTAMENTO PESSOAL","count":953}
+E{"skill":"DEPARTAMENTOPESSOAL","count":42}
+S{"skill":"DEPLOYMENT","count":256}
+E{"skill":"DESENHOS","count":750}
+E{"skill":"DESENVOLVEDOR AZURE","count":14}
+E{"skill":"DESENVOLVEDOR BACK-END","count":431}
+E{"skill":"DESENVOLVEDOR CLOUD","count":20}
+E{"skill":"DESENVOLVEDOR DE CHATBOT","count":2}
+E{"skill":"DESENVOLVEDOR DE SISTEMAS","count":81}
+E{"skill":"DESENVOLVEDOR DEVOPS","count":8}
+E{"skill":"DESENVOLVEDOR FRONT END","count":632}
+E{"skill":"DESENVOLVEDOR IOS","count":478}
+E{"skill":"DESENVOLVEDOR IOS MOBILE","count":2}
+E{"skill":"DESENVOLVEDOR MOBILE","count":674}
+E{"skill":"DESENVOLVEDOR WEB","count":282}
+E{"skill":"DESENVOLVEDORAS","count":161}
+E{"skill":"DESENVOLVEDORES DE SOFTWARE","count":14}
+E{"skill":"DESENVOLVIMENTO AGIL","count":181}
+S{"skill":"DESENVOLVIMENTO HUMANO ORGANIZACIONAL","count":8}
+E{"skill":"DESENVOLVIMENTOS","count":430}
+S{"skill":"DESIGN DE AMBIENTES","count":2}
+S{"skill":"DESIGN DE INTERIORES","count":14}
+S{"skill":"DESIGN DE PRODUTO","count":23}
+S{"skill":"DESIGN GRAFICO","count":64}
+S{"skill":"DESIGN PATTERN","count":62}
+P{"skill":"DESIGNER DE INTERIORES","count":13}
+P{"skill":"DESIGNER DE PRODUTO","count":16}
+P{"skill":"DESIGNER DE PRODUTOS","count":11}
+P{"skill":"DESIGNER GRAFICO","count":65}
+E{"skill":"DESIGNER UX UI","count":11}
+P{"skill":"DESIGNERGRAFICO","count":2}
+S{"skill":"DESIGNPATTERNS","count":7}
+E{"skill":"DESKTOP","count":269}
+E{"skill":"DEVELOPER WEB","count":5}
+E{"skill":"DEVS","count":603}
+E{"skill":"DIGITACAO","count":146}
+S{"skill":"DIREITO ADMINISTRATIVO","count":4}
+S{"skill":"DIREITO BANCARIO","count":2}
+S{"skill":"DIREITO CIVIL","count":6}
+S{"skill":"DIREITO CONTRATUAL","count":4}
+S{"skill":"DIREITO DIGITAL","count":2}
+S{"skill":"DIREITO EMPRESARIAL","count":3}
+S{"skill":"DIREITO IMOBILIARIO","count":11}
+S{"skill":"DIREITO SOCIETARIO","count":3}
+S{"skill":"DIREITO TRABALHISTA","count":4}
+S{"skill":"DIREITO TRIBUTARIO","count":18}
+E{"skill":"DIRETOR COMERCIAL","count":12}
+E{"skill":"DIRETOR DE ARTE","count":11}
+E{"skill":"DIRETOR DE MARKETING","count":2}
+S{"skill":"DIRETORIA","count":429}
+E{"skill":"DIRETOS","count":315}
+E{"skill":"DISTRIBUICAO","count":949}
+E{"skill":"DISTRIBUIDORA","count":416}
+S{"skill":"DOCKER-COMPOSE","count":55}
+E{"skill":"DOCUMENTACAO","count":2818}
+E{"skill":"DOCUMENTOS","count":2416}
+E{"skill":"DOMAIN-DRIVEN","count":54}
+S{"skill":"DOMAIN-DRIVEN-DESIGN","count":4}
+E{"skill":"DOMINIO","count":2941}
+S{"skill":"DOT.NET","count":22}
+S{"skill":"DOTNET","count":397}
+E{"skill":"E COMMERCE","count":61}
+S{"skill":"E-SOCIAL","count":195}
+E{"skill":"EAD","count":53}
+S{"skill":"ECMA","count":4}
+S{"skill":"ECMASCRIPT","count":68}
+S{"skill":"EDUCACAO FISICA","count":23}
+P{"skill":"EDUCADOR FISICO","count":2}
+S{"skill":"ELASTIC SEARCH","count":66}
+P{"skill":"ELETRICISTA","count":580}
+P{"skill":"ELETRICISTAS","count":4}
+E{"skill":"EMBARCADO","count":90}
+E{"skill":"EMBARCADOS","count":89}
+E{"skill":"EMISSAO","count":1673}
+E{"skill":"ENCARGOS","count":334}
+P{"skill":"ENCARREGADA","count":5}
+P{"skill":"ENCARREGADO DE LOJA","count":2}
+P{"skill":"ENDOCRINOLOGISTA","count":2}
+P{"skill":"ENFERMEIRA","count":34}
+P{"skill":"ENFERMEIRO","count":159}
+P{"skill":"ENFERMEIROS","count":18}
+S{"skill":"ENGENHARIA AGRONOMICA","count":13}
+S{"skill":"ENGENHARIA AMBIENTAL","count":37}
+S{"skill":"ENGENHARIA CIVIL","count":206}
+S{"skill":"ENGENHARIA DE ALIMENTOS","count":26}
+S{"skill":"ENGENHARIA DE COMPUTACAO","count":75}
+S{"skill":"ENGENHARIA DE CONTROLE E AUTOMACAO","count":18}
+S{"skill":"ENGENHARIA DE MATERIAIS","count":11}
+S{"skill":"ENGENHARIA DE MINAS","count":5}
+S{"skill":"ENGENHARIA DE PRODUCAO","count":256}
+E{"skill":"ENGENHARIA DE SOFTWARE","count":432}
+S{"skill":"ENGENHARIA DE TELECOMUNICACOES","count":19}
+S{"skill":"ENGENHARIA ELETRICA","count":163}
+S{"skill":"ENGENHARIA ELETRONICA","count":27}
+S{"skill":"ENGENHARIA FLORESTAL","count":6}
+E{"skill":"ENGENHARIA INFORMATICA","count":11}
+S{"skill":"ENGENHARIA MECANICA","count":206}
+S{"skill":"ENGENHARIA MECATRONICA","count":13}
+S{"skill":"ENGENHARIA METALURGICA","count":7}
+S{"skill":"ENGENHARIA QUIMICA","count":95}
+S{"skill":"ENGENHARIA TEXTIL","count":5}
+E{"skill":"ENGENHARIAS","count":166}
+E{"skill":"ENGENHEIRA DE SOFTWARE","count":25}
+P{"skill":"ENGENHEIRO AGRONOMO","count":2}
+P{"skill":"ENGENHEIRO AMBIENTAL","count":3}
+P{"skill":"ENGENHEIRO CIVIL","count":74}
+P{"skill":"ENGENHEIRO DA COMPUTACAO","count":2}
+P{"skill":"ENGENHEIRO DA QUALIDADE","count":7}
+E{"skill":"ENGENHEIRO DE CIBERSEGURANCA","count":2}
+P{"skill":"ENGENHEIRO DE CONTROLE E AUTOMACAO","count":9}
+E{"skill":"ENGENHEIRO DE DADOS","count":967}
+E{"skill":"ENGENHEIRO DE MACHINE LEARNING","count":4}
+E{"skill":"ENGENHEIRO DE MANUFATURA","count":3}
+P{"skill":"ENGENHEIRO DE MANUTENCAO","count":20}
+P{"skill":"ENGENHEIRO DE MATERIAIS","count":2}
+P{"skill":"ENGENHEIRO DE MINAS","count":6}
+P{"skill":"ENGENHEIRO DE PRODUCAO","count":14}
+P{"skill":"ENGENHEIRO DE QUALIDADE","count":55}
+P{"skill":"ENGENHEIRO DE SEGURANCA DO TRABALHO","count":34}
+P{"skill":"ENGENHEIRO DE SERVICOS","count":2}
+E{"skill":"ENGENHEIRO DE SISTEMAS","count":40}
+E{"skill":"ENGENHEIRO DE SOFTWARE","count":294}
+P{"skill":"ENGENHEIRO DE TELECOM","count":5}
+P{"skill":"ENGENHEIRO DE TELECOMUNICACOES","count":2}
+E{"skill":"ENGENHEIRO DEVOPS","count":80}
+P{"skill":"ENGENHEIRO ELETRICO","count":9}
+P{"skill":"ENGENHEIRO ELETRONICO","count":7}
+P{"skill":"ENGENHEIRO FLORESTAL","count":2}
+E{"skill":"ENGENHEIRO FULL STACK","count":2}
+P{"skill":"ENGENHEIRO INDUSTRIAL","count":2}
+P{"skill":"ENGENHEIRO MECANICO","count":42}
+P{"skill":"ENGENHEIRO QUIMICO","count":12}
+P{"skill":"ENGENHEIRO TEXTIL","count":3}
+P{"skill":"ENGENHEIROCIVIL","count":6}
+E{"skill":"ENGINEERING","count":262}
+E{"skill":"ENSAIOS","count":114}
+E{"skill":"ENTERPRISE","count":314}
+E{"skill":"ENTITY","count":800}
+E{"skill":"ENTREVISTA","count":983}
+E{"skill":"ENTREVISTAS","count":1037}
+E{"skill":"ERPSAP","count":2}
+E{"skill":"ESCALA","count":1603}
+E{"skill":"ESCRITA","count":1471}
+E{"skill":"ESCRITORIO","count":2701}
+S{"skill":"ESPANOL","count":8}
+E{"skill":"ESPECIALISTA CLOUD","count":42}
+E{"skill":"ESPECIALISTA EM COMERCIO EXTERIOR","count":3}
+E{"skill":"ESPECIALISTA EM E-COMMERCE","count":8}
+E{"skill":"ESPECIALISTA EM SOLDA","count":4}
+E{"skill":"ESPECIALISTAS EM TRANSFORMACAO DIGITAL","count":4}
+S{"skill":"ESTATISTICAS","count":130}
+P{"skill":"ESTATISTICO","count":39}
+P{"skill":"ESTETICISTA","count":16}
+P{"skill":"ESTILISTA","count":6}
+P{"skill":"ESTOQUISTA","count":78}
+E{"skill":"ESTRATEGIAS","count":1427}
+E{"skill":"ESTRATEGICO","count":515}
+E{"skill":"EVENT-DRIVEN","count":75}
+E{"skill":"EXCHANGE","count":73}
+E{"skill":"EXECUTIVE","count":137}
+P{"skill":"EXECUTIVO COMERCIAL","count":60}
+P{"skill":"EXECUTIVO DE CONTAS","count":78}
+P{"skill":"EXECUTIVO DE VENDAS","count":217}
+E{"skill":"EXECUTIVOCOMERCIAL","count":3}
+E{"skill":"EXECUTIVODECONTAS","count":2}
+E{"skill":"EXECUTIVODEVENDAS","count":3}
+E{"skill":"EXPEDICAO","count":421}
+E{"skill":"EXPERIENCIAS","count":936}
+S{"skill":"EXPRESS","count":103}
+S{"skill":"FARMACEUTICA","count":118}
+S{"skill":"FARMACEUTICAS","count":34}
+P{"skill":"FARMACEUTICO","count":233}
+P{"skill":"FARMACEUTICOS","count":17}
+P{"skill":"FATURISTA","count":28}
+E{"skill":"FECHAMENTO","count":2036}
+E{"skill":"FERRAMENTAS","count":9144}
+S{"skill":"FIELD SERVICES","count":12}
+S{"skill":"FIELDSERVICE","count":12}
+E{"skill":"FILIAL","count":165}
+S{"skill":"FINANCAS","count":298}
+S{"skill":"FINANCEIRAS","count":491}
+S{"skill":"FINANCIAL","count":96}
+S{"skill":"FIREWALLS","count":196}
+S{"skill":"FISCAIS","count":1254}
+P{"skill":"FISCAL DE CAIXA","count":16}
+P{"skill":"FISIOTERAPEUTA","count":21}
+P{"skill":"FISIOTERAPEUTAS","count":2}
+E{"skill":"FLOW","count":258}
+S{"skill":"FLUENT","count":341}
+S{"skill":"FLUENTE","count":1592}
+E{"skill":"FLUXOS","count":787}
+S{"skill":"FOLHA DE PAGAMENTO","count":854}
+S{"skill":"FOLHA PAGAMENTO","count":19}
+E{"skill":"FOLHADEPAGAMENTO","count":12}
+S{"skill":"FONOAUDIOLOGICO","count":3}
+P{"skill":"FONOAUDIOLOGO","count":12}
+E{"skill":"FORMS","count":401}
+E{"skill":"FORNECEDOR","count":187}
+E{"skill":"FORNECEDORES","count":1572}
+S{"skill":"FINANCE","count":79}
+S{"skill":"FOTOGRAFIAS","count":12}
+P{"skill":"FOTOGRAFO","count":2}
+P{"skill":"FOTOGRAFOS","count":2}
+E{"skill":"FRAMEWORK","count":3071}
+E{"skill":"FRAMEWORKS","count":2031}
+E{"skill":"FRONT-END DEVELOPER","count":163}
+S{"skill":"FRONTEND","count":2534}
+S{"skill":"FULL STACK","count":2280}
+E{"skill":"FULLSTACK  .NET","count":11}
+E{"skill":"FUNCIONAIS","count":1095}
+E{"skill":"FUNCIONALIDADE","count":157}
+E{"skill":"FUNCIONALIDADES","count":929}
+E{"skill":"FUNCTIONS","count":180}
+E{"skill":"FUNDIDOR MOLDADOR","count":6}
+S{"skill":"FUNERARIOS","count":2}
+E{"skill":"G SUITE","count":3}
+P{"skill":"GARCOM","count":62}
+P{"skill":"GARCONETE","count":13}
+E{"skill":"GENTE","count":1464}
+P{"skill":"GEOLOGO","count":6}
+S{"skill":"GERENCIA","count":566}
+S{"skill":"GERENCIAIS","count":511}
+P{"skill":"GERENTE ADMINISTRATIVO","count":92}
+P{"skill":"GERENTE COMERCIAL","count":219}
+P{"skill":"GERENTE DE CONTAS","count":84}
+E{"skill":"GERENTE DE ECOMMERCE","count":2}
+P{"skill":"GERENTE DE NEGOCIOS","count":65}
+P{"skill":"GERENTE DE OPERACOES","count":107}
+P{"skill":"GERENTE DE PRODUTO","count":63}
+P{"skill":"GERENTE DE PRODUTOS","count":13}
+P{"skill":"GERENTE DE PROJETOS","count":948}
+P{"skill":"GERENTE DE RECURSOS HUMANOS","count":51}
+P{"skill":"GERENTE DE RESTAURANTE","count":21}
+P{"skill":"GERENTE DE TI","count":69}
+P{"skill":"GERENTE FINANCEIRO","count":78}
+P{"skill":"GERENTE RH","count":5}
+E{"skill":"GERENTECOMERCIAL","count":7}
+S{"skill":"GESTAO AMBIENTAL","count":25}
+S{"skill":"GESTAO DA INFORMACAO","count":22}
+S{"skill":"GESTAO DE PESSOAS","count":611}
+S{"skill":"GESTAO DE PROJETOS","count":976}
+P{"skill":"GESTOR DE RECURSOS HUMANOS","count":2}
+P{"skill":"GESTOR DE RH","count":16}
+P{"skill":"GESTOR HOSPITALAR","count":2}
+P{"skill":"GESTORES","count":445}
+S{"skill":"GITHUB","count":464}
+S{"skill":"GOOGLE CLOUD","count":565}
+S{"skill":"GOOGLE CLOUD PLATFORM","count":141}
+E{"skill":"GOOGLE CLOUD SQL","count":2}
+S{"skill":"GOOGLECLOUD","count":18}
+E{"skill":"GROWTH HACKER","count":4}
+E{"skill":"GSUIT","count":4}
+E{"skill":"GSUITE","count":5}
+E{"skill":"HARDWARE","count":638}
+S{"skill":"HCM","count":167}
+P{"skill":"HEAD HUNTER","count":96}
+P{"skill":"HEADHUNTER","count":55}
+E{"skill":"HEADLESS","count":7}
+P{"skill":"HELP DESK","count":77}
+P{"skill":"HELP-DESK","count":2}
+E{"skill":"HUMANRESOURCES","count":6}
+P{"skill":"HUNTING","count":183}
+E{"skill":"HYBRID","count":28}
+S{"skill":"HYPER","count":5}
+S{"skill":"HYPERV","count":5}
+S{"skill":"ICMS-ST","count":11}
+E{"skill":"IDIOMA","count":439}
+E{"skill":"IMEDIATO","count":2138}
+E{"skill":"IMPLANTACAO","count":2728}
+E{"skill":"IMPLEMENTACAO","count":3183}
+S{"skill":"IMPOSTOS","count":1037}
+E{"skill":"INDIRETOS","count":237}
+E{"skill":"INDUSTRIA","count":2569}
+E{"skill":"INDUSTRIAIS","count":420}
+E{"skill":"INFORMATION TECHNOLOGY","count":41}
+E{"skill":"INFRA ESTRUTURA","count":45}
+E{"skill":"INFRA-ESTRUTURA","count":68}
+E{"skill":"INFRAESTRURA","count":4}
+E{"skill":"INFRAESTRUTURA CLOUD","count":166}
+E{"skill":"INGLESAVANCADO","count":5}
+E{"skill":"INGLES FLUENTE","count":5}
+E{"skill":"INOVACAO","count":1287}
+P{"skill":"INSPETOR DE EQUIPAMENTOS","count":6}
+P{"skill":"INSPETOR DE MANUTENCAO","count":9}
+E{"skill":"INSTALACAO","count":1074}
+E{"skill":"INSTALACOES","count":578}
+E{"skill":"INSUMOS","count":359}
+E{"skill":"INTEGRACAO","count":4978}
+E{"skill":"INTEGRACOES","count":1616}
+E{"skill":"INTEGRADO","count":237}
+E{"skill":"INTEGRADOR","count":41}
+E{"skill":"INTEGRAL","count":240}
+E{"skill":"INTELIGENCIADEMERCADO","count":4}
+E{"skill":"INTERFACE WEB","count":18}
+E{"skill":"INTERFACES","count":751}
+E{"skill":"INTERMEDIARIO","count":2935}
+E{"skill":"INTERNET INFORMATION SERVICES","count":7}
+E{"skill":"INTERNO","count":1183}
+E{"skill":"INTERNOS","count":1602}
+E{"skill":"IOS DEVELOPER","count":29}
+E{"skill":"IOS SWIFT","count":79}
+S{"skill":"IOT","count":139}
+P{"skill":"JARDINEIRO","count":17}
+S{"skill":"JASPER REPORTS","count":6}
+S{"skill":"JASPERREPORT","count":7}
+S{"skill":"JASPERREPORTS","count":5}
+S{"skill":"JAVA SERVER PAGES","count":34}
+S{"skill":"JAVASCRIPT","count":4306}
+E{"skill":"JEKINS","count":7}
+E{"skill":"JOGOS DIGITAIS","count":24}
+P{"skill":"JORNALISTA","count":16}
+P{"skill":"JORNALISTAS","count":6}
+S{"skill":"JWT","count":127}
+S{"skill":"KANBAN","count":1036}
+S{"skill":"KNOCKOUT.JS","count":2}
+S{"skill":"KNOCKOUTJS","count":9}
+E{"skill":"KNOWLEDGE","count":580}
+S{"skill":"KPIS","count":560}
+S{"skill":"KUBERNETE","count":2}
+S{"skill":"KUBERNETES","count":1022}
+S{"skill":"LABORATORIOS","count":87}
+E{"skill":"LANCAMENTOS","count":1039}
+E{"skill":"LANGUAGE","count":116}
+P{"skill":"LAVADOR DE CARROS","count":2}
+E{"skill":"LAYOUT","count":389}
+E{"skill":"LEADS","count":332}
+E{"skill":"LEVANTAMENTO","count":1903}
+P{"skill":"LIDER TECNICO","count":559}
+E{"skill":"LINGUAGEM","count":3389}
+E{"skill":"LINGUAGENS","count":2196}
+S{"skill":"LINGUISTICA","count":3}
+S{"skill":"LOGISTICO","count":353}
+E{"skill":"LOJAS","count":527}
+E{"skill":"LUCROS","count":202}
+E{"skill":"MAC","count":79}
+S{"skill":"MACHINELEARNING","count":42}
+E{"skill":"MANDATORY","count":52}
+S{"skill":"MANUTENCAO DE AERONAVES","count":5}
+E{"skill":"MANUTENCOES","count":467}
+E{"skill":"MAPEAMENTO","count":1068}
+S{"skill":"MAPREDUCE","count":9}
+S{"skill":"MAQUINA VIRTUAL","count":4}
+P{"skill":"MAQUINISTA","count":7}
+P{"skill":"MARCENEIRO","count":58}
+S{"skill":"MARKETING DIGITAL","count":315}
+S{"skill":"MARKETING OFFLINE","count":2}
+E{"skill":"MARKETINGDIGITAL","count":19}
+E{"skill":"MBA","count":303}
+P{"skill":"MEDIADOR","count":11}
+S{"skill":"MEDICAMENTOS","count":184}
+S{"skill":"MEDICINA DO TRABALHO","count":88}
+S{"skill":"MEDICINA VETERINARIA","count":22}
+E{"skill":"MEDICO DO TRABALHO","count":45}
+S{"skill":"MEIO AMBIENTE","count":166}
+E{"skill":"MEIOSDEPAGAMENTOS","count":3}
+E{"skill":"MELHORIA","count":1802}
+E{"skill":"MELHORIAS","count":2575}
+S{"skill":"MER","count":28}
+E{"skill":"MERCADO","count":6170}
+E{"skill":"MERCADORIAS","count":506}
+E{"skill":"MERCADOS","count":512}
+P{"skill":"MESTRE DE OBRAS","count":5}
+E{"skill":"METAS","count":1363}
+E{"skill":"METODOLOGIAAGIL","count":20}
+S{"skill":"METODOLOGIAS AGEIS","count":2103}
+E{"skill":"METODOLOGIASAGEIS","count":13}
+S{"skill":"MICRO SERVICES","count":18}
+S{"skill":"MICRO SERVICO","count":16}
+S{"skill":"MICRO SERVICOS","count":429}
+S{"skill":"MICRO-SERVICOS","count":177}
+E{"skill":"MICROINFORMATICA","count":90}
+S{"skill":"MICROSERVICE","count":46}
+S{"skill":"MICROSERVICES","count":308}
+S{"skill":"MICROSERVICO","count":23}
+E{"skill":"MICROSOFT","count":1967}
+S{"skill":"MICROSSERVICOS","count":642}
+S{"skill":"MIDDLEWARES","count":3}
+E{"skill":"MOBILE  ANDROID","count":6}
+S{"skill":"MKT","count":149}
+P{"skill":"MODELADOR","count":10}
+E{"skill":"MODELAGEM DE DADOS","count":889}
+E{"skill":"MODELO","count":2647}
+S{"skill":"MONGO DB","count":123}
+S{"skill":"MONITORACAO","count":390}
+E{"skill":"MONITORAMENTO ZABBIX","count":9}
+S{"skill":"MONITORIA","count":68}
+S{"skill":"MONITORING","count":108}
+P{"skill":"MONTADORA","count":20}
+P{"skill":"MOTORISTA DE TAXI","count":2}
+P{"skill":"MOTORISTA PARTICULAR","count":3}
+E{"skill":"MOVEIS","count":526}
+E{"skill":"MOVIMENTACAO","count":589}
+S{"skill":"MYSQL","count":1542}
+S{"skill":"NAO RELACIONAL","count":312}
+S{"skill":"NAO-RELACIONAIS","count":42}
+S{"skill":"NEGOCIACOES","count":683}
+S{"skill":"NEST","count":21}
+S{"skill":"NEWRELIC","count":8}
+S{"skill":"NO-SQL","count":60}
+S{"skill":"NODE-JS","count":7}
+S{"skill":"NODE.JS","count":1196}
+S{"skill":"NODEJS","count":1380}
+S{"skill":"NON-COMPLIANCE","count":2}
+E{"skill":"NORMAS","count":1410}
+S{"skill":"NOSQL","count":933}
+E{"skill":"NOTAS","count":1756}
+P{"skill":"NUTRICIONISTA","count":42}
+P{"skill":"NUTRICIONISTAS","count":3}
+S{"skill":"NUVEM","count":1247}
+S{"skill":"NUVENS","count":141}
+S{"skill":"OBJECT ORIENTED","count":48}
+S{"skill":"OBJECTIVE C","count":30}
+S{"skill":"OBJECTIVEC","count":17}
+S{"skill":"OBJETIVEC","count":2}
+E{"skill":"OBJETO","count":177}
+P{"skill":"OBSTETRA","count":7}
+S{"skill":"ODONTO","count":206}
+S{"skill":"ODONTOLOGICA","count":1292}
+S{"skill":"ODONTOLOGICO","count":3105}
+E{"skill":"OFFICE3","count":8}
+E{"skill":"OFICIAL","count":435}
+P{"skill":"OFTALMOLOGISTA","count":2}
+S{"skill":"ON-PREMISES","count":68}
+S{"skill":"ON-PREMISSE","count":35}
+S{"skill":"ON-PREMISSES","count":33}
+E{"skill":"OPERACAO","count":1568}
+E{"skill":"OPERACIONAIS","count":1830}
+P{"skill":"OPERADOR DE ARMAZEM","count":3}
+P{"skill":"OPERADOR DE CAIXA","count":64}
+P{"skill":"OPERADOR DE CAMARA","count":4}
+P{"skill":"OPERADOR DE EMPILHADEIRA","count":164}
+P{"skill":"OPERADOR DE LOJA","count":48}
+P{"skill":"OPERADOR DE MAQUINAS","count":82}
+P{"skill":"OPERADOR DE TELEMARKETING","count":41}
+P{"skill":"OPERADOR DE VENDAS","count":8}
+P{"skill":"OPERADORA","count":194}
+P{"skill":"OPERADORAS","count":110}
+P{"skill":"OPERADORES","count":187}
+P{"skill":"OPERATIONS","count":178}
+S{"skill":"ORACLE CLOUD","count":249}
+E{"skill":"ORACLE SOA SUITE","count":28}
+E{"skill":"ORACLECLOUD","count":5}
+E{"skill":"ORGANIZACAO","count":2676}
+P{"skill":"P.O","count":30}
+E{"skill":"PABX","count":61}
+P{"skill":"PADEIRO","count":24}
+S{"skill":"PADRAO DE PROJETOS","count":3}
+E{"skill":"PAGAMENTOS","count":732}
+E{"skill":"PARALELISMO","count":13}
+E{"skill":"PARCEIRO","count":236}
+E{"skill":"PARTNER","count":319}
+E{"skill":"PAT","count":18}
+E{"skill":"PCI-DSS","count":8}
+E{"skill":"PECAS","count":1527}
+P{"skill":"PEDAGOGO","count":6}
+E{"skill":"PEDIDOS","count":1197}
+P{"skill":"PEDREIRO","count":22}
+P{"skill":"PENTESTER","count":38}
+S{"skill":"PENTESTS","count":10}
+E{"skill":"PEOPLE","count":265}
+E{"skill":"PERFORMANCE","count":2234}
+P{"skill":"PERFUMISTA","count":19}
+E{"skill":"PESQUISAS","count":485}
+P{"skill":"PINTOR","count":98}
+S{"skill":"PIPELINES","count":758}
+P{"skill":"PIZZAIOLO","count":5}
+S{"skill":"PL SQL","count":83}
+S{"skill":"PLANEJAMENTO ESTRATEGICO","count":2}
+S{"skill":"PLANILHAS","count":1148}
+E{"skill":"PLANNING","count":184}
+E{"skill":"PLATAFORMA","count":4112}
+E{"skill":"PLATAFORMAS","count":1872}
+S{"skill":"PMBOOK","count":3}
+E{"skill":"PMI","count":106}
+P{"skill":"POLIDOR","count":47}
+E{"skill":"POLITICA","count":444}
+E{"skill":"PONTO","count":1309}
+S{"skill":"POO","count":74}
+E{"skill":"PORTAL","count":710}
+E{"skill":"PORTARIA","count":116}
+E{"skill":"PORTARIAS","count":20}
+P{"skill":"PORTEIRO","count":44}
+P{"skill":"PORTEIROS","count":3}
+S{"skill":"POS-VENDA","count":86}
+S{"skill":"POS-VENDAS","count":59}
+E{"skill":"POST-PRODUCTION","count":2}
+S{"skill":"POSTGRE","count":83}
+S{"skill":"POSTGREE","count":83}
+S{"skill":"POSTGRES","count":237}
+S{"skill":"POSTGRESQL","count":754}
+S{"skill":"POSTGRESSQL","count":15}
+S{"skill":"POWERBI","count":180}
+S{"skill":"POWERCENTER","count":110}
+S{"skill":"POWERPOINT","count":112}
+S{"skill":"PRE SALES","count":21}
+S{"skill":"PRE-SALES","count":10}
+S{"skill":"PRE-VENDA","count":42}
+S{"skill":"PRE-VENDAS","count":138}
+E{"skill":"PREDIAL","count":213}
+S{"skill":"PRIMEFACES","count":55}
+E{"skill":"PRIVACY","count":28}
+S{"skill":"PRO-LABORE","count":2}
+E{"skill":"PROCEDIMENTOS","count":1998}
+E{"skill":"PROCEDURES","count":369}
+E{"skill":"PROCESSO","count":6873}
+E{"skill":"PRODUCAO WEB","count":4}
+P{"skill":"PRODUCT DESIGNER","count":127}
+P{"skill":"PRODUCT MANAGER","count":149}
+P{"skill":"PRODUCT OWNER","count":638}
+E{"skill":"PRODUCTION","count":79}
+P{"skill":"PRODUCTOWNER","count":32}
+E{"skill":"PRODUCTS","count":74}
+E{"skill":"PRODUTOS DIGITAIS","count":233}
+E{"skill":"PRODUTOS FINANCEIROS","count":50}
+P{"skill":"PROFESSOR DE FISICA","count":2}
+P{"skill":"PROFESSOR DE INGLES","count":7}
+P{"skill":"PROFESSOR DE MATEMATICA","count":3}
+P{"skill":"PROFESSORA","count":28}
+S{"skill":"PROGRAMACAO","count":5310}
+E{"skill":"PROGRAMADOR IOS","count":4}
+E{"skill":"PROGRAMADORA","count":50}
+E{"skill":"PROGRAMADORAS","count":5}
+E{"skill":"PROGRAMADORES","count":138}
+E{"skill":"PROGRAMAS","count":1381}
+E{"skill":"PROGRAMMER","count":27}
+E{"skill":"PROGRAMMING","count":257}
+P{"skill":"PROJECT MANAGER","count":59}
+P{"skill":"PROJECTMANAGER","count":5}
+E{"skill":"PROJECTS","count":130}
+P{"skill":"PROJETISTA","count":359}
+E{"skill":"PROMOCIONAIS","count":101}
+P{"skill":"PROMOTOR DE VENDAS","count":83}
+E{"skill":"PROPOSTA","count":422}
+E{"skill":"PROPOSTAS","count":959}
+S{"skill":"PROSOFT","count":9}
+E{"skill":"PROTOCOLO","count":384}
+E{"skill":"PROTOCOLOS","count":910}
+S{"skill":"PROXY","count":139}
+P{"skill":"PSICOLOGO","count":68}
+P{"skill":"PSICOLOGOS","count":11}
+P{"skill":"PSICOPEDAGOGO","count":3}
+S{"skill":"PSM-I","count":4}
+S{"skill":"PSPO","count":16}
+S{"skill":"PTC","count":45}
+E{"skill":"PUBLICIDADE E PROPAGANDA","count":102}
+S{"skill":"PUBLICITARIAS","count":21}
+P{"skill":"PUBLICITARIO","count":19}
+E{"skill":"PUBLICITARIOS","count":15}
+S{"skill":"PUBSUB","count":60}
+E{"skill":"PYTHON  PYTHON","count":3}
+S{"skill":"QLIK VIEW","count":11}
+E{"skill":"QUALIDADE DE DADOS","count":81}
+E{"skill":"QUALIDADE DE SOFTWARE","count":211}
+E{"skill":"QUALIDADE SOFTWARE","count":5}
+S{"skill":"QUALITY ASSURANCE","count":236}
+E{"skill":"QUALITYASSURANCE","count":16}
+S{"skill":"RABBITMQ","count":303}
+S{"skill":"RAC","count":40}
+S{"skill":"RADIO E TV","count":6}
+S{"skill":"REACT NATIVO","count":2}
+S{"skill":"REACT-NATIVE","count":27}
+S{"skill":"REACT.JS","count":399}
+S{"skill":"REACTJS","count":567}
+S{"skill":"REACTNATIVE","count":64}
+E{"skill":"RECEBIMENTO","count":1013}
+E{"skill":"RECEPCAO","count":324}
+E{"skill":"RECEPCIONAR","count":141}
+P{"skill":"RECEPCIONISTA","count":508}
+P{"skill":"RECRUTADOR","count":135}
+P{"skill":"RECRUTADORA","count":60}
+P{"skill":"RECRUTADORES","count":79}
+P{"skill":"RECRUTAMENTO  SELECAO","count":199}
+P{"skill":"RECRUTAMENTO E SELECAO","count":1568}
+E{"skill":"RECRUTAMENTOESELECAO","count":144}
+E{"skill":"RECRUTAMENTOSELECAO","count":6}
+S{"skill":"RECURSOS HUMANOS","count":2134}
+E{"skill":"RECURSOSHUMANOS","count":231}
+P{"skill":"REDATOR","count":38}
+P{"skill":"REDATORES","count":5}
+S{"skill":"REDE","count":2411}
+S{"skill":"REDUX-SAGA","count":11}
+E{"skill":"REF","count":5}
+E{"skill":"REGISTRO","count":922}
+E{"skill":"RELACIONADAS","count":1361}
+E{"skill":"RELACIONAMENTO","count":2812}
+S{"skill":"RELACOES INTERNACIONAIS","count":85}
+S{"skill":"RELACOES PUBLICAS","count":48}
+S{"skill":"RELATORIOS","count":4142}
+P{"skill":"REPOSITOR","count":106}
+E{"skill":"REPRESENTANTE DE DESENVOLVIMENTO DE NEGOCIOS","count":6}
+E{"skill":"REQUIREMENTS","count":447}
+E{"skill":"REQUISITO","count":212}
+E{"skill":"RESPONSABILIDADES","count":1160}
+S{"skill":"REST FULL","count":17}
+S{"skill":"REST-ASSURED","count":17}
+E{"skill":"RESTORE","count":38}
+P{"skill":"REVISOR","count":12}
+E{"skill":"REVISTA","count":22}
+S{"skill":"RICHFACES","count":18}
+E{"skill":"RIO DE JANEIRO","count":1153}
+S{"skill":"RISCOS","count":1074}
+S{"skill":"RISK","count":45}
+E{"skill":"ROTINA","count":1182}
+E{"skill":"ROTINAS","count":3708}
+E{"skill":"ROUTE","count":39}
+E{"skill":"S.O","count":31}
+E{"skill":"SALARIOS","count":339}
+S{"skill":"SALE","count":5}
+S{"skill":"SALES DEVELOPMENT REPRESENTATIVE","count":24}
+S{"skill":"SALES FORCE","count":76}
+E{"skill":"SANTA CATARINA","count":71}
+E{"skill":"SAP  SAP","count":8}
+S{"skill":"SAP B","count":8}
+S{"skill":"SAP BASIS HANA","count":3}
+S{"skill":"SAP BUSINESS ONE","count":95}
+S{"skill":"SAP EWM","count":82}
+S{"skill":"SAP HYBRIS","count":54}
+P{"skill":"SAPATEIRO","count":7}
+E{"skill":"SAPIENS","count":29}
+E{"skill":"SAS","count":154}
+S{"skill":"SASS","count":371}
+S{"skill":"SAT","count":20}
+E{"skill":"SAUDE E BEM-ESTAR","count":40}
+S{"skill":"SCA","count":21}
+S{"skill":"SCADA","count":20}
+S{"skill":"SCALA","count":234}
+S{"skill":"SCCM","count":49}
+S{"skill":"SCIKIT-LEARN","count":12}
+S{"skill":"SCM","count":47}
+S{"skill":"SCRAPING","count":8}
+S{"skill":"SCRAPY","count":3}
+S{"skill":"SCRIPTS","count":1010}
+P{"skill":"SCRUM MASTER","count":698}
+P{"skill":"SCRUMMASTER","count":44}
+P{"skill":"SCSS","count":69}
+S{"skill":"SD-WAN","count":9}
+S{"skill":"SDET","count":19}
+S{"skill":"SDK","count":120}
+P{"skill":"SECRETARIA EXECUTIVA","count":67}
+S{"skill":"SECRETARIADO EXECUTIVO","count":26}
+E{"skill":"SEGMENTO","count":4386}
+S{"skill":"SEGURADORA","count":59}
+S{"skill":"SEGURANCA DA INFORMACAO","count":1142}
+E{"skill":"SEGURANCADOTRABALHO","count":11}
+S{"skill":"SEGURO","count":6523}
+P{"skill":"SELECIONADOR","count":9}
+P{"skill":"SELECIONADORA","count":15}
+E{"skill":"SELETIVO","count":1019}
+E{"skill":"SEPARACAO","count":344}
+P{"skill":"SERRALHEIRO","count":79}
+S{"skill":"SERVER-SIDE","count":31}
+S{"skill":"SERVERS","count":34}
+E{"skill":"SERVICE CLOUD","count":103}
+S{"skill":"SERVICE MANAGER","count":19}
+S{"skill":"SERVICE-BASED","count":2}
+S{"skill":"SERVICE-ORIENTED","count":11}
+S{"skill":"SERVICEDESK","count":21}
+E{"skill":"SERVICO SOCIAL","count":32}
+S{"skill":"SERVIDOR","count":504}
+S{"skill":"SERVLET","count":14}
+E{"skill":"SETOR","count":3044}
+S{"skill":"SHELLSCRIPT","count":40}
+S{"skill":"SHOPPER","count":8}
+E{"skill":"SISTEMA FINANCEIRO","count":54}
+E{"skill":"SISTEMA OPERACIONAL","count":397}
+E{"skill":"SISTEMAOPERACIONAL","count":2}
+E{"skill":"SISTEMAS DE INFORMACAO","count":379}
+E{"skill":"SOCIAIS","count":771}
+E{"skill":"SOCIALBAKERS","count":6}
+E{"skill":"SOFTWARE ENGINEER","count":179}
+E{"skill":"SOFTWARES","count":1246}
+S{"skill":"SOLARES","count":7}
+P{"skill":"SOLDADOR","count":218}
+P{"skill":"SOLDADORES","count":3}
+E{"skill":"SOLUTION","count":231}
+E{"skill":"SOLUTIONS","count":585}
+E{"skill":"SOM","count":15}
+E{"skill":"SOMMELIER","count":3}
+S{"skill":"SPECS","count":5}
+S{"skill":"SPRING-BOOT","count":16}
+S{"skill":"SPRINGBOOT","count":355}
+S{"skill":"SPRINGDATA","count":17}
+S{"skill":"SPRINGMVC","count":21}
+S{"skill":"SQL-SERVER","count":7}
+S{"skill":"SQLITE","count":107}
+S{"skill":"SQLSERVER","count":226}
+E{"skill":"STAKEHOLDERS","count":286}
+S{"skill":"STARTEAM","count":6}
+S{"skill":"STERLING","count":6}
+S{"skill":"STORAGE","count":284}
+S{"skill":"STORYBOARD","count":7}
+S{"skill":"STORYBOOK","count":24}
+E{"skill":"SUB-REDE","count":6}
+E{"skill":"SUCCESS","count":162}
+E{"skill":"SUCESSO","count":539}
+E{"skill":"SUPERIOR","count":14894}
+E{"skill":"SUPERMERCADO","count":99}
+E{"skill":"SUPERSET","count":10}
+P{"skill":"SUPERVISOR DE MECANICA","count":3}
+P{"skill":"SUPERVISORA","count":202}
+P{"skill":"SUPORTE DE REDES","count":2}
+P{"skill":"SUPORTE DE SISTEMA","count":10}
+P{"skill":"SUPORTE DE TI","count":57}
+P{"skill":"SUPORTE N","count":61}
+P{"skill":"SUPORTE REDES","count":4}
+P{"skill":"SUPORTE TECNICO","count":877}
+S{"skill":"SUPPLY","count":319}
+P{"skill":"SUPPORT ENGINEER","count":10}
+E{"skill":"SUPRIMENTOS","count":471}
+S{"skill":"SUSTENTACAO","count":996}
+E{"skill":"SWIFT ANDROID","count":18}
+S{"skill":"SWING","count":32}
+E{"skill":"SWITCH","count":53}
+P{"skill":"SYS ADMIN","count":8}
+P{"skill":"SYSADMIN","count":86}
+P{"skill":"SYSOPS","count":9}
+E{"skill":"SYSTEMS","count":327}
+E{"skill":"T.I","count":116}
+E{"skill":"TALENT","count":368}
+P{"skill":"TALENT ACQUISITION","count":17}
+E{"skill":"TALENTOS","count":984}
+S{"skill":"TAX","count":84}
+E{"skill":"TAXA","count":532}
+S{"skill":"TCP","count":54}
+S{"skill":"TCPIP","count":175}
+E{"skill":"TEAM","count":665}
+P{"skill":"TECH LEAD","count":715}
+P{"skill":"TECH LEADER","count":36}
+P{"skill":"TECH MANAGER","count":12}
+P{"skill":"TECH RECRUITER","count":393}
+P{"skill":"TECHLEAD","count":44}
+P{"skill":"TECHLEADER","count":2}
+P{"skill":"TECHMANAGER","count":2}
+P{"skill":"TECHNICAL RECRUITER","count":23}
+P{"skill":"TECHRECRUITER","count":70}
+E{"skill":"TECNICA","count":3043}
+E{"skill":"TECNICAS","count":3456}
+P{"skill":"TECNICO DE CAMPO","count":41}
+P{"skill":"TECNICO DE CONTABILIDADE","count":3}
+P{"skill":"TECNICO DE INFORMATICA","count":57}
+P{"skill":"TECNICO DE MANUTENCAO ELETRONICA","count":6}
+P{"skill":"TECNICO DE SUPORTE","count":420}
+P{"skill":"TECNICO EM INSTRUMENTACAO","count":3}
+P{"skill":"TECNICO EM MANUTENCAO","count":77}
+P{"skill":"TECNICO EM SOLDA","count":4}
+E{"skill":"TECNICOS","count":2644}
+P{"skill":"TECNOLOGIA DA INFORMACAO","count":1056}
+P{"skill":"TECNOLOGO EM LOGISTICA","count":12}
+E{"skill":"TELEATENDIMENTO","count":9}
+S{"skill":"TELEFONIA","count":354}
+P{"skill":"TELEFONISTA","count":6}
+S{"skill":"TELEVENDAS","count":98}
+P{"skill":"TERAPEUTA OCUPACIONAL","count":7}
+S{"skill":"TERAPIA OCUPACIONAL","count":6}
+P{"skill":"TESTADOR","count":25}
+P{"skill":"TESTADORES","count":20}
+P{"skill":"TESTER","count":182}
+S{"skill":"TESTING","count":274}
+S{"skill":"TESTS","count":79}
+P{"skill":"TI RECRUITER","count":3}
+E{"skill":"TICKET","count":369}
+E{"skill":"TRADE","count":223}
+S{"skill":"TRADE MARKETING","count":3}
+P{"skill":"TRADUTOR","count":4}
+S{"skill":"TRANSACT-SQL","count":55}
+E{"skill":"TRANSPORTE","count":4782}
+E{"skill":"TRANSPORTES","count":338}
+E{"skill":"TREINAMENTO","count":1893}
+S{"skill":"TREINAMENTO E DESENVOLVIMENTO","count":2}
+E{"skill":"TREINAMENTOS","count":1504}
+E{"skill":"TREND","count":30}
+S{"skill":"TRIAGEM","count":517}
+S{"skill":"TRIBUTO","count":5}
+S{"skill":"TSQL","count":28}
+S{"skill":"TYPESCRIPT","count":1163}
+P{"skill":"UIDESIGNER","count":8}
+S{"skill":"URAS","count":3}
+P{"skill":"UROLOGISTA","count":2}
+S{"skill":"USABILIDADE","count":327}
+S{"skill":"USER EXPERIENCE","count":106}
+S{"skill":"USER INTERFACE","count":35}
+P{"skill":"UX DESIGNER","count":234}
+E{"skill":"UX UI","count":79}
+E{"skill":"UXDESIGNER","count":5}
+E{"skill":"UXUI","count":421}
+S{"skill":"VAREJO","count":837}
+S{"skill":"VB NET","count":19}
+S{"skill":"VB.NET","count":157}
+S{"skill":"VBA","count":154}
+E{"skill":"VBCS","count":2}
+S{"skill":"VBNET","count":8}
+S{"skill":"VBSCRIPT","count":9}
+S{"skill":"VEEAM","count":53}
+S{"skill":"VELOCITY","count":14}
+S{"skill":"VENDA","count":1342}
+S{"skill":"VENDAS EXTERNAS","count":222}
+P{"skill":"VENDEDOR DE LOJA","count":45}
+P{"skill":"VENDEDOR EXTERNO","count":291}
+E{"skill":"VENDEDOREXTERNO","count":4}
+E{"skill":"VERSAO","count":1201}
+E{"skill":"VERSION","count":114}
+S{"skill":"VERSIONADOR","count":14}
+S{"skill":"VERSIONAMENTO","count":1974}
+P{"skill":"VETERINARIO","count":14}
+P{"skill":"VETERINARIOS","count":13}
+E{"skill":"VIAGENS","count":1278}
+P{"skill":"VIDEOMAKER","count":13}
+P{"skill":"VIGIA","count":15}
+S{"skill":"VISUAL BASIC","count":61}
+S{"skill":"VISUAL STUDIO","count":333}
+S{"skill":"VISUAL STUDIO CODE","count":7}
+S{"skill":"VSCODE","count":12}
+S{"skill":"VTEX","count":191}
+S{"skill":"VUE.JS","count":408}
+S{"skill":"VUEJS","count":359}
+S{"skill":"WEB API","count":381}
+E{"skill":"WEB DESIGNER","count":78}
+E{"skill":"WEB DEVELOPER","count":22}
+S{"skill":"WEB SERVICE","count":105}
+S{"skill":"WEB SERVICES","count":428}
+S{"skill":"WEBAPI","count":210}
+E{"skill":"WEBAPP","count":9}
+E{"skill":"WEBDESIGN","count":2}
+E{"skill":"WEBDESIGNER","count":17}
+S{"skill":"WEBDRIVER","count":102}
+E{"skill":"WEBFORM","count":4}
+E{"skill":"WORD","count":434}
+E{"skill":"WORK","count":544}
+S{"skill":".NET","count":6708}
+S{"skill":"ADMINISTRACAO","count":5140}
+P{"skill":"ADMINISTRADOR","count":456}
+S{"skill":"ADMINISTRATIVA","count":482}
+S{"skill":"ADMINISTRATIVO","count":3250}
+P{"skill":"ADVOGADO","count":327}
+S{"skill":"AGEIS","count":3660}
+E{"skill":"AGENTE","count":323}
+S{"skill":"AGIL","count":2412}
+S{"skill":"AGILE","count":1259}
+P{"skill":"AGRONOMO","count":13}
+P{"skill":"AJUDANTE","count":499}
+E{"skill":"AMAZON","count":351}
+S{"skill":"AMBIENTAL","count":170}
+E{"skill":"ANALISE","count":7995}
+E{"skill":"ANALISTA","count":29921}
+E{"skill":"ANALYST","count":438}
+S{"skill":"ANALYTICS","count":758}
+S{"skill":"ANDROID","count":2351}
+S{"skill":"ANT","count":51}
+S{"skill":"ANTISPAM","count":9}
+S{"skill":"ANTIVIRUS","count":131}
+E{"skill":"APACHE","count":710}
+S{"skill":"API","count":3854}
+S{"skill":"APIS","count":4311}
+E{"skill":"APOIO","count":2031}
+S{"skill":"APS","count":11}
+P{"skill":"ARQUITETO","count":2197}
+S{"skill":"ARQUITETURA","count":5502}
+S{"skill":"ARTE","count":126}
+S{"skill":"ASP","count":410}
+P{"skill":"ASSISTENTE","count":6807}
+E{"skill":"ASSURANCE","count":377}
+S{"skill":"ATENDIMENTO","count":7464}
+P{"skill":"AUTOMATIZADOR","count":175}
+S{"skill":"AUTOMATIZADOS","count":1436}
+P{"skill":"AUXILIAR","count":7616}
+S{"skill":"AZURE","count":3227}
+S{"skill":"BACK","count":1573}
+S{"skill":"BACK-END","count":1980}
+S{"skill":"BANCARIO","count":178}
+E{"skill":"BANCO","count":9053}
+E{"skill":"BASIC","count":137}
+S{"skill":"BASIS","count":241}
+S{"skill":"BIBLIOTECONOMIA","count":7}
+S{"skill":"BIG QUERY","count":19}
+E{"skill":"BOLSA","count":1000}
+P{"skill":"BOMBEIRO","count":59}
+S{"skill":"BOOTSTRAP","count":697}
+S{"skill":"BPM","count":116}
+E{"skill":"BUSINESS","count":1703}
+E{"skill":"CABEAMENTO","count":218}
+E{"skill":"CADASTRO","count":1793}
+E{"skill":"CAIXA","count":791}
+E{"skill":"CAKE","count":13}
+E{"skill":"CAMPO","count":8943}
+S{"skill":"CAPYBARA","count":39}
+P{"skill":"CEO","count":55}
+E{"skill":"CERTIFICADO","count":309}
+S{"skill":"CHATBOT","count":73}
+S{"skill":"CIBERSEGURANCA","count":46}
+E{"skill":"CIENCIA","count":1552}
+E{"skill":"CIENCIAS","count":2996}
+P{"skill":"CIENTISTA","count":389}
+E{"skill":"CIVIL","count":642}
+E{"skill":"CLIENTE","count":5960}
+P{"skill":"COACH","count":251}
+E{"skill":"COMERCIO","count":1114}
+E{"skill":"COMMERCE","count":180}
+E{"skill":"CONSTRUCAO","count":2790}
+E{"skill":"CONSULTOR","count":5526}
+S{"skill":"CONTABEIS","count":1498}
+S{"skill":"CONTABILIDADE","count":1220}
+S{"skill":"CONTAINER","count":206}
+S{"skill":"CONTAS","count":2409}
+E{"skill":"CONTROLE","count":6763}
+P{"skill":"COORDENADOR","count":2912}
+P{"skill":"CORRETOR","count":85}
+E{"skill":"COZINHA","count":286}
+E{"skill":"CREDITO","count":765}
+E{"skill":"CRYSTAL","count":64}
+S{"skill":"CSS","count":2472}
+E{"skill":"CUSTOS","count":1347}
+E{"skill":"CYBER","count":280}
+E{"skill":"DADOS","count":15157}
+E{"skill":"DATA","count":3574}
+E{"skill":"DELIVERY","count":375}
+E{"skill":"DEPARTAMENTO","count":2578}
+P{"skill":"DERMATOLOGISTA","count":2}
+E{"skill":"DESENVOLVEDOR","count":23833}
+E{"skill":"DESENVOLVEDORA","count":2711}
+E{"skill":"DESENVOLVEDORES","count":1725}
+E{"skill":"DESENVOLVIMENTO","count":19212}
+E{"skill":"DESIGN","count":4467}
+P{"skill":"DESIGNER","count":1304}
+P{"skill":"DESIGNER DE EMBALAGEM","count":4}
+E{"skill":"DEV","count":2948}
+E{"skill":"DEVELOPER","count":2272}
+E{"skill":"DEVELOPMENT","count":774}
+P{"skill":"DEVOPS","count":3586}
+E{"skill":"DIGITAL","count":2048}
+S{"skill":"DIREITO","count":471}
+E{"skill":"DRIVEN","count":378}
+E{"skill":"DYNAMICS","count":208}
+E{"skill":"E-COMMERCE","count":855}
+S{"skill":"E2E","count":90}
+E{"skill":"ECOMMERCE","count":236}
+E{"skill":"ELASTIC","count":367}
+S{"skill":"ELASTIC SEARCH","count":66}
+S{"skill":"ELETRICA","count":967}
+S{"skill":"ELETRONICA","count":424}
+E{"skill":"ELETRONICO","count":475}
+S{"skill":"EMPILHADEIRA","count":327}
+E{"skill":"EMPRESARIAL","count":268}
+P{"skill":"ENCARREGADO","count":459}
+E{"skill":"ENGENHARIA","count":5086}
+P{"skill":"ENGENHEIRA","count":103}
+P{"skill":"ENGENHEIRO","count":3016}
+P{"skill":"ENGINEER","count":1074}
+E{"skill":"EQUIPAMENTOS","count":2617}
+E{"skill":"ESTRUTURA","count":1229}
+E{"skill":"ETLS","count":36}
+E{"skill":"EVENTOS","count":936}
+S{"skill":"EWM","count":115}
+P{"skill":"EXECUTIVA","count":142}
+P{"skill":"EXECUTIVO","count":636}
+E{"skill":"EXPERIENCE","count":1234}
+E{"skill":"EXTERIOR","count":506}
+E{"skill":"EXTERNO","count":687}
+S{"skill":"FINANCEIRA","count":1036}
+S{"skill":"FINANCEIROS","count":657}
+S{"skill":"FISICA","count":286}
+P{"skill":"FISICO","count":225}
+S{"skill":"FLUIG","count":35}
+S{"skill":"FLUTTER","count":642}
+E{"skill":"FOLHA","count":2341}
+S{"skill":"FRONT","count":2531}
+S{"skill":"FRONT-END","count":2475}
+S{"skill":"FULL","count":4989}
+S{"skill":"FULLSTACK","count":2993}
+E{"skill":"FUNCIONAL","count":1649}
+P{"skill":"GERENTE","count":4925}
+E{"skill":"GESTAO","count":11793}
+P{"skill":"GESTOR","count":693}
+S{"skill":"GIT","count":4025}
+E{"skill":"GRAFICO","count":190}
+S{"skill":"GROWTH","count":77}
+S{"skill":"HANA","count":418}
+E{"skill":"HELP","count":187}
+S{"skill":"HOSPITALAR","count":179}
+E{"skill":"HUMANOS","count":2211}
+P{"skill":"HUNTER","count":251}
+S{"skill":"HYBRIS","count":174}
+E{"skill":"IBM","count":522}
+S{"skill":"INDUSTRIAL","count":1176}
+E{"skill":"INFORMACAO","count":3068}
+E{"skill":"INFORMATICA","count":1425}
+E{"skill":"INFRA","count":708}
+E{"skill":"INFRAESTRUTURA","count":3183}
+S{"skill":"INGLES","count":11527}
+E{"skill":"INTEGRATION","count":629}
+E{"skill":"INTERFACE","count":1287}
+E{"skill":"INTERNET","count":572}
+E{"skill":"INVESTIMENTOS","count":408}
+S{"skill":"IOS","count":1808}
+S{"skill":"JASPER","count":55}
+S{"skill":"JAVA","count":11342}
+S{"skill":"JAVAEE","count":30}
+S{"skill":"JSE","count":7}
+S{"skill":"JSON","count":436}
+S{"skill":"JSP","count":114}
+S{"skill":"KAFKA","count":556}
+S{"skill":"KNOCKOUT","count":11}
+P{"skill":"LEAD","count":1151}
+P{"skill":"LEADER","count":131}
+E{"skill":"LEARNING","count":389}
+P{"skill":"LIDER","count":2770}
+S{"skill":"LIMPEZA","count":1365}
+E{"skill":"LOJA","count":1250}
+E{"skill":"MACHINE","count":514}
+S{"skill":"MANAGEMENT","count":925}
+P{"skill":"MANAGER","count":951}
+E{"skill":"MANUTENCAO","count":6903}
+E{"skill":"MAQUINA","count":670}
+E{"skill":"MAQUINAS","count":1441}
+E{"skill":"MASTER","count":1007}
+E{"skill":"MATERIAIS","count":2278}
+S{"skill":"MECANICA","count":1329}
+P{"skill":"MECANICO","count":1039}
+P{"skill":"MEDICA","count":2726}
+S{"skill":"MEDICINA","count":436}
+P{"skill":"MEDICO","count":1657}
+S{"skill":"METALURGICA","count":200}
+E{"skill":"METODOLOGIA","count":3366}
+E{"skill":"METODOLOGIAS","count":4667}
+S{"skill":"MICROSERVICOS","count":684}
+E{"skill":"MOBILE","count":3004}
+S{"skill":"MODELAGEM","count":2134}
+S{"skill":"MONGO","count":379}
+P{"skill":"MOTORISTA","count":608}
+S{"skill":"MVC","count":1187}
+E{"skill":"NATIVO","count":412}
+E{"skill":"NEGOCIO","count":2189}
+E{"skill":"NEGOCIOS","count":4211}
+E{"skill":"NET","count":834}
+S{"skill":"NODE","count":1581}
+E{"skill":"OBRAS","count":504}
+E{"skill":"OPERACIONAL","count":1411}
+E{"skill":"OPERACOES","count":2208}
+P{"skill":"OPERADOR","count":1961}
+S{"skill":"ORACLE","count":3838}
+E{"skill":"ORGANIZACIONAL","count":294}
+E{"skill":"PAGAMENTO","count":1528}
+S{"skill":"PATTERNS","count":857}
+E{"skill":"PESSOAL","count":2807}
+S{"skill":"PHP","count":2437}
+E{"skill":"PLATFORM","count":477}
+E{"skill":"POWER","count":2423}
+E{"skill":"PROCESS","count":293}
+S{"skill":"PROCESSOS","count":9850}
+E{"skill":"PRODUCAO","count":3775}
+E{"skill":"PRODUCT","count":1568}
+S{"skill":"PRODUTO","count":2099}
+S{"skill":"PRODUTOS","count":5940}
+P{"skill":"PROFESSOR","count":95}
+E{"skill":"PROGRAMADOR","count":1545}
+E{"skill":"PROJECT","count":577}
+E{"skill":"PROJETO","count":6368}
+E{"skill":"PROJETOS","count":12320}
+P{"skill":"PROMOTOR","count":218}
+S{"skill":"PUBLICITARIA","count":6}
+S{"skill":"PYTHON","count":3045}
+S{"skill":"QLIK","count":109}
+E{"skill":"QUALIDADE","count":5585}
+E{"skill":"QUALITY","count":483}
+S{"skill":"QUERY","count":150}
+S{"skill":"QUIMICA","count":381}
+P{"skill":"QUIMICO","count":134}
+S{"skill":"RABBIT","count":148}
+S{"skill":"REACT","count":4766}
+P{"skill":"RECRUITER","count":545}
+S{"skill":"RECRUTAMENTO","count":3404}
+E{"skill":"RECURSOS","count":4952}
+E{"skill":"REDES","count":2813}
+E{"skill":"RELACIONAL","count":1014}
+S{"skill":"REPORT","count":349}
+S{"skill":"REPORTS","count":401}
+P{"skill":"REPRESENTANTE","count":366}
+E{"skill":"REQUISITOS","count":8663}
+S{"skill":"REST","count":3339}
+S{"skill":"RESTFUL","count":795}
+S{"skill":"RESTFULL","count":309}
+E{"skill":"RISCO","count":322}
+S{"skill":"RUBY","count":1119}
+S{"skill":"SALES","count":609}
+S{"skill":"SAP","count":5429}
+E{"skill":"SAUDE","count":6576}
+E{"skill":"SCIENCE","count":198}
+S{"skill":"SCRIPT","count":716}
+S{"skill":"SCRUM","count":3510}
+E{"skill":"SEARCH","count":163}
+P{"skill":"SECRETARIA","count":274}
+S{"skill":"SECRETARIADO","count":103}
+S{"skill":"SECURITY","count":776}
+S{"skill":"SEGURANCA","count":4959}
+S{"skill":"SEGUROS","count":377}
+S{"skill":"SELECAO","count":2310}
+S{"skill":"SERVER","count":3522}
+E{"skill":"SERVICE","count":1856}
+E{"skill":"SERVICES","count":988}
+E{"skill":"SERVICO","count":1238}
+E{"skill":"SERVICOS","count":8080}
+S{"skill":"SERVIDORES","count":1184}
+S{"skill":"SHELL","count":698}
+E{"skill":"SISTEMA","count":7507}
+E{"skill":"SISTEMAS","count":11686}
+S{"skill":"SOA","count":296}
+E{"skill":"SOCIAL","count":637}
+E{"skill":"SOFTWARE","count":5850}
+S{"skill":"SOLDA","count":412}
+E{"skill":"SOLUCAO","count":2014}
+E{"skill":"SOLUCOES","count":7753}
+S{"skill":"SPARK","count":272}
+S{"skill":"SPRING","count":2815}
+S{"skill":"SQL","count":9278}
+P{"skill":"SUPERVISOR","count":1835}
+S{"skill":"SUPORTE","count":8353}
+S{"skill":"SUPPORT","count":291}
+S{"skill":"SWIFT","count":536}
+E{"skill":"SYSTEM","count":601}
+E{"skill":"TECH","count":2141}
+P{"skill":"TECNICO","count":8967}
+E{"skill":"TECNOLOGIA","count":6699}
+S{"skill":"TELECOMUNICACOES","count":288}
+S{"skill":"TELEMARKETING","count":160}
+S{"skill":"TESTE","count":2488}
+S{"skill":"TESTES","count":9066}
+S{"skill":"TOMCAT","count":253}
+E{"skill":"TOTVS","count":685}
+E{"skill":"TRABALHISTA","count":344}
+E{"skill":"USER","count":411}
+S{"skill":"VENDAS","count":5460}
+P{"skill":"VENDEDOR","count":1488}
+S{"skill":"VISUALBASIC","count":5}
+S{"skill":"VLANS","count":15}
+S{"skill":"VS CODE","count":14}
+S{"skill":"VUE","count":484}
+S{"skill":"VULNERABILIDADES","count":246}
+E{"skill":"WEB","count":6394}
+S{"skill":"WEBLOGIC","count":170}
+S{"skill":"WEBSERVICE","count":191}
+S{"skill":"WEBSERVICES","count":537}
+S{"skill":"ZABBIX","count":120}
+S{"skill":"ACTIVEDIRECTORY","count":3}
+S{"skill":"ACTIVEMQ","count":51}
+S{"skill":"ADM","count":525}
+S{"skill":"ADMINISTRATION","count":52}
+S{"skill":"ADMINISTRATIVAS","count":871}
+S{"skill":"ADMINISTRATIVOS","count":244}
+S{"skill":"ADMINSTRATIVO","count":2}
+S{"skill":"ADVOCACIA","count":143}
+S{"skill":"AGRICOLA","count":74}
+S{"skill":"AGRICOLAS","count":82}
+S{"skill":"AMAZON WEB SERVICES","count":62}
+S{"skill":"ANDROID","count":3}
+S{"skill":"ANGULAR JS","count":149}
+S{"skill":"ANGULAR.JS","count":19}
+S{"skill":"ANGULARJS","count":252}
+S{"skill":"API REST","count":520}
+S{"skill":"APIREST","count":24}
+S{"skill":"APIS REST","count":921}
+S{"skill":"APIS RESTFULL","count":38}
+P{"skill":"ARQUITETA","count":60}
+S{"skill":"ASP.NET","count":871}
+S{"skill":"ASPNET","count":41}
+P{"skill":"ATENDENTES","count":16}
+P{"skill":"AUDITORES","count":30}
+S{"skill":"AUDITORIAS","count":560}
+S{"skill":"AUTO CAD","count":31}
+S{"skill":"AUTOMATION","count":408}
+S{"skill":"AUTOMATIZACAO","count":475}
+S{"skill":"AUTOMATIZADO","count":148}
+P{"skill":"AUTOMATIZADOR DE TESTES","count":67}
+P{"skill":"AUTOMATIZADORES","count":16}
+S{"skill":"AZUERE","count":3}
+S{"skill":"B.I","count":24}
+S{"skill":"BACK END","count":960}
+S{"skill":"CONTROLM","count":3}
+S{"skill":"SERVICE NOW","count":70}
+S{"skill":"SPANISH","count":44}
+S{"skill":"BIG DATA","count":543}
+S{"skill":"BIG-DATA","count":2}
+S{"skill":"BIGQUERY","count":58}
+S{"skill":"BUSINESS INTELIGENCE","count":19}
+S{"skill":"BUSINESS PROCESS MANAGEMENT","count":10}
+S{"skill":"BUSINESSINTELIGENCE","count":7}
+S{"skill":"CALLCENTER","count":16}
+S{"skill":"CAKE PHP","count":5}
+S{"skill":"CAMPAIGN","count":19}
+S{"skill":"CHAT BOT","count":3}
+P{"skill":"ADVOGADA","count":2}
+P{"skill":"AGENTE DE AEROPORTO","count":2}
+P{"skill":"AGILE COACH","count":179}
+P{"skill":"AGILE MASTER","count":108}
+P{"skill":"AGILEMASTER","count":5}
+P{"skill":"AGILISTA","count":54}
+P{"skill":"AJUDANTE DE COZINHA","count":13}
+P{"skill":"AJUDANTE GERAL","count":109}
+P{"skill":"ALMOXARIFE","count":157}
+P{"skill":"ARCHITECT","count":288}
+P{"skill":"ATENDENTE","count":453}
+P{"skill":"AUDITOR","count":198}
+P{"skill":"AUXILIAR DE LIMPEZA","count":103}
+P{"skill":"AUXILIAR DE SERVICOS GERAIS","count":184}
+P{"skill":"BALCONISTA","count":48}
+P{"skill":"BIBLIOTECARIO","count":6}
+P{"skill":"MATEMATICO","count":2}
+P{"skill":"BIOLOGO","count":2}
+P{"skill":"BIOMEDICO","count":20}
+P{"skill":"BIOQUIMICO","count":12}
+P{"skill":"ADVOGADO CIVIL","count":16}
+P{"skill":"ADVOGADO PREVIDENCIARIO","count":9}
+P{"skill":"ADVOGADO SOCIETARIO","count":25}
+P{"skill":"ADVOGADO TRABALHISTA","count":19}
+P{"skill":"ADVOGADO TRIBUTARIO","count":14}
+P{"skill":"ADVOGADOS","count":77}
+P{"skill":"BOTANICO","count":58}
+P{"skill":"CADISTA","count":20}
+P{"skill":"CALDEIREIRO","count":34}
+P{"skill":"CAMAREIRA","count":14}
+P{"skill":"CARPINTEIRO","count":8}
+P{"skill":"CHEFE DE COZINHA","count":15}
+P{"skill":"CERIMONIALISTA","count":2}
+P{"skill":"CARRETEIRO","count":161}
+P{"skill":"CEO","count":55}
+P{"skill":"COMPRADOR","count":493}
+P{"skill":"CONTABILISTA","count":5}
+P{"skill":"CONTADOR","count":85}
+P{"skill":"CONTADORES","count":17}
+P{"skill":"COORDENADORA","count":457}
+P{"skill":"CORRETORA","count":79}
+P{"skill":"CORTADOR","count":12}
+P{"skill":"COSTUREIRA","count":15}
+P{"skill":"COSTUREIRO","count":24}
+P{"skill":"COZINHEIRO","count":81}
+P{"skill":"CUIDADOR DE IDOSOS","count":3}
+P{"skill":"DERMATOLOGISTA","count":2}
+P{"skill":"ECONOMISTA","count":4}
+P{"skill":"ECONOMISTAS","count":3}
+P{"skill":"EDITOR","count":39}
+P{"skill":"EDITORES","count":15}
+S{"skill":"BIOQUIMICA","count":9}
+S{"skill":"BIM","count":26}
+S{"skill":"CACHE","count":160}
+S{"skill":"CAPM","count":7}
+S{"skill":"CHATBOTS","count":37}
+S{"skill":"COBIT","count":88}
+S{"skill":"COBRANCA","count":585}
+S{"skill":"COFINS","count":127}
+S{"skill":"CYPRESS","count":106}
+S{"skill":"DATA HUB","count":4}
+S{"skill":".NETCORE","count":65}
+S{"skill":"ABAP","count":827}
+S{"skill":"ACTIVE DIRECTORY","count":155}
+S{"skill":"ACTIVE MQ","count":12}
+S{"skill":"ACUPUNTURA","count":5}
+S{"skill":"ADMINSTRACAO","count":2}
+S{"skill":"ADONISJS","count":15}
+S{"skill":"ADVPL","count":84}
+S{"skill":"ADWORDS","count":15}
+S{"skill":"AGRICULTURA","count":38}
+S{"skill":"AGRONOMIA","count":23}
+S{"skill":"AIRFLOW","count":90}
+S{"skill":"AIX","count":47}
+S{"skill":"AJAX","count":103}
+S{"skill":"ALM","count":86}
+S{"skill":"ALTERYX","count":51}
+S{"skill":"AWS","count":57}
+S{"skill":"AUTOMACAO","count":13}
+S{"skill":"CLOUD","count":64}
+S{"skill":"BUSINESS INTELLIGENCE","count":34}
+S{"skill":"CRM","count":62}
+S{"skill":"LOGISTICA","count":197}
+S{"skill":"MARKETING","count":62}
+S{"skill":"MONITORAMENTO","count":39}
+S{"skill":"QA","count":39}
+S{"skill":"ANGULAR","count":252}
+S{"skill":"ANSIBLE","count":241}
+S{"skill":"APACHE ANT","count":51}
+S{"skill":"APACHE KAFKA","count":70}
+S{"skill":"APACHE SPARK","count":54}
+S{"skill":"APACHE TOMCAT","count":67}
+S{"skill":"APEX","count":240}
+S{"skill":"API RESTFUL","count":82}
+S{"skill":"API-FIRST","count":7}
+S{"skill":"APIGATEWAY","count":3}
+S{"skill":"APPIAN","count":7}
+S{"skill":"APPIUM","count":135}
+S{"skill":"APOLLO","count":37}
+S{"skill":"ARANGODB","count":2}
+S{"skill":"ARCHITECTURE","count":367}
+S{"skill":"ARCSERVE","count":11}
+S{"skill":"ARDUINO","count":4}
+S{"skill":"ARIBA","count":76}
+S{"skill":"URBANISMO","count":15}
+S{"skill":"ASM","count":24}
+S{"skill":"ASP NET","count":105}
+S{"skill":"ASSEMBLY","count":8}
+S{"skill":"COMPRAS","count":146}
+S{"skill":"COMERCIAL","count":345}
+S{"skill":"CONTABIL","count":239}
+S{"skill":"FINANCEIRO","count":263}
+S{"skill":"FISCAL","count":189}
+S{"skill":"ASTERISK","count":37}
+S{"skill":"AUDIOVISUAL","count":15}
+S{"skill":"AUDITORIA","count":679}
+S{"skill":"AURORA","count":32}
+S{"skill":"AUTOCAD","count":229}
+S{"skill":"ACL","count":4}
+S{"skill":"ACR","count":11}
+S{"skill":"ATG","count":15}
+S{"skill":"ATM","count":6}
+S{"skill":"AUTBANK","count":11}
+S{"skill":"AVRO","count":12}
+S{"skill":"AWB","count":4}
+S{"skill":"AWR","count":4}
+S{"skill":"BAAN","count":3}
+S{"skill":"BACKEND","count":3183}
+S{"skill":"BARRAMENTO","count":38}
+S{"skill":"BASH","count":144}
+S{"skill":"BATCH","count":254}
+S{"skill":"BAZEL","count":7}
+S{"skill":"BDD","count":485}
+S{"skill":"BEANSTALK","count":39}
+S{"skill":"BENNER","count":5}
+S{"skill":"BGP","count":50}
+S{"skill":"BPEL","count":11}
+S{"skill":"BPMN","count":97}
+S{"skill":"BPMS","count":6}
+S{"skill":"BRIM","count":21}
+S{"skill":"BSA","count":8}
+S{"skill":"BSS","count":14}
+S{"skill":"BUILD","count":252}
+S{"skill":"BITRISE","count":9}
+S{"skill":"BIZAGI","count":44}
+S{"skill":"BLAZEMETER","count":13}
+S{"skill":"BLAZOR","count":21}
+S{"skill":"BLOCKCHAIN","count":23}
+S{"skill":"BLUEPRISM","count":16}
+S{"skill":"BMC","count":9}
+S{"skill":"BITBUCKET","count":364}
+S{"skill":"BIOTECNOLOGIA","count":8}
+S{"skill":"BIOMEDICINA","count":79}
+S{"skill":"BIOLOGIA","count":73}
+S{"skill":"BILINGUE","count":208}
+S{"skill":"BIGDATA","count":151}
+S{"skill":"BIGQUERY","count":19}
+S{"skill":"CINEMA","count":17}
+S{"skill":"CIRURGIA PLASTICA","count":2}
+S{"skill":"CISCO","count":338}
+S{"skill":"CISSP","count":6}
+S{"skill":"CITRIX","count":58}
+S{"skill":"CICD","count":1246}
+S{"skill":"CICS","count":23}
+S{"skill":"CIBERNETICA","count":41}
+S{"skill":"CFTV","count":45}
+S{"skill":"CCA","count":9}
+S{"skill":"CCIE","count":5}
+S{"skill":"CCNA","count":75}
+S{"skill":"CCNP","count":65}
+S{"skill":"CCS","count":51}
+S{"skill":"CCSA","count":2}
+S{"skill":"CDCI","count":15}
+S{"skill":"CASSANDRA","count":123}
+S{"skill":"CARDIOLOGIA","count":3}
+S{"skill":"CAMUNDA","count":16}
+S{"skill":"CAMEL","count":46}
+S{"skill":"CAKEPHP","count":17}
+S{"skill":"CONFLUENCE","count":175}
+S{"skill":"COMPTIA","count":36}
+S{"skill":"COMPLIANCE","count":239}
+S{"skill":"COMEX","count":144}
+S{"skill":"COGNOS","count":29}
+S{"skill":"COCOA","count":15}
+S{"skill":"COCOAPODS","count":91}
+S{"skill":"CODE IGNITER","count":2}
+S{"skill":"COBOL","count":188}
+S{"skill":"CMDB","count":22}
+S{"skill":"CMS","count":110}
+S{"skill":"CNC","count":341}
+S{"skill":"CLOUDBEES","count":10}
+S{"skill":"CLOUDERA","count":47}
+S{"skill":"CSM","count":34}
+S{"skill":"CSPO","count":10}
+S{"skill":"CSHARP","count":82}
+S{"skill":"CRYSTAL REPORT","count":3}
+S{"skill":"CRIPTOGRAFIA","count":124}
+S{"skill":"CRM DYNAMICS","count":32}
+S{"skill":"CPI","count":26}
+S{"skill":"CPP","count":2}
+S{"skill":"CQRS","count":39}
+S{"skill":"CRAWLER","count":6}
+S{"skill":"CRC","count":250}
+S{"skill":"DATA MINING","count":13}
+S{"skill":"DATA PROTECTION","count":11}
+S{"skill":"DATA SCIENCE","count":81}
+S{"skill":"CORDOVA","count":27}
+S{"skill":"COREL","count":106}
+S{"skill":"CONTROL-M","count":33}
+S{"skill":"DATABRICKS","count":82}
+S{"skill":"DATACENTER","count":111}
+S{"skill":"DATALAKE","count":40}
+S{"skill":"DATAMART","count":4}
+S{"skill":"DATAOPS","count":21}
+S{"skill":"DATAPOWER","count":16}
+S{"skill":"DATARAPTORS","count":2}
+S{"skill":"DATASCIENCE","count":39}
+S{"skill":"DESENHO INDUSTRIAL","count":5}
+S{"skill":"DATASTAGE","count":31}
+S{"skill":"DATASTORE","count":15}
+S{"skill":"DAX","count":73}
+S{"skill":"DATABASE","count":378}
+S{"skill":"DASHBOARDS","count":430}
+S{"skill":"DAPPER","count":105}
+S{"skill":"DART","count":40}
+S{"skill":"DANCA","count":2}
+S{"skill":"CYBERSECURITY","count":77}
+S{"skill":"CUCUMBER","count":270}
+S{"skill":"CTFL","count":69}
+S{"skill":"DJANGO","count":293}
+S{"skill":"DLL","count":6}
+S{"skill":"DLP","count":29}
+S{"skill":"DMS","count":13}
+S{"skill":"DNS","count":75}
+S{"skill":"DOCKER","count":2394}
+S{"skill":"DEVSECOPS","count":215}
+S{"skill":"DFS","count":7}
+S{"skill":"DHCP","count":45}
+S{"skill":"DHO","count":152}
+S{"skill":"DIAGNOSTICO","count":282}
+S{"skill":"DEV OPS","count":9}
+S{"skill":"DESPACHO","count":57}
+S{"skill":"EMBALAGEM","count":4}
+S{"skill":"DESIGN PATTERNS","count":713}
+S{"skill":"DERMATOLOGIA","count":2}
+S{"skill":"DEPLOY","count":472}
+S{"skill":"DELPHI","count":438}
+S{"skill":"DBM","count":46}
+S{"skill":"DDD","count":447}
+S{"skill":"DEEP LEARNING","count":55}
+S{"skill":"ENDOSCOPIA","count":3}
+S{"skill":"ENDPOINT","count":46}
+S{"skill":"ENFERMAGEM","count":455}
+S{"skill":"ENFERMARIA","count":17}
+S{"skill":"ELIXIR","count":45}
+S{"skill":"ELK","count":72}
+S{"skill":"ELT","count":26}
+S{"skill":"ELASTICSEARCH","count":160}
+S{"skill":"ELB","count":2}
+S{"skill":"ELETRICIDADE","count":32}
+S{"skill":"EJB","count":192}
+S{"skill":"EKS","count":49}
+S{"skill":"EDR","count":24}
+S{"skill":"ECONOMIA","count":502}
+S{"skill":"EASYTRIEVE","count":5}
+S{"skill":"EBS","count":243}
+S{"skill":"ECC","count":243}
+S{"skill":"ECLIPSE","count":126}
+S{"skill":"DPO","count":26}
+S{"skill":"DRUID","count":10}
+S{"skill":"DRUPAL","count":143}
+S{"skill":"DWDM","count":5}
+S{"skill":"DYNAMODB","count":120}
+S{"skill":"DYNATRACE","count":77}
+S{"skill":"EVENT-DRIVEN","count":75}
+S{"skill":"EXADATA","count":44}
+S{"skill":"EXCEL","count":3622}
+S{"skill":"EUREKA","count":20}
+S{"skill":"EVENT DRIVEN","count":27}
+S{"skill":"ETL","count":793}
+S{"skill":"ESTRATEGIA","count":930}
+S{"skill":"ESTOQUE","count":1138}
+S{"skill":"ESTETICA","count":139}
+S{"skill":"ESTATISTICA","count":200}
+S{"skill":"ESOCIAL","count":93}
+S{"skill":"EHS","count":47}
+S{"skill":"EMV","count":8}
+S{"skill":"FILOSOFIA","count":49}
+S{"skill":"FILOSOFIA","count":49}
+S{"skill":"ERWIN","count":5}
+S{"skill":"ESB","count":25}
+S{"skill":"EPM","count":27}
+S{"skill":"ERP","count":1365}
+S{"skill":"ENSEMBLE","count":14}
+S{"skill":"ENGLISH","count":714}
+S{"skill":"ESPANHOL","count":1355}
+S{"skill":"FORTIFY","count":7}
+S{"skill":"FIRMWARE","count":108}
+S{"skill":"FORTIGATE","count":52}
+S{"skill":"FORTINET","count":131}
+S{"skill":"FOTOGRAFIA","count":22}
+S{"skill":"FORENSE","count":12}
+S{"skill":"FONOAUDIOLOGIA","count":7}
+S{"skill":"FOLHA DE PAGTO","count":3}
+S{"skill":"FLUME","count":11}
+S{"skill":"FISIOTERAPIA","count":168}
+S{"skill":"FLASK","count":69}
+S{"skill":"FLEXBOX","count":31}
+S{"skill":"FIORI","count":191}
+S{"skill":"FIREBASE","count":236}
+S{"skill":"FIREBIRD","count":18}
+S{"skill":"FIREWALL","count":409}
+S{"skill":"FIGMA","count":169}
+S{"skill":"FI-AA","count":6}
+S{"skill":"FI-CA","count":12}
+S{"skill":"FI-CAX","count":7}
+S{"skill":"FI-GL","count":2}
+S{"skill":"FIELD SERVICE","count":223}
+S{"skill":"FARMACIA","count":1075}
+S{"skill":"FASTLANE","count":22}
+S{"skill":"FATURAMENTO","count":764}
+S{"skill":"EXPRESSJS","count":7}
+S{"skill":"EXTJS","count":8}
+S{"skill":"FACILITIES","count":153}
+S{"skill":"EXIN","count":9}
+S{"skill":"GOVERNANCA","count":880}
+S{"skill":"GPO","count":75}
+S{"skill":"GRADLE","count":104}
+S{"skill":"GRAFANA","count":196}
+S{"skill":"GRAPHQL","count":304}
+S{"skill":"GRC","count":136}
+S{"skill":"GROOVY","count":67}
+S{"skill":"GOF","count":14}
+S{"skill":"GOLANG","count":267}
+S{"skill":"GHERKIN","count":83}
+S{"skill":"GIS","count":20}
+S{"skill":"GIT HUB","count":23}
+S{"skill":"GIT-FLOW","count":21}
+S{"skill":"GEOGRAFIA","count":8}
+S{"skill":"GEOLOCALIZACAO","count":6}
+S{"skill":"GEOLOGIA","count":7}
+S{"skill":"GATSBY","count":14}
+S{"skill":"GCP","count":586}
+S{"skill":"GENERALISTA","count":632}
+S{"skill":"GENESYS","count":43}
+S{"skill":"GASTRONOMIA","count":27}
+S{"skill":"FUSION","count":54}
+S{"skill":"FUNERARIO","count":4}
+S{"skill":"FULL-STACK","count":206}
+S{"skill":"FSCM","count":24}
+S{"skill":"FRAUDE","count":82}
+S{"skill":"GITFLOW","count":239}
+S{"skill":"GITLAB","count":386}
+S{"skill":"GLASSFISH","count":19}
+S{"skill":"GERENCIAMENTO","count":3302}
+S{"skill":"GATEWAY","count":294}
+S{"skill":"FRONT END","count":1670}
+S{"skill":"FPW","count":18}
+S{"skill":"IPS","count":32}
+S{"skill":"IPSEC","count":43}
+S{"skill":"IPTABLES","count":7}
+S{"skill":"IREPORT","count":72}
+S{"skill":"IS-U","count":18}
+S{"skill":"ISFS","count":2}
+S{"skill":"ISO","count":574}
+S{"skill":"ISP","count":5}
+S{"skill":"ITBM","count":4}
+S{"skill":"ITEAM","count":353}
+S{"skill":"ITEXT","count":7}
+S{"skill":"ITIL","count":622}
+S{"skill":"ITL","count":6}
+S{"skill":"ITS","count":80}
+S{"skill":"ITSM","count":108}
+S{"skill":"IVY","count":2}
+S{"skill":"J2EE","count":84}
+S{"skill":"J2SE","count":5}
+S{"skill":"IONIC","count":306}
+S{"skill":"INTERNET DAS COISAS","count":26}
+S{"skill":"INTERNET INFORMATION SERVICE","count":12}
+S{"skill":"INTELLIJ","count":35}
+S{"skill":"INTERBASE","count":3}
+S{"skill":"INTELIGENCIA ARTIFICIAL","count":138}
+S{"skill":"INFORMIX","count":4}
+S{"skill":"INCIDENTES","count":749}
+S{"skill":"INDESIGN","count":33}
+S{"skill":"INDICADORES","count":2823}
+S{"skill":"IMPOSTO","count":96}
+S{"skill":"IMPALA","count":17}
+S{"skill":"IPS","count":32}
+S{"skill":"IPSEC","count":43}
+S{"skill":"IPTABLES","count":7}
+S{"skill":"IREPORT","count":72}
+S{"skill":"IS-U","count":18}
+S{"skill":"ISFS","count":2}
+S{"skill":"ISO","count":574}
+S{"skill":"ISP","count":5}
+S{"skill":"ITBM","count":4}
+S{"skill":"ITEAM","count":353}
+S{"skill":"ITEXT","count":7}
+S{"skill":"ITIL","count":622}
+S{"skill":"ITL","count":6}
+S{"skill":"ITS","count":80}
+S{"skill":"ITSM","count":108}
+S{"skill":"IVY","count":2}
+S{"skill":"J2EE","count":84}
+S{"skill":"J2SE","count":5}
+S{"skill":"IDM","count":16}
+S{"skill":"IDS","count":9}
+S{"skill":"IIB","count":14}
+S{"skill":"IIS","count":98}
+S{"skill":"IAAS","count":60}
+S{"skill":"IAC","count":138}
+S{"skill":"IAM","count":47}
+S{"skill":"IBM BPM","count":5}
+S{"skill":"IBM BROKER","count":5}
+S{"skill":"IBM INTEGRATION BUS","count":13}
+S{"skill":"IBP","count":58}
+S{"skill":"ICEFACES","count":4}
+S{"skill":"ICMS","count":259}
+S{"skill":"HYPER-V","count":61}
+S{"skill":"HYPERION","count":23}
+S{"skill":"HEROKU","count":37}
+S{"skill":"HIBERNATE","count":369}
+S{"skill":"HIS","count":5}
+S{"skill":"HISTORIA","count":278}
+S{"skill":"HIVE","count":71}
+S{"skill":"HOSPITAL","count":332}
+S{"skill":"HOTELEIRO","count":15}
+S{"skill":"HP-UX","count":2}
+S{"skill":"HSM","count":4}
+S{"skill":"HSRP","count":2}
+S{"skill":"HTML","count":2038}
+S{"skill":"HTTP","count":323}
+S{"skill":"HTTPS","count":304}
+S{"skill":"HUDI","count":6}
+S{"skill":"HELPDESK","count":48}
+S{"skill":"HDFS","count":10}
+S{"skill":"GULP","count":74}
+S{"skill":"HADOOP","count":216}
+S{"skill":"HANNA","count":2}
+S{"skill":"GRUNT","count":31}
+E{"skill":"KABAN","count":16}
+S{"skill":"JSTL","count":12}
+S{"skill":"JSX","count":9}
+S{"skill":"JTA","count":5}
+S{"skill":"JUNIPER","count":14}
+S{"skill":"JUNIT","count":438}
+S{"skill":"JUPYTER","count":27}
+S{"skill":"JVM","count":22}
+S{"skill":"JSF","count":222}
+S{"skill":"JSON WEB TOKEN","count":6}
+S{"skill":"JPA","count":281}
+S{"skill":"JQUERY","count":674}
+S{"skill":"JRE","count":3}
+S{"skill":"JOOMLA","count":3}
+S{"skill":"JORNALISMO","count":80}
+S{"skill":"JENKINS","count":781}
+S{"skill":"JEST","count":156}
+S{"skill":"JET","count":18}
+S{"skill":"JETTY","count":10}
+S{"skill":"JIRA","count":780}
+S{"skill":"JMETER","count":116}
+S{"skill":"JMS","count":53}
+S{"skill":"JAVASE","count":26}
+S{"skill":"JAX-RS","count":21}
+S{"skill":"JAX-WS","count":25}
+S{"skill":"JBOSS","count":362}
+S{"skill":"JDBC","count":82}
+S{"skill":"JDE","count":103}
+S{"skill":"JDEDWARDS","count":27}
+S{"skill":"JDK","count":38}
+S{"skill":"JEE","count":88}
+S{"skill":"JAVAFX","count":2}
+S{"skill":"JAVA EE","count":201}
+S{"skill":"JAVA SCRIPT","count":228}
+S{"skill":"JAVA SERVER FACES","count":19}
+S{"skill":"JAVA SERVER PAGES","count":34}
+S{"skill":"JASMINE","count":36}
+S{"skill":"JASPER REPORT","count":4}
+S{"skill":"LINUX","count":2318}
+S{"skill":"LINX","count":94}
+S{"skill":"LIS","count":10}
+S{"skill":"LOG","count":165}
+S{"skill":"LIDERANCA","count":1599}
+S{"skill":"LIFERAY","count":54}
+S{"skill":"LGPD","count":289}
+S{"skill":"LEAN","count":534}
+S{"skill":"LEGISLACAO","count":1201}
+S{"skill":"LESS","count":243}
+S{"skill":"LETRAS","count":53}
+S{"skill":"LDAP","count":47}
+S{"skill":"LARAVEL","count":636}
+E{"skill":"LAMBDA","count":244}
+S{"skill":"KUBERNETS","count":106}
+S{"skill":"KOTLIN","count":853}
+S{"skill":"KPI","count":51}
+S{"skill":"KATALON","count":3}
+S{"skill":"KIBANA","count":62}
+S{"skill":"KINESIS","count":7}
+S{"skill":"KNOCKOUT JS","count":2}
+E{"skill":"MATERIAL","count":1273}
+S{"skill":"MATERIAL-UI","count":4}
+S{"skill":"MATERIALIZE","count":10}
+S{"skill":"MATLAB","count":11}
+S{"skill":"MATPLOTLIB","count":12}
+S{"skill":"MAVEN","count":395}
+S{"skill":"MASTERSAF","count":62}
+S{"skill":"MATEMATICA","count":2}
+S{"skill":"MARIADB","count":49}
+S{"skill":"MAP REDUCE","count":3}
+S{"skill":"MANTIS","count":15}
+S{"skill":"MAGENTO","count":217}
+S{"skill":"MAINFRAME","count":178}
+S{"skill":"MACHINE LEARNING","count":315}
+S{"skill":"LOW-CODE","count":17}
+S{"skill":"LUCRO","count":552}
+S{"skill":"LOGIX","count":8}
+S{"skill":"LOGSTASH","count":13}
+S{"skill":"MOCHA","count":55}
+S{"skill":"MOCKITO","count":114}
+S{"skill":"MODA","count":139}
+E{"skill":"MIGRACAO","count":745}
+E{"skill":"MICROSTRATEGY","count":71}
+S{"skill":"MIDDLEWARE","count":275}
+S{"skill":"MICROSIGA","count":18}
+S{"skill":"MICROFOCUS","count":8}
+S{"skill":"MFG","count":2}
+S{"skill":"MICRO SERVICE","count":4}
+S{"skill":"METASPLOIT","count":2}
+S{"skill":"METEOROLOGIA","count":3}
+S{"skill":"METODOLOGIA AGIL","count":987}
+S{"skill":"MERCURIAL","count":7}
+S{"skill":"MESSAGE-ORIENTED","count":2}
+S{"skill":"MEMCACHE","count":2}
+S{"skill":"MENSAGERIA","count":558}
+S{"skill":"MCSA","count":76}
+S{"skill":"MCSE","count":30}
+S{"skill":"NOC","count":75}
+S{"skill":"NODE JS","count":479}
+S{"skill":"NEXT.JS","count":70}
+S{"skill":"NF-E","count":40}
+S{"skill":"NGINX","count":120}
+S{"skill":"NHIBERNATE","count":125}
+S{"skill":"NIFI","count":28}
+S{"skill":"NIST","count":40}
+S{"skill":"NO SQL","count":42}
+S{"skill":"NETCORE","count":28}
+S{"skill":"NETSUITE","count":8}
+S{"skill":"NETWEAVER","count":32}
+E{"skill":"NETWORKING","count":145}
+S{"skill":"NEW RELIC","count":32}
+S{"skill":"NESTJS","count":92}
+S{"skill":"NETAPP","count":21}
+S{"skill":"NAT","count":19}
+S{"skill":"NBS","count":9}
+S{"skill":"NEFROLOGIA","count":2}
+S{"skill":"NEGOCIACAO","count":1285}
+S{"skill":"NAC","count":19}
+S{"skill":"NAO RELACIONAIS","count":606}
+S{"skill":"MPLS","count":29}
+S{"skill":"MS-PROJECT","count":24}
+S{"skill":"MS-SQL","count":59}
+S{"skill":"MSBUILD","count":4}
+S{"skill":"MSPROJECT","count":13}
+S{"skill":"MSSQL","count":130}
+S{"skill":"MULE","count":15}
+S{"skill":"MULESOFT","count":99}
+S{"skill":"MUNDIPAGG","count":14}
+S{"skill":"MUSICA","count":28}
+S{"skill":"MVN","count":4}
+S{"skill":"MVP","count":214}
+S{"skill":"MVVM","count":323}
+S{"skill":"MY SQL","count":124}
+S{"skill":"MOODLE","count":14}
+E{"skill":"MONO","count":8}
+S{"skill":"MONGODB","count":921}
+S{"skill":"ORACLE INTEGRATION CLOUD","count":17}
+S{"skill":"ORACLE SERVICE BUS","count":25}
+E{"skill":"ORACLE SOA","count":52}
+S{"skill":"ONESOURCE","count":11}
+S{"skill":"OPEN STACK","count":2}
+S{"skill":"OPENGL","count":10}
+S{"skill":"OPENLDAP","count":10}
+S{"skill":"OPENSHIFT","count":174}
+S{"skill":"OPENSTACK","count":48}
+S{"skill":"OPENTEXT","count":17}
+S{"skill":"OLAP","count":30}
+S{"skill":"ON-PREMISE","count":58}
+S{"skill":"OFTALMOLOGIA","count":2}
+S{"skill":"OFFSHORE","count":71}
+S{"skill":"ODONTOLOGIA","count":18}
+S{"skill":"OBSTETRICIA","count":5}
+S{"skill":"OCA","count":20}
+S{"skill":"OCI","count":30}
+S{"skill":"OCJP","count":2}
+S{"skill":"OCP","count":43}
+S{"skill":"ODI","count":42}
+S{"skill":"OBJETO-RELACIONAL","count":17}
+S{"skill":"OBJECTIVE-C","count":100}
+S{"skill":"NPM","count":125}
+S{"skill":"NTP","count":2}
+S{"skill":"NUTRICAO","count":112}
+S{"skill":"PERL","count":48}
+S{"skill":"PEOPLESOFT","count":30}
+S{"skill":"PENTAHO","count":69}
+S{"skill":"PENTEST","count":104}
+S{"skill":"PEDIATRIA","count":8}
+S{"skill":"PEDAGOGIA","count":77}
+S{"skill":"PDCA","count":34}
+S{"skill":"PDPP","count":6}
+S{"skill":"PDTI","count":3}
+S{"skill":"PATOLOGIA","count":11}
+S{"skill":"PCI","count":29}
+S{"skill":"PANDAS","count":40}
+S{"skill":"PAP","count":31}
+S{"skill":"PADRAO DE PROJETO","count":9}
+S{"skill":"PAAS","count":111}
+S{"skill":"ORIENTACAO A OBJETOS","count":359}
+S{"skill":"ORM","count":288}
+S{"skill":"ORTODONTIA","count":3}
+S{"skill":"OSB","count":19}
+S{"skill":"OSCP","count":19}
+S{"skill":"OSP","count":3}
+S{"skill":"OSPF","count":66}
+S{"skill":"OSS","count":27}
+S{"skill":"OUTSOURCING","count":148}
+S{"skill":"OUTSYSTEMS","count":52}
+S{"skill":"OWASP","count":133}
+P{"skill":"P O","count":41}
+S{"skill":"PRESTO","count":4}
+S{"skill":"PREVIDENCIA","count":904}
+S{"skill":"PRIME FACES","count":13}
+S{"skill":"POWERSHELL","count":157}
+S{"skill":"PPDS","count":6}
+S{"skill":"POSTMAN","count":313}
+S{"skill":"POWER BI","count":927}
+S{"skill":"POWER CENTER","count":30}
+S{"skill":"POWER POINT","count":283}
+S{"skill":"PMO","count":276}
+S{"skill":"PMP","count":67}
+S{"skill":"POI","count":7}
+S{"skill":"PLSQL","count":879}
+S{"skill":"PMBOK","count":79}
+S{"skill":"PLM","count":15}
+S{"skill":"PL-SQL","count":91}
+E{"skill":"PLANEJAMENTO","count":3274}
+S{"skill":"PIS","count":191}
+S{"skill":"PINTURA","count":215}
+S{"skill":"PIPELINE","count":389}
+S{"skill":"PGSQL","count":6}
+S{"skill":"PHOTOSHOP","count":247}
+S{"skill":"PHYTON","count":222}
+S{"skill":"RADIOLOGIA","count":7}
+S{"skill":"RADIUS","count":19}
+S{"skill":"RAILS","count":567}
+S{"skill":"RANCHER","count":57}
+S{"skill":"RDS","count":105}
+S{"skill":"REACT JS","count":253}
+S{"skill":"REACT NATIVE","count":1055}
+S{"skill":"PUBLICIDADE","count":6}
+S{"skill":"PROPAGANDA","count":6}
+S{"skill":"PUPPET","count":99}
+S{"skill":"PWA","count":60}
+S{"skill":"PWC","count":9}
+S{"skill":"PYRAMID","count":4}
+S{"skill":"PYSPARK","count":43}
+S{"skill":"QLIKSENSE","count":37}
+S{"skill":"QLIKVIEW","count":68}
+S{"skill":"QOS","count":13}
+S{"skill":"QUARKUS","count":39}
+S{"skill":"RABBIT MQ","count":65}
+S{"skill":"REBATES","count":3}
+S{"skill":"PUB SUB","count":3}
+S{"skill":"PSIQUIATRIA","count":2}
+S{"skill":"PSM","count":157}
+S{"skill":"PSICOLOGIA","count":682}
+S{"skill":"PROSPECCAO","count":1358}
+S{"skill":"PROTHEUS","count":505}
+S{"skill":"PROTOCOL","count":12}
+S{"skill":"SALESFORCE","count":1087}
+S{"skill":"SANKHYA","count":27}
+S{"skill":"SANS","count":19}
+S{"skill":"S4HANA","count":213}
+S{"skill":"SAAS","count":184}
+S{"skill":"SAC","count":229}
+S{"skill":"RPA","count":419}
+S{"skill":"RPC","count":4}
+S{"skill":"CAPYBARA","count":2}
+S{"skill":"RUBYONRAILS","count":48}
+S{"skill":"RX-JS","count":3}
+S{"skill":"RMAN","count":31}
+S{"skill":"RIP","count":6}
+S{"skill":"RFP","count":16}
+S{"skill":"RICH FACES","count":2}
+S{"skill":"RETAIL","count":102}
+S{"skill":"RETROFIT","count":63}
+S{"skill":"RESTASSURED","count":22}
+S{"skill":"REGEX","count":5}
+S{"skill":"REDIS","count":349}
+S{"skill":"REDSHIFT","count":51}
+S{"skill":"REDUX","count":397}
+S{"skill":"SNMP","count":11}
+S{"skill":"SNS","count":97}
+S{"skill":"SOA SUITE","count":33}
+S{"skill":"SOAP","count":973}
+S{"skill":"SOC","count":121}
+S{"skill":"SIEBEL","count":35}
+S{"skill":"SIEM","count":65}
+S{"skill":"SIGMA","count":29}
+S{"skill":"SIGNALR","count":4}
+S{"skill":"SILK","count":11}
+S{"skill":"SIP","count":22}
+S{"skill":"SHAREPOINT","count":296}
+S{"skill":"SHELL SCRIPT","count":227}
+S{"skill":"SERVLETS","count":32}
+S{"skill":"SERVICENOW","count":145}
+S{"skill":"SERVICE DESK","count":274}
+S{"skill":"SERVERLESS","count":166}
+S{"skill":"SEO","count":167}
+S{"skill":"SELENIUM","count":576}
+S{"skill":"T-SQL","count":190}
+S{"skill":"SWOT","count":2}
+S{"skill":"SYBASE","count":20}
+S{"skill":"SYMFONY","count":26}
+S{"skill":"SYNCHRO","count":15}
+S{"skill":"SVN","count":184}
+S{"skill":"SWAGGER","count":306}
+S{"skill":"STP","count":4}
+S{"skill":"STRAPI","count":2}
+S{"skill":"STRATEGIC","count":66}
+S{"skill":"STRUTS","count":83}
+S{"skill":"SQOOP","count":11}
+S{"skill":"SQS","count":181}
+S{"skill":"SQUAD","count":475}
+S{"skill":"SQUADS","count":418}
+S{"skill":"SQUID","count":2}
+S{"skill":"SRE","count":261}
+S{"skill":"SRM","count":12}
+S{"skill":"SSAS","count":24}
+S{"skill":"SSH","count":12}
+S{"skill":"SSIS","count":86}
+S{"skill":"SSMA","count":24}
+S{"skill":"SSRS","count":34}
+S{"skill":"SPRINT","count":359}
+S{"skill":"SPSS","count":13}
+S{"skill":"SQL INTEGRATION SERVICES","count":5}
+S{"skill":"SQL SERVER","count":2742}
+S{"skill":"SPED","count":353}
+S{"skill":"SPLUNK","count":54}
+S{"skill":"SPM","count":17}
+S{"skill":"SPOTFIRE","count":7}
+E{"skill":"SPRING  SPRING","count":20}
+S{"skill":"SPRING BOOT","count":801}
+S{"skill":"SPRING DATA","count":131}
+S{"skill":"SPRING MVC","count":114}
+S{"skill":"SONAR","count":99}
+S{"skill":"SONICWALL","count":25}
+S{"skill":"SOPHOS","count":20}
+S{"skill":"SOX","count":25}
+S{"skill":"SPA","count":165}
+S{"skill":"SOLID","count":719}
+S{"skill":"SOLMAN","count":75}
+S{"skill":"SOLARIS","count":38}
+S{"skill":"TESTLINK","count":37}
+S{"skill":"TFS","count":210}
+S{"skill":"THROUGHPUT","count":13}
+S{"skill":"TESTNG","count":17}
+S{"skill":"TESTRAIL","count":2}
+S{"skill":"TESTES E2E","count":11}
+S{"skill":"TESTCOMPLETE","count":24}
+S{"skill":"TERRAFORM","count":318}
+S{"skill":"TERRAPLENAGEM","count":3}
+S{"skill":"TESOURARIA","count":208}
+S{"skill":"TEST","count":396}
+S{"skill":"TEST-DRIVEN","count":26}
+S{"skill":"TENSORFLOW","count":15}
+S{"skill":"TERADATA","count":35}
+S{"skill":"TDD","count":811}
+S{"skill":"TDF","count":26}
+S{"skill":"TCP-IP","count":12}
+S{"skill":"TASY","count":52}
+S{"skill":"TABLEAU","count":215}
+S{"skill":"TALEND","count":63}
+S{"skill":"USINAGEM","count":270}
+S{"skill":"UTM","count":15}
+S{"skill":"UIPATH","count":61}
+S{"skill":"UML","count":120}
+S{"skill":"UNIX","count":234}
+S{"skill":"URA","count":68}
+S{"skill":"TUNNING","count":111}
+S{"skill":"TURISMO","count":53}
+S{"skill":"TYPE SCRIPT","count":26}
+S{"skill":"TYPEFORM","count":13}
+S{"skill":"TRIGGER","count":49}
+S{"skill":"TROUBLESHOOTING","count":511}
+S{"skill":"TRIBUTOS","count":348}
+S{"skill":"TRENDMICRO","count":2}
+S{"skill":"TRELLO","count":47}
+S{"skill":"TOGAF","count":55}
+E{"skill":"TOTVS FLUIG","count":10}
+S{"skill":"TOTVS RM","count":36}
+S{"skill":"TIBCO","count":36}
+S{"skill":"VMWARE","count":302}
+S{"skill":"VOIP","count":57}
+S{"skill":"VPN","count":187}
+S{"skill":"VRAPTOR","count":2}
+S{"skill":"VRRP","count":7}
+S{"skill":"VLAN","count":16}
+S{"skill":"VISUALFORCE","count":52}
+S{"skill":"VISUAL STUDIO","count":333}
+S{"skill":"VISUAL STUDIO CODE","count":7}
+S{"skill":"VIPER","count":21}
+S{"skill":"VISTEX","count":7}
+S{"skill":"VIDEOMAKER","count":13}
+S{"skill":"VERSIONADOR","count":14}
+S{"skill":"VERSIONAMENTO","count":1974}
+S{"skill":"VETERINARIA","count":14}
+S{"skill":"VERSAO","count":1201}
+S{"skill":"VBA","count":154}
+E{"skill":"VBCS","count":2}
+S{"skill":"VBNET","count":8}
+S{"skill":"VBSCRIPT","count":9}
+S{"skill":"VEEAM","count":53}
+S{"skill":"VELOCITY","count":14}
+S{"skill":"VENDA","count":1342}
+S{"skill":"VAREJO","count":837}
+S{"skill":"VB NET","count":19}
+S{"skill":"WORKFLOW","count":200}
+S{"skill":"WPF","count":79}
+S{"skill":"WSDL","count":16}
+S{"skill":"WSO","count":7}
+S{"skill":"WSUS","count":18}
+S{"skill":"XAMARIN","count":153}
+S{"skill":"XEN","count":8}
+S{"skill":"XHTML","count":4}
+S{"skill":"XML","count":390}
+S{"skill":"XPATH","count":16}
+S{"skill":"XRT","count":2}
+S{"skill":"YARN","count":17}
+S{"skill":"YII","count":17}
+S{"skill":"ZABIX","count":9}
+S{"skill":"ZACHMAN","count":7}
+S{"skill":"ZEND","count":53}
+S{"skill":"ZENDESK","count":46}
+S{"skill":"ZOOTECNIA","count":10}
+S{"skill":"WORDPRESS","count":166}
+S{"skill":"WEBSPHERE","count":163}
+S{"skill":"WFM","count":7}
+S{"skill":"WILDFLY","count":105}
+E{"skill":"WINDOWS","count":2053}
+S{"skill":"WIREFRAMES","count":90}
+S{"skill":"WIREMOCK","count":28}
+S{"skill":"WEBPACK","count":85}
+S{"skill":"WAF","count":52}
+S{"skill":"WAN","count":123}
+S{"skill":"WAS","count":12}
+S{"skill":"WATSON","count":35}
+S{"skill":"WCF","count":112}
+S{"skill":"WCM","count":26}
+S{"skill":"WEB ANALYTICS","count":69}
+S{"skill":"VUEX","count":54}
+S{"skill":"VULNERABILIDADE","count":103}
+S{"skill":"VTEX","count":191}
+S{"skill":"VUE JS","count":127}
+S{"skill":"VSAM","count":3}
+S{"skill":"IDE","count":121}
+S{"skill":"INTUNE","count":23}
+S{"skill":"LABORATORIO","count":397}
+E{"skill":"LAN","count":180}
+S{"skill":"LUMEN","count":12}
+S{"skill":"MARCENARIA","count":58}
+S{"skill":"MARKETPLACE","count":141}
+S{"skill":"MERAKI","count":7}
+S{"skill":"MERCHANDISING","count":49}
+S{"skill":"MIS","count":53}
+S{"skill":"MONGOOSE","count":4}
+S{"skill":"CAMPANHAS","count":713}
+S{"skill":"CHAI","count":19}
+S{"skill":"CHECKPOINT","count":30}
+S{"skill":"BOTTLE","count":30}

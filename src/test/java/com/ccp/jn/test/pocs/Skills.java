@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 import com.ccp.constantes.CcpConstants;
@@ -31,6 +32,29 @@ public class Skills {
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
 				);
+		
+		List<String> lines = new CcpStringDecorator("documentation\\skills\\classificacao\\restou.txt").file().getLines();
+		gravarArquivo(lines, "documentation\\skills\\classificacao\\profissoes.txt", "P");
+		gravarArquivo(lines, "documentation\\skills\\classificacao\\excluidos.txt", "E");
+		gravarArquivo(lines, "documentation\\skills\\classificacao\\skills.txt", "S");
+	}
+
+	static void gravarArquivo(
+			List<String> lines,
+			String nomeDoArquivoOndeGravar,
+			String sigla
+			) {
+			
+			List<String> collect = lines.stream().filter(line -> line.startsWith(sigla)).map(line -> new CcpJsonRepresentation(line.substring(1)).getAsString("skill")).collect(Collectors.toList());
+			TreeSet<String> words = new TreeSet<>(collect);
+			CcpFileDecorator reset = new CcpStringDecorator(nomeDoArquivoOndeGravar).file().reset();
+			for (String word : words) {
+				reset.append(word);
+			}
+			
+	}
+
+	static void levantarSkills() {
 		Set<String> novasPalavras = new HashSet<>();
 		
 		Set<String> sinonimos_frases = readSkills("documentation\\skills\\sinonimos_frases.txt");

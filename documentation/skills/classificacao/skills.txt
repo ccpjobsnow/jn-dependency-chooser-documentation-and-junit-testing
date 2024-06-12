@@ -1,844 +1,1328 @@
-{"skill":"BIOQUIMICA","count":9}
-{"skill":"BIM","count":26}
-{"skill":"CACHE","count":160}
-{"skill":"CAPM","count":7}
-{"skill":"CHATBOTS","count":37}
-{"skill":"COBIT","count":88}
-{"skill":"COBRANCA","count":585}
-{"skill":"COFINS","count":127}
-{"skill":"CYPRESS","count":106}
-{"skill":"DATA HUB","count":4}
-{"skill":".NETCORE","count":65}
-{"skill":"ABAP","count":827}
-{"skill":"ACTIVE DIRECTORY","count":155}
-{"skill":"ACTIVE MQ","count":12}
-{"skill":"ACUPUNTURA","count":5}
-{"skill":"ADMINSTRACAO","count":2}
-{"skill":"ADONISJS","count":15}
-{"skill":"ADVPL","count":84}
-{"skill":"ADWORDS","count":15}
-{"skill":"AGRICULTURA","count":38}
-{"skill":"AGRONOMIA","count":23}
-{"skill":"AIRFLOW","count":90}
-{"skill":"AIX","count":47}
-{"skill":"AJAX","count":103}
-{"skill":"ALM","count":86}
-{"skill":"ALTERYX","count":51}
-{"skill":"AWS","count":57}
-{"skill":"AUTOMACAO","count":13}
-{"skill":"CLOUD","count":64}
-{"skill":"BUSINESS INTELLIGENCE","count":34}
-{"skill":"CRM","count":62}
-{"skill":"LOGISTICA","count":197}
-{"skill":"MARKETING","count":62}
-{"skill":"MONITORAMENTO","count":39}
-{"skill":"QA","count":39}
-{"skill":"ANGULAR","count":252}
-{"skill":"ANSIBLE","count":241}
-{"skill":"APACHE ANT","count":51}
-{"skill":"APACHE KAFKA","count":70}
-{"skill":"APACHE SPARK","count":54}
-{"skill":"APACHE TOMCAT","count":67}
-{"skill":"APEX","count":240}
-{"skill":"API RESTFUL","count":82}
-{"skill":"API-FIRST","count":7}
-{"skill":"APIGATEWAY","count":3}
-{"skill":"APPIAN","count":7}
-{"skill":"APPIUM","count":135}
-{"skill":"APOLLO","count":37}
-{"skill":"ARANGODB","count":2}
-{"skill":"ARCHITECTURE","count":367}
-{"skill":"ARCSERVE","count":11}
-{"skill":"ARDUINO","count":4}
-{"skill":"ARIBA","count":76}
-{"skill":"URBANISMO","count":15}
-{"skill":"ASM","count":24}
-{"skill":"ASP NET","count":105}
-{"skill":"ASSEMBLY","count":8}
-{"skill":"COMPRAS","count":146}
-{"skill":"COMERCIAL","count":345}
-{"skill":"CONTABIL","count":239}
-{"skill":"FINANCEIRO","count":263}
-{"skill":"FISCAL","count":189}
-{"skill":"ASTERISK","count":37}
-{"skill":"AUDIOVISUAL","count":15}
-{"skill":"AUDITORIA","count":679}
-{"skill":"AURORA","count":32}
-{"skill":"AUTOCAD","count":229}
-{"skill":"ACL","count":4}
-{"skill":"ACR","count":11}
-{"skill":"ATG","count":15}
-{"skill":"ATM","count":6}
-{"skill":"AUTBANK","count":11}
-{"skill":"AVRO","count":12}
-{"skill":"AWB","count":4}
-{"skill":"AWR","count":4}
-{"skill":"BAAN","count":3}
-{"skill":"BACKEND","count":3183}
-{"skill":"BARRAMENTO","count":38}
-{"skill":"BASH","count":144}
-{"skill":"BATCH","count":254}
-{"skill":"BAZEL","count":7}
-{"skill":"BDD","count":485}
-{"skill":"BEANSTALK","count":39}
-{"skill":"BENNER","count":5}
-{"skill":"BGP","count":50}
-{"skill":"BPEL","count":11}
-{"skill":"BPMN","count":97}
-{"skill":"BPMS","count":6}
-{"skill":"BRIM","count":21}
-{"skill":"BSA","count":8}
-{"skill":"BSS","count":14}
-{"skill":"BUILD","count":252}
-{"skill":"BITRISE","count":9}
-{"skill":"BIZAGI","count":44}
-{"skill":"BLAZEMETER","count":13}
-{"skill":"BLAZOR","count":21}
-{"skill":"BLOCKCHAIN","count":23}
-{"skill":"BLUEPRISM","count":16}
-{"skill":"BMC","count":9}
-{"skill":"BITBUCKET","count":364}
-{"skill":"BIOTECNOLOGIA","count":8}
-{"skill":"BIOMEDICINA","count":79}
-{"skill":"BIOLOGIA","count":73}
-{"skill":"BILINGUE","count":208}
-{"skill":"BIGDATA","count":151}
-{"skill":"BIGQUERY","count":19}
-{"skill":"CINEMA","count":17}
-{"skill":"CIRURGIA PLASTICA","count":2}
-{"skill":"CISCO","count":338}
-{"skill":"CISSP","count":6}
-{"skill":"CITRIX","count":58}
-{"skill":"CICD","count":1246}
-{"skill":"CICS","count":23}
-{"skill":"CIBERNETICA","count":41}
-{"skill":"CFTV","count":45}
-{"skill":"CCA","count":9}
-{"skill":"CCIE","count":5}
-{"skill":"CCNA","count":75}
-{"skill":"CCNP","count":65}
-{"skill":"CCS","count":51}
-{"skill":"CCSA","count":2}
-{"skill":"CDCI","count":15}
-{"skill":"CASSANDRA","count":123}
-{"skill":"CARDIOLOGIA","count":3}
-{"skill":"CAMUNDA","count":16}
-{"skill":"CAMEL","count":46}
-{"skill":"CAKEPHP","count":17}
-{"skill":"CONFLUENCE","count":175}
-{"skill":"COMPTIA","count":36}
-{"skill":"COMPLIANCE","count":239}
-{"skill":"COMEX","count":144}
-{"skill":"COGNOS","count":29}
-{"skill":"COCOA","count":15}
-{"skill":"COCOAPODS","count":91}
-{"skill":"CODE IGNITER","count":2}
-{"skill":"COBOL","count":188}
-{"skill":"CMDB","count":22}
-{"skill":"CMS","count":110}
-{"skill":"CNC","count":341}
-{"skill":"CLOUDBEES","count":10}
-{"skill":"CLOUDERA","count":47}
-{"skill":"CSM","count":34}
-{"skill":"CSPO","count":10}
-{"skill":"CSHARP","count":82}
-{"skill":"CRYSTAL REPORT","count":3}
-{"skill":"CRIPTOGRAFIA","count":124}
-{"skill":"CRM DYNAMICS","count":32}
-{"skill":"CPI","count":26}
-{"skill":"CPP","count":2}
-{"skill":"CQRS","count":39}
-{"skill":"CRAWLER","count":6}
-{"skill":"CRC","count":250}
-{"skill":"DATA MINING","count":13}
-{"skill":"DATA PROTECTION","count":11}
-{"skill":"DATA SCIENCE","count":81}
-{"skill":"CORDOVA","count":27}
-{"skill":"COREL","count":106}
-{"skill":"CONTROL-M","count":33}
-{"skill":"DATABRICKS","count":82}
-{"skill":"DATACENTER","count":111}
-{"skill":"DATALAKE","count":40}
-{"skill":"DATAMART","count":4}
-{"skill":"DATAOPS","count":21}
-{"skill":"DATAPOWER","count":16}
-{"skill":"DATARAPTORS","count":2}
-{"skill":"DATASCIENCE","count":39}
-{"skill":"DESENHO INDUSTRIAL","count":5}
-{"skill":"DATASTAGE","count":31}
-{"skill":"DATASTORE","count":15}
-{"skill":"DAX","count":73}
-{"skill":"DATABASE","count":378}
-{"skill":"DASHBOARDS","count":430}
-{"skill":"DAPPER","count":105}
-{"skill":"DART","count":40}
-{"skill":"DANCA","count":2}
-{"skill":"CYBERSECURITY","count":77}
-{"skill":"CUCUMBER","count":270}
-{"skill":"CTFL","count":69}
-{"skill":"DJANGO","count":293}
-{"skill":"DLL","count":6}
-{"skill":"DLP","count":29}
-{"skill":"DMS","count":13}
-{"skill":"DNS","count":75}
-{"skill":"DOCKER","count":2394}
-{"skill":"DEVSECOPS","count":215}
-{"skill":"DFS","count":7}
-{"skill":"DHCP","count":45}
-{"skill":"DHO","count":152}
-{"skill":"DIAGNOSTICO","count":282}
-{"skill":"DEV OPS","count":9}
-{"skill":"DESPACHO","count":57}
-{"skill":"EMBALAGEM","count":4}
-{"skill":"DESIGN PATTERNS","count":713}
-{"skill":"DERMATOLOGIA","count":2}
-{"skill":"DEPLOY","count":472}
-{"skill":"DELPHI","count":438}
-{"skill":"DBM","count":46}
-{"skill":"DDD","count":447}
-{"skill":"DEEP LEARNING","count":55}
-{"skill":"ENDOSCOPIA","count":3}
-{"skill":"ENDPOINT","count":46}
-{"skill":"ENFERMAGEM","count":455}
-{"skill":"ENFERMARIA","count":17}
-{"skill":"ELIXIR","count":45}
-{"skill":"ELK","count":72}
-{"skill":"ELT","count":26}
-{"skill":"ELASTICSEARCH","count":160}
-{"skill":"ELB","count":2}
-{"skill":"ELETRICIDADE","count":32}
-{"skill":"EJB","count":192}
-{"skill":"EKS","count":49}
-{"skill":"EDR","count":24}
-{"skill":"ECONOMIA","count":502}
-{"skill":"EASYTRIEVE","count":5}
-{"skill":"EBS","count":243}
-{"skill":"ECC","count":243}
-{"skill":"ECLIPSE","count":126}
-{"skill":"DPO","count":26}
-{"skill":"DRUID","count":10}
-{"skill":"DRUPAL","count":143}
-{"skill":"DWDM","count":5}
-{"skill":"DYNAMODB","count":120}
-{"skill":"DYNATRACE","count":77}
-{"skill":"EVENT-DRIVEN","count":75}
-{"skill":"EXADATA","count":44}
-{"skill":"EXCEL","count":3622}
-{"skill":"EUREKA","count":20}
-{"skill":"EVENT DRIVEN","count":27}
-{"skill":"ETL","count":793}
-{"skill":"ESTRATEGIA","count":930}
-{"skill":"ESTOQUE","count":1138}
-{"skill":"ESTETICA","count":139}
-{"skill":"ESTATISTICA","count":200}
-{"skill":"ESOCIAL","count":93}
-{"skill":"EHS","count":47}
-{"skill":"EMV","count":8}
-{"skill":"FILOSOFIA","count":49}
-{"skill":"FILOSOFIA","count":49}
-{"skill":"ERWIN","count":5}
-{"skill":"ESB","count":25}
-{"skill":"EPM","count":27}
-{"skill":"ERP","count":1365}
-{"skill":"ENSEMBLE","count":14}
-{"skill":"ENGLISH","count":714}
-{"skill":"ESPANHOL","count":1355}
-{"skill":"FORTIFY","count":7}
-{"skill":"FIRMWARE","count":108}
-{"skill":"FORTIGATE","count":52}
-{"skill":"FORTINET","count":131}
-{"skill":"FOTOGRAFIA","count":22}
-{"skill":"FORENSE","count":12}
-{"skill":"FONOAUDIOLOGIA","count":7}
-{"skill":"FOLHA DE PAGTO","count":3}
-{"skill":"FLUME","count":11}
-{"skill":"FISIOTERAPIA","count":168}
-{"skill":"FLASK","count":69}
-{"skill":"FLEXBOX","count":31}
-{"skill":"FIORI","count":191}
-{"skill":"FIREBASE","count":236}
-{"skill":"FIREBIRD","count":18}
-{"skill":"FIREWALL","count":409}
-{"skill":"FIGMA","count":169}
-{"skill":"FI-AA","count":6}
-{"skill":"FI-CA","count":12}
-{"skill":"FI-CAX","count":7}
-{"skill":"FI-GL","count":2}
-{"skill":"FIELD SERVICE","count":223}
-{"skill":"FARMACIA","count":1075}
-{"skill":"FASTLANE","count":22}
-{"skill":"FATURAMENTO","count":764}
-{"skill":"EXPRESSJS","count":7}
-{"skill":"EXTJS","count":8}
-{"skill":"FACILITIES","count":153}
-{"skill":"EXIN","count":9}
-{"skill":"GOVERNANCA","count":880}
-{"skill":"GPO","count":75}
-{"skill":"GRADLE","count":104}
-{"skill":"GRAFANA","count":196}
-{"skill":"GRAPHQL","count":304}
-{"skill":"GRC","count":136}
-{"skill":"GROOVY","count":67}
-{"skill":"GOF","count":14}
-{"skill":"GOLANG","count":267}
-{"skill":"GHERKIN","count":83}
-{"skill":"GIS","count":20}
-{"skill":"GIT HUB","count":23}
-{"skill":"GIT-FLOW","count":21}
-{"skill":"GEOGRAFIA","count":8}
-{"skill":"GEOLOCALIZACAO","count":6}
-{"skill":"GEOLOGIA","count":7}
-{"skill":"GATSBY","count":14}
-{"skill":"GCP","count":586}
-{"skill":"GENERALISTA","count":632}
-{"skill":"GENESYS","count":43}
-{"skill":"GASTRONOMIA","count":27}
-{"skill":"FUSION","count":54}
-{"skill":"FUNERARIO","count":4}
-{"skill":"FULL-STACK","count":206}
-{"skill":"FSCM","count":24}
-{"skill":"FRAUDE","count":82}
-{"skill":"GITFLOW","count":239}
-{"skill":"GITLAB","count":386}
-{"skill":"GLASSFISH","count":19}
-{"skill":"GERENCIAMENTO","count":3302}
-{"skill":"GATEWAY","count":294}
-{"skill":"FRONT END","count":1670}
-{"skill":"FPW","count":18}
-{"skill":"IPS","count":32}
-{"skill":"IPSEC","count":43}
-{"skill":"IPTABLES","count":7}
-{"skill":"IREPORT","count":72}
-{"skill":"IS-U","count":18}
-{"skill":"ISFS","count":2}
-{"skill":"ISO","count":574}
-{"skill":"ISP","count":5}
-{"skill":"ITBM","count":4}
-{"skill":"ITEAM","count":353}
-{"skill":"ITEXT","count":7}
-{"skill":"ITIL","count":622}
-{"skill":"ITL","count":6}
-{"skill":"ITS","count":80}
-{"skill":"ITSM","count":108}
-{"skill":"IVY","count":2}
-{"skill":"J2EE","count":84}
-{"skill":"J2SE","count":5}
-{"skill":"IONIC","count":306}
-{"skill":"INTERNET DAS COISAS","count":26}
-{"skill":"INTERNET INFORMATION SERVICE","count":12}
-{"skill":"INTELLIJ","count":35}
-{"skill":"INTERBASE","count":3}
-{"skill":"INTELIGENCIA ARTIFICIAL","count":138}
-{"skill":"INFORMIX","count":4}
-{"skill":"INCIDENTES","count":749}
-{"skill":"INDESIGN","count":33}
-{"skill":"INDICADORES","count":2823}
-{"skill":"IMPOSTO","count":96}
-{"skill":"IMPALA","count":17}
-{"skill":"IPS","count":32}
-{"skill":"IPSEC","count":43}
-{"skill":"IPTABLES","count":7}
-{"skill":"IREPORT","count":72}
-{"skill":"IS-U","count":18}
-{"skill":"ISFS","count":2}
-{"skill":"ISO","count":574}
-{"skill":"ISP","count":5}
-{"skill":"ITBM","count":4}
-{"skill":"ITEAM","count":353}
-{"skill":"ITEXT","count":7}
-{"skill":"ITIL","count":622}
-{"skill":"ITL","count":6}
-{"skill":"ITS","count":80}
-{"skill":"ITSM","count":108}
-{"skill":"IVY","count":2}
-{"skill":"J2EE","count":84}
-{"skill":"J2SE","count":5}
-{"skill":"IDM","count":16}
-{"skill":"IDS","count":9}
-{"skill":"IIB","count":14}
-{"skill":"IIS","count":98}
-{"skill":"IAAS","count":60}
-{"skill":"IAC","count":138}
-{"skill":"IAM","count":47}
-{"skill":"IBM BPM","count":5}
-{"skill":"IBM BROKER","count":5}
-{"skill":"IBM INTEGRATION BUS","count":13}
-{"skill":"IBP","count":58}
-{"skill":"ICEFACES","count":4}
-{"skill":"ICMS","count":259}
-{"skill":"HYPER-V","count":61}
-{"skill":"HYPERION","count":23}
-{"skill":"HEROKU","count":37}
-{"skill":"HIBERNATE","count":369}
-{"skill":"HIS","count":5}
-{"skill":"HISTORIA","count":278}
-{"skill":"HIVE","count":71}
-{"skill":"HOSPITAL","count":332}
-{"skill":"HOTELEIRO","count":15}
-{"skill":"HP-UX","count":2}
-{"skill":"HSM","count":4}
-{"skill":"HSRP","count":2}
-{"skill":"HTML","count":2038}
-{"skill":"HTTP","count":323}
-{"skill":"HTTPS","count":304}
-{"skill":"HUDI","count":6}
-{"skill":"HELPDESK","count":48}
-{"skill":"HDFS","count":10}
-{"skill":"GULP","count":74}
-{"skill":"HADOOP","count":216}
-{"skill":"HANNA","count":2}
-{"skill":"GRUNT","count":31}
-{"skill":"KABAN","count":16}
-{"skill":"JSTL","count":12}
-{"skill":"JSX","count":9}
-{"skill":"JTA","count":5}
-{"skill":"JUNIPER","count":14}
-{"skill":"JUNIT","count":438}
-{"skill":"JUPYTER","count":27}
-{"skill":"JVM","count":22}
-{"skill":"JSF","count":222}
-{"skill":"JSON WEB TOKEN","count":6}
-{"skill":"JPA","count":281}
-{"skill":"JQUERY","count":674}
-{"skill":"JRE","count":3}
-{"skill":"JOOMLA","count":3}
-{"skill":"JORNALISMO","count":80}
-{"skill":"JENKINS","count":781}
-{"skill":"JEST","count":156}
-{"skill":"JET","count":18}
-{"skill":"JETTY","count":10}
-{"skill":"JIRA","count":780}
-{"skill":"JMETER","count":116}
-{"skill":"JMS","count":53}
-{"skill":"JAVASE","count":26}
-{"skill":"JAX-RS","count":21}
-{"skill":"JAX-WS","count":25}
-{"skill":"JBOSS","count":362}
-{"skill":"JDBC","count":82}
-{"skill":"JDE","count":103}
-{"skill":"JDEDWARDS","count":27}
-{"skill":"JDK","count":38}
-{"skill":"JEE","count":88}
-{"skill":"JAVAFX","count":2}
-{"skill":"JAVA EE","count":201}
-{"skill":"JAVA SCRIPT","count":228}
-{"skill":"JAVA SERVER FACES","count":19}
-{"skill":"JAVA SERVER PAGES","count":34}
-{"skill":"JASMINE","count":36}
-{"skill":"JASPER REPORT","count":4}
-{"skill":"LINUX","count":2318}
-{"skill":"LINX","count":94}
-{"skill":"LIS","count":10}
-{"skill":"LOG","count":165}
-{"skill":"LIDERANCA","count":1599}
-{"skill":"LIFERAY","count":54}
-{"skill":"LGPD","count":289}
-{"skill":"LEAN","count":534}
-{"skill":"LEGISLACAO","count":1201}
-{"skill":"LESS","count":243}
-{"skill":"LETRAS","count":53}
-{"skill":"LDAP","count":47}
-{"skill":"LARAVEL","count":636}
-{"skill":"LAMBDA","count":244}
-{"skill":"KUBERNETS","count":106}
-{"skill":"KOTLIN","count":853}
-{"skill":"KPI","count":51}
-{"skill":"KATALON","count":3}
-{"skill":"KIBANA","count":62}
-{"skill":"KINESIS","count":7}
-{"skill":"KNOCKOUT JS","count":2}
-{"skill":"MATERIAL","count":1273}
-{"skill":"MATERIAL-UI","count":4}
-{"skill":"MATERIALIZE","count":10}
-{"skill":"MATLAB","count":11}
-{"skill":"MATPLOTLIB","count":12}
-{"skill":"MAVEN","count":395}
-{"skill":"MASTERSAF","count":62}
-{"skill":"MATEMATICA","count":2}
-{"skill":"MARIADB","count":49}
-{"skill":"MAP REDUCE","count":3}
-{"skill":"MANTIS","count":15}
-{"skill":"MAGENTO","count":217}
-{"skill":"MAINFRAME","count":178}
-{"skill":"MACHINE LEARNING","count":315}
-{"skill":"LOW-CODE","count":17}
-{"skill":"LUCRO","count":552}
-{"skill":"LOGIX","count":8}
-{"skill":"LOGSTASH","count":13}
-{"skill":"MOCHA","count":55}
-{"skill":"MOCKITO","count":114}
-{"skill":"MODA","count":139}
-{"skill":"MIGRACAO","count":745}
-{"skill":"MICROSTRATEGY","count":71}
-{"skill":"MIDDLEWARE","count":275}
-{"skill":"MICROSIGA","count":18}
-{"skill":"MICROFOCUS","count":8}
-{"skill":"MFG","count":2}
-{"skill":"MICRO SERVICE","count":4}
-{"skill":"METASPLOIT","count":2}
-{"skill":"METEOROLOGIA","count":3}
-{"skill":"METODOLOGIA AGIL","count":987}
-{"skill":"MERCURIAL","count":7}
-{"skill":"MESSAGE-ORIENTED","count":2}
-{"skill":"MEMCACHE","count":2}
-{"skill":"MENSAGERIA","count":558}
-{"skill":"MCSA","count":76}
-{"skill":"MCSE","count":30}
-{"skill":"NOC","count":75}
-{"skill":"NODE JS","count":479}
-{"skill":"NEXT.JS","count":70}
-{"skill":"NF-E","count":40}
-{"skill":"NGINX","count":120}
-{"skill":"NHIBERNATE","count":125}
-{"skill":"NIFI","count":28}
-{"skill":"NIST","count":40}
-{"skill":"NO SQL","count":42}
-{"skill":"NETCORE","count":28}
-{"skill":"NETSUITE","count":8}
-{"skill":"NETWEAVER","count":32}
-{"skill":"NETWORKING","count":145}
-{"skill":"NEW RELIC","count":32}
-{"skill":"NESTJS","count":92}
-{"skill":"NETAPP","count":21}
-{"skill":"NAT","count":19}
-{"skill":"NBS","count":9}
-{"skill":"NEFROLOGIA","count":2}
-{"skill":"NEGOCIACAO","count":1285}
-{"skill":"NAC","count":19}
-{"skill":"NAO RELACIONAIS","count":606}
-{"skill":"MPLS","count":29}
-{"skill":"MS-PROJECT","count":24}
-{"skill":"MS-SQL","count":59}
-{"skill":"MSBUILD","count":4}
-{"skill":"MSPROJECT","count":13}
-{"skill":"MSSQL","count":130}
-{"skill":"MULE","count":15}
-{"skill":"MULESOFT","count":99}
-{"skill":"MUNDIPAGG","count":14}
-{"skill":"MUSICA","count":28}
-{"skill":"MVN","count":4}
-{"skill":"MVP","count":214}
-{"skill":"MVVM","count":323}
-{"skill":"MY SQL","count":124}
-{"skill":"MOODLE","count":14}
-{"skill":"MONO","count":8}
-{"skill":"MONGODB","count":921}
-{"skill":"ORACLE INTEGRATION CLOUD","count":17}
-{"skill":"ORACLE SERVICE BUS","count":25}
-{"skill":"ORACLE SOA","count":52}
-{"skill":"ONESOURCE","count":11}
-{"skill":"OPEN STACK","count":2}
-{"skill":"OPENGL","count":10}
-{"skill":"OPENLDAP","count":10}
-{"skill":"OPENSHIFT","count":174}
-{"skill":"OPENSTACK","count":48}
-{"skill":"OPENTEXT","count":17}
-{"skill":"OLAP","count":30}
-{"skill":"ON-PREMISE","count":58}
-{"skill":"OFTALMOLOGIA","count":2}
-{"skill":"OFFSHORE","count":71}
-{"skill":"ODONTOLOGIA","count":18}
-{"skill":"OBSTETRICIA","count":5}
-{"skill":"OCA","count":20}
-{"skill":"OCI","count":30}
-{"skill":"OCJP","count":2}
-{"skill":"OCP","count":43}
-{"skill":"ODI","count":42}
-{"skill":"OBJETO-RELACIONAL","count":17}
-{"skill":"OBJECTIVE-C","count":100}
-{"skill":"NPM","count":125}
-{"skill":"NTP","count":2}
-{"skill":"NUTRICAO","count":112}
-{"skill":"PERL","count":48}
-{"skill":"PEOPLESOFT","count":30}
-{"skill":"PENTAHO","count":69}
-{"skill":"PENTEST","count":104}
-{"skill":"PEDIATRIA","count":8}
-{"skill":"PEDAGOGIA","count":77}
-{"skill":"PDCA","count":34}
-{"skill":"PDPP","count":6}
-{"skill":"PDTI","count":3}
-{"skill":"PATOLOGIA","count":11}
-{"skill":"PCI","count":29}
-{"skill":"PANDAS","count":40}
-{"skill":"PAP","count":31}
-{"skill":"PADRAO DE PROJETO","count":9}
-{"skill":"PAAS","count":111}
-{"skill":"ORIENTACAO A OBJETOS","count":359}
-{"skill":"ORM","count":288}
-{"skill":"ORTODONTIA","count":3}
-{"skill":"OSB","count":19}
-{"skill":"OSCP","count":19}
-{"skill":"OSP","count":3}
-{"skill":"OSPF","count":66}
-{"skill":"OSS","count":27}
-{"skill":"OUTSOURCING","count":148}
-{"skill":"OUTSYSTEMS","count":52}
-{"skill":"OWASP","count":133}
-{"skill":"P O","count":41}
-{"skill":"PRESTO","count":4}
-{"skill":"PREVIDENCIA","count":904}
-{"skill":"PRIME FACES","count":13}
-{"skill":"POWERSHELL","count":157}
-{"skill":"PPDS","count":6}
-{"skill":"POSTMAN","count":313}
-{"skill":"POWER BI","count":927}
-{"skill":"POWER CENTER","count":30}
-{"skill":"POWER POINT","count":283}
-{"skill":"PMO","count":276}
-{"skill":"PMP","count":67}
-{"skill":"POI","count":7}
-{"skill":"PLSQL","count":879}
-{"skill":"PMBOK","count":79}
-{"skill":"PLM","count":15}
-{"skill":"PL-SQL","count":91}
-{"skill":"PLANEJAMENTO","count":3274}
-{"skill":"PIS","count":191}
-{"skill":"PINTURA","count":215}
-{"skill":"PIPELINE","count":389}
-{"skill":"PGSQL","count":6}
-{"skill":"PHOTOSHOP","count":247}
-{"skill":"PHYTON","count":222}
-{"skill":"RADIOLOGIA","count":7}
-{"skill":"RADIUS","count":19}
-{"skill":"RAILS","count":567}
-{"skill":"RANCHER","count":57}
-{"skill":"RDS","count":105}
-{"skill":"REACT JS","count":253}
-{"skill":"REACT NATIVE","count":1055}
-{"skill":"PUBLICIDADE","count":6}
-{"skill":"PROPAGANDA","count":6}
-{"skill":"PUPPET","count":99}
-{"skill":"PWA","count":60}
-{"skill":"PWC","count":9}
-{"skill":"PYRAMID","count":4}
-{"skill":"PYSPARK","count":43}
-{"skill":"QLIKSENSE","count":37}
-{"skill":"QLIKVIEW","count":68}
-{"skill":"QOS","count":13}
-{"skill":"QUARKUS","count":39}
-{"skill":"RABBIT MQ","count":65}
-{"skill":"REBATES","count":3}
-{"skill":"PUB SUB","count":3}
-{"skill":"PSIQUIATRIA","count":2}
-{"skill":"PSM","count":157}
-{"skill":"PSICOLOGIA","count":682}
-{"skill":"PROSPECCAO","count":1358}
-{"skill":"PROTHEUS","count":505}
-{"skill":"PROTOCOL","count":12}
-{"skill":"SALESFORCE","count":1087}
-{"skill":"SANKHYA","count":27}
-{"skill":"SANS","count":19}
-{"skill":"S4HANA","count":213}
-{"skill":"SAAS","count":184}
-{"skill":"SAC","count":229}
-{"skill":"RPA","count":419}
-{"skill":"RPC","count":4}
-{"skill":"CAPYBARA","count":2}
-{"skill":"RUBYONRAILS","count":48}
-{"skill":"RX-JS","count":3}
-{"skill":"RMAN","count":31}
-{"skill":"RIP","count":6}
-{"skill":"RFP","count":16}
-{"skill":"RICH FACES","count":2}
-{"skill":"RETAIL","count":102}
-{"skill":"RETROFIT","count":63}
-{"skill":"RESTASSURED","count":22}
-{"skill":"REGEX","count":5}
-{"skill":"REDIS","count":349}
-{"skill":"REDSHIFT","count":51}
-{"skill":"REDUX","count":397}
-{"skill":"SNMP","count":11}
-{"skill":"SNS","count":97}
-{"skill":"SOA SUITE","count":33}
-{"skill":"SOAP","count":973}
-{"skill":"SOC","count":121}
-{"skill":"SIEBEL","count":35}
-{"skill":"SIEM","count":65}
-{"skill":"SIGMA","count":29}
-{"skill":"SIGNALR","count":4}
-{"skill":"SILK","count":11}
-{"skill":"SIP","count":22}
-{"skill":"SHAREPOINT","count":296}
-{"skill":"SHELL SCRIPT","count":227}
-{"skill":"SERVLETS","count":32}
-{"skill":"SERVICENOW","count":145}
-{"skill":"SERVICE DESK","count":274}
-{"skill":"SERVERLESS","count":166}
-{"skill":"SEO","count":167}
-{"skill":"SELENIUM","count":576}
-{"skill":"T-SQL","count":190}
-{"skill":"SWOT","count":2}
-{"skill":"SYBASE","count":20}
-{"skill":"SYMFONY","count":26}
-{"skill":"SYNCHRO","count":15}
-{"skill":"SVN","count":184}
-{"skill":"SWAGGER","count":306}
-{"skill":"STP","count":4}
-{"skill":"STRAPI","count":2}
-{"skill":"STRATEGIC","count":66}
-{"skill":"STRUTS","count":83}
-{"skill":"SQOOP","count":11}
-{"skill":"SQS","count":181}
-{"skill":"SQUAD","count":475}
-{"skill":"SQUADS","count":418}
-{"skill":"SQUID","count":2}
-{"skill":"SRE","count":261}
-{"skill":"SRM","count":12}
-{"skill":"SSAS","count":24}
-{"skill":"SSH","count":12}
-{"skill":"SSIS","count":86}
-{"skill":"SSMA","count":24}
-{"skill":"SSRS","count":34}
-{"skill":"SPRINT","count":359}
-{"skill":"SPSS","count":13}
-{"skill":"SQL INTEGRATION SERVICES","count":5}
-{"skill":"SQL SERVER","count":2742}
-{"skill":"SPED","count":353}
-{"skill":"SPLUNK","count":54}
-{"skill":"SPM","count":17}
-{"skill":"SPOTFIRE","count":7}
-{"skill":"SPRING  SPRING","count":20}
-{"skill":"SPRING BOOT","count":801}
-{"skill":"SPRING DATA","count":131}
-{"skill":"SPRING MVC","count":114}
-{"skill":"SONAR","count":99}
-{"skill":"SONICWALL","count":25}
-{"skill":"SOPHOS","count":20}
-{"skill":"SOX","count":25}
-{"skill":"SPA","count":165}
-{"skill":"SOLID","count":719}
-{"skill":"SOLMAN","count":75}
-{"skill":"SOLARIS","count":38}
-{"skill":"TESTLINK","count":37}
-{"skill":"TFS","count":210}
-{"skill":"THROUGHPUT","count":13}
-{"skill":"TESTNG","count":17}
-{"skill":"TESTRAIL","count":2}
-{"skill":"TESTES E2E","count":11}
-{"skill":"TESTCOMPLETE","count":24}
-{"skill":"TERRAFORM","count":318}
-{"skill":"TERRAPLENAGEM","count":3}
-{"skill":"TESOURARIA","count":208}
-{"skill":"TEST","count":396}
-{"skill":"TEST-DRIVEN","count":26}
-{"skill":"TENSORFLOW","count":15}
-{"skill":"TERADATA","count":35}
-{"skill":"TDD","count":811}
-{"skill":"TDF","count":26}
-{"skill":"TCP-IP","count":12}
-{"skill":"TASY","count":52}
-{"skill":"TABLEAU","count":215}
-{"skill":"TALEND","count":63}
-{"skill":"USINAGEM","count":270}
-{"skill":"UTM","count":15}
-{"skill":"UIPATH","count":61}
-{"skill":"UML","count":120}
-{"skill":"UNIX","count":234}
-{"skill":"URA","count":68}
-{"skill":"TUNNING","count":111}
-{"skill":"TURISMO","count":53}
-{"skill":"TYPE SCRIPT","count":26}
-{"skill":"TYPEFORM","count":13}
-{"skill":"TRIGGER","count":49}
-{"skill":"TROUBLESHOOTING","count":511}
-{"skill":"TRIBUTOS","count":348}
-{"skill":"TRENDMICRO","count":2}
-{"skill":"TRELLO","count":47}
-{"skill":"TOGAF","count":55}
-{"skill":"TOTVS FLUIG","count":10}
-{"skill":"TOTVS RM","count":36}
-{"skill":"TIBCO","count":36}
-{"skill":"VMWARE","count":302}
-{"skill":"VOIP","count":57}
-{"skill":"VPN","count":187}
-{"skill":"VRAPTOR","count":2}
-{"skill":"VRRP","count":7}
-{"skill":"VLAN","count":16}
-{"skill":"VISUALFORCE","count":52}
-{"skill":"VISUAL STUDIO","count":333}
-{"skill":"VISUAL STUDIO CODE","count":7}
-{"skill":"VIPER","count":21}
-{"skill":"VISTEX","count":7}
-{"skill":"VIDEOMAKER","count":13}
-{"skill":"VERSIONADOR","count":14}
-{"skill":"VERSIONAMENTO","count":1974}
-{"skill":"VETERINARIA","count":14}
-{"skill":"VERSAO","count":1201}
-{"skill":"VBA","count":154}
-{"skill":"VBCS","count":2}
-{"skill":"VBNET","count":8}
-{"skill":"VBSCRIPT","count":9}
-{"skill":"VEEAM","count":53}
-{"skill":"VELOCITY","count":14}
-{"skill":"VENDA","count":1342}
-{"skill":"VAREJO","count":837}
-{"skill":"VB NET","count":19}
-{"skill":"WORKFLOW","count":200}
-{"skill":"WPF","count":79}
-{"skill":"WSDL","count":16}
-{"skill":"WSO","count":7}
-{"skill":"WSUS","count":18}
-{"skill":"XAMARIN","count":153}
-{"skill":"XEN","count":8}
-{"skill":"XHTML","count":4}
-{"skill":"XML","count":390}
-{"skill":"XPATH","count":16}
-{"skill":"XRT","count":2}
-{"skill":"YARN","count":17}
-{"skill":"YII","count":17}
-{"skill":"ZABIX","count":9}
-{"skill":"ZACHMAN","count":7}
-{"skill":"ZEND","count":53}
-{"skill":"ZENDESK","count":46}
-{"skill":"ZOOTECNIA","count":10}
-{"skill":"WORDPRESS","count":166}
-{"skill":"WEBSPHERE","count":163}
-{"skill":"WFM","count":7}
-{"skill":"WILDFLY","count":105}
-{"skill":"WINDOWS","count":2053}
-{"skill":"WIREFRAMES","count":90}
-{"skill":"WIREMOCK","count":28}
-{"skill":"WEBPACK","count":85}
-{"skill":"WAF","count":52}
-{"skill":"WAN","count":123}
-{"skill":"WAS","count":12}
-{"skill":"WATSON","count":35}
-{"skill":"WCF","count":112}
-{"skill":"WCM","count":26}
-{"skill":"WEB ANALYTICS","count":69}
-{"skill":"VUEX","count":54}
-{"skill":"VULNERABILIDADE","count":103}
-{"skill":"VTEX","count":191}
-{"skill":"VUE JS","count":127}
-{"skill":"VSAM","count":3}
-{"skill":"IDE","count":121}
-{"skill":"INTUNE","count":23}
-{"skill":"LABORATORIO","count":397}
-{"skill":"LAN","count":180}
-{"skill":"LUMEN","count":12}
-{"skill":"MARCENARIA","count":58}
-{"skill":"MARKETPLACE","count":141}
-{"skill":"MERAKI","count":7}
-{"skill":"MERCHANDISING","count":49}
-{"skill":"MIS","count":53}
-{"skill":"MONGOOSE","count":4}
-{"skill":"CAMPANHAS","count":713}
-{"skill":"CHAI","count":19}
-{"skill":"CHECKPOINT","count":30}
-{"skill":"BOTTLE","count":30}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.NET
+.NETCORE
+ABAP
+ACL
+ACR
+ACTIVE DIRECTORY
+ACTIVE MQ
+ACTIVEDIRECTORY
+ACTIVEMQ
+ACUPUNTURA
+ADM
+ADMINISTRACAO
+ADMINISTRATION
+ADMINISTRATIVA
+ADMINISTRATIVAS
+ADMINISTRATIVO
+ADMINISTRATIVOS
+ADMINSTRACAO
+ADMINSTRATIVO
+ADONISJS
+ADVOCACIA
+ADVPL
+ADWORDS
+AGEIS
+AGIL
+AGILE
+AGRICOLA
+AGRICOLAS
+AGRICULTURA
+AGRONOMIA
+AIRFLOW
+AIX
+AJAX
+ALM
+ALTERYX
+AMAZON WEB SERVICES
+AMBIENTAL
+ANALYTICS
+ANDROID
+ANGULAR
+ANGULAR JS
+ANGULAR.JS
+ANGULARJS
+ANSIBLE
+ANT
+ANTISPAM
+ANTIVIRUS
+APACHE ANT
+APACHE KAFKA
+APACHE SPARK
+APACHE TOMCAT
+APEX
+API
+API REST
+API RESTFUL
+API-FIRST
+APIGATEWAY
+APIREST
+APIS
+APIS REST
+APIS RESTFULL
+APOLLO
+APPIAN
+APPIUM
+APS
+ARANGODB
+ARCHITECTURE
+ARCSERVE
+ARDUINO
+ARIBA
+ARQUITETA
+ARQUITETURA
+ARTE
+ASM
+ASP
+ASP NET
+ASP.NET
+ASPNET
+ASSEMBLY
+ASSURANCE
+ASTERISK
+ATENDENTES
+ATENDIMENTO
+ATG
+ATM
+AUDIOVISUAL
+AUDITORIA
+AUDITORIAS
+AURORA
+AUTBANK
+AUTO CAD
+AUTOCAD
+AUTOMACAO
+AUTOMATION
+AUTOMATIZACAO
+AUTOMATIZADO
+AUTOMATIZADOS
+AVRO
+AWB
+AWR
+AWS
+AZUERE
+AZURE
+B.I
+BAAN
+BACK
+BACK END
+BACK-END
+BACKEND
+BANCARIO
+BARRAMENTO
+BASH
+BASIS
+BATCH
+BAZEL
+BDD
+BEANSTALK
+BENNER
+BGP
+BIBLIOTECONOMIA
+BIG DATA
+BIG QUERY
+BIG-DATA
+BIGDATA
+BIGQUERY
+BILINGUE
+BIM
+BIOLOGIA
+BIOMEDICINA
+BIOQUIMICA
+BIOTECNOLOGIA
+BITBUCKET
+BITRISE
+BIZAGI
+BLAZEMETER
+BLAZOR
+BLOCKCHAIN
+BLUEPRISM
+BMC
+BOOTSTRAP
+BOTTLE
+BPEL
+BPM
+BPMN
+BPMS
+BRIM
+BSA
+BSS
+BUILD
+BUSINESS INTELIGENCE
+BUSINESS INTELLIGENCE
+BUSINESS ONE
+BUSINESS PROCESS MANAGEMENT
+BUSINESSINTELIGENCE
+CACHE
+CAKE PHP
+CAKEPHP
+CALLCENTER
+CAMEL
+CAMPAIGN
+CAMPANHAS
+CAMUNDA
+CAPM
+CAPYBARA
+CARDIOLOGIA
+CASSANDRA
+CCA
+CCIE
+CCNA
+CCNP
+CCS
+CCSA
+CDCI
+CERTIFICACAO
+CERTIFICATE
+CERTIFICATION
+CFTV
+CHAI
+CHAT BOT
+CHATBOT
+CHATBOTS
+CHECKPOINT
+CIBERNETICA
+CIBERSEGURANCA
+CICD
+CICS
+CIENTIFICA
+CINEMA
+CIRURGIA PLASTICA
+CISCO
+CISSP
+CITRIX
+CLOUD
+CLOUDBEES
+CLOUDERA
+CLUSTER
+CLUSTERIZACAO
+CMDB
+CMS
+CNC
+COBIT
+COBOL
+COBRANCA
+COCOA
+COCOAPODS
+CODE IGNITER
+CODEIGNITER
+COFINS
+COGNOS
+COMERCIAL
+COMEX
+COMPLIANCE
+COMPRA
+COMPRAS
+COMPTIA
+CONFLUENCE
+CONSORCIO
+CONSTRUCAO NAVAL
+CONTABEIS
+CONTABIL
+CONTABILIDADE
+CONTAINER
+CONTAINERS
+CONTAS
+CONTINUOUS DELIVERY
+CONTINUOUS INTEGRATION
+CONTROL-M
+CONTROLADORIA
+CONTROLE
+CONTROLM
+COORDENACAO
+CORDOVA
+COREL
+CORRETOR DE SEGUROS
+CPI
+CPP
+CQRS
+CRAWLER
+CRC
+CRIPTOGRAFIA
+CRM
+CRM DYNAMICS
+CRYSTAL REPORT
+CSHARP
+CSM
+CSPO
+CSS
+CTFL
+CUCUMBER
+CURADORIA
+CYBER SECURITY
+CYBERBANK
+CYBERSECURITY
+CYBERSEGURANCA
+CYPRESS
+DANCA
+DAPPER
+DART
+DASHBOARD
+DASHBOARDS
+DATA BASE
+DATA ENGINEER
+DATA HUB
+DATA MINING
+DATA PROTECTION
+DATA SCIENCE
+DATA STORE
+DATA WAREHOUSE
+DATABASE
+DATABASES
+DATABRICKS
+DATACENTER
+DATALAKE
+DATAMART
+DATAOPS
+DATAPOWER
+DATARAPTORS
+DATASCIENCE
+DATASTAGE
+DATASTORE
+DAX
+DBM
+DDD
+DEEP LEARNING
+DELPHI
+DEPLOY
+DEPLOYMENT
+DERMATOLOGIA
+DESENHO INDUSTRIAL
+DESENHOS
+DESENVOLVIMENTO HUMANO ORGANIZACIONAL
+DESIGN DE AMBIENTES
+DESIGN DE INTERIORES
+DESIGN DE PRODUTO
+DESIGN GRAFICO
+DESIGN PATTERN
+DESIGN PATTERNS
+DESIGNER DE INTERIORES
+DESIGNPATTERNS
+DESPACHO
+DEV OPS
+DEVSECOPS
+DFS
+DHCP
+DHO
+DIAGNOSTICO
+DIREITO
+DIREITO ADMINISTRATIVO
+DIREITO BANCARIO
+DIREITO CIVIL
+DIREITO CONTRATUAL
+DIREITO DIGITAL
+DIREITO EMPRESARIAL
+DIREITO IMOBILIARIO
+DIREITO SOCIETARIO
+DIREITO TRABALHISTA
+DIREITO TRIBUTARIO
+DIRETORIA
+DJANGO
+DLL
+DLP
+DMS
+DNS
+DOCKER
+DOCKER-COMPOSE
+DOMAIN-DRIVEN-DESIGN
+DOT.NET
+DOTNET
+DPO
+DRUID
+DRUPAL
+DWDM
+DYNAMODB
+DYNATRACE
+E-SOCIAL
+E2E
+EASYTRIEVE
+EBS
+ECC
+ECLIPSE
+ECMA
+ECMASCRIPT
+ECONOMIA
+EDR
+EDUCACAO FISICA
+EHS
+EJB
+EKS
+ELASTIC SEARCH
+ELASTICSEARCH
+ELB
+ELETRICA
+ELETRICIDADE
+ELETRONICA
+ELIXIR
+ELK
+ELT
+EMBALAGEM
+EMPILHADEIRA
+EMV
+ENDOSCOPIA
+ENDPOINT
+ENFERMAGEM
+ENFERMARIA
+ENGENHARIA
+ENGENHARIA AGRONOMICA
+ENGENHARIA AMBIENTAL
+ENGENHARIA CIVIL
+ENGENHARIA DE ALIMENTOS
+ENGENHARIA DE COMPUTACAO
+ENGENHARIA DE CONTROLE E AUTOMACAO
+ENGENHARIA DE MATERIAIS
+ENGENHARIA DE MINAS
+ENGENHARIA DE PRODUCAO
+ENGENHARIA DE TELECOMUNICACOES
+ENGENHARIA ELETRICA
+ENGENHARIA ELETRONICA
+ENGENHARIA FLORESTAL
+ENGENHARIA MECANICA
+ENGENHARIA MECATRONICA
+ENGENHARIA METALURGICA
+ENGENHARIA QUIMICA
+ENGENHARIA TEXTIL
+ENGENHARIAS
+ENGINEERING
+ENGLISH
+ENSEMBLE
+EPM
+ERP
+ERWIN
+ESB
+ESOCIAL
+ESPANHOL
+ESPANOL
+ESTATISTICA
+ESTATISTICAS
+ESTETICA
+ESTOQUE
+ESTRATEGIA
+ETL
+EUREKA
+EVENT DRIVEN
+EVENT-DRIVEN
+EWM
+EXADATA
+EXCEL
+EXIN
+EXPRESS
+EXPRESSJS
+EXTJS
+FACILITIES
+FARMACEUTICA
+FARMACEUTICAS
+FARMACIA
+FASTLANE
+FATURAMENTO
+FI-AA
+FI-CA
+FI-CAX
+FI-GL
+FIELD SERVICE
+FIELD SERVICES
+FIELDSERVICE
+FIGMA
+FILOSOFIA
+FINANCAS
+FINANCE
+FINANCEIRA
+FINANCEIRAS
+FINANCEIRO
+FINANCEIROS
+FINANCIAL
+FIORI
+FIREBASE
+FIREBIRD
+FIREWALL
+FIREWALLS
+FIRMWARE
+FISCAIS
+FISCAL
+FISICA
+FISIOTERAPIA
+FLASK
+FLEXBOX
+FLUENT
+FLUENTE
+FLUIG
+FLUME
+FLUTTER
+FOLHA DE PAGAMENTO
+FOLHA DE PAGTO
+FOLHA PAGAMENTO
+FONOAUDIOLOGIA
+FONOAUDIOLOGICO
+FORENSE
+FORTIFY
+FORTIGATE
+FORTINET
+FOTOGRAFIA
+FOTOGRAFIAS
+FPW
+FRAUDE
+FRONT
+FRONT END
+FRONT-END
+FRONTEND
+FSCM
+FULL
+FULL STACK
+FULL-STACK
+FULLSTACK
+FUNERARIO
+FUNERARIOS
+FUSION
+GASTRONOMIA
+GATEWAY
+GATSBY
+GCP
+GENERALISTA
+GENESYS
+GEOGRAFIA
+GEOLOCALIZACAO
+GEOLOGIA
+GERENCIA
+GERENCIAIS
+GERENCIAMENTO
+GESTAO
+GESTAO AMBIENTAL
+GESTAO DA INFORMACAO
+GESTAO DE PESSOAS
+GESTAO DE PROJETOS
+GHERKIN
+GIS
+GIT
+GIT HUB
+GIT-FLOW
+GITFLOW
+GITHUB
+GITLAB
+GLASSFISH
+GOF
+GOLANG
+GOOGLE CLOUD
+GOOGLE CLOUD PLATFORM
+GOOGLECLOUD
+GOVERNANCA
+GPO
+GRADLE
+GRAFANA
+GRAPHQL
+GRC
+GROOVY
+GROWTH
+GRUNT
+GULP
+HADOOP
+HANA
+HANNA
+HCM
+HDFS
+HELPDESK
+HEROKU
+HIBERNATE
+HIS
+HISTORIA
+HIVE
+HOSPITAL
+HOSPITALAR
+HOTELEIRO
+HP-UX
+HSM
+HSRP
+HTML
+HTTP
+HTTPS
+HUDI
+HUMANOS
+HUMANRESOURCES
+HYBRIS
+HYPER
+HYPER-V
+HYPERION
+HYPERV
+IAAS
+IAC
+IAM
+IBM BPM
+IBM BROKER
+IBM INTEGRATION BUS
+IBP
+ICEFACES
+ICMS
+ICMS-ST
+IDE
+IDIOMA
+IDM
+IDS
+IIB
+IIS
+IMPALA
+IMPOSTO
+IMPOSTOS
+INCIDENTES
+INDESIGN
+INDICADORES
+INDUSTRIAL
+INFORMIX
+INGLES
+INGLES FLUENTE
+INTELIGENCIA ARTIFICIAL
+INTELLIJ
+INTERBASE
+INTERNET DAS COISAS
+INTERNET INFORMATION SERVICE
+INTUNE
+IONIC
+IOS
+IOT
+IPS
+IPSEC
+IPTABLES
+IREPORT
+IS-U
+ISFS
+ISO
+ISP
+ITBM
+ITEAM
+ITEXT
+ITIL
+ITL
+ITS
+ITSM
+IVY
+J2EE
+J2SE
+JASMINE
+JASPER
+JASPER REPORT
+JASPER REPORTS
+JASPERREPORT
+JASPERREPORTS
+JAVA
+JAVA EE
+JAVA SCRIPT
+JAVA SERVER FACES
+JAVA SERVER PAGES
+JAVAEE
+JAVAFX
+JAVASCRIPT
+JAVASE
+JAX-RS
+JAX-WS
+JBOSS
+JDBC
+JDE
+JDEDWARDS
+JDK
+JEE
+JEKINS
+JENKINS
+JEST
+JET
+JETTY
+JIRA
+JMETER
+JMS
+JOGOS DIGITAIS
+JOOMLA
+JORNALISMO
+JPA
+JQUERY
+JRE
+JSE
+JSF
+JSON
+JSON WEB TOKEN
+JSP
+JSTL
+JSX
+JTA
+JUNIPER
+JUNIT
+JUPYTER
+JVM
+JWT
+KABAN
+KAFKA
+KANBAN
+KATALON
+KIBANA
+KINESIS
+KNOCKOUT
+KNOCKOUT JS
+KNOCKOUT.JS
+KNOCKOUTJS
+KOTLIN
+KPI
+KPIS
+KUBERNETE
+KUBERNETES
+KUBERNETS
+LABORATORIO
+LABORATORIOS
+LAMBDA
+LAN
+LARAVEL
+LDAP
+LEAN
+LEGISLACAO
+LESS
+LETRAS
+LGPD
+LIDERANCA
+LIFERAY
+LIMPEZA
+LINGUISTICA
+LINUX
+LINX
+LIS
+LOG
+LOGISTICA
+LOGISTICO
+LOGIX
+LOGSTASH
+LOW-CODE
+LUCRO
+LUMEN
+MACHINE LEARNING
+MACHINELEARNING
+MAGENTO
+MAINFRAME
+MANAGEMENT
+MANTIS
+MANUTENCAO
+MANUTENCAO DE AERONAVES
+MAP REDUCE
+MAPREDUCE
+MAQUINA
+MAQUINA VIRTUAL
+MAQUINAS
+MARCENARIA
+MARIADB
+MARKETING
+MARKETING DIGITAL
+MARKETING OFFLINE
+MARKETPLACE
+MASTER
+MASTERSAF
+MATEMATICA
+MATERIAL
+MATERIAL-UI
+MATERIALIZE
+MATLAB
+MATPLOTLIB
+MAVEN
+MCSA
+MCSE
+MECANICA
+MEDICAMENTOS
+MEDICINA
+MEDICINA DO TRABALHO
+MEDICINA VETERINARIA
+MEDICO DO TRABALHO
+MEIO AMBIENTE
+MEMCACHE
+MENSAGERIA
+MER
+MERAKI
+MERCHANDISING
+MERCURIAL
+MESSAGE-ORIENTED
+METALURGICA
+METASPLOIT
+METEOROLOGIA
+METODOLOGIA
+METODOLOGIA AGIL
+METODOLOGIAS
+METODOLOGIAS AGEIS
+MFG
+MICRO SERVICE
+MICRO SERVICES
+MICRO SERVICO
+MICRO SERVICOS
+MICRO-SERVICOS
+MICROFOCUS
+MICROINFORMATICA
+MICROSERVICE
+MICROSERVICES
+MICROSERVICO
+MICROSERVICOS
+MICROSIGA
+MICROSOFT
+MICROSSERVICOS
+MICROSTRATEGY
+MIDDLEWARE
+MIDDLEWARES
+MIGRACAO
+MIS
+MKT
+MOCHA
+MOCKITO
+MODA
+MODELAGEM
+MODELAGEM DE DADOS
+MONGO
+MONGO DB
+MONGODB
+MONGOOSE
+MONITORACAO
+MONITORAMENTO
+MONITORIA
+MONITORING
+MONO
+MOODLE
+MPLS
+MS-PROJECT
+MS-SQL
+MSBUILD
+MSPROJECT
+MSSQL
+MULE
+MULESOFT
+MUNDIPAGG
+MUSICA
+MVC
+MVN
+MVP
+MVVM
+MY SQL
+MYSQL
+NAC
+NAO RELACIONAIS
+NAO RELACIONAL
+NAO-RELACIONAIS
+NAT
+NBS
+NEFROLOGIA
+NEGOCIACAO
+NEGOCIACOES
+NEST
+NESTJS
+NETAPP
+NETCORE
+NETSUITE
+NETWEAVER
+NETWORKING
+NEW RELIC
+NEWRELIC
+NEXT.JS
+NF-E
+NGINX
+NHIBERNATE
+NIFI
+NIST
+NO SQL
+NO-SQL
+NOC
+NODE
+NODE JS
+NODE-JS
+NODE.JS
+NODEJS
+NON-COMPLIANCE
+NOSQL
+NPM
+NTP
+NUTRICAO
+NUVEM
+NUVENS
+OBJECT ORIENTED
+OBJECTIVE C
+OBJECTIVE-C
+OBJECTIVEC
+OBJETIVEC
+OBJETO-RELACIONAL
+OBSTETRICIA
+OCA
+OCI
+OCJP
+OCP
+ODI
+ODONTO
+ODONTOLOGIA
+ODONTOLOGICA
+ODONTOLOGICO
+OFFSHORE
+OFTALMOLOGIA
+OLAP
+ON-PREMISE
+ON-PREMISES
+ON-PREMISSE
+ON-PREMISSES
+ONESOURCE
+OPEN STACK
+OPENGL
+OPENLDAP
+OPENSHIFT
+OPENSTACK
+OPENTEXT
+ORACLE
+ORACLE CLOUD
+ORACLE INTEGRATION CLOUD
+ORACLE SERVICE BUS
+ORACLE SOA
+ORACLE SOA SUITE
+ORACLECLOUD
+ORIENTACAO A OBJETOS
+ORM
+ORTODONTIA
+OSB
+OSCP
+OSP
+OSPF
+OSS
+OUTSOURCING
+OUTSYSTEMS
+OWASP
+P O
+PAAS
+PADRAO DE PROJETO
+PADRAO DE PROJETOS
+PANDAS
+PAP
+PATOLOGIA
+PATTERNS
+PCI
+PDCA
+PDPP
+PDTI
+PEDAGOGIA
+PEDIATRIA
+PENTAHO
+PENTEST
+PENTESTS
+PEOPLESOFT
+PERL
+PGSQL
+PHOTOSHOP
+PHP
+PHYTON
+PINTURA
+PIPELINE
+PIPELINES
+PIS
+PIZZAIOLO
+PL SQL
+PL-SQL
+PLANEJAMENTO
+PLANEJAMENTO ESTRATEGICO
+PLANILHAS
+PLM
+PLSQL
+PMBOK
+PMBOOK
+PMO
+PMP
+POI
+POO
+POS-VENDA
+POS-VENDAS
+POSTGRE
+POSTGREE
+POSTGRES
+POSTGRESQL
+POSTGRESSQL
+POSTMAN
+POWER BI
+POWER CENTER
+POWER POINT
+POWERBI
+POWERCENTER
+POWERPOINT
+POWERSHELL
+PPDS
+PRE SALES
+PRE-SALES
+PRE-VENDA
+PRE-VENDAS
+PRESTO
+PREVIDENCIA
+PRIME FACES
+PRIMEFACES
+PRO-LABORE
+PROCESSOS
+PRODUTO
+PRODUTOS
+PROGRAMACAO
+PROPAGANDA
+PROSOFT
+PROSPECCAO
+PROTHEUS
+PROTOCOL
+PROXY
+PSICOLOGIA
+PSIQUIATRIA
+PSM
+PSM-I
+PSPO
+PTC
+PUB SUB
+PUBLICIDADE
+PUBLICITARIA
+PUBLICITARIAS
+PUBSUB
+PUPPET
+PWA
+PWC
+PYRAMID
+PYSPARK
+PYTHON
+PYTHON  PYTHON
+QA
+QLIK
+QLIK VIEW
+QLIKSENSE
+QLIKVIEW
+QOS
+QUALITY ASSURANCE
+QUARKUS
+QUERY
+QUIMICA
+RABBIT
+RABBIT MQ
+RABBITMQ
+RAC
+RADIO E TV
+RADIOLOGIA
+RADIUS
+RAILS
+RANCHER
+RDS
+REACT
+REACT JS
+REACT NATIVE
+REACT NATIVO
+REACT-NATIVE
+REACT.JS
+REACTJS
+REACTNATIVE
+REBATES
+RECRUTAMENTO
+RECURSOS HUMANOS
+REDE
+REDIS
+REDSHIFT
+REDUX
+REDUX-SAGA
+REGEX
+RELACOES INTERNACIONAIS
+RELACOES PUBLICAS
+RELATORIOS
+REPORT
+REPORTS
+REST
+REST FULL
+REST-ASSURED
+RESTASSURED
+RESTFUL
+RESTFULL
+RESTORE
+RETAIL
+RETROFIT
+RFP
+RICH FACES
+RICHFACES
+RIP
+RISCOS
+RISK
+RMAN
+RPA
+RPC
+RUBY
+RUBYONRAILS
+RX-JS
+S4HANA
+SAAS
+SAC
+SALE
+SALES
+SALES DEVELOPMENT REPRESENTATIVE
+SALES FORCE
+SALESFORCE
+SANKHYA
+SANS
+SAP
+SAP B
+SAP BASIS HANA
+SAP BUSINESS ONE
+SAP EWM
+SAP HYBRIS
+SASS
+SAT
+SCA
+SCADA
+SCALA
+SCCM
+SCIKIT-LEARN
+SCM
+SCRAPING
+SCRAPY
+SCRIPT
+SCRIPTS
+SCRUM
+SD-WAN
+SDET
+SDK
+SECRETARIADO
+SECRETARIADO EXECUTIVO
+SECURITY
+SEGURADORA
+SEGURANCA
+SEGURANCA DA INFORMACAO
+SEGURO
+SEGUROS
+SELECAO
+SELENIUM
+SEO
+SERVER
+SERVER-SIDE
+SERVERLESS
+SERVERS
+SERVICE CLOUD
+SERVICE DESK
+SERVICE MANAGER
+SERVICE NOW
+SERVICE-BASED
+SERVICE-ORIENTED
+SERVICEDESK
+SERVICENOW
+SERVIDOR
+SERVIDORES
+SERVLET
+SERVLETS
+SHAREPOINT
+SHELL
+SHELL SCRIPT
+SHELLSCRIPT
+SHOPPER
+SIEBEL
+SIEM
+SIGMA
+SIGNALR
+SILK
+SIP
+SNMP
+SNS
+SOA
+SOA SUITE
+SOAP
+SOC
+SOLARES
+SOLARIS
+SOLDA
+SOLID
+SOLMAN
+SONAR
+SONICWALL
+SOPHOS
+SOX
+SPA
+SPANISH
+SPARK
+SPECS
+SPED
+SPLUNK
+SPM
+SPOTFIRE
+SPRING
+SPRING  SPRING
+SPRING BOOT
+SPRING DATA
+SPRING MVC
+SPRING-BOOT
+SPRINGBOOT
+SPRINGDATA
+SPRINGMVC
+SPRINT
+SPSS
+SQL
+SQL INTEGRATION SERVICES
+SQL SERVER
+SQL-SERVER
+SQLITE
+SQLSERVER
+SQOOP
+SQS
+SQUAD
+SQUADS
+SQUID
+SRE
+SRM
+SSAS
+SSH
+SSIS
+SSMA
+SSRS
+STARTEAM
+STERLING
+STORAGE
+STORYBOARD
+STORYBOOK
+STP
+STRAPI
+STRATEGIC
+STRUTS
+SUPORTE
+SUPPLY
+SUPPORT
+SUSTENTACAO
+SVN
+SWAGGER
+SWIFT
+SWING
+SWOT
+SYBASE
+SYMFONY
+SYNCHRO
+T-SQL
+TABLEAU
+TALEND
+TASY
+TAX
+TCP
+TCP-IP
+TCPIP
+TDD
+TDF
+TELECOMUNICACOES
+TELEFONIA
+TELEMARKETING
+TELEVENDAS
+TENSORFLOW
+TERADATA
+TERAPIA OCUPACIONAL
+TERRAFORM
+TERRAPLENAGEM
+TESOURARIA
+TEST
+TEST-DRIVEN
+TESTCOMPLETE
+TESTE
+TESTES
+TESTES E2E
+TESTING
+TESTLINK
+TESTNG
+TESTRAIL
+TESTS
+TFS
+THROUGHPUT
+TIBCO
+TOGAF
+TOMCAT
+TOTVS FLUIG
+TOTVS RM
+TRABALHISTA
+TRADE MARKETING
+TRANSACT-SQL
+TREINAMENTO E DESENVOLVIMENTO
+TRELLO
+TRENDMICRO
+TRIAGEM
+TRIBUTO
+TRIBUTOS
+TRIGGER
+TROUBLESHOOTING
+TSQL
+TUNNING
+TURISMO
+TYPE SCRIPT
+TYPEFORM
+TYPESCRIPT
+UIPATH
+UML
+UNIX
+URA
+URAS
+URBANISMO
+USABILIDADE
+USER EXPERIENCE
+USER INTERFACE
+USINAGEM
+UTM
+VAREJO
+VB NET
+VB.NET
+VBA
+VBCS
+VBNET
+VBSCRIPT
+VEEAM
+VELOCITY
+VENDA
+VENDAS
+VENDAS EXTERNAS
+VERSAO
+VERSIONADOR
+VERSIONAMENTO
+VETERINARIA
+VIDEOMAKER
+VIPER
+VISTEX
+VISUAL BASIC
+VISUAL STUDIO
+VISUAL STUDIO CODE
+VISUALBASIC
+VISUALFORCE
+VLAN
+VLANS
+VMWARE
+VOIP
+VPN
+VRAPTOR
+VRRP
+VS CODE
+VSAM
+VSCODE
+VTEX
+VUE
+VUE JS
+VUE.JS
+VUEJS
+VUEX
+VULNERABILIDADE
+VULNERABILIDADES
+WAF
+WAN
+WAS
+WATSON
+WCF
+WCM
+WEB ANALYTICS
+WEB API
+WEB SERVICE
+WEB SERVICES
+WEBAPI
+WEBDRIVER
+WEBLOGIC
+WEBPACK
+WEBSERVICE
+WEBSERVICES
+WEBSPHERE
+WFM
+WILDFLY
+WINDOWS
+WIREFRAMES
+WIREMOCK
+WORDPRESS
+WORKFLOW
+WPF
+WSDL
+WSO
+WSUS
+XAMARIN
+XEN
+XHTML
+XML
+XPATH
+XRT
+YARN
+YII
+ZABBIX
+ZABIX
+ZACHMAN
+ZEND
+ZENDESK
+ZOOTECNIA
