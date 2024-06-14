@@ -2,7 +2,9 @@ package com.ccp.jn.test.pocs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -32,25 +34,232 @@ public class Skills {
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
 				);
-		
-		List<String> lines = new CcpStringDecorator("documentation\\skills\\classificacao\\restou.txt").file().getLines();
-		gravarArquivo(lines, "documentation\\skills\\classificacao\\profissoes.txt", "P");
-		gravarArquivo(lines, "documentation\\skills\\classificacao\\excluidos.txt", "E");
-		gravarArquivo(lines, "documentation\\skills\\classificacao\\skills.txt", "S");
+	
+
 	}
 
+
+	static void criarArquivosFinais() {
+		//		criarRelatoriosDosArquivos();
+				String extractStringContent = new CcpStringDecorator("documentation\\skills\\classificacao\\skills.json").file().extractStringContent();
+				List<CcpJsonRepresentation> skills = new CcpJsonRepresentation(extractStringContent).getAsJsonList("linhas");
+				List<String> classificados = new CcpStringDecorator("documentation\\skills\\classificacao\\perguntar.txt").file().getLines();
+				List<String> perguntasParaGemini = classificados.stream().filter(x -> x.trim().endsWith("(1)")).map(x -> Integer.valueOf(x.split(":")[0]))
+				.map(x -> skills.get(x)).map(x -> {
+					String word = x.getAsString("word");
+					Set<String> set = x.getAsJsonList("synonyms").stream().map(y -> y.getAsString("skill")).collect(Collectors.toSet());
+					ArrayList<String> arrayList = new ArrayList<String>(set);
+					arrayList.add(word);
+					return arrayList.toString().replace("[", "").replace("]", "");
+				}).collect(Collectors.toList());
+				
+				
+				CcpFileDecorator arquivoDePerguntasParaGemini = new CcpStringDecorator("documentation\\skills\\classificacao\\arquivoDePerguntasParaGemini.txt").file().reset();
+					
+				for (String perguntaParaGemini : perguntasParaGemini) {
+					arquivoDePerguntasParaGemini.append(perguntaParaGemini);
+				}
+				
+				List<CcpJsonRepresentation> skillsQueNaoSaoDeTecnologiaParaPopularTabelaDeSkills = classificados.stream().filter(x -> x.trim().endsWith("(1)") == false).map(x -> Integer.valueOf(x.split(":")[0]))
+				.map(x -> skills.get(x)).collect(Collectors.toList());
+				String extractStringContent2 = new CcpStringDecorator("documentation\\skills\\classificacao\\profissoes.json").file().extractStringContent();
+				List<CcpJsonRepresentation> profissoesParaPopularTabelaDeSkills = new CcpJsonRepresentation(extractStringContent2).getAsJsonList("linhas").subList(0, 151);
+				
+				ArrayList<CcpJsonRepresentation> primeirosRegistrosDaTabelaDeSkills = new ArrayList<>(profissoesParaPopularTabelaDeSkills);
+				primeirosRegistrosDaTabelaDeSkills.addAll(skillsQueNaoSaoDeTecnologiaParaPopularTabelaDeSkills);
+				
+				CcpFileDecorator arquivoComPrimeirosRegistrosDaTabelaDeSkills = new CcpStringDecorator("documentation\\skills\\classificacao\\listSkills.json").file().reset();
+				arquivoComPrimeirosRegistrosDaTabelaDeSkills.append(primeirosRegistrosDaTabelaDeSkills.toString());
+	}
+	
+
+	static void criarRelatoriosDosArquivos() {
+		List<String> vagas = new CcpStringDecorator("documentation\\skills\\vagas.txt")
+				.file().getLines().stream().map(vaga -> sanitizeWord(vaga)).collect(Collectors.toList());
+		
+		criarRelatorioDeUmArquivo("documentation\\skills\\classificacao\\gemini.txt", "documentation\\skills\\classificacao\\skills.json", vagas);
+		criarRelatorioDeUmArquivo("documentation\\skills\\classificacao\\profissoes.txt", "documentation\\skills\\classificacao\\profissoes.json", vagas);
+	}
+
+	static void criarRelatorioDeUmArquivo(String arquivoParaLer, String arquivoParaEscrever, List<String> vagas) {
+	
+		CcpFileDecorator fileToRead = new CcpStringDecorator(arquivoParaLer).file();
+		
+		List<String> lines2 = fileToRead.getLines();
+		
+		Collection<String> lines = new HashSet<>(lines2);
+		
+		List<CcpJsonRepresentation> relatorios = lines.stream().map(line -> getRelatorioDeUmaLinha(line, vagas)).collect(Collectors.toList());
+		
+		long mediaGeral = 0;
+		long totalGeralDeSkills = 0;
+		long totalGeralDeVagasEncontradas = 0;
+		int k = 1;
+		for (CcpJsonRepresentation relatorio : relatorios) {
+			System.out.println("lendo a linha " + k++);
+			boolean isIncompleteProcess = relatorio.containsAllFields("somatoria", "listSize") == false;
+			if(isIncompleteProcess) {
+				continue;
+			}
+			Integer somatoria = relatorio.getAsIntegerNumber("somatoria");
+			Integer listSize = relatorio.getAsIntegerNumber("listSize");
+			totalGeralDeVagasEncontradas += somatoria;
+			totalGeralDeSkills += listSize;
+		}
+		mediaGeral = totalGeralDeVagasEncontradas / totalGeralDeSkills;
+		relatorios.sort((a, b) -> ordernarLinhasNoArquivo(a, b));
+		
+		int ranking = 1;
+		List<CcpJsonRepresentation> linhas = new ArrayList<>();
+		
+		for (CcpJsonRepresentation relatorio : relatorios) {
+			String word = relatorio.getValueFromPath("", "skill", "skill"); 
+			CcpJsonRepresentation putAll = CcpConstants.EMPTY_JSON
+					.put("ranking", ranking++)
+					.put("word", word)
+					.putAll(relatorio)
+					;
+			linhas.add(putAll);
+		}
+		
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON
+		.put("linhas", linhas)
+		.put("mediaGeral", mediaGeral)
+		.put("totalGeralDeSkills", totalGeralDeSkills)
+		.put("totalGeralDeVagasEncontradas", totalGeralDeVagasEncontradas);
+		
+		CcpFileDecorator fileToWrite = new CcpStringDecorator(arquivoParaEscrever).file().reset();
+		fileToWrite.append(put.toString());
+	}
+	
+	static CcpJsonRepresentation getRelatorioDeUmaLinha(String linha, List<String> vagas) {
+		String[] split = linha.split(",");
+		List<String> asList = Arrays.asList(split);
+		Set<String> collect = asList.stream()
+		.map(x -> sanitizeWord(x)).filter(x -> x.trim().length() >= 2)
+		.collect(Collectors.toSet());
+		
+		boolean hasNoWords = collect.isEmpty();
+		if(hasNoWords) {
+			return CcpConstants.EMPTY_JSON;
+		}
+		
+		List<CcpJsonRepresentation> jsons = collect.stream().map(skill -> getRelatorioDeUmaPalavra(skill, vagas)).collect(Collectors.toList());
+		
+		int somatoria = 0;
+		for (CcpJsonRepresentation json : jsons) {
+			Integer count = json.getAsIntegerNumber("vagas");
+			somatoria += count;
+		}
+		int listSize = jsons.size();
+		int media = somatoria / listSize;
+		ArrayList<CcpJsonRepresentation> synonyms = new ArrayList<>(jsons);
+		synonyms.sort((a, b) -> ordenarSkillsNaLinha(a, b));
+		CcpJsonRepresentation skill = synonyms.remove(0);
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON
+				.put("somatoria", somatoria)
+				.put("listSize", listSize)
+				.put("media", media)
+				.put("skill", skill)
+				.put("synonyms", synonyms)
+				;
+		
+		return put;
+	}
+	
+	static int ordernarLinhasNoArquivo(CcpJsonRepresentation a, CcpJsonRepresentation b) {
+		boolean m1 = a.containsAllFields("somatoria", "listSize", "media", "skill") == false;
+		if(m1) {
+			return 0;
+		}
+		
+		boolean m2 = b.containsAllFields("somatoria", "listSize", "media", "skill") == false;
+		if(m2) {
+			return 0;
+		}
+		
+		Integer somatoria1 = a.getAsIntegerNumber("somatoria");
+		Integer somatoria2 = b.getAsIntegerNumber("somatoria");
+		
+		if(somatoria1 != somatoria2) {
+			int subtracao = somatoria2 - somatoria1;
+			return subtracao;
+		}
+
+		Long count1 = a.getValueFromPath(0L, "skill", "vagas");
+		Long count2 = b.getValueFromPath(0l, "skill", "vagas");
+		
+		if(count2 != count1) {
+			int subtracao = (int)(count2 - count1);
+			return subtracao;
+		}
+
+		Integer media1 = a.getAsIntegerNumber("media");
+		Integer media2 = b.getAsIntegerNumber("media");
+		
+		if(media1 != media2) {
+			int subtracao = media2 - media1;
+			return subtracao;
+		}
+
+		String skill1 = a.getValueFromPath("", "skill", "skill");
+		String skill2 = b.getValueFromPath("", "skill", "skill");
+		
+		int compareTo = skill1.compareTo(skill2);
+		return compareTo;
+	}
+	
+	static int ordenarSkillsNaLinha(CcpJsonRepresentation a, CcpJsonRepresentation b) {
+		
+		Integer count1 = a.getAsIntegerNumber("vagas");
+		Integer count2 = b.getAsIntegerNumber("vagas");
+		
+		if(count1 != count2) {
+			int sub = count2 - count1;
+			return sub;
+		}
+		
+		String skill1 = a.getAsString("skill");
+		String skill2 = b.getAsString("skill");
+		int compareTo = skill1.compareTo(skill2);
+		return compareTo;
+	}
+	
+	static CcpJsonRepresentation getRelatorioDeUmaPalavra(String palavra, List<String> vagas) {
+		
+		long count = vagas.stream().filter(vaga -> contains(vaga, palavra)).count();
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("skill", palavra).put("vagas", count);
+	
+		return put;
+	}
+	
 	static void gravarArquivo(
 			List<String> lines,
 			String nomeDoArquivoOndeGravar,
 			String sigla
 			) {
 			
-			List<String> collect = lines.stream().filter(line -> line.startsWith(sigla)).map(line -> new CcpJsonRepresentation(line.substring(1)).getAsString("skill")).collect(Collectors.toList());
-			TreeSet<String> words = new TreeSet<>(collect);
-			CcpFileDecorator reset = new CcpStringDecorator(nomeDoArquivoOndeGravar).file().reset();
-			for (String word : words) {
-				reset.append(word);
+			List<String> palavrasClassificadas = lines.stream().filter(line -> line.startsWith(sigla)).map(line -> new CcpJsonRepresentation(line.substring(1)).getAsString("skill")).collect(Collectors.toList());
+			TreeSet<String> classifiedWords = new TreeSet<>(palavrasClassificadas);
+			CcpFileDecorator reset = new CcpStringDecorator(nomeDoArquivoOndeGravar).file();
+			List<String> palavrasQueJaEstavam = reset.getLines();
+			LinkedHashSet<String> set = new LinkedHashSet<>();
+			for (String string : palavrasQueJaEstavam) {
+				String[] split = string.split(",");
+				for (String word : split) {
+					set.add(word.trim().toUpperCase());
+				}
 			}
+			int k = 1;
+			for (String word : classifiedWords) {
+				String upperCase = word.trim().toUpperCase();
+				boolean add = set.add(upperCase);
+				if(add) {
+					reset.append(upperCase);
+					System.out.println(k++);
+				}
+			}
+			
 			
 	}
 
@@ -90,11 +299,11 @@ public class Skills {
 		
 		for (String skill : novasPalavras) {
 			long count = vagas.stream().filter(vaga -> contains(vaga, skill)).count();
-			CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("skill", skill).put("count", count);
+			CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("skill", skill).put("vagas", count);
 			ocorrencias.add(put);
 			System.out.println(k++ + " = " + put);
 		}
-		ocorrencias = ocorrencias.stream().filter(x -> x.getAsIntegerNumber("count") >= 2).collect(Collectors.toList());
+		ocorrencias = ocorrencias.stream().filter(x -> x.getAsIntegerNumber("vagas") >= 2).collect(Collectors.toList());
 		List<String> skills = ocorrencias.stream().map(x -> x.getAsString("skill")).collect(Collectors.toList());
 		Set<String> set = new HashSet<>();
 		for (CcpJsonRepresentation ocorrencia : ocorrencias) {
@@ -211,7 +420,6 @@ public class Skills {
 		String upperCase = text.stripAccents().content.trim().toUpperCase()
 				.replace("+", "")
 				;
-		
 		String[] split = upperCase.split(" ");
 		
 		for (String string : split) {
