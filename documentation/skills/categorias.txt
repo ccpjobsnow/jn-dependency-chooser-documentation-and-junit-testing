@@ -5,7 +5,6 @@ mensageria
 spa
 mobile
 servers
-integracao
 versionamento
 metodologias
 bigdata
@@ -17,7 +16,8 @@ bd
 automacao
 python
 ruby
-php, 
+php
+MONITORAMENTO 
 c#
 java
 js
@@ -25,16 +25,27 @@ SOA
 soap
 rest
 elasticsearch
-ws
 crm
 git
 react
 node
-MS
 direito
 medicina
-simples
 testes
 IA
+ci
+BUILD
+MVVM
 frontend
-fullstack
+NLP
+*SUPORTE
+aws
+gcp
+AZURE
+SPRING
+ASP.NET
+*SERVICE DESK
+*LGPD
+BARRAMENTO
+BI
+gerenciador de dependencias

@@ -1,5 +1,7 @@
 package com.ccp.jn.test.pocs;
 
+import java.util.function.Function;
+
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
@@ -32,9 +34,24 @@ public class Poc {
 				new CcpApacheMimeHttp()
 				);
 	}
-
+	
+	private static class QualquerMerda {};
 	public static void main(String[] args) {
-		errarInfinitamente();
+		Function<Object, Object> function = parametro -> parametro.toString().toUpperCase();
+		System.out.println(Poc.class.getName());
+		System.out.println(QualquerMerda.class.getName());
+		System.out.println(function.getClass().getName());
+		Function<Object, Object> function2 = new Function<Object, Object>() {
+			
+			@Override
+			public Object apply(Object t) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+		
+		System.out.println(function2.getClass().getName());
+		
 	}
 
 	static void testarTempo() {

@@ -34,11 +34,39 @@ public class Skills {
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
 				);
+		String extractStringContent = new CcpStringDecorator("documentation\\skills\\skills.json").file().extractStringContent();
+		List<CcpJsonRepresentation> skills = new CcpJsonRepresentation(extractStringContent).getAsJsonList("linhas");
 	
-
+		CcpFileDecorator file = new CcpStringDecorator("documentation\\skills\\classificacao.txt").file();
+		List<String> lines = file.getLines();
+		List<String> collect = lines.stream()
+		.filter(x -> x.startsWith("(1)"))
+		.map(x -> x.split("\\)")[1].split(":")[0].trim())
+		.map(x -> Integer.valueOf(x))
+		.map(x -> skills.get(x))
+		.filter(x -> x.getAsJsonList("synonyms").isEmpty())
+		.map(x -> x.getAsString("word"))
+		.collect(Collectors.toList());
+		;
+		for (String string : collect) {
+			System.out.println(string);
+		}
 	}
 
-
+	static void levantarSkillsAvulsas(String... palavras) {
+		String extractStringContent = new CcpStringDecorator("documentation\\skills\\skills.json").file().extractStringContent();
+		List<CcpJsonRepresentation> skills = new CcpJsonRepresentation(extractStringContent).getAsJsonList("linhas");
+		for (CcpJsonRepresentation skill : skills) {
+			boolean incorrectJson = skill.containsAllFields("somatoria") == false;
+			if(incorrectJson) {
+				continue;
+			}
+			Integer somatoria = skill.getAsIntegerNumber("somatoria");
+			Integer ranking = skill.getAsIntegerNumber("ranking") - 1;
+			String word = skill.getAsString("word");
+			System.out.println(ranking + ": " + word + " = " + somatoria);
+		}
+	}
 	static void criarArquivosFinais() {
 		//		criarRelatoriosDosArquivos();
 				String extractStringContent = new CcpStringDecorator("documentation\\skills\\classificacao\\skills.json").file().extractStringContent();
