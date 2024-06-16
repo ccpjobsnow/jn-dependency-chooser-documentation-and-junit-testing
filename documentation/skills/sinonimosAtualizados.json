@@ -21,23 +21,23 @@
     },
     {
       "skill": "PROCESS AUTOMATION",
-      "vagas": 40.0
+      "vagas": 40
     },
     {
       "skill": "PROCESS IMPROVEMENT",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "PROCESS MODELING",
-      "vagas": 9.0
+      "vagas": 9
     },
     {
       "skill": "PROCESS MANAGEMENT",
-      "vagas": 10.0
+      "vagas": 10
     },
     {
       "skill": "PROCESS CONTROL",
-      "vagas": 6.0
+      "vagas": 6
     }
   ],
   "word": "PROCESSOS"
@@ -97,31 +97,31 @@
     },
     {
       "skill": "TEST-DRIVEN DEVELOPMENT",
-      "vagas": 20.0
+      "vagas": 20
     },
     {
       "skill": "TEST AUTOMATION",
-      "vagas": 37.0
+      "vagas": 37
     },
     {
       "skill": "TESTING TOOLS",
-      "vagas": 12.0
+      "vagas": 12
     },
     {
       "skill": "TEST MANAGEMENT",
-      "vagas": 27.0
+      "vagas": 27
     },
     {
       "skill": "TESTING AND QUALITY ASSURANCE",
-      "vagas": 10.0
+      "vagas": 10
     },
     {
       "skill": "TESTING TOOLS",
-      "vagas": 12.0
+      "vagas": 12
     },
     {
       "skill": "TESTING FRAMEWORKS",
-      "vagas": 10.0
+      "vagas": 10
     }
   ],
   "word": "TESTES"
@@ -137,7 +137,7 @@
   "synonyms": [
     {
       "skill": "JAVA EE",
-      "vagas": 201.0
+      "vagas": 201
     }
   ],
   "word": "JAVA"
@@ -237,15 +237,15 @@
     },
     {
       "skill": "PRODUCT MANAGEMENT",
-      "vagas": 6.0
+      "vagas": 6
     },
     {
       "skill": "PRODUCT DEVELOPMENT",
-      "vagas": 14.0
+      "vagas": 14
     },
     {
       "skill": "PRODUCT DESIGN",
-      "vagas": 71.0
+      "vagas": 71
     }
   ],
   "word": "PRODUTOS"
@@ -293,11 +293,11 @@
     },
     {
       "skill": "FRONT-END DEVELOPMENT",
-      "vagas": 17.0
+      "vagas": 17
     },
     {
       "skill": "FRONT-END TECHNOLOGIES",
-      "vagas": 18.0
+      "vagas": 18
     }
   ],
   "word": "FRONTEND"
@@ -333,35 +333,35 @@
     },
     {
       "skill": "API DEVELOPMENT",
-      "vagas": 15.0
+      "vagas": 15
     },
     {
       "skill": "API MANAGEMENT",
-      "vagas": 47.0
+      "vagas": 47
     },
     {
       "skill": "API INTEGRATION",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "API DESIGN",
-      "vagas": 18.0
+      "vagas": 18
     },
     {
       "skill": "API SECURITY",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "API TESTING",
-      "vagas": 6.0
+      "vagas": 6
     },
     {
       "skill": "API DESIGN",
-      "vagas": 18.0
+      "vagas": 18
     },
     {
       "skill": "API TESTING",
-      "vagas": 6.0
+      "vagas": 6
     }
   ],
   "word": "APIS"
@@ -385,23 +385,23 @@
     },
     {
       "skill": "BUSINESS ANALYSIS",
-      "vagas": 5.0
+      "vagas": 5
     },
     {
       "skill": "BUSINESS CONTINUITY",
-      "vagas": 5.0
+      "vagas": 5
     },
     {
       "skill": "BUSINESS PROCESS MODELING",
-      "vagas": 8.0
+      "vagas": 8
     },
     {
       "skill": "BUSINESS INTELLIGENCE TOOLS",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "BUSINESS ANALYSIS",
-      "vagas": 5.0
+      "vagas": 5
     }
   ],
   "word": "NEGOCIOS"
@@ -489,19 +489,19 @@
     },
     {
       "skill": "DATABASE MANAGEMENT",
-      "vagas": 23.0
+      "vagas": 23
     },
     {
       "skill": "DATABASE SYSTEMS",
-      "vagas": 14.0
+      "vagas": 14
     },
     {
       "skill": "DATABASE MANAGEMENT SYSTEMS",
-      "vagas": 22.0
+      "vagas": 22
     },
     {
       "skill": "DATABASE MANAGEMENT",
-      "vagas": 23.0
+      "vagas": 23
     }
   ],
   "word": "BANCO DE DADOS"
@@ -553,19 +553,19 @@
     },
     {
       "skill": "CLOUD COMPUTING",
-      "vagas": 250.0
+      "vagas": 250
     },
     {
       "skill": "CLOUD ARCHITECTURE",
-      "vagas": 15.0
+      "vagas": 15
     },
     {
       "skill": "CLOUD SERVICES",
-      "vagas": 38.0
+      "vagas": 38
     },
     {
       "skill": "CLOUD COMPUTING PLATFORMS",
-      "vagas": 7.0
+      "vagas": 7
     }
   ],
   "word": "CLOUD"
@@ -685,7 +685,7 @@
     },
     {
       "skill": "JAVASCRIPT KNOWLEDGE",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "JAVASCRIPT"
@@ -717,11 +717,11 @@
     },
     {
       "skill": "AUTOMATION ANYWHERE",
-      "vagas": 42.0
+      "vagas": 42
     },
     {
       "skill": "AUTOMATION TOOLS",
-      "vagas": 18.0
+      "vagas": 18
     }
   ],
   "word": "AUTOMACAO"
@@ -741,31 +741,31 @@
     },
     {
       "skill": "SECURITY MANAGEMENT",
-      "vagas": 6.0
+      "vagas": 6
     },
     {
       "skill": "SECURITY TESTING",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "SECURITY OPERATIONS",
-      "vagas": 19.0
+      "vagas": 19
     },
     {
       "skill": "SECURITY ANALYTICS",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "SECURITY INFORMATION",
-      "vagas": 4.0
+      "vagas": 4
     },
     {
       "skill": "SECURITY BEST PRACTICES",
-      "vagas": 5.0
+      "vagas": 5
     },
     {
       "skill": "SECURITY TESTING",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "SEGURANCA"
@@ -781,7 +781,7 @@
   "synonyms": [
     {
       "skill": "SAP ERP",
-      "vagas": 26.0
+      "vagas": 26
     }
   ],
   "word": "SAP"
@@ -833,7 +833,7 @@
     },
     {
       "skill": "GERENCIAMENTO DE VULNERABILIDADES",
-      "vagas": 8.0
+      "vagas": 8
     }
   ],
   "word": "GERENCIAMENTO"
@@ -873,7 +873,7 @@
     },
     {
       "skill": "FINANCIAL MANAGEMENT",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "FINANCEIRO"
@@ -1096,31 +1096,31 @@
     },
     {
       "skill": "RESTFUL APIS",
-      "vagas": 79.0
+      "vagas": 79
     },
     {
       "skill": "RESTFUL API",
-      "vagas": 70.0
+      "vagas": 70
     },
     {
       "skill": "REST APIS",
-      "vagas": 84.0
+      "vagas": 84
     },
     {
       "skill": "REST API",
-      "vagas": 197.0
+      "vagas": 197
     },
     {
       "skill": "RESTFUL WEB SERVICES",
-      "vagas": 5.0
+      "vagas": 5
     },
     {
       "skill": "RESTFUL WEBSERVICES",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "REST APIS",
-      "vagas": 84.0
+      "vagas": 84
     }
   ],
   "word": "REST"
@@ -1140,7 +1140,7 @@
     },
     {
       "skill": "AWS CLOUD",
-      "vagas": 194.0
+      "vagas": 194
     }
   ],
   "word": "AWS"
@@ -1199,31 +1199,31 @@
   "synonyms": [
     {
       "skill": "ORACLE REPORTS",
-      "vagas": 5.0
+      "vagas": 5
     },
     {
       "skill": "ORACLE FORMS",
-      "vagas": 93.0
+      "vagas": 93
     },
     {
       "skill": "ORACLE DATABASE",
-      "vagas": 53.0
+      "vagas": 53
     },
     {
       "skill": "ORACLE SQL",
-      "vagas": 102.0
+      "vagas": 102
     },
     {
       "skill": "ORACLE RDBMS",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "ORACLE SQL DEVELOPER",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "ORACLE DATABASE",
-      "vagas": 53.0
+      "vagas": 53
     }
   ],
   "word": "ORACLE"
@@ -1243,27 +1243,27 @@
     },
     {
       "skill": "AGILE DEVELOPMENT",
-      "vagas": 29.0
+      "vagas": 29
     },
     {
       "skill": "AGILE METHODOLOGIES",
-      "vagas": 13.0
+      "vagas": 13
     },
     {
       "skill": "AGILE SCRUM",
-      "vagas": 94.0
+      "vagas": 94
     },
     {
       "skill": "AGILE METHODOLOGY",
-      "vagas": 18.0
+      "vagas": 18
     },
     {
       "skill": "AGILE TESTING",
-      "vagas": 8.0
+      "vagas": 8
     },
     {
       "skill": "AGILE DEVELOPMENT",
-      "vagas": 29.0
+      "vagas": 29
     }
   ],
   "word": "AGIL"
@@ -1306,7 +1306,7 @@
   "synonyms": [
     {
       "skill": "SCRUM FRAMEWORK",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "SCRUM"
@@ -1342,7 +1342,7 @@
     },
     {
       "skill": "MS SQL SERVER",
-      "vagas": 97.0
+      "vagas": 97
     }
   ],
   "word": "SQL SERVER"
@@ -1374,15 +1374,15 @@
     },
     {
       "skill": "VERSION CONTROL",
-      "vagas": 74.0
+      "vagas": 74
     },
     {
       "skill": "VERSION CONTROL SYSTEMS",
-      "vagas": 38.0
+      "vagas": 38
     },
     {
       "skill": "VERSION CONTROL",
-      "vagas": 74.0
+      "vagas": 74
     }
   ],
   "word": "VERSIONAMENTO"
@@ -1410,7 +1410,7 @@
     },
     {
       "skill": "ACCOUNT MANAGEMENT",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "CONTAS"
@@ -1430,7 +1430,7 @@
     },
     {
       "skill": "AZURE CLOUD",
-      "vagas": 135.0
+      "vagas": 135
     }
   ],
   "word": "AZURE"
@@ -1489,19 +1489,19 @@
   "synonyms": [
     {
       "skill": "MOBILE DEVELOPMENT",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "MOBILE SECURITY",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "MOBILE APPLICATIONS",
-      "vagas": 38.0
+      "vagas": 38
     },
     {
       "skill": "MOBILE APPLICATION DEVELOPMENT",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "MOBILE"
@@ -1589,7 +1589,7 @@
   "synonyms": [
     {
       "skill": "SPRING FRAMEWORK",
-      "vagas": 157.0
+      "vagas": 157
     }
   ],
   "word": "SPRING"
@@ -1719,7 +1719,7 @@
     },
     {
       "skill": "MICROSERVICES ARCHITECTURE",
-      "vagas": 15.0
+      "vagas": 15
     }
   ],
   "word": "MICROSERVICOS"
@@ -1750,7 +1750,7 @@
     },
     {
       "skill": "QA AUTOMATION",
-      "vagas": 49.0
+      "vagas": 49
     }
   ],
   "word": "QA"
@@ -1993,7 +1993,7 @@
     },
     {
       "skill": "RISK MANAGEMENT",
-      "vagas": 10.0
+      "vagas": 10
     }
   ],
   "word": "RISCOS"
@@ -2013,11 +2013,11 @@
     },
     {
       "skill": "UX DESIGN",
-      "vagas": 158.0
+      "vagas": 158
     },
     {
       "skill": "USER EXPERIENCE DESIGN",
-      "vagas": 7.0
+      "vagas": 7
     }
   ],
   "word": "UX"
@@ -2049,7 +2049,7 @@
     },
     {
       "skill": "VUE ROUTER",
-      "vagas": 4.0
+      "vagas": 4
     }
   ],
   "word": "VUE"
@@ -2385,7 +2385,7 @@
     },
     {
       "skill": "MVC FRAMEWORK",
-      "vagas": 4.0
+      "vagas": 4
     }
   ],
   "word": "MVC"
@@ -2465,23 +2465,23 @@
     },
     {
       "skill": "SALESFORCE LIGHTNING",
-      "vagas": 25.0
+      "vagas": 25
     },
     {
       "skill": "SALESFORCE PLATFORM",
-      "vagas": 14.0
+      "vagas": 14
     },
     {
       "skill": "SALESFORCE SERVICE CLOUD",
-      "vagas": 20.0
+      "vagas": 20
     },
     {
       "skill": "SALESFORCE MARKETING CLOUD",
-      "vagas": 39.0
+      "vagas": 39
     },
     {
       "skill": "SALESFORCE DEVELOPMENT",
-      "vagas": 10.0
+      "vagas": 10
     }
   ],
   "word": "SALESFORCE"
@@ -2509,7 +2509,7 @@
     },
     {
       "skill": "REACT",
-      "vagas": 4764.0
+      "vagas": 4764
     }
   ],
   "word": "REACT NATIVE"
@@ -2553,7 +2553,7 @@
     },
     {
       "skill": "KUBERNETES KNOWLEDGE",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "KUBERNETES"
@@ -2604,7 +2604,7 @@
     },
     {
       "skill": "POWER BI DESKTOP",
-      "vagas": 5.0
+      "vagas": 5
     }
   ],
   "word": "POWER BI"
@@ -2667,7 +2667,7 @@
     },
     {
       "skill": "NOSQL DATABASES",
-      "vagas": 47.0
+      "vagas": 47
     }
   ],
   "word": "NOSQL"
@@ -2769,7 +2769,7 @@
     },
     {
       "skill": "SHELL SCRIPTING",
-      "vagas": 26.0
+      "vagas": 26
     }
   ],
   "word": "SHELL"
@@ -2920,7 +2920,7 @@
     },
     {
       "skill": "SAP HANA CLOUD",
-      "vagas": 6.0
+      "vagas": 6
     }
   ],
   "word": "SAP HANA"
@@ -2962,7 +2962,7 @@
     },
     {
       "skill": "ETL DEVELOPMENT",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "ETL"
@@ -3158,11 +3158,11 @@
     },
     {
       "skill": "USER INTERFACE DESIGN",
-      "vagas": 7.0
+      "vagas": 7
     },
     {
       "skill": "UI DESIGN",
-      "vagas": 56.0
+      "vagas": 56
     }
   ],
   "word": "UI"
@@ -3260,7 +3260,7 @@
     },
     {
       "skill": "BIG DATA TECHNOLOGIES",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "BIG DATA"
@@ -3372,7 +3372,7 @@
     },
     {
       "skill": "HTTP PROTOCOL",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "HTTP"
@@ -3404,7 +3404,7 @@
   "synonyms": [
     {
       "skill": "ITIL KNOWLEDGE",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "ITIL"
@@ -3475,7 +3475,7 @@
     },
     {
       "skill": "FIREWALL MANAGEMENT",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "FIREWALL"
@@ -3546,7 +3546,7 @@
   "synonyms": [
     {
       "skill": "SELENIUM WEBDRIVER",
-      "vagas": 61.0
+      "vagas": 61
     }
   ],
   "word": "SELENIUM"
@@ -3562,7 +3562,7 @@
   "synonyms": [
     {
       "skill": "ISO 27001",
-      "vagas": 34.0
+      "vagas": 34
     }
   ],
   "word": "ISO"
@@ -3770,15 +3770,15 @@
     },
     {
       "skill": "JBOSS WILDFLY",
-      "vagas": 8.0
+      "vagas": 8
     },
     {
       "skill": "JBOSS EAP",
-      "vagas": 28.0
+      "vagas": 28
     },
     {
       "skill": "JBOSS SEAM",
-      "vagas": 7.0
+      "vagas": 7
     }
   ],
   "word": "JBOSS"
@@ -4062,7 +4062,7 @@
   "synonyms": [
     {
       "skill": "REDUX SAGA",
-      "vagas": 13.0
+      "vagas": 13
     }
   ],
   "word": "REDUX"
@@ -4167,7 +4167,7 @@
   "synonyms": [
     {
       "skill": "HIBERNATE FRAMEWORK",
-      "vagas": 4.0
+      "vagas": 4
     }
   ],
   "word": "HIBERNATE"
@@ -4199,7 +4199,7 @@
   "synonyms": [
     {
       "skill": "BITBUCKET PIPELINES",
-      "vagas": 49.0
+      "vagas": 49
     }
   ],
   "word": "BITBUCKET"
@@ -4215,11 +4215,11 @@
   "synonyms": [
     {
       "skill": "SPRINT REVIEW",
-      "vagas": 44.0
+      "vagas": 44
     },
     {
       "skill": "SPRINT PLANNING",
-      "vagas": 7.0
+      "vagas": 7
     }
   ],
   "word": "SPRINT"
@@ -4416,11 +4416,11 @@
     },
     {
       "skill": "SPARK SQL",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "SPARK STREAMING",
-      "vagas": 12.0
+      "vagas": 12
     }
   ],
   "word": "SPARK"
@@ -4451,11 +4451,11 @@
     },
     {
       "skill": "TOMCAT 7",
-      "vagas": 4.0
+      "vagas": 4
     },
     {
       "skill": "TOMCAT 6",
-      "vagas": 5.0
+      "vagas": 5
     }
   ],
   "word": "TOMCAT"
@@ -4531,15 +4531,15 @@
   "synonyms": [
     {
       "skill": "SUPPLY CHAIN MANAGEMENT",
-      "vagas": 5.0
+      "vagas": 5
     },
     {
       "skill": "SUPPLY PLANNING",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "SUPPLY CHAIN PLANNING",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "SUPPLY"
@@ -4678,15 +4678,15 @@
     },
     {
       "skill": "VMWARE HORIZON",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "VMWARE NSX",
-      "vagas": 7.0
+      "vagas": 7
     },
     {
       "skill": "VMWARE VSPHERE",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "VMWARE"
@@ -4730,15 +4730,15 @@
     },
     {
       "skill": "SHAREPOINT ONLINE",
-      "vagas": 14.0
+      "vagas": 14
     },
     {
       "skill": "SHAREPOINT SERVER",
-      "vagas": 4.0
+      "vagas": 4
     },
     {
       "skill": "SHAREPOINT DESIGNER",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "SHAREPOINT"
@@ -4786,7 +4786,7 @@
   "synonyms": [
     {
       "skill": "DJANGO FRAMEWORK",
-      "vagas": 7.0
+      "vagas": 7
     }
   ],
   "word": "DJANGO"
@@ -4867,11 +4867,11 @@
   "synonyms": [
     {
       "skill": "STORAGE MANAGEMENT",
-      "vagas": 5.0
+      "vagas": 5
     },
     {
       "skill": "STORAGE SERVICES",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "STORAGE"
@@ -5104,7 +5104,7 @@
     },
     {
       "skill": "ORACLE CLOUD INFRASTRUCTURE",
-      "vagas": 17.0
+      "vagas": 17
     }
   ],
   "word": "ORACLE CLOUD"
@@ -5120,7 +5120,7 @@
   "synonyms": [
     {
       "skill": "BATCH SCRIPT",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "BATCH"
@@ -5320,7 +5320,7 @@
   "synonyms": [
     {
       "skill": "APEX CLASSES",
-      "vagas": 4.0
+      "vagas": 4
     }
   ],
   "word": "APEX"
@@ -5432,11 +5432,11 @@
     },
     {
       "skill": "QLIK NPRINTING",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "QLIK SENSE",
-      "vagas": 38.0
+      "vagas": 38
     }
   ],
   "word": "QLIK"
@@ -5502,7 +5502,7 @@
     },
     {
       "skill": "BUSINESS INTELLIGENCE TOOLS",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "BUSINESS INTELLIGENCE"
@@ -5616,7 +5616,7 @@
   "synonyms": [
     {
       "skill": "TABLEAU DESKTOP",
-      "vagas": 13.0
+      "vagas": 13
     }
   ],
   "word": "TABLEAU"
@@ -5752,7 +5752,7 @@
     },
     {
       "skill": "WORKFLOW MANAGEMENT",
-      "vagas": 10.0
+      "vagas": 10
     }
   ],
   "word": "WORKFLOW"
@@ -6101,7 +6101,7 @@
     },
     {
       "skill": "WEBLOGIC SERVER",
-      "vagas": 22.0
+      "vagas": 22
     }
   ],
   "word": "WEBLOGIC"
@@ -6197,11 +6197,11 @@
     },
     {
       "skill": "SERVERLESS FRAMEWORK",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "SERVERLESS COMPUTING",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "SERVERLESS"
@@ -6259,7 +6259,7 @@
     },
     {
       "skill": "WEBSPHERE APPLICATION SERVER",
-      "vagas": 15.0
+      "vagas": 15
     }
   ],
   "word": "WEBSPHERE"
@@ -6513,11 +6513,11 @@
     },
     {
       "skill": "SPRING DATA JPA",
-      "vagas": 10.0
+      "vagas": 10
     },
     {
       "skill": "SPRING DATA REST",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "SPRING DATA"
@@ -6732,7 +6732,7 @@
   "synonyms": [
     {
       "skill": "OWASP TOP 10",
-      "vagas": 10.0
+      "vagas": 10
     }
   ],
   "word": "OWASP"
@@ -6780,7 +6780,7 @@
   "synonyms": [
     {
       "skill": "OAUTH 2.0",
-      "vagas": 23.0
+      "vagas": 23
     }
   ],
   "word": "OAUTH"
@@ -6891,7 +6891,7 @@
   "synonyms": [
     {
       "skill": "ECLIPSE IDE",
-      "vagas": 6.0
+      "vagas": 6
     }
   ],
   "word": "ECLIPSE"
@@ -7041,7 +7041,7 @@
     },
     {
       "skill": "EXPRESS FRAMEWORK",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "EXPRESS"
@@ -7174,7 +7174,7 @@
     },
     {
       "skill": "IIS TROUBLESHOOTING",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "IIS"
@@ -7310,7 +7310,7 @@
     },
     {
       "skill": "MULESOFT ANYPOINT PLATFORM",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "MULESOFT"
@@ -7534,7 +7534,7 @@
     },
     {
       "skill": "EVENT-DRIVEN ARCHITECTURE",
-      "vagas": 11.0
+      "vagas": 11
     }
   ],
   "word": "EVENT-DRIVEN"
@@ -7647,11 +7647,11 @@
     },
     {
       "skill": "ENDPOINT MANAGEMENT",
-      "vagas": 3.0
+      "vagas": 3
     },
     {
       "skill": "ENDPOINT SECURITY",
-      "vagas": 9.0
+      "vagas": 9
     }
   ],
   "word": "ENDPOINTS"
@@ -8179,7 +8179,7 @@
   "synonyms": [
     {
       "skill": "GROWTH MARKETING",
-      "vagas": 9.0
+      "vagas": 9
     }
   ],
   "word": "GROWTH"
@@ -8725,7 +8725,7 @@
   "synonyms": [
     {
       "skill": "TALEND DATA INTEGRATION",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "TALEND"
@@ -8901,11 +8901,11 @@
   "synonyms": [
     {
       "skill": "CITRIX ADC",
-      "vagas": 2.0
+      "vagas": 2
     },
     {
       "skill": "CITRIX NETSCALER",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "CITRIX"
@@ -9154,7 +9154,7 @@
   "synonyms": [
     {
       "skill": "ZEND FRAMEWORK",
-      "vagas": 26.0
+      "vagas": 26
     }
   ],
   "word": "ZEND"
@@ -9478,7 +9478,7 @@
     },
     {
       "skill": "ORACLE INTEGRATION",
-      "vagas": 21.0
+      "vagas": 21
     }
   ],
   "word": "OIC"
@@ -9505,7 +9505,7 @@
   "synonyms": [
     {
       "skill": "CLOUDERA IMPALA",
-      "vagas": 9.0
+      "vagas": 9
     }
   ],
   "word": "CLOUDERA"
@@ -9830,7 +9830,7 @@
   "synonyms": [
     {
       "skill": "GENESYS CLOUD",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "GENESYS"
@@ -10276,7 +10276,7 @@
     },
     {
       "skill": "INTELLIJ IDEA",
-      "vagas": 4.0
+      "vagas": 4
     }
   ],
   "word": "INTELLIJ"
@@ -10617,7 +10617,7 @@
     },
     {
       "skill": "PEOPLESOFT HCM",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "PEOPLESOFT"
@@ -10693,7 +10693,7 @@
   "synonyms": [
     {
       "skill": "PCI DSS",
-      "vagas": 5.0
+      "vagas": 5
     }
   ],
   "word": "PCI"
@@ -10992,7 +10992,7 @@
   "synonyms": [
     {
       "skill": "TEST-DRIVEN DEVELOPMENT",
-      "vagas": 20.0
+      "vagas": 20
     }
   ],
   "word": "TEST-DRIVEN"
@@ -11369,11 +11369,11 @@
   "synonyms": [
     {
       "skill": "HYPERION PLANNING",
-      "vagas": 4.0
+      "vagas": 4
     },
     {
       "skill": "HYPERION FINANCIAL MANAGEMENT",
-      "vagas": 2.0
+      "vagas": 2
     }
   ],
   "word": "HYPERION"
@@ -12152,7 +12152,7 @@
   "synonyms": [
     {
       "skill": "PSPO I",
-      "vagas": 3.0
+      "vagas": 3
     }
   ],
   "word": "PSPO"
@@ -14411,7 +14411,7 @@
     },
     {
       "skill": "CODE",
-      "vagas": 1316.0
+      "vagas": 1316
     }
   ],
   "word": "CODEBUILD"
@@ -16213,3800 +16213,4 @@
     }
   ],
   "word": "XEBIA LABS"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "SOFTWARE TESTING"
-}, {
-  "gemini": true,
-  "somatoria": 55.0,
-  "word": "PROJECT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ADAPTABILITY"
-}, {
-  "gemini": true,
-  "somatoria": 64.0,
-  "word": "INNOVATION"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "NETWORK SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "TEAMWORK SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 248.0,
-  "word": "COMMUNICATION SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 35.0,
-  "word": "ANALYTICAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ATTENTION TO DETAIL"
-}, {
-  "gemini": true,
-  "somatoria": 43.0,
-  "word": "SOFTWARE DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "PROBLEM SOLVING SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 45.0,
-  "word": "SOFTWARE ENGINEERING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "CRITICAL THINKING SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "WEB DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "SOFTWARE ARCHITECTURE"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "OPERATING SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "CREATIVITY"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "EMBEDDED SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "OBJECT-ORIENTED PROGRAMMING"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "MULTITHREADING"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ALGORITHMS"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "DATA STRUCTURES"
-}, {
-  "gemini": true,
-  "somatoria": 72.0,
-  "word": "DATA ANALYTICS"
-}, {
-  "gemini": true,
-  "somatoria": 135.0,
-  "word": "ASP.NET CORE"
-}, {
-  "gemini": true,
-  "somatoria": 399.0,
-  "word": "REACT.JS"
-}, {
-  "gemini": true,
-  "somatoria": 38.0,
-  "word": "DEBUGGING"
-}, {
-  "gemini": true,
-  "somatoria": 76.0,
-  "word": "DOM"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "ES5"
-}, {
-  "gemini": true,
-  "somatoria": 200.0,
-  "word": "ES6"
-}, {
-  "gemini": true,
-  "somatoria": 827.0,
-  "word": "ABAP"
-}, {
-  "gemini": true,
-  "somatoria": 156.0,
-  "word": "FICO"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ORACLE NETSUITE"
-}, {
-  "gemini": true,
-  "somatoria": 46.0,
-  "word": "SUCCESSFACTORS"
-}, {
-  "gemini": true,
-  "somatoria": 20.0,
-  "word": "WORKDAY"
-}, {
-  "gemini": true,
-  "somatoria": 174.0,
-  "word": "HYBRIS"
-}, {
-  "gemini": true,
-  "somatoria": 76.0,
-  "word": "ARIBA"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "INFOR"
-}, {
-  "gemini": true,
-  "somatoria": 39.0,
-  "word": "RXJS"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "ANGULAR CLI"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SVELTE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "EMBER"
-}, {
-  "gemini": true,
-  "somatoria": 52.0,
-  "word": "MODULES"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "AWS RDS"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "AWS DYNAMODB"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "AWS S3"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "AWS VPC"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "AWS CLOUDWATCH"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "MERCURIAL"
-}, {
-  "gemini": true,
-  "somatoria": 31.0,
-  "word": "BAMBOO"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ORACLE BUSINESS INTELLIGENCE"
-}, {
-  "gemini": true,
-  "somatoria": 39.0,
-  "word": "ORACLE DATA INTEGRATOR"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "DATABASE DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "DATA MANIPULATION"
-}, {
-  "gemini": true,
-  "somatoria": 28.0,
-  "word": "DATA MODELING"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "DATABASE ADMINISTRATION"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "SQL SERVER INTEGRATION SERVICES"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "SQL SERVER REPORTING SERVICES"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "AZURE SQL DATABASE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "AZURE FUNDAMENTALS"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "VIRTUAL MACHINES"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "IDENTITY AND ACCESS"
-}, {
-  "gemini": true,
-  "somatoria": 145.0,
-  "word": "NETWORKING"
-}, {
-  "gemini": true,
-  "somatoria": 137.0,
-  "word": "SOFTWARE DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "DATA ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 1542.0,
-  "word": "MYSQL"
-}, {
-  "gemini": true,
-  "somatoria": 567.0,
-  "word": "REACTJS"
-}, {
-  "gemini": true,
-  "somatoria": 27.0,
-  "word": "DEPENDENCY INJECTION"
-}, {
-  "gemini": true,
-  "somatoria": 84.0,
-  "word": "SPRING SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "CONTAINER ORCHESTRATION"
-}, {
-  "gemini": true,
-  "somatoria": 78.0,
-  "word": "CONTAINERIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 27.0,
-  "word": "HBASE"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "SOLR"
-}, {
-  "gemini": true,
-  "somatoria": 41.0,
-  "word": "NEO4J"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "FLINK"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "PIG"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "CLOUD STORAGE"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "CLOUD DEPLOYMENT"
-}, {
-  "gemini": true,
-  "somatoria": 751.0,
-  "word": "INTERFACES"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "REDSHIFT SQL"
-}, {
-  "gemini": true,
-  "somatoria": 853.0,
-  "word": "BOOT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "SALESCLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "MARKETINGCLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 192.0,
-  "word": "REPORTING"
-}, {
-  "gemini": true,
-  "somatoria": 106.0,
-  "word": "LIGHTNING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SERVICECLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 258.0,
-  "word": "FLOW"
-}, {
-  "gemini": true,
-  "somatoria": 84.0,
-  "word": "SALES CLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "SOQL"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "SOSL"
-}, {
-  "gemini": true,
-  "somatoria": 103.0,
-  "word": "SERVICE CLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 91.0,
-  "word": "MARKETING CLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "LIGHTNING EXPERIENCE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "EXPO"
-}, {
-  "gemini": true,
-  "somatoria": 51.0,
-  "word": "MOBX"
-}, {
-  "gemini": true,
-  "somatoria": 43.0,
-  "word": "REACT HOOKS"
-}, {
-  "gemini": true,
-  "somatoria": 42.0,
-  "word": "INFRASTRUCTURE AS CODE"
-}, {
-  "gemini": true,
-  "somatoria": 58.0,
-  "word": "YAML"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "RUST"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "CLOJURE"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "LUA"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ERLANG"
-}, {
-  "gemini": true,
-  "somatoria": 68.0,
-  "word": "DOCUMENTATION"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "SYNTAX"
-}, {
-  "gemini": true,
-  "somatoria": 32.0,
-  "word": "UNIT TESTING"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "POWER QUERY"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "POWER PIVOT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "D3.JS"
-}, {
-  "gemini": true,
-  "somatoria": 51.0,
-  "word": "DATA VISUALIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "GOOGLE MEET"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ASANA"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "ZOOM"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "LINQ"
-}, {
-  "gemini": true,
-  "somatoria": 418.0,
-  "word": "ENTITY FRAMEWORK"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "WF"
-}, {
-  "gemini": true,
-  "somatoria": 108.0,
-  "word": "SAP BW"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "SAP ANALYTICS CLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 402.0,
-  "word": "HANA"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "NATIVE DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ANDROID DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "FUNCTIONAL PROGRAMMING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "DATA TRANSFORMATION"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "SAP NETWEAVER"
-}, {
-  "gemini": true,
-  "somatoria": 98.0,
-  "word": "SAP CO"
-}, {
-  "gemini": true,
-  "somatoria": 453.0,
-  "word": "SAP SD"
-}, {
-  "gemini": true,
-  "somatoria": 319.0,
-  "word": "SAP MM"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "SAP CRM"
-}, {
-  "gemini": true,
-  "somatoria": 133.0,
-  "word": "SAP BASIS"
-}, {
-  "gemini": true,
-  "somatoria": 328.0,
-  "word": "SAP FI"
-}, {
-  "gemini": true,
-  "somatoria": 51.0,
-  "word": "REQUIREMENTS GATHERING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "BASECAMP"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "KANBANIZE"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "TEAMWORK"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "JIRA ALIGN"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CONTINUOUS DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 68.0,
-  "word": "CUSTOMER SERVICE"
-}, {
-  "gemini": true,
-  "somatoria": 502.0,
-  "word": "COMMUNICATION"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "HUBSPOT"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "MICROSOFT DYNAMICS CRM"
-}, {
-  "gemini": true,
-  "somatoria": 253.0,
-  "word": "REACT JS"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "AZURE PIPELINES"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "AZURE REPOS"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "AZURE BOARDS"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "AZURE GIT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "REACTIVE PROGRAMMING"
-}, {
-  "gemini": true,
-  "somatoria": 36.0,
-  "word": "STATE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 80.0,
-  "word": "MATERIAL DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 40.0,
-  "word": "COMPOSER"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "DATA PROCESSING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "MESSAGE QUEUING"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "STORM"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "SYSTEMS ADMINISTRATION"
-}, {
-  "gemini": true,
-  "somatoria": 257.0,
-  "word": "PROGRAMMING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SERVICE LEVEL MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "INCIDENT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "RELEASE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PROBLEM MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 58.0,
-  "word": "CHANGE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "INTRUSION PREVENTION"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "ENCRYPTION"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "ACCESS CONTROL"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "AMQP"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "MESSAGE BROKERS"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "MESSAGING"
-}, {
-  "gemini": true,
-  "somatoria": 62.0,
-  "word": "DATA MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2053.0,
-  "word": "WINDOWS"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "4GL"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "ABL"
-}, {
-  "gemini": true,
-  "somatoria": 84.0,
-  "word": "WINDOWS FORMS"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "SOFTWARE DESIGN PATTERNS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "OBJECT PASCAL"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "CODE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 57.0,
-  "word": "COLLABORATION"
-}, {
-  "gemini": true,
-  "somatoria": 144.0,
-  "word": "CODE REVIEW"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "MERGE REQUESTS"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "DATA INTEGRATION"
-}, {
-  "gemini": true,
-  "somatoria": 49.0,
-  "word": "POWER AUTOMATE"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "NLP"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "BIG DATA ANALYTICS"
-}, {
-  "gemini": true,
-  "somatoria": 704.0,
-  "word": "AI"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "OCR"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "ML"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "APACHE DRUID"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "COMPUTER VISION"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "LAKEHOUSE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "DATA PRIVACY"
-}, {
-  "gemini": true,
-  "somatoria": 24.0,
-  "word": "APACHE AIRFLOW"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "PHOENIX"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "DATA SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "ZEPPELIN"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "APACHE HIVE"
-}, {
-  "gemini": true,
-  "somatoria": 41.0,
-  "word": "DATA WAREHOUSING"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "DATA ENGINEERING"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "APACHE CASSANDRA"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "APACHE FLUME"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "STAR SCHEMA"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "DATA GOVERNANCE"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "OOZIE"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "APACHE NIFI"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "METADATA MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "APACHE HADOOP"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "APACHE HBASE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "APACHE FLINK"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "MASTER DATA MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "GOOGLE BIGQUERY"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "AZURE DATABRICKS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "AZURE SYNAPSE ANALYTICS"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "PULL REQUEST"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "BRANCHING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "MERGING"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "STYLUS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "COMPASS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "IBATIS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "DATABASE CONCEPTS"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "COMMAND LINE"
-}, {
-  "gemini": true,
-  "somatoria": 65.0,
-  "word": "SDLC"
-}, {
-  "gemini": true,
-  "somatoria": 3572.0,
-  "word": "DATA"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "MOBILITY"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "MEMCACHED"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "THYMELEAF"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "THREAT INTELLIGENCE"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "PENETRATION TESTING"
-}, {
-  "gemini": true,
-  "somatoria": 85.0,
-  "word": "WIRELESS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ROUTING AND SWITCHING"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "SALTSTACK"
-}, {
-  "gemini": true,
-  "somatoria": 32.0,
-  "word": "CLOUDFORMATION"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ENVIRONMENT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "APACHE CORDOVA"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "STENCIL"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "WEB COMPONENTS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CAPACITOR"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "RELAY"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "VSPHERE"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "VREALIZE AUTOMATION"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "VREALIZE ORCHESTRATOR"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "DISASTER RECOVERY"
-}, {
-  "gemini": true,
-  "somatoria": 48.0,
-  "word": "VIRTUALIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "ESXI"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "MICROSOFT SHAREPOINT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "DOCUMENT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "GOOGLE DRIVE"
-}, {
-  "gemini": true,
-  "somatoria": 65.0,
-  "word": "BOX"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "LOAD BALANCER"
-}, {
-  "gemini": true,
-  "somatoria": 65.0,
-  "word": "ROUTER"
-}, {
-  "gemini": true,
-  "somatoria": 53.0,
-  "word": "SWITCH"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "RALLY"
-}, {
-  "gemini": true,
-  "somatoria": 239.0,
-  "word": "MICROSOFT AZURE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ORACLE APPLICATION EXPRESS"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "JCL"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "PDS"
-}, {
-  "gemini": true,
-  "somatoria": 180.0,
-  "word": "DB2"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "IMS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SALT"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "FIELD SUPPORT"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "PROBLEM-SOLVING ABILITIES"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "EXCELLENT COMMUNICATION AND INTERPERSONAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "SCHEDULING"
-}, {
-  "gemini": true,
-  "somatoria": 134.0,
-  "word": "PROBLEM-SOLVING"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "INTERPERSONAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "TECHNICAL SUPPORT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "TIME MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "EMPATHY"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "TECHNICAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 31.0,
-  "word": "PROBLEM SOLVING"
-}, {
-  "gemini": true,
-  "somatoria": 154.0,
-  "word": "SAS"
-}, {
-  "gemini": true,
-  "somatoria": 160.0,
-  "word": "S3"
-}, {
-  "gemini": true,
-  "somatoria": 46.0,
-  "word": "EC2"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "ORACLE APPLICATIONS"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ORACLE E-BUSINESS SUITE"
-}, {
-  "gemini": true,
-  "somatoria": 32.0,
-  "word": "SAP PM"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "SAP QM"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "SAP APO"
-}, {
-  "gemini": true,
-  "somatoria": 94.0,
-  "word": "SAP PP"
-}, {
-  "gemini": true,
-  "somatoria": 38.0,
-  "word": "SAP WM"
-}, {
-  "gemini": true,
-  "somatoria": 20.0,
-  "word": "SAP HR"
-}, {
-  "gemini": true,
-  "somatoria": 84.0,
-  "word": "SAP FICO"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SAP PLM"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "SAP EHS"
-}, {
-  "gemini": true,
-  "somatoria": 29.0,
-  "word": "SAP SUCCESSFACTORS"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "SAP PS"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "SAP BI"
-}, {
-  "gemini": true,
-  "somatoria": 54.0,
-  "word": "SAP HYBRIS"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "CLOUD FUNCTIONS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "CLOUD LOGGING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "CLOUD MESSAGING"
-}, {
-  "gemini": true,
-  "somatoria": 61.0,
-  "word": "DML"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "LIGHTNING COMPONENTS"
-}, {
-  "gemini": true,
-  "somatoria": 29.0,
-  "word": "AURA"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "CONCURRENCY"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "SLICK"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "APACHE SOLR"
-}, {
-  "gemini": true,
-  "somatoria": 166.0,
-  "word": "SCRIPTING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "STATISTICAL ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 37.0,
-  "word": "ADOBE EXPERIENCE MANAGER"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "CLOUD COMMERCE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "KNOX"
-}, {
-  "gemini": true,
-  "somatoria": 38.0,
-  "word": "ATLAS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "HUE"
-}, {
-  "gemini": true,
-  "somatoria": 59.0,
-  "word": "CLOUD SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PLOTLY"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "GOOGLE DATA STUDIO"
-}, {
-  "gemini": true,
-  "somatoria": 25.0,
-  "word": "GOOGLE SHEETS"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "MICROSOFT EXCEL"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "SNOW"
-}, {
-  "gemini": true,
-  "somatoria": 2136.0,
-  "word": "CVS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "JCA"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "JNDI"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "INFLUXDB"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "SQL DATABASES"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "JAEGER"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "CLOUDFRONT"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "AMAZON S3"
-}, {
-  "gemini": true,
-  "somatoria": 855.0,
-  "word": "E-COMMERCE"
-}, {
-  "gemini": true,
-  "somatoria": 98.0,
-  "word": "CUSTOMER SUCCESS"
-}, {
-  "gemini": true,
-  "somatoria": 87.0,
-  "word": "PROBLEM-SOLVING SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 49.0,
-  "word": "UI5"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "PASCAL"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SILVERLIGHT"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "XAML"
-}, {
-  "gemini": true,
-  "somatoria": 521.0,
-  "word": "HTML5"
-}, {
-  "gemini": true,
-  "somatoria": 440.0,
-  "word": "CSS3"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "AWS CLI"
-}, {
-  "gemini": true,
-  "somatoria": 27.0,
-  "word": "XRAY"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ADF"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "REXX"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "AGILITY"
-}, {
-  "gemini": true,
-  "somatoria": 171.0,
-  "word": "DESIGN THINKING"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "CUSTOMER FOCUS"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "UNIX SHELL"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "KONG"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "ORACLE WEBLOGIC SERVER"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "UXPIN"
-}, {
-  "gemini": true,
-  "somatoria": 54.0,
-  "word": "ADOBE XD"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "INVISION STUDIO"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PROTO.IO"
-}, {
-  "gemini": true,
-  "somatoria": 69.0,
-  "word": "SKETCH"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "PROTOTYPING"
-}, {
-  "gemini": true,
-  "somatoria": 36.0,
-  "word": "DESIGN SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "MARVEL"
-}, {
-  "gemini": true,
-  "somatoria": 42.0,
-  "word": "INVISION"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "BALSAMIQ"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "PPC"
-}, {
-  "gemini": true,
-  "somatoria": 2254.0,
-  "word": "SEM"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "EMAIL MARKETING"
-}, {
-  "gemini": true,
-  "somatoria": 212.0,
-  "word": "GOOGLE ANALYTICS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CONTENT MARKETING"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "PERFORMANCE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "SAP PAYROLL"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SAP TIME MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "WEBSPHERE PORTAL"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "WEBSPHERE LIBERTY"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "WEBSPHERE MQ"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "PERFORMANCE ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "CACHING"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "SCALABILITY"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ENZYME"
-}, {
-  "gemini": true,
-  "somatoria": 710.0,
-  "word": "APACHE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "AWS GLUE"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "AZURE DATA FACTORY"
-}, {
-  "gemini": true,
-  "somatoria": 38.0,
-  "word": "INFORMATICA POWERCENTER"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "DATA QUALITY"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "DATA VALIDATION"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "ORCHESTRATION"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "INFRASTRUCTURE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 45.0,
-  "word": "GOVERNANCE"
-}, {
-  "gemini": true,
-  "somatoria": 41.0,
-  "word": "INFORMATION TECHNOLOGY"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "SPRING WEB"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "AWS COGNITO"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "OKTA"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "AZURE ACTIVE DIRECTORY"
-}, {
-  "gemini": true,
-  "somatoria": 24.0,
-  "word": "SAML"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "SAMM"
-}, {
-  "gemini": true,
-  "somatoria": 22.0,
-  "word": "CIS"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "WEB SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "GATLING"
-}, {
-  "gemini": true,
-  "somatoria": 35.0,
-  "word": "NAGIOS"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "SENSU"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "ORACLE BPM"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "DMN"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "PEGA"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "ADO.NET"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "LAZY LOADING"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "BOWER"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "PRETTIER"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "ESLINT"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "BABEL"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "RUSH"
-}, {
-  "gemini": true,
-  "somatoria": 39.0,
-  "word": "PERFORMANCE TUNING"
-}, {
-  "gemini": true,
-  "somatoria": 72.0,
-  "word": "ROUTING"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "SDN"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SYSTEM ADMINISTRATION"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "THREAT HUNTING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "INCIDENT RESPONSE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "LOG ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "INCIDENT HANDLING"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "HAPROXY"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "LOAD BALANCING"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "WEB SERVER"
-}, {
-  "gemini": true,
-  "somatoria": 3070.0,
-  "word": "FRAMEWORK"
-}, {
-  "gemini": true,
-  "somatoria": 54.0,
-  "word": "LIBRARY"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "PROGRAMMING LANGUAGES"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "REQUIREMENT ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "SOFTWARE DEPLOYMENT"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "APPLICATION DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "SMTP"
-}, {
-  "gemini": true,
-  "somatoria": 25.0,
-  "word": "UDP"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "FTP"
-}, {
-  "gemini": true,
-  "somatoria": 43.0,
-  "word": "OSI"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "IPV6"
-}, {
-  "gemini": true,
-  "somatoria": 126.0,
-  "word": "IP"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "IPV4"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "AUTHENTICATION AND AUTHORIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 27.0,
-  "word": "SSL"
-}, {
-  "gemini": true,
-  "somatoria": 61.0,
-  "word": "LOGGING"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "ARIS"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "ARCHIMATE"
-}, {
-  "gemini": true,
-  "somatoria": 629.0,
-  "word": "INTEGRATION"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "ENTERPRISE ARCHITECTURE"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "LOADRUNNER"
-}, {
-  "gemini": true,
-  "somatoria": 133.0,
-  "word": "LOAD"
-}, {
-  "gemini": true,
-  "somatoria": 2234.0,
-  "word": "PERFORMANCE"
-}, {
-  "gemini": true,
-  "somatoria": 694.0,
-  "word": "SD"
-}, {
-  "gemini": true,
-  "somatoria": 136.0,
-  "word": "WMS"
-}, {
-  "gemini": true,
-  "somatoria": 49.0,
-  "word": "INFORMATION SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "ETHICAL HACKING"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "POWERMOCK"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "CLOUD INTEGRATION"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "VISUAL DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "STORYBOARDS"
-}, {
-  "gemini": true,
-  "somatoria": 45.0,
-  "word": "MOCKUPS"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "PROTRACTOR"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CODECEPTJS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "NIGHTWATCH"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "STAKEHOLDER MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PROJECT PLANNING"
-}, {
-  "gemini": true,
-  "somatoria": 129.0,
-  "word": "TERMINAL"
-}, {
-  "gemini": true,
-  "somatoria": 53.0,
-  "word": "XCODE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "CARTHAGE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SWIFT PACKAGE MANAGER"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "PYTORCH"
-}, {
-  "gemini": true,
-  "somatoria": 32.0,
-  "word": "DELTA"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "ELASTICACHE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SYSTEMS ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CUSTOMER RELATIONSHIP MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "DIGITAL TRANSFORMATION"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "XMLHTTPREQUEST"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "TRANSPORTATION MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 42.0,
-  "word": "WAREHOUSE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "VAGRANT"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "CLOUDSTACK"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "EPC"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "CRITICAL THINKING"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "POWERBUILDER"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "ENTITY FRAMEWORK CORE"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "DATA PIPELINES"
-}, {
-  "gemini": true,
-  "somatoria": 41.0,
-  "word": "MAINTENANCE"
-}, {
-  "gemini": true,
-  "somatoria": 25.0,
-  "word": "USER STORIES"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "BUG TRACKING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "DATA ARCHITECTURE"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "COVERITY"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "KLOCWORK"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "IT GOVERNANCE"
-}, {
-  "gemini": true,
-  "somatoria": 29.0,
-  "word": "SNOWFLAKE"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "DELTA LAKE"
-}, {
-  "gemini": true,
-  "somatoria": 29.0,
-  "word": "CONFIGURATION MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ROLLUP"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "VITE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "TILES"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "PINGDOM"
-}, {
-  "gemini": true,
-  "somatoria": 24.0,
-  "word": "NUMPY"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "LOOKER"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "KERAS"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "FARGATE"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "SENTRY"
-}, {
-  "gemini": true,
-  "somatoria": 57.0,
-  "word": "CLOUDWATCH"
-}, {
-  "gemini": true,
-  "somatoria": 71.0,
-  "word": "MICROSTRATEGY"
-}, {
-  "gemini": true,
-  "somatoria": 48.0,
-  "word": "SWARM"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "JUPYTER NOTEBOOK"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SHINY"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "TEAMCITY"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SCIPY"
-}, {
-  "gemini": true,
-  "somatoria": 141.0,
-  "word": "MICROSOFT SQL SERVER"
-}, {
-  "gemini": true,
-  "somatoria": 31.0,
-  "word": "SQL SERVER MANAGEMENT STUDIO"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "SAP SCM"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SAP GTS"
-}, {
-  "gemini": true,
-  "somatoria": 51.0,
-  "word": "COMPOSE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "DATA BINDING"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "EVENTS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "BINDING"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "DIGITAL MARKETING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CONTENT CREATION"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "USER RESEARCH"
-}, {
-  "gemini": true,
-  "somatoria": 74.0,
-  "word": "APM"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "MICROSOFT DYNAMICS 365"
-}, {
-  "gemini": true,
-  "somatoria": 70.0,
-  "word": "PROCUREMENT"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "NEGOTIATION"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "PURCHASING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "DDNS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "WINS"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "SOFTWARE UPDATES"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "NETWORK MONITORING"
-}, {
-  "gemini": true,
-  "somatoria": 24.0,
-  "word": "SERVICE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "NETWORK OPERATIONS"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "ASSET MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 345.0,
-  "word": "WINDOWS SERVER"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ADOBE CREATIVE SUITE"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "RED HAT LINUX"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "MICROSOFT OFFICE SUITE"
-}, {
-  "gemini": true,
-  "somatoria": 38.0,
-  "word": "IBM WEBSPHERE"
-}, {
-  "gemini": true,
-  "somatoria": 45.0,
-  "word": "SOLUTION MANAGER"
-}, {
-  "gemini": true,
-  "somatoria": 241.0,
-  "word": "BASIS"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "SAP SOLUTION MANAGER"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "COMMUNICATION AND TEAMWORK"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "NGRX"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "DATA MODELING CONCEPTS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "DRILL"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "GOOGLE TAG MANAGER"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SEGMENT"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "GOOGLE OPTIMIZE"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "HOTJAR"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "COMPETE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "CRAZY EGG"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "HYPERVISORS"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "REQUEST"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "RESPONSE"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "BI TOOLS"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "MDX"
-}, {
-  "gemini": true,
-  "somatoria": 22.0,
-  "word": "EMR"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "LIQUIDITY"
-}, {
-  "gemini": true,
-  "somatoria": 43.0,
-  "word": "CAPACITY"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "ASSET"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "LEAN SIX SIGMA"
-}, {
-  "gemini": true,
-  "somatoria": 698.0,
-  "word": "SCRUM MASTER"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "MICROSOFT PROJECT"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "GRE"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "ROUTING PROTOCOLS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "NETWORK PROTOCOLS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "SOAR"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "DL"
-}, {
-  "gemini": true,
-  "somatoria": 224.0,
-  "word": "TECHNOLOGY"
-}, {
-  "gemini": true,
-  "somatoria": 262.0,
-  "word": "ENGINEERING"
-}, {
-  "gemini": true,
-  "somatoria": 42.0,
-  "word": "IMPROVE"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "OPTIMIZE"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "ENHANCE"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "REFACTOR"
-}, {
-  "gemini": true,
-  "somatoria": 71.0,
-  "word": "UPGRADE"
-}, {
-  "gemini": true,
-  "somatoria": 28.0,
-  "word": "CLOUD PLATFORMS"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "MQTT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "PULSAR"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "QUEUES"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "BROKERS"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "PEGASYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 97.0,
-  "word": "NICE"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "KOFAX"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "SERVICE WORKERS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "INDEXEDDB"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "XENAPP"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "XENDESKTOP"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "DEMAND PLANNING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "PRODUCTION PLANNING"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "ANDROID SDK"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "APPLICATION ARCHITECTURE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "TECHNICAL ARCHITECTURE"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "IT SERVICE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "RUP"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "BPM SUITE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ORACLE API GATEWAY"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "SOA SUITE"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "XSLT"
-}, {
-  "gemini": true,
-  "somatoria": 28.0,
-  "word": "ENTERPRISE INTEGRATION"
-}, {
-  "gemini": true,
-  "somatoria": 327.0,
-  "word": "SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 194.0,
-  "word": "INFRASTRUCTURE"
-}, {
-  "gemini": true,
-  "somatoria": 5850.0,
-  "word": "SOFTWARE"
-}, {
-  "gemini": true,
-  "somatoria": 68.0,
-  "word": "VISUALIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "GRAYLOG"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CELERY"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "NATS"
-}, {
-  "gemini": true,
-  "somatoria": 53.0,
-  "word": "IBM MQ"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SPRING CLOUD STREAM"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "AMAZON SQS"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "AZURE SERVICE BUS"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "PRESENTATION"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "VISUAL THINKING"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "REMOTE WORK"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "SCRIPTING SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "BACKUP AND RECOVERY"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "WEB APPLICATION DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "TRINO"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "CLOUD SQL"
-}, {
-  "gemini": true,
-  "somatoria": 210.0,
-  "word": "INFORMATION"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "TELECOMMUNICATIONS"
-}, {
-  "gemini": true,
-  "somatoria": 163.0,
-  "word": "OOP"
-}, {
-  "gemini": true,
-  "somatoria": 64.0,
-  "word": "POWER PLATFORM"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "MENDIX"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "ALPHA"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PATCH MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "OOPS"
-}, {
-  "gemini": true,
-  "somatoria": 24.0,
-  "word": "DBMS"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "CLOUDCOMPUTING"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "CGI"
-}, {
-  "gemini": true,
-  "somatoria": 89.0,
-  "word": "RESEARCH"
-}, {
-  "gemini": true,
-  "somatoria": 178.0,
-  "word": "OPERATIONS"
-}, {
-  "gemini": true,
-  "somatoria": 130.0,
-  "word": "PROJECTS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "POWERHA"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "POWERVM"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "RMC"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "VIOS"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "IDENTITY MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "ACCESS MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "SSO"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "AUTHENTICATION"
-}, {
-  "gemini": true,
-  "somatoria": 28.0,
-  "word": "PRIVACY"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "AUTHORIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "KERBEROS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "DIAMETER"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "TASK MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "COMMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2030.0,
-  "word": "BI"
-}, {
-  "gemini": true,
-  "somatoria": 1080.0,
-  "word": "MES"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "VENDOR MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "DEMAND MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "STYLED-COMPONENTS"
-}, {
-  "gemini": true,
-  "somatoria": 1425.0,
-  "word": "INFORMATICA"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "SYSTEM DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "IT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 230.0,
-  "word": "DATA ENGINEER"
-}, {
-  "gemini": true,
-  "somatoria": 28.0,
-  "word": "DATA SCIENTIST"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "IT INFRASTRUCTURE"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "DATA STRUCTURE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CLOUD SOLUTIONS ARCHITECT"
-}, {
-  "gemini": true,
-  "somatoria": 29.0,
-  "word": "DATABASE ADMINISTRATOR"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "INFORMATION SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "TICKETING SYSTEM"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "TECHNICAL KNOWLEDGE"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "GRAILS"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "SQL DEVELOPER"
-}, {
-  "gemini": true,
-  "somatoria": 98.0,
-  "word": "END-TO-END"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "ENTERPRISE APPLICATION"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "ESP"
-}, {
-  "gemini": true,
-  "somatoria": 38.0,
-  "word": "AH"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "ORACLE FUSION MIDDLEWARE"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "ORACLE WEBLOGIC INTEGRATION"
-}, {
-  "gemini": true,
-  "somatoria": 64.0,
-  "word": "DATA MIGRATION"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "ZAPIER"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "CSV"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "WEBSOCKET"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "MICROSOFT POWER AUTOMATE"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "IBM DB2"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PROTOBUF"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "HIGH AVAILABILITY"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "ORACLE RAC"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ORCHESTRATOR"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "JOB SCHEDULING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CLOUD COMPOSER"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "AUTOSYS"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "RUNDECK"
-}, {
-  "gemini": true,
-  "somatoria": 31.0,
-  "word": "COMMUNICATIONS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "EVENT SOURCING"
-}, {
-  "gemini": true,
-  "somatoria": 166.0,
-  "word": "CLEAN ARCHITECTURE"
-}, {
-  "gemini": true,
-  "somatoria": 46.0,
-  "word": "DOMAIN-DRIVEN DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "MICRONAUT"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "VERT.X"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "ELASTIC BEANSTALK"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ROUTE 53"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "VAULT"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "AZURE MACHINE LEARNING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "AZURE KUBERNETES SERVICE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "AZURE LOGIC APPS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "FREESWITCH"
-}, {
-  "gemini": true,
-  "somatoria": 83.0,
-  "word": "OPEN SOURCE"
-}, {
-  "gemini": true,
-  "somatoria": 77.0,
-  "word": "IMPLEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 135.0,
-  "word": "DEBUG"
-}, {
-  "gemini": true,
-  "somatoria": 53.0,
-  "word": "TROUBLESHOOT"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "CORE JAVA"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "TIBCO BUSINESSWORKS"
-}, {
-  "gemini": true,
-  "somatoria": 178.0,
-  "word": "RED HAT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "APPLICATION PROGRAMMING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "CONTENT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 22.0,
-  "word": "ECM"
-}, {
-  "gemini": true,
-  "somatoria": 710.0,
-  "word": "PORTAL"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SOFTWARE CONFIGURATION MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "ORACLE SERVICE CLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "COMMUNICATION AND COLLABORATION"
-}, {
-  "gemini": true,
-  "somatoria": 31.0,
-  "word": "RESOURCE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "FLEXIBILITY"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "DECISION MAKING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "CONTINUOUS IMPROVEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "BACKLOG REFINEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "RTE"
-}, {
-  "gemini": true,
-  "somatoria": 20.0,
-  "word": "CONTINUOUS DEPLOYMENT"
-}, {
-  "gemini": true,
-  "somatoria": 35.0,
-  "word": "ACT"
-}, {
-  "gemini": true,
-  "somatoria": 171.0,
-  "word": "CHECK"
-}, {
-  "gemini": true,
-  "somatoria": 45394.0,
-  "word": "DO"
-}, {
-  "gemini": true,
-  "somatoria": 84.0,
-  "word": "PLAN"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "FLYWAY"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "H2"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "VIM"
-}, {
-  "gemini": true,
-  "somatoria": 39.0,
-  "word": "EDITOR"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "EXTENSIONS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "THEMES"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "WORKSPACE"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "SOURCE CONTROL"
-}, {
-  "gemini": true,
-  "somatoria": 71.0,
-  "word": "MONITOR"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SCRIPTING KNOWLEDGE"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "RESPONSIVE WEB DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 22.0,
-  "word": "RESPONSIVE DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "DATA WAREHOUSING CONCEPTS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "PEOPLETOOLS"
-}, {
-  "gemini": true,
-  "somatoria": 198.0,
-  "word": "ORACLE EBS"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "HCM CLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "DATA DISCOVERY"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "DATA LOSS PREVENTION"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "GATHER"
-}, {
-  "gemini": true,
-  "somatoria": 84.0,
-  "word": "TEMPLATES"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "CCSP"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "CEH"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "CISA"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "AUTOMATED TESTING"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "PAIR PROGRAMMING"
-}, {
-  "gemini": true,
-  "somatoria": 28.0,
-  "word": "REFACTORING"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "CODE REVIEWS"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "IBM WATSON"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "BUDGETING"
-}, {
-  "gemini": true,
-  "somatoria": 45.0,
-  "word": "JD EDWARDS"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "JD EDWARDS ENTERPRISEONE"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "KARATE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "GERRIT"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "CONCOURSE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "RAPID7"
-}, {
-  "gemini": true,
-  "somatoria": 77.0,
-  "word": "SPRING CLOUD"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "TWIG"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "DOCTRINE"
-}, {
-  "gemini": true,
-  "somatoria": 22.0,
-  "word": "AXIOS"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "IT SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "ORDER MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "SQL SERVER ANALYSIS SERVICES"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "AZURE ANALYSIS SERVICES"
-}, {
-  "gemini": true,
-  "somatoria": 41.0,
-  "word": "ROBOT FRAMEWORK"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SPECFLOW"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "SKILL A"
-}, {
-  "gemini": true,
-  "somatoria": 25.0,
-  "word": "SKILL E"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "HCL"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "DISTRIBUTED SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "POLYMER"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "ORACLE HYPERION PLANNING"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "MICROSOFT INTUNE"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "IDENTITY AND ACCESS MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "ENTERPRISE MOBILITY MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "SMART CONTRACTS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "H.323"
-}, {
-  "gemini": true,
-  "somatoria": 29.0,
-  "word": "CDI"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "ASP.NET CORE MVC"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "SOLUTION ARCHITECTURE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "PROGRAM MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 23.0,
-  "word": "SIX SIGMA"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "BI REPORTING"
-}, {
-  "gemini": true,
-  "somatoria": 180.0,
-  "word": "FUNCTIONS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "DOMAIN KNOWLEDGE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "NAVIGATION"
-}, {
-  "gemini": true,
-  "somatoria": 62.0,
-  "word": "SAN"
-}, {
-  "gemini": true,
-  "somatoria": 8413.0,
-  "word": "NAS"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ORGANIZATIONAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "TECHNICAL PROFICIENCY"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "DISCORD"
-}, {
-  "gemini": true,
-  "somatoria": 1073.0,
-  "word": "ENGINEER"
-}, {
-  "gemini": true,
-  "somatoria": 108.0,
-  "word": "RELEASE"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "EVOLUTION"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "PEER REVIEW"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ARCGIS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "MAPINFO"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "GOOGLE EARTH"
-}, {
-  "gemini": true,
-  "somatoria": 38.0,
-  "word": "GPS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "STRUCTURED QUERY LANGUAGE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "COMMUNICATION PROTOCOLS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "RTU"
-}, {
-  "gemini": true,
-  "somatoria": 43.0,
-  "word": "CONTROL SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "DCS"
-}, {
-  "gemini": true,
-  "somatoria": 29.0,
-  "word": "PLC"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "MANAGED SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 155.0,
-  "word": "VIEWS"
-}, {
-  "gemini": true,
-  "somatoria": 86.0,
-  "word": "STORED PROCEDURES"
-}, {
-  "gemini": true,
-  "somatoria": 163.0,
-  "word": "TRIGGERS"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "JOINS"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "SEAM"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "HUMAN-COMPUTER INTERACTION"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "NETWORK ACCESS CONTROL"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "PAT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "REVERSE ENGINEERING"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "EAP"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "INTEGRITY"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "HARDENING"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "ENTERPRISE JAVA"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ANIMATION"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "GRAPHICS"
-}, {
-  "gemini": true,
-  "somatoria": 191.0,
-  "word": "FIORI"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "JAMF"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SOFTWARE ENGINEERING PRINCIPLES"
-}, {
-  "gemini": true,
-  "somatoria": 434.0,
-  "word": "WORD"
-}, {
-  "gemini": true,
-  "somatoria": 153.0,
-  "word": "MICROSOFT OFFICE"
-}, {
-  "gemini": true,
-  "somatoria": 83.0,
-  "word": "DELIVER"
-}, {
-  "gemini": true,
-  "somatoria": 162.0,
-  "word": "SEARCH"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "ENTERPRISE CONTENT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "TEXT ANALYTICS"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "CAPTURE"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ACTIVE RECORD"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "APPLICATION PERFORMANCE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 37.0,
-  "word": "OBSERVABILITY"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "ARGO"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "AZKABAN"
-}, {
-  "gemini": true,
-  "somatoria": 56.0,
-  "word": "ELASTIC STACK"
-}, {
-  "gemini": true,
-  "somatoria": 3380.0,
-  "word": "TEMPO"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "ALERTMANAGER"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "WEBSPHERE DATAPOWER"
-}, {
-  "gemini": true,
-  "somatoria": 102.0,
-  "word": "WEB DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 638.0,
-  "word": "PRODUCT OWNER"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "NAMESPACES"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "CFD"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "CAE"
-}, {
-  "gemini": true,
-  "somatoria": 93.0,
-  "word": "CAD"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "PDM"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "CAM"
-}, {
-  "gemini": true,
-  "somatoria": 3043.0,
-  "word": "BOM"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "TDM"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "EDM"
-}, {
-  "gemini": true,
-  "somatoria": 22.0,
-  "word": "PRIMAVERA"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "MARTECH"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "BIDDING"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "REVENUE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SEGMENTATION"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "LEAD GENERATION"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "APP DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "DATABASE DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 78.0,
-  "word": "NATURAL"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "BENCHMARKING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "INTELLIGENCE ANALYST"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "DATA PIPELINE"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "IMPROVEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 184.0,
-  "word": "ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "OPTIMIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "PREDICTION"
-}, {
-  "gemini": true,
-  "somatoria": 32.0,
-  "word": "APPLICATION SERVER"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "CANVAS"
-}, {
-  "gemini": true,
-  "somatoria": 13.0,
-  "word": "E-LEARNING"
-}, {
-  "gemini": true,
-  "somatoria": 61.0,
-  "word": "SAFE"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ATDD"
-}, {
-  "gemini": true,
-  "somatoria": 103.0,
-  "word": "ES"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "VISUALIZATION TOOLS"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "DATA PREPROCESSING"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "PERFORMANCE TESTING"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "PERFORMANCE OPTIMIZATION"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "QUERYING"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "PACKAGE MANAGER"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "DATA COLLECTION"
-}, {
-  "gemini": true,
-  "somatoria": 262.0,
-  "word": "EL"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "GAMIFICATION"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "ASSESSMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "NETWORK ENGINEERING"
-}, {
-  "gemini": true,
-  "somatoria": 59.0,
-  "word": "CLOUD SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "DATA QUALITY"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "AZURE SYNAPSE ANALYTICS"
-}, {
-  "gemini": true,
-  "somatoria": 54.0,
-  "word": "SAP HYBRIS"
-}, {
-  "gemini": true,
-  "somatoria": 47.0,
-  "word": "LINQ"
-}, {
-  "gemini": true,
-  "somatoria": 68.0,
-  "word": "CUSTOMER SERVICE"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "KERAS"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "DATA ANALYSIS"
-}, {
-  "gemini": true,
-  "somatoria": 30.0,
-  "word": "JCL"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "CLOUD DEPLOYMENT"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "PERFORMANCE TESTING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "COVERAGE"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "WATCH"
-}, {
-  "gemini": true,
-  "somatoria": 402.0,
-  "word": "HANA"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "DECISION MAKING"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "SAP CRM"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "AWS GLUE"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ALGORITHMS"
-}, {
-  "gemini": true,
-  "somatoria": 32.0,
-  "word": "UNIT TESTING"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "TEAMCITY"
-}, {
-  "gemini": true,
-  "somatoria": 31.0,
-  "word": "PROBLEM SOLVING"
-}, {
-  "gemini": true,
-  "somatoria": 33.0,
-  "word": "DYNAMICS CRM"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "COMPUTE SERVICES"
-}, {
-  "gemini": true,
-  "somatoria": 58.0,
-  "word": "YAML"
-}, {
-  "gemini": true,
-  "somatoria": 62.0,
-  "word": "DATA MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 72.0,
-  "word": "DATA ANALYTICS"
-}, {
-  "gemini": true,
-  "somatoria": 145.0,
-  "word": "NETWORKING"
-}, {
-  "gemini": true,
-  "somatoria": 31.0,
-  "word": "BAMBOO"
-}, {
-  "gemini": true,
-  "somatoria": 35.0,
-  "word": "ANALYTICAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 34.0,
-  "word": "MESSAGING"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "DATA SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "DATA STRUCTURES"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "COST MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 440.0,
-  "word": "CSS3"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "HUBSPOT"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "INCIDENT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 55.0,
-  "word": "PROJECT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 19.0,
-  "word": "DATA INTEGRATION"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "DATA GOVERNANCE"
-}, {
-  "gemini": true,
-  "somatoria": 248.0,
-  "word": "COMMUNICATION SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 1542.0,
-  "word": "MYSQL"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "ACCESS CONTROL"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PROBLEM MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 25.0,
-  "word": "MLOPS"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "TECHNICAL KNOWLEDGE"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "CLI"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "GTS"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "IDENTITY AND ACCESS MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 27.0,
-  "word": "HBASE"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "AZURE DATABRICKS"
-}, {
-  "gemini": true,
-  "somatoria": 418.0,
-  "word": "ENTITY FRAMEWORK"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "SALTSTACK"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "CONCURRENCY"
-}, {
-  "gemini": true,
-  "somatoria": 28.0,
-  "word": "DATA MODELING"
-}, {
-  "gemini": true,
-  "somatoria": 68.0,
-  "word": "E.G."
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SERVICE LEVEL MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "STAKEHOLDER MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 41.0,
-  "word": "DATA WAREHOUSING"
-}, {
-  "gemini": true,
-  "somatoria": 15.0,
-  "word": "SERVICE MESH"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ROUTING AND SWITCHING"
-}, {
-  "gemini": true,
-  "somatoria": 536.0,
-  "word": "SWIFT"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "SECOPS"
-}, {
-  "gemini": true,
-  "somatoria": 137.0,
-  "word": "SOFTWARE DEVELOPMENT"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "NETWORK SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 20.0,
-  "word": "UNITTEST"
-}, {
-  "gemini": true,
-  "somatoria": 46.0,
-  "word": "EC2"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SAP UTILITIES"
-}, {
-  "gemini": true,
-  "somatoria": 21.0,
-  "word": "APACHE HADOOP"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "SCIPY"
-}, {
-  "gemini": true,
-  "somatoria": 76.0,
-  "word": "CONTROLLER"
-}, {
-  "gemini": true,
-  "somatoria": 180.0,
-  "word": "DB2"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "SAP EXTENDED WAREHOUSE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "EVENTS"
-}, {
-  "gemini": true,
-  "somatoria": 14.0,
-  "word": "TRANSPORTATION MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 58.0,
-  "word": "CHANGE MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 16.0,
-  "word": "PYTEST"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "WIKI"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "POWER QUERY"
-}, {
-  "gemini": true,
-  "somatoria": 65.0,
-  "word": "SDLC"
-}, {
-  "gemini": true,
-  "somatoria": 26.0,
-  "word": "TEAMWORK"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "CLOUDOPS"
-}, {
-  "gemini": true,
-  "somatoria": 502.0,
-  "word": "COMMUNICATION"
-}, {
-  "gemini": true,
-  "somatoria": 62.0,
-  "word": "SAN"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "RELEASE PLANNING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "TIME MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "QUALITY MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 57.0,
-  "word": "COLLABORATION"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "PYTORCH"
-}, {
-  "gemini": true,
-  "somatoria": 166.0,
-  "word": "SCRIPTING"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "METADATA MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "MASTER DATA MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 9.0,
-  "word": "KNOWLEDGE OF PROGRAMMING LANGUAGES"
-}, {
-  "gemini": true,
-  "somatoria": 521.0,
-  "word": "HTML5"
 }]

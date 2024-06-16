@@ -1,19 +1,19 @@
 erp
-mvc
-orm
-mensageria
-spa
-mobile
-servers
-versionamento
-metodologias
-bigdata
-sap
-cloud
-sql
-nosql
-bd
-automacao
+mvc = backend | frontend
+orm = backend
+mensageria = backend
+spa = js, frontend
+mobile = frontend 
+servers = backend
+versionamento = backend | frontend
+metodologias = []
+bigdata	= bd
+sap = backend
+cloud = backend
+sql = bd
+nosql = bd
+bd = backend
+automacao 
 python
 ruby
 php
@@ -38,14 +38,12 @@ BUILD
 MVVM
 frontend
 NLP
-*SUPORTE
 aws
 gcp
 AZURE
-SPRING
+SPRING = java
 ASP.NET
-*SERVICE DESK
-*LGPD
 BARRAMENTO
 BI
-gerenciador de dependencias
+gerenciador de dependencias = backend | frontend
+cms

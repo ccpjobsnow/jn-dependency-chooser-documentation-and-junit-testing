@@ -1,0 +1,3164 @@
+{
+    "list": [
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Core Infrastructure\u0027, \u0027Networking\u0027, \u0027Security\u0027, \u0027Storage\u0027, \u0027Big Data\u0027, \u0027Machine Learning\u0027, \u0027Data Analytics\u0027, \u0027Serverless Computing\u0027, \u0027Cloud Deployment\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 38,
+                    "totalTokenCount": 101
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027GCP\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Salesforce Administration\u0027, \u0027Salesforce Development\u0027, \u0027Salesforce Integration\u0027, \u0027Salesforce Customization\u0027, \u0027Salesforce Analytics\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 29,
+                    "totalTokenCount": 79
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SALESFORCE\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Cloud Computing\u0027, \u0027CRM\u0027, \u0027Data Analysis\u0027, \u0027Database Management\u0027, \u0027ITIL\u0027, \u0027Project Management\u0027, \u0027Salesforce Administration\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 33,
+                    "totalTokenCount": 83
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SALESFORCE\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Power Query\n- DAX\n- Power BI Desktop\n- Power BI Service\n- Power BI Embedded"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 22,
+                    "totalTokenCount": 72
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027POWER BI\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027ERP\u0027, \u0027CRM\u0027, \u0027BI\u0027, \u0027HANA\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 49,
+                    "candidatesTokenCount": 17,
+                    "totalTokenCount": 66
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SAP\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- [\u0027Cloud Computing Concepts\u0027]\n- [\u0027AWS Management Console\u0027]\n- [\u0027AWS Command-Line Interface (CLI)\u0027]\n- [\u0027Identity and Access Management (IAM)\u0027]\n- [\u0027Networking and Security\u0027]\n- [\u0027Compute Services (EC2, Lambda)\u0027]\n- [\u0027Storage Services (S3, EBS)\u0027]\n- [\u0027Database Services (RDS, DynamoDB)\u0027]\n- [\u0027Serverless Computing\u0027]\n- [\u0027Monitoring and Logging\u0027]"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 62,
+                    "candidatesTokenCount": 94,
+                    "totalTokenCount": 156
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027AWS\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Spring Framework Core Concepts\u0027, \u0027Spring Boot Architecture\u0027, \u0027Spring Boot Configuration\u0027, \u0027Spring Boot Starter Dependencies\u0027, \u0027Spring Boot Actuator\u0027, \u0027Spring Boot Data Integration\u0027, \u0027Spring Boot RESTful Web Services\u0027, \u0027Spring Boot Testing\u0027, \u0027Spring Boot Deployment\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 57,
+                    "totalTokenCount": 120
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027SPRING BOOT\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Bamboo\u0027, \u0027Travis CI\u0027, \u0027CircleCI\u0027, \u0027TeamCity\u0027, \u0027Azure DevOps\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 23,
+                    "totalTokenCount": 73
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027JENKINS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Salesforce\u0027, \u0027Dynamics CRM\u0027, \u0027HubSpot\u0027, \u0027Zoho CRM\u0027, \u0027SAP CRM\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 49,
+                    "candidatesTokenCount": 25,
+                    "totalTokenCount": 74
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027CRM\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Incident Management\n- Problem Management\n- Change Management\n- Service Level Management\n- Capacity Management\n- Availability Management\n- IT Service Continuity Management\n- IT Security Management\n- Service Desk Management\n- Configuration Management"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ],
+                        "citationMetadata": {
+                            "citationSources": [
+                                {
+                                    "startIndex": 45,
+                                    "endIndex": 175,
+                                    "uri": "https://www.computer.org/csdl/proceedings-article/srii/2012/4770a725/12OmNzBOidy",
+                                    "license": ""
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 44,
+                    "totalTokenCount": 94
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027ITIL\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Firewall management\n- Network security\n- Security auditing\n- Policy development\n- Intrusion detection\n- Access control\n- Vulnerability assessment\n- Patch management"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 32,
+                    "totalTokenCount": 95
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027FIREWALL\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- DevOps\n- CI/CD\n- Docker\n- Kubernetes\n- Cloud computing\n- Agile development\n- Collaboration\n- Version control\n- Troubleshooting\n- Problem-solving"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 36,
+                    "totalTokenCount": 86
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027GITLAB\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027SOAPUI\u0027, \u0027REST Assured\u0027, \u0027Jmeter\u0027, \u0027Katalon\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 22,
+                    "totalTokenCount": 72
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027POSTMAN\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Node.js\u0027, \u0027JavaScript\u0027, \u0027Schema Design\u0027, \u0027REST APIs\u0027, \u0027GraphQL Query Language\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 25,
+                    "totalTokenCount": 88
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027GRAPHQL\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- ORACLE SQL DEVELOPER\n- APEX\n- DATA INTEGRATION\n- CLOUD ADOPTION"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 21,
+                    "totalTokenCount": 72
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027ORACLE CLOUD\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- \u0027Java EE\u0027\n- \u0027Spring\u0027\n- \u0027Hibernate\u0027\n- \u0027RESTful\u0027\n- \u0027MySQL\u0027"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 26,
+                    "totalTokenCount": 76
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027JSF\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- \u0027DATA MINING\u0027\n- \u0027DATA WAREHOUSING\u0027\n- \u0027DATA VISUALIZATION\u0027"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 20,
+                    "totalTokenCount": 70
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027DATA CENTER\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Platform as a Service (PaaS)\n- Infrastructure as a Service (IaaS)\n- Cloud Computing\n- DevOps\n- Agile Development\n- Big Data\n- Machine Learning\n- Artificial Intelligence\n- Cybersecurity\n- Software Engineering"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 49,
+                    "totalTokenCount": 99
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SAAS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- \u0027COBOL\u0027\n- \u0027PL/I\u0027\n- \u0027JCL\u0027\n- \u0027VSAM\u0027\n- \u0027DB2\u0027"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 30,
+                    "totalTokenCount": 80
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027MAINFRAME\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Jira\u0027, \u0027Agile\u0027, \u0027Wiki\u0027, \u0027Markdown\u0027, \u0027Content editing\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 64,
+                    "candidatesTokenCount": 21,
+                    "totalTokenCount": 85
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027CONFLUENCE\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- API Design\n- Microservices\n- Cloud Computing\n- REST\n- OAuth\n- JSON\n- Web Services\n- SOA\n- Service Mesh\n- Protocol Buffers"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 36,
+                    "totalTokenCount": 87
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027API GATEWAY\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027HTML\u0027, \u0027CSS\u0027, \u0027PHP\u0027, \u0027JavaScript\u0027, \u0027MySQL\u0027, \u0027SEO\u0027, \u0027WordPress Theme Development\u0027, \u0027WordPress Plugin Development\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 32,
+                    "totalTokenCount": 95
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027WORDPRESS\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Cross-Platform Development\u0027, \u0027Mobile Application Development\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 16,
+                    "totalTokenCount": 67
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027XAMARIN\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027AWS\u0027, \u0027Azure\u0027, \u0027GCP\u0027, \u0027Kubernetes\u0027, \u0027Docker\u0027, \u0027DevOps\u0027, \u0027Python\u0027, \u0027Java\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 30,
+                    "totalTokenCount": 80
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027FORTINET\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- OAuth2.0"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 5,
+                    "totalTokenCount": 55
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027OAUTH\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Java\n- Software Development\n- Eclipse IDE\n- Agile Development\n- Git"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 17,
+                    "totalTokenCount": 68
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027ECLIPSE\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027SQL\u0027, \u0027Database Management\u0027, \u0027Data Analysis\u0027, \u0027Data Warehousing\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 21,
+                    "totalTokenCount": 84
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027SQLITE\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027ORM\u0027, \u0027SQL\u0027, \u0027NoSQL\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 14,
+                    "totalTokenCount": 64
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SQLITE\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027JavaScript\u0027, \u0027Node.js\u0027, \u0027Mocha\u0027, \u0027Chai\u0027, \u0027Sinon\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 22,
+                    "totalTokenCount": 85
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027CYPRESS\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Java\n- Groovy\n- Scripting\n- Build automation\n- Dependency management\n- Testing frameworks\n- Continuous Integration/Continuous Delivery (CI/CD)\n- DevOps"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 37,
+                    "totalTokenCount": 87
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027GRADLE\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027SAP Apparel and Footwear\u0027, \u0027SAP Customer Relationship Management (SAP CRM)\u0027, \u0027SAP Enterprise Resource Planning (ERP)\u0027, \u0027SAP Extended Warehouse Management (EWM)\u0027, \u0027SAP Fashion Management\u0027, \u0027SAP Global Trade Services (GTS)\u0027, \u0027SAP Hybris\u0027, \u0027SAP Logistics Execution (LE)\u0027, \u0027SAP Material Management (MM)\u0027, \u0027SAP Plant Maintenance (PM)\u0027, \u0027SAP Product Lifecycle Management (PLM)\u0027, \u0027SAP Production Planning (PP)\u0027, \u0027SAP Quality Management (QM)\u0027, \u0027SAP Sales and Distribution (SD)\u0027, \u0027SAP Supply Chain Management (SCM)\u0027, \u0027SAP Transportation Management (TM)\u0027, \u0027SAP Utilities\u0027, \u0027SAP Warehouse Management (WM)\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 133,
+                    "totalTokenCount": 183
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SAP RETAIL\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027MANIFEST\u0027, \u0027YAML\u0027, \u0027JSON\u0027, \u0027TOX\u0027, \u0027HELM\u0027, \u0027ANSIBLE\u0027, \u0027TERRAFORM\u0027, \u0027SALTSTACK\u0027, \u0027CHEF\u0027, \u0027DOCKER\u0027, \u0027KUBERNETES\u0027, \u0027JENKINS\u0027, \u0027GITLAB-CI\u0027, \u0027CIRCLECI\u0027, \u0027TRAVIS\u0027, \u0027APPVEYOR\u0027, \u0027CODECOV\u0027, \u0027COVERAGE\u0027, \u0027PYTEST\u0027, \u0027NOSETEST\u0027, \u0027UNITTEST\u0027, \u0027PYCHARM\u0027, \u0027VISUAL-STUDIO\u0027, \u0027VSCODE\u0027, \u0027ATOM\u0027, \u0027SUBLIME-TEXT\u0027, \u0027PYDE\u0027, \u0027IPYTHON\u0027, \u0027JUPYTER-NOTEBOOK\u0027, \u0027SQL\u0027, \u0027MONGODB\u0027, \u0027ELASTICSEARCH\u0027, \u0027REDIS\u0027, \u0027RABBITMQ\u0027, \u0027KAFKA\u0027, \u0027AWS\u0027, \u0027GCP\u0027, \u0027AZURE\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 171,
+                    "totalTokenCount": 222
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027PUPPET\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Python\u0027, \u0027Java\u0027, \u0027C++\u0027, \u0027C#\u0027, \u0027SQL\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 22,
+                    "totalTokenCount": 85
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027SONAR\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Apache Kafka\n- Apache Spark\n- Apache Hadoop\n- Python\n- Java\n- SQL\n- Data Analytics\n- Machine Learning"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 28,
+                    "totalTokenCount": 78
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027AIRFLOW\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Java\u0027, \u0027XML\u0027, \u0027SQL\u0027, \u0027Unit testing\u0027, \u0027Version control\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 65,
+                    "candidatesTokenCount": 22,
+                    "totalTokenCount": 87
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027SONARQUBE\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "[\u0027ALM\u0027, \u0027Jenkins\u0027, \u0027API Testing\u0027, \u0027Performance Testing\u0027, \u0027Security Testing\u0027, \u0027Big Data\u0027], \u0027Data Science\u0027, \u0027Machine Learning\u0027, \u0027Cloud Computing\u0027, \u0027DevOps\u0027, \u0027Agile\u0027, \u0027Scrum\u0027]"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 52,
+                    "candidatesTokenCount": 45,
+                    "totalTokenCount": 97
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SONARQUBE\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027AWS Systems Manager\u0027, \u0027AWS CloudFormation\u0027, \u0027Apache Spark\u0027, \u0027Azure Databricks\u0027, \u0027AWS Glue\u0027, \u0027Azure Synapse Analytics\u0027, \u0027HiveQL\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 52,
+                    "candidatesTokenCount": 39,
+                    "totalTokenCount": 91
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027DATABRICKS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Agile testing\n- SDLC\n- Testing Tools\n- Communication\n- Business Analysis"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 62,
+                    "candidatesTokenCount": 18,
+                    "totalTokenCount": 80
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027ALM\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027OOP concepts\u0027, \u0027Data structures\u0027, \u0027Algorithms\u0027, \u0027Control flow\u0027, \u0027Exception handling\u0027, \u0027File handling\u0027, \u0027Generics\u0027, \u0027Delegates\u0027, \u0027Events\u0027, \u0027LINQ\u0027, \u0027ASP.NET\u0027, \u0027Web API\u0027, \u0027Entity Framework\u0027, \u0027Unit testing\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 64,
+                    "candidatesTokenCount": 59,
+                    "totalTokenCount": 123
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027CSHARP\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Communication\u0027, \u0027Leadership\u0027, \u0027Stakeholder Management\u0027, \u0027Risk Management\u0027, \u0027Scope Management\u0027, \u0027Time Management\u0027, \u0027Cost Management\u0027, \u0027Quality Management\u0027, \u0027Procurement Management\u0027, \u0027Integration Management\u0027, \u0027Change Management\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 48,
+                    "totalTokenCount": 99
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027PMBOK\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Network Administration\n- TCP/IP\n- DNS Protocols\n- DNS Troubleshooting\n- Zone File Management\n- DNS Security\n- DNS Performance\n- DNS Automation"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 62,
+                    "candidatesTokenCount": 33,
+                    "totalTokenCount": 95
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027DNS\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Apex\u0027, \u0027Visualforce Markup\u0027, \u0027Controller\u0027, \u0027Event-Driven Programming\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 21,
+                    "totalTokenCount": 84
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027VISUALFORCE\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Demand Forecasting\u0027, \u0027Supply Chain Planning\u0027, \u0027Inventory Management\u0027, \u0027Transportation Management\u0027, \u0027Logistics Management\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 25,
+                    "totalTokenCount": 76
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SAP IBP\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Apache Liferay Portal\n- Liferay Blade CLI\n- Liferay DXP\n- Liferay IDE\n- Liferay Portal\n- Liferay Themes Development\n- Liferay Web Services\n- Liferay Plugins Development\n- Liferay Mobile Development\n- Liferay Social Collaboration\n- Liferay Cloud Development\n- Liferay Integration with Other Systems\n- Liferay Performance Optimization\n- Liferay Security\n- Liferay Data Management\n- Liferay Content Management\n- Liferay Workflow Management\n- Liferay UI Development\n- Liferay AJAX Development\n- Liferay JavaScript Development\n- Liferay CSS Development\n- Liferay HTML Development"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 152,
+                    "totalTokenCount": 203
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027LIFERAY\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- \u0027PAN-OS\u0027\n- \u0027Check Point\u0027\n- \u0027Palo Alto Networks\u0027"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 19,
+                    "totalTokenCount": 70
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027FORTIGATE\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- PowerShell\n- Windows Server Administration\n- Networking\n- Active Directory\n- SCCM Fundamentals"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 19,
+                    "totalTokenCount": 82
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027SCCM\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Python\n- JavaScript\n- Java\n- C++\n- R\n- SQL\n- HTML\n- CSS"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 24,
+                    "totalTokenCount": 74
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027PERL\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- \u0027APACHE-SPARK\u0027\n- \u0027HADOOP\u0027\n- \u0027HIVE\u0027\n- \u0027HBASE\u0027\n- \u0027SQL\u0027\n- \u0027JAVA\u0027\n- \u0027SCALA\u0027\n- \u0027PYTHON\u0027"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 48,
+                    "totalTokenCount": 98
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027CLOUDERA\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027React\u0027, \u0027JavaScript\u0027, \u0027CSS\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 13,
+                    "totalTokenCount": 76
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027MATERIAL UI\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "[\u0027Zendesk\u0027],"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 52,
+                    "candidatesTokenCount": 4,
+                    "totalTokenCount": 56
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027ZENDESK\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Network Security\u0027, \u0027IPSEC Standards\u0027, \u0027Encryption Algorithms\u0027, \u0027Key Management\u0027, \u0027Implementation and Troubleshooting\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 26,
+                    "totalTokenCount": 89
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027IPSEC\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Cybersecurity Framework (CSF)\n- NIST Risk Management Framework (RMF)\n- NIST 800-53\n- FIPS 140-2\n- OMB Circular A-130"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 49,
+                    "candidatesTokenCount": 45,
+                    "totalTokenCount": 94
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027NIST\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "[\u0027NumPy\u0027, \u0027SciPy\u0027, \u0027Matplotlib\u0027 \u0027Seaborn\u0027]"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 16,
+                    "totalTokenCount": 67
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027PANDAS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Domain-driven design\u0027, \u0027Event-sourcing\u0027, \u0027Messaging\u0027, \u0027Concurrency\u0027, \u0027Testing\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 25,
+                    "totalTokenCount": 88
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027CQRS\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Knowledge of programming languages (e.g., Python, Ruby, Node.js)\u0027, \u0027Familiarity with Git and version control\u0027, \u0027Understanding of cloud computing concepts\u0027, \u0027Experience with Heroku platform and its features\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 49,
+                    "totalTokenCount": 112
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027HEROKU\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Java\u0027, \u0027Event-driven programming\u0027, \u0027Component-based development\u0027, \u0027MVC architecture\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 23,
+                    "totalTokenCount": 86
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027SWING\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- GRUNT\n- UGLIFY\n- WATCH\n- CONCATENATE\n- UGLIFYCSS"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 23,
+                    "totalTokenCount": 73
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027GRUNT\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- \u0027BRBACKUP\u0027\n- \u0027BRMAN\u0027\n- \u0027DRAC\u0027\n- \u0027GPFS\u0027\n- \u0027HADR\u0027\n- \u0027POWERMOUNT\u0027\n- \u0027RSCT\u0027\n- \u0027SAN\u0027\n- \u0027SVM\u0027"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 51,
+                    "totalTokenCount": 101
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027RMAN\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- PhoneGap\n- Ionic\n- React Native\n- Xamarin\n- Flutter"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 16,
+                    "totalTokenCount": 66
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027CORDOVA\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- \u0027JAVAFX\u0027\n- \u0027EL\u0027\n- \u0027POSTGRESQL\u0027\n- \u0027ANGULAR\u0027\n- \u0027BOOTSTRAP\u0027\n- \u0027CSS3\u0027\n- \u0027HTML5\u0027\n- \u0027JAVA\u0027\n- \u0027PLSQL\u0027\n- \u0027REACT\u0027\n- \u0027SPRING\u0027\n- \u0027SWIFT\u0027\n- \u0027REACT NATIVE\u0027"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 76,
+                    "totalTokenCount": 127
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SYMFONY\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Data Analytics\n- Cloud Computing\n- Artificial Intelligence\n- Machine Learning\n- Blockchain\n- Cybersecurity\n- Agile Development\n- DevOps\n- Software Development\n- User Experience (UX) Design"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 40,
+                    "totalTokenCount": 90
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027TDF\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027Firewall Management\u0027, \u0027Network Security\u0027, \u0027UTM\u0027, \u0027VPN\u0027, \u0027IDS/IPS\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 24,
+                    "totalTokenCount": 75
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SONICWALL\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- DevOps\n- MLOps\n- CloudOps\n- SecOps\n- BizOps"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 19,
+                    "totalTokenCount": 69
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027DATAOPS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "[\u0027]"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 2,
+                    "totalTokenCount": 53
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027CRYSTAL REPORTS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```python\n[\u0027endpoint security\u0027, \u0027network security\u0027, \u0027cloud security\u0027, \u0027managed security services\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "LOW"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 22,
+                    "totalTokenCount": 73
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027SOPHOS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Network Fundamentals\n- IP Addressing and Subnetting\n- Routing and Switching\n- Firewall and NAT Concepts\n- NAT Configuration and Troubleshooting"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 62,
+                    "candidatesTokenCount": 28,
+                    "totalTokenCount": 90
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027NAT\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Communication\n- Leadership\n- Teamwork\n- Problem Solving\n- Conflict Resolution\n- Time Management\n- Decision Making\n- Strategic Planning\n- Customer Service\n- Technical Knowledge"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 36,
+                    "totalTokenCount": 99
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027SERVICE MANAGER\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027DB2\u0027, \u0027 Ingres\u0027, \u0027MysQL\u0027, \u0027Oracle\u0027, \u0027PostgreSQL\u0027, \u0027SQL Server\u0027, \u0027Sybase\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 31,
+                    "totalTokenCount": 81
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027FIREBIRD\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Data Management\u0027, \u0027Data Governance\u0027, \u0027Data Quality\u0027, \u0027Data Analytics\u0027, \u0027Data Warehousing\u0027, \u0027Data Modeling\u0027, \u0027Data Integration\u0027, \u0027Metadata Management\u0027, \u0027Master Data Management\u0027, \u0027Data Security\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 46,
+                    "totalTokenCount": 109
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027IDM\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Agile principles\u0027, \u0027Scrum framework\u0027, \u0027Product management\u0027, \u0027Stakeholder engagement\u0027, \u0027Team facilitation\u0027, \u0027User story mapping\u0027, \u0027Release planning\u0027, \u0027Sprint planning\u0027, \u0027Sprint review\u0027, \u0027Sprint retrospective\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 63,
+                    "candidatesTokenCount": 47,
+                    "totalTokenCount": 110
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in \u0027PSPO\u0027? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027Analytical Skills\u0027, \u0027Communication Skills\u0027, \u0027Project Management Skills\u0027, \u0027Technical Writing Skills\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 49,
+                    "candidatesTokenCount": 22,
+                    "totalTokenCount": 71
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027RFP\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- PYTORCH\n- KERAS\n- SCIKIT-LEARN\n- H2O.AI\n- THEANO\n- CAFFE\n- MXNET\n- CNTK\n- JAX\n- NEURAL NETWORKS API"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 51,
+                    "candidatesTokenCount": 49,
+                    "totalTokenCount": 100
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027TENSORFLOW\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "```\n[\u0027PL/SQL\u0027, \u0027SQL\u0027, \u0027Oracle Database\u0027, \u0027Data Modeling\u0027]\n```"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 20,
+                    "totalTokenCount": 70
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027TOAD\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "[\u0027MACHINE LEARNING\u0027, \u0027BIG DATA\u0027, \u0027DATA ANALYSIS\u0027, \u0027CLOUD COMPUTING\u0027, \u0027ARTIFICIAL INTELLIGENCE"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 23,
+                    "totalTokenCount": 73
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027DATA MINING\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        },
+        {
+            "response": {
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {
+                                    "text": "- Network analysis\n- Network design\n- Network management\n- Network security\n- Quality of service (QoS)"
+                                }
+                            ],
+                            "role": "model"
+                        },
+                        "finishReason": "STOP",
+                        "index": 0,
+                        "safetyRatings": [
+                            {
+                                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HATE_SPEECH",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_HARASSMENT",
+                                "probability": "NEGLIGIBLE"
+                            },
+                            {
+                                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                                "probability": "NEGLIGIBLE"
+                            }
+                        ]
+                    }
+                ],
+                "usageMetadata": {
+                    "promptTokenCount": 50,
+                    "candidatesTokenCount": 24,
+                    "totalTokenCount": 74
+                }
+            },
+            "request": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Using the information technology context I ask you all similar skills like \u0027QOS\u0027? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: [\u0027requiredSkill1\u0027, \u0027requiredSkill2\u0027] without break line \"                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+        }
+    ]
+}

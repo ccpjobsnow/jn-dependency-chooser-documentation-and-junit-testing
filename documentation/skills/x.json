@@ -1,0 +1,1136 @@
+{"gemini":true,"vagas":15.0,"word":"SOFTWARE TESTING"}
+{"gemini":true,"vagas":55.0,"word":"PROJECT MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"ADAPTABILITY"}
+{"gemini":true,"vagas":64.0,"word":"INNOVATION"}
+{"gemini":true,"vagas":250.0,"word":"CLOUD COMPUTING"}
+{"gemini":true,"vagas":18.0,"word":"NETWORK SECURITY"}
+{"gemini":true,"vagas":8.0,"word":"TEAMWORK SKILLS"}
+{"gemini":true,"vagas":248.0,"word":"COMMUNICATION SKILLS"}
+{"gemini":true,"vagas":3.0,"word":"MOBILE DEVELOPMENT"}
+{"gemini":true,"vagas":35.0,"word":"ANALYTICAL SKILLS"}
+{"gemini":true,"vagas":12.0,"word":"ATTENTION TO DETAIL"}
+{"gemini":true,"vagas":29.0,"word":"AGILE DEVELOPMENT"}
+{"gemini":true,"vagas":43.0,"word":"SOFTWARE DESIGN"}
+{"gemini":true,"vagas":11.0,"word":"PROBLEM SOLVING SKILLS"}
+{"gemini":true,"vagas":45.0,"word":"SOFTWARE ENGINEERING"}
+{"gemini":true,"vagas":4.0,"word":"CRITICAL THINKING SKILLS"}
+{"gemini":true,"vagas":26.0,"word":"WEB DEVELOPMENT"}
+{"gemini":true,"vagas":9.0,"word":"SOFTWARE ARCHITECTURE"}
+{"gemini":true,"vagas":21.0,"word":"OPERATING SYSTEMS"}
+{"gemini":true,"vagas":10.0,"word":"CREATIVITY"}
+{"gemini":true,"vagas":6.0,"word":"EMBEDDED SYSTEMS"}
+{"gemini":true,"vagas":5.0,"word":"BUSINESS ANALYSIS"}
+{"gemini":true,"vagas":26.0,"word":"OBJECT-ORIENTED PROGRAMMING"}
+{"gemini":true,"vagas":17.0,"word":"MULTITHREADING"}
+{"gemini":true,"vagas":12.0,"word":"ALGORITHMS"}
+{"gemini":true,"vagas":17.0,"word":"DATA STRUCTURES"}
+{"gemini":true,"vagas":72.0,"word":"DATA ANALYTICS"}
+{"gemini":true,"vagas":135.0,"word":"ASP.NET CORE"}
+{"gemini":true,"vagas":23.0,"word":"DATABASE MANAGEMENT"}
+{"gemini":true,"vagas":399.0,"word":"REACT.JS"}
+{"gemini":true,"vagas":38.0,"word":"DEBUGGING"}
+{"gemini":true,"vagas":76.0,"word":"DOM"}
+{"gemini":true,"vagas":33.0,"word":"ES5"}
+{"gemini":true,"vagas":200.0,"word":"ES6"}
+{"gemini":true,"vagas":4764.0,"word":"REACT"}
+{"gemini":true,"vagas":827.0,"word":"ABAP"}
+{"gemini":true,"vagas":156.0,"word":"FICO"}
+{"gemini":true,"vagas":3.0,"word":"ORACLE NETSUITE"}
+{"gemini":true,"vagas":46.0,"word":"SUCCESSFACTORS"}
+{"gemini":true,"vagas":20.0,"word":"WORKDAY"}
+{"gemini":true,"vagas":174.0,"word":"HYBRIS"}
+{"gemini":true,"vagas":76.0,"word":"ARIBA"}
+{"gemini":true,"vagas":6.0,"word":"INFOR"}
+{"gemini":true,"vagas":39.0,"word":"RXJS"}
+{"gemini":true,"vagas":15.0,"word":"ANGULAR CLI"}
+{"gemini":true,"vagas":3.0,"word":"SVELTE"}
+{"gemini":true,"vagas":2.0,"word":"EMBER"}
+{"gemini":true,"vagas":2.0,"word":"EXPRESS FRAMEWORK"}
+{"gemini":true,"vagas":52.0,"word":"MODULES"}
+{"gemini":true,"vagas":79.0,"word":"RESTFUL APIS"}
+{"gemini":true,"vagas":6.0,"word":"AWS RDS"}
+{"gemini":true,"vagas":6.0,"word":"AWS DYNAMODB"}
+{"gemini":true,"vagas":33.0,"word":"AWS S3"}
+{"gemini":true,"vagas":5.0,"word":"AWS VPC"}
+{"gemini":true,"vagas":5.0,"word":"AWS CLOUDWATCH"}
+{"gemini":true,"vagas":7.0,"word":"MERCURIAL"}
+{"gemini":true,"vagas":31.0,"word":"BAMBOO"}
+{"gemini":true,"vagas":17.0,"word":"ORACLE CLOUD INFRASTRUCTURE"}
+{"gemini":true,"vagas":5.0,"word":"ORACLE REPORTS"}
+{"gemini":true,"vagas":3.0,"word":"ORACLE BUSINESS INTELLIGENCE"}
+{"gemini":true,"vagas":93.0,"word":"ORACLE FORMS"}
+{"gemini":true,"vagas":53.0,"word":"ORACLE DATABASE"}
+{"gemini":true,"vagas":39.0,"word":"ORACLE DATA INTEGRATOR"}
+{"gemini":true,"vagas":10.0,"word":"DATABASE DESIGN"}
+{"gemini":true,"vagas":9.0,"word":"DATA MANIPULATION"}
+{"gemini":true,"vagas":28.0,"word":"DATA MODELING"}
+{"gemini":true,"vagas":10.0,"word":"DATABASE ADMINISTRATION"}
+{"gemini":true,"vagas":23.0,"word":"SQL SERVER INTEGRATION SERVICES"}
+{"gemini":true,"vagas":6.0,"word":"SQL SERVER REPORTING SERVICES"}
+{"gemini":true,"vagas":7.0,"word":"AZURE SQL DATABASE"}
+{"gemini":true,"vagas":5.0,"word":"AZURE FUNDAMENTALS"}
+{"gemini":true,"vagas":12.0,"word":"VIRTUAL MACHINES"}
+{"gemini":true,"vagas":19.0,"word":"IDENTITY AND ACCESS"}
+{"gemini":true,"vagas":145.0,"word":"NETWORKING"}
+{"gemini":true,"vagas":12664.0,"word":"R"}
+{"gemini":true,"vagas":137.0,"word":"SOFTWARE DEVELOPMENT"}
+{"gemini":true,"vagas":5.0,"word":"DATA ANALYSIS"}
+{"gemini":true,"vagas":1542.0,"word":"MYSQL"}
+{"gemini":true,"vagas":567.0,"word":"REACTJS"}
+{"gemini":true,"vagas":27.0,"word":"DEPENDENCY INJECTION"}
+{"gemini":true,"vagas":84.0,"word":"SPRING SECURITY"}
+{"gemini":true,"vagas":157.0,"word":"SPRING FRAMEWORK"}
+{"gemini":true,"vagas":70.0,"word":"RESTFUL API"}
+{"gemini":true,"vagas":26.0,"word":"ZEND FRAMEWORK"}
+{"gemini":true,"vagas":17.0,"word":"FRONT-END DEVELOPMENT"}
+{"gemini":true,"vagas":14.0,"word":"CONTAINER ORCHESTRATION"}
+{"gemini":true,"vagas":78.0,"word":"CONTAINERIZATION"}
+{"gemini":true,"vagas":4.0,"word":"VUE ROUTER"}
+{"gemini":true,"vagas":27.0,"word":"HBASE"}
+{"gemini":true,"vagas":21.0,"word":"SOLR"}
+{"gemini":true,"vagas":41.0,"word":"NEO4J"}
+{"gemini":true,"vagas":14.0,"word":"FLINK"}
+{"gemini":true,"vagas":3.0,"word":"PIG"}
+{"gemini":true,"vagas":6.0,"word":"CLOUD STORAGE"}
+{"gemini":true,"vagas":9.0,"word":"CLOUD DEPLOYMENT"}
+{"gemini":true,"vagas":2.0,"word":"JAVASCRIPT KNOWLEDGE"}
+{"gemini":true,"vagas":751.0,"word":"INTERFACES"}
+{"gemini":true,"vagas":7.0,"word":"REDSHIFT SQL"}
+{"gemini":true,"vagas":194.0,"word":"AWS CLOUD"}
+{"gemini":true,"vagas":135.0,"word":"AZURE CLOUD"}
+{"gemini":true,"vagas":853.0,"word":"BOOT"}
+{"gemini":true,"vagas":5.0,"word":"SALESCLOUD"}
+{"gemini":true,"vagas":3.0,"word":"MARKETINGCLOUD"}
+{"gemini":true,"vagas":192.0,"word":"REPORTING"}
+{"gemini":true,"vagas":106.0,"word":"LIGHTNING"}
+{"gemini":true,"vagas":2.0,"word":"SERVICECLOUD"}
+{"gemini":true,"vagas":258.0,"word":"FLOW"}
+{"gemini":true,"vagas":84.0,"word":"SALES CLOUD"}
+{"gemini":true,"vagas":23.0,"word":"SOQL"}
+{"gemini":true,"vagas":8.0,"word":"SOSL"}
+{"gemini":true,"vagas":103.0,"word":"SERVICE CLOUD"}
+{"gemini":true,"vagas":91.0,"word":"MARKETING CLOUD"}
+{"gemini":true,"vagas":5.0,"word":"LIGHTNING EXPERIENCE"}
+{"gemini":true,"vagas":25.0,"word":"SALESFORCE LIGHTNING"}
+{"gemini":true,"vagas":14.0,"word":"SALESFORCE PLATFORM"}
+{"gemini":true,"vagas":5.0,"word":"EXPO"}
+{"gemini":true,"vagas":51.0,"word":"MOBX"}
+{"gemini":true,"vagas":43.0,"word":"REACT HOOKS"}
+{"gemini":true,"vagas":42.0,"word":"INFRASTRUCTURE AS CODE"}
+{"gemini":true,"vagas":58.0,"word":"YAML"}
+{"gemini":true,"vagas":19.0,"word":"RUST"}
+{"gemini":true,"vagas":10.0,"word":"CLOJURE"}
+{"gemini":true,"vagas":4.0,"word":"LUA"}
+{"gemini":true,"vagas":3.0,"word":"ERLANG"}
+{"gemini":true,"vagas":68.0,"word":"DOCUMENTATION"}
+{"gemini":true,"vagas":4.0,"word":"SYNTAX"}
+{"gemini":true,"vagas":32.0,"word":"UNIT TESTING"}
+{"gemini":true,"vagas":5.0,"word":"POWER BI DESKTOP"}
+{"gemini":true,"vagas":17.0,"word":"POWER QUERY"}
+{"gemini":true,"vagas":3.0,"word":"POWER PIVOT"}
+{"gemini":true,"vagas":4.0,"word":"D3.JS"}
+{"gemini":true,"vagas":51.0,"word":"DATA VISUALIZATION"}
+{"gemini":true,"vagas":2.0,"word":"GOOGLE MEET"}
+{"gemini":true,"vagas":5.0,"word":"ASANA"}
+{"gemini":true,"vagas":11.0,"word":"ZOOM"}
+{"gemini":true,"vagas":14.0,"word":"DATABASE SYSTEMS"}
+{"gemini":true,"vagas":47.0,"word":"LINQ"}
+{"gemini":true,"vagas":418.0,"word":"ENTITY FRAMEWORK"}
+{"gemini":true,"vagas":12.0,"word":"WF"}
+{"gemini":true,"vagas":6.0,"word":"SAP HANA CLOUD"}
+{"gemini":true,"vagas":26.0,"word":"SAP ERP"}
+{"gemini":true,"vagas":108.0,"word":"SAP BW"}
+{"gemini":true,"vagas":14.0,"word":"SAP ANALYTICS CLOUD"}
+{"gemini":true,"vagas":402.0,"word":"HANA"}
+{"gemini":true,"vagas":2.0,"word":"NATIVE DEVELOPMENT"}
+{"gemini":true,"vagas":5.0,"word":"ANDROID DEVELOPMENT"}
+{"gemini":true,"vagas":10.0,"word":"FUNCTIONAL PROGRAMMING"}
+{"gemini":true,"vagas":3.0,"word":"DATA TRANSFORMATION"}
+{"gemini":true,"vagas":23.0,"word":"SAP NETWEAVER"}
+{"gemini":true,"vagas":98.0,"word":"SAP CO"}
+{"gemini":true,"vagas":453.0,"word":"SAP SD"}
+{"gemini":true,"vagas":319.0,"word":"SAP MM"}
+{"gemini":true,"vagas":34.0,"word":"SAP CRM"}
+{"gemini":true,"vagas":133.0,"word":"SAP BASIS"}
+{"gemini":true,"vagas":328.0,"word":"SAP FI"}
+{"gemini":true,"vagas":7.0,"word":"SPRINT PLANNING"}
+{"gemini":true,"vagas":51.0,"word":"REQUIREMENTS GATHERING"}
+{"gemini":true,"vagas":2.0,"word":"BASECAMP"}
+{"gemini":true,"vagas":2.0,"word":"KANBANIZE"}
+{"gemini":true,"vagas":26.0,"word":"TEAMWORK"}
+{"gemini":true,"vagas":3.0,"word":"JIRA ALIGN"}
+{"gemini":true,"vagas":2.0,"word":"CONTINUOUS DEVELOPMENT"}
+{"gemini":true,"vagas":68.0,"word":"CUSTOMER SERVICE"}
+{"gemini":true,"vagas":502.0,"word":"COMMUNICATION"}
+{"gemini":true,"vagas":14.0,"word":"HUBSPOT"}
+{"gemini":true,"vagas":10.0,"word":"MICROSOFT DYNAMICS CRM"}
+{"gemini":true,"vagas":253.0,"word":"REACT JS"}
+{"gemini":true,"vagas":16.0,"word":"AZURE PIPELINES"}
+{"gemini":true,"vagas":6.0,"word":"AZURE REPOS"}
+{"gemini":true,"vagas":6.0,"word":"AZURE BOARDS"}
+{"gemini":true,"vagas":13.0,"word":"AZURE GIT"}
+{"gemini":true,"vagas":4.0,"word":"REACTIVE PROGRAMMING"}
+{"gemini":true,"vagas":36.0,"word":"STATE MANAGEMENT"}
+{"gemini":true,"vagas":80.0,"word":"MATERIAL DESIGN"}
+{"gemini":true,"vagas":40.0,"word":"COMPOSER"}
+{"gemini":true,"vagas":5.0,"word":"DATA PROCESSING"}
+{"gemini":true,"vagas":11.0,"word":"EVENT-DRIVEN ARCHITECTURE"}
+{"gemini":true,"vagas":3.0,"word":"MESSAGE QUEUING"}
+{"gemini":true,"vagas":84.0,"word":"REST APIS"}
+{"gemini":true,"vagas":6.0,"word":"STORM"}
+{"gemini":true,"vagas":9.0,"word":"SYSTEMS ADMINISTRATION"}
+{"gemini":true,"vagas":257.0,"word":"PROGRAMMING"}
+{"gemini":true,"vagas":2.0,"word":"SERVICE LEVEL MANAGEMENT"}
+{"gemini":true,"vagas":9.0,"word":"INCIDENT MANAGEMENT"}
+{"gemini":true,"vagas":12.0,"word":"RELEASE MANAGEMENT"}
+{"gemini":true,"vagas":4.0,"word":"PROBLEM MANAGEMENT"}
+{"gemini":true,"vagas":58.0,"word":"CHANGE MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"FIREWALL MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"INTRUSION PREVENTION"}
+{"gemini":true,"vagas":10.0,"word":"ENCRYPTION"}
+{"gemini":true,"vagas":18.0,"word":"ACCESS CONTROL"}
+{"gemini":true,"vagas":12.0,"word":"AMQP"}
+{"gemini":true,"vagas":7.0,"word":"MESSAGE BROKERS"}
+{"gemini":true,"vagas":34.0,"word":"MESSAGING"}
+{"gemini":true,"vagas":62.0,"word":"DATA MANAGEMENT"}
+{"gemini":true,"vagas":2053.0,"word":"WINDOWS"}
+{"gemini":true,"vagas":14.0,"word":"4GL"}
+{"gemini":true,"vagas":2.0,"word":"ABL"}
+{"gemini":true,"vagas":8.0,"word":"JBOSS WILDFLY"}
+{"gemini":true,"vagas":28.0,"word":"JBOSS EAP"}
+{"gemini":true,"vagas":22.0,"word":"WEBLOGIC SERVER"}
+{"gemini":true,"vagas":84.0,"word":"WINDOWS FORMS"}
+{"gemini":true,"vagas":5.0,"word":"SOFTWARE DESIGN PATTERNS"}
+{"gemini":true,"vagas":74.0,"word":"VERSION CONTROL"}
+{"gemini":true,"vagas":158.0,"word":"UX DESIGN"}
+{"gemini":true,"vagas":2.0,"word":"OBJECT PASCAL"}
+{"gemini":true,"vagas":20.0,"word":"TEST-DRIVEN DEVELOPMENT"}
+{"gemini":true,"vagas":4.0,"word":"CODE MANAGEMENT"}
+{"gemini":true,"vagas":57.0,"word":"COLLABORATION"}
+{"gemini":true,"vagas":144.0,"word":"CODE REVIEW"}
+{"gemini":true,"vagas":7.0,"word":"MERGE REQUESTS"}
+{"gemini":true,"vagas":19.0,"word":"DATA INTEGRATION"}
+{"gemini":true,"vagas":49.0,"word":"POWER AUTOMATE"}
+{"gemini":true,"vagas":23.0,"word":"NLP"}
+{"gemini":true,"vagas":6.0,"word":"BIG DATA ANALYTICS"}
+{"gemini":true,"vagas":704.0,"word":"AI"}
+{"gemini":true,"vagas":10.0,"word":"OCR"}
+{"gemini":true,"vagas":33.0,"word":"ML"}
+{"gemini":true,"vagas":10.0,"word":"APACHE DRUID"}
+{"gemini":true,"vagas":8.0,"word":"COMPUTER VISION"}
+{"gemini":true,"vagas":3.0,"word":"LAKEHOUSE"}
+{"gemini":true,"vagas":3.0,"word":"DATA PRIVACY"}
+{"gemini":true,"vagas":24.0,"word":"APACHE AIRFLOW"}
+{"gemini":true,"vagas":21.0,"word":"PHOENIX"}
+{"gemini":true,"vagas":8.0,"word":"DATA SECURITY"}
+{"gemini":true,"vagas":9.0,"word":"ZEPPELIN"}
+{"gemini":true,"vagas":14.0,"word":"APACHE HIVE"}
+{"gemini":true,"vagas":41.0,"word":"DATA WAREHOUSING"}
+{"gemini":true,"vagas":34.0,"word":"DATA ENGINEERING"}
+{"gemini":true,"vagas":8.0,"word":"APACHE CASSANDRA"}
+{"gemini":true,"vagas":6.0,"word":"APACHE FLUME"}
+{"gemini":true,"vagas":8.0,"word":"STAR SCHEMA"}
+{"gemini":true,"vagas":8.0,"word":"DATA GOVERNANCE"}
+{"gemini":true,"vagas":7.0,"word":"OOZIE"}
+{"gemini":true,"vagas":14.0,"word":"APACHE NIFI"}
+{"gemini":true,"vagas":3.0,"word":"SPARK SQL"}
+{"gemini":true,"vagas":2.0,"word":"METADATA MANAGEMENT"}
+{"gemini":true,"vagas":21.0,"word":"APACHE HADOOP"}
+{"gemini":true,"vagas":13.0,"word":"APACHE HBASE"}
+{"gemini":true,"vagas":2.0,"word":"APACHE FLINK"}
+{"gemini":true,"vagas":18.0,"word":"MASTER DATA MANAGEMENT"}
+{"gemini":true,"vagas":5.0,"word":"GOOGLE BIGQUERY"}
+{"gemini":true,"vagas":26.0,"word":"AZURE DATABRICKS"}
+{"gemini":true,"vagas":2.0,"word":"AZURE SYNAPSE ANALYTICS"}
+{"gemini":true,"vagas":13.0,"word":"REDUX SAGA"}
+{"gemini":true,"vagas":13.0,"word":"PULL REQUEST"}
+{"gemini":true,"vagas":6.0,"word":"BRANCHING"}
+{"gemini":true,"vagas":4.0,"word":"MERGING"}
+{"gemini":true,"vagas":21.0,"word":"STYLUS"}
+{"gemini":true,"vagas":3.0,"word":"COMPASS"}
+{"gemini":true,"vagas":4.0,"word":"IBATIS"}
+{"gemini":true,"vagas":10.0,"word":"SPRING DATA JPA"}
+{"gemini":true,"vagas":3.0,"word":"DATABASE CONCEPTS"}
+{"gemini":true,"vagas":3.0,"word":"SPRING DATA REST"}
+{"gemini":true,"vagas":5.0,"word":"COMMAND LINE"}
+{"gemini":true,"vagas":65.0,"word":"SDLC"}
+{"gemini":true,"vagas":3572.0,"word":"DATA"}
+{"gemini":true,"vagas":7.0,"word":"MOBILITY"}
+{"gemini":true,"vagas":2.0,"word":"MEMCACHED"}
+{"gemini":true,"vagas":5.0,"word":"THYMELEAF"}
+{"gemini":true,"vagas":6.0,"word":"THREAT INTELLIGENCE"}
+{"gemini":true,"vagas":6.0,"word":"PENETRATION TESTING"}
+{"gemini":true,"vagas":10.0,"word":"RISK MANAGEMENT"}
+{"gemini":true,"vagas":85.0,"word":"WIRELESS"}
+{"gemini":true,"vagas":3.0,"word":"ROUTING AND SWITCHING"}
+{"gemini":true,"vagas":12.0,"word":"SPARK STREAMING"}
+{"gemini":true,"vagas":4.0,"word":"TOMCAT 7"}
+{"gemini":true,"vagas":5.0,"word":"TOMCAT 6"}
+{"gemini":true,"vagas":102.0,"word":"ORACLE SQL"}
+{"gemini":true,"vagas":17.0,"word":"SALTSTACK"}
+{"gemini":true,"vagas":32.0,"word":"CLOUDFORMATION"}
+{"gemini":true,"vagas":2.0,"word":"SERVERLESS FRAMEWORK"}
+{"gemini":true,"vagas":15.0,"word":"API DEVELOPMENT"}
+{"gemini":true,"vagas":3.0,"word":"ENVIRONMENT MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"APACHE CORDOVA"}
+{"gemini":true,"vagas":6.0,"word":"STENCIL"}
+{"gemini":true,"vagas":13.0,"word":"WEB COMPONENTS"}
+{"gemini":true,"vagas":2.0,"word":"CAPACITOR"}
+{"gemini":true,"vagas":3.0,"word":"RELAY"}
+{"gemini":true,"vagas":8.0,"word":"VSPHERE"}
+{"gemini":true,"vagas":5.0,"word":"BUSINESS CONTINUITY"}
+{"gemini":true,"vagas":6.0,"word":"VREALIZE AUTOMATION"}
+{"gemini":true,"vagas":4.0,"word":"VREALIZE ORCHESTRATOR"}
+{"gemini":true,"vagas":33.0,"word":"DISASTER RECOVERY"}
+{"gemini":true,"vagas":48.0,"word":"VIRTUALIZATION"}
+{"gemini":true,"vagas":23.0,"word":"ESXI"}
+{"gemini":true,"vagas":2.0,"word":"VMWARE HORIZON"}
+{"gemini":true,"vagas":7.0,"word":"VMWARE NSX"}
+{"gemini":true,"vagas":2.0,"word":"VMWARE VSPHERE"}
+{"gemini":true,"vagas":14.0,"word":"SHAREPOINT ONLINE"}
+{"gemini":true,"vagas":4.0,"word":"SHAREPOINT SERVER"}
+{"gemini":true,"vagas":17.0,"word":"MICROSOFT SHAREPOINT"}
+{"gemini":true,"vagas":3.0,"word":"SHAREPOINT DESIGNER"}
+{"gemini":true,"vagas":2.0,"word":"DOCUMENT MANAGEMENT"}
+{"gemini":true,"vagas":8.0,"word":"GOOGLE DRIVE"}
+{"gemini":true,"vagas":65.0,"word":"BOX"}
+{"gemini":true,"vagas":13.0,"word":"LOAD BALANCER"}
+{"gemini":true,"vagas":65.0,"word":"ROUTER"}
+{"gemini":true,"vagas":53.0,"word":"SWITCH"}
+{"gemini":true,"vagas":7.0,"word":"DJANGO FRAMEWORK"}
+{"gemini":true,"vagas":13.0,"word":"AGILE METHODOLOGIES"}
+{"gemini":true,"vagas":37.0,"word":"TEST AUTOMATION"}
+{"gemini":true,"vagas":2.0,"word":"RALLY"}
+{"gemini":true,"vagas":239.0,"word":"MICROSOFT AZURE"}
+{"gemini":true,"vagas":5.0,"word":"ORACLE APPLICATION EXPRESS"}
+{"gemini":true,"vagas":30.0,"word":"JCL"}
+{"gemini":true,"vagas":10.0,"word":"PDS"}
+{"gemini":true,"vagas":180.0,"word":"DB2"}
+{"gemini":true,"vagas":9.0,"word":"IMS"}
+{"gemini":true,"vagas":3.0,"word":"SALT"}
+{"gemini":true,"vagas":8.0,"word":"FIELD SUPPORT"}
+{"gemini":true,"vagas":7.0,"word":"PROBLEM-SOLVING ABILITIES"}
+{"gemini":true,"vagas":6.0,"word":"EXCELLENT COMMUNICATION AND INTERPERSONAL SKILLS"}
+{"gemini":true,"vagas":10.0,"word":"SCHEDULING"}
+{"gemini":true,"vagas":134.0,"word":"PROBLEM-SOLVING"}
+{"gemini":true,"vagas":44.0,"word":"INTERPERSONAL SKILLS"}
+{"gemini":true,"vagas":26.0,"word":"TECHNICAL SUPPORT"}
+{"gemini":true,"vagas":4.0,"word":"TIME MANAGEMENT"}
+{"gemini":true,"vagas":5.0,"word":"EMPATHY"}
+{"gemini":true,"vagas":5.0,"word":"TECHNICAL SKILLS"}
+{"gemini":true,"vagas":31.0,"word":"PROBLEM SOLVING"}
+{"gemini":true,"vagas":154.0,"word":"SAS"}
+{"gemini":true,"vagas":160.0,"word":"S3"}
+{"gemini":true,"vagas":46.0,"word":"EC2"}
+{"gemini":true,"vagas":4.0,"word":"ORACLE APPLICATIONS"}
+{"gemini":true,"vagas":5.0,"word":"ORACLE E-BUSINESS SUITE"}
+{"gemini":true,"vagas":32.0,"word":"SAP PM"}
+{"gemini":true,"vagas":18.0,"word":"SAP QM"}
+{"gemini":true,"vagas":21.0,"word":"SAP APO"}
+{"gemini":true,"vagas":94.0,"word":"SAP PP"}
+{"gemini":true,"vagas":38.0,"word":"SAP WM"}
+{"gemini":true,"vagas":20.0,"word":"SAP HR"}
+{"gemini":true,"vagas":84.0,"word":"SAP FICO"}
+{"gemini":true,"vagas":3.0,"word":"SAP PLM"}
+{"gemini":true,"vagas":9.0,"word":"SAP EHS"}
+{"gemini":true,"vagas":29.0,"word":"SAP SUCCESSFACTORS"}
+{"gemini":true,"vagas":44.0,"word":"SAP PS"}
+{"gemini":true,"vagas":13.0,"word":"SAP BI"}
+{"gemini":true,"vagas":54.0,"word":"SAP HYBRIS"}
+{"gemini":true,"vagas":47.0,"word":"NOSQL DATABASES"}
+{"gemini":true,"vagas":23.0,"word":"CLOUD FUNCTIONS"}
+{"gemini":true,"vagas":4.0,"word":"CLOUD LOGGING"}
+{"gemini":true,"vagas":3.0,"word":"CLOUD MESSAGING"}
+{"gemini":true,"vagas":61.0,"word":"DML"}
+{"gemini":true,"vagas":6.0,"word":"LIGHTNING COMPONENTS"}
+{"gemini":true,"vagas":29.0,"word":"AURA"}
+{"gemini":true,"vagas":4.0,"word":"APEX CLASSES"}
+{"gemini":true,"vagas":3.0,"word":"CONCURRENCY"}
+{"gemini":true,"vagas":8.0,"word":"SLICK"}
+{"gemini":true,"vagas":16.0,"word":"APACHE SOLR"}
+{"gemini":true,"vagas":197.0,"word":"REST API"}
+{"gemini":true,"vagas":2.0,"word":"QLIK NPRINTING"}
+{"gemini":true,"vagas":38.0,"word":"QLIK SENSE"}
+{"gemini":true,"vagas":166.0,"word":"SCRIPTING"}
+{"gemini":true,"vagas":6.0,"word":"SECURITY MANAGEMENT"}
+{"gemini":true,"vagas":5.0,"word":"STORAGE MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"BIG DATA TECHNOLOGIES"}
+{"gemini":true,"vagas":2.0,"word":"STATISTICAL ANALYSIS"}
+{"gemini":true,"vagas":37.0,"word":"ADOBE EXPERIENCE MANAGER"}
+{"gemini":true,"vagas":5.0,"word":"CLOUD COMMERCE"}
+{"gemini":true,"vagas":9.0,"word":"CLOUDERA IMPALA"}
+{"gemini":true,"vagas":2.0,"word":"KNOX"}
+{"gemini":true,"vagas":38.0,"word":"ATLAS"}
+{"gemini":true,"vagas":3.0,"word":"HUE"}
+{"gemini":true,"vagas":59.0,"word":"CLOUD SECURITY"}
+{"gemini":true,"vagas":4.0,"word":"PLOTLY"}
+{"gemini":true,"vagas":13.0,"word":"TABLEAU DESKTOP"}
+{"gemini":true,"vagas":34.0,"word":"GOOGLE DATA STUDIO"}
+{"gemini":true,"vagas":25.0,"word":"GOOGLE SHEETS"}
+{"gemini":true,"vagas":23.0,"word":"MICROSOFT EXCEL"}
+{"gemini":true,"vagas":9.0,"word":"SNOW"}
+{"gemini":true,"vagas":2136.0,"word":"CVS"}
+{"gemini":true,"vagas":3.0,"word":"JCA"}
+{"gemini":true,"vagas":4.0,"word":"JNDI"}
+{"gemini":true,"vagas":2.0,"word":"INFLUXDB"}
+{"gemini":true,"vagas":33.0,"word":"SQL DATABASES"}
+{"gemini":true,"vagas":18.0,"word":"JAEGER"}
+{"gemini":true,"vagas":17.0,"word":"CLOUDFRONT"}
+{"gemini":true,"vagas":6.0,"word":"AMAZON S3"}
+{"gemini":true,"vagas":855.0,"word":"E-COMMERCE"}
+{"gemini":true,"vagas":98.0,"word":"CUSTOMER SUCCESS"}
+{"gemini":true,"vagas":6.0,"word":"PRODUCT MANAGEMENT"}
+{"gemini":true,"vagas":87.0,"word":"PROBLEM-SOLVING SKILLS"}
+{"gemini":true,"vagas":49.0,"word":"UI5"}
+{"gemini":true,"vagas":3.0,"word":"PASCAL"}
+{"gemini":true,"vagas":4819.0,"word":"C"}
+{"gemini":true,"vagas":3.0,"word":"SILVERLIGHT"}
+{"gemini":true,"vagas":7.0,"word":"XAML"}
+{"gemini":true,"vagas":521.0,"word":"HTML5"}
+{"gemini":true,"vagas":440.0,"word":"CSS3"}
+{"gemini":true,"vagas":2.0,"word":"AWS CLI"}
+{"gemini":true,"vagas":27.0,"word":"XRAY"}
+{"gemini":true,"vagas":12.0,"word":"ADF"}
+{"gemini":true,"vagas":3.0,"word":"REXX"}
+{"gemini":true,"vagas":14.0,"word":"AGILITY"}
+{"gemini":true,"vagas":171.0,"word":"DESIGN THINKING"}
+{"gemini":true,"vagas":11.0,"word":"CUSTOMER FOCUS"}
+{"gemini":true,"vagas":2.0,"word":"BATCH SCRIPT"}
+{"gemini":true,"vagas":18.0,"word":"UNIX SHELL"}
+{"gemini":true,"vagas":23.0,"word":"OAUTH 2.0"}
+{"gemini":true,"vagas":15.0,"word":"MICROSERVICES ARCHITECTURE"}
+{"gemini":true,"vagas":47.0,"word":"API MANAGEMENT"}
+{"gemini":true,"vagas":44.0,"word":"KONG"}
+{"gemini":true,"vagas":14.0,"word":"ORACLE WEBLOGIC SERVER"}
+{"gemini":true,"vagas":2.0,"word":"UXPIN"}
+{"gemini":true,"vagas":54.0,"word":"ADOBE XD"}
+{"gemini":true,"vagas":3.0,"word":"INVISION STUDIO"}
+{"gemini":true,"vagas":4.0,"word":"PROTO.IO"}
+{"gemini":true,"vagas":69.0,"word":"SKETCH"}
+{"gemini":true,"vagas":5.0,"word":"PROTOTYPING"}
+{"gemini":true,"vagas":36.0,"word":"DESIGN SYSTEMS"}
+{"gemini":true,"vagas":7.0,"word":"USER INTERFACE DESIGN"}
+{"gemini":true,"vagas":15.0,"word":"MARVEL"}
+{"gemini":true,"vagas":42.0,"word":"INVISION"}
+{"gemini":true,"vagas":6.0,"word":"BALSAMIQ"}
+{"gemini":true,"vagas":7.0,"word":"PPC"}
+{"gemini":true,"vagas":2254.0,"word":"SEM"}
+{"gemini":true,"vagas":13.0,"word":"EMAIL MARKETING"}
+{"gemini":true,"vagas":212.0,"word":"GOOGLE ANALYTICS"}
+{"gemini":true,"vagas":2.0,"word":"CONTENT MARKETING"}
+{"gemini":true,"vagas":19.0,"word":"PERFORMANCE MANAGEMENT"}
+{"gemini":true,"vagas":6.0,"word":"SAP PAYROLL"}
+{"gemini":true,"vagas":2.0,"word":"SAP TIME MANAGEMENT"}
+{"gemini":true,"vagas":7.0,"word":"WEBSPHERE PORTAL"}
+{"gemini":true,"vagas":15.0,"word":"WEBSPHERE APPLICATION SERVER"}
+{"gemini":true,"vagas":6.0,"word":"WEBSPHERE LIBERTY"}
+{"gemini":true,"vagas":5.0,"word":"WEBSPHERE MQ"}
+{"gemini":true,"vagas":6.0,"word":"PERFORMANCE ANALYSIS"}
+{"gemini":true,"vagas":6.0,"word":"CACHING"}
+{"gemini":true,"vagas":8.0,"word":"SCALABILITY"}
+{"gemini":true,"vagas":12.0,"word":"ENZYME"}
+{"gemini":true,"vagas":710.0,"word":"APACHE"}
+{"gemini":true,"vagas":3.0,"word":"AWS GLUE"}
+{"gemini":true,"vagas":47.0,"word":"AZURE DATA FACTORY"}
+{"gemini":true,"vagas":2.0,"word":"TALEND DATA INTEGRATION"}
+{"gemini":true,"vagas":38.0,"word":"INFORMATICA POWERCENTER"}
+{"gemini":true,"vagas":30.0,"word":"DATA QUALITY"}
+{"gemini":true,"vagas":2.0,"word":"DATA VALIDATION"}
+{"gemini":true,"vagas":3.0,"word":"ETL DEVELOPMENT"}
+{"gemini":true,"vagas":34.0,"word":"ORCHESTRATION"}
+{"gemini":true,"vagas":7.0,"word":"INFRASTRUCTURE MANAGEMENT"}
+{"gemini":true,"vagas":45.0,"word":"GOVERNANCE"}
+{"gemini":true,"vagas":41.0,"word":"INFORMATION TECHNOLOGY"}
+{"gemini":true,"vagas":61.0,"word":"SELENIUM WEBDRIVER"}
+{"gemini":true,"vagas":8.0,"word":"SPRING WEB"}
+{"gemini":true,"vagas":5.0,"word":"RESTFUL WEB SERVICES"}
+{"gemini":true,"vagas":9.0,"word":"AWS COGNITO"}
+{"gemini":true,"vagas":2.0,"word":"OKTA"}
+{"gemini":true,"vagas":2.0,"word":"AZURE ACTIVE DIRECTORY"}
+{"gemini":true,"vagas":24.0,"word":"SAML"}
+{"gemini":true,"vagas":2.0,"word":"SECURITY TESTING"}
+{"gemini":true,"vagas":10.0,"word":"OWASP TOP 10"}
+{"gemini":true,"vagas":5.0,"word":"PCI DSS"}
+{"gemini":true,"vagas":34.0,"word":"ISO 27001"}
+{"gemini":true,"vagas":21.0,"word":"SAMM"}
+{"gemini":true,"vagas":22.0,"word":"CIS"}
+{"gemini":true,"vagas":6.0,"word":"WEB SECURITY"}
+{"gemini":true,"vagas":19.0,"word":"SECURITY OPERATIONS"}
+{"gemini":true,"vagas":3.0,"word":"MOBILE SECURITY"}
+{"gemini":true,"vagas":9.0,"word":"ENDPOINT SECURITY"}
+{"gemini":true,"vagas":4.0,"word":"GATLING"}
+{"gemini":true,"vagas":35.0,"word":"NAGIOS"}
+{"gemini":true,"vagas":7.0,"word":"SENSU"}
+{"gemini":true,"vagas":6.0,"word":"ECLIPSE IDE"}
+{"gemini":true,"vagas":8.0,"word":"BUSINESS PROCESS MODELING"}
+{"gemini":true,"vagas":40.0,"word":"PROCESS AUTOMATION"}
+{"gemini":true,"vagas":10.0,"word":"WORKFLOW MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"PROCESS IMPROVEMENT"}
+{"gemini":true,"vagas":9.0,"word":"PROCESS MODELING"}
+{"gemini":true,"vagas":2.0,"word":"ORACLE BPM"}
+{"gemini":true,"vagas":8.0,"word":"DMN"}
+{"gemini":true,"vagas":34.0,"word":"PEGA"}
+{"gemini":true,"vagas":44.0,"word":"ADO.NET"}
+{"gemini":true,"vagas":3.0,"word":"LAZY LOADING"}
+{"gemini":true,"vagas":6.0,"word":"BOWER"}
+{"gemini":true,"vagas":6.0,"word":"PRETTIER"}
+{"gemini":true,"vagas":21.0,"word":"ESLINT"}
+{"gemini":true,"vagas":10.0,"word":"BABEL"}
+{"gemini":true,"vagas":3.0,"word":"RUSH"}
+{"gemini":true,"vagas":39.0,"word":"PERFORMANCE TUNING"}
+{"gemini":true,"vagas":72.0,"word":"ROUTING"}
+{"gemini":true,"vagas":9.0,"word":"SDN"}
+{"gemini":true,"vagas":3.0,"word":"SYSTEM ADMINISTRATION"}
+{"gemini":true,"vagas":7.0,"word":"THREAT HUNTING"}
+{"gemini":true,"vagas":3.0,"word":"INCIDENT RESPONSE"}
+{"gemini":true,"vagas":2.0,"word":"LOG ANALYSIS"}
+{"gemini":true,"vagas":2.0,"word":"SECURITY ANALYTICS"}
+{"gemini":true,"vagas":2.0,"word":"INCIDENT HANDLING"}
+{"gemini":true,"vagas":8.0,"word":"HAPROXY"}
+{"gemini":true,"vagas":10.0,"word":"LOAD BALANCING"}
+{"gemini":true,"vagas":16.0,"word":"WEB SERVER"}
+{"gemini":true,"vagas":3070.0,"word":"FRAMEWORK"}
+{"gemini":true,"vagas":54.0,"word":"LIBRARY"}
+{"gemini":true,"vagas":44.0,"word":"PROGRAMMING LANGUAGES"}
+{"gemini":true,"vagas":3.0,"word":"API INTEGRATION"}
+{"gemini":true,"vagas":7.0,"word":"REQUIREMENT ANALYSIS"}
+{"gemini":true,"vagas":10.0,"word":"SOFTWARE DEPLOYMENT"}
+{"gemini":true,"vagas":21.0,"word":"APPLICATION DEVELOPMENT"}
+{"gemini":true,"vagas":2.0,"word":"SERVERLESS COMPUTING"}
+{"gemini":true,"vagas":10.0,"word":"SMTP"}
+{"gemini":true,"vagas":25.0,"word":"UDP"}
+{"gemini":true,"vagas":11.0,"word":"FTP"}
+{"gemini":true,"vagas":43.0,"word":"OSI"}
+{"gemini":true,"vagas":9.0,"word":"IPV6"}
+{"gemini":true,"vagas":126.0,"word":"IP"}
+{"gemini":true,"vagas":9.0,"word":"IPV4"}
+{"gemini":true,"vagas":2.0,"word":"AUTHENTICATION AND AUTHORIZATION"}
+{"gemini":true,"vagas":27.0,"word":"SSL"}
+{"gemini":true,"vagas":61.0,"word":"LOGGING"}
+{"gemini":true,"vagas":3.0,"word":"IIS TROUBLESHOOTING"}
+{"gemini":true,"vagas":9.0,"word":"ARIS"}
+{"gemini":true,"vagas":18.0,"word":"ARCHIMATE"}
+{"gemini":true,"vagas":629.0,"word":"INTEGRATION"}
+{"gemini":true,"vagas":6.0,"word":"ENTERPRISE ARCHITECTURE"}
+{"gemini":true,"vagas":19.0,"word":"LOADRUNNER"}
+{"gemini":true,"vagas":133.0,"word":"LOAD"}
+{"gemini":true,"vagas":2234.0,"word":"PERFORMANCE"}
+{"gemini":true,"vagas":694.0,"word":"SD"}
+{"gemini":true,"vagas":136.0,"word":"WMS"}
+{"gemini":true,"vagas":49.0,"word":"INFORMATION SECURITY"}
+{"gemini":true,"vagas":9.0,"word":"ETHICAL HACKING"}
+{"gemini":true,"vagas":6.0,"word":"POWERMOCK"}
+{"gemini":true,"vagas":3.0,"word":"CLOUD INTEGRATION"}
+{"gemini":true,"vagas":18.0,"word":"API DESIGN"}
+{"gemini":true,"vagas":7.0,"word":"USER EXPERIENCE DESIGN"}
+{"gemini":true,"vagas":10.0,"word":"VISUAL DESIGN"}
+{"gemini":true,"vagas":10.0,"word":"STORYBOARDS"}
+{"gemini":true,"vagas":45.0,"word":"MOCKUPS"}
+{"gemini":true,"vagas":10.0,"word":"PROTRACTOR"}
+{"gemini":true,"vagas":2.0,"word":"CODECEPTJS"}
+{"gemini":true,"vagas":3.0,"word":"NIGHTWATCH"}
+{"gemini":true,"vagas":3.0,"word":"STAKEHOLDER MANAGEMENT"}
+{"gemini":true,"vagas":4.0,"word":"PROJECT PLANNING"}
+{"gemini":true,"vagas":129.0,"word":"TERMINAL"}
+{"gemini":true,"vagas":53.0,"word":"XCODE"}
+{"gemini":true,"vagas":5.0,"word":"CARTHAGE"}
+{"gemini":true,"vagas":2.0,"word":"SWIFT PACKAGE MANAGER"}
+{"gemini":true,"vagas":11.0,"word":"PYTORCH"}
+{"gemini":true,"vagas":32.0,"word":"DELTA"}
+{"gemini":true,"vagas":4.0,"word":"ELASTICACHE"}
+{"gemini":true,"vagas":3.0,"word":"SYSTEMS ANALYSIS"}
+{"gemini":true,"vagas":5.0,"word":"SUPPLY CHAIN MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"FINANCIAL MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"CUSTOMER RELATIONSHIP MANAGEMENT"}
+{"gemini":true,"vagas":7.0,"word":"DIGITAL TRANSFORMATION"}
+{"gemini":true,"vagas":3.0,"word":"XMLHTTPREQUEST"}
+{"gemini":true,"vagas":14.0,"word":"TRANSPORTATION MANAGEMENT"}
+{"gemini":true,"vagas":42.0,"word":"WAREHOUSE MANAGEMENT"}
+{"gemini":true,"vagas":5.0,"word":"VAGRANT"}
+{"gemini":true,"vagas":6.0,"word":"CLOUDSTACK"}
+{"gemini":true,"vagas":15.0,"word":"EPC"}
+{"gemini":true,"vagas":7.0,"word":"CRITICAL THINKING"}
+{"gemini":true,"vagas":7.0,"word":"POWERBUILDER"}
+{"gemini":true,"vagas":44.0,"word":"ENTITY FRAMEWORK CORE"}
+{"gemini":true,"vagas":6.0,"word":"DATA PIPELINES"}
+{"gemini":true,"vagas":41.0,"word":"MAINTENANCE"}
+{"gemini":true,"vagas":12.0,"word":"TESTING TOOLS"}
+{"gemini":true,"vagas":25.0,"word":"USER STORIES"}
+{"gemini":true,"vagas":12.0,"word":"BUG TRACKING"}
+{"gemini":true,"vagas":4.0,"word":"DATA ARCHITECTURE"}
+{"gemini":true,"vagas":4.0,"word":"COVERITY"}
+{"gemini":true,"vagas":2.0,"word":"KLOCWORK"}
+{"gemini":true,"vagas":4.0,"word":"IT GOVERNANCE"}
+{"gemini":true,"vagas":29.0,"word":"SNOWFLAKE"}
+{"gemini":true,"vagas":9.0,"word":"DELTA LAKE"}
+{"gemini":true,"vagas":29.0,"word":"CONFIGURATION MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"ROLLUP"}
+{"gemini":true,"vagas":3.0,"word":"VITE"}
+{"gemini":true,"vagas":3.0,"word":"TILES"}
+{"gemini":true,"vagas":201.0,"word":"JAVA EE"}
+{"gemini":true,"vagas":22.0,"word":"DATABASE MANAGEMENT SYSTEMS"}
+{"gemini":true,"vagas":8.0,"word":"PINGDOM"}
+{"gemini":true,"vagas":24.0,"word":"NUMPY"}
+{"gemini":true,"vagas":17.0,"word":"LOOKER"}
+{"gemini":true,"vagas":8.0,"word":"KERAS"}
+{"gemini":true,"vagas":10.0,"word":"FARGATE"}
+{"gemini":true,"vagas":6.0,"word":"SENTRY"}
+{"gemini":true,"vagas":57.0,"word":"CLOUDWATCH"}
+{"gemini":true,"vagas":71.0,"word":"MICROSTRATEGY"}
+{"gemini":true,"vagas":48.0,"word":"SWARM"}
+{"gemini":true,"vagas":9.0,"word":"JUPYTER NOTEBOOK"}
+{"gemini":true,"vagas":2.0,"word":"SHINY"}
+{"gemini":true,"vagas":10.0,"word":"TEAMCITY"}
+{"gemini":true,"vagas":3.0,"word":"SCIPY"}
+{"gemini":true,"vagas":141.0,"word":"MICROSOFT SQL SERVER"}
+{"gemini":true,"vagas":31.0,"word":"SQL SERVER MANAGEMENT STUDIO"}
+{"gemini":true,"vagas":7.0,"word":"SAP SCM"}
+{"gemini":true,"vagas":3.0,"word":"SAP GTS"}
+{"gemini":true,"vagas":94.0,"word":"AGILE SCRUM"}
+{"gemini":true,"vagas":51.0,"word":"COMPOSE"}
+{"gemini":true,"vagas":3.0,"word":"DATA BINDING"}
+{"gemini":true,"vagas":16.0,"word":"EVENTS"}
+{"gemini":true,"vagas":3.0,"word":"BINDING"}
+{"gemini":true,"vagas":9.0,"word":"GROWTH MARKETING"}
+{"gemini":true,"vagas":12.0,"word":"DIGITAL MARKETING"}
+{"gemini":true,"vagas":2.0,"word":"CONTENT CREATION"}
+{"gemini":true,"vagas":5.0,"word":"USER RESEARCH"}
+{"gemini":true,"vagas":18.0,"word":"AGILE METHODOLOGY"}
+{"gemini":true,"vagas":74.0,"word":"APM"}
+{"gemini":true,"vagas":8.0,"word":"MICROSOFT DYNAMICS 365"}
+{"gemini":true,"vagas":70.0,"word":"PROCUREMENT"}
+{"gemini":true,"vagas":10.0,"word":"NEGOTIATION"}
+{"gemini":true,"vagas":10.0,"word":"PURCHASING"}
+{"gemini":true,"vagas":2.0,"word":"DDNS"}
+{"gemini":true,"vagas":2.0,"word":"WINS"}
+{"gemini":true,"vagas":11.0,"word":"SOFTWARE UPDATES"}
+{"gemini":true,"vagas":3.0,"word":"NETWORK MONITORING"}
+{"gemini":true,"vagas":24.0,"word":"SERVICE MANAGEMENT"}
+{"gemini":true,"vagas":6.0,"word":"NETWORK OPERATIONS"}
+{"gemini":true,"vagas":23.0,"word":"ASSET MANAGEMENT"}
+{"gemini":true,"vagas":26.0,"word":"SHELL SCRIPTING"}
+{"gemini":true,"vagas":345.0,"word":"WINDOWS SERVER"}
+{"gemini":true,"vagas":5.0,"word":"ADOBE CREATIVE SUITE"}
+{"gemini":true,"vagas":6.0,"word":"RED HAT LINUX"}
+{"gemini":true,"vagas":3.0,"word":"MICROSOFT OFFICE SUITE"}
+{"gemini":true,"vagas":38.0,"word":"IBM WEBSPHERE"}
+{"gemini":true,"vagas":45.0,"word":"SOLUTION MANAGER"}
+{"gemini":true,"vagas":241.0,"word":"BASIS"}
+{"gemini":true,"vagas":18.0,"word":"SAP SOLUTION MANAGER"}
+{"gemini":true,"vagas":12.0,"word":"COMMUNICATION AND TEAMWORK"}
+{"gemini":true,"vagas":23.0,"word":"NGRX"}
+{"gemini":true,"vagas":8.0,"word":"DATA MODELING CONCEPTS"}
+{"gemini":true,"vagas":3.0,"word":"DRILL"}
+{"gemini":true,"vagas":26.0,"word":"GOOGLE TAG MANAGER"}
+{"gemini":true,"vagas":2.0,"word":"SEGMENT"}
+{"gemini":true,"vagas":11.0,"word":"GOOGLE OPTIMIZE"}
+{"gemini":true,"vagas":10.0,"word":"HOTJAR"}
+{"gemini":true,"vagas":11.0,"word":"COMPETE"}
+{"gemini":true,"vagas":5.0,"word":"CRAZY EGG"}
+{"gemini":true,"vagas":2.0,"word":"HYPERVISORS"}
+{"gemini":true,"vagas":47.0,"word":"REQUEST"}
+{"gemini":true,"vagas":18.0,"word":"RESPONSE"}
+{"gemini":true,"vagas":4.0,"word":"BI TOOLS"}
+{"gemini":true,"vagas":14.0,"word":"MDX"}
+{"gemini":true,"vagas":22.0,"word":"EMR"}
+{"gemini":true,"vagas":2.0,"word":"LIQUIDITY"}
+{"gemini":true,"vagas":43.0,"word":"CAPACITY"}
+{"gemini":true,"vagas":47.0,"word":"ASSET"}
+{"gemini":true,"vagas":2.0,"word":"LEAN SIX SIGMA"}
+{"gemini":true,"vagas":698.0,"word":"SCRUM MASTER"}
+{"gemini":true,"vagas":18.0,"word":"MICROSOFT PROJECT"}
+{"gemini":true,"vagas":7.0,"word":"GRE"}
+{"gemini":true,"vagas":6.0,"word":"ROUTING PROTOCOLS"}
+{"gemini":true,"vagas":2.0,"word":"NETWORK PROTOCOLS"}
+{"gemini":true,"vagas":4.0,"word":"SECURITY INFORMATION"}
+{"gemini":true,"vagas":4.0,"word":"SOAR"}
+{"gemini":true,"vagas":6.0,"word":"DL"}
+{"gemini":true,"vagas":224.0,"word":"TECHNOLOGY"}
+{"gemini":true,"vagas":262.0,"word":"ENGINEERING"}
+{"gemini":true,"vagas":42.0,"word":"IMPROVE"}
+{"gemini":true,"vagas":23.0,"word":"OPTIMIZE"}
+{"gemini":true,"vagas":13.0,"word":"ENHANCE"}
+{"gemini":true,"vagas":8.0,"word":"REFACTOR"}
+{"gemini":true,"vagas":71.0,"word":"UPGRADE"}
+{"gemini":true,"vagas":28.0,"word":"CLOUD PLATFORMS"}
+{"gemini":true,"vagas":5.0,"word":"MQTT"}
+{"gemini":true,"vagas":3.0,"word":"PULSAR"}
+{"gemini":true,"vagas":18.0,"word":"QUEUES"}
+{"gemini":true,"vagas":19.0,"word":"BROKERS"}
+{"gemini":true,"vagas":6.0,"word":"PEGASYSTEMS"}
+{"gemini":true,"vagas":42.0,"word":"AUTOMATION ANYWHERE"}
+{"gemini":true,"vagas":97.0,"word":"NICE"}
+{"gemini":true,"vagas":7.0,"word":"KOFAX"}
+{"gemini":true,"vagas":6.0,"word":"SERVICE WORKERS"}
+{"gemini":true,"vagas":4.0,"word":"INDEXEDDB"}
+{"gemini":true,"vagas":5.0,"word":"XENAPP"}
+{"gemini":true,"vagas":3.0,"word":"XENDESKTOP"}
+{"gemini":true,"vagas":2.0,"word":"CITRIX ADC"}
+{"gemini":true,"vagas":3.0,"word":"CITRIX NETSCALER"}
+{"gemini":true,"vagas":3.0,"word":"SUPPLY PLANNING"}
+{"gemini":true,"vagas":9.0,"word":"DEMAND PLANNING"}
+{"gemini":true,"vagas":3.0,"word":"PRODUCTION PLANNING"}
+{"gemini":true,"vagas":8.0,"word":"GERENCIAMENTO DE VULNERABILIDADES"}
+{"gemini":true,"vagas":17.0,"word":"ANDROID SDK"}
+{"gemini":true,"vagas":9.0,"word":"APPLICATION ARCHITECTURE"}
+{"gemini":true,"vagas":3.0,"word":"TECHNICAL ARCHITECTURE"}
+{"gemini":true,"vagas":9.0,"word":"IT SERVICE MANAGEMENT"}
+{"gemini":true,"vagas":9.0,"word":"RUP"}
+{"gemini":true,"vagas":2.0,"word":"BPM SUITE"}
+{"gemini":true,"vagas":21.0,"word":"ORACLE INTEGRATION"}
+{"gemini":true,"vagas":3.0,"word":"ORACLE API GATEWAY"}
+{"gemini":true,"vagas":33.0,"word":"SOA SUITE"}
+{"gemini":true,"vagas":17.0,"word":"XSLT"}
+{"gemini":true,"vagas":28.0,"word":"ENTERPRISE INTEGRATION"}
+{"gemini":true,"vagas":327.0,"word":"SYSTEMS"}
+{"gemini":true,"vagas":194.0,"word":"INFRASTRUCTURE"}
+{"gemini":true,"vagas":5850.0,"word":"SOFTWARE"}
+{"gemini":true,"vagas":68.0,"word":"VISUALIZATION"}
+{"gemini":true,"vagas":8.0,"word":"GRAYLOG"}
+{"gemini":true,"vagas":2.0,"word":"CELERY"}
+{"gemini":true,"vagas":11.0,"word":"NATS"}
+{"gemini":true,"vagas":53.0,"word":"IBM MQ"}
+{"gemini":true,"vagas":3.0,"word":"SPRING CLOUD STREAM"}
+{"gemini":true,"vagas":3.0,"word":"AMAZON SQS"}
+{"gemini":true,"vagas":19.0,"word":"AZURE SERVICE BUS"}
+{"gemini":true,"vagas":11.0,"word":"PRESENTATION"}
+{"gemini":true,"vagas":3.0,"word":"VISUAL THINKING"}
+{"gemini":true,"vagas":17.0,"word":"REMOTE WORK"}
+{"gemini":true,"vagas":11.0,"word":"SCRIPTING SKILLS"}
+{"gemini":true,"vagas":3.0,"word":"BACKUP AND RECOVERY"}
+{"gemini":true,"vagas":5.0,"word":"WEB APPLICATION DEVELOPMENT"}
+{"gemini":true,"vagas":3.0,"word":"TRINO"}
+{"gemini":true,"vagas":9.0,"word":"CLOUD SQL"}
+{"gemini":true,"vagas":210.0,"word":"INFORMATION"}
+{"gemini":true,"vagas":4.0,"word":"TELECOMMUNICATIONS"}
+{"gemini":true,"vagas":2.0,"word":"HTTP PROTOCOL"}
+{"gemini":true,"vagas":3.0,"word":"API SECURITY"}
+{"gemini":true,"vagas":163.0,"word":"OOP"}
+{"gemini":true,"vagas":64.0,"word":"POWER PLATFORM"}
+{"gemini":true,"vagas":10.0,"word":"MENDIX"}
+{"gemini":true,"vagas":7.0,"word":"ALPHA"}
+{"gemini":true,"vagas":15.0,"word":"CLOUD ARCHITECTURE"}
+{"gemini":true,"vagas":4.0,"word":"PATCH MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"ENDPOINT MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"OOPS"}
+{"gemini":true,"vagas":24.0,"word":"DBMS"}
+{"gemini":true,"vagas":15.0,"word":"CLOUDCOMPUTING"}
+{"gemini":true,"vagas":5.0,"word":"CGI"}
+{"gemini":true,"vagas":89.0,"word":"RESEARCH"}
+{"gemini":true,"vagas":178.0,"word":"OPERATIONS"}
+{"gemini":true,"vagas":130.0,"word":"PROJECTS"}
+{"gemini":true,"vagas":3.0,"word":"POWERHA"}
+{"gemini":true,"vagas":2.0,"word":"POWERVM"}
+{"gemini":true,"vagas":13.0,"word":"RMC"}
+{"gemini":true,"vagas":3.0,"word":"VIOS"}
+{"gemini":true,"vagas":19.0,"word":"IDENTITY MANAGEMENT"}
+{"gemini":true,"vagas":30.0,"word":"ACCESS MANAGEMENT"}
+{"gemini":true,"vagas":30.0,"word":"SSO"}
+{"gemini":true,"vagas":8.0,"word":"AUTHENTICATION"}
+{"gemini":true,"vagas":28.0,"word":"PRIVACY"}
+{"gemini":true,"vagas":16.0,"word":"AUTHORIZATION"}
+{"gemini":true,"vagas":8.0,"word":"KERBEROS"}
+{"gemini":true,"vagas":3.0,"word":"DIAMETER"}
+{"gemini":true,"vagas":6.0,"word":"TASK MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"COMMENT"}
+{"gemini":true,"vagas":2030.0,"word":"BI"}
+{"gemini":true,"vagas":1080.0,"word":"MES"}
+{"gemini":true,"vagas":4.0,"word":"VENDOR MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"DEMAND MANAGEMENT"}
+{"gemini":true,"vagas":33.0,"word":"STYLED-COMPONENTS"}
+{"gemini":true,"vagas":1425.0,"word":"INFORMATICA"}
+{"gemini":true,"vagas":5.0,"word":"SYSTEM DESIGN"}
+{"gemini":true,"vagas":3.0,"word":"IT MANAGEMENT"}
+{"gemini":true,"vagas":230.0,"word":"DATA ENGINEER"}
+{"gemini":true,"vagas":28.0,"word":"DATA SCIENTIST"}
+{"gemini":true,"vagas":9.0,"word":"IT INFRASTRUCTURE"}
+{"gemini":true,"vagas":6.0,"word":"DATA STRUCTURE"}
+{"gemini":true,"vagas":2.0,"word":"CLOUD SOLUTIONS ARCHITECT"}
+{"gemini":true,"vagas":29.0,"word":"DATABASE ADMINISTRATOR"}
+{"gemini":true,"vagas":14.0,"word":"INFORMATION SYSTEMS"}
+{"gemini":true,"vagas":2.0,"word":"TICKETING SYSTEM"}
+{"gemini":true,"vagas":6.0,"word":"TECHNICAL KNOWLEDGE"}
+{"gemini":true,"vagas":8.0,"word":"GRAILS"}
+{"gemini":true,"vagas":14.0,"word":"SQL DEVELOPER"}
+{"gemini":true,"vagas":98.0,"word":"END-TO-END"}
+{"gemini":true,"vagas":13.0,"word":"ENTERPRISE APPLICATION"}
+{"gemini":true,"vagas":6.0,"word":"ESP"}
+{"gemini":true,"vagas":38.0,"word":"AH"}
+{"gemini":true,"vagas":2.0,"word":"MULESOFT ANYPOINT PLATFORM"}
+{"gemini":true,"vagas":7.0,"word":"ORACLE FUSION MIDDLEWARE"}
+{"gemini":true,"vagas":4.0,"word":"ORACLE WEBLOGIC INTEGRATION"}
+{"gemini":true,"vagas":2.0,"word":"GENESYS CLOUD"}
+{"gemini":true,"vagas":64.0,"word":"DATA MIGRATION"}
+{"gemini":true,"vagas":2.0,"word":"ZAPIER"}
+{"gemini":true,"vagas":8.0,"word":"CSV"}
+{"gemini":true,"vagas":47.0,"word":"WEBSOCKET"}
+{"gemini":true,"vagas":2.0,"word":"MICROSOFT POWER AUTOMATE"}
+{"gemini":true,"vagas":14.0,"word":"IBM DB2"}
+{"gemini":true,"vagas":4.0,"word":"PROTOBUF"}
+{"gemini":true,"vagas":13.0,"word":"HIGH AVAILABILITY"}
+{"gemini":true,"vagas":13.0,"word":"ORACLE RAC"}
+{"gemini":true,"vagas":49.0,"word":"QA AUTOMATION"}
+{"gemini":true,"vagas":27.0,"word":"TEST MANAGEMENT"}
+{"gemini":true,"vagas":12.0,"word":"ORCHESTRATOR"}
+{"gemini":true,"vagas":5.0,"word":"JOB SCHEDULING"}
+{"gemini":true,"vagas":2.0,"word":"CLOUD COMPOSER"}
+{"gemini":true,"vagas":3.0,"word":"AUTOSYS"}
+{"gemini":true,"vagas":8.0,"word":"RUNDECK"}
+{"gemini":true,"vagas":31.0,"word":"COMMUNICATIONS"}
+{"gemini":true,"vagas":4.0,"word":"EVENT SOURCING"}
+{"gemini":true,"vagas":166.0,"word":"CLEAN ARCHITECTURE"}
+{"gemini":true,"vagas":46.0,"word":"DOMAIN-DRIVEN DESIGN"}
+{"gemini":true,"vagas":4.0,"word":"MICRONAUT"}
+{"gemini":true,"vagas":12.0,"word":"VERT.X"}
+{"gemini":true,"vagas":2.0,"word":"ELASTIC BEANSTALK"}
+{"gemini":true,"vagas":3.0,"word":"ROUTE 53"}
+{"gemini":true,"vagas":14.0,"word":"VAULT"}
+{"gemini":true,"vagas":6.0,"word":"AZURE MACHINE LEARNING"}
+{"gemini":true,"vagas":3.0,"word":"AZURE KUBERNETES SERVICE"}
+{"gemini":true,"vagas":2.0,"word":"AZURE LOGIC APPS"}
+{"gemini":true,"vagas":4.0,"word":"FREESWITCH"}
+{"gemini":true,"vagas":83.0,"word":"OPEN SOURCE"}
+{"gemini":true,"vagas":1316.0,"word":"CODE"}
+{"gemini":true,"vagas":77.0,"word":"IMPLEMENT"}
+{"gemini":true,"vagas":135.0,"word":"DEBUG"}
+{"gemini":true,"vagas":53.0,"word":"TROUBLESHOOT"}
+{"gemini":true,"vagas":23.0,"word":"CORE JAVA"}
+{"gemini":true,"vagas":2.0,"word":"TIBCO BUSINESSWORKS"}
+{"gemini":true,"vagas":178.0,"word":"RED HAT"}
+{"gemini":true,"vagas":5.0,"word":"APPLICATION PROGRAMMING"}
+{"gemini":true,"vagas":4.0,"word":"INTELLIJ IDEA"}
+{"gemini":true,"vagas":3.0,"word":"CONTENT MANAGEMENT"}
+{"gemini":true,"vagas":10.0,"word":"PROCESS MANAGEMENT"}
+{"gemini":true,"vagas":22.0,"word":"ECM"}
+{"gemini":true,"vagas":710.0,"word":"PORTAL"}
+{"gemini":true,"vagas":38.0,"word":"MOBILE APPLICATIONS"}
+{"gemini":true,"vagas":2.0,"word":"ORACLE RDBMS"}
+{"gemini":true,"vagas":2.0,"word":"SOFTWARE CONFIGURATION MANAGEMENT"}
+{"gemini":true,"vagas":20.0,"word":"SALESFORCE SERVICE CLOUD"}
+{"gemini":true,"vagas":2.0,"word":"ORACLE SERVICE CLOUD"}
+{"gemini":true,"vagas":26.0,"word":"COMMUNICATION AND COLLABORATION"}
+{"gemini":true,"vagas":31.0,"word":"RESOURCE MANAGEMENT"}
+{"gemini":true,"vagas":4.0,"word":"FLEXIBILITY"}
+{"gemini":true,"vagas":12.0,"word":"DECISION MAKING"}
+{"gemini":true,"vagas":4.0,"word":"MVC FRAMEWORK"}
+{"gemini":true,"vagas":2.0,"word":"SCRUM FRAMEWORK"}
+{"gemini":true,"vagas":4.0,"word":"CONTINUOUS IMPROVEMENT"}
+{"gemini":true,"vagas":3.0,"word":"BACKLOG REFINEMENT"}
+{"gemini":true,"vagas":3.0,"word":"PSPO I"}
+{"gemini":true,"vagas":13.0,"word":"RTE"}
+{"gemini":true,"vagas":20.0,"word":"CONTINUOUS DEPLOYMENT"}
+{"gemini":true,"vagas":35.0,"word":"ACT"}
+{"gemini":true,"vagas":171.0,"word":"CHECK"}
+{"gemini":true,"vagas":45394.0,"word":"DO"}
+{"gemini":true,"vagas":84.0,"word":"PLAN"}
+{"gemini":true,"vagas":11.0,"word":"FLYWAY"}
+{"gemini":true,"vagas":5.0,"word":"H2"}
+{"gemini":true,"vagas":30.0,"word":"VIM"}
+{"gemini":true,"vagas":39.0,"word":"EDITOR"}
+{"gemini":true,"vagas":5.0,"word":"EXTENSIONS"}
+{"gemini":true,"vagas":3.0,"word":"THEMES"}
+{"gemini":true,"vagas":5.0,"word":"WORKSPACE"}
+{"gemini":true,"vagas":15.0,"word":"SOURCE CONTROL"}
+{"gemini":true,"vagas":4.0,"word":"HIBERNATE FRAMEWORK"}
+{"gemini":true,"vagas":71.0,"word":"MONITOR"}
+{"gemini":true,"vagas":2.0,"word":"SCRIPTING KNOWLEDGE"}
+{"gemini":true,"vagas":15.0,"word":"RESPONSIVE WEB DESIGN"}
+{"gemini":true,"vagas":22.0,"word":"RESPONSIVE DESIGN"}
+{"gemini":true,"vagas":3.0,"word":"BUSINESS INTELLIGENCE TOOLS"}
+{"gemini":true,"vagas":6.0,"word":"DATA WAREHOUSING CONCEPTS"}
+{"gemini":true,"vagas":2.0,"word":"PEOPLETOOLS"}
+{"gemini":true,"vagas":3.0,"word":"PEOPLESOFT HCM"}
+{"gemini":true,"vagas":198.0,"word":"ORACLE EBS"}
+{"gemini":true,"vagas":7.0,"word":"HCM CLOUD"}
+{"gemini":true,"vagas":5.0,"word":"DATA DISCOVERY"}
+{"gemini":true,"vagas":10.0,"word":"DATA LOSS PREVENTION"}
+{"gemini":true,"vagas":13.0,"word":"GATHER"}
+{"gemini":true,"vagas":84.0,"word":"TEMPLATES"}
+{"gemini":true,"vagas":5.0,"word":"CCSP"}
+{"gemini":true,"vagas":33.0,"word":"CEH"}
+{"gemini":true,"vagas":4.0,"word":"CISA"}
+{"gemini":true,"vagas":30.0,"word":"AUTOMATED TESTING"}
+{"gemini":true,"vagas":14.0,"word":"PAIR PROGRAMMING"}
+{"gemini":true,"vagas":28.0,"word":"REFACTORING"}
+{"gemini":true,"vagas":12.0,"word":"CODE REVIEWS"}
+{"gemini":true,"vagas":11.0,"word":"IBM WATSON"}
+{"gemini":true,"vagas":2.0,"word":"BUDGETING"}
+{"gemini":true,"vagas":45.0,"word":"JD EDWARDS"}
+{"gemini":true,"vagas":14.0,"word":"JD EDWARDS ENTERPRISEONE"}
+{"gemini":true,"vagas":7.0,"word":"KARATE"}
+{"gemini":true,"vagas":2.0,"word":"GERRIT"}
+{"gemini":true,"vagas":5.0,"word":"CONCOURSE"}
+{"gemini":true,"vagas":3.0,"word":"RAPID7"}
+{"gemini":true,"vagas":77.0,"word":"SPRING CLOUD"}
+{"gemini":true,"vagas":6.0,"word":"TWIG"}
+{"gemini":true,"vagas":21.0,"word":"DOCTRINE"}
+{"gemini":true,"vagas":5.0,"word":"SECURITY BEST PRACTICES"}
+{"gemini":true,"vagas":10.0,"word":"TESTING AND QUALITY ASSURANCE"}
+{"gemini":true,"vagas":22.0,"word":"AXIOS"}
+{"gemini":true,"vagas":8.0,"word":"IT SECURITY"}
+{"gemini":true,"vagas":14.0,"word":"ORDER MANAGEMENT"}
+{"gemini":true,"vagas":16.0,"word":"SQL SERVER ANALYSIS SERVICES"}
+{"gemini":true,"vagas":2.0,"word":"AZURE ANALYSIS SERVICES"}
+{"gemini":true,"vagas":41.0,"word":"ROBOT FRAMEWORK"}
+{"gemini":true,"vagas":2.0,"word":"SPECFLOW"}
+{"gemini":true,"vagas":7.0,"word":"SKILL A"}
+{"gemini":true,"vagas":25.0,"word":"SKILL E"}
+{"gemini":true,"vagas":11.0,"word":"HCL"}
+{"gemini":true,"vagas":6.0,"word":"DISTRIBUTED SYSTEMS"}
+{"gemini":true,"vagas":3.0,"word":"KUBERNETES KNOWLEDGE"}
+{"gemini":true,"vagas":2.0,"word":"POLYMER"}
+{"gemini":true,"vagas":4.0,"word":"HYPERION PLANNING"}
+{"gemini":true,"vagas":2.0,"word":"HYPERION FINANCIAL MANAGEMENT"}
+{"gemini":true,"vagas":4.0,"word":"ORACLE HYPERION PLANNING"}
+{"gemini":true,"vagas":3.0,"word":"MICROSOFT INTUNE"}
+{"gemini":true,"vagas":14.0,"word":"IDENTITY AND ACCESS MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"ENTERPRISE MOBILITY MANAGEMENT"}
+{"gemini":true,"vagas":38.0,"word":"CLOUD SERVICES"}
+{"gemini":true,"vagas":6.0,"word":"SMART CONTRACTS"}
+{"gemini":true,"vagas":3.0,"word":"ITIL KNOWLEDGE"}
+{"gemini":true,"vagas":2.0,"word":"H.323"}
+{"gemini":true,"vagas":29.0,"word":"CDI"}
+{"gemini":true,"vagas":10.0,"word":"ASP.NET CORE MVC"}
+{"gemini":true,"vagas":11.0,"word":"SOLUTION ARCHITECTURE"}
+{"gemini":true,"vagas":3.0,"word":"PROGRAM MANAGEMENT"}
+{"gemini":true,"vagas":23.0,"word":"SIX SIGMA"}
+{"gemini":true,"vagas":4.0,"word":"BI REPORTING"}
+{"gemini":true,"vagas":180.0,"word":"FUNCTIONS"}
+{"gemini":true,"vagas":4.0,"word":"DOMAIN KNOWLEDGE"}
+{"gemini":true,"vagas":56.0,"word":"UI DESIGN"}
+{"gemini":true,"vagas":5.0,"word":"NAVIGATION"}
+{"gemini":true,"vagas":62.0,"word":"SAN"}
+{"gemini":true,"vagas":8413.0,"word":"NAS"}
+{"gemini":true,"vagas":18.0,"word":"AUTOMATION TOOLS"}
+{"gemini":true,"vagas":5.0,"word":"ORGANIZATIONAL SKILLS"}
+{"gemini":true,"vagas":4.0,"word":"TECHNICAL PROFICIENCY"}
+{"gemini":true,"vagas":11.0,"word":"DISCORD"}
+{"gemini":true,"vagas":1073.0,"word":"ENGINEER"}
+{"gemini":true,"vagas":108.0,"word":"RELEASE"}
+{"gemini":true,"vagas":2.0,"word":"EVOLUTION"}
+{"gemini":true,"vagas":7.0,"word":"PEER REVIEW"}
+{"gemini":true,"vagas":12.0,"word":"ARCGIS"}
+{"gemini":true,"vagas":2.0,"word":"MAPINFO"}
+{"gemini":true,"vagas":9.0,"word":"GOOGLE EARTH"}
+{"gemini":true,"vagas":38.0,"word":"GPS"}
+{"gemini":true,"vagas":2.0,"word":"STRUCTURED QUERY LANGUAGE"}
+{"gemini":true,"vagas":5.0,"word":"COMMUNICATION PROTOCOLS"}
+{"gemini":true,"vagas":2.0,"word":"RTU"}
+{"gemini":true,"vagas":43.0,"word":"CONTROL SYSTEMS"}
+{"gemini":true,"vagas":2.0,"word":"DCS"}
+{"gemini":true,"vagas":29.0,"word":"PLC"}
+{"gemini":true,"vagas":6.0,"word":"PROCESS CONTROL"}
+{"gemini":true,"vagas":2.0,"word":"MANAGED SECURITY"}
+{"gemini":true,"vagas":155.0,"word":"VIEWS"}
+{"gemini":true,"vagas":86.0,"word":"STORED PROCEDURES"}
+{"gemini":true,"vagas":163.0,"word":"TRIGGERS"}
+{"gemini":true,"vagas":18.0,"word":"JOINS"}
+{"gemini":true,"vagas":7.0,"word":"SEAM"}
+{"gemini":true,"vagas":7.0,"word":"JBOSS SEAM"}
+{"gemini":true,"vagas":4.0,"word":"HUMAN-COMPUTER INTERACTION"}
+{"gemini":true,"vagas":10.0,"word":"NETWORK ACCESS CONTROL"}
+{"gemini":true,"vagas":18.0,"word":"PAT"}
+{"gemini":true,"vagas":2.0,"word":"REVERSE ENGINEERING"}
+{"gemini":true,"vagas":33.0,"word":"EAP"}
+{"gemini":true,"vagas":18.0,"word":"INTEGRITY"}
+{"gemini":true,"vagas":47.0,"word":"HARDENING"}
+{"gemini":true,"vagas":6.0,"word":"ENTERPRISE JAVA"}
+{"gemini":true,"vagas":2.0,"word":"RESTFUL WEBSERVICES"}
+{"gemini":true,"vagas":5.0,"word":"ANIMATION"}
+{"gemini":true,"vagas":9.0,"word":"GRAPHICS"}
+{"gemini":true,"vagas":191.0,"word":"FIORI"}
+{"gemini":true,"vagas":2.0,"word":"JAMF"}
+{"gemini":true,"vagas":3.0,"word":"SOFTWARE ENGINEERING PRINCIPLES"}
+{"gemini":true,"vagas":38.0,"word":"VERSION CONTROL SYSTEMS"}
+{"gemini":true,"vagas":18.0,"word":"FRONT-END TECHNOLOGIES"}
+{"gemini":true,"vagas":434.0,"word":"WORD"}
+{"gemini":true,"vagas":153.0,"word":"MICROSOFT OFFICE"}
+{"gemini":true,"vagas":83.0,"word":"DELIVER"}
+{"gemini":true,"vagas":162.0,"word":"SEARCH"}
+{"gemini":true,"vagas":2.0,"word":"ENTERPRISE CONTENT MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"TEXT ANALYTICS"}
+{"gemini":true,"vagas":5.0,"word":"CAPTURE"}
+{"gemini":true,"vagas":3.0,"word":"ACTIVE RECORD"}
+{"gemini":true,"vagas":17.0,"word":"APPLICATION PERFORMANCE MANAGEMENT"}
+{"gemini":true,"vagas":37.0,"word":"OBSERVABILITY"}
+{"gemini":true,"vagas":18.0,"word":"ARGO"}
+{"gemini":true,"vagas":4.0,"word":"AZKABAN"}
+{"gemini":true,"vagas":56.0,"word":"ELASTIC STACK"}
+{"gemini":true,"vagas":3380.0,"word":"TEMPO"}
+{"gemini":true,"vagas":4.0,"word":"ALERTMANAGER"}
+{"gemini":true,"vagas":5.0,"word":"WEBSPHERE DATAPOWER"}
+{"gemini":true,"vagas":102.0,"word":"WEB DESIGN"}
+{"gemini":true,"vagas":638.0,"word":"PRODUCT OWNER"}
+{"gemini":true,"vagas":44.0,"word":"SPRINT REVIEW"}
+{"gemini":true,"vagas":3.0,"word":"NAMESPACES"}
+{"gemini":true,"vagas":9.0,"word":"CFD"}
+{"gemini":true,"vagas":2.0,"word":"CAE"}
+{"gemini":true,"vagas":93.0,"word":"CAD"}
+{"gemini":true,"vagas":5.0,"word":"PDM"}
+{"gemini":true,"vagas":7.0,"word":"CAM"}
+{"gemini":true,"vagas":14.0,"word":"PRODUCT DEVELOPMENT"}
+{"gemini":true,"vagas":3043.0,"word":"BOM"}
+{"gemini":true,"vagas":3.0,"word":"TDM"}
+{"gemini":true,"vagas":2.0,"word":"EDM"}
+{"gemini":true,"vagas":22.0,"word":"PRIMAVERA"}
+{"gemini":true,"vagas":5.0,"word":"MARTECH"}
+{"gemini":true,"vagas":6.0,"word":"BIDDING"}
+{"gemini":true,"vagas":5.0,"word":"REVENUE MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"SEGMENTATION"}
+{"gemini":true,"vagas":2.0,"word":"LEAD GENERATION"}
+{"gemini":true,"vagas":2.0,"word":"ACCOUNT MANAGEMENT"}
+{"gemini":true,"vagas":39.0,"word":"SALESFORCE MARKETING CLOUD"}
+{"gemini":true,"vagas":7.0,"word":"APP DEVELOPMENT"}
+{"gemini":true,"vagas":71.0,"word":"PRODUCT DESIGN"}
+{"gemini":true,"vagas":4.0,"word":"DATABASE DEVELOPMENT"}
+{"gemini":true,"vagas":78.0,"word":"NATURAL"}
+{"gemini":true,"vagas":44.0,"word":"BENCHMARKING"}
+{"gemini":true,"vagas":4.0,"word":"INTELLIGENCE ANALYST"}
+{"gemini":true,"vagas":9.0,"word":"DATA PIPELINE"}
+{"gemini":true,"vagas":16.0,"word":"IMPROVEMENT"}
+{"gemini":true,"vagas":184.0,"word":"ANALYSIS"}
+{"gemini":true,"vagas":34.0,"word":"OPTIMIZATION"}
+{"gemini":true,"vagas":3.0,"word":"PREDICTION"}
+{"gemini":true,"vagas":32.0,"word":"APPLICATION SERVER"}
+{"gemini":true,"vagas":21.0,"word":"CANVAS"}
+{"gemini":true,"vagas":13.0,"word":"E-LEARNING"}
+{"gemini":true,"vagas":61.0,"word":"SAFE"}
+{"gemini":true,"vagas":5.0,"word":"ATDD"}
+{"gemini":true,"vagas":103.0,"word":"ES"}
+{"gemini":true,"vagas":49.0,"word":"BITBUCKET PIPELINES"}
+{"gemini":true,"vagas":5.0,"word":"VISUALIZATION TOOLS"}
+{"gemini":true,"vagas":2.0,"word":"DATA PREPROCESSING"}
+{"gemini":true,"vagas":7.0,"word":"CLOUD COMPUTING PLATFORMS"}
+{"gemini":true,"vagas":10.0,"word":"PERFORMANCE TESTING"}
+{"gemini":true,"vagas":10.0,"word":"PERFORMANCE OPTIMIZATION"}
+{"gemini":true,"vagas":6.0,"word":"API TESTING"}
+{"gemini":true,"vagas":9.0,"word":"QUERYING"}
+{"gemini":true,"vagas":97.0,"word":"MS SQL SERVER"}
+{"gemini":true,"vagas":7.0,"word":"PACKAGE MANAGER"}
+{"gemini":true,"vagas":2.0,"word":"DATA COLLECTION"}
+{"gemini":true,"vagas":262.0,"word":"EL"}
+{"gemini":true,"vagas":3.0,"word":"GAMIFICATION"}
+{"gemini":true,"vagas":47.0,"word":"ASSESSMENT"}
+{"gemini":true,"vagas":3.0,"word":"NETWORK ENGINEERING"}
+{"gemini":true,"vagas":59.0,"word":"CLOUD SECURITY"}
+{"gemini":true,"vagas":30.0,"word":"DATA QUALITY"}
+{"gemini":true,"vagas":9.0,"word":"ENDPOINT SECURITY"}
+{"gemini":true,"vagas":2.0,"word":"AZURE SYNAPSE ANALYTICS"}
+{"gemini":true,"vagas":54.0,"word":"SAP HYBRIS"}
+{"gemini":true,"vagas":47.0,"word":"LINQ"}
+{"gemini":true,"vagas":68.0,"word":"CUSTOMER SERVICE"}
+{"gemini":true,"vagas":8.0,"word":"KERAS"}
+{"gemini":true,"vagas":5.0,"word":"DATA ANALYSIS"}
+{"gemini":true,"vagas":30.0,"word":"JCL"}
+{"gemini":true,"vagas":2.0,"word":"SECURITY TESTING"}
+{"gemini":true,"vagas":9.0,"word":"CLOUD DEPLOYMENT"}
+{"gemini":true,"vagas":10.0,"word":"PERFORMANCE TESTING"}
+{"gemini":true,"vagas":8.0,"word":"AGILE TESTING"}
+{"gemini":true,"vagas":4.0,"word":"COVERAGE"}
+{"gemini":true,"vagas":26.0,"word":"WATCH"}
+{"gemini":true,"vagas":402.0,"word":"HANA"}
+{"gemini":true,"vagas":12.0,"word":"DECISION MAKING"}
+{"gemini":true,"vagas":34.0,"word":"SAP CRM"}
+{"gemini":true,"vagas":3.0,"word":"AWS GLUE"}
+{"gemini":true,"vagas":12.0,"word":"ALGORITHMS"}
+{"gemini":true,"vagas":32.0,"word":"UNIT TESTING"}
+{"gemini":true,"vagas":10.0,"word":"TEAMCITY"}
+{"gemini":true,"vagas":31.0,"word":"PROBLEM SOLVING"}
+{"gemini":true,"vagas":10.0,"word":"RISK MANAGEMENT"}
+{"gemini":true,"vagas":33.0,"word":"DYNAMICS CRM"}
+{"gemini":true,"vagas":2.0,"word":"COMPUTE SERVICES"}
+{"gemini":true,"vagas":58.0,"word":"YAML"}
+{"gemini":true,"vagas":62.0,"word":"DATA MANAGEMENT"}
+{"gemini":true,"vagas":5.0,"word":"POWER BI DESKTOP"}
+{"gemini":true,"vagas":72.0,"word":"DATA ANALYTICS"}
+{"gemini":true,"vagas":2.0,"word":"SCRUM FRAMEWORK"}
+{"gemini":true,"vagas":145.0,"word":"NETWORKING"}
+{"gemini":true,"vagas":31.0,"word":"BAMBOO"}
+{"gemini":true,"vagas":35.0,"word":"ANALYTICAL SKILLS"}
+{"gemini":true,"vagas":74.0,"word":"VERSION CONTROL"}
+{"gemini":true,"vagas":18.0,"word":"API DESIGN"}
+{"gemini":true,"vagas":34.0,"word":"MESSAGING"}
+{"gemini":true,"vagas":8.0,"word":"DATA SECURITY"}
+{"gemini":true,"vagas":17.0,"word":"DATA STRUCTURES"}
+{"gemini":true,"vagas":2.0,"word":"COST MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"ORACLE SQL DEVELOPER"}
+{"gemini":true,"vagas":440.0,"word":"CSS3"}
+{"gemini":true,"vagas":14.0,"word":"HUBSPOT"}
+{"gemini":true,"vagas":9.0,"word":"INCIDENT MANAGEMENT"}
+{"gemini":true,"vagas":6.0,"word":"ECLIPSE IDE"}
+{"gemini":true,"vagas":2.0,"word":"FIREWALL MANAGEMENT"}
+{"gemini":true,"vagas":55.0,"word":"PROJECT MANAGEMENT"}
+{"gemini":true,"vagas":19.0,"word":"DATA INTEGRATION"}
+{"gemini":true,"vagas":2.0,"word":"MOBILE APPLICATION DEVELOPMENT"}
+{"gemini":true,"vagas":8.0,"word":"DATA GOVERNANCE"}
+{"gemini":true,"vagas":248.0,"word":"COMMUNICATION SKILLS"}
+{"gemini":true,"vagas":1542.0,"word":"MYSQL"}
+{"gemini":true,"vagas":18.0,"word":"ACCESS CONTROL"}
+{"gemini":true,"vagas":4.0,"word":"PROBLEM MANAGEMENT"}
+{"gemini":true,"vagas":29.0,"word":"AGILE DEVELOPMENT"}
+{"gemini":true,"vagas":2.0,"word":"STORAGE SERVICES"}
+{"gemini":true,"vagas":25.0,"word":"MLOPS"}
+{"gemini":true,"vagas":12.0,"word":"TESTING TOOLS"}
+{"gemini":true,"vagas":6.0,"word":"TECHNICAL KNOWLEDGE"}
+{"gemini":true,"vagas":44.0,"word":"CLI"}
+{"gemini":true,"vagas":4.0,"word":"GTS"}
+{"gemini":true,"vagas":14.0,"word":"IDENTITY AND ACCESS MANAGEMENT"}
+{"gemini":true,"vagas":27.0,"word":"HBASE"}
+{"gemini":true,"vagas":26.0,"word":"AZURE DATABRICKS"}
+{"gemini":true,"vagas":418.0,"word":"ENTITY FRAMEWORK"}
+{"gemini":true,"vagas":17.0,"word":"SALTSTACK"}
+{"gemini":true,"vagas":84.0,"word":"REST APIS"}
+{"gemini":true,"vagas":3.0,"word":"CONCURRENCY"}
+{"gemini":true,"vagas":28.0,"word":"DATA MODELING"}
+{"gemini":true,"vagas":68.0,"word":"E.G."}
+{"gemini":true,"vagas":2.0,"word":"SERVICE LEVEL MANAGEMENT"}
+{"gemini":true,"vagas":3.0,"word":"STAKEHOLDER MANAGEMENT"}
+{"gemini":true,"vagas":41.0,"word":"DATA WAREHOUSING"}
+{"gemini":true,"vagas":15.0,"word":"SERVICE MESH"}
+{"gemini":true,"vagas":3.0,"word":"ROUTING AND SWITCHING"}
+{"gemini":true,"vagas":536.0,"word":"SWIFT"}
+{"gemini":true,"vagas":6.0,"word":"SECOPS"}
+{"gemini":true,"vagas":137.0,"word":"SOFTWARE DEVELOPMENT"}
+{"gemini":true,"vagas":250.0,"word":"CLOUD COMPUTING"}
+{"gemini":true,"vagas":18.0,"word":"NETWORK SECURITY"}
+{"gemini":true,"vagas":20.0,"word":"UNITTEST"}
+{"gemini":true,"vagas":46.0,"word":"EC2"}
+{"gemini":true,"vagas":3.0,"word":"SAP UTILITIES"}
+{"gemini":true,"vagas":10.0,"word":"SALESFORCE DEVELOPMENT"}
+{"gemini":true,"vagas":21.0,"word":"APACHE HADOOP"}
+{"gemini":true,"vagas":3.0,"word":"SCIPY"}
+{"gemini":true,"vagas":76.0,"word":"CONTROLLER"}
+{"gemini":true,"vagas":10.0,"word":"TESTING FRAMEWORKS"}
+{"gemini":true,"vagas":180.0,"word":"DB2"}
+{"gemini":true,"vagas":2.0,"word":"SAP EXTENDED WAREHOUSE MANAGEMENT"}
+{"gemini":true,"vagas":6.0,"word":"API TESTING"}
+{"gemini":true,"vagas":16.0,"word":"EVENTS"}
+{"gemini":true,"vagas":14.0,"word":"TRANSPORTATION MANAGEMENT"}
+{"gemini":true,"vagas":58.0,"word":"CHANGE MANAGEMENT"}
+{"gemini":true,"vagas":44.0,"word":"SPRINT REVIEW"}
+{"gemini":true,"vagas":16.0,"word":"PYTEST"}
+{"gemini":true,"vagas":2.0,"word":"SERVERLESS COMPUTING"}
+{"gemini":true,"vagas":23.0,"word":"DATABASE MANAGEMENT"}
+{"gemini":true,"vagas":6.0,"word":"PRODUCT MANAGEMENT"}
+{"gemini":true,"vagas":2.0,"word":"WIKI"}
+{"gemini":true,"vagas":17.0,"word":"POWER QUERY"}
+{"gemini":true,"vagas":65.0,"word":"SDLC"}
+{"gemini":true,"vagas":26.0,"word":"TEAMWORK"}
+{"gemini":true,"vagas":7.0,"word":"CLOUDOPS"}
+{"gemini":true,"vagas":502.0,"word":"COMMUNICATION"}
+{"gemini":true,"vagas":5.0,"word":"BUSINESS ANALYSIS"}
+{"gemini":true,"vagas":3.0,"word":"SUPPLY CHAIN PLANNING"}
+{"gemini":true,"vagas":62.0,"word":"SAN"}
+{"gemini":true,"vagas":2.0,"word":"RELEASE PLANNING"}
+{"gemini":true,"vagas":4.0,"word":"TIME MANAGEMENT"}
+{"gemini":true,"vagas":53.0,"word":"ORACLE DATABASE"}
+{"gemini":true,"vagas":8.0,"word":"QUALITY MANAGEMENT"}
+{"gemini":true,"vagas":57.0,"word":"COLLABORATION"}
+{"gemini":true,"vagas":7.0,"word":"SPRINT PLANNING"}
+{"gemini":true,"vagas":11.0,"word":"PYTORCH"}
+{"gemini":true,"vagas":166.0,"word":"SCRIPTING"}
+{"gemini":true,"vagas":2.0,"word":"METADATA MANAGEMENT"}
+{"gemini":true,"vagas":18.0,"word":"MASTER DATA MANAGEMENT"}
+{"gemini":true,"vagas":9.0,"word":"KNOWLEDGE OF PROGRAMMING LANGUAGES"}
+{"gemini":true,"vagas":521.0,"word":"HTML5"}
+{"gemini":true,"vagas":4764.0,"word":"REACT"}
