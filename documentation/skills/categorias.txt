@@ -47,3 +47,4 @@ BARRAMENTO
 BI
 gerenciador de dependencias = backend | frontend
 cms
+CLOUDWATCH
