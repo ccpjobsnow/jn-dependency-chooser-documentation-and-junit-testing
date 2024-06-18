@@ -14,3 +14,18 @@ a) O usuário vai salvar um currículo
 13. Cada vaga será avaliada em relação ao match com o currículo no que tange a skills
 14. Cada vaga será avaliada em relação ao match com o currículo no que tange a senioridade
 15. 
+
+
+Salvar curriculo e verificar se sinonimos e pre requisitos foram salvos tambem
+Alterar curriculo e verificar se skills, sinônimos, pre requisitos foram alterados tambem
+Alterar curriculo ativo verificando se toda a alteração foi salva na tabela de curriculos ativos
+Alterar curriculo inativo verificando se toda a alteração foi salva na tabela de curriculos inativos
+Alterar curriculo ativo verificando se o arquivo foi salvo no bucket do google ou no bucket local
+Alterar curriculo inativo verificando se o arquivo foi salvo no bucket do google ou no bucket local
+Salvar curriculo verificando se arquivos estão no bucket
+Salvar vaga e verificar se sinonimos e pre requisitos foram salvos tambem
+Alterar vaga e verificar se skills, sinônimos, pre requisitos foram alterados tambem
+Alterar vaga ativa verificando se toda a alteração foi salva na tabela de vagas ativas
+Alterar vaga inativa verificando se toda a alteração foi salva na tabela de vagas inativas
+
+
