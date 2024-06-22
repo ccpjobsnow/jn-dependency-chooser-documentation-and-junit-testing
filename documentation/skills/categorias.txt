@@ -1,18 +1,18 @@
 erp
-mvc = backend | frontend
-orm = backend
-mensageria = backend
-spa = js, frontend
-mobile = frontend 
-servers = backend
-versionamento = backend | frontend
-metodologias = []
-bigdata	= bd
-sap = backend
-cloud = backend
-sql = bd
-nosql = bd
-bd = backend
+mvc
+orm
+mensageria
+spa
+mobile
+servers
+versionamento
+metodologias
+bigdata
+sap
+cloud
+sql
+nosql
+bd
 automacao 
 python
 ruby
@@ -21,6 +21,7 @@ MONITORAMENTO
 c#
 java
 js
+BI
 SOA
 soap
 rest
@@ -29,11 +30,9 @@ crm
 git
 react
 node
-direito
-medicina
 testes
 IA
-ci
+CI
 BUILD
 MVVM
 frontend
@@ -41,10 +40,10 @@ NLP
 aws
 gcp
 AZURE
-SPRING = java
+SPRING
 ASP.NET
 BARRAMENTO
-BI
-gerenciador de dependencias = backend | frontend
+gerenciador de dependencias
 cms
 CLOUDWATCH
+PROTOCOL

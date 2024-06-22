@@ -1,0 +1,6 @@
+A) Extrair dúvidas
+B) Fundir sinônimos
+C) Descobrir pre requisitos
+D) Extrair dados da gemini
+E) Chamar Gemini
+F) Fundir profissoes

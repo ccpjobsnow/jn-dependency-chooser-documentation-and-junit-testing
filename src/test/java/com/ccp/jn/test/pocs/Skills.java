@@ -3,6 +3,7 @@ package com.ccp.jn.test.pocs;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -38,7 +39,29 @@ public class Skills {
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
 				);
-		inserirTermosDoGeminiQueNaoTenhamSidoRegistradosComoSinonimos();
+		retirarPalavras();
+	}
+	
+	static void retirarPalavras() {
+		Set<String> collect = new CcpStringDecorator("documentation\\skills\\excluir.txt").file().getLines().stream().collect(Collectors.toSet());
+		System.out.println(collect.size());
+		Set<String> duvidas = new CcpStringDecorator("documentation\\skills\\duvidas.txt").file().getLines().stream().collect(Collectors.toSet());
+		ArrayList<String> arrayList = new ArrayList<String>(duvidas);
+		System.out.println(arrayList.size());
+		arrayList.addAll(collect);
+		List<CcpJsonRepresentation> asJsonList = new CcpStringDecorator("documentation\\skills\\skills.json").file().asJsonList();
+		for (String string : arrayList) {
+			asJsonList = asJsonList.stream().filter(x -> x.getAsString("word").equals(string) == false).collect(Collectors.toList());
+		}
+		System.out.println(asJsonList.size());
+		CcpFileDecorator file = new CcpStringDecorator("documentation\\skills\\synonyms.txt").file();
+		Set<String> synonyms = file.getLines().stream().collect(Collectors.toSet());
+		ArrayList<String> arrayList2 = new ArrayList<String>(synonyms);
+		Collections.sort(arrayList2);
+		file.reset();
+		for (String string : arrayList2) {
+			file.append(string);	
+		}
 	}
 	
 	static void contarSinonimos() {
