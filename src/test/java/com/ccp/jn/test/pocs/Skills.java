@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -39,7 +40,194 @@ public class Skills {
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
 				);
-		retirarPalavras();
+		evidenciarTermosUnicos();
+	}
+
+	static void fundirSinonimos() {
+		CcpFileDecorator skillFile = new CcpStringDecorator("documentation\\skills\\skills.json").file();
+		List<CcpJsonRepresentation> skills = skillFile.asJsonList();
+		List<CcpJsonRepresentation> synonymsList = new CcpStringDecorator("documentation\\skills\\skillsFromGemini.json").file().asJsonList();
+		
+	}
+
+	static void agruparSinonimos() {
+		CcpFileDecorator synonyms2File = new CcpStringDecorator("documentation\\skills\\synonyms2.txt").file().reset();
+		CcpFileDecorator synonymsFile = new CcpStringDecorator("documentation\\skills\\synonyms.txt").file();
+		Set<Set<String>> sinonimos = synonymsFile.getLines().stream()
+				.map(x -> x.toUpperCase().split(","))
+				.map(x -> Arrays.asList(x).stream().map(y -> y.trim()).collect(Collectors.toSet()))
+				.collect(Collectors.toSet())
+				;
+		
+		List<String> synonyms2 = new ArrayList<>();
+		
+		for (Set<String> set : sinonimos) {
+			ArrayList<String> newSet = new ArrayList<>(set);
+			Collections.sort(newSet);
+			String replace = newSet.toString().replace("[", "").replace("]", "");
+			synonyms2.add(replace);
+		}
+		
+		Collections.sort(synonyms2);
+		
+		for (String string : synonyms2) {
+			synonyms2File.append(string);
+		}
+		
+	}
+	
+	static void fundirListas() {
+		CcpFileDecorator skillFile = new CcpStringDecorator("documentation\\skills\\skills.json").file();
+		List<CcpJsonRepresentation> skills = skillFile.asJsonList();
+		List<CcpJsonRepresentation> skillsFromGemini = new CcpStringDecorator("documentation\\skills\\skillsFromGemini.json").file().asJsonList();
+		Map<String, CcpJsonRepresentation> map = new LinkedHashMap<>();
+		for (CcpJsonRepresentation skillFromGemini : skillsFromGemini) {
+			String wordFromGemini = skillFromGemini.getAsString("word");
+			for (CcpJsonRepresentation skill : skills) {
+				
+				String word = skill.getAsString("word");
+				
+				boolean skipThisSkill = word.equals(wordFromGemini) == false;
+				
+				if(skipThisSkill) {
+					continue;
+				}
+				
+				CcpJsonRepresentation jsonPiece = skillFromGemini.getJsonPiece("similar", "prerequisites");
+				CcpJsonRepresentation putAll = skill.putAll(jsonPiece);
+				map.put(word, putAll);
+			}
+		}
+		skillFile.reset();
+		skillFile.append(map.values().toString());
+	}
+
+	static boolean encontrouSkillNaLista(CcpJsonRepresentation skillFromGemini,List<CcpJsonRepresentation> skills) {
+		String word = skillFromGemini.getAsString("word");
+		Set<String> collect = skills.stream().map(x -> x.getAsString("word")).collect(Collectors.toSet());
+		boolean found = collect.contains(word);
+		return found;
+	}
+	
+	static void descobrirTermosSolos() {
+		CcpFileDecorator synonymsFile = new CcpStringDecorator("documentation\\skills\\synonyms.txt").file();
+		List<String> synonymsList = synonymsFile.getLines();
+		List<CcpJsonRepresentation> skills = new CcpStringDecorator("documentation\\skills\\skills.json").file().asJsonList();
+		List<CcpJsonRepresentation> collect = skills.stream().filter(skill -> naoPossuiSinonimo(skill, synonymsList)).collect(Collectors.toList());
+		for (CcpJsonRepresentation skill : collect) {
+			System.out.println(skill.getAsString("word"));
+		}
+	}
+	
+	static boolean naoPossuiSinonimo(CcpJsonRepresentation skill, List<String> synonymsList) {
+		
+		boolean gemini = skill.getAsBoolean("gemini");
+		
+		if(gemini) {
+			return false;
+		}
+		
+		boolean hasSynonym = skill.getAsJsonList("synonyms").isEmpty() == false;
+		if(hasSynonym) {
+			return false;
+		}
+		
+		String word = skill.getAsString("word");
+		for (String string : synonymsList) {
+			String[] split = string.split(",");
+			for (String s : split) {
+				if(s.trim().isEmpty()) {
+					continue;
+				}
+				
+				if(word.trim().isEmpty()) {
+					continue;
+				}
+				
+				boolean equalsIgnoreCase = word.trim().equalsIgnoreCase(s.trim());
+				if(equalsIgnoreCase) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+	
+	static void evidenciarTermosUnicos() {
+		CcpFileDecorator synonymsFile = new CcpStringDecorator("documentation\\skills\\synonyms.txt").file();
+		List<CcpJsonRepresentation> skills = new CcpStringDecorator("documentation\\skills\\skills.json").file().asJsonList();
+		List<String> lines = synonymsFile.getLines();
+		lines.sort((a, b) -> ordenarTermosUnicos(a, b, skills));
+		synonymsFile.reset();
+		for (String line : lines) {
+			synonymsFile.append(line);
+		}
+	}
+	
+	static int ordenarTermosUnicos(String a, String b, List<CcpJsonRepresentation> skills) {
+		int totalDeSkills1 = getTotalDeSkills(a, skills);
+		int totalDeSkills2 = getTotalDeSkills(b, skills);
+		int diff1 = totalDeSkills1 - totalDeSkills2;
+		
+		if(diff1 != 0) {
+			return diff1;
+		}
+
+		String[] split = a.split(",");
+		int length = split.length;
+		String[] split2 = b.split(",");
+		int length2 = split2.length;
+		int diff2 = length - length2;
+		
+		if(diff2 != 0) {
+			return diff2;
+		}
+		
+		int diff3 = a.length() - b.length();
+		if(diff3 != 0) {
+			return diff3;
+		}
+		
+		int compareTo = a.compareTo(b);
+		return compareTo;
+	}
+	
+	static int getTotalDeSkills(String s, List<CcpJsonRepresentation> skills) {
+		long count = skills.stream().filter(skill -> hasMatch(s, skill)).count();
+		return (int) count;
+	}
+	
+	static boolean hasMatch(String s, CcpJsonRepresentation skill) {
+		String word = skill.getAsString("word");
+		
+		String[] split = s.split(",");
+		for (String string : split) {
+			boolean wordDoesNotMatch = word.trim().equalsIgnoreCase(string.trim()) == false;
+			if(wordDoesNotMatch) {
+				continue;
+			}
+			
+			boolean gemini = skill.getAsBoolean("gemini");
+
+			if(gemini) {
+				continue;
+			}
+			return true;
+		}
+		
+		List<CcpJsonRepresentation> synonyms = skill.getAsJsonList("synonyms");
+		
+		for (CcpJsonRepresentation synonym : synonyms) {
+			String synonymName = synonym.getAsString("skill");
+			for (String string : split) {
+				boolean synonyMatch = synonymName.trim().equalsIgnoreCase(string.trim());
+				if(synonyMatch) {
+					return true;
+				}
+			}
+		}
+		
+		return false;
 	}
 	
 	static void retirarPalavras() {

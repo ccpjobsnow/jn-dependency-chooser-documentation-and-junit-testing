@@ -34,7 +34,6 @@ testes
 IA
 CI
 BUILD
-MVVM
 frontend
 NLP
 aws
