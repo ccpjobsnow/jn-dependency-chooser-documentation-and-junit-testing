@@ -1,6 +1,2697 @@
 [{
+  "listSize": 7.0,
+  "media": 1240.0,
   "ranking": 1.0,
-  "word": ""
+  "skill": {
+    "skill": "AUXILIAR",
+    "vagas": 7616.0
+  },
+  "somatoria": 8685.0,
+  "synonyms": [
+    {
+      "skill": "AJUDANTE",
+      "vagas": 499.0
+    },
+    {
+      "skill": "AUXILIAR DE SERVICOS GERAIS",
+      "vagas": 184.0
+    },
+    {
+      "skill": "AUXILIARES",
+      "vagas": 156.0
+    },
+    {
+      "skill": "AJUDANTE GERAL",
+      "vagas": 109.0
+    },
+    {
+      "skill": "AUXILIAR DE LIMPEZA",
+      "vagas": 103.0
+    },
+    {
+      "skill": "AJUDANTES",
+      "vagas": 18.0
+    }
+  ],
+  "word": "AUXILIAR"
+}, {
+  "listSize": 2.0,
+  "media": 3439.0,
+  "ranking": 2.0,
+  "skill": {
+    "skill": "ASSISTENTE",
+    "vagas": 6807.0
+  },
+  "somatoria": 6879.0,
+  "synonyms": [
+    {
+      "skill": "ASSISTENTES",
+      "vagas": 72.0
+    }
+  ],
+  "word": "ASSISTENTE"
+}, {
+  "listSize": 2.0,
+  "media": 2617.0,
+  "ranking": 3.0,
+  "skill": {
+    "skill": "GERENTE",
+    "vagas": 4925.0
+  },
+  "somatoria": 5235.0,
+  "synonyms": [
+    {
+      "skill": "GERENTES",
+      "vagas": 310.0
+    }
+  ],
+  "word": "GERENTE"
+}, {
+  "listSize": 4.0,
+  "media": 1140.0,
+  "ranking": 4.0,
+  "skill": {
+    "skill": "MEDICA",
+    "vagas": 2726.0
+  },
+  "somatoria": 4562.0,
+  "synonyms": [
+    {
+      "skill": "MEDICO",
+      "vagas": 1657.0
+    },
+    {
+      "skill": "MEDICOS",
+      "vagas": 150.0
+    },
+    {
+      "skill": "MEDICAS",
+      "vagas": 29.0
+    }
+  ],
+  "word": "MEDICA"
+}, {
+  "listSize": 6.0,
+  "media": 748.0,
+  "ranking": 5.0,
+  "skill": {
+    "skill": "ENGENHEIRO",
+    "vagas": 3016.0
+  },
+  "somatoria": 4493.0,
+  "synonyms": [
+    {
+      "skill": "ENGINEER",
+      "vagas": 1074.0
+    },
+    {
+      "skill": "ENGENHEIROS",
+      "vagas": 236.0
+    },
+    {
+      "skill": "ENGENHEIRA",
+      "vagas": 103.0
+    },
+    {
+      "skill": "ENGINEERS",
+      "vagas": 52.0
+    },
+    {
+      "skill": "ENGENHEIRAS",
+      "vagas": 12.0
+    }
+  ],
+  "word": "ENGENHEIRO"
+}, {
+  "listSize": 1.0,
+  "media": 3586.0,
+  "ranking": 6.0,
+  "skill": {
+    "skill": "DEVOPS",
+    "vagas": 3586.0
+  },
+  "somatoria": 3586.0,
+  "synonyms": [],
+  "word": "DEVOPS"
+}, {
+  "listSize": 4.0,
+  "media": 853.0,
+  "ranking": 7.0,
+  "skill": {
+    "skill": "COORDENADOR",
+    "vagas": 2912.0
+  },
+  "somatoria": 3413.0,
+  "synonyms": [
+    {
+      "skill": "COORDENADORA",
+      "vagas": 457.0
+    },
+    {
+      "skill": "COORDENADORES",
+      "vagas": 44.0
+    },
+    {
+      "skill": "COORDENADORAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "COORDENADOR"
+}, {
+  "listSize": 11.0,
+  "media": 276.0,
+  "ranking": 8.0,
+  "skill": {
+    "skill": "LEAD",
+    "vagas": 1151.0
+  },
+  "somatoria": 3044.0,
+  "synonyms": [
+    {
+      "skill": "TECH LEAD",
+      "vagas": 715.0
+    },
+    {
+      "skill": "LIDER TECNICO",
+      "vagas": 559.0
+    },
+    {
+      "skill": "LIDERES",
+      "vagas": 384.0
+    },
+    {
+      "skill": "LEADER",
+      "vagas": 131.0
+    },
+    {
+      "skill": "TECHLEAD",
+      "vagas": 44.0
+    },
+    {
+      "skill": "TECH LEADER",
+      "vagas": 36.0
+    },
+    {
+      "skill": "TECH MANAGER",
+      "vagas": 12.0
+    },
+    {
+      "skill": "LEADERS",
+      "vagas": 8.0
+    },
+    {
+      "skill": "TECHLEADER",
+      "vagas": 2.0
+    },
+    {
+      "skill": "TECHMANAGER",
+      "vagas": 2.0
+    }
+  ],
+  "word": "LEAD"
+}, {
+  "listSize": 6.0,
+  "media": 452.0,
+  "ranking": 9.0,
+  "skill": {
+    "skill": "ARQUITETO",
+    "vagas": 2197.0
+  },
+  "somatoria": 2717.0,
+  "synonyms": [
+    {
+      "skill": "ARCHITECT",
+      "vagas": 288.0
+    },
+    {
+      "skill": "ARQUITETOS",
+      "vagas": 163.0
+    },
+    {
+      "skill": "ARQUITETA",
+      "vagas": 60.0
+    },
+    {
+      "skill": "ARCHITECTS",
+      "vagas": 7.0
+    },
+    {
+      "skill": "ARQUITETAS",
+      "vagas": 2.0
+    }
+  ],
+  "word": "ARQUITETO"
+}, {
+  "listSize": 8.0,
+  "media": 336.0,
+  "ranking": 10.0,
+  "skill": {
+    "skill": "MANAGER",
+    "vagas": 951.0
+  },
+  "somatoria": 2695.0,
+  "synonyms": [
+    {
+      "skill": "GESTOR",
+      "vagas": 693.0
+    },
+    {
+      "skill": "ADMINISTRADOR",
+      "vagas": 456.0
+    },
+    {
+      "skill": "GESTORES",
+      "vagas": 445.0
+    },
+    {
+      "skill": "ADMINISTRADORA",
+      "vagas": 63.0
+    },
+    {
+      "skill": "MANAGERS",
+      "vagas": 53.0
+    },
+    {
+      "skill": "ADMINISTRADORES",
+      "vagas": 23.0
+    },
+    {
+      "skill": "ADMINISTRADORAS",
+      "vagas": 11.0
+    }
+  ],
+  "word": "MANAGER"
+}, {
+  "listSize": 8.0,
+  "media": 334.0,
+  "ranking": 11.0,
+  "skill": {
+    "skill": "VENDEDOR",
+    "vagas": 1488.0
+  },
+  "somatoria": 2674.0,
+  "synonyms": [
+    {
+      "skill": "VENDEDORA",
+      "vagas": 355.0
+    },
+    {
+      "skill": "VENDEDOR EXTERNO",
+      "vagas": 291.0
+    },
+    {
+      "skill": "EXECUTIVO DE VENDAS",
+      "vagas": 217.0
+    },
+    {
+      "skill": "VENDEDORES",
+      "vagas": 187.0
+    },
+    {
+      "skill": "PROMOTOR DE VENDAS",
+      "vagas": 83.0
+    },
+    {
+      "skill": "VENDEDOR DE LOJA",
+      "vagas": 45.0
+    },
+    {
+      "skill": "OPERADOR DE VENDAS",
+      "vagas": 8.0
+    }
+  ],
+  "word": "VENDEDOR"
+}, {
+  "listSize": 4.0,
+  "media": 613.0,
+  "ranking": 12.0,
+  "skill": {
+    "skill": "OPERADOR",
+    "vagas": 1961.0
+  },
+  "somatoria": 2452.0,
+  "synonyms": [
+    {
+      "skill": "OPERADORA",
+      "vagas": 194.0
+    },
+    {
+      "skill": "OPERADORES",
+      "vagas": 187.0
+    },
+    {
+      "skill": "OPERADORAS",
+      "vagas": 110.0
+    }
+  ],
+  "word": "OPERADOR"
+}, {
+  "listSize": 4.0,
+  "media": 526.0,
+  "ranking": 13.0,
+  "skill": {
+    "skill": "SUPERVISOR",
+    "vagas": 1835.0
+  },
+  "somatoria": 2104.0,
+  "synonyms": [
+    {
+      "skill": "SUPERVISORA",
+      "vagas": 202.0
+    },
+    {
+      "skill": "SUPERVISORES",
+      "vagas": 67.0
+    },
+    {
+      "skill": "SUPERVISORAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "SUPERVISOR"
+}, {
+  "listSize": 21.0,
+  "media": 93.0,
+  "ranking": 14.0,
+  "skill": {
+    "skill": "RECRUITER",
+    "vagas": 545.0
+  },
+  "somatoria": 1958.0,
+  "synonyms": [
+    {
+      "skill": "TECH RECRUITER",
+      "vagas": 393.0
+    },
+    {
+      "skill": "HUNTER",
+      "vagas": 251.0
+    },
+    {
+      "skill": "TALENT ACQUISITION",
+      "vagas": 157.0
+    },
+    {
+      "skill": "RECRUTADOR",
+      "vagas": 135.0
+    },
+    {
+      "skill": "HEAD HUNTER",
+      "vagas": 96.0
+    },
+    {
+      "skill": "RECRUTADORES",
+      "vagas": 79.0
+    },
+    {
+      "skill": "TECHRECRUITER",
+      "vagas": 70.0
+    },
+    {
+      "skill": "RECRUTADORA",
+      "vagas": 60.0
+    },
+    {
+      "skill": "HEADHUNTER",
+      "vagas": 55.0
+    },
+    {
+      "skill": "RECRUITERS",
+      "vagas": 49.0
+    },
+    {
+      "skill": "TECHNICAL RECRUITER",
+      "vagas": 23.0
+    },
+    {
+      "skill": "SELECIONADORA",
+      "vagas": 15.0
+    },
+    {
+      "skill": "RECRUTADORAS",
+      "vagas": 9.0
+    },
+    {
+      "skill": "SELECIONADOR",
+      "vagas": 9.0
+    },
+    {
+      "skill": "HEADHUNTERS",
+      "vagas": 7.0
+    },
+    {
+      "skill": "TI RECRUITER",
+      "vagas": 3.0
+    },
+    {
+      "skill": "HEAD HUNTERS",
+      "vagas": 1.0
+    },
+    {
+      "skill": "SELECIONADORAS",
+      "vagas": 1.0
+    },
+    {
+      "skill": "HUNTERES",
+      "vagas": 0.0
+    },
+    {
+      "skill": "SELECIONADORES",
+      "vagas": 0.0
+    }
+  ],
+  "word": "RECRUITER"
+}, {
+  "listSize": 10.0,
+  "media": 153.0,
+  "ranking": 15.0,
+  "skill": {
+    "skill": "SUPORTE TECNICO",
+    "vagas": 877.0
+  },
+  "somatoria": 1539.0,
+  "synonyms": [
+    {
+      "skill": "TECNICO DE SUPORTE",
+      "vagas": 420.0
+    },
+    {
+      "skill": "SUPORTE N",
+      "vagas": 61.0
+    },
+    {
+      "skill": "SUPORTE DE TI",
+      "vagas": 57.0
+    },
+    {
+      "skill": "TECNICO DE INFORMATICA",
+      "vagas": 57.0
+    },
+    {
+      "skill": "TECNICO DE CAMPO",
+      "vagas": 41.0
+    },
+    {
+      "skill": "SUPORTE DE SISTEMA",
+      "vagas": 10.0
+    },
+    {
+      "skill": "SUPPORT ENGINEER",
+      "vagas": 10.0
+    },
+    {
+      "skill": "SUPORTE REDES",
+      "vagas": 4.0
+    },
+    {
+      "skill": "SUPORTE DE REDES",
+      "vagas": 2.0
+    }
+  ],
+  "word": "SUPORTE TECNICO"
+}, {
+  "listSize": 2.0,
+  "media": 708.0,
+  "ranking": 16.0,
+  "skill": {
+    "skill": "DESIGNER",
+    "vagas": 1304.0
+  },
+  "somatoria": 1416.0,
+  "synonyms": [
+    {
+      "skill": "DESIGNERS",
+      "vagas": 112.0
+    }
+  ],
+  "word": "DESIGNER"
+}, {
+  "listSize": 3.0,
+  "media": 399.0,
+  "ranking": 17.0,
+  "skill": {
+    "skill": "MECANICO",
+    "vagas": 1039.0
+  },
+  "somatoria": 1197.0,
+  "synonyms": [
+    {
+      "skill": "MECANICOS",
+      "vagas": 155.0
+    },
+    {
+      "skill": "SUPERVISOR DE MECANICA",
+      "vagas": 3.0
+    }
+  ],
+  "word": "MECANICO"
+}, {
+  "listSize": 5.0,
+  "media": 224.0,
+  "ranking": 18.0,
+  "skill": {
+    "skill": "PRODUCT OWNER",
+    "vagas": 638.0
+  },
+  "somatoria": 1124.0,
+  "synonyms": [
+    {
+      "skill": "PO",
+      "vagas": 383.0
+    },
+    {
+      "skill": "P O",
+      "vagas": 41.0
+    },
+    {
+      "skill": "PRODUCTOWNER",
+      "vagas": 32.0
+    },
+    {
+      "skill": "P.O",
+      "vagas": 30.0
+    }
+  ],
+  "word": "PRODUCT OWNER"
+}, {
+  "listSize": 2.0,
+  "media": 503.0,
+  "ranking": 19.0,
+  "skill": {
+    "skill": "GERENTE DE PROJETOS",
+    "vagas": 948.0
+  },
+  "somatoria": 1007.0,
+  "synonyms": [
+    {
+      "skill": "PROJECT MANAGER",
+      "vagas": 59.0
+    }
+  ],
+  "word": "GERENTE DE PROJETOS"
+}, {
+  "listSize": 4.0,
+  "media": 237.0,
+  "ranking": 20.0,
+  "skill": {
+    "skill": "EXECUTIVO",
+    "vagas": 636.0
+  },
+  "somatoria": 951.0,
+  "synonyms": [
+    {
+      "skill": "EXECUTIVA",
+      "vagas": 142.0
+    },
+    {
+      "skill": "EXECUTIVOS",
+      "vagas": 135.0
+    },
+    {
+      "skill": "EXECUTIVAS",
+      "vagas": 38.0
+    }
+  ],
+  "word": "EXECUTIVO"
+}, {
+  "listSize": 4.0,
+  "media": 234.0,
+  "ranking": 21.0,
+  "skill": {
+    "skill": "DBA",
+    "vagas": 793.0
+  },
+  "somatoria": 938.0,
+  "synonyms": [
+    {
+      "skill": "ADMINISTRADOR DE BANCO DE DADOS",
+      "vagas": 107.0
+    },
+    {
+      "skill": "DATABASE ADMINISTRATOR",
+      "vagas": 29.0
+    },
+    {
+      "skill": "DBAS",
+      "vagas": 9.0
+    }
+  ],
+  "word": "DBA"
+}, {
+  "listSize": 3.0,
+  "media": 263.0,
+  "ranking": 22.0,
+  "skill": {
+    "skill": "SCRUM MASTER",
+    "vagas": 698.0
+  },
+  "somatoria": 789.0,
+  "synonyms": [
+    {
+      "skill": "SM",
+      "vagas": 47.0
+    },
+    {
+      "skill": "SCRUMMASTER",
+      "vagas": 44.0
+    }
+  ],
+  "word": "SCRUM MASTER"
+}, {
+  "listSize": 2.0,
+  "media": 372.0,
+  "ranking": 23.0,
+  "skill": {
+    "skill": "MOTORISTA",
+    "vagas": 608.0
+  },
+  "somatoria": 744.0,
+  "synonyms": [
+    {
+      "skill": "MOTORISTAS",
+      "vagas": 136.0
+    }
+  ],
+  "word": "MOTORISTA"
+}, {
+  "listSize": 2.0,
+  "media": 292.0,
+  "ranking": 24.0,
+  "skill": {
+    "skill": "ELETRICISTA",
+    "vagas": 580.0
+  },
+  "somatoria": 584.0,
+  "synonyms": [
+    {
+      "skill": "ELETRICISTAS",
+      "vagas": 4.0
+    }
+  ],
+  "word": "ELETRICISTA"
+}, {
+  "listSize": 2.0,
+  "media": 263.0,
+  "ranking": 25.0,
+  "skill": {
+    "skill": "COMPRADOR",
+    "vagas": 493.0
+  },
+  "somatoria": 526.0,
+  "synonyms": [
+    {
+      "skill": "COMPRADORES",
+      "vagas": 33.0
+    }
+  ],
+  "word": "COMPRADOR"
+}, {
+  "listSize": 2.0,
+  "media": 261.0,
+  "ranking": 26.0,
+  "skill": {
+    "skill": "RECEPCIONISTA",
+    "vagas": 508.0
+  },
+  "somatoria": 522.0,
+  "synonyms": [
+    {
+      "skill": "RECEPCIONISTAS",
+      "vagas": 14.0
+    }
+  ],
+  "word": "RECEPCIONISTA"
+}, {
+  "listSize": 2.0,
+  "media": 259.0,
+  "ranking": 27.0,
+  "skill": {
+    "skill": "REPRESENTANTE",
+    "vagas": 366.0
+  },
+  "somatoria": 518.0,
+  "synonyms": [
+    {
+      "skill": "REPRESENTANTES",
+      "vagas": 152.0
+    }
+  ],
+  "word": "REPRESENTANTE"
+}, {
+  "listSize": 4.0,
+  "media": 124.0,
+  "ranking": 28.0,
+  "skill": {
+    "skill": "ENCARREGADO",
+    "vagas": 459.0
+  },
+  "somatoria": 497.0,
+  "synonyms": [
+    {
+      "skill": "ENCARREGADOS",
+      "vagas": 33.0
+    },
+    {
+      "skill": "ENCARREGADA",
+      "vagas": 5.0
+    },
+    {
+      "skill": "ENCARREGADAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "ENCARREGADO"
+}, {
+  "listSize": 2.0,
+  "media": 234.0,
+  "ranking": 29.0,
+  "skill": {
+    "skill": "ATENDENTE",
+    "vagas": 453.0
+  },
+  "somatoria": 469.0,
+  "synonyms": [
+    {
+      "skill": "ATENDENTES",
+      "vagas": 16.0
+    }
+  ],
+  "word": "ATENDENTE"
+}, {
+  "listSize": 2.0,
+  "media": 220.0,
+  "ranking": 30.0,
+  "skill": {
+    "skill": "CIENTISTA",
+    "vagas": 389.0
+  },
+  "somatoria": 440.0,
+  "synonyms": [
+    {
+      "skill": "CIENTISTAS",
+      "vagas": 51.0
+    }
+  ],
+  "word": "CIENTISTA"
+}, {
+  "listSize": 4.0,
+  "media": 101.0,
+  "ranking": 31.0,
+  "skill": {
+    "skill": "ADVOGADO",
+    "vagas": 327.0
+  },
+  "somatoria": 407.0,
+  "synonyms": [
+    {
+      "skill": "ADVOGADOS",
+      "vagas": 77.0
+    },
+    {
+      "skill": "ADVOGADA",
+      "vagas": 2.0
+    },
+    {
+      "skill": "ADVOGADAS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "ADVOGADO"
+}, {
+  "listSize": 2.0,
+  "media": 190.0,
+  "ranking": 32.0,
+  "skill": {
+    "skill": "PROJETISTA",
+    "vagas": 359.0
+  },
+  "somatoria": 380.0,
+  "synonyms": [
+    {
+      "skill": "PROJETISTAS",
+      "vagas": 21.0
+    }
+  ],
+  "word": "PROJETISTA"
+}, {
+  "listSize": 2.0,
+  "media": 189.0,
+  "ranking": 33.0,
+  "skill": {
+    "skill": "FISICO",
+    "vagas": 225.0
+  },
+  "somatoria": 379.0,
+  "synonyms": [
+    {
+      "skill": "FISICOS",
+      "vagas": 154.0
+    }
+  ],
+  "word": "FISICO"
+}, {
+  "listSize": 4.0,
+  "media": 86.0,
+  "ranking": 34.0,
+  "skill": {
+    "skill": "AGILE COACH",
+    "vagas": 179.0
+  },
+  "somatoria": 346.0,
+  "synonyms": [
+    {
+      "skill": "AGILE MASTER",
+      "vagas": 108.0
+    },
+    {
+      "skill": "AGILISTA",
+      "vagas": 54.0
+    },
+    {
+      "skill": "AGILEMASTER",
+      "vagas": 5.0
+    }
+  ],
+  "word": "AGILE COACH"
+}, {
+  "listSize": 4.0,
+  "media": 74.0,
+  "ranking": 35.0,
+  "skill": {
+    "skill": "SECRETARIA",
+    "vagas": 274.0
+  },
+  "somatoria": 298.0,
+  "synonyms": [
+    {
+      "skill": "SECRETARIO",
+      "vagas": 15.0
+    },
+    {
+      "skill": "SECRETARIAS",
+      "vagas": 9.0
+    },
+    {
+      "skill": "SECRETARIOS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "SECRETARIA"
+}, {
+  "listSize": 4.0,
+  "media": 73.0,
+  "ranking": 36.0,
+  "skill": {
+    "skill": "TESTER",
+    "vagas": 182.0
+  },
+  "somatoria": 294.0,
+  "synonyms": [
+    {
+      "skill": "AUTOMATIZADOR DE TESTES",
+      "vagas": 67.0
+    },
+    {
+      "skill": "TESTADOR",
+      "vagas": 25.0
+    },
+    {
+      "skill": "TESTADORES",
+      "vagas": 20.0
+    }
+  ],
+  "word": "TESTER"
+}, {
+  "listSize": 2.0,
+  "media": 139.0,
+  "ranking": 37.0,
+  "skill": {
+    "skill": "GERENTE COMERCIAL",
+    "vagas": 219.0
+  },
+  "somatoria": 279.0,
+  "synonyms": [
+    {
+      "skill": "EXECUTIVO COMERCIAL",
+      "vagas": 60.0
+    }
+  ],
+  "word": "GERENTE COMERCIAL"
+}, {
+  "listSize": 2.0,
+  "media": 125.0,
+  "ranking": 38.0,
+  "skill": {
+    "skill": "COACH",
+    "vagas": 251.0
+  },
+  "somatoria": 251.0,
+  "synonyms": [
+    {
+      "skill": "COACHS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "COACH"
+}, {
+  "listSize": 2.0,
+  "media": 125.0,
+  "ranking": 39.0,
+  "skill": {
+    "skill": "FARMACEUTICO",
+    "vagas": 233.0
+  },
+  "somatoria": 250.0,
+  "synonyms": [
+    {
+      "skill": "FARMACEUTICOS",
+      "vagas": 17.0
+    }
+  ],
+  "word": "FARMACEUTICO"
+}, {
+  "listSize": 4.0,
+  "media": 61.0,
+  "ranking": 40.0,
+  "skill": {
+    "skill": "CORRETOR",
+    "vagas": 85.0
+  },
+  "somatoria": 246.0,
+  "synonyms": [
+    {
+      "skill": "CORRETORA",
+      "vagas": 79.0
+    },
+    {
+      "skill": "CORRETORES",
+      "vagas": 63.0
+    },
+    {
+      "skill": "CORRETORAS",
+      "vagas": 19.0
+    }
+  ],
+  "word": "CORRETOR"
+}, {
+  "listSize": 2.0,
+  "media": 121.0,
+  "ranking": 41.0,
+  "skill": {
+    "skill": "UX DESIGNER",
+    "vagas": 234.0
+  },
+  "somatoria": 242.0,
+  "synonyms": [
+    {
+      "skill": "UIDESIGNER",
+      "vagas": 8.0
+    }
+  ],
+  "word": "UX DESIGNER"
+}, {
+  "listSize": 4.0,
+  "media": 59.0,
+  "ranking": 42.0,
+  "skill": {
+    "skill": "MONTADOR",
+    "vagas": 185.0
+  },
+  "somatoria": 237.0,
+  "synonyms": [
+    {
+      "skill": "MONTADORA",
+      "vagas": 20.0
+    },
+    {
+      "skill": "MONTADORAS",
+      "vagas": 19.0
+    },
+    {
+      "skill": "MONTADORES",
+      "vagas": 13.0
+    }
+  ],
+  "word": "MONTADOR"
+}, {
+  "listSize": 2.0,
+  "media": 114.0,
+  "ranking": 43.0,
+  "skill": {
+    "skill": "AUDITOR",
+    "vagas": 198.0
+  },
+  "somatoria": 228.0,
+  "synonyms": [
+    {
+      "skill": "AUDITORES",
+      "vagas": 30.0
+    }
+  ],
+  "word": "AUDITOR"
+}, {
+  "listSize": 3.0,
+  "media": 75.0,
+  "ranking": 44.0,
+  "skill": {
+    "skill": "PRODUCT MANAGER",
+    "vagas": 149.0
+  },
+  "somatoria": 225.0,
+  "synonyms": [
+    {
+      "skill": "GERENTE DE PRODUTO",
+      "vagas": 63.0
+    },
+    {
+      "skill": "GERENTE DE PRODUTOS",
+      "vagas": 13.0
+    }
+  ],
+  "word": "PRODUCT MANAGER"
+}, {
+  "listSize": 3.0,
+  "media": 75.0,
+  "ranking": 45.0,
+  "skill": {
+    "skill": "SOLDADOR",
+    "vagas": 218.0
+  },
+  "somatoria": 225.0,
+  "synonyms": [
+    {
+      "skill": "TECNICO EM SOLDA",
+      "vagas": 4.0
+    },
+    {
+      "skill": "SOLDADORES",
+      "vagas": 3.0
+    }
+  ],
+  "word": "SOLDADOR"
+}, {
+  "listSize": 3.0,
+  "media": 72.0,
+  "ranking": 46.0,
+  "skill": {
+    "skill": "GERENTE DE CONTAS",
+    "vagas": 84.0
+  },
+  "somatoria": 216.0,
+  "synonyms": [
+    {
+      "skill": "EXECUTIVO DE CONTAS",
+      "vagas": 78.0
+    },
+    {
+      "skill": "ACCOUNT MANAGER",
+      "vagas": 54.0
+    }
+  ],
+  "word": "GERENTE DE CONTAS"
+}, {
+  "listSize": 4.0,
+  "media": 53.0,
+  "ranking": 47.0,
+  "skill": {
+    "skill": "ENFERMEIRO",
+    "vagas": 159.0
+  },
+  "somatoria": 212.0,
+  "synonyms": [
+    {
+      "skill": "ENFERMEIRA",
+      "vagas": 34.0
+    },
+    {
+      "skill": "ENFERMEIROS",
+      "vagas": 18.0
+    },
+    {
+      "skill": "ENFERMEIRAS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "ENFERMEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 99.0,
+  "ranking": 48.0,
+  "skill": {
+    "skill": "QUIMICO",
+    "vagas": 134.0
+  },
+  "somatoria": 198.0,
+  "synonyms": [
+    {
+      "skill": "QUIMICOS",
+      "vagas": 64.0
+    }
+  ],
+  "word": "QUIMICO"
+}, {
+  "listSize": 2.0,
+  "media": 95.0,
+  "ranking": 49.0,
+  "skill": {
+    "skill": "AUTOMATIZADOR",
+    "vagas": 175.0
+  },
+  "somatoria": 191.0,
+  "synonyms": [
+    {
+      "skill": "AUTOMATIZADORES",
+      "vagas": 16.0
+    }
+  ],
+  "word": "AUTOMATIZADOR"
+}, {
+  "listSize": 4.0,
+  "media": 41.0,
+  "ranking": 50.0,
+  "skill": {
+    "skill": "PROFESSOR",
+    "vagas": 95.0
+  },
+  "somatoria": 167.0,
+  "synonyms": [
+    {
+      "skill": "PROFESSORES",
+      "vagas": 44.0
+    },
+    {
+      "skill": "PROFESSORA",
+      "vagas": 28.0
+    },
+    {
+      "skill": "PROFESSORAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "PROFESSOR"
+}, {
+  "listSize": 1.0,
+  "media": 164.0,
+  "ranking": 51.0,
+  "skill": {
+    "skill": "OPERADOR DE EMPILHADEIRA",
+    "vagas": 164.0
+  },
+  "somatoria": 164.0,
+  "synonyms": [],
+  "word": "OPERADOR DE EMPILHADEIRA"
+}, {
+  "listSize": 2.0,
+  "media": 82.0,
+  "ranking": 52.0,
+  "skill": {
+    "skill": "CARRETEIRO",
+    "vagas": 161.0
+  },
+  "somatoria": 164.0,
+  "synonyms": [
+    {
+      "skill": "CARRETEIROS",
+      "vagas": 3.0
+    }
+  ],
+  "word": "CARRETEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 78.0,
+  "ranking": 53.0,
+  "skill": {
+    "skill": "ALMOXARIFE",
+    "vagas": 157.0
+  },
+  "somatoria": 157.0,
+  "synonyms": [
+    {
+      "skill": "ALMOXARIFES",
+      "vagas": 0.0
+    }
+  ],
+  "word": "ALMOXARIFE"
+}, {
+  "listSize": 3.0,
+  "media": 51.0,
+  "ranking": 54.0,
+  "skill": {
+    "skill": "PRODUCT DESIGNER",
+    "vagas": 127.0
+  },
+  "somatoria": 154.0,
+  "synonyms": [
+    {
+      "skill": "DESIGNER DE PRODUTO",
+      "vagas": 16.0
+    },
+    {
+      "skill": "DESIGNER DE PRODUTOS",
+      "vagas": 11.0
+    }
+  ],
+  "word": "PRODUCT DESIGNER"
+}, {
+  "listSize": 6.0,
+  "media": 23.0,
+  "ranking": 55.0,
+  "skill": {
+    "skill": "COZINHEIRO",
+    "vagas": 81.0
+  },
+  "somatoria": 139.0,
+  "synonyms": [
+    {
+      "skill": "COZINHEIRA",
+      "vagas": 30.0
+    },
+    {
+      "skill": "CHEFE DE COZINHA",
+      "vagas": 15.0
+    },
+    {
+      "skill": "AJUDANTE DE COZINHA",
+      "vagas": 13.0
+    },
+    {
+      "skill": "COZINHEIRAS",
+      "vagas": 0.0
+    },
+    {
+      "skill": "COZINHEIROS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "COZINHEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 69.0,
+  "ranking": 56.0,
+  "skill": {
+    "skill": "ESTATISTICOS",
+    "vagas": 100.0
+  },
+  "somatoria": 139.0,
+  "synonyms": [
+    {
+      "skill": "ESTATISTICO",
+      "vagas": 39.0
+    }
+  ],
+  "word": "ESTATISTICOS"
+}, {
+  "listSize": 2.0,
+  "media": 61.0,
+  "ranking": 57.0,
+  "skill": {
+    "skill": "CONFERENTE",
+    "vagas": 117.0
+  },
+  "somatoria": 122.0,
+  "synonyms": [
+    {
+      "skill": "CONFERENTES",
+      "vagas": 5.0
+    }
+  ],
+  "word": "CONFERENTE"
+}, {
+  "listSize": 2.0,
+  "media": 55.0,
+  "ranking": 58.0,
+  "skill": {
+    "skill": "GERENTE DE OPERACOES",
+    "vagas": 107.0
+  },
+  "somatoria": 111.0,
+  "synonyms": [
+    {
+      "skill": "OPERATIONS MANAGER",
+      "vagas": 4.0
+    }
+  ],
+  "word": "GERENTE DE OPERACOES"
+}, {
+  "listSize": 4.0,
+  "media": 27.0,
+  "ranking": 59.0,
+  "skill": {
+    "skill": "CONTADOR",
+    "vagas": 85.0
+  },
+  "somatoria": 110.0,
+  "synonyms": [
+    {
+      "skill": "CONTADORES",
+      "vagas": 17.0
+    },
+    {
+      "skill": "CONTABILISTA",
+      "vagas": 5.0
+    },
+    {
+      "skill": "TECNICO DE CONTABILIDADE",
+      "vagas": 3.0
+    }
+  ],
+  "word": "CONTADOR"
+}, {
+  "listSize": 2.0,
+  "media": 53.0,
+  "ranking": 60.0,
+  "skill": {
+    "skill": "REPOSITOR",
+    "vagas": 106.0
+  },
+  "somatoria": 107.0,
+  "synonyms": [
+    {
+      "skill": "REPOSITORES",
+      "vagas": 1.0
+    }
+  ],
+  "word": "REPOSITOR"
+}, {
+  "listSize": 3.0,
+  "media": 34.0,
+  "ranking": 61.0,
+  "skill": {
+    "skill": "SYSADMIN",
+    "vagas": 86.0
+  },
+  "somatoria": 103.0,
+  "synonyms": [
+    {
+      "skill": "SYSOPS",
+      "vagas": 9.0
+    },
+    {
+      "skill": "SYS ADMIN",
+      "vagas": 8.0
+    }
+  ],
+  "word": "SYSADMIN"
+}, {
+  "listSize": 2.0,
+  "media": 49.0,
+  "ranking": 62.0,
+  "skill": {
+    "skill": "PINTOR",
+    "vagas": 98.0
+  },
+  "somatoria": 99.0,
+  "synonyms": [
+    {
+      "skill": "PINTORES",
+      "vagas": 1.0
+    }
+  ],
+  "word": "PINTOR"
+}, {
+  "listSize": 1.0,
+  "media": 92.0,
+  "ranking": 63.0,
+  "skill": {
+    "skill": "GERENTE ADMINISTRATIVO",
+    "vagas": 92.0
+  },
+  "somatoria": 92.0,
+  "synonyms": [],
+  "word": "GERENTE ADMINISTRATIVO"
+}, {
+  "listSize": 1.0,
+  "media": 82.0,
+  "ranking": 64.0,
+  "skill": {
+    "skill": "OPERADOR DE MAQUINAS",
+    "vagas": 82.0
+  },
+  "somatoria": 82.0,
+  "synonyms": [],
+  "word": "OPERADOR DE MAQUINAS"
+}, {
+  "listSize": 2.0,
+  "media": 39.0,
+  "ranking": 65.0,
+  "skill": {
+    "skill": "SERRALHEIRO",
+    "vagas": 79.0
+  },
+  "somatoria": 79.0,
+  "synonyms": [
+    {
+      "skill": "SERRALHEIROS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "SERRALHEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 39.0,
+  "ranking": 66.0,
+  "skill": {
+    "skill": "GERENTE FINANCEIRO",
+    "vagas": 78.0
+  },
+  "somatoria": 79.0,
+  "synonyms": [
+    {
+      "skill": "FINANCE MANAGER",
+      "vagas": 1.0
+    }
+  ],
+  "word": "GERENTE FINANCEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 39.0,
+  "ranking": 67.0,
+  "skill": {
+    "skill": "PSICOLOGO",
+    "vagas": 68.0
+  },
+  "somatoria": 79.0,
+  "synonyms": [
+    {
+      "skill": "PSICOLOGOS",
+      "vagas": 11.0
+    }
+  ],
+  "word": "PSICOLOGO"
+}, {
+  "listSize": 4.0,
+  "media": 19.0,
+  "ranking": 68.0,
+  "skill": {
+    "skill": "GARCOM",
+    "vagas": 62.0
+  },
+  "somatoria": 79.0,
+  "synonyms": [
+    {
+      "skill": "GARCONETE",
+      "vagas": 13.0
+    },
+    {
+      "skill": "GARCONETES",
+      "vagas": 2.0
+    },
+    {
+      "skill": "GARCONS",
+      "vagas": 2.0
+    }
+  ],
+  "word": "GARCOM"
+}, {
+  "listSize": 3.0,
+  "media": 26.0,
+  "ranking": 69.0,
+  "skill": {
+    "skill": "TECNICO EM LOGISTICA",
+    "vagas": 39.0
+  },
+  "somatoria": 79.0,
+  "synonyms": [
+    {
+      "skill": "OPERADOR DE LOGISTICA",
+      "vagas": 28.0
+    },
+    {
+      "skill": "TECNOLOGO EM LOGISTICA",
+      "vagas": 12.0
+    }
+  ],
+  "word": "TECNICO EM LOGISTICA"
+}, {
+  "listSize": 2.0,
+  "media": 39.0,
+  "ranking": 70.0,
+  "skill": {
+    "skill": "ESTOQUISTA",
+    "vagas": 78.0
+  },
+  "somatoria": 78.0,
+  "synonyms": [
+    {
+      "skill": "ESTOQUISTAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "ESTOQUISTA"
+}, {
+  "listSize": 1.0,
+  "media": 77.0,
+  "ranking": 71.0,
+  "skill": {
+    "skill": "TECNICO EM MANUTENCAO",
+    "vagas": 77.0
+  },
+  "somatoria": 77.0,
+  "synonyms": [],
+  "word": "TECNICO EM MANUTENCAO"
+}, {
+  "listSize": 2.0,
+  "media": 37.0,
+  "ranking": 72.0,
+  "skill": {
+    "skill": "SECRETARIA EXECUTIVA",
+    "vagas": 67.0
+  },
+  "somatoria": 75.0,
+  "synonyms": [
+    {
+      "skill": "SECRETARIO EXECUTIVO",
+      "vagas": 8.0
+    }
+  ],
+  "word": "SECRETARIA EXECUTIVA"
+}, {
+  "listSize": 2.0,
+  "media": 37.0,
+  "ranking": 73.0,
+  "skill": {
+    "skill": "BOMBEIRO",
+    "vagas": 59.0
+  },
+  "somatoria": 75.0,
+  "synonyms": [
+    {
+      "skill": "BOMBEIROS",
+      "vagas": 16.0
+    }
+  ],
+  "word": "BOMBEIRO"
+}, {
+  "listSize": 1.0,
+  "media": 74.0,
+  "ranking": 74.0,
+  "skill": {
+    "skill": "ENGENHEIRO CIVIL",
+    "vagas": 74.0
+  },
+  "somatoria": 74.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO CIVIL"
+}, {
+  "listSize": 2.0,
+  "media": 35.0,
+  "ranking": 75.0,
+  "skill": {
+    "skill": "GERENTE DE TI",
+    "vagas": 69.0
+  },
+  "somatoria": 71.0,
+  "synonyms": [
+    {
+      "skill": "IT MANAGER",
+      "vagas": 2.0
+    }
+  ],
+  "word": "GERENTE DE TI"
+}, {
+  "listSize": 2.0,
+  "media": 35.0,
+  "ranking": 76.0,
+  "skill": {
+    "skill": "GERENTE DE NEGOCIOS",
+    "vagas": 65.0
+  },
+  "somatoria": 71.0,
+  "synonyms": [
+    {
+      "skill": "BUSINESS MANAGER",
+      "vagas": 6.0
+    }
+  ],
+  "word": "GERENTE DE NEGOCIOS"
+}, {
+  "listSize": 1.0,
+  "media": 65.0,
+  "ranking": 77.0,
+  "skill": {
+    "skill": "DESIGNER GRAFICO",
+    "vagas": 65.0
+  },
+  "somatoria": 65.0,
+  "synonyms": [],
+  "word": "DESIGNER GRAFICO"
+}, {
+  "listSize": 1.0,
+  "media": 64.0,
+  "ranking": 78.0,
+  "skill": {
+    "skill": "OPERADOR DE CAIXA",
+    "vagas": 64.0
+  },
+  "somatoria": 64.0,
+  "synonyms": [],
+  "word": "OPERADOR DE CAIXA"
+}, {
+  "listSize": 2.0,
+  "media": 31.0,
+  "ranking": 79.0,
+  "skill": {
+    "skill": "MARCENEIRO",
+    "vagas": 58.0
+  },
+  "somatoria": 62.0,
+  "synonyms": [
+    {
+      "skill": "MARCENEIROS",
+      "vagas": 4.0
+    }
+  ],
+  "word": "MARCENEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 29.0,
+  "ranking": 80.0,
+  "skill": {
+    "skill": "BOTANICO",
+    "vagas": 58.0
+  },
+  "somatoria": 58.0,
+  "synonyms": [
+    {
+      "skill": "BOTANICOS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "BOTANICO"
+}, {
+  "listSize": 1.0,
+  "media": 55.0,
+  "ranking": 81.0,
+  "skill": {
+    "skill": "ENGENHEIRO DE QUALIDADE",
+    "vagas": 55.0
+  },
+  "somatoria": 55.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO DE QUALIDADE"
+}, {
+  "listSize": 2.0,
+  "media": 27.0,
+  "ranking": 82.0,
+  "skill": {
+    "skill": "CEO",
+    "vagas": 55.0
+  },
+  "somatoria": 55.0,
+  "synonyms": [
+    {
+      "skill": "CEOS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "CEO"
+}, {
+  "listSize": 2.0,
+  "media": 27.0,
+  "ranking": 83.0,
+  "skill": {
+    "skill": "EDITOR",
+    "vagas": 39.0
+  },
+  "somatoria": 54.0,
+  "synonyms": [
+    {
+      "skill": "EDITORES",
+      "vagas": 15.0
+    }
+  ],
+  "word": "EDITOR"
+}, {
+  "listSize": 1.0,
+  "media": 51.0,
+  "ranking": 84.0,
+  "skill": {
+    "skill": "GERENTE DE RECURSOS HUMANOS",
+    "vagas": 51.0
+  },
+  "somatoria": 51.0,
+  "synonyms": [],
+  "word": "GERENTE DE RECURSOS HUMANOS"
+}, {
+  "listSize": 1.0,
+  "media": 48.0,
+  "ranking": 85.0,
+  "skill": {
+    "skill": "OPERADOR DE LOJA",
+    "vagas": 48.0
+  },
+  "somatoria": 48.0,
+  "synonyms": [],
+  "word": "OPERADOR DE LOJA"
+}, {
+  "listSize": 2.0,
+  "media": 24.0,
+  "ranking": 86.0,
+  "skill": {
+    "skill": "BALCONISTA",
+    "vagas": 48.0
+  },
+  "somatoria": 48.0,
+  "synonyms": [
+    {
+      "skill": "BALCONISTAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "BALCONISTA"
+}, {
+  "listSize": 2.0,
+  "media": 23.0,
+  "ranking": 87.0,
+  "skill": {
+    "skill": "POLIDOR",
+    "vagas": 47.0
+  },
+  "somatoria": 47.0,
+  "synonyms": [
+    {
+      "skill": "POLIDORES",
+      "vagas": 0.0
+    }
+  ],
+  "word": "POLIDOR"
+}, {
+  "listSize": 2.0,
+  "media": 23.0,
+  "ranking": 88.0,
+  "skill": {
+    "skill": "PORTEIRO",
+    "vagas": 44.0
+  },
+  "somatoria": 47.0,
+  "synonyms": [
+    {
+      "skill": "PORTEIROS",
+      "vagas": 3.0
+    }
+  ],
+  "word": "PORTEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 22.0,
+  "ranking": 89.0,
+  "skill": {
+    "skill": "NUTRICIONISTA",
+    "vagas": 42.0
+  },
+  "somatoria": 45.0,
+  "synonyms": [
+    {
+      "skill": "NUTRICIONISTAS",
+      "vagas": 3.0
+    }
+  ],
+  "word": "NUTRICIONISTA"
+}, {
+  "listSize": 2.0,
+  "media": 21.0,
+  "ranking": 90.0,
+  "skill": {
+    "skill": "REDATOR",
+    "vagas": 38.0
+  },
+  "somatoria": 43.0,
+  "synonyms": [
+    {
+      "skill": "REDATORES",
+      "vagas": 5.0
+    }
+  ],
+  "word": "REDATOR"
+}, {
+  "listSize": 1.0,
+  "media": 42.0,
+  "ranking": 91.0,
+  "skill": {
+    "skill": "ENGENHEIRO MECANICO",
+    "vagas": 42.0
+  },
+  "somatoria": 42.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO MECANICO"
+}, {
+  "listSize": 1.0,
+  "media": 41.0,
+  "ranking": 92.0,
+  "skill": {
+    "skill": "OPERADOR DE TELEMARKETING",
+    "vagas": 41.0
+  },
+  "somatoria": 41.0,
+  "synonyms": [],
+  "word": "OPERADOR DE TELEMARKETING"
+}, {
+  "listSize": 6.0,
+  "media": 6.0,
+  "ranking": 93.0,
+  "skill": {
+    "skill": "COSTUREIRO",
+    "vagas": 24.0
+  },
+  "somatoria": 40.0,
+  "synonyms": [
+    {
+      "skill": "COSTUREIRA",
+      "vagas": 15.0
+    },
+    {
+      "skill": "COSTUREIRAS",
+      "vagas": 1.0
+    },
+    {
+      "skill": "ALFAIATE",
+      "vagas": 0.0
+    },
+    {
+      "skill": "ALFAIATES",
+      "vagas": 0.0
+    },
+    {
+      "skill": "COSTUREIROS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "COSTUREIRO"
+}, {
+  "listSize": 2.0,
+  "media": 19.0,
+  "ranking": 94.0,
+  "skill": {
+    "skill": "PENTESTER",
+    "vagas": 38.0
+  },
+  "somatoria": 38.0,
+  "synonyms": [
+    {
+      "skill": "PENTESTERS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "PENTESTER"
+}, {
+  "listSize": 4.0,
+  "media": 9.0,
+  "ranking": 95.0,
+  "skill": {
+    "skill": "BIOMEDICO",
+    "vagas": 20.0
+  },
+  "somatoria": 38.0,
+  "synonyms": [
+    {
+      "skill": "BIOMEDICA",
+      "vagas": 13.0
+    },
+    {
+      "skill": "BIOMEDICAS",
+      "vagas": 3.0
+    },
+    {
+      "skill": "BIOMEDICOS",
+      "vagas": 2.0
+    }
+  ],
+  "word": "BIOMEDICO"
+}, {
+  "listSize": 2.0,
+  "media": 17.0,
+  "ranking": 96.0,
+  "skill": {
+    "skill": "CALDEIREIRO",
+    "vagas": 34.0
+  },
+  "somatoria": 35.0,
+  "synonyms": [
+    {
+      "skill": "CALDEIREIROS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "CALDEIREIRO"
+}, {
+  "listSize": 1.0,
+  "media": 34.0,
+  "ranking": 97.0,
+  "skill": {
+    "skill": "ENGENHEIRO DE SEGURANCA DO TRABALHO",
+    "vagas": 34.0
+  },
+  "somatoria": 34.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO DE SEGURANCA DO TRABALHO"
+}, {
+  "listSize": 2.0,
+  "media": 17.0,
+  "ranking": 98.0,
+  "skill": {
+    "skill": "PUBLICITARIO",
+    "vagas": 19.0
+  },
+  "somatoria": 34.0,
+  "synonyms": [
+    {
+      "skill": "PUBLICITARIOS",
+      "vagas": 15.0
+    }
+  ],
+  "word": "PUBLICITARIO"
+}, {
+  "listSize": 2.0,
+  "media": 15.0,
+  "ranking": 99.0,
+  "skill": {
+    "skill": "CTO",
+    "vagas": 30.0
+  },
+  "somatoria": 30.0,
+  "synonyms": [
+    {
+      "skill": "CTOS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "CTO"
+}, {
+  "listSize": 3.0,
+  "media": 9.0,
+  "ranking": 100.0,
+  "skill": {
+    "skill": "PEDREIRO",
+    "vagas": 22.0
+  },
+  "somatoria": 29.0,
+  "synonyms": [
+    {
+      "skill": "MESTRE DE OBRAS",
+      "vagas": 5.0
+    },
+    {
+      "skill": "PEDREIROS",
+      "vagas": 2.0
+    }
+  ],
+  "word": "PEDREIRO"
+}, {
+  "listSize": 2.0,
+  "media": 14.0,
+  "ranking": 101.0,
+  "skill": {
+    "skill": "FATURISTA",
+    "vagas": 28.0
+  },
+  "somatoria": 28.0,
+  "synonyms": [
+    {
+      "skill": "FATURISTAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "FATURISTA"
+}, {
+  "listSize": 2.0,
+  "media": 14.0,
+  "ranking": 102.0,
+  "skill": {
+    "skill": "DENTISTAS",
+    "vagas": 19.0
+  },
+  "somatoria": 28.0,
+  "synonyms": [
+    {
+      "skill": "DENTISTA",
+      "vagas": 9.0
+    }
+  ],
+  "word": "DENTISTAS"
+}, {
+  "listSize": 2.0,
+  "media": 13.0,
+  "ranking": 103.0,
+  "skill": {
+    "skill": "VETERINARIO",
+    "vagas": 14.0
+  },
+  "somatoria": 27.0,
+  "synonyms": [
+    {
+      "skill": "VETERINARIOS",
+      "vagas": 13.0
+    }
+  ],
+  "word": "VETERINARIO"
+}, {
+  "listSize": 1.0,
+  "media": 25.0,
+  "ranking": 104.0,
+  "skill": {
+    "skill": "ADVOGADO SOCIETARIO",
+    "vagas": 25.0
+  },
+  "somatoria": 25.0,
+  "synonyms": [],
+  "word": "ADVOGADO SOCIETARIO"
+}, {
+  "listSize": 2.0,
+  "media": 12.0,
+  "ranking": 105.0,
+  "skill": {
+    "skill": "PADEIRO",
+    "vagas": 24.0
+  },
+  "somatoria": 25.0,
+  "synonyms": [
+    {
+      "skill": "PADEIROS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "PADEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 12.0,
+  "ranking": 106.0,
+  "skill": {
+    "skill": "PERFUMISTA",
+    "vagas": 19.0
+  },
+  "somatoria": 24.0,
+  "synonyms": [
+    {
+      "skill": "PERFUMISTAS",
+      "vagas": 5.0
+    }
+  ],
+  "word": "PERFUMISTA"
+}, {
+  "listSize": 2.0,
+  "media": 11.0,
+  "ranking": 107.0,
+  "skill": {
+    "skill": "FISIOTERAPEUTA",
+    "vagas": 21.0
+  },
+  "somatoria": 23.0,
+  "synonyms": [
+    {
+      "skill": "FISIOTERAPEUTAS",
+      "vagas": 2.0
+    }
+  ],
+  "word": "FISIOTERAPEUTA"
+}, {
+  "listSize": 3.0,
+  "media": 7.0,
+  "ranking": 108.0,
+  "skill": {
+    "skill": "GESTOR DE RH",
+    "vagas": 16.0
+  },
+  "somatoria": 23.0,
+  "synonyms": [
+    {
+      "skill": "GERENTE RH",
+      "vagas": 5.0
+    },
+    {
+      "skill": "GESTOR DE RECURSOS HUMANOS",
+      "vagas": 2.0
+    }
+  ],
+  "word": "GESTOR DE RH"
+}, {
+  "listSize": 2.0,
+  "media": 11.0,
+  "ranking": 109.0,
+  "skill": {
+    "skill": "JORNALISTA",
+    "vagas": 16.0
+  },
+  "somatoria": 22.0,
+  "synonyms": [
+    {
+      "skill": "JORNALISTAS",
+      "vagas": 6.0
+    }
+  ],
+  "word": "JORNALISTA"
+}, {
+  "listSize": 1.0,
+  "media": 21.0,
+  "ranking": 110.0,
+  "skill": {
+    "skill": "GERENTE DE RESTAURANTE",
+    "vagas": 21.0
+  },
+  "somatoria": 21.0,
+  "synonyms": [],
+  "word": "GERENTE DE RESTAURANTE"
+}, {
+  "listSize": 2.0,
+  "media": 10.0,
+  "ranking": 111.0,
+  "skill": {
+    "skill": "CADISTA",
+    "vagas": 20.0
+  },
+  "somatoria": 21.0,
+  "synonyms": [
+    {
+      "skill": "CADISTAS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "CADISTA"
+}, {
+  "listSize": 2.0,
+  "media": 10.0,
+  "ranking": 112.0,
+  "skill": {
+    "skill": "MATEMATICOS",
+    "vagas": 19.0
+  },
+  "somatoria": 21.0,
+  "synonyms": [
+    {
+      "skill": "MATEMATICO",
+      "vagas": 2.0
+    }
+  ],
+  "word": "MATEMATICOS"
+}, {
+  "listSize": 1.0,
+  "media": 20.0,
+  "ranking": 113.0,
+  "skill": {
+    "skill": "ENGENHEIRO DE MANUTENCAO",
+    "vagas": 20.0
+  },
+  "somatoria": 20.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO DE MANUTENCAO"
+}, {
+  "listSize": 1.0,
+  "media": 19.0,
+  "ranking": 114.0,
+  "skill": {
+    "skill": "ADVOGADO TRABALHISTA",
+    "vagas": 19.0
+  },
+  "somatoria": 19.0,
+  "synonyms": [],
+  "word": "ADVOGADO TRABALHISTA"
+}, {
+  "listSize": 2.0,
+  "media": 8.0,
+  "ranking": 116.0,
+  "skill": {
+    "skill": "JARDINEIRO",
+    "vagas": 17.0
+  },
+  "somatoria": 17.0,
+  "synonyms": [
+    {
+      "skill": "JARDINEIROS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "JARDINEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 8.0,
+  "ranking": 117.0,
+  "skill": {
+    "skill": "ESTETICISTA",
+    "vagas": 16.0
+  },
+  "somatoria": 17.0,
+  "synonyms": [
+    {
+      "skill": "ESTETICISTAS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "ESTETICISTA"
+}, {
+  "listSize": 1.0,
+  "media": 16.0,
+  "ranking": 118.0,
+  "skill": {
+    "skill": "ADVOGADO CIVIL",
+    "vagas": 16.0
+  },
+  "somatoria": 16.0,
+  "synonyms": [],
+  "word": "ADVOGADO CIVIL"
+}, {
+  "listSize": 1.0,
+  "media": 16.0,
+  "ranking": 119.0,
+  "skill": {
+    "skill": "FISCAL DE CAIXA",
+    "vagas": 16.0
+  },
+  "somatoria": 16.0,
+  "synonyms": [],
+  "word": "FISCAL DE CAIXA"
+}, {
+  "listSize": 2.0,
+  "media": 7.0,
+  "ranking": 120.0,
+  "skill": {
+    "skill": "VIGIA",
+    "vagas": 15.0
+  },
+  "somatoria": 15.0,
+  "synonyms": [
+    {
+      "skill": "VIGIAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "VIGIA"
+}, {
+  "listSize": 4.0,
+  "media": 3.0,
+  "ranking": 121.0,
+  "skill": {
+    "skill": "CAMAREIRA",
+    "vagas": 14.0
+  },
+  "somatoria": 15.0,
+  "synonyms": [
+    {
+      "skill": "CAMAREIRO",
+      "vagas": 1.0
+    },
+    {
+      "skill": "CAMAREIRAS",
+      "vagas": 0.0
+    },
+    {
+      "skill": "CAMAREIROS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "CAMAREIRA"
+}, {
+  "listSize": 1.0,
+  "media": 14.0,
+  "ranking": 123.0,
+  "skill": {
+    "skill": "ADVOGADO TRIBUTARIO",
+    "vagas": 14.0
+  },
+  "somatoria": 14.0,
+  "synonyms": [],
+  "word": "ADVOGADO TRIBUTARIO"
+}, {
+  "listSize": 1.0,
+  "media": 14.0,
+  "ranking": 124.0,
+  "skill": {
+    "skill": "ENGENHEIRO DE PRODUCAO",
+    "vagas": 14.0
+  },
+  "somatoria": 14.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO DE PRODUCAO"
+}, {
+  "listSize": 2.0,
+  "media": 7.0,
+  "ranking": 125.0,
+  "skill": {
+    "skill": "AGRONOMO",
+    "vagas": 13.0
+  },
+  "somatoria": 14.0,
+  "synonyms": [
+    {
+      "skill": "AGRONOMOS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "AGRONOMO"
+}, {
+  "listSize": 1.0,
+  "media": 13.0,
+  "ranking": 126.0,
+  "skill": {
+    "skill": "DESIGNER DE INTERIORES",
+    "vagas": 13.0
+  },
+  "somatoria": 13.0,
+  "synonyms": [],
+  "word": "DESIGNER DE INTERIORES"
+}, {
+  "listSize": 2.0,
+  "media": 6.0,
+  "ranking": 127.0,
+  "skill": {
+    "skill": "FONOAUDIOLOGO",
+    "vagas": 12.0
+  },
+  "somatoria": 13.0,
+  "synonyms": [
+    {
+      "skill": "FONOAUDIOLOGOS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "FONOAUDIOLOGO"
+}, {
+  "listSize": 2.0,
+  "media": 6.0,
+  "ranking": 128.0,
+  "skill": {
+    "skill": "REVISOR",
+    "vagas": 12.0
+  },
+  "somatoria": 13.0,
+  "synonyms": [
+    {
+      "skill": "REVISORES",
+      "vagas": 1.0
+    }
+  ],
+  "word": "REVISOR"
+}, {
+  "listSize": 2.0,
+  "media": 6.0,
+  "ranking": 129.0,
+  "skill": {
+    "skill": "MEDIADOR",
+    "vagas": 11.0
+  },
+  "somatoria": 13.0,
+  "synonyms": [
+    {
+      "skill": "MEDIADORES",
+      "vagas": 2.0
+    }
+  ],
+  "word": "MEDIADOR"
+}, {
+  "listSize": 1.0,
+  "media": 12.0,
+  "ranking": 130.0,
+  "skill": {
+    "skill": "ENGENHEIRO QUIMICO",
+    "vagas": 12.0
+  },
+  "somatoria": 12.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO QUIMICO"
+}, {
+  "listSize": 2.0,
+  "media": 6.0,
+  "ranking": 131.0,
+  "skill": {
+    "skill": "BIOQUIMICO",
+    "vagas": 12.0
+  },
+  "somatoria": 12.0,
+  "synonyms": [
+    {
+      "skill": "BIOQUIMICOS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "BIOQUIMICO"
+}, {
+  "listSize": 2.0,
+  "media": 6.0,
+  "ranking": 132.0,
+  "skill": {
+    "skill": "CORTADOR",
+    "vagas": 12.0
+  },
+  "somatoria": 12.0,
+  "synonyms": [
+    {
+      "skill": "CORTADORES",
+      "vagas": 0.0
+    }
+  ],
+  "word": "CORTADOR"
+}, {
+  "listSize": 2.0,
+  "media": 5.0,
+  "ranking": 133.0,
+  "skill": {
+    "skill": "MODELADOR",
+    "vagas": 10.0
+  },
+  "somatoria": 10.0,
+  "synonyms": [
+    {
+      "skill": "MODELADORES",
+      "vagas": 0.0
+    }
+  ],
+  "word": "MODELADOR"
+}, {
+  "listSize": 1.0,
+  "media": 9.0,
+  "ranking": 134.0,
+  "skill": {
+    "skill": "ADVOGADO PREVIDENCIARIO",
+    "vagas": 9.0
+  },
+  "somatoria": 9.0,
+  "synonyms": [],
+  "word": "ADVOGADO PREVIDENCIARIO"
+}, {
+  "listSize": 1.0,
+  "media": 9.0,
+  "ranking": 135.0,
+  "skill": {
+    "skill": "ENGENHEIRO DE CONTROLE E AUTOMACAO",
+    "vagas": 9.0
+  },
+  "somatoria": 9.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO DE CONTROLE E AUTOMACAO"
+}, {
+  "listSize": 1.0,
+  "media": 9.0,
+  "ranking": 136.0,
+  "skill": {
+    "skill": "ENGENHEIRO ELETRICO",
+    "vagas": 9.0
+  },
+  "somatoria": 9.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO ELETRICO"
+}, {
+  "listSize": 1.0,
+  "media": 9.0,
+  "ranking": 137.0,
+  "skill": {
+    "skill": "INSPETOR DE MANUTENCAO",
+    "vagas": 9.0
+  },
+  "somatoria": 9.0,
+  "synonyms": [],
+  "word": "INSPETOR DE MANUTENCAO"
+}, {
+  "listSize": 2.0,
+  "media": 4.0,
+  "ranking": 138.0,
+  "skill": {
+    "skill": "CARPINTEIRO",
+    "vagas": 8.0
+  },
+  "somatoria": 8.0,
+  "synonyms": [
+    {
+      "skill": "CARPINTEIROS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "CARPINTEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 4.0,
+  "ranking": 139.0,
+  "skill": {
+    "skill": "TRADUTOR",
+    "vagas": 4.0
+  },
+  "somatoria": 8.0,
+  "synonyms": [
+    {
+      "skill": "TRADUTORES",
+      "vagas": 4.0
+    }
+  ],
+  "word": "TRADUTOR"
+}, {
+  "listSize": 1.0,
+  "media": 7.0,
+  "ranking": 140.0,
+  "skill": {
+    "skill": "ENGENHEIRO DA QUALIDADE",
+    "vagas": 7.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO DA QUALIDADE"
+}, {
+  "listSize": 1.0,
+  "media": 7.0,
+  "ranking": 141.0,
+  "skill": {
+    "skill": "ENGENHEIRO ELETRONICO",
+    "vagas": 7.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO ELETRONICO"
+}, {
+  "listSize": 1.0,
+  "media": 7.0,
+  "ranking": 142.0,
+  "skill": {
+    "skill": "PROFESSOR DE INGLES",
+    "vagas": 7.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [],
+  "word": "PROFESSOR DE INGLES"
+}, {
+  "listSize": 1.0,
+  "media": 7.0,
+  "ranking": 143.0,
+  "skill": {
+    "skill": "TERAPEUTA OCUPACIONAL",
+    "vagas": 7.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [],
+  "word": "TERAPEUTA OCUPACIONAL"
+}, {
+  "listSize": 2.0,
+  "media": 3.0,
+  "ranking": 144.0,
+  "skill": {
+    "skill": "MAQUINISTA",
+    "vagas": 7.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [
+    {
+      "skill": "MAQUINISTAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "MAQUINISTA"
+}, {
+  "listSize": 2.0,
+  "media": 3.0,
+  "ranking": 145.0,
+  "skill": {
+    "skill": "OBSTETRA",
+    "vagas": 7.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [
+    {
+      "skill": "OBSTETRAS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "OBSTETRA"
+}, {
+  "listSize": 2.0,
+  "media": 3.0,
+  "ranking": 146.0,
+  "skill": {
+    "skill": "SAPATEIRO",
+    "vagas": 7.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [
+    {
+      "skill": "SAPATEIROS",
+      "vagas": 0.0
+    }
+  ],
+  "word": "SAPATEIRO"
+}, {
+  "listSize": 2.0,
+  "media": 3.0,
+  "ranking": 147.0,
+  "skill": {
+    "skill": "GEOLOGO",
+    "vagas": 6.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [
+    {
+      "skill": "GEOLOGOS",
+      "vagas": 1.0
+    }
+  ],
+  "word": "GEOLOGO"
+}, {
+  "listSize": 2.0,
+  "media": 3.0,
+  "ranking": 148.0,
+  "skill": {
+    "skill": "ENGENHEIRO DE TELECOM",
+    "vagas": 5.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [
+    {
+      "skill": "ENGENHEIRO DE TELECOMUNICACOES",
+      "vagas": 2.0
+    }
+  ],
+  "word": "ENGENHEIRO DE TELECOM"
+}, {
+  "listSize": 2.0,
+  "media": 3.0,
+  "ranking": 149.0,
+  "skill": {
+    "skill": "ECONOMISTA",
+    "vagas": 4.0
+  },
+  "somatoria": 7.0,
+  "synonyms": [
+    {
+      "skill": "ECONOMISTAS",
+      "vagas": 3.0
+    }
+  ],
+  "word": "ECONOMISTA"
+}, {
+  "listSize": 1.0,
+  "media": 6.0,
+  "ranking": 150.0,
+  "skill": {
+    "skill": "ENGENHEIRO DE MINAS",
+    "vagas": 6.0
+  },
+  "somatoria": 6.0,
+  "synonyms": [],
+  "word": "ENGENHEIRO DE MINAS"
+}, {
+  "listSize": 1.0,
+  "media": 6.0,
+  "ranking": 151.0,
+  "skill": {
+    "skill": "INSPETOR DE EQUIPAMENTOS",
+    "vagas": 6.0
+  },
+  "somatoria": 6.0,
+  "synonyms": [],
+  "word": "INSPETOR DE EQUIPAMENTOS"
 }, {
   "listSize": 3.0,
   "media": 5672.0,
@@ -1039,22 +3730,6 @@
     }
   ],
   "word": "AGIL"
-}, {
-  "listSize": 2.0,
-  "media": 1797.0,
-  "ranking": 44.0,
-  "skill": {
-    "skill": "DEVOPS",
-    "vagas": 3586.0
-  },
-  "somatoria": 3595.0,
-  "synonyms": [
-    {
-      "skill": "DEV OPS",
-      "vagas": 9.0
-    }
-  ],
-  "word": "DEVOPS"
 }, {
   "listSize": 1.0,
   "media": 3510.0,
@@ -3812,27 +6487,7 @@
     }
   ],
   "word": "SPA"
-}, {
-  "listSize": 3.0,
-  "media": 59.0,
-  "ranking": 313.0,
-  "skill": {
-    "skill": "PRODUCT DESIGNER",
-    "vagas": 127.0
-  },
-  "somatoria": 177.0,
-  "synonyms": [
-    {
-      "skill": "DESIGN DE PRODUTOS",
-      "vagas": 27.0
-    },
-    {
-      "skill": "DESIGN DE PRODUTO",
-      "vagas": 23.0
-    }
-  ],
-  "word": "PRODUCT DESIGNER"
-}, {
+},  {
   "listSize": 2.0,
   "media": 87.0,
   "ranking": 314.0,
@@ -9075,51 +11730,7 @@
   "gemini": true,
   "somatoria": 55.0,
   "word": "PROJECT MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "ADAPTABILITY"
-}, {
-  "gemini": true,
-  "somatoria": 64.0,
-  "word": "INNOVATION"
-}, {
-  "gemini": true,
-  "somatoria": 18.0,
-  "word": "NETWORK SECURITY"
-}, {
-  "gemini": true,
-  "somatoria": 8.0,
-  "word": "TEAMWORK SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 248.0,
-  "word": "COMMUNICATION SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 35.0,
-  "word": "ANALYTICAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ATTENTION TO DETAIL"
-}, {
-  "gemini": true,
-  "somatoria": 43.0,
-  "word": "SOFTWARE DESIGN"
-}, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "PROBLEM SOLVING SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 45.0,
-  "word": "SOFTWARE ENGINEERING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "CRITICAL THINKING SKILLS"
-}, {
+},    {
   "gemini": true,
   "somatoria": 26.0,
   "word": "WEB DEVELOPMENT"
@@ -9131,35 +11742,11 @@
   "gemini": true,
   "somatoria": 21.0,
   "word": "OPERATING SYSTEMS"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "CREATIVITY"
-}, {
-  "gemini": true,
-  "somatoria": 6.0,
-  "word": "EMBEDDED SYSTEMS"
-}, {
+},   {
   "gemini": true,
   "somatoria": 26.0,
   "word": "OBJECT-ORIENTED PROGRAMMING"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "MULTITHREADING"
-}, {
-  "gemini": true,
-  "somatoria": 12.0,
-  "word": "ALGORITHMS"
-}, {
-  "gemini": true,
-  "somatoria": 17.0,
-  "word": "DATA STRUCTURES"
-}, {
-  "gemini": true,
-  "somatoria": 72.0,
-  "word": "DATA ANALYTICS"
-}, {
+},  {
   "listSize": 1.0,
   "media": 11342.0,
   "prerequisites": [
@@ -9251,16 +11838,7 @@
       "vagas": 18.0,
       "word": "NETWORK SECURITY"
     },
-    {
-      "gemini": true,
-      "vagas": 8.0,
-      "word": "TEAMWORK SKILLS"
-    },
-    {
-      "gemini": true,
-      "vagas": 248.0,
-      "word": "COMMUNICATION SKILLS"
-    },
+    
     {
       "gemini": true,
       "vagas": 3.0,
@@ -9276,12 +11854,7 @@
       "vagas": 0.0,
       "word": "TECHNICAL WRITING"
     },
-    {
-      "gemini": true,
-      "vagas": 35.0,
-      "word": "ANALYTICAL SKILLS"
-    },
-    {
+        {
       "gemini": true,
       "vagas": 12.0,
       "word": "ATTENTION TO DETAIL"
@@ -10928,10 +13501,6 @@
     }
   ],
   "word": "POSTGRESQL"
-}, {
-  "gemini": true,
-  "somatoria": 853.0,
-  "word": "BOOT"
 }, {
   "listSize": 4.0,
   "media": 293.0,
@@ -13962,11 +16531,7 @@
   "gemini": true,
   "somatoria": 6.0,
   "word": "BRANCHING"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "MERGING"
-}, {
+},  {
   "listSize": 4.0,
   "media": 98.0,
   "prerequisites": [
@@ -15342,10 +17907,6 @@
   "somatoria": 65.0,
   "word": "ROUTER"
 }, {
-  "gemini": true,
-  "somatoria": 53.0,
-  "word": "SWITCH"
-}, {
   "listSize": 2.0,
   "media": 147.0,
   "prerequisites": [],
@@ -15756,28 +18317,8 @@
   "word": "PROBLEM-SOLVING ABILITIES"
 }, {
   "gemini": true,
-  "somatoria": 6.0,
-  "word": "EXCELLENT COMMUNICATION AND INTERPERSONAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 10.0,
-  "word": "SCHEDULING"
-}, {
-  "gemini": true,
-  "somatoria": 134.0,
-  "word": "PROBLEM-SOLVING"
-}, {
-  "gemini": true,
-  "somatoria": 44.0,
-  "word": "INTERPERSONAL SKILLS"
-}, {
-  "gemini": true,
   "somatoria": 26.0,
   "word": "TECHNICAL SUPPORT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "TIME MANAGEMENT"
 }, {
   "listSize": 4.0,
   "media": 62.0,
@@ -15900,11 +18441,7 @@
   "gemini": true,
   "somatoria": 5.0,
   "word": "EMPATHY"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "TECHNICAL SKILLS"
-}, {
+},  {
   "gemini": true,
   "somatoria": 31.0,
   "word": "PROBLEM SOLVING"
@@ -17154,10 +19691,6 @@
   ],
   "word": "SERVICENOW"
 }, {
-  "gemini": true,
-  "somatoria": 2136.0,
-  "word": "CVS"
-}, {
   "listSize": 2.0,
   "media": 104.0,
   "prerequisites": [
@@ -18178,10 +20711,6 @@
   "word": "PPC"
 }, {
   "gemini": true,
-  "somatoria": 2254.0,
-  "word": "SEM"
-}, {
-  "gemini": true,
   "somatoria": 13.0,
   "word": "EMAIL MARKETING"
 }, {
@@ -18201,16 +20730,7 @@
       "vagas": 1.0,
       "word": "KEYWORD RESEARCH"
     },
-    {
-      "gemini": true,
-      "vagas": 0.0,
-      "word": "ANALYTICS AND REPORTING"
-    },
-    {
-      "gemini": true,
-      "vagas": 0.0,
-      "word": "LINK BUILDING"
-    },
+    
     {
       "gemini": true,
       "vagas": 0.0,
@@ -18925,10 +21445,6 @@
     }
   ],
   "word": "SPRING DATA"
-}, {
-  "gemini": true,
-  "somatoria": 710.0,
-  "word": "APACHE"
 }, {
   "listSize": 1.0,
   "media": 143.0,
@@ -20252,14 +22768,6 @@
   "word": "NGINX"
 }, {
   "gemini": true,
-  "somatoria": 3070.0,
-  "word": "FRAMEWORK"
-}, {
-  "gemini": true,
-  "somatoria": 54.0,
-  "word": "LIBRARY"
-}, {
-  "gemini": true,
   "somatoria": 44.0,
   "word": "PROGRAMMING LANGUAGES"
 }, {
@@ -21350,10 +23858,6 @@
   "gemini": true,
   "somatoria": 3.0,
   "word": "STAKEHOLDER MANAGEMENT"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "PROJECT PLANNING"
 }, {
   "listSize": 1.0,
   "media": 106.0,
@@ -24487,11 +26991,7 @@
   "gemini": true,
   "somatoria": 2.0,
   "word": "LEAN SIX SIGMA"
-}, {
-  "gemini": true,
-  "somatoria": 698.0,
-  "word": "SCRUM MASTER"
-}, {
+},{
   "gemini": true,
   "somatoria": 18.0,
   "word": "MICROSOFT PROJECT"
@@ -26306,14 +28806,6 @@
   "synonyms": [],
   "word": "MIS"
 }, {
-  "gemini": true,
-  "somatoria": 11.0,
-  "word": "SCRIPTING SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 3.0,
-  "word": "BACKUP AND RECOVERY"
-}, {
   "listSize": 1.0,
   "media": 53.0,
   "prerequisites": [
@@ -27619,10 +30111,6 @@
   "word": "BI"
 }, {
   "gemini": true,
-  "somatoria": 1080.0,
-  "word": "MES"
-}, {
-  "gemini": true,
   "somatoria": 4.0,
   "word": "VENDOR MANAGEMENT"
 }, {
@@ -27892,10 +30380,6 @@
     }
   ],
   "word": "LOW CODE"
-}, {
-  "gemini": true,
-  "somatoria": 1425.0,
-  "word": "INFORMATICA"
 }, {
   "gemini": true,
   "somatoria": 5.0,
@@ -30296,10 +32780,6 @@
   "word": "ACT"
 }, {
   "gemini": true,
-  "somatoria": 171.0,
-  "word": "CHECK"
-}, {
-  "gemini": true,
   "somatoria": 45394.0,
   "word": "DO"
 }, {
@@ -30425,10 +32905,6 @@
   "gemini": true,
   "somatoria": 30.0,
   "word": "VIM"
-}, {
-  "gemini": true,
-  "somatoria": 39.0,
-  "word": "EDITOR"
 }, {
   "gemini": true,
   "somatoria": 5.0,
@@ -32090,10 +34566,6 @@
   "word": "JDEDWARDS"
 }, {
   "gemini": true,
-  "somatoria": 7.0,
-  "word": "KARATE"
-}, {
-  "gemini": true,
   "somatoria": 2.0,
   "word": "GERRIT"
 }, {
@@ -32886,14 +35358,6 @@
   "somatoria": 24.0,
   "synonyms": [],
   "word": "TESTCOMPLETE"
-}, {
-  "gemini": true,
-  "somatoria": 7.0,
-  "word": "SKILL A"
-}, {
-  "gemini": true,
-  "somatoria": 25.0,
-  "word": "SKILL E"
 }, {
   "listSize": 2.0,
   "media": 12.0,
@@ -33985,11 +36449,7 @@
   "gemini": true,
   "somatoria": 62.0,
   "word": "SAN"
-}, {
-  "gemini": true,
-  "somatoria": 8413.0,
-  "word": "NAS"
-}, {
+},  {
   "listSize": 1.0,
   "media": 21.0,
   "prerequisites": [
@@ -34123,15 +36583,7 @@
   "somatoria": 21.0,
   "synonyms": [],
   "word": "SCA"
-}, {
-  "gemini": true,
-  "somatoria": 5.0,
-  "word": "ORGANIZATIONAL SKILLS"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "TECHNICAL PROFICIENCY"
-}, {
+},  {
   "gemini": true,
   "somatoria": 11.0,
   "word": "DISCORD"
@@ -34752,11 +37204,7 @@
     }
   ],
   "word": "RICHFACES"
-}, {
-  "gemini": true,
-  "somatoria": 4.0,
-  "word": "HUMAN-COMPUTER INTERACTION"
-}, {
+},  {
   "listSize": 1.0,
   "media": 19.0,
   "prerequisites": [],
@@ -35604,10 +38052,6 @@
   "word": "ELASTIC STACK"
 }, {
   "gemini": true,
-  "somatoria": 3380.0,
-  "word": "TEMPO"
-}, {
-  "gemini": true,
   "somatoria": 4.0,
   "word": "ALERTMANAGER"
 }, {
@@ -35946,10 +38390,6 @@
   "synonyms": [],
   "word": "IDM"
 }, {
-  "gemini": true,
-  "somatoria": 638.0,
-  "word": "PRODUCT OWNER"
-}, {
   "listSize": 1.0,
   "media": 16.0,
   "ranking": 749.0,
@@ -36225,10 +38665,6 @@
   "gemini": true,
   "somatoria": 7.0,
   "word": "CAM"
-}, {
-  "gemini": true,
-  "somatoria": 3043.0,
-  "word": "BOM"
 }, {
   "gemini": true,
   "somatoria": 3.0,
@@ -38054,11 +40490,7 @@
   "gemini": true,
   "somatoria": 16.0,
   "word": "PYTEST"
-}, {
-  "gemini": true,
-  "somatoria": 2.0,
-  "word": "WIKI"
-}, {
+}, { 
   "gemini": true,
   "somatoria": 7.0,
   "word": "CLOUDOPS"

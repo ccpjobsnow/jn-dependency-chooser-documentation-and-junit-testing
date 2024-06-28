@@ -1,9 +1,3 @@
-A) Tratar termos únicos
-B) Fundir com dados da gemini
-C) Agrupar sinônimos 
-D) Fundir sinônimos
-E) Ordenar sinônimos por relevancia
-F) Ordenar skills por somatória de relevância dos sinônimos
-G) Hierarquizar skills
-H) Fundir profissoes
-I) Salvar banco de dados
+A) Eliminar sujeira
+B) Hierarquizar skills
+C) Salvar banco de dados
