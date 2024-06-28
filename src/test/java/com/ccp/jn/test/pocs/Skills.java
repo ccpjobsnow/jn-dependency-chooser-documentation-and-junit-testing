@@ -48,6 +48,7 @@ public class Skills {
 		CcpFileDecorator skillFile = new CcpStringDecorator("documentation\\skills\\skills.json").file();
 		List<CcpJsonRepresentation> skills = skillFile.asJsonList();
 		List<String> synonymsList = new CcpStringDecorator("documentation\\skills\\synonyms.txt").file().getLines();
+		List<String> listaDeExcluidos = new CcpStringDecorator("documentation\\skills\\excluir.txt").file().getLines();
 		
 		List<String> vagas = new CcpStringDecorator("C:\\jn\\vagas\\vagas.txt")
 				.file().getLines().stream().map(vaga -> sanitizeWord(vaga)).collect(Collectors.toList());
@@ -59,6 +60,7 @@ public class Skills {
 				.filter(x -> x.isEmpty() == false)	
 				.filter(x -> x.getAsString("skill").trim().length() > 2)
 				.filter(x -> x.getAsIntegerNumber("positionsCount") > 3)
+				.filter(x -> listaDeExcluidos.contains(x.getAsString("skill")) == false)
 				.collect(Collectors.toList());
 		collect.sort((a, b) -> ordenarSkills(a, b));
 		int ranking = 1;
