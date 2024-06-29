@@ -40,7 +40,29 @@ public class Skills {
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
 				);
-		fundirSinonimos();
+//		fundirSinonimos();
+//		evidenciarTermosUnicos();
+//		reordenarCategorias();
+	}
+	
+	static void atualizarArquivoDeSinonimos() {
+		CcpFileDecorator file = new CcpStringDecorator("documentation\\skills\\categorias.txt").file();
+		List<String> categorias = file.getLines().stream().map(x -> x.toUpperCase().trim()).collect(Collectors.toList());
+		CcpFileDecorator fileSynonyms = new CcpStringDecorator("documentation\\skills\\synonyms.json").file();
+		List<CcpJsonRepresentation> synonyms = fileSynonyms.asJsonList();
+	
+	}
+	
+	
+	static void reordenarCategorias() {
+		CcpFileDecorator file = new CcpStringDecorator("documentation\\skills\\categorias.txt").file();
+		List<String> categorias = file.getLines().stream().map(x -> x.toUpperCase().trim()).collect(Collectors.toList());
+		Collections.sort(categorias);
+		file.reset();
+		
+		for (String categoria : categorias) {
+			file.append(categoria);
+		}
 	}
 
 	static void fundirSinonimos() {
@@ -53,12 +75,13 @@ public class Skills {
 		List<String> vagas = new CcpStringDecorator("C:\\jn\\vagas\\vagas.txt")
 				.file().getLines().stream().map(vaga -> sanitizeWord(vaga)).collect(Collectors.toList());
 
+		List<CcpJsonRepresentation> sinonimosSemSkillsMapeados = synonymsList.stream().filter(synonymsLine -> getSkillList(synonymsLine, skills).isEmpty()).map(synonymsLine -> joinSynonyms(getRelatorioDosSinonimos(synonymsLine, vagas), vagas)).collect(Collectors.toList());
 		List<CcpJsonRepresentation> skillsSemSinonimosMapeados = getSkillsSemSinonimosMapeados().stream().map(x -> joinSynonyms(Arrays.asList(x), vagas)).collect(Collectors.toList());
 		List<CcpJsonRepresentation> skillsComSinonimosMapeados = synonymsList.stream().map(synonymsLine -> joinSynonyms(getSkillList(synonymsLine, skills), vagas)).collect(Collectors.toList());
 		skillsComSinonimosMapeados.addAll(skillsSemSinonimosMapeados);
+		skillsComSinonimosMapeados.addAll(sinonimosSemSkillsMapeados);
 		List<CcpJsonRepresentation> collect = skillsComSinonimosMapeados.stream()
 				.filter(x -> x.isEmpty() == false)	
-				.filter(x -> x.getAsString("skill").trim().length() > 2)
 				.filter(x -> x.getAsIntegerNumber("positionsCount") > 3)
 				.filter(x -> listaDeExcluidos.contains(x.getAsString("skill")) == false)
 				.collect(Collectors.toList());
@@ -66,8 +89,8 @@ public class Skills {
 		int ranking = 1;
 		List<CcpJsonRepresentation> list = new ArrayList<>();
 		for (CcpJsonRepresentation skill : collect) {
-			System.out.println(ranking + " de " + collect.size() + " para " + skill.getAsString("skill") + " com " + skill.getAsIntegerNumber("positionsCount"));
-			CcpJsonRepresentation put = skill.put("ranking", ranking++);
+			System.out.println(ranking + " de " + collect.size() + " para " + skill.getAsString("skill") + " com " + skill.getAsIntegerNumber("positionsCount") + " VAGAS E " + skill.getAsString("skill").length() + " CARACTERES");
+			CcpJsonRepresentation put = skill.put("ranking", ranking++).put("parent", new ArrayList<Object>());
 			list.add(put);
 		}
 		
@@ -80,10 +103,36 @@ public class Skills {
 				System.out.println(skill);
 			}
 		}
-		
 		synonyms.append(list.toString());
 	}	
 	
+
+	static List<CcpJsonRepresentation> getRelatorioDosSinonimos(String linha, List<String> vagas) {
+		String[] split = linha.split(",");
+		List<String> asList = Arrays.asList(split);
+		Set<String> collect = asList.stream()
+		.map(x -> sanitizeWord(x)).filter(x -> x.trim().length() > 1)
+		.collect(Collectors.toSet());
+		
+		boolean hasNoWords = collect.isEmpty();
+		
+		if(hasNoWords) {
+			return Arrays.asList();
+		}
+		
+		List<CcpJsonRepresentation> jsons = collect.stream().map(skill -> getRelatorioDeUmaPalavra(skill, vagas)).collect(Collectors.toList());
+		
+		ArrayList<CcpJsonRepresentation> synonyms = new ArrayList<>(jsons);
+		synonyms.sort((a, b) -> ordenarSkillsNaLinha(a, b));
+		CcpJsonRepresentation skill = synonyms.remove(0);
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON
+				.put("synonyms", synonyms)
+				.put("word", skill.getAsString("skill"))
+				;
+		
+		return Arrays.asList(put);
+	}
+
 	
 	static int ordenarSkills(CcpJsonRepresentation a, CcpJsonRepresentation b) {
 		
@@ -117,9 +166,6 @@ public class Skills {
 		Set<String> arrayList = new HashSet<>();
 		
 		CcpJsonRepresentation gemini = CcpConstants.EMPTY_JSON;
-		if(skillList.isEmpty()) {
-			return gemini;
-		}
 		for (CcpJsonRepresentation skill : skillList) {
 			Set<String> collect = skill.getAsJsonList("synonyms").stream().map(x -> x.getAsString("skill")).collect(Collectors.toSet());
 			String word = skill.getAsString("word");
@@ -127,6 +173,12 @@ public class Skills {
 			arrayList.add(word);
 			CcpJsonRepresentation jsonPiece = skill.getJsonPiece("similar", "prerequisites");
 			gemini = gemini.put(word, jsonPiece);
+		}
+		
+		boolean noResults = gemini.isEmpty();
+		
+		if(noResults) {
+			return gemini;
 		}
 		
 		List<CcpJsonRepresentation> synonyms = arrayList.stream().map(x -> getRelatorioDeUmaPalavra(x, vagas)).collect(Collectors.toList());
@@ -1089,8 +1141,8 @@ public class Skills {
 	
 	static int ordenarSkillsNaLinha(CcpJsonRepresentation a, CcpJsonRepresentation b) {
 		
-		Integer count1 = a.getAsIntegerNumber("vagas");
-		Integer count2 = b.getAsIntegerNumber("vagas");
+		Integer count1 = a.getAsIntegerNumber("positionsCount");
+		Integer count2 = b.getAsIntegerNumber("positionsCount");
 		
 		if(count1 != count2) {
 			int sub = count2 - count1;
@@ -1227,13 +1279,14 @@ public class Skills {
 		}
 	}
 	static boolean contains(String text, String phrase) {
-		boolean notContains = text.contains(phrase) == false;
+		String sanitizeWord = sanitizeWord(phrase);
+		boolean notContains = text.contains(sanitizeWord) == false;
 		if(notContains) {
 			return false;
 		}
 		
+		List<String> asList = Arrays.asList(sanitizeWord.split(" "));
 		List<String> asList2 = Arrays.asList(text.split(" "));
-		List<String> asList = Arrays.asList(phrase.split(" "));
 		boolean containsAll = asList2.containsAll(asList);
 		return containsAll;
 	}
@@ -1294,6 +1347,8 @@ public class Skills {
 
 
 	private static String sanitizeWord(String word) {
+		word = word.replace("C#", "CSHARP").replace("C++", "CPP");
+		
 		CcpTextDecorator text = new CcpStringDecorator(word).text();
 		String upperCase = text.stripAccents().content.trim().toUpperCase()
 				.replace("+", "")
