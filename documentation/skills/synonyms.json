@@ -1355,7 +1355,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "FRONTEND"],
+  "parent": ["TI", "JS", "SPA"],
   "positionsCount": 7174,
   "ranking": 20,
   "skill": "REACT",
@@ -1812,7 +1812,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "FRONTEND"],
+  "parent": ["TI", "JS", "SPA"],
   "positionsCount": 4743,
   "prerequisites": [
     {
@@ -2904,7 +2904,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "FRONTEND",
+  "parent": ["TI", "FRONTEND"],
   "positionsCount": 2935,
   "ranking": 56,
   "skill": "CSS",
@@ -3605,7 +3605,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "FRONTEND"],
+  "parent": ["TI", "JS", "SPA"],
   "positionsCount": 1436,
   "prerequisites": [],
   "ranking": 80,
@@ -3893,7 +3893,7 @@
     }
   ],
   "ranking": 88,
-  "similar": ["TI", "CLOUD"],
+  "parent": ["TI", "CLOUD"],
   "skill": "GCP",
   "synonyms": [
     {
@@ -4449,7 +4449,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "BACKEND", "RUBY"],
+  "parent": ["TI", "BACKEND", "RUBY", "MVC"],
   "positionsCount": 1113,
   "prerequisites": [
     {
@@ -4487,7 +4487,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "DB", "SQL", "BI"],
+  "parent": ["TI", "SQL", "BI"],
   "positionsCount": 1112,
   "prerequisites": [
     {
@@ -5846,7 +5846,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "BACKEND", "PHP"],
+  "parent": ["TI", "MVC", "PHP"],
   "positionsCount": 636,
   "prerequisites": [
     {
@@ -6843,7 +6843,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "INTEGRATION", "SOA"],
+  "parent": ["TI"],
   "positionsCount": 441,
   "prerequisites": [
     {
@@ -8136,7 +8136,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "BIGDATA", "HADOOP"],
+  "parent": ["TI", "BIGDATA", "ETL"],
   "positionsCount": 341,
   "prerequisites": [],
   "ranking": 218,
@@ -8267,7 +8267,7 @@
     }
   ]
 }, {
-  "parent": ["TI"],
+  "parent": ["TI", "CMS"],
   "positionsCount": 334,
   "prerequisites": [
     {
@@ -8682,7 +8682,7 @@
     }
   ]
 }, {
-  "parent": ["TI"],
+  "parent": ["TI", "DEVOPS", "IAC"],
   "positionsCount": 318,
   "prerequisites": [
     {
@@ -8779,7 +8779,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "INTEGRATION", "WS"],
+  "parent": ["TI", "WS", "TDD"],
   "positionsCount": 315,
   "prerequisites": [
     {
@@ -9568,7 +9568,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "TDD", "GHERKIN"],
+  "parent": ["TI", "TDD", "GHERKIN", "BDD"],
   "positionsCount": 270,
   "prerequisites": [
     {
@@ -9672,7 +9672,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "BACKEND", "PYTHON"],
+  "parent": ["TI", "ETL", "PYTHON"],
   "positionsCount": 265,
   "prerequisites": [
     {
@@ -10913,7 +10913,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "SUPPORT"],
+  "parent": ["TI", "CSM"],
   "positionsCount": 215,
   "prerequisites": [
     {
@@ -12780,7 +12780,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "AUTOMACAO"],
+  "parent": ["TI", "AUTOMACAO", "BACKEND"],
   "positionsCount": 154,
   "prerequisites": [
     {
@@ -13277,7 +13277,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI"],
   "positionsCount": 138,
   "prerequisites": [
     {
@@ -13425,7 +13425,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "WS", "SEGURANCA"],
+  "parent": ["TI", "WS", "BACKEND"],
   "positionsCount": 133,
   "prerequisites": [
     {
@@ -14230,7 +14230,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "SERVER"],
+  "parent": ["TI", "SERVER", "DOTNET"],
   "positionsCount": 120,
   "prerequisites": [
     {
@@ -14931,7 +14931,7 @@
     }
   ]
 }, {
-  "parent": ["TI"],
+  "parent": ["TI", "PYTHON"],
   "positionsCount": 114,
   "prerequisites": [
     {
@@ -15180,7 +15180,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "FRONTEND", "UC"],
+  "parent": ["TI", "FRONTEND", "UX"],
   "positionsCount": 110,
   "prerequisites": [
     {
@@ -15570,7 +15570,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA", "BUILD"],
   "positionsCount": 104,
   "prerequisites": [
     {
@@ -15589,7 +15589,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "WS"],
   "positionsCount": 103,
   "prerequisites": [
     {
@@ -15797,7 +15797,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BUILD"],
   "positionsCount": 97,
   "prerequisites": [],
   "ranking": 439,
@@ -16060,7 +16060,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "BIGDATA", "CLOUD"],
+  "parent": ["TI", "SPARK", "CLOUD"],
   "positionsCount": 87,
   "prerequisites": [
     {
@@ -16193,7 +16193,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "METODOLOGIA"],
+  "parent": [],
   "positionsCount": 86,
   "ranking": 454,
   "similar": [
@@ -16441,7 +16441,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "RUBY"],
+  "parent": ["TI", "RUBY", "BDD"],
   "positionsCount": 83,
   "prerequisites": [
     {
@@ -17128,7 +17128,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "PHP"],
+  "parent": ["TI", "PHP", "MVC"],
   "positionsCount": 79,
   "prerequisites": [
     {
@@ -17291,7 +17291,7 @@
     }
   ]
 }, {
-  "parent": ["TI" "MONITORAMENTO"],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 77,
   "prerequisites": [
     {
@@ -18633,7 +18633,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI"],
   "positionsCount": 65,
   "ranking": 524,
   "skill": "SDLC",
@@ -18715,7 +18715,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 64,
   "ranking": 527,
   "skill": "DESIGN GRAFICO",
@@ -18726,7 +18726,7 @@
     }
   ]
 }, {
-  "parent": [],
+  "parent": ["TI", "MENSAGERIA"],
   "positionsCount": 64,
   "ranking": 528,
   "skill": "OPERADOR DE CAIXA",
@@ -19569,7 +19569,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "FRONTEND", "TDD", "NODE"],
+  "parent": ["TI", "TDD", "NODE"],
   "positionsCount": 55,
   "prerequisites": [],
   "ranking": 553,
@@ -20078,7 +20078,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI"],
   "positionsCount": 53,
   "prerequisites": [
     {
@@ -20267,7 +20267,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "AWS", "AZURE", "FIREWALL"],
+  "parent": ["TI", "CLOUD", "FIREWALL"],
   "positionsCount": 52,
   "prerequisites": [
     {
@@ -20455,7 +20455,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["HOSPITAL"],
   "positionsCount": 52,
   "prerequisites": [],
   "ranking": 572,
@@ -21257,7 +21257,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL", ""],
   "positionsCount": 47,
   "prerequisites": [
     {
@@ -21413,7 +21413,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "JS", "FRONTEND"],
+  "parent": ["TI", "WS"],
   "positionsCount": 47,
   "ranking": 599,
   "skill": "WEBSOCKET",
@@ -21435,7 +21435,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ETL", "CLOUD"],
   "positionsCount": 47,
   "ranking": 601,
   "skill": "AZURE DATA FACTORY",
@@ -21446,7 +21446,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "I.A"],
   "positionsCount": 46,
   "prerequisites": [],
   "ranking": 602,
@@ -21514,7 +21514,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SUPPORT"],
   "positionsCount": 46,
   "prerequisites": [
     {
@@ -21558,7 +21558,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA"],
   "positionsCount": 46,
   "prerequisites": [],
   "ranking": 604,
@@ -21680,7 +21680,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD", "AWS"],
   "positionsCount": 46,
   "ranking": 606,
   "skill": "EC2",
@@ -21691,7 +21691,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SUPPORT"],
   "positionsCount": 45,
   "prerequisites": [
     {
@@ -21825,7 +21825,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 45,
   "ranking": 608,
   "skill": "NUTRICIONISTA",
@@ -21862,7 +21862,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 45,
   "prerequisites": [
     {
@@ -21907,7 +21907,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BACKEND", "ERLANG"],
   "positionsCount": 45,
   "prerequisites": [
     {
@@ -21942,7 +21942,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "UX"],
   "positionsCount": 45,
   "ranking": 613,
   "skill": "MOCKUPS",
@@ -21953,7 +21953,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 44,
   "ranking": 614,
   "similar": [
@@ -22010,7 +22010,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 44,
   "prerequisites": [
     {
@@ -22059,7 +22059,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BARRAMENTO"],
   "positionsCount": 44,
   "prerequisites": [
     {
@@ -22108,7 +22108,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LOWCODE"],
   "positionsCount": 44,
   "prerequisites": [],
   "ranking": 617,
@@ -22121,7 +22121,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 44,
   "ranking": 618,
   "skill": "SAP PS",
@@ -22132,7 +22132,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "DOTNET"],
   "positionsCount": 44,
   "ranking": 619,
   "skill": "ADO.NET",
@@ -22143,7 +22143,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["REDACAO"],
   "positionsCount": 43,
   "ranking": 620,
   "skill": "REDATOR",
@@ -22158,7 +22158,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CRM", "SQL"],
   "positionsCount": 43,
   "ranking": 621,
   "skill": "DYNAMICS CRM",
@@ -22184,7 +22184,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 43,
   "ranking": 623,
   "skill": "OSI",
@@ -22195,7 +22195,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "INTEGRATION", "JAVA"],
   "positionsCount": 42,
   "prerequisites": [],
   "ranking": 624,
@@ -22228,7 +22228,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 42,
   "ranking": 625,
   "skill": "ENGENHEIRO MECANICO",
@@ -22239,7 +22239,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AWS"],
   "positionsCount": 41,
   "prerequisites": [
     {
@@ -22302,7 +22302,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DATABRICKS"],
   "positionsCount": 41,
   "ranking": 627,
   "skill": "DELTA",
@@ -22317,7 +22317,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LOWCODE"],
   "positionsCount": 41,
   "prerequisites": [
     {
@@ -22426,7 +22426,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BIGDATA", "JAVA"],
   "positionsCount": 41,
   "ranking": 629,
   "skill": "NEO4J",
@@ -22437,7 +22437,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD"],
   "positionsCount": 41,
   "ranking": 630,
   "skill": "ROBOT FRAMEWORK",
@@ -22448,7 +22448,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MARKETING"],
   "positionsCount": 41,
   "ranking": 631,
   "skill": "OPERADOR DE TELEMARKETING",
@@ -22459,7 +22459,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["COSTURA"],
   "positionsCount": 40,
   "ranking": 632,
   "skill": "COSTUREIRO",
@@ -22490,7 +22490,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "INTEGRATION"],
   "positionsCount": 40,
   "prerequisites": [
     {
@@ -22593,7 +22593,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD"],
   "positionsCount": 40,
   "prerequisites": [
     {
@@ -22647,7 +22647,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 40,
   "prerequisites": [],
   "ranking": 636,
@@ -22764,7 +22764,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MOBILE"],
   "positionsCount": 40,
   "prerequisites": [],
   "ranking": 638,
@@ -22788,7 +22788,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SEGURANCA"],
   "positionsCount": 40,
   "prerequisites": [
     {
@@ -22843,7 +22843,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PYTHON"],
   "positionsCount": 40,
   "prerequisites": [],
   "ranking": 641,
@@ -22856,7 +22856,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "IDE"],
   "positionsCount": 39,
   "prerequisites": [],
   "ranking": 642,
@@ -22877,7 +22877,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 39,
   "ranking": 643,
   "similar": [
@@ -22905,7 +22905,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JS"],
   "positionsCount": 39,
   "ranking": 644,
   "skill": "RXJS",
@@ -22916,7 +22916,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA", "MVC"],
   "positionsCount": 39,
   "prerequisites": [],
   "ranking": 645,
@@ -22950,7 +22950,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "AUTOMACAO", "BDD" ],
   "positionsCount": 39,
   "prerequisites": [],
   "ranking": 646,
@@ -22989,7 +22989,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["BIOMEDICINA"],
   "positionsCount": 38,
   "ranking": 647,
   "skill": "BIOMEDICO",
@@ -23012,7 +23012,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "SEGURANCA"],
   "positionsCount": 38,
   "ranking": 648,
   "skill": "PENTESTER",
@@ -23027,7 +23027,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AZURE"],
   "positionsCount": 38,
   "prerequisites": [],
   "ranking": 649,
@@ -23116,7 +23116,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 38,
   "ranking": 651,
   "skill": "SAP WM",
@@ -23240,7 +23240,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB", "JAVA"],
   "positionsCount": 37,
   "ranking": 654,
   "skill": "SOLR",
@@ -23255,7 +23255,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "GRAPHQL", "JS"],
   "positionsCount": 37,
   "prerequisites": [],
   "ranking": 655,
@@ -23304,7 +23304,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD"],
   "positionsCount": 37,
   "ranking": 656,
   "similar": [],
@@ -23376,7 +23376,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 37,
   "ranking": 658,
   "skill": "ENGENHARIA AMBIENTAL",
@@ -23387,7 +23387,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CMS"],
   "positionsCount": 37,
   "ranking": 659,
   "skill": "ADOBE EXPERIENCE MANAGER",
@@ -23398,7 +23398,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JS", "TDD"],
   "positionsCount": 36,
   "prerequisites": [
     {
@@ -23439,7 +23439,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["IT", "ETL"],
   "positionsCount": 36,
   "prerequisites": [
     {
@@ -23523,7 +23523,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JMS"],
   "positionsCount": 36,
   "prerequisites": [
     {
@@ -23588,7 +23588,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CERTIFICACAO"],
   "positionsCount": 36,
   "prerequisites": [],
   "ranking": 663,
@@ -23632,7 +23632,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "HCM"],
   "positionsCount": 36,
   "ranking": 664,
   "skill": "TOTVS RM",
@@ -23643,7 +23643,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MVC", "PHP"],
   "positionsCount": 35,
   "prerequisites": [
     {
@@ -23700,7 +23700,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL"],
   "positionsCount": 35,
   "prerequisites": [
     {
@@ -23738,7 +23738,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["CALDEIRARIA"],
   "positionsCount": 35,
   "ranking": 668,
   "skill": "CALDEIREIRO",
@@ -23753,7 +23753,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CMS", "JS"],
   "positionsCount": 35,
   "prerequisites": [
     {
@@ -23813,7 +23813,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 35,
   "ranking": 670,
   "skill": "NAGIOS",
@@ -23824,7 +23824,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CRM"],
   "positionsCount": 35,
   "prerequisites": [
     {
@@ -23884,7 +23884,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CERTIFICACAO", "CLOUD", "SEGURANCA"],
   "positionsCount": 34,
   "prerequisites": [
     {
@@ -23983,7 +23983,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 34,
   "prerequisites": [],
   "ranking": 673,
@@ -24036,7 +24036,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 34,
   "ranking": 674,
   "skill": "FOTOGRAFIA",
@@ -24051,7 +24051,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["PUBLICIDADE"],
   "positionsCount": 34,
   "ranking": 675,
   "skill": "PUBLICITARIO",
@@ -24066,7 +24066,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SUPPORT"],
   "positionsCount": 34,
   "prerequisites": [
     {
@@ -24211,7 +24211,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQLSERVER"],
   "positionsCount": 34,
   "prerequisites": [],
   "ranking": 678,
@@ -24224,7 +24224,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 34,
   "prerequisites": [
     {
@@ -24284,7 +24284,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CRM", "SAP"],
   "positionsCount": 34,
   "ranking": 680,
   "skill": "SAP CRM",
@@ -24295,7 +24295,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "HCM", "SAP"],
   "positionsCount": 34,
   "prerequisites": [
     {
@@ -24430,7 +24430,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB", "GCP"],
   "positionsCount": 34,
   "ranking": 682,
   "skill": "GOOGLE DATA STUDIO",
@@ -24441,7 +24441,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 34,
   "ranking": 683,
   "skill": "ENGENHEIRO DE SEGURANCA DO TRABALHO",
@@ -24452,7 +24452,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "IDE"],
   "positionsCount": 33,
   "prerequisites": [
     {
@@ -24545,7 +24545,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "HCM"],
   "positionsCount": 33,
   "prerequisites": [
     {
@@ -24656,7 +24656,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BARRAMENTO"],
   "positionsCount": 33,
   "ranking": 689,
   "skill": "SOA SUITE",
@@ -24689,7 +24689,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA"],
   "positionsCount": 32,
   "ranking": 692,
   "similar": [],
@@ -24701,7 +24701,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AWS", "SQL"],
   "positionsCount": 32,
   "prerequisites": [],
   "ranking": 693,
@@ -24714,7 +24714,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 32,
   "ranking": 694,
   "skill": "SAP PM",
@@ -24736,7 +24736,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CRM"],
   "positionsCount": 32,
   "prerequisites": [],
   "ranking": 696,
@@ -24810,7 +24810,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CICD"],
   "positionsCount": 31,
   "ranking": 699,
   "skill": "BAMBOO",
@@ -24825,7 +24825,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CSS"],
   "positionsCount": 31,
   "prerequisites": [
     {
@@ -24890,7 +24890,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ORACLE"],
   "positionsCount": 31,
   "prerequisites": [
     {
@@ -24924,7 +24924,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JS", "BUILD"],
   "positionsCount": 31,
   "prerequisites": [],
   "ranking": 703,
@@ -24943,7 +24943,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 30,
   "ranking": 704,
   "skill": "MUSICA",
@@ -24958,7 +24958,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MOBILE", "JS"],
   "positionsCount": 30,
   "prerequisites": [],
   "ranking": 705,
@@ -24975,7 +24975,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MAINFRAME"],
   "positionsCount": 30,
   "ranking": 706,
   "skill": "JCL",
@@ -24986,7 +24986,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD", "ORACLE CLOUD"],
   "positionsCount": 30,
   "prerequisites": [],
   "ranking": 707,
@@ -25330,7 +25330,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CERTIFICACAO", "SQLSERVER", "SCCM"],
   "positionsCount": 30,
   "ranking": 708,
   "skill": "MCSE",
@@ -25341,7 +25341,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BIGDATA"],
   "positionsCount": 30,
   "prerequisites": [
     {
@@ -25370,7 +25370,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BI", "MONITORAMENTO"],
   "positionsCount": 29,
   "prerequisites": [
     {
@@ -25458,7 +25458,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 29,
   "ranking": 711,
   "skill": "PEDREIRO",
@@ -25564,7 +25564,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 29,
   "prerequisites": [
     {
@@ -25710,7 +25710,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BI"],
   "positionsCount": 29,
   "ranking": 718,
   "skill": "COGNOS",
@@ -25721,7 +25721,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BIGDATA", "CLOUD"],
   "positionsCount": 29,
   "ranking": 719,
   "skill": "SNOWFLAKE",
@@ -25732,7 +25732,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "WS"],
   "positionsCount": 28,
   "prerequisites": [],
   "ranking": 720,
@@ -25788,7 +25788,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["ODONTOLOGIA"],
   "positionsCount": 28,
   "ranking": 721,
   "skill": "DENTISTAS",
@@ -25803,7 +25803,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["FATURAMENTO"],
   "positionsCount": 28,
   "ranking": 722,
   "skill": "FATURISTA",
@@ -25818,7 +25818,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD"],
   "positionsCount": 28,
   "prerequisites": [
     {
@@ -26067,7 +26067,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JS", "TDD", "AUTOMACAO"],
   "positionsCount": 28,
   "prerequisites": [],
   "ranking": 724,
@@ -26128,7 +26128,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CICD"],
   "positionsCount": 27,
   "prerequisites": [
     {
@@ -26245,7 +26245,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BARRAMENTO"],
   "positionsCount": 27,
   "prerequisites": [],
   "ranking": 728,
@@ -26278,7 +26278,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BARRAMENTO"],
   "positionsCount": 27,
   "prerequisites": [
     {
@@ -26352,7 +26352,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 27,
   "ranking": 730,
   "skill": "VETERINARIO",
@@ -26412,7 +26412,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 27,
   "ranking": 732,
   "skill": "SSL",
@@ -26445,7 +26445,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 27,
   "ranking": 735,
   "skill": "GASTRONOMIA",
@@ -26456,7 +26456,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "FRONTEND", "BACKEND"],
   "positionsCount": 27,
   "ranking": 736,
   "skill": "DEPENDENCY INJECTION",
@@ -26467,7 +26467,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 27,
   "ranking": 737,
   "skill": "ENGENHARIA ELETRONICA",
@@ -26478,7 +26478,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "WS", "JAVA"],
   "positionsCount": 26,
   "prerequisites": [],
   "ranking": 738,
@@ -26519,7 +26519,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD", "MOBILE"],
   "positionsCount": 26,
   "prerequisites": [
     {
@@ -26641,7 +26641,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PHP", "MVC"],
   "positionsCount": 26,
   "prerequisites": [
     {
@@ -26676,7 +26676,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AZURE", "DATABRICKS"],
   "positionsCount": 26,
   "ranking": 747,
   "skill": "AZURE DATABRICKS",
@@ -26687,7 +26687,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["SECRETARIADO"],
   "positionsCount": 26,
   "ranking": 748,
   "skill": "SECRETARIADO EXECUTIVO",
@@ -26698,7 +26698,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 26,
   "ranking": 749,
   "skill": "ENGENHARIA DE ALIMENTOS",
@@ -26709,7 +26709,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "NODE"],
   "positionsCount": 25,
   "prerequisites": [],
   "ranking": 750,
@@ -26744,7 +26744,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 25,
   "ranking": 751,
   "skill": "ALEMAO",
@@ -26763,7 +26763,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AZURE", "KUBERNETS"],
   "positionsCount": 25,
   "prerequisites": [
     {
@@ -26845,7 +26845,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["PANIFICACAO"],
   "positionsCount": 25,
   "ranking": 754,
   "skill": "PADEIRO",
@@ -26860,7 +26860,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AUTOMACAO", "DOTNET"],
   "positionsCount": 25,
   "prerequisites": [
     {
@@ -26904,7 +26904,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SEGURANCA"],
   "positionsCount": 25,
   "prerequisites": [
     {
@@ -26949,7 +26949,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 25,
   "ranking": 758,
   "skill": "UDP",
@@ -26971,7 +26971,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 25,
   "ranking": 760,
   "skill": "GESTAO AMBIENTAL",
@@ -26982,7 +26982,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["DIREITO"],
   "positionsCount": 25,
   "ranking": 761,
   "skill": "ADVOGADO SOCIETARIO",
@@ -26993,7 +26993,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SPA"],
   "positionsCount": 24,
   "prerequisites": [],
   "ranking": 762,
@@ -27043,7 +27043,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SPA"],
   "positionsCount": 24,
   "prerequisites": [
     {
@@ -27080,7 +27080,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "GCP", "KUBERNETS"],
   "positionsCount": 24,
   "prerequisites": [
     {
@@ -27138,7 +27138,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI"],
   "positionsCount": 24,
   "prerequisites": [
     {
