@@ -14664,7 +14664,7 @@
     }
   ]
 }, {
-  "parent": ["TI", "WS", "TDD"],
+  "parent": ["TI", "PERFORMANCE", "TDD"],
   "positionsCount": 116,
   "prerequisites": [],
   "ranking": 404,
@@ -22578,7 +22578,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BIGDATA", "JAVA"],
   "positionsCount": 40,
   "ranking": 634,
   "skill": "HBASE",
@@ -24623,14 +24623,18 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
-  "positionsCount": 33,
+  "parent": ["TI", "SEGURANCA", "CERTIFICACAO"],
+  "positionsCount": 52,
   "ranking": 686,
   "skill": "CEH",
   "synonyms": [
     {
       "skill": "CEH",
       "positionsCount": 33
+    },
+    {
+      "skill": "CERTIFIED ETHICAL HACKER",
+      "positionsCount": 19
     }
   ]
 }, {
@@ -27186,7 +27190,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "UX"],
   "positionsCount": 24,
   "prerequisites": [],
   "ranking": 766,
@@ -27229,7 +27233,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["PERFUME"],
   "positionsCount": 24,
   "ranking": 767,
   "skill": "PERFUMISTA",
@@ -27244,7 +27248,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "REACT"],
   "positionsCount": 24,
   "prerequisites": [
     {
@@ -27293,7 +27297,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ASSEMBLY"],
   "positionsCount": 24,
   "prerequisites": [
     {
@@ -27391,7 +27395,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 24,
   "prerequisites": [],
   "ranking": 772,
@@ -27445,7 +27449,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SEGURANCA", "WS", "XML"],
   "positionsCount": 24,
   "ranking": 773,
   "skill": "SAML",
@@ -27456,7 +27460,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQLSERVER"],
   "positionsCount": 24,
   "prerequisites": [],
   "ranking": 774,
@@ -27496,7 +27500,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "A.I", "PYTHON"],
   "positionsCount": 24,
   "ranking": 776,
   "skill": "NUMPY",
@@ -27507,7 +27511,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD"],
   "positionsCount": 24,
   "prerequisites": [
     {
@@ -27562,7 +27566,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["RH"],
   "positionsCount": 23,
   "ranking": 778,
   "skill": "GESTOR DE RH",
@@ -27581,7 +27585,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB", "CRIPTOGRAFIA"],
   "positionsCount": 23,
   "prerequisites": [
     {
@@ -27640,7 +27644,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "WS"],
   "positionsCount": 23,
   "ranking": 780,
   "skill": "LOAD BALANCER",
@@ -27655,7 +27659,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["FISIOTERAPIA"],
   "positionsCount": 23,
   "ranking": 781,
   "skill": "FISIOTERAPEUTA",
@@ -27681,7 +27685,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MAINFRAME"],
   "positionsCount": 23,
   "prerequisites": [
     {
@@ -27731,7 +27735,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "VM"],
   "positionsCount": 23,
   "ranking": 784,
   "skill": "ESXI",
@@ -27742,7 +27746,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ANGULAR"],
   "positionsCount": 23,
   "ranking": 785,
   "skill": "NGRX",
@@ -27753,7 +27757,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "SALESFORCE"],
   "positionsCount": 23,
   "ranking": 786,
   "skill": "SOQL",
@@ -27764,7 +27768,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "METODOLOGIA"],
   "positionsCount": 23,
   "ranking": 787,
   "skill": "SIX SIGMA",
@@ -27775,7 +27779,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD"],
   "positionsCount": 23,
   "ranking": 788,
   "skill": "CLOUD FUNCTIONS",
@@ -27786,7 +27790,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 23,
   "ranking": 789,
   "skill": "EDUCACAO FISICA",
@@ -27797,7 +27801,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "WS", "JAVA"],
   "positionsCount": 22,
   "prerequisites": [],
   "ranking": 790,
@@ -27828,7 +27832,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SEGURANCA", "INTEGRACAO"],
   "positionsCount": 22,
   "prerequisites": [
     {
@@ -27855,7 +27859,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 22,
   "ranking": 792,
   "skill": "JAPONES",
@@ -27979,7 +27983,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["JORNALISMO"],
   "positionsCount": 22,
   "ranking": 794,
   "skill": "JORNALISTA",
@@ -27994,7 +27998,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["ANDROID"],
   "positionsCount": 22,
   "ranking": 795,
   "skill": "ANDROID SDK",
@@ -28009,7 +28013,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "RELATORIO", "BI"],
   "positionsCount": 22,
   "prerequisites": [
     {
@@ -28055,17 +28059,21 @@
   ]
 }, {
   "parent": ["", "", ""],
-  "positionsCount": 22,
+  "positionsCount": 29,
   "ranking": 798,
   "skill": "ECM",
   "synonyms": [
     {
       "skill": "ECM",
       "positionsCount": 22
+    },
+    {
+      "skill": "ENTERPRISE CONTENT MANAGEMENT",
+      "positionsCount": 7
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 22,
   "ranking": 799,
   "skill": "EMR",
@@ -28171,7 +28179,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ITIL", "DB"],
   "positionsCount": 22,
   "prerequisites": [
     {
@@ -28201,7 +28209,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "WS", "JS"],
   "positionsCount": 22,
   "ranking": 802,
   "skill": "AXIOS",
@@ -28223,7 +28231,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["AUTOCAD"],
   "positionsCount": 21,
   "ranking": 804,
   "skill": "CADISTA",
@@ -28238,7 +28246,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MATH"],
   "positionsCount": 21,
   "ranking": 805,
   "skill": "MATEMATICOS",
@@ -28253,7 +28261,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AWS", "CERTIFICACAO", "DEVOPS"],
   "positionsCount": 21,
   "prerequisites": [],
   "ranking": 806,
@@ -28307,7 +28315,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SAP"],
   "positionsCount": 21,
   "prerequisites": [
     {
@@ -28417,7 +28425,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "KUBERNETS"],
   "positionsCount": 21,
   "prerequisites": [],
   "ranking": 809,
@@ -28551,7 +28559,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "WEBASSEMBLY"],
   "positionsCount": 21,
   "prerequisites": [],
   "ranking": 813,
@@ -28575,7 +28583,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "IDE", "JS"],
   "positionsCount": 21,
   "ranking": 814,
   "skill": "ESLINT",
@@ -28666,7 +28674,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ELIXIR"],
   "positionsCount": 21,
   "ranking": 816,
   "skill": "PHOENIX",
@@ -28677,7 +28685,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 21,
   "ranking": 817,
   "skill": "SAP APO",
@@ -28688,7 +28696,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PHP", "ORM"],
   "positionsCount": 21,
   "ranking": 818,
   "skill": "DOCTRINE",
@@ -28699,7 +28707,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 21,
   "ranking": 819,
   "skill": "GERENTE DE RESTAURANTE",
@@ -28710,7 +28718,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JSF"],
   "positionsCount": 20,
   "prerequisites": [],
   "ranking": 820,
@@ -28748,7 +28756,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ETL"],
   "positionsCount": 20,
   "ranking": 821,
   "skill": "POWER QUERY",
@@ -28763,7 +28771,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 20,
   "ranking": 822,
   "skill": "APACHE DRUID",
@@ -28793,7 +28801,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 20,
   "prerequisites": [
     {
@@ -29004,7 +29012,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "WS"],
   "positionsCount": 20,
   "prerequisites": [],
   "ranking": 828,
@@ -29028,7 +29036,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 20,
   "ranking": 829,
   "skill": "SAP HR",
@@ -29039,7 +29047,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SEGURANCA"],
   "positionsCount": 20,
   "prerequisites": [
     {
@@ -29094,7 +29102,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "SAP"],
   "positionsCount": 20,
   "prerequisites": [
     {
@@ -29159,7 +29167,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 20,
   "ranking": 832,
   "skill": "ENGENHEIRO DE MANUTENCAO",
@@ -29170,7 +29178,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "P.O", "CERTIFICACAO"],
   "positionsCount": 19,
   "ranking": 833,
   "similar": [
@@ -29202,7 +29210,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA"],
   "positionsCount": 19,
   "prerequisites": [
     {
@@ -29266,7 +29274,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "GIT", "AWS"],
   "positionsCount": 19,
   "ranking": 835,
   "skill": "AZURE GIT",
@@ -29281,7 +29289,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SERVER", "JAVA"],
   "positionsCount": 19,
   "prerequisites": [
     {
@@ -29342,8 +29350,8 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
-  "positionsCount": 19,
+  "parent": ["TI", "SEGURANCA"],
+  "positionsCount": 29,
   "prerequisites": [
     {
       "gemini": true,
@@ -29374,10 +29382,14 @@
     {
       "skill": "NAC",
       "positionsCount": 19
+    },
+    {
+      "skill": "NAC",
+      "positionsCount": 10
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 19,
   "ranking": 839,
   "similar": [
@@ -29417,10 +29429,14 @@
     {
       "skill": "NAT",
       "positionsCount": 19
+    },
+    {
+      "skill": "NETWORK ADDRESS TRANSLATION",
+      "positionsCount": 0
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CHATBOT"],
   "positionsCount": 19,
   "prerequisites": [],
   "ranking": 840,
@@ -29444,8 +29460,8 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
-  "positionsCount": 19,
+  "parent": ["TI", "SEGURANCA", "CERTIFICACAO"],
+  "positionsCount": 26,
   "prerequisites": [
     {
       "gemini": true,
@@ -29521,10 +29537,14 @@
     {
       "skill": "OSCP",
       "positionsCount": 19
+    }, 
+    {
+      "skill": "OFFENSIVE SECURITY CERTIFIED PROFESSIONAL",
+      "positionsCount": 7
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BACKEND"],
   "positionsCount": 19,
   "ranking": 842,
   "skill": "RUST",
@@ -29535,7 +29555,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SEGURANCA"],
   "positionsCount": 19,
   "prerequisites": [
     {
@@ -29575,7 +29595,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL", "SEGURANCA"],
   "positionsCount": 19,
   "prerequisites": [
     {
@@ -29625,7 +29645,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "PERFORMANCE"],
   "positionsCount": 19,
   "ranking": 845,
   "skill": "LOADRUNNER",
@@ -29647,7 +29667,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["DIREITO"],
   "positionsCount": 19,
   "ranking": 847,
   "skill": "ADVOGADO TRABALHISTA",
@@ -29658,7 +29678,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TELECOMUNICACAO"],
   "positionsCount": 19,
   "ranking": 848,
   "skill": "ENGENHARIA DE TELECOMUNICACOES",
@@ -29669,7 +29689,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 18,
   "prerequisites": [
     {
@@ -29743,7 +29763,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL"],
   "positionsCount": 18,
   "prerequisites": [
     {
@@ -29766,7 +29786,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CMS"],
   "positionsCount": 18,
   "prerequisites": [
     {
@@ -29875,7 +29895,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP"],
   "positionsCount": 18,
   "prerequisites": [
     {
@@ -29963,7 +29983,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 18,
   "prerequisites": [],
   "ranking": 857,
@@ -30023,7 +30043,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 18,
   "ranking": 859,
   "skill": "SAP QM",
@@ -30034,7 +30054,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "METODOLOGIA"],
   "positionsCount": 18,
   "ranking": 860,
   "skill": "ARCHIMATE",
@@ -30045,7 +30065,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["DIREITO"],
   "positionsCount": 18,
   "ranking": 861,
   "skill": "DIREITO TRIBUTARIO",
@@ -30056,7 +30076,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 18,
   "ranking": 862,
   "skill": "ENGENHARIA DE CONTROLE E AUTOMACAO",
@@ -30067,7 +30087,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 17,
   "ranking": 863,
   "skill": "FLUME",
@@ -30082,7 +30102,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA", "TDD"],
   "positionsCount": 17,
   "prerequisites": [
     {
@@ -30130,7 +30150,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 17,
   "prerequisites": [
     {
@@ -30264,7 +30284,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "GCP", "NOSQL"],
   "positionsCount": 17,
   "prerequisites": [],
   "ranking": 866,
@@ -30312,7 +30332,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["JARDINAGEM"],
   "positionsCount": 17,
   "ranking": 867,
   "skill": "JARDINEIRO",
@@ -30327,7 +30347,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 17,
   "prerequisites": [],
   "ranking": 868,
@@ -30350,7 +30370,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 17,
   "ranking": 869,
   "skill": "AUDIOVISUAL",
@@ -30365,7 +30385,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PHP", "MVC"],
   "positionsCount": 17,
   "prerequisites": [],
   "ranking": 870,
@@ -30382,7 +30402,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["ESTETICA"],
   "positionsCount": 17,
   "ranking": 871,
   "skill": "ESTETICISTA",
@@ -30422,7 +30442,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PHP", "MVC"],
   "positionsCount": 17,
   "prerequisites": [
     {
@@ -30441,7 +30461,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BUILD", "JS"],
   "positionsCount": 17,
   "prerequisites": [],
   "ranking": 874,
@@ -30454,7 +30474,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 17,
   "ranking": 875,
   "skill": "CINEMA",
@@ -30465,7 +30485,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "HDFS"],
   "positionsCount": 17,
   "prerequisites": [],
   "ranking": 876,
@@ -30478,7 +30498,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BI"],
   "positionsCount": 17,
   "ranking": 877,
   "skill": "LOOKER",
@@ -30489,7 +30509,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 17,
   "prerequisites": [
     {
@@ -30513,7 +30533,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI"],
   "positionsCount": 17,
   "ranking": 879,
   "skill": "SALTSTACK",
@@ -30524,7 +30544,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CMS"],
   "positionsCount": 17,
   "ranking": 880,
   "skill": "CLOUDFRONT",
@@ -30535,7 +30555,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ETL"],
   "positionsCount": 16,
   "ranking": 881,
   "skill": "FLINK",
@@ -30573,8 +30593,8 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
-  "positionsCount": 16,
+  "parent": ["TI"],
+  "positionsCount": 19,
   "prerequisites": [
     {
       "gemini": true,
@@ -30610,10 +30630,15 @@
     {
       "skill": "RFP",
       "positionsCount": 16
+    },
+    {
+      "skill": "REQUEST FOR PROPOSAL",
+      "positionsCount": 3
+
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PYTHON", "TDD"],
   "positionsCount": 16,
   "ranking": 884,
   "skill": "PYTEST",
@@ -30624,7 +30649,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BPM"],
   "positionsCount": 16,
   "prerequisites": [],
   "ranking": 885,
@@ -30653,7 +30678,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 16,
   "ranking": 886,
   "skill": "URBANISMO",
@@ -30664,7 +30689,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["DIREITO"],
   "positionsCount": 16,
   "ranking": 887,
   "skill": "ADVOGADO CIVIL",
@@ -30675,7 +30700,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AZURE", "CICD"],
   "positionsCount": 16,
   "ranking": 888,
   "skill": "AZURE PIPELINES",
@@ -30686,7 +30711,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 16,
   "ranking": 889,
   "skill": "FISCAL DE CAIXA",
@@ -30740,7 +30765,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 15,
   "ranking": 891,
   "skill": "CAMAREIRA",
@@ -30763,7 +30788,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "IDE"],
   "positionsCount": 15,
   "prerequisites": [
     {
@@ -30796,7 +30821,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["VIGILANCIA"],
   "positionsCount": 15,
   "ranking": 893,
   "skill": "VIGIA",
@@ -30811,7 +30836,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MARKETING"],
   "positionsCount": 15,
   "ranking": 894,
   "skill": "ADWORDS",
@@ -30826,7 +30851,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "A.I"],
   "positionsCount": 15,
   "prerequisites": [],
   "ranking": 895,
@@ -30843,7 +30868,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 15,
   "ranking": 896,
   "skill": "VIDEOMAKER",
@@ -31415,10 +31440,14 @@
     {
       "skill": "UTM",
       "positionsCount": 15
+    },
+    {
+      "skill": "UNIFIED THREAT MANAGEMENT",
+      "positionsCount": 0
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "MONITORAMENTO"],
   "positionsCount": 15,
   "prerequisites": [
     {
@@ -31450,6 +31479,18 @@
     {
       "skill": "MANTIS",
       "positionsCount": 15
+    },
+    {
+      "skill": "MANTISBT",
+      "positionsCount": 0
+    },
+    {
+      "skill": "MANTIS BT",
+      "positionsCount": 0
+    },
+    {
+      "skill": "MANTIS BUG TRACKER",
+      "positionsCount": 0
     }
   ]
 }, {
@@ -31483,7 +31524,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PATTERNS"],
   "positionsCount": 14,
   "ranking": 902,
   "skill": "GOF",
@@ -31498,7 +31539,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BPM"],
   "positionsCount": 14,
   "prerequisites": [],
   "ranking": 903,
@@ -31526,7 +31567,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["AGRONOMIA"],
   "positionsCount": 14,
   "ranking": 904,
   "skill": "AGRONOMO",
@@ -31675,7 +31716,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "REACT", "GRAPHQL"],
   "positionsCount": 14,
   "prerequisites": [
     {
@@ -31754,7 +31795,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CMS"],
   "positionsCount": 14,
   "prerequisites": [
     {
@@ -31849,7 +31890,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA", "MVC"],
   "positionsCount": 14,
   "prerequisites": [],
   "ranking": 913,
@@ -31973,7 +32014,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 14,
   "prerequisites": [
     {
@@ -32043,7 +32084,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "IDE"],
   "positionsCount": 14,
   "ranking": 915,
   "skill": "SQL DEVELOPER",
@@ -32054,7 +32095,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["DIREITO"],
   "positionsCount": 14,
   "ranking": 916,
   "skill": "ADVOGADO TRIBUTARIO",
@@ -32065,7 +32106,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SAP", "CLOUD"],
   "positionsCount": 14,
   "ranking": 917,
   "skill": "SAP ANALYTICS CLOUD",
@@ -32076,7 +32117,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 14,
   "ranking": 918,
   "skill": "DESIGN DE INTERIORES",
@@ -32087,7 +32128,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 14,
   "ranking": 919,
   "skill": "ENGENHEIRO DE PRODUCAO",
@@ -32109,7 +32150,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "FRONTEND"],
   "positionsCount": 13,
   "prerequisites": [
     {
@@ -32155,7 +32196,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 13,
   "ranking": 922,
   "skill": "TERRAPLANAGEM",
@@ -32178,7 +32219,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CICD"],
   "positionsCount": 13,
   "prerequisites": [
     {
@@ -32210,7 +32251,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["REVISAO"],
   "positionsCount": 13,
   "ranking": 924,
   "skill": "REVISOR",
@@ -32225,7 +32266,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MEDIACAO"],
   "positionsCount": 13,
   "ranking": 925,
   "skill": "MEDIADOR",
@@ -32240,7 +32281,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD", "FRONTEND"],
   "positionsCount": 13,
   "prerequisites": [],
   "ranking": 926,
@@ -32273,7 +32314,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["FONOAUDIOLOGIA"],
   "positionsCount": 13,
   "ranking": 927,
   "skill": "FONOAUDIOLOGO",
@@ -32353,7 +32394,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BI"],
   "positionsCount": 13,
   "ranking": 932,
   "skill": "SPSS",
@@ -32364,7 +32405,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DOTNET", "DEPENDENCY MANAGER"],
   "positionsCount": 13,
   "prerequisites": [
     {
@@ -32435,7 +32476,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BI"],
   "positionsCount": 13,
   "ranking": 935,
   "skill": "SAP BI",
@@ -32446,7 +32487,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "PERFORMANCE"],
   "positionsCount": 13,
   "prerequisites": [],
   "ranking": 936,
@@ -32511,7 +32552,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["AGRONOMIA"],
   "positionsCount": 13,
   "ranking": 938,
   "skill": "ENGENHARIA AGRONOMICA",
@@ -32522,7 +32563,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 13,
   "ranking": 939,
   "skill": "DESIGNER DE INTERIORES",
@@ -32533,7 +32574,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 13,
   "ranking": 940,
   "skill": "ENGENHARIA MECATRONICA",
@@ -32544,7 +32585,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "A.I", "PYTHON"],
   "positionsCount": 12,
   "ranking": 941,
   "skill": "SCIKIT-LEARN",
@@ -32567,7 +32608,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 12,
   "ranking": 942,
   "skill": "CORTADOR",
@@ -32582,7 +32623,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "AZURE"],
   "positionsCount": 12,
   "ranking": 943,
   "skill": "DATA MART",
@@ -32597,7 +32638,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BIGDATA"],
   "positionsCount": 12,
   "ranking": 944,
   "skill": "MAPREDUCE",
@@ -32627,7 +32668,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["BIOQUIMICA"],
   "positionsCount": 12,
   "ranking": 946,
   "skill": "BIOQUIMICO",
@@ -32653,14 +32694,26 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
-  "positionsCount": 12,
+  "parent": ["TI", "JAVA"],
+  "positionsCount": 17,
   "ranking": 948,
   "skill": "ADF",
   "synonyms": [
     {
       "skill": "ADF",
       "positionsCount": 12
+    },
+    {
+      "skill": "ORACLE ADF",
+      "positionsCount": 4
+    },
+    {
+      "skill": "ORACLEADF",
+      "positionsCount": 0
+    },
+    {
+      "skill": "APPLICATION DEVELOPMENT FRAMEWORK",
+      "positionsCount": 1
     }
   ]
 }, {
@@ -32687,7 +32740,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 12,
   "ranking": 950,
   "skill": "SSH",
@@ -32698,7 +32751,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MENSAGERIA", "PROTOCOL"],
   "positionsCount": 12,
   "ranking": 951,
   "skill": "AMQP",
@@ -32709,7 +32762,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BIGDATA"],
   "positionsCount": 12,
   "ranking": 952,
   "skill": "AVRO",
@@ -32717,10 +32770,14 @@
     {
       "skill": "AVRO",
       "positionsCount": 12
+    },
+    {
+      "skill": "APACHE AVRO",
+      "positionsCount": 0
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JSP"],
   "positionsCount": 12,
   "prerequisites": [
     {
@@ -32760,7 +32817,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LARAVEL"],
   "positionsCount": 12,
   "prerequisites": [
     {
@@ -32866,7 +32923,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "REACT"],
   "positionsCount": 12,
   "ranking": 956,
   "skill": "ENZYME",
@@ -32877,7 +32934,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA", "WS"],
   "positionsCount": 12,
   "ranking": 957,
   "skill": "VERT.X",
@@ -32912,7 +32969,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["ENGENHARIA"],
   "positionsCount": 12,
   "ranking": 960,
   "skill": "ENGENHEIRO QUIMICO",
@@ -32953,7 +33010,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BACKEND"],
   "positionsCount": 11,
   "ranking": 963,
   "skill": "ASSEMBLY",
@@ -32968,7 +33025,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CICD"],
   "positionsCount": 11,
   "ranking": 964,
   "skill": "GITHUB ACTIONS",
@@ -33020,7 +33077,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 11,
   "ranking": 968,
   "skill": "FTP",
@@ -33064,7 +33121,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 11,
   "ranking": 972,
   "skill": "SNMP",
@@ -33075,7 +33132,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "HADOOP"],
   "positionsCount": 11,
   "ranking": 973,
   "skill": "SQOOP",
@@ -33086,7 +33143,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MATH"],
   "positionsCount": 11,
   "ranking": 974,
   "skill": "MATLAB",
@@ -33097,7 +33154,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PYTHON", "NLP"],
   "positionsCount": 11,
   "ranking": 975,
   "skill": "PYTORCH",
@@ -33108,7 +33165,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MEDICINA"],
   "positionsCount": 11,
   "ranking": 976,
   "skill": "PATOLOGIA",
@@ -33130,7 +33187,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 11,
   "prerequisites": [
     {
@@ -33165,7 +33222,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["DIREITO"],
   "positionsCount": 11,
   "ranking": 979,
   "skill": "DIREITO IMOBILIARIO",
@@ -33176,7 +33233,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 11,
   "ranking": 980,
   "skill": "ENGENHARIA DE MATERIAIS",
@@ -33214,7 +33271,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI"],
   "positionsCount": 10,
   "ranking": 982,
   "skill": "OPENGL",
@@ -33229,7 +33286,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LDAP"],
   "positionsCount": 10,
   "ranking": 983,
   "skill": "OPENLDAP",
@@ -33244,7 +33301,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MODELAGEM"],
   "positionsCount": 10,
   "ranking": 984,
   "skill": "MODELADOR",
@@ -33259,7 +33316,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 10,
   "ranking": 985,
   "skill": "FONOAUDIOLOGIA",
@@ -33296,7 +33353,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CERTIFICACAO", "SM"],
   "positionsCount": 10,
   "ranking": 988,
   "skill": "CSPO",
@@ -33318,7 +33375,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 10,
   "ranking": 990,
   "skill": "SMTP",
@@ -33329,7 +33386,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JS", "BUILD"],
   "positionsCount": 10,
   "ranking": 991,
   "skill": "BABEL",
@@ -33340,7 +33397,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "JAVA", "SERVER"],
   "positionsCount": 10,
   "ranking": 992,
   "skill": "JETTY",
@@ -33351,7 +33408,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LOWCODE"],
   "positionsCount": 10,
   "ranking": 993,
   "skill": "MENDIX",
@@ -33362,7 +33419,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LISP"],
   "positionsCount": 10,
   "ranking": 994,
   "skill": "CLOJURE",
@@ -33373,7 +33430,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SERVERLESS"],
   "positionsCount": 10,
   "ranking": 995,
   "skill": "FARGATE",
@@ -33384,7 +33441,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CICD"],
   "positionsCount": 10,
   "ranking": 996,
   "skill": "TEAMCITY",
@@ -33395,7 +33452,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CICD"],
   "positionsCount": 10,
   "ranking": 997,
   "skill": "CLOUDBEES",
@@ -33406,7 +33463,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 10,
   "ranking": 998,
   "skill": "ZOOTECNIA",
@@ -33450,8 +33507,8 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
-  "positionsCount": 9,
+  "parent": ["TI", "SUPPORT"],
+  "positionsCount": 28,
   "ranking": 1002,
   "skill": "BMC",
   "synonyms": [
@@ -33460,12 +33517,20 @@
       "positionsCount": 9
     },
     {
+      "skill": "REMEDY",
+      "positionsCount": 16
+    },
+    {
+      "skill": "BMC REMEDY",
+      "positionsCount": 3
+    },
+    {
       "skill": "BMC HELIX ITSM",
       "positionsCount": 0
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 9,
   "ranking": 1003,
   "skill": "FI-AA",
@@ -33517,7 +33582,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 9,
   "ranking": 1007,
   "skill": "IDS",
@@ -33572,7 +33637,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "METODOLOGIA"],
   "positionsCount": 9,
   "ranking": 1012,
   "skill": "RUP",
@@ -33583,7 +33648,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI"],
   "positionsCount": 9,
   "ranking": 1013,
   "skill": "SDN",
@@ -33591,10 +33656,18 @@
     {
       "skill": "SDN",
       "positionsCount": 9
+    },
+    {
+      "skill": "SOFTWARE-DEFINED NETWORKING",
+      "positionsCount": 0
+    },
+    {
+      "skill": "SOFTWARE DEFINED NETWORKING",
+      "positionsCount": 0
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CERTIFICACAO", "CLOUD"],
   "positionsCount": 9,
   "ranking": 1014,
   "skill": "ARIS",
@@ -33638,7 +33711,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MOBILE", "CICD"],
   "positionsCount": 9,
   "ranking": 1018,
   "skill": "BITRISE",
@@ -33649,7 +33722,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL"],
   "positionsCount": 9,
   "ranking": 1019,
   "skill": "ZEPPELIN",
@@ -33660,7 +33733,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "CLOUD"],
   "positionsCount": 9,
   "ranking": 1020,
   "skill": "CLOUD SQL",
@@ -33671,7 +33744,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 9,
   "ranking": 1021,
   "skill": "BIOQUIMICA",
@@ -33682,7 +33755,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AWS", "SEGURANCA"],
   "positionsCount": 9,
   "ranking": 1022,
   "skill": "AWS COGNITO",
@@ -33693,7 +33766,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD", "DEPLOY"],
   "positionsCount": 9,
   "ranking": 1023,
   "skill": "CLOUD DEPLOYMENT",
@@ -33704,7 +33777,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["ENGENHARIA"],
   "positionsCount": 9,
   "ranking": 1024,
   "skill": "ENGENHEIRO ELETRICO",
@@ -33715,7 +33788,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["INSPECAO", "MECANICA"],
   "positionsCount": 9,
   "ranking": 1025,
   "skill": "INSPETOR DE MANUTENCAO",
@@ -33726,7 +33799,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["DIREITO"],
   "positionsCount": 9,
   "ranking": 1026,
   "skill": "ADVOGADO PREVIDENCIARIO",
@@ -33737,7 +33810,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["ENGENHARIA"],
   "positionsCount": 9,
   "ranking": 1027,
   "skill": "ENGENHEIRO DE CONTROLE E AUTOMACAO",
@@ -33748,7 +33821,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "IDE"],
   "positionsCount": 8,
   "ranking": 1028,
   "skill": "RAD",
@@ -33767,7 +33840,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "VM"],
   "positionsCount": 8,
   "ranking": 1029,
   "skill": "XENAPP",
@@ -33782,7 +33855,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 8,
   "ranking": 1030,
   "skill": "MANDARIM",
@@ -33798,7 +33871,7 @@
   ]
 }, {
   "parent": ["", "", ""],
-  "positionsCount": 8,
+  "positionsCount": 16,
   "ranking": 1031,
   "skill": "NETSUITE",
   "synonyms": [
@@ -33807,12 +33880,16 @@
       "positionsCount": 8
     },
     {
+      "skill": "ORACLE NETSUITE",
+      "positionsCount": 8
+    },
+    {
       "skill": "NET SUITE",
       "positionsCount": 0
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TRADUCAO"],
   "positionsCount": 8,
   "ranking": 1032,
   "skill": "TRADUTORES",
@@ -33827,7 +33904,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["CARPINTARIA"],
   "positionsCount": 8,
   "ranking": 1033,
   "skill": "CARPINTEIRO",
@@ -33901,7 +33978,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "SALESFORCE"],
   "positionsCount": 8,
   "ranking": 1039,
   "skill": "SOSL",
@@ -33912,7 +33989,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SPA", ""],
   "positionsCount": 8,
   "ranking": 1040,
   "skill": "EXTJS",
@@ -33956,7 +34033,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "FRONTEND", "GROOVY"],
   "positionsCount": 8,
   "ranking": 1044,
   "skill": "GRAILS",
@@ -33978,7 +34055,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LOADBALANCE"],
   "positionsCount": 8,
   "ranking": 1046,
   "skill": "HAPROXY",
@@ -33989,7 +34066,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "MONITORAMENTO"],
   "positionsCount": 8,
   "ranking": 1047,
   "skill": "PINGDOM",
@@ -34000,7 +34077,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AUTOMACAO"],
   "positionsCount": 8,
   "ranking": 1048,
   "skill": "RUNDECK",
@@ -34022,7 +34099,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "VM"],
   "positionsCount": 8,
   "ranking": 1050,
   "skill": "VSPHERE",
@@ -34033,7 +34110,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 8,
   "ranking": 1051,
   "skill": "KERBEROS",
@@ -34055,7 +34132,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 8,
   "ranking": 1053,
   "skill": "GEOGRAFIA",
@@ -34066,7 +34143,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MEDICINA"],
   "positionsCount": 8,
   "ranking": 1054,
   "skill": "PEDIATRIA",
@@ -34088,7 +34165,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "DB"],
   "positionsCount": 8,
   "ranking": 1056,
   "skill": "STAR SCHEMA",
@@ -34107,6 +34184,10 @@
     {
       "skill": "BIOTECNOLOGIA",
       "positionsCount": 8
+    },
+    {
+      "skill": "BIO TECNOLOGIA",
+      "positionsCount": 8
     }
   ]
 }, {
@@ -34121,7 +34202,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CRM"],
   "positionsCount": 8,
   "ranking": 1059,
   "skill": "MICROSOFT DYNAMICS 365",
@@ -34132,7 +34213,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CLOUD"],
   "positionsCount": 7,
   "ranking": 1060,
   "skill": "FOUNDRY",
@@ -34151,7 +34232,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "ERP", "SAP"],
   "positionsCount": 7,
   "ranking": 1061,
   "skill": "GTS",
@@ -34166,7 +34247,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CICD"],
   "positionsCount": 7,
   "ranking": 1062,
   "skill": "TRAVIS",
@@ -34181,7 +34262,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["GEOLOGIA"],
   "positionsCount": 7,
   "ranking": 1063,
   "skill": "GEOLOGO",
@@ -34211,7 +34292,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "IP"],
   "positionsCount": 7,
   "ranking": 1065,
   "skill": "IPTABLES",
@@ -34226,7 +34307,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["MEDICINA"],
   "positionsCount": 7,
   "ranking": 1066,
   "skill": "OBSTETRA",
@@ -34256,7 +34337,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 7,
   "ranking": 1068,
   "skill": "SAPATEIRO",
@@ -34271,7 +34352,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["ECONOMIA"],
   "positionsCount": 7,
   "ranking": 1069,
   "skill": "ECONOMISTA",
@@ -34286,7 +34367,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 7,
   "ranking": 1070,
   "skill": "MAQUINISTA",
@@ -34301,7 +34382,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 7,
   "ranking": 1071,
   "skill": "STORYBOARD",
@@ -34316,7 +34397,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TELECOMUNICACOES"],
   "positionsCount": 7,
   "ranking": 1072,
   "skill": "ENGENHEIRO DE TELECOM",
@@ -34372,6 +34453,10 @@
     {
       "skill": "POI",
       "positionsCount": 7
+    },
+    {
+      "skill": "APACHE POI",
+      "positionsCount": 7
     }
   ]
 }, {
@@ -34419,7 +34504,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "PROTOCOL"],
   "positionsCount": 7,
   "ranking": 1081,
   "skill": "VRRP",
@@ -34430,7 +34515,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "TDD", "AUTOMACAO"],
   "positionsCount": 7,
   "ranking": 1082,
   "skill": "BAZEL",
@@ -34452,7 +34537,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "HADOOP"],
   "positionsCount": 7,
   "ranking": 1084,
   "skill": "OOZIE",
@@ -34474,7 +34559,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "LOWCODE"],
   "positionsCount": 7,
   "ranking": 1086,
   "skill": "APPIAN",
@@ -34485,7 +34570,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "CISCO"],
   "positionsCount": 7,
   "ranking": 1087,
   "skill": "MERAKI",
@@ -34507,7 +34592,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AWS", "BIGDATA"],
   "positionsCount": 7,
   "ranking": 1089,
   "skill": "KINESIS",
@@ -34529,7 +34614,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 7,
   "ranking": 1091,
   "skill": "GEOLOGIA",
@@ -34551,7 +34636,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "VERSION"],
   "positionsCount": 7,
   "ranking": 1093,
   "skill": "MERCURIAL",
@@ -34562,7 +34647,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 7,
   "ranking": 1094,
   "skill": "RADIOLOGIA",
@@ -34573,7 +34658,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "BACKEND", ""],
   "positionsCount": 7,
   "ranking": 1095,
   "skill": "POWERBUILDER",
@@ -34581,10 +34666,14 @@
     {
       "skill": "POWERBUILDER",
       "positionsCount": 7
+    },
+    {
+      "skill": "POWER BUILDER",
+      "positionsCount": 7
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "AWS", "BIGDATA"],
   "positionsCount": 7,
   "ranking": 1096,
   "skill": "REDSHIFT SQL",
@@ -34595,7 +34684,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 7,
   "ranking": 1097,
   "skill": "BIBLIOTECONOMIA",
@@ -34606,7 +34695,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["TI", "SQL", "AZURE"],
   "positionsCount": 7,
   "ranking": 1098,
   "skill": "AZURE SQL DATABASE",
@@ -34617,7 +34706,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": ["INGLES"],
   "positionsCount": 7,
   "ranking": 1099,
   "skill": "PROFESSOR DE INGLES",
@@ -34628,7 +34717,7 @@
     }
   ]
 }, {
-  "parent": ["", "", ""],
+  "parent": [],
   "positionsCount": 7,
   "ranking": 1100,
   "skill": "ENGENHEIRO ELETRONICO",
