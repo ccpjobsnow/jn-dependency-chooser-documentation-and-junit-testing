@@ -35,6 +35,76 @@ public class Skills {
 	public static void main(String[] args) {
 		CcpDependencyInjection.loadAllDependencies(new CcpElasticSearchQueryExecutor(), new CcpElasticSearchDbRequest(),
 				new CcpElasticSearchCrud(), new CcpGsonJsonHandler(), new CcpApacheMimeHttp());
+		adicionarPais();
+		listarQuemTemMaisPais();
+		listarFilhosDeTi();
+	}
+	
+	static void listarQuemTemMaisPais() {
+		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\newSynonyms.json").file();
+		List<CcpJsonRepresentation> skills = newSynonyms.asJsonList();
+		skills.sort((a, b) -> b.getAsStringList("parent").size() - a.getAsStringList("parent").size());
+		CcpFileDecorator skillsOrdenadasPorQuantidadeDePais = new CcpStringDecorator("documentation\\skills\\skillsOrdenadasPorQuantidadeDePais.json").file().reset();
+		skillsOrdenadasPorQuantidadeDePais.append(skills.toString());
+	}
+	
+	static void listarFilhosDeTi() {
+
+		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\newSynonyms.json").file();
+		List<CcpJsonRepresentation> skills = newSynonyms.asJsonList();
+		List<CcpJsonRepresentation> filhosDeTi = skills.stream()
+				.filter(skill -> skill.getAsStringList("parent").contains("TI"))
+				.map(skill -> montarPai(skill, skills))
+				.collect(Collectors.toList());
+		
+		filhosDeTi.sort((a, b) -> ordenarPais(b, a));
+		
+		CcpFileDecorator filhos = new CcpStringDecorator("documentation\\skills\\filhos.txt").file().reset();
+		for (CcpJsonRepresentation filho : filhosDeTi) {
+			String asUgglyJson = filho.asUgglyJson();
+			filhos.append(asUgglyJson);
+		}
+	}
+	
+	static CcpJsonRepresentation montarPai(CcpJsonRepresentation skill, List<CcpJsonRepresentation> skills) {
+		List<String> filhos = getFilhos(skill, skills);
+		int totalDeFilhos = filhos.size();
+		CcpJsonRepresentation put = skill.getJsonPiece("skill").put("totalDeFilhos", totalDeFilhos).put("filhos", filhos);
+		return put;
+	}
+	
+	static int ordenarPais(CcpJsonRepresentation pai1, CcpJsonRepresentation pai2) {
+		
+		int diff = pai1.getAsIntegerNumber("totalDeFilhos") - pai2.getAsIntegerNumber("totalDeFilhos"); 
+		
+		if(diff != 0) {
+			return diff;
+		}
+		
+		int diff1 = pai1.getAsString("skill").length() - pai2.getAsString("skill").length();
+		return diff1;
+	}
+	
+	static List<String> getFilhos(CcpJsonRepresentation possivelPai, List<CcpJsonRepresentation> skills){
+		List<String> collect = skills.stream().filter(possivelFilho -> ehFilho(possivelPai, possivelFilho))
+				.map(x -> x.getAsString("skill"))
+				.collect(Collectors.toList());
+		return collect;
+	}
+	
+	static boolean ehFilho(CcpJsonRepresentation possivelPai, CcpJsonRepresentation possivelFilho) {
+		List<String> parent = possivelFilho.getAsStringList("parent");
+		List<String> collect = possivelPai.getAsJsonList("synonyms").stream().map(skill -> skill.getAsString("skill")).collect(Collectors.toList());
+		for (String synonym : collect) {
+			boolean contains = parent.contains(synonym);
+			if(contains) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	static void adicionarPais() {
 		montarNovosSinonimos();
 		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\newSynonyms.json").file();
 		List<CcpJsonRepresentation> skills = newSynonyms.asJsonList();
@@ -52,7 +122,6 @@ public class Skills {
 		for (String string : collect) {
 			System.out.println( k++ + ":" + string);
 		}
-
 	}
 
 

@@ -1,0 +1,741 @@
+{"skill":"JAVA","totalDeFilhos":44,"filhos":["SPRING","HIBERNATE","JPA","APEX","JSF","JMS","SERVLETS","KOTLIN","JUNIT","MAVEN","WEBLOGIC","WEBSPHERE","EJB","JDE","MOCKITO","GRADLE","STRUTS","JDBC","JASPER","IREPORT","FUSION","LIFERAY","ANT","NIFI","NEO4J","HBASE","QUARKUS","SOLR","SWING","JAX-WS","MYBATIS","JAX-RS","JAVA FX","GLASSFISH","ADF","TESTNG","VELOCITY","VERT.X","JETTY","POI","H2","JTA","THYMELEAF","MICRONAUT"]}
+{"skill":"BACKEND","totalDeFilhos":42,"filhos":["JAVA","JAVASCRIPT","DEVOPS",".NET","SERVER","PYTHON","PHP","RUBY","SOAP","CRM","LOGS","LOGS","GRAPHQL","CONTAINERIZATION","GROOVY","PACKAGE MANAGER","ASSEMBLY","ERLANG","CGI","LISP","DEPENDENCY MANAGER","ASP NET","SCRIPT","TYPESCRIPT","SHELL","CONTAINERS","SOLID","GO","CPP","SCALA","LIBRARIES","PHYTON","VB","VBA",".NETCORE","ORCHESTRATION","PERL","DEPENDENCY INJECTION","RUST","REGEX","POWERBUILDER","LUA"]}
+{"skill":"CLOUD","totalDeFilhos":33,"filhos":["AWS","AZURE","ORACLE CLOUD","SERVERLESS","DATABRICKS","BUCKET","LAMBDA","VTEX","CLOUDFORMATION","SPRING CLOUD","OIC","CLOUD SECURITY","CLOUDWATCH","CLOUDERA","FORTIGATE","OPENSTACK","AZURE DATA FACTORY","HEROKU","SNOWFLAKE","IBM CLOUD","INTUNE","CLOUD FUNCTIONS","NETSUITE","SAP ANALYTICS CLOUD","TYPEFORM","SPINNAKER","CLOUDBEES","CLOUDTRAIL","CLOUD SQL","CLOUD DEPLOYMENT","FOUNDRY","CCSP","CLOUD LOGGING"]}
+{"skill":"SAP","totalDeFilhos":32,"filhos":["ABAP","BASIS","SAP FI","SAP MM","FIORI","BUSINESS ONE","HYBRIS","EWM","SAP ECC","SOLMAN","ARIBA","SAP BW","SAP CO","SAP PP","SUCCESSFACTORS","NETWEAVER","SAP IBP","SAP PS","SAP WM","SAP CCS","SAP CRM","SAP PM","FSCM","BRIM","SAP APO","SAP HR","PLM","SAP QM","SAP IS-U","FI-AA","GTS","SAP PAYROLL"]}
+{"skill":"FRONTEND","totalDeFilhos":31,"filhos":["JAVASCRIPT","UX","CSS","MOBILE","HTML","LOGS","LOGS","JSF","SPA","WEBDRIVER","CMS","PACKAGE MANAGER","WEB ASSEMBLY","DEPENDENCY MANAGER","SCRIPT","TYPESCRIPT","SOLID","JQUERY","LIBRARIES","SEO","WEBPACK","WEB ANALYTICS","ECM","DEPENDENCY INJECTION","VBSCRIPT","TYPEFORM","REGEX","JSX","GRAILS","THYMELEAF","D3.JS"]}
+{"skill":"SQL","totalDeFilhos":31,"filhos":["RELATORIOS","ORACLE","SQL SERVER","AI","BIG DATA","MYSQL","POSTGRESQL","PLSQL","T-SQL","SQLITE","BIGQUERY","JDBC","MARIADB","ADO.NET","DYNAMICS CRM","TERADATA","AURORA","SYBASE","FIREBIRD","SQLALCHEMY","TOAD","SQL DEVELOPER","DATA MART","ZEPPELIN","CLOUD SQL","SOSL","REDSHIFT SQL","AZURE SQL DATABASE","H2","SQL INTEGRATION SERVICES","INFORMIX"]}
+{"skill":"SECURITY","totalDeFilhos":29,"filhos":["FIREWALL","CISCO","CRIPTOGRAFIA","DEVSECOPS","IAM","OWASP","SOC","CYPRESS","PALO ALTO","SIEM","CITRIX","CLOUD SECURITY","NAC","CEH","SSO","NIST","PENTESTER","OSCP","SONICWALL","SAML","DATAPOWER","SOPHOS","SANS","RADIUS","UTM","AWS COGNITO","CYBERARK","CISSP","CYBERBANK"]}
+{"skill":"TESTES","totalDeFilhos":29,"filhos":["WEBDRIVER","GHERKIN","JUNIT","POSTMAN","TESTER","JEST","SOAPUI","JMETER","MOCKITO","E2E","CTFL","RESTASSURED","MOCHA","ROBOT FRAMEWORK","TESTLINK","CAPYBARA","PENTESTER","JASMINE","WIREMOCK","KARMA","TESTCOMPLETE","LOADRUNNER","TESTNG","PYTEST","MANTIS","BLAZEMETER","ENZYME","PROTRACTOR","BAZEL"]}
+{"skill":"BANCO DE DADOS","totalDeFilhos":28,"filhos":["SQL","RELATORIOS","NOSQL","ORM","DBA","MODELAGEM DE DADOS","INTEGRIDADE","DW","FIREBASE","DATA LAKE","DYNAMODB","EXADATA","CQRS","SOLR","LIQUIBASE","GOOGLE DATA STUDIO","PARQUET","BLOCKCHAIN","CMDB","APACHE DRUID","GIS","FLUME","INFLUXDB","SAP RETAIL","STAR SCHEMA","DATA HUB","JTA","ERWIN"]}
+{"skill":"REST","totalDeFilhos":27,"filhos":["SOAP","GRAPHQL","POSTMAN","SOA","SWAGGER","GRAFANA","API GATEWAY","OAUTH","APIGEE","OWASP","JWT","OPENAPI","WCF","AJAX","PROMETHEUS","RESTASSURED","WEBSOCKET","WIREMOCK","JAX-WS","SAML","LOAD BALANCER","JAX-RS","AXIOS","EUREKA","JAEGER","VERT.X","STERLING"]}
+{"skill":"JAVASCRIPT","totalDeFilhos":26,"filhos":["REACT","ANGULAR","NODE","SPA","JSON","IONIC","JEST","GULP","ESLINT","RXJS","JASMINE","FLUIG","GRUNT","CORDOVA","KARMA","HUBSPOT","AXIOS","YARN","EMBER","BABEL","JSX","BOWER","STENCIL","EXPO","FETCH","D3.JS"]}
+{"skill":"DEVOPS","totalDeFilhos":26,"filhos":["PIPELINES","JENKINS","AZURE DEVOPS","GITLAB","TERRAFORM","OPENSHIFT","PUPPET","WSO2","RANCHER","OPENSTACK","CIRCLE","BAMBOO","ARTIFACTORY","SCA","AZURE PIPELINES","PACKER","SPINNAKER","GITHUB ACTIONS","TEAMCITY","CLOUDBEES","BITRISE","TRAVIS","JFROG","DATA PIPELINES","CODE PIPELINE","VAGRANT"]}
+{"skill":"PROTOCOLOS","totalDeFilhos":25,"filhos":["HTTP","IP","LDAP","TCPIP","DNS","OSPF","BGP","DHCP","IPSEC","OSI","MPLS","SSL","UDP","NAT","RADIUS","SSH","AMQP","FTP","SNMP","SMTP","KERBEROS","VRRP","STERLING","MQTT","PROTOBUF"]}
+{"skill":"MONITORAMENTO","totalDeFilhos":20,"filhos":["GRAFANA","ZABBIX","SOC","DYNATRACE","NOC","APM","PROMETHEUS","CLOUDWATCH","WAF","NEW RELIC","NAGIOS","HYPERION","JAEGER","DATADOG","APPDYNAMICS","MANTIS","IDS","PINGDOM","SENTRY","AWS CLOUDWATCH"]}
+{"skill":"AWS","totalDeFilhos":16,"filhos":["SQS","DYNAMODB","ECS","EKS","EC2","BEANSTALK","AURORA","SCA","AZURE GIT","AWS COGNITO","KINESIS","REDSHIFT SQL","AWS CLOUD FORMATION","AWS VPC","AWS CLOUDWATCH","ELASTICACHE"]}
+{"skill":"METODOLOGIAS","totalDeFilhos":14,"filhos":["AGIL","SCRUM MASTER","ITIL","PMI","KANBAN","LEAN","CONFLUENCE","GRC","COBIT","TOGAF","SIX SIGMA","ARCHIMATE","RUP","ITBM"]}
+{"skill":"MVC","totalDeFilhos":14,"filhos":["LARAVEL","DJANGO","JSF","SPA","RAILS","SPRING MVC","STRUTS","ZEND","QUARKUS","CAKEPHP","SYMFONY","CODEIGNITER","YII","VELOCITY"]}
+{"skill":"BIG DATA","totalDeFilhos":12,"filhos":["SPARK","HADOOP","SPLUNK","PYSPARK","NEO4J","HBASE","BIGTABLE","OLAP","SNOWFLAKE","AVRO","MAPREDUCE","KINESIS"]}
+{"skill":"MOBILE","totalDeFilhos":12,"filhos":["IOS","REACT NATIVE","KOTLIN","FLUTTER","IONIC","XAMARIN","PWA","DART","CORDOVA","INTUNE","BITRISE","EXPO"]}
+{"skill":"INTEGRATION","totalDeFilhos":11,"filhos":["REST","MENSAGERIA","MIDDLEWARE","LOADBALANCE","OIC","NIFI","CONTROL-M","GRPC","DATAPOWER","RPC","PROTOBUF"]}
+{"skill":"PYTHON","totalDeFilhos":11,"filhos":["DJANGO","QLIK","AIRFLOW","FLASK","PYSPARK","PANDAS","NUMPY","PYTEST","SCIKIT-LEARN","PYTORCH","PLOTLY"]}
+{"skill":"AZURE","totalDeFilhos":11,"filhos":["AZURE DEVOPS","COSMOSDB","AZURE FUNCTIONS","AZURE DATABRICKS","AKS","AZURE SERVICE BUS","AZURE PIPELINES","DATA MART","AZURE SQL DATABASE","AZURE BOARDS","AZURE MACHINE LEARNING"]}
+{"skill":"ETL","totalDeFilhos":11,"filhos":["SPARK","QLIK","POWERCENTER","ODI","DAX","TALEND","ALTERYX","AZURE DATA FACTORY","DATASTAGE","POWER QUERY","FLINK"]}
+{"skill":"CMS","totalDeFilhos":11,"filhos":["SHAREPOINT","MAGENTO","WORDPRESS","DRUPAL","LIFERAY","ADOBE EXPERIENCE MANAGER","FLUIG","HUBSPOT","OPENTEXT","CLOUDFRONT","ENSEMBLE"]}
+{"skill":"MIDDLEWARE","totalDeFilhos":10,"filhos":["MULESOFT","CAMEL","FUSION","ORACLE SOA SUITE","ORACLE SERVICE BUS","SOA SUITE","ESB","IIB","AZURE SERVICE BUS","IBM BROKER"]}
+{"skill":"BUILD","totalDeFilhos":10,"filhos":["DEVOPS","DEPLOY","GRADLE","NEXUS","GULP","ANT","GRUNT","YARN","BABEL","MSBUILD"]}
+{"skill":"ORM","totalDeFilhos":10,"filhos":["HIBERNATE","JPA","ENTITY FRAMEWORK","SPRING DATA","NHIBERNATE","DAPPER","LINQ","MYBATIS","DOCTRINE","IBATIS"]}
+{"skill":"BI","totalDeFilhos":10,"filhos":["ETL","POWER BI","TABLEAU","PENTAHO","HYPERION","COGNOS","CRYSTAL REPORTS","LOOKER","SPSS","SAP BI"]}
+{"skill":"SERVER","totalDeFilhos":9,"filhos":["JBOSS","WEBLOGIC","TOMCAT","WEBSPHERE","IIS","NGINX","HYPER-V","GLASSFISH","JETTY"]}
+{"skill":"NOSQL","totalDeFilhos":9,"filhos":["RELATORIOS","AI","BIG DATA","ELASTICSEARCH","MONGODB","CASSANDRA","COSMOSDB","DATASTORE","COUCHDB"]}
+{"skill":"PHP","totalDeFilhos":9,"filhos":["LARAVEL","MAGENTO","DRUPAL","ZEND","CAKEPHP","SYMFONY","DOCTRINE","CODEIGNITER","YII"]}
+{"skill":"ERP","totalDeFilhos":9,"filhos":["SAP","PROTHEUS","SD","HANA","FICO","JDE","PLM","MICROSIGA","NETSUITE"]}
+{"skill":"UX","totalDeFilhos":9,"filhos":["UX DESIGNER","FIGMA","WIREFRAMES","ADOBE XD","MOCKUPS","STORYBOOK","BALSAMIQ","POWERMOCK","PROTO.IO"]}
+{"skill":"CSS","totalDeFilhos":8,"filhos":["JSS","BOOTSTRAP","SASS","WEB DESIGN","MATERIAL DESIGN","FLEXBOX","STYLUS","POSTCSS"]}
+{"skill":"AI","totalDeFilhos":8,"filhos":["CHATBOT","NLP","CLOUDERA","WATSON","NUMPY","TENSORFLOW","SCIKIT-LEARN","AZURE MACHINE LEARNING"]}
+{"skill":"AUTOMATIZADOS","totalDeFilhos":7,"filhos":["WEBDRIVER","AUTOMATIZADOR","VBA","CAPYBARA","KARMA","BLUEPRISM","RUNDECK"]}
+{"skill":"MENSAGERIA","totalDeFilhos":7,"filhos":["JMS","KAFKA","RABBITMQ","OPERADOR DE CAIXA","PUBSUB","IBM MQ","AMQP"]}
+{"skill":"SUPORTE","totalDeFilhos":7,"filhos":["CSM","FIELD SERVICE","ITSM","MCSA","ZENDESK","GENESYS","BMC"]}
+{"skill":".NET","totalDeFilhos":7,"filhos":["CSHARP","VB.NET","IIS","WPF","ADO.NET","BLUEPRISM","NUGET"]}
+{"skill":"GCP","totalDeFilhos":7,"filhos":["GCP","BIGQUERY","PUBSUB","BIGTABLE","GOOGLE DATA STUDIO","GKE","DATASTORE"]}
+{"skill":"CRM","totalDeFilhos":7,"filhos":["SALESFORCE","VISUALFORCE","DYNAMICS CRM","SIEBEL","SAP CRM","CRM DYNAMICS","MICROSOFT DYNAMICS 365"]}
+{"skill":"IDE","totalDeFilhos":7,"filhos":["VISUAL STUDIO","ECLIPSE","ESLINT","INTELLIJ","TOAD","SQL DEVELOPER","RAD"]}
+{"skill":"LOW CODE","totalDeFilhos":6,"filhos":["POWER PLATFORM","OUTSYSTEMS","BIZAGI","JUPYTER","MENDIX","APPIAN"]}
+{"skill":"NODE","totalDeFilhos":6,"filhos":["EXPRESS","NEXTJS","NPM","WEBPACK","MOCHA","ADONISJS"]}
+{"skill":"GIT","totalDeFilhos":6,"filhos":["GITHUB","GITLAB","BITBUCKET","GITFLOW","AZURE GIT","GITOPS"]}
+{"skill":"SPA","totalDeFilhos":6,"filhos":["REACT","ANGULAR","VUE","KNOCKOUT","EXT.JS","EXTJS"]}
+{"skill":"BPM","totalDeFilhos":6,"filhos":["BPMN","CAMUNDA","BPEL","BPMS","IBM BPM","ORACLE E-BUSINESS SUITE"]}
+{"skill":"VERSIONAMENTO","totalDeFilhos":5,"filhos":["GIT","TFS","SVN","MERCURIAL","STARTEAM"]}
+{"skill":"KUBERNETES","totalDeFilhos":5,"filhos":["OPENSHIFT","EKS","AKS","GKE","HELM"]}
+{"skill":"CSHARP","totalDeFilhos":5,"filhos":["XAMARIN","NHIBERNATE","DAPPER","WINDOWS FORMS","LINQ"]}
+{"skill":"REACT","totalDeFilhos":5,"filhos":["REACT NATIVE","REDUX","CONTEXT API","GATSBY","ENZYME"]}
+{"skill":"VIRTUALIZATION","totalDeFilhos":4,"filhos":["ESXI","XENAPP","VSPHERE","VREALIZE AUTOMATION"]}
+{"skill":"PERFORMANCE","totalDeFilhos":4,"filhos":["LOADBALANCE","JMETER","LOADRUNNER","BLAZEMETER"]}
+{"skill":"SPRING","totalDeFilhos":4,"filhos":["SPRING BOOT","SPRING DATA","SPRING MVC","SPRING CLOUD"]}
+{"skill":"DEPLOY","totalDeFilhos":4,"filhos":["DEVOPS","MAVEN","SONAR","CLOUD DEPLOYMENT"]}
+{"skill":"HADOOP","totalDeFilhos":4,"filhos":["HDFS","HIVE","SQOOP","OOZIE"]}
+{"skill":"SCRUM","totalDeFilhos":4,"filhos":["SQUAD","JIRA","SPRINT","TRELLO"]}
+{"skill":"CISCO","totalDeFilhos":4,"filhos":["CCNA","CCNP","MERAKI","CCIE"]}
+{"skill":"CACHE","totalDeFilhos":4,"filhos":["REDIS","VARNISH","MEMCACHED","ELASTICACHE"]}
+{"skill":"IOS","totalDeFilhos":4,"filhos":["SWIFT","OBJECTIVE-C","COCOAPODS","XCODE"]}
+{"skill":"XML","totalDeFilhos":4,"filhos":["HTML","WPF","SAML","JSX"]}
+{"skill":"ORIENTACAO A OBJETOS","totalDeFilhos":3,"filhos":["PATTERNS","SOLID","DDD"]}
+{"skill":"DEPENDENCY MANAGER","totalDeFilhos":3,"filhos":["NPM","COCOAPODS","NUGET"]}
+{"skill":"SQL SERVER","totalDeFilhos":3,"filhos":["SSRS","MCSE","SSAS"]}
+{"skill":"MODELAGEM","totalDeFilhos":3,"filhos":["MODELADOR","STAR SCHEMA","ERWIN"]}
+{"skill":"MAINFRAME","totalDeFilhos":3,"filhos":["JCL","CICS","EASYTRIEVE"]}
+{"skill":"FIREWALL","totalDeFilhos":3,"filhos":["FORTINET","FORTIGATE","WAF"]}
+{"skill":"RUBY","totalDeFilhos":3,"filhos":["GHERKIN","RAILS","CAPYBARA"]}
+{"skill":"JSF","totalDeFilhos":3,"filhos":["PRIMEFACES","RICHFACES","ICEFACES"]}
+{"skill":"HCM","totalDeFilhos":3,"filhos":["TOTVS RM","SAP HCM","PEOPLESOFT"]}
+{"skill":"ELASTICSEARCH","totalDeFilhos":2,"filhos":["KIBANA","ELK"]}
+{"skill":"SALESFORCE","totalDeFilhos":2,"filhos":["SOQL","SOSL"]}
+{"skill":"DATABRICKS","totalDeFilhos":2,"filhos":["DELTA","AZURE DATABRICKS"]}
+{"skill":"WEBDRIVER","totalDeFilhos":2,"filhos":["SELENIUM","APPIUM"]}
+{"skill":"SELENIUM","totalDeFilhos":2,"filhos":["JAPONES","KATALON"]}
+{"skill":"ANGULAR","totalDeFilhos":2,"filhos":["NGRX","PROTRACTOR"]}
+{"skill":"GRAPHQL","totalDeFilhos":2,"filhos":["APOLLO","GATSBY"]}
+{"skill":"DOCKER","totalDeFilhos":2,"filhos":["KUBERNETES","COMPOSER"]}
+{"skill":"APPIUM","totalDeFilhos":2,"filhos":["JAPONES","KATALON"]}
+{"skill":"PMBOK","totalDeFilhos":2,"filhos":["PMO","PMP"]}
+{"skill":"AGIL","totalDeFilhos":2,"filhos":["SCRUM","AGILE COACH"]}
+{"skill":"HTML","totalDeFilhos":2,"filhos":["WEB DESIGN","THYMELEAF"]}
+{"skill":"BDD","totalDeFilhos":2,"filhos":["GHERKIN","CAPYBARA"]}
+{"skill":"IOT","totalDeFilhos":2,"filhos":["MQTT","ARDUINO"]}
+{"skill":"JSP","totalDeFilhos":2,"filhos":["EL","JSTL"]}
+{"skill":"JMS","totalDeFilhos":2,"filhos":["ACTIVEMQ","TIBCO"]}
+{"skill":"CONTAINERIZATION","totalDeFilhos":1,"filhos":["DOCKER"]}
+{"skill":"PACKAGE MANAGER","totalDeFilhos":1,"filhos":["BOWER"]}
+{"skill":"PRODUCT OWNER","totalDeFilhos":1,"filhos":["PSPO"]}
+{"skill":"SCRUM MASTER","totalDeFilhos":1,"filhos":["CSPO"]}
+{"skill":"ORACLE CLOUD","totalDeFilhos":1,"filhos":["OCI"]}
+{"skill":"CRIPTOGRAFIA","totalDeFilhos":1,"filhos":["BLOCKCHAIN"]}
+{"skill":"WEB ASSEMBLY","totalDeFilhos":1,"filhos":["BLAZOR"]}
+{"skill":"LOADBALANCE","totalDeFilhos":1,"filhos":["HAPROXY"]}
+{"skill":"SERVERLESS","totalDeFilhos":1,"filhos":["FARGATE"]}
+{"skill":"GOVERNANCE","totalDeFilhos":1,"filhos":["GRC"]}
+{"skill":"HIBERNATE","totalDeFilhos":1,"filhos":["HQL"]}
+{"skill":"PATTERNS","totalDeFilhos":1,"filhos":["GOF"]}
+{"skill":"PROTHEUS","totalDeFilhos":1,"filhos":["ADVPL"]}
+{"skill":"SERVLETS","totalDeFilhos":1,"filhos":["JSP"]}
+{"skill":"ASSEMBLY","totalDeFilhos":1,"filhos":["ASM"]}
+{"skill":"LARAVEL","totalDeFilhos":1,"filhos":["LUMEN"]}
+{"skill":"EXPRESS","totalDeFilhos":1,"filhos":["NESTJS"]}
+{"skill":"CHATBOT","totalDeFilhos":1,"filhos":["CHAI"]}
+{"skill":"GHERKIN","totalDeFilhos":1,"filhos":["CUCUMBER"]}
+{"skill":"ORACLE","totalDeFilhos":1,"filhos":["RMAN"]}
+{"skill":"DJANGO","totalDeFilhos":1,"filhos":["ANSIBLE"]}
+{"skill":"GROOVY","totalDeFilhos":1,"filhos":["GRAILS"]}
+{"skill":"BUCKET","totalDeFilhos":1,"filhos":["S3"]}
+{"skill":"ELIXIR","totalDeFilhos":1,"filhos":["PHOENIX"]}
+{"skill":"ERLANG","totalDeFilhos":1,"filhos":["ELIXIR"]}
+{"skill":"SPARK","totalDeFilhos":1,"filhos":["DATABRICKS"]}
+{"skill":"COBOL","totalDeFilhos":1,"filhos":["DB2"]}
+{"skill":"SOAP","totalDeFilhos":1,"filhos":["SOAPUI"]}
+{"skill":"HTTP","totalDeFilhos":1,"filhos":["VARNISH"]}
+{"skill":"ITIL","totalDeFilhos":1,"filhos":["CMDB"]}
+{"skill":"LOGS","totalDeFilhos":1,"filhos":["CLOUD LOGGING"]}
+{"skill":"LOGS","totalDeFilhos":1,"filhos":["CLOUD LOGGING"]}
+{"skill":"APEX","totalDeFilhos":1,"filhos":["SALESFORCE"]}
+{"skill":"SCCM","totalDeFilhos":1,"filhos":["MCSE"]}
+{"skill":"LDAP","totalDeFilhos":1,"filhos":["OPENLDAP"]}
+{"skill":"HDFS","totalDeFilhos":1,"filhos":["IMPALA"]}
+{"skill":"LISP","totalDeFilhos":1,"filhos":["CLOJURE"]}
+{"skill":"JPA","totalDeFilhos":1,"filhos":["JPQL"]}
+{"skill":"IAC","totalDeFilhos":1,"filhos":["TERRAFORM"]}
+{"skill":"PMI","totalDeFilhos":1,"filhos":["PMBOK"]}
+{"skill":"CSM","totalDeFilhos":1,"filhos":["SERVICENOW"]}
+{"skill":"NLP","totalDeFilhos":1,"filhos":["PYTORCH"]}
+{"skill":"CGI","totalDeFilhos":1,"filhos":["ASP"]}
+{"skill":"JSS","totalDeFilhos":1,"filhos":["MATERIAL UI"]}
+{"skill":"IP","totalDeFilhos":1,"filhos":["IPTABLES"]}
+{"skill":"ADOBE EXPERIENCE MANAGER","totalDeFilhos":0,"filhos":[]}
+{"skill":"SQL INTEGRATION SERVICES","totalDeFilhos":0,"filhos":[]}
+{"skill":"SEGURANCA DA INFORMACAO","totalDeFilhos":0,"filhos":[]}
+{"skill":"ORACLE E-BUSINESS SUITE","totalDeFilhos":0,"filhos":[]}
+{"skill":"MICROSOFT DYNAMICS 365","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE MACHINE LEARNING","totalDeFilhos":0,"filhos":[]}
+{"skill":"DEPENDENCY INJECTION","totalDeFilhos":0,"filhos":[]}
+{"skill":"GERENTE DE PROJETOS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP ANALYTICS CLOUD","totalDeFilhos":0,"filhos":[]}
+{"skill":"AWS CLOUD FORMATION","totalDeFilhos":0,"filhos":[]}
+{"skill":"VREALIZE AUTOMATION","totalDeFilhos":0,"filhos":[]}
+{"skill":"GESTAO DE PROJETOS","totalDeFilhos":0,"filhos":[]}
+{"skill":"MODELAGEM DE DADOS","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE DATA FACTORY","totalDeFilhos":0,"filhos":[]}
+{"skill":"ORACLE SERVICE BUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"GOOGLE DATA STUDIO","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE SQL DATABASE","totalDeFilhos":0,"filhos":[]}
+{"skill":"OPERADOR DE CAIXA","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE SERVICE BUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"ENTITY FRAMEWORK","totalDeFilhos":0,"filhos":[]}
+{"skill":"ORACLE SOA SUITE","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE DATABRICKS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUD DEPLOYMENT","totalDeFilhos":0,"filhos":[]}
+{"skill":"MATERIAL DESIGN","totalDeFilhos":0,"filhos":[]}
+{"skill":"ROBOT FRAMEWORK","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE FUNCTIONS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUD FUNCTIONS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CRYSTAL REPORTS","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE PIPELINES","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUDFORMATION","totalDeFilhos":0,"filhos":[]}
+{"skill":"POWER PLATFORM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SUCCESSFACTORS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUD SECURITY","totalDeFilhos":0,"filhos":[]}
+{"skill":"POWER AUTOMATE","totalDeFilhos":0,"filhos":[]}
+{"skill":"GITHUB ACTIONS","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATA PIPELINES","totalDeFilhos":0,"filhos":[]}
+{"skill":"AWS CLOUDWATCH","totalDeFilhos":0,"filhos":[]}
+{"skill":"VISUAL STUDIO","totalDeFilhos":0,"filhos":[]}
+{"skill":"FIELD SERVICE","totalDeFilhos":0,"filhos":[]}
+{"skill":"AUTOMATIZADOR","totalDeFilhos":0,"filhos":[]}
+{"skill":"WINDOWS FORMS","totalDeFilhos":0,"filhos":[]}
+{"skill":"ORCHESTRATION","totalDeFilhos":0,"filhos":[]}
+{"skill":"GERENTE DE TI","totalDeFilhos":0,"filhos":[]}
+{"skill":"WEB ANALYTICS","totalDeFilhos":0,"filhos":[]}
+{"skill":"LOAD BALANCER","totalDeFilhos":0,"filhos":[]}
+{"skill":"SQL DEVELOPER","totalDeFilhos":0,"filhos":[]}
+{"skill":"CODE PIPELINE","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUD LOGGING","totalDeFilhos":0,"filhos":[]}
+{"skill":"REACT NATIVE","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE DEVOPS","totalDeFilhos":0,"filhos":[]}
+{"skill":"BUSINESS ONE","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPRING CLOUD","totalDeFilhos":0,"filhos":[]}
+{"skill":"DYNAMICS CRM","totalDeFilhos":0,"filhos":[]}
+{"skill":"CRM DYNAMICS","totalDeFilhos":0,"filhos":[]}
+{"skill":"TESTCOMPLETE","totalDeFilhos":0,"filhos":[]}
+{"skill":"APACHE DRUID","totalDeFilhos":0,"filhos":[]}
+{"skill":"SCIKIT-LEARN","totalDeFilhos":0,"filhos":[]}
+{"skill":"POWERBUILDER","totalDeFilhos":0,"filhos":[]}
+{"skill":"REDSHIFT SQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE BOARDS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPRING BOOT","totalDeFilhos":0,"filhos":[]}
+{"skill":"SUSTENTACAO","totalDeFilhos":0,"filhos":[]}
+{"skill":"AGILE COACH","totalDeFilhos":0,"filhos":[]}
+{"skill":"INTEGRIDADE","totalDeFilhos":0,"filhos":[]}
+{"skill":"UX DESIGNER","totalDeFilhos":0,"filhos":[]}
+{"skill":"POWERCENTER","totalDeFilhos":0,"filhos":[]}
+{"skill":"API GATEWAY","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPRING DATA","totalDeFilhos":0,"filhos":[]}
+{"skill":"OBJECTIVE-C","totalDeFilhos":0,"filhos":[]}
+{"skill":"VISUALFORCE","totalDeFilhos":0,"filhos":[]}
+{"skill":"RESTASSURED","totalDeFilhos":0,"filhos":[]}
+{"skill":"MATERIAL UI","totalDeFilhos":0,"filhos":[]}
+{"skill":"ARTIFACTORY","totalDeFilhos":0,"filhos":[]}
+{"skill":"CONTEXT API","totalDeFilhos":0,"filhos":[]}
+{"skill":"POWER QUERY","totalDeFilhos":0,"filhos":[]}
+{"skill":"APPDYNAMICS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CODEIGNITER","totalDeFilhos":0,"filhos":[]}
+{"skill":"AWS COGNITO","totalDeFilhos":0,"filhos":[]}
+{"skill":"STAR SCHEMA","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP PAYROLL","totalDeFilhos":0,"filhos":[]}
+{"skill":"ELASTICACHE","totalDeFilhos":0,"filhos":[]}
+{"skill":"TYPESCRIPT","totalDeFilhos":0,"filhos":[]}
+{"skill":"POSTGRESQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"CONTAINERS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SHAREPOINT","totalDeFilhos":0,"filhos":[]}
+{"skill":"SERVICENOW","totalDeFilhos":0,"filhos":[]}
+{"skill":"CONFLUENCE","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPRING MVC","totalDeFilhos":0,"filhos":[]}
+{"skill":"NHIBERNATE","totalDeFilhos":0,"filhos":[]}
+{"skill":"WEB DESIGN","totalDeFilhos":0,"filhos":[]}
+{"skill":"WIREFRAMES","totalDeFilhos":0,"filhos":[]}
+{"skill":"PRIMEFACES","totalDeFilhos":0,"filhos":[]}
+{"skill":"PROMETHEUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUDWATCH","totalDeFilhos":0,"filhos":[]}
+{"skill":"OUTSYSTEMS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PEOPLESOFT","totalDeFilhos":0,"filhos":[]}
+{"skill":"BLOCKCHAIN","totalDeFilhos":0,"filhos":[]}
+{"skill":"LOADRUNNER","totalDeFilhos":0,"filhos":[]}
+{"skill":"SQLALCHEMY","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUDFRONT","totalDeFilhos":0,"filhos":[]}
+{"skill":"TENSORFLOW","totalDeFilhos":0,"filhos":[]}
+{"skill":"BLAZEMETER","totalDeFilhos":0,"filhos":[]}
+{"skill":"MATPLOTLIB","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP RETAIL","totalDeFilhos":0,"filhos":[]}
+{"skill":"PROTRACTOR","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUDTRAIL","totalDeFilhos":0,"filhos":[]}
+{"skill":"EASYTRIEVE","totalDeFilhos":0,"filhos":[]}
+{"skill":"IBM BROKER","totalDeFilhos":0,"filhos":[]}
+{"skill":"PIPELINES","totalDeFilhos":0,"filhos":[]}
+{"skill":"BOOTSTRAP","totalDeFilhos":0,"filhos":[]}
+{"skill":"BITBUCKET","totalDeFilhos":0,"filhos":[]}
+{"skill":"TERRAFORM","totalDeFilhos":0,"filhos":[]}
+{"skill":"WEBSPHERE","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATA LAKE","totalDeFilhos":0,"filhos":[]}
+{"skill":"LIBRARIES","totalDeFilhos":0,"filhos":[]}
+{"skill":"DEVSECOPS","totalDeFilhos":0,"filhos":[]}
+{"skill":"OPENSHIFT","totalDeFilhos":0,"filhos":[]}
+{"skill":"WORDPRESS","totalDeFilhos":0,"filhos":[]}
+{"skill":"ANTIVIRUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CASSANDRA","totalDeFilhos":0,"filhos":[]}
+{"skill":"COCOAPODS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PALO ALTO","totalDeFilhos":0,"filhos":[]}
+{"skill":"DYNATRACE","totalDeFilhos":0,"filhos":[]}
+{"skill":"NETWEAVER","totalDeFilhos":0,"filhos":[]}
+{"skill":"FORTIGATE","totalDeFilhos":0,"filhos":[]}
+{"skill":"OPENSTACK","totalDeFilhos":0,"filhos":[]}
+{"skill":"WEBSOCKET","totalDeFilhos":0,"filhos":[]}
+{"skill":"BEANSTALK","totalDeFilhos":0,"filhos":[]}
+{"skill":"CONTROL-M","totalDeFilhos":0,"filhos":[]}
+{"skill":"NEW RELIC","totalDeFilhos":0,"filhos":[]}
+{"skill":"PENTESTER","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATASTAGE","totalDeFilhos":0,"filhos":[]}
+{"skill":"LIQUIBASE","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOA SUITE","totalDeFilhos":0,"filhos":[]}
+{"skill":"SNOWFLAKE","totalDeFilhos":0,"filhos":[]}
+{"skill":"IBM CLOUD","totalDeFilhos":0,"filhos":[]}
+{"skill":"BLUEPRISM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SONICWALL","totalDeFilhos":0,"filhos":[]}
+{"skill":"STORYBOOK","totalDeFilhos":0,"filhos":[]}
+{"skill":"SIX SIGMA","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATAPOWER","totalDeFilhos":0,"filhos":[]}
+{"skill":"RICHFACES","totalDeFilhos":0,"filhos":[]}
+{"skill":"AZURE GIT","totalDeFilhos":0,"filhos":[]}
+{"skill":"GLASSFISH","totalDeFilhos":0,"filhos":[]}
+{"skill":"MICROSIGA","totalDeFilhos":0,"filhos":[]}
+{"skill":"ARCHIMATE","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATASTORE","totalDeFilhos":0,"filhos":[]}
+{"skill":"SALTSTACK","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATA MART","totalDeFilhos":0,"filhos":[]}
+{"skill":"MAPREDUCE","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPINNAKER","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUDBEES","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUD SQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"MERCURIAL","totalDeFilhos":0,"filhos":[]}
+{"skill":"POWERMOCK","totalDeFilhos":0,"filhos":[]}
+{"skill":"CYBERBANK","totalDeFilhos":0,"filhos":[]}
+{"skill":"THYMELEAF","totalDeFilhos":0,"filhos":[]}
+{"skill":"MEMCACHED","totalDeFilhos":0,"filhos":[]}
+{"skill":"MICRONAUT","totalDeFilhos":0,"filhos":[]}
+{"skill":"POWER BI","totalDeFilhos":0,"filhos":[]}
+{"skill":"RABBITMQ","totalDeFilhos":0,"filhos":[]}
+{"skill":"WEBLOGIC","totalDeFilhos":0,"filhos":[]}
+{"skill":"CUCUMBER","totalDeFilhos":0,"filhos":[]}
+{"skill":"FIREBASE","totalDeFilhos":0,"filhos":[]}
+{"skill":"DYNAMODB","totalDeFilhos":0,"filhos":[]}
+{"skill":"FORTINET","totalDeFilhos":0,"filhos":[]}
+{"skill":"MULESOFT","totalDeFilhos":0,"filhos":[]}
+{"skill":".NETCORE","totalDeFilhos":0,"filhos":[]}
+{"skill":"COMPOSER","totalDeFilhos":0,"filhos":[]}
+{"skill":"BIGQUERY","totalDeFilhos":0,"filhos":[]}
+{"skill":"ACTIVEMQ","totalDeFilhos":0,"filhos":[]}
+{"skill":"COSMOSDB","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOUDERA","totalDeFilhos":0,"filhos":[]}
+{"skill":"ADOBE XD","totalDeFilhos":0,"filhos":[]}
+{"skill":"TESTLINK","totalDeFilhos":0,"filhos":[]}
+{"skill":"INTELLIJ","totalDeFilhos":0,"filhos":[]}
+{"skill":"CAPYBARA","totalDeFilhos":0,"filhos":[]}
+{"skill":"BIGTABLE","totalDeFilhos":0,"filhos":[]}
+{"skill":"TOTVS RM","totalDeFilhos":0,"filhos":[]}
+{"skill":"TERADATA","totalDeFilhos":0,"filhos":[]}
+{"skill":"HYPERION","totalDeFilhos":0,"filhos":[]}
+{"skill":"WIREMOCK","totalDeFilhos":0,"filhos":[]}
+{"skill":"ADONISJS","totalDeFilhos":0,"filhos":[]}
+{"skill":"KNOCKOUT","totalDeFilhos":0,"filhos":[]}
+{"skill":"DOCTRINE","totalDeFilhos":0,"filhos":[]}
+{"skill":"FIREBIRD","totalDeFilhos":0,"filhos":[]}
+{"skill":"OPENTEXT","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP IS-U","totalDeFilhos":0,"filhos":[]}
+{"skill":"NETSUITE","totalDeFilhos":0,"filhos":[]}
+{"skill":"INFLUXDB","totalDeFilhos":0,"filhos":[]}
+{"skill":"ENSEMBLE","totalDeFilhos":0,"filhos":[]}
+{"skill":"VELOCITY","totalDeFilhos":0,"filhos":[]}
+{"skill":"VBSCRIPT","totalDeFilhos":0,"filhos":[]}
+{"skill":"TYPEFORM","totalDeFilhos":0,"filhos":[]}
+{"skill":"OPENLDAP","totalDeFilhos":0,"filhos":[]}
+{"skill":"TEAMCITY","totalDeFilhos":0,"filhos":[]}
+{"skill":"ZEPPELIN","totalDeFilhos":0,"filhos":[]}
+{"skill":"KERBEROS","totalDeFilhos":0,"filhos":[]}
+{"skill":"IPTABLES","totalDeFilhos":0,"filhos":[]}
+{"skill":"CYBERARK","totalDeFilhos":0,"filhos":[]}
+{"skill":"BALSAMIQ","totalDeFilhos":0,"filhos":[]}
+{"skill":"STARTEAM","totalDeFilhos":0,"filhos":[]}
+{"skill":"STERLING","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATA HUB","totalDeFilhos":0,"filhos":[]}
+{"skill":"ICEFACES","totalDeFilhos":0,"filhos":[]}
+{"skill":"INFORMIX","totalDeFilhos":0,"filhos":[]}
+{"skill":"PROTO.IO","totalDeFilhos":0,"filhos":[]}
+{"skill":"PROTOBUF","totalDeFilhos":0,"filhos":[]}
+{"skill":"ASP NET","totalDeFilhos":0,"filhos":[]}
+{"skill":"MONGODB","totalDeFilhos":0,"filhos":[]}
+{"skill":"JENKINS","totalDeFilhos":0,"filhos":[]}
+{"skill":"FLUTTER","totalDeFilhos":0,"filhos":[]}
+{"skill":"GITFLOW","totalDeFilhos":0,"filhos":[]}
+{"skill":"POSTMAN","totalDeFilhos":0,"filhos":[]}
+{"skill":"SWAGGER","totalDeFilhos":0,"filhos":[]}
+{"skill":"ANSIBLE","totalDeFilhos":0,"filhos":[]}
+{"skill":"TABLEAU","totalDeFilhos":0,"filhos":[]}
+{"skill":"MAGENTO","totalDeFilhos":0,"filhos":[]}
+{"skill":"GRAFANA","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP ECC","totalDeFilhos":0,"filhos":[]}
+{"skill":"XAMARIN","totalDeFilhos":0,"filhos":[]}
+{"skill":"ECLIPSE","totalDeFilhos":0,"filhos":[]}
+{"skill":"OPENAPI","totalDeFilhos":0,"filhos":[]}
+{"skill":"AIRFLOW","totalDeFilhos":0,"filhos":[]}
+{"skill":"MOCKITO","totalDeFilhos":0,"filhos":[]}
+{"skill":"CYPRESS","totalDeFilhos":0,"filhos":[]}
+{"skill":"WEBPACK","totalDeFilhos":0,"filhos":[]}
+{"skill":"IREPORT","totalDeFilhos":0,"filhos":[]}
+{"skill":"HYPER-V","totalDeFilhos":0,"filhos":[]}
+{"skill":"PENTAHO","totalDeFilhos":0,"filhos":[]}
+{"skill":"RANCHER","totalDeFilhos":0,"filhos":[]}
+{"skill":"LIFERAY","totalDeFilhos":0,"filhos":[]}
+{"skill":"MARIADB","totalDeFilhos":0,"filhos":[]}
+{"skill":"ALTERYX","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP IBP","totalDeFilhos":0,"filhos":[]}
+{"skill":"PYSPARK","totalDeFilhos":0,"filhos":[]}
+{"skill":"ZENDESK","totalDeFilhos":0,"filhos":[]}
+{"skill":"GENESYS","totalDeFilhos":0,"filhos":[]}
+{"skill":"MOCKUPS","totalDeFilhos":0,"filhos":[]}
+{"skill":"EXADATA","totalDeFilhos":0,"filhos":[]}
+{"skill":"ADO.NET","totalDeFilhos":0,"filhos":[]}
+{"skill":"JUPYTER","totalDeFilhos":0,"filhos":[]}
+{"skill":"QUARKUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JASMINE","totalDeFilhos":0,"filhos":[]}
+{"skill":"COMPTIA","totalDeFilhos":0,"filhos":[]}
+{"skill":"CAKEPHP","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP CCS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP CRM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP HCM","totalDeFilhos":0,"filhos":[]}
+{"skill":"FLEXBOX","totalDeFilhos":0,"filhos":[]}
+{"skill":"CORDOVA","totalDeFilhos":0,"filhos":[]}
+{"skill":"PARQUET","totalDeFilhos":0,"filhos":[]}
+{"skill":"HUBSPOT","totalDeFilhos":0,"filhos":[]}
+{"skill":"SYMFONY","totalDeFilhos":0,"filhos":[]}
+{"skill":"MYBATIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"GENEXUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JAPONES","totalDeFilhos":0,"filhos":[]}
+{"skill":"KATALON","totalDeFilhos":0,"filhos":[]}
+{"skill":"PHOENIX","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP APO","totalDeFilhos":0,"filhos":[]}
+{"skill":"JAVA FX","totalDeFilhos":0,"filhos":[]}
+{"skill":"DATADOG","totalDeFilhos":0,"filhos":[]}
+{"skill":"CAMUNDA","totalDeFilhos":0,"filhos":[]}
+{"skill":"POSTCSS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PYTORCH","totalDeFilhos":0,"filhos":[]}
+{"skill":"CLOJURE","totalDeFilhos":0,"filhos":[]}
+{"skill":"FARGATE","totalDeFilhos":0,"filhos":[]}
+{"skill":"VARNISH","totalDeFilhos":0,"filhos":[]}
+{"skill":"COUCHDB","totalDeFilhos":0,"filhos":[]}
+{"skill":"BITRISE","totalDeFilhos":0,"filhos":[]}
+{"skill":"HAPROXY","totalDeFilhos":0,"filhos":[]}
+{"skill":"PINGDOM","totalDeFilhos":0,"filhos":[]}
+{"skill":"RUNDECK","totalDeFilhos":0,"filhos":[]}
+{"skill":"VSPHERE","totalDeFilhos":0,"filhos":[]}
+{"skill":"FOUNDRY","totalDeFilhos":0,"filhos":[]}
+{"skill":"KINESIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"STENCIL","totalDeFilhos":0,"filhos":[]}
+{"skill":"AWS VPC","totalDeFilhos":0,"filhos":[]}
+{"skill":"IBM BPM","totalDeFilhos":0,"filhos":[]}
+{"skill":"VAGRANT","totalDeFilhos":0,"filhos":[]}
+{"skill":"MSBUILD","totalDeFilhos":0,"filhos":[]}
+{"skill":"ARDUINO","totalDeFilhos":0,"filhos":[]}
+{"skill":"SCRIPT","totalDeFilhos":0,"filhos":[]}
+{"skill":"KANBAN","totalDeFilhos":0,"filhos":[]}
+{"skill":"KOTLIN","totalDeFilhos":0,"filhos":[]}
+{"skill":"JQUERY","totalDeFilhos":0,"filhos":[]}
+{"skill":"GITHUB","totalDeFilhos":0,"filhos":[]}
+{"skill":"DELPHI","totalDeFilhos":0,"filhos":[]}
+{"skill":"GITLAB","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPRINT","totalDeFilhos":0,"filhos":[]}
+{"skill":"TOMCAT","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP FI","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP MM","totalDeFilhos":0,"filhos":[]}
+{"skill":"VMWARE","totalDeFilhos":0,"filhos":[]}
+{"skill":"LAMBDA","totalDeFilhos":0,"filhos":[]}
+{"skill":"TESTER","totalDeFilhos":0,"filhos":[]}
+{"skill":"HYBRIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PHYTON","totalDeFilhos":0,"filhos":[]}
+{"skill":"VB.NET","totalDeFilhos":0,"filhos":[]}
+{"skill":"NEXTJS","totalDeFilhos":0,"filhos":[]}
+{"skill":"APIGEE","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOLMAN","totalDeFilhos":0,"filhos":[]}
+{"skill":"DRUPAL","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOAPUI","totalDeFilhos":0,"filhos":[]}
+{"skill":"ZABBIX","totalDeFilhos":0,"filhos":[]}
+{"skill":"NESTJS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JMETER","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP BW","totalDeFilhos":0,"filhos":[]}
+{"skill":"SQLITE","totalDeFilhos":0,"filhos":[]}
+{"skill":"DAPPER","totalDeFilhos":0,"filhos":[]}
+{"skill":"GRADLE","totalDeFilhos":0,"filhos":[]}
+{"skill":"PUPPET","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP CO","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP PP","totalDeFilhos":0,"filhos":[]}
+{"skill":"STRUTS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JASPER","totalDeFilhos":0,"filhos":[]}
+{"skill":"KIBANA","totalDeFilhos":0,"filhos":[]}
+{"skill":"SKETCH","totalDeFilhos":0,"filhos":[]}
+{"skill":"TALEND","totalDeFilhos":0,"filhos":[]}
+{"skill":"PUBSUB","totalDeFilhos":0,"filhos":[]}
+{"skill":"CITRIX","totalDeFilhos":0,"filhos":[]}
+{"skill":"FUSION","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPLUNK","totalDeFilhos":0,"filhos":[]}
+{"skill":"IBM MQ","totalDeFilhos":0,"filhos":[]}
+{"skill":"CIRCLE","totalDeFilhos":0,"filhos":[]}
+{"skill":"TRELLO","totalDeFilhos":0,"filhos":[]}
+{"skill":"ESLINT","totalDeFilhos":0,"filhos":[]}
+{"skill":"WATSON","totalDeFilhos":0,"filhos":[]}
+{"skill":"BIZAGI","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP PS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PANDAS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP WM","totalDeFilhos":0,"filhos":[]}
+{"skill":"APOLLO","totalDeFilhos":0,"filhos":[]}
+{"skill":"HEROKU","totalDeFilhos":0,"filhos":[]}
+{"skill":"NAGIOS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SIEBEL","totalDeFilhos":0,"filhos":[]}
+{"skill":"AURORA","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP PM","totalDeFilhos":0,"filhos":[]}
+{"skill":"BAMBOO","totalDeFilhos":0,"filhos":[]}
+{"skill":"COGNOS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JAX-WS","totalDeFilhos":0,"filhos":[]}
+{"skill":"INTUNE","totalDeFilhos":0,"filhos":[]}
+{"skill":"STYLUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"EXT.JS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CONSUL","totalDeFilhos":0,"filhos":[]}
+{"skill":"JAX-RS","totalDeFilhos":0,"filhos":[]}
+{"skill":"BLAZOR","totalDeFilhos":0,"filhos":[]}
+{"skill":"EUREKA","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP HR","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOPHOS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SYBASE","totalDeFilhos":0,"filhos":[]}
+{"skill":"RADIUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JAEGER","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP QM","totalDeFilhos":0,"filhos":[]}
+{"skill":"TESTNG","totalDeFilhos":0,"filhos":[]}
+{"skill":"IMPALA","totalDeFilhos":0,"filhos":[]}
+{"skill":"LOOKER","totalDeFilhos":0,"filhos":[]}
+{"skill":"PYTEST","totalDeFilhos":0,"filhos":[]}
+{"skill":"MANTIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"GATSBY","totalDeFilhos":0,"filhos":[]}
+{"skill":"PACKER","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAP BI","totalDeFilhos":0,"filhos":[]}
+{"skill":"ENZYME","totalDeFilhos":0,"filhos":[]}
+{"skill":"VERT.X","totalDeFilhos":0,"filhos":[]}
+{"skill":"GITOPS","totalDeFilhos":0,"filhos":[]}
+{"skill":"MATLAB","totalDeFilhos":0,"filhos":[]}
+{"skill":"OPENGL","totalDeFilhos":0,"filhos":[]}
+{"skill":"MENDIX","totalDeFilhos":0,"filhos":[]}
+{"skill":"XENAPP","totalDeFilhos":0,"filhos":[]}
+{"skill":"GRAILS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PLOTLY","totalDeFilhos":0,"filhos":[]}
+{"skill":"TRAVIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"APPIAN","totalDeFilhos":0,"filhos":[]}
+{"skill":"MERAKI","totalDeFilhos":0,"filhos":[]}
+{"skill":"SENTRY","totalDeFilhos":0,"filhos":[]}
+{"skill":"IBATIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"MYSQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"RAILS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PLSQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"JBOSS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SHELL","totalDeFilhos":0,"filhos":[]}
+{"skill":"SQUAD","totalDeFilhos":0,"filhos":[]}
+{"skill":"REDUX","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOLID","totalDeFilhos":0,"filhos":[]}
+{"skill":"KAFKA","totalDeFilhos":0,"filhos":[]}
+{"skill":"SWIFT","totalDeFilhos":0,"filhos":[]}
+{"skill":"JUNIT","totalDeFilhos":0,"filhos":[]}
+{"skill":"MAVEN","totalDeFilhos":0,"filhos":[]}
+{"skill":"BASIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"REDIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"T-SQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"IONIC","totalDeFilhos":0,"filhos":[]}
+{"skill":"FIORI","totalDeFilhos":0,"filhos":[]}
+{"skill":"TCPIP","totalDeFilhos":0,"filhos":[]}
+{"skill":"SCALA","totalDeFilhos":0,"filhos":[]}
+{"skill":"SONAR","totalDeFilhos":0,"filhos":[]}
+{"skill":"FIGMA","totalDeFilhos":0,"filhos":[]}
+{"skill":"OAUTH","totalDeFilhos":0,"filhos":[]}
+{"skill":"OWASP","totalDeFilhos":0,"filhos":[]}
+{"skill":"ARIBA","totalDeFilhos":0,"filhos":[]}
+{"skill":"NGINX","totalDeFilhos":0,"filhos":[]}
+{"skill":"NEXUS","totalDeFilhos":0,"filhos":[]}
+{"skill":"COBIT","totalDeFilhos":0,"filhos":[]}
+{"skill":"ADVPL","totalDeFilhos":0,"filhos":[]}
+{"skill":"FLASK","totalDeFilhos":0,"filhos":[]}
+{"skill":"CAMEL","totalDeFilhos":0,"filhos":[]}
+{"skill":"MOCHA","totalDeFilhos":0,"filhos":[]}
+{"skill":"TOGAF","totalDeFilhos":0,"filhos":[]}
+{"skill":"VEEAM","totalDeFilhos":0,"filhos":[]}
+{"skill":"XCODE","totalDeFilhos":0,"filhos":[]}
+{"skill":"IPSEC","totalDeFilhos":0,"filhos":[]}
+{"skill":"DELTA","totalDeFilhos":0,"filhos":[]}
+{"skill":"NEO4J","totalDeFilhos":0,"filhos":[]}
+{"skill":"HBASE","totalDeFilhos":0,"filhos":[]}
+{"skill":"TIBCO","totalDeFilhos":0,"filhos":[]}
+{"skill":"FLUIG","totalDeFilhos":0,"filhos":[]}
+{"skill":"SWING","totalDeFilhos":0,"filhos":[]}
+{"skill":"GRUNT","totalDeFilhos":0,"filhos":[]}
+{"skill":"KARMA","totalDeFilhos":0,"filhos":[]}
+{"skill":"NUMPY","totalDeFilhos":0,"filhos":[]}
+{"skill":"AXIOS","totalDeFilhos":0,"filhos":[]}
+{"skill":"FLUME","totalDeFilhos":0,"filhos":[]}
+{"skill":"FLINK","totalDeFilhos":0,"filhos":[]}
+{"skill":"EMBER","totalDeFilhos":0,"filhos":[]}
+{"skill":"NUGET","totalDeFilhos":0,"filhos":[]}
+{"skill":"LUMEN","totalDeFilhos":0,"filhos":[]}
+{"skill":"SQOOP","totalDeFilhos":0,"filhos":[]}
+{"skill":"BABEL","totalDeFilhos":0,"filhos":[]}
+{"skill":"JETTY","totalDeFilhos":0,"filhos":[]}
+{"skill":"FI-AA","totalDeFilhos":0,"filhos":[]}
+{"skill":"REGEX","totalDeFilhos":0,"filhos":[]}
+{"skill":"EXTJS","totalDeFilhos":0,"filhos":[]}
+{"skill":"BAZEL","totalDeFilhos":0,"filhos":[]}
+{"skill":"OOZIE","totalDeFilhos":0,"filhos":[]}
+{"skill":"JFROG","totalDeFilhos":0,"filhos":[]}
+{"skill":"BOWER","totalDeFilhos":0,"filhos":[]}
+{"skill":"CISSP","totalDeFilhos":0,"filhos":[]}
+{"skill":"ERWIN","totalDeFilhos":0,"filhos":[]}
+{"skill":"FETCH","totalDeFilhos":0,"filhos":[]}
+{"skill":"D3.JS","totalDeFilhos":0,"filhos":[]}
+{"skill":"ABAP","totalDeFilhos":0,"filhos":[]}
+{"skill":"JIRA","totalDeFilhos":0,"filhos":[]}
+{"skill":"HANA","totalDeFilhos":0,"filhos":[]}
+{"skill":"LEAN","totalDeFilhos":0,"filhos":[]}
+{"skill":"JSON","totalDeFilhos":0,"filhos":[]}
+{"skill":"SASS","totalDeFilhos":0,"filhos":[]}
+{"skill":"MVVM","totalDeFilhos":0,"filhos":[]}
+{"skill":"LGPD","totalDeFilhos":0,"filhos":[]}
+{"skill":"QLIK","totalDeFilhos":0,"filhos":[]}
+{"skill":"FICO","totalDeFilhos":0,"filhos":[]}
+{"skill":"VTEX","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAAS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JEST","totalDeFilhos":0,"filhos":[]}
+{"skill":"PAAS","totalDeFilhos":0,"filhos":[]}
+{"skill":"ITSM","totalDeFilhos":0,"filhos":[]}
+{"skill":"AJAX","totalDeFilhos":0,"filhos":[]}
+{"skill":"BPMN","totalDeFilhos":0,"filhos":[]}
+{"skill":"HIVE","totalDeFilhos":0,"filhos":[]}
+{"skill":"WSO2","totalDeFilhos":0,"filhos":[]}
+{"skill":"JDBC","totalDeFilhos":0,"filhos":[]}
+{"skill":"ZEND","totalDeFilhos":0,"filhos":[]}
+{"skill":"MCSA","totalDeFilhos":0,"filhos":[]}
+{"skill":"CCNA","totalDeFilhos":0,"filhos":[]}
+{"skill":"CHEF","totalDeFilhos":0,"filhos":[]}
+{"skill":"GULP","totalDeFilhos":0,"filhos":[]}
+{"skill":"CTFL","totalDeFilhos":0,"filhos":[]}
+{"skill":"OSPF","totalDeFilhos":0,"filhos":[]}
+{"skill":"CCNP","totalDeFilhos":0,"filhos":[]}
+{"skill":"SIEM","totalDeFilhos":0,"filhos":[]}
+{"skill":"IAAS","totalDeFilhos":0,"filhos":[]}
+{"skill":"YAML","totalDeFilhos":0,"filhos":[]}
+{"skill":"JPQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"MIRO","totalDeFilhos":0,"filhos":[]}
+{"skill":"PERL","totalDeFilhos":0,"filhos":[]}
+{"skill":"LINQ","totalDeFilhos":0,"filhos":[]}
+{"skill":"DHCP","totalDeFilhos":0,"filhos":[]}
+{"skill":"NIFI","totalDeFilhos":0,"filhos":[]}
+{"skill":"DART","totalDeFilhos":0,"filhos":[]}
+{"skill":"NIST","totalDeFilhos":0,"filhos":[]}
+{"skill":"CQRS","totalDeFilhos":0,"filhos":[]}
+{"skill":"RXJS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOLR","totalDeFilhos":0,"filhos":[]}
+{"skill":"GRPC","totalDeFilhos":0,"filhos":[]}
+{"skill":"SSRS","totalDeFilhos":0,"filhos":[]}
+{"skill":"RMAN","totalDeFilhos":0,"filhos":[]}
+{"skill":"MCSE","totalDeFilhos":0,"filhos":[]}
+{"skill":"OLAP","totalDeFilhos":0,"filhos":[]}
+{"skill":"MPLS","totalDeFilhos":0,"filhos":[]}
+{"skill":"OSCP","totalDeFilhos":0,"filhos":[]}
+{"skill":"FSCM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SAML","totalDeFilhos":0,"filhos":[]}
+{"skill":"SSAS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CICS","totalDeFilhos":0,"filhos":[]}
+{"skill":"ESXI","totalDeFilhos":0,"filhos":[]}
+{"skill":"NGRX","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"CMDB","totalDeFilhos":0,"filhos":[]}
+{"skill":"BRIM","totalDeFilhos":0,"filhos":[]}
+{"skill":"HELM","totalDeFilhos":0,"filhos":[]}
+{"skill":"PSPO","totalDeFilhos":0,"filhos":[]}
+{"skill":"CHAI","totalDeFilhos":0,"filhos":[]}
+{"skill":"RUST","totalDeFilhos":0,"filhos":[]}
+{"skill":"SANS","totalDeFilhos":0,"filhos":[]}
+{"skill":"YARN","totalDeFilhos":0,"filhos":[]}
+{"skill":"TOAD","totalDeFilhos":0,"filhos":[]}
+{"skill":"BPEL","totalDeFilhos":0,"filhos":[]}
+{"skill":"SPSS","totalDeFilhos":0,"filhos":[]}
+{"skill":"AVRO","totalDeFilhos":0,"filhos":[]}
+{"skill":"AMQP","totalDeFilhos":0,"filhos":[]}
+{"skill":"JSTL","totalDeFilhos":0,"filhos":[]}
+{"skill":"SNMP","totalDeFilhos":0,"filhos":[]}
+{"skill":"CSPO","totalDeFilhos":0,"filhos":[]}
+{"skill":"SMTP","totalDeFilhos":0,"filhos":[]}
+{"skill":"EXIN","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOSL","totalDeFilhos":0,"filhos":[]}
+{"skill":"VRRP","totalDeFilhos":0,"filhos":[]}
+{"skill":"BPMS","totalDeFilhos":0,"filhos":[]}
+{"skill":"CCIE","totalDeFilhos":0,"filhos":[]}
+{"skill":"CCSP","totalDeFilhos":0,"filhos":[]}
+{"skill":"EXPO","totalDeFilhos":0,"filhos":[]}
+{"skill":"MQTT","totalDeFilhos":0,"filhos":[]}
+{"skill":"ITBM","totalDeFilhos":0,"filhos":[]}
+{"skill":"VUE","totalDeFilhos":0,"filhos":[]}
+{"skill":"DBA","totalDeFilhos":0,"filhos":[]}
+{"skill":"DDD","totalDeFilhos":0,"filhos":[]}
+{"skill":"EBS","totalDeFilhos":0,"filhos":[]}
+{"skill":"ASP","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOA","totalDeFilhos":0,"filhos":[]}
+{"skill":"CPP","totalDeFilhos":0,"filhos":[]}
+{"skill":"PMO","totalDeFilhos":0,"filhos":[]}
+{"skill":"TFS","totalDeFilhos":0,"filhos":[]}
+{"skill":"SRE","totalDeFilhos":0,"filhos":[]}
+{"skill":"EWM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SVN","totalDeFilhos":0,"filhos":[]}
+{"skill":"EJB","totalDeFilhos":0,"filhos":[]}
+{"skill":"DB2","totalDeFilhos":0,"filhos":[]}
+{"skill":"JDE","totalDeFilhos":0,"filhos":[]}
+{"skill":"VPN","totalDeFilhos":0,"filhos":[]}
+{"skill":"SQS","totalDeFilhos":0,"filhos":[]}
+{"skill":"IAM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SEO","totalDeFilhos":0,"filhos":[]}
+{"skill":"VBA","totalDeFilhos":0,"filhos":[]}
+{"skill":"GRC","totalDeFilhos":0,"filhos":[]}
+{"skill":"JWT","totalDeFilhos":0,"filhos":[]}
+{"skill":"NPM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SOC","totalDeFilhos":0,"filhos":[]}
+{"skill":"IIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"WCF","totalDeFilhos":0,"filhos":[]}
+{"skill":"E2E","totalDeFilhos":0,"filhos":[]}
+{"skill":"ODI","totalDeFilhos":0,"filhos":[]}
+{"skill":"WPF","totalDeFilhos":0,"filhos":[]}
+{"skill":"DNS","totalDeFilhos":0,"filhos":[]}
+{"skill":"NOC","totalDeFilhos":0,"filhos":[]}
+{"skill":"APM","totalDeFilhos":0,"filhos":[]}
+{"skill":"DAX","totalDeFilhos":0,"filhos":[]}
+{"skill":"ELK","totalDeFilhos":0,"filhos":[]}
+{"skill":"OIC","totalDeFilhos":0,"filhos":[]}
+{"skill":"ECS","totalDeFilhos":0,"filhos":[]}
+{"skill":"PMP","totalDeFilhos":0,"filhos":[]}
+{"skill":"PWA","totalDeFilhos":0,"filhos":[]}
+{"skill":"NAC","totalDeFilhos":0,"filhos":[]}
+{"skill":"CEH","totalDeFilhos":0,"filhos":[]}
+{"skill":"HQL","totalDeFilhos":0,"filhos":[]}
+{"skill":"WAF","totalDeFilhos":0,"filhos":[]}
+{"skill":"ANT","totalDeFilhos":0,"filhos":[]}
+{"skill":"SSO","totalDeFilhos":0,"filhos":[]}
+{"skill":"BGP","totalDeFilhos":0,"filhos":[]}
+{"skill":"EKS","totalDeFilhos":0,"filhos":[]}
+{"skill":"EC2","totalDeFilhos":0,"filhos":[]}
+{"skill":"OSI","totalDeFilhos":0,"filhos":[]}
+{"skill":"JCL","totalDeFilhos":0,"filhos":[]}
+{"skill":"OCI","totalDeFilhos":0,"filhos":[]}
+{"skill":"ECM","totalDeFilhos":0,"filhos":[]}
+{"skill":"BMC","totalDeFilhos":0,"filhos":[]}
+{"skill":"ESB","totalDeFilhos":0,"filhos":[]}
+{"skill":"IIB","totalDeFilhos":0,"filhos":[]}
+{"skill":"SSL","totalDeFilhos":0,"filhos":[]}
+{"skill":"AKS","totalDeFilhos":0,"filhos":[]}
+{"skill":"UDP","totalDeFilhos":0,"filhos":[]}
+{"skill":"GKE","totalDeFilhos":0,"filhos":[]}
+{"skill":"ASM","totalDeFilhos":0,"filhos":[]}
+{"skill":"SCA","totalDeFilhos":0,"filhos":[]}
+{"skill":"GIS","totalDeFilhos":0,"filhos":[]}
+{"skill":"NAT","totalDeFilhos":0,"filhos":[]}
+{"skill":"RFP","totalDeFilhos":0,"filhos":[]}
+{"skill":"PLM","totalDeFilhos":0,"filhos":[]}
+{"skill":"ADF","totalDeFilhos":0,"filhos":[]}
+{"skill":"YII","totalDeFilhos":0,"filhos":[]}
+{"skill":"UTM","totalDeFilhos":0,"filhos":[]}
+{"skill":"GOF","totalDeFilhos":0,"filhos":[]}
+{"skill":"SSH","totalDeFilhos":0,"filhos":[]}
+{"skill":"FTP","totalDeFilhos":0,"filhos":[]}
+{"skill":"SDN","totalDeFilhos":0,"filhos":[]}
+{"skill":"IDS","totalDeFilhos":0,"filhos":[]}
+{"skill":"JSX","totalDeFilhos":0,"filhos":[]}
+{"skill":"RUP","totalDeFilhos":0,"filhos":[]}
+{"skill":"RAD","totalDeFilhos":0,"filhos":[]}
+{"skill":"GTS","totalDeFilhos":0,"filhos":[]}
+{"skill":"POI","totalDeFilhos":0,"filhos":[]}
+{"skill":"JTA","totalDeFilhos":0,"filhos":[]}
+{"skill":"LUA","totalDeFilhos":0,"filhos":[]}
+{"skill":"RPC","totalDeFilhos":0,"filhos":[]}
+{"skill":"SD","totalDeFilhos":0,"filhos":[]}
+{"skill":"GO","totalDeFilhos":0,"filhos":[]}
+{"skill":"AD","totalDeFilhos":0,"filhos":[]}
+{"skill":"DW","totalDeFilhos":0,"filhos":[]}
+{"skill":"EL","totalDeFilhos":0,"filhos":[]}
+{"skill":"VB","totalDeFilhos":0,"filhos":[]}
+{"skill":"S3","totalDeFilhos":0,"filhos":[]}
+{"skill":"H2","totalDeFilhos":0,"filhos":[]}
