@@ -1,9 +1,5 @@
 package com.ccp.jn.test.pocs;
 
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
@@ -15,7 +11,6 @@ import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
 import com.ccp.especifications.http.CcpHttpRequester;
-import com.ccp.especifications.json.CcpJsonHandler;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -39,111 +34,12 @@ public class Poc {
 	}
 	
 	public static void main(String[] args) {
-	List<Map<String, Object>> list =	CcpDependencyInjection.getDependency(CcpJsonHandler.class).fromJson("[{\r\n"
-				+ "  \"positionsCount\": 0,\r\n"
-				+ "  \"skill\": \"{skill\\u003dMANDARIM, positionsCount\\u003d8}\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dMANDARIM, positionsCount\\u003d8}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"MANDARIN\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}, {\r\n"
-				+ "  \"positionsCount\": 14,\r\n"
-				+ "  \"skill\": \"FRENCH\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"FRENCH\",\r\n"
-				+ "      \"positionsCount\": 14\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dFRANCES, positionsCount\\u003d42}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}, {\r\n"
-				+ "  \"positionsCount\": 1,\r\n"
-				+ "  \"skill\": \"ARABIC\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"ARABIC\",\r\n"
-				+ "      \"positionsCount\": 1\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dARABE, positionsCount\\u003d3}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}, {\r\n"
-				+ "  \"positionsCount\": 0,\r\n"
-				+ "  \"skill\": \"{skill\\u003dRUSSO, positionsCount\\u003d1}\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dRUSSO, positionsCount\\u003d1}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"RUSSIAN\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}, {\r\n"
-				+ "  \"positionsCount\": 11,\r\n"
-				+ "  \"skill\": \"GERMAN\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"GERMAN\",\r\n"
-				+ "      \"positionsCount\": 11\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dALEMAO, positionsCount\\u003d14}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"DEUTSCH\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}, {\r\n"
-				+ "  \"positionsCount\": 1,\r\n"
-				+ "  \"skill\": \"JAPANESE\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"JAPANESE\",\r\n"
-				+ "      \"positionsCount\": 1\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dJAPONES, positionsCount\\u003d21}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}, {\r\n"
-				+ "  \"positionsCount\": 0,\r\n"
-				+ "  \"skill\": \"{skill\\u003dDATA ANALYTICS, positionsCount\\u003d72}\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dDATA ANALYTICS, positionsCount\\u003d72}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}, {\r\n"
-				+ "  \"positionsCount\": 0,\r\n"
-				+ "  \"skill\": \"{skill\\u003dNETWORK SECURITY, positionsCount\\u003d18}\",\r\n"
-				+ "  \"synonyms\": [\r\n"
-				+ "    {\r\n"
-				+ "      \"skill\": \"{skill\\u003dNETWORK SECURITY, positionsCount\\u003d18}\",\r\n"
-				+ "      \"positionsCount\": 0\r\n"
-				+ "    }\r\n"
-				+ "  ]\r\n"
-				+ "}]");
-	
-	List<CcpJsonRepresentation> collect = list.stream().map(x -> new CcpJsonRepresentation(x)).collect(Collectors.toList());
-	System.out.println(collect);
-	
+
+		String linha = "144956: Desenvolvedor Full Stack Java + AngularSêniorExperiência mínima de 5 anos na função.EJB 3.x;RMI para lookup via JNDI;SQL nativo e/ou JPQL/HQL (preferencialmente nativo);DB2 e/ou SQL Server;Montagem de relatórios usando iReport via JRBeanCollection DataSource ou SQL Nativo;Apache Poi;Open CSV;Jenkins, Sonar, GIT (GitLab) e JIRA;Maven;(JUnit, Mockito, PowerMock);Métodos e ferramentas de integração contínua (IC).Familiaridade com JavaScript, Angular 9 ou superior, ActionScript, Redux e TypeScript;Familiaridade com Adobe Flex.Home OfficePJBarbara SilvaE-mail: barbara.silva@pasqualisolution.com.brWhatsApp: +55 11 98358-0890N/D\r\n"
+				;
+		
+//		String sanitizeWord = Skills.sanitizeWord(linha);
+		System.out.println(Skills.sanitizeWord("onias/vieira"));
 	}
 
 	static void testarTempo() {
