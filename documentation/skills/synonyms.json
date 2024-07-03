@@ -565,87 +565,12 @@
     }
   ]
 }, {
-  "parent": [],
-  "positionsCount": 14737.0,
-  "ranking": 6,
-  "skill": "GERENTE",
-  "synonyms": [
-    {
-      "skill": "GERENTE",
-      "positionsCount": 4991.0
-    },
-    {
-      "skill": "GERENCIAMENTO",
-      "positionsCount": 3540.0
-    },
-    {
-      "skill": "MANAGEMENT",
-      "positionsCount": 1247.0
-    },
-    {
-      "skill": "MANAGER",
-      "positionsCount": 1185.0
-    },
-    {
-      "skill": "GERENCIAIS",
-      "positionsCount": 948.0
-    },
-    {
-      "skill": "GESTOR",
-      "positionsCount": 835.0
-    },
-    {
-      "skill": "GESTORES",
-      "positionsCount": 598.0
-    },
-    {
-      "skill": "ADMINISTRADOR",
-      "positionsCount": 486.0
-    },
-    {
-      "skill": "GERENTES",
-      "positionsCount": 327.0
-    },
-    {
-      "skill": "PM",
-      "positionsCount": 209.0
-    },
-    {
-      "skill": "GERENCIA",
-      "positionsCount": 122.0
-    },
-    {
-      "skill": "MANAGERS",
-      "positionsCount": 74.0
-    },
-    {
-      "skill": "PROJECT MANAGEMENT",
-      "positionsCount": 65.0
-    },
-    {
-      "skill": "ADMINISTRADORA",
-      "positionsCount": 62.0
-    },
-    {
-      "skill": "ADMINISTRADORES",
-      "positionsCount": 23.0
-    },
-    {
-      "skill": "GERENCIAMENTO DE VULNERABILIDADES",
-      "positionsCount": 14.0
-    },
-    {
-      "skill": "ADMINISTRADORAS",
-      "positionsCount": 11.0
-    }
-  ]
-}, {
   "parent": [
     "TI",
     "BACKEND"
   ],
   "positionsCount": 14116.0,
-  "ranking": 7,
+  "ranking": 6,
   "skill": "JAVA",
   "synonyms": [
     {
@@ -724,7 +649,7 @@
     "BACKEND"
   ],
   "positionsCount": 12393.0,
-  "ranking": 8,
+  "ranking": 7,
   "skill": "JAVASCRIPT",
   "synonyms": [
     {
@@ -782,7 +707,7 @@
     "DB"
   ],
   "positionsCount": 11761.0,
-  "ranking": 9,
+  "ranking": 8,
   "skill": "SQL",
   "synonyms": [
     {
@@ -814,7 +739,7 @@
     "BUILD"
   ],
   "positionsCount": 11479.0,
-  "ranking": 10,
+  "ranking": 9,
   "skill": "DEVOPS",
   "synonyms": [
     {
@@ -859,7 +784,7 @@
     "TI"
   ],
   "positionsCount": 10817.0,
-  "ranking": 11,
+  "ranking": 10,
   "skill": "SUPORTE",
   "synonyms": [
     {
@@ -941,6 +866,44 @@
     {
       "skill": "HELP-DESK",
       "positionsCount": 2.0
+    }
+  ]
+}, {
+  "parent": [
+    "TI",
+    "BACKEND"
+  ],
+  "positionsCount": 10347,
+  "ranking": 11,
+  "skill": " NET",
+  "synonyms": [
+    {
+      "skill": " NET",
+      "positionsCount": 9807
+    },
+    {
+      "skill": "DOT NET",
+      "positionsCount": 194
+    },
+    {
+      "skill": "DOTNET",
+      "positionsCount": 155
+    },
+    {
+      "skill": "NETCORE",
+      "positionsCount": 106
+    },
+    {
+      "skill": "DOTNET CORE",
+      "positionsCount": 52
+    },
+    {
+      "skill": "DOT NET CORE",
+      "positionsCount": 32
+    },
+    {
+      "skill": "DOTNETCORE",
+      "positionsCount": 1
     }
   ]
 }, {
@@ -1338,61 +1301,10 @@
 }, {
   "parent": [
     "TI",
-    "BACKEND"
-  ],
-  "positionsCount": 7127.0,
-  "prerequisites": [
-    {
-      "gemini": true,
-      "vagas": 0.0,
-      "word": "DATA STRUCTURES AND ALGORITHMS"
-    },
-    {
-      "gemini": true,
-      "vagas": 0.0,
-      "word": "C# PROGRAMMING"
-    },
-    {
-      "gemini": true,
-      "vagas": 23.0,
-      "word": "DATABASE MANAGEMENT"
-    }
-  ],
-  "ranking": 22,
-  "similar": [
-    {
-      "gemini": true,
-      "vagas": 135.0,
-      "word": "ASP.NET CORE"
-    },
-    {
-      "gemini": true,
-      "vagas": 0.0,
-      "word": "F#"
-    }
-  ],
-  "skill": ".NET",
-  "synonyms": [
-    {
-      "skill": ".NET",
-      "positionsCount": 6708.0
-    },
-    {
-      "skill": "DOTNET",
-      "positionsCount": 397.0
-    },
-    {
-      "skill": "DOT.NET",
-      "positionsCount": 22.0
-    }
-  ]
-}, {
-  "parent": [
-    "TI",
     "METODOLOGIA"
   ],
   "positionsCount": 6923.0,
-  "ranking": 23,
+  "ranking": 22,
   "skill": "AGIL",
   "synonyms": [
     {
@@ -1435,7 +1347,7 @@
 }, {
   "parent": [],
   "positionsCount": 6900.0,
-  "ranking": 24,
+  "ranking": 23,
   "skill": "SEGURO",
   "synonyms": [
     {
@@ -1450,7 +1362,7 @@
 }, {
   "parent": [],
   "positionsCount": 6781.0,
-  "ranking": 25,
+  "ranking": 24,
   "skill": "ARQUITETURA",
   "synonyms": [
     {
@@ -1475,7 +1387,7 @@
     "FISICA"
   ],
   "positionsCount": 6065.0,
-  "ranking": 26,
+  "ranking": 25,
   "skill": "ENGENHARIA",
   "synonyms": [
     {
@@ -1489,7 +1401,7 @@
     "FRONTEND"
   ],
   "positionsCount": 5848.0,
-  "ranking": 27,
+  "ranking": 26,
   "skill": "UX",
   "synonyms": [
     {
@@ -1559,7 +1471,7 @@
     "SQL"
   ],
   "positionsCount": 5778.0,
-  "ranking": 28,
+  "ranking": 27,
   "skill": "ORACLE",
   "synonyms": [
     {
@@ -1605,7 +1517,7 @@
     "FRONTEND"
   ],
   "positionsCount": 5572.0,
-  "ranking": 29,
+  "ranking": 28,
   "skill": "CSS",
   "synonyms": [
     {
@@ -1643,7 +1555,7 @@
       "word": "FICO"
     }
   ],
-  "ranking": 30,
+  "ranking": 29,
   "similar": [
     {
       "gemini": true,
@@ -1698,7 +1610,7 @@
     "BACKEND"
   ],
   "positionsCount": 5378.0,
-  "ranking": 31,
+  "ranking": 30,
   "skill": "SERVER",
   "synonyms": [
     {
@@ -1717,7 +1629,7 @@
 }, {
   "parent": [],
   "positionsCount": 5302.0,
-  "ranking": 32,
+  "ranking": 31,
   "skill": "FINANCEIRO",
   "synonyms": [
     {
@@ -1758,7 +1670,7 @@
     "IMPOSTOS"
   ],
   "positionsCount": 4771.0,
-  "ranking": 33,
+  "ranking": 32,
   "skill": "CONTABIL",
   "synonyms": [
     {
@@ -1797,7 +1709,7 @@
       "word": "ANGULAR CLI"
     }
   ],
-  "ranking": 34,
+  "ranking": 33,
   "similar": [
     {
       "gemini": true,
@@ -1875,7 +1787,7 @@
       "word": "EVENT LOOP"
     }
   ],
-  "ranking": 35,
+  "ranking": 34,
   "similar": [
     {
       "gemini": true,
@@ -1922,7 +1834,7 @@
     "DOTNET"
   ],
   "positionsCount": 4624.0,
-  "ranking": 36,
+  "ranking": 35,
   "skill": "CSHARP",
   "synonyms": [
     {
@@ -1944,7 +1856,7 @@
     "CLOUD"
   ],
   "positionsCount": 4226.0,
-  "ranking": 37,
+  "ranking": 36,
   "similar": [
     {
       "gemini": true,
@@ -2035,7 +1947,7 @@
       "word": "UNDERSTANDING OF VERSION CONTROL CONCEPTS"
     }
   ],
-  "ranking": 38,
+  "ranking": 37,
   "similar": [
     {
       "gemini": true,
@@ -2093,7 +2005,7 @@
       "word": "TRANSACT-SQL (T-SQL)"
     }
   ],
-  "ranking": 39,
+  "ranking": 38,
   "similar": [
     {
       "gemini": true,
@@ -2200,7 +2112,7 @@
       "word": "SECURITY AND COMPLIANCE"
     }
   ],
-  "ranking": 40,
+  "ranking": 39,
   "similar": [
     {
       "gemini": true,
@@ -2308,7 +2220,7 @@
     "AGIL"
   ],
   "positionsCount": 3512.0,
-  "ranking": 41,
+  "ranking": 40,
   "skill": "SCRUM",
   "synonyms": [
     {
@@ -2325,7 +2237,7 @@
     "TI"
   ],
   "positionsCount": 3447.0,
-  "ranking": 42,
+  "ranking": 41,
   "skill": "VERSIONAMENTO",
   "synonyms": [
     {
@@ -2364,7 +2276,7 @@
 }, {
   "parent": [],
   "positionsCount": 3371.0,
-  "ranking": 43,
+  "ranking": 42,
   "skill": "MARKETING",
   "synonyms": [
     {
@@ -2385,7 +2297,7 @@
     "TI"
   ],
   "positionsCount": 3299.0,
-  "ranking": 44,
+  "ranking": 43,
   "skill": "AUTOMATIZADOS",
   "synonyms": [
     {
@@ -2427,7 +2339,7 @@
     "FRONTEND"
   ],
   "positionsCount": 3050.0,
-  "ranking": 45,
+  "ranking": 44,
   "skill": "MOBILE",
   "synonyms": [
     {
@@ -2464,7 +2376,7 @@
       "word": "SOFTWARE DEVELOPMENT"
     }
   ],
-  "ranking": 46,
+  "ranking": 45,
   "similar": [
     {
       "gemini": true,
@@ -2489,7 +2401,7 @@
     "TI"
   ],
   "positionsCount": 2998.0,
-  "ranking": 47,
+  "ranking": 46,
   "skill": "PERFORMANCE",
   "synonyms": [
     {
@@ -2532,7 +2444,7 @@
       "word": "SPRING FRAMEWORK"
     }
   ],
-  "ranking": 48,
+  "ranking": 47,
   "similar": [
     {
       "gemini": true,
@@ -2564,7 +2476,7 @@
 }, {
   "parent": [],
   "positionsCount": 2928.0,
-  "ranking": 49,
+  "ranking": 48,
   "skill": "LOGISTICA",
   "synonyms": [
     {
@@ -2587,7 +2499,7 @@
 }, {
   "parent": [],
   "positionsCount": 2906.0,
-  "ranking": 50,
+  "ranking": 49,
   "skill": "COMPRAS",
   "synonyms": [
     {
@@ -2602,7 +2514,7 @@
 }, {
   "parent": [],
   "positionsCount": 2886.0,
-  "ranking": 51,
+  "ranking": 50,
   "skill": "CERTIFICACAO",
   "synonyms": [
     {
@@ -2635,7 +2547,7 @@
     "ANDROID"
   ],
   "positionsCount": 2880.0,
-  "ranking": 52,
+  "ranking": 51,
   "skill": "ANDROID",
   "synonyms": [
     {
@@ -2662,7 +2574,7 @@
     "XML"
   ],
   "positionsCount": 2555.0,
-  "ranking": 53,
+  "ranking": 52,
   "skill": "HTML",
   "synonyms": [
     {
@@ -2687,7 +2599,7 @@
     "TI"
   ],
   "positionsCount": 2546.0,
-  "ranking": 54,
+  "ranking": 53,
   "skill": "MODELAGEM",
   "synonyms": [
     {
@@ -2702,7 +2614,7 @@
 }, {
   "parent": [],
   "positionsCount": 2526.0,
-  "ranking": 55,
+  "ranking": 54,
   "skill": "MECANICA",
   "synonyms": [
     {
@@ -2765,7 +2677,7 @@
       "word": "IMAGE MANAGEMENT"
     }
   ],
-  "ranking": 56,
+  "ranking": 55,
   "similar": [
     {
       "gemini": true,
@@ -2824,7 +2736,7 @@
       "word": "PHP FRAMEWORKS (E.G. LARAVEL)"
     }
   ],
-  "ranking": 57,
+  "ranking": 56,
   "similar": [
     {
       "gemini": true,
@@ -2864,7 +2776,7 @@
     "TI"
   ],
   "positionsCount": 2409.0,
-  "ranking": 58,
+  "ranking": 57,
   "skill": "MONITORAMENTO",
   "synonyms": [
     {
@@ -2894,7 +2806,7 @@
     "RELATORIOS"
   ],
   "positionsCount": 2254.0,
-  "ranking": 59,
+  "ranking": 58,
   "skill": "BI",
   "synonyms": [
     {
@@ -2928,7 +2840,7 @@
     "MOBILE"
   ],
   "positionsCount": 2247.0,
-  "ranking": 60,
+  "ranking": 59,
   "skill": "IOS",
   "synonyms": [
     {
@@ -2942,7 +2854,7 @@
     "OOP"
   ],
   "positionsCount": 1958.0,
-  "ranking": 61,
+  "ranking": 60,
   "skill": "PATTERNS",
   "synonyms": [
     {
@@ -2988,7 +2900,7 @@
     "DB"
   ],
   "positionsCount": 1780.0,
-  "ranking": 62,
+  "ranking": 61,
   "skill": "NOSQL",
   "synonyms": [
     {
@@ -3027,7 +2939,7 @@
 }, {
   "parent": [],
   "positionsCount": 1646.0,
-  "ranking": 63,
+  "ranking": 62,
   "skill": "FARMACIA",
   "synonyms": [
     {
@@ -3050,7 +2962,7 @@
 }, {
   "parent": [],
   "positionsCount": 1586.0,
-  "ranking": 64,
+  "ranking": 63,
   "skill": "CIENCIA",
   "synonyms": [
     {
@@ -3077,7 +2989,7 @@
 }, {
   "parent": [],
   "positionsCount": 1570.0,
-  "ranking": 65,
+  "ranking": 64,
   "skill": "IMPOSTOS",
   "synonyms": [
     {
@@ -3113,7 +3025,7 @@
     "ESTATISTICA"
   ],
   "positionsCount": 1474.0,
-  "ranking": 66,
+  "ranking": 65,
   "skill": "AI",
   "synonyms": [
     {
@@ -3168,7 +3080,7 @@
 }, {
   "parent": [],
   "positionsCount": 1456.0,
-  "ranking": 67,
+  "ranking": 66,
   "skill": "RISCOS",
   "synonyms": [
     {
@@ -3197,7 +3109,7 @@
     "TI"
   ],
   "positionsCount": 1365.0,
-  "ranking": 68,
+  "ranking": 67,
   "skill": "ERP",
   "synonyms": [
     {
@@ -3210,7 +3122,7 @@
     "TI"
   ],
   "positionsCount": 1326.0,
-  "ranking": 69,
+  "ranking": 68,
   "skill": "PROTOCOLOS",
   "synonyms": [
     {
@@ -3273,7 +3185,7 @@
       "word": "CLOUD DEPLOYMENT"
     }
   ],
-  "ranking": 70,
+  "ranking": 69,
   "skill": "GCP",
   "synonyms": [
     {
@@ -3296,7 +3208,7 @@
 }, {
   "parent": [],
   "positionsCount": 1297.0,
-  "ranking": 71,
+  "ranking": 70,
   "skill": "ESTOQUE",
   "synonyms": [
     {
@@ -3357,7 +3269,7 @@
       "word": "SALESFORCE ADMINISTRATOR CERTIFICATION"
     }
   ],
-  "ranking": 72,
+  "ranking": 71,
   "similar": [
     {
       "gemini": true,
@@ -3439,7 +3351,7 @@
 }, {
   "parent": [],
   "positionsCount": 1251.0,
-  "ranking": 73,
+  "ranking": 72,
   "skill": "AUDITORIA",
   "synonyms": [
     {
@@ -3464,7 +3376,7 @@
     "TI"
   ],
   "positionsCount": 1198.0,
-  "ranking": 74,
+  "ranking": 73,
   "skill": "MVC",
   "synonyms": [
     {
@@ -3483,7 +3395,7 @@
 }, {
   "parent": [],
   "positionsCount": 1145.0,
-  "ranking": 75,
+  "ranking": 74,
   "skill": "ENGLISH",
   "synonyms": [
     {
@@ -3513,7 +3425,7 @@
       "word": "YAML"
     }
   ],
-  "ranking": 76,
+  "ranking": 75,
   "similar": [],
   "skill": "KUBERNETES",
   "synonyms": [
@@ -3556,7 +3468,7 @@
       "word": "SYNTAX"
     }
   ],
-  "ranking": 77,
+  "ranking": 76,
   "similar": [
     {
       "gemini": true,
@@ -3621,7 +3533,7 @@
     "TI"
   ],
   "positionsCount": 1112.0,
-  "ranking": 78,
+  "ranking": 77,
   "skill": "SECURITY",
   "synonyms": [
     {
@@ -3671,7 +3583,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 1000.0,
-  "ranking": 79,
+  "ranking": 78,
   "skill": "SCRUM MASTER",
   "synonyms": [
     {
@@ -3692,7 +3604,7 @@
     "FISICA"
   ],
   "positionsCount": 999.0,
-  "ranking": 80,
+  "ranking": 79,
   "skill": "ELETRICA",
   "synonyms": [
     {
@@ -3711,7 +3623,7 @@
     "WS"
   ],
   "positionsCount": 989.0,
-  "ranking": 81,
+  "ranking": 80,
   "skill": "SOAP",
   "synonyms": [
     {
@@ -3728,7 +3640,7 @@
     "TI"
   ],
   "positionsCount": 988.0,
-  "ranking": 82,
+  "ranking": 81,
   "skill": "INTEGRATION",
   "synonyms": [
     {
@@ -3750,7 +3662,7 @@
     "BUILD"
   ],
   "positionsCount": 935.0,
-  "ranking": 83,
+  "ranking": 82,
   "skill": "DEPLOY",
   "synonyms": [
     {
@@ -3771,7 +3683,7 @@
     "TI"
   ],
   "positionsCount": 923.0,
-  "ranking": 84,
+  "ranking": 83,
   "skill": "XML",
   "synonyms": [
     {
@@ -3802,7 +3714,7 @@
   ],
   "positionsCount": 858.0,
   "prerequisites": [],
-  "ranking": 85,
+  "ranking": 84,
   "similar": [
     {
       "gemini": true,
@@ -3844,7 +3756,7 @@
     "TI"
   ],
   "positionsCount": 818.0,
-  "ranking": 86,
+  "ranking": 85,
   "skill": "PRODUCT OWNER",
   "synonyms": [
     {
@@ -3859,7 +3771,7 @@
 }, {
   "parent": [],
   "positionsCount": 797.0,
-  "ranking": 87,
+  "ranking": 86,
   "skill": "FATURAMENTO",
   "synonyms": [
     {
@@ -3889,7 +3801,7 @@
       "word": "COMMUNICATION"
     }
   ],
-  "ranking": 88,
+  "ranking": 87,
   "similar": [
     {
       "gemini": true,
@@ -3927,7 +3839,7 @@
 }, {
   "parent": [],
   "positionsCount": 717.0,
-  "ranking": 89,
+  "ranking": 88,
   "skill": "COORDENACAO",
   "synonyms": [
     {
@@ -3942,7 +3854,7 @@
     "SQL"
   ],
   "positionsCount": 705.0,
-  "ranking": 90,
+  "ranking": 89,
   "skill": "BIG DATA",
   "synonyms": [
     {
@@ -3969,7 +3881,7 @@
 }, {
   "parent": [],
   "positionsCount": 686.0,
-  "ranking": 91,
+  "ranking": 90,
   "skill": "HOSPITAL",
   "synonyms": [
     {
@@ -3992,7 +3904,7 @@
 }, {
   "parent": [],
   "positionsCount": 682.0,
-  "ranking": 92,
+  "ranking": 91,
   "skill": "PSICOLOGIA",
   "synonyms": [
     {
@@ -4005,7 +3917,7 @@
     "TI"
   ],
   "positionsCount": 670.0,
-  "ranking": 93,
+  "ranking": 92,
   "skill": "ORIENTACAO A OBJETOS",
   "synonyms": [
     {
@@ -4035,7 +3947,7 @@
     "CIENCIA"
   ],
   "positionsCount": 665.0,
-  "ranking": 94,
+  "ranking": 93,
   "skill": "FISICA",
   "synonyms": [
     {
@@ -4058,7 +3970,7 @@
   ],
   "positionsCount": 637.0,
   "prerequisites": [],
-  "ranking": 95,
+  "ranking": 94,
   "similar": [],
   "skill": "SELENIUM",
   "synonyms": [
@@ -4100,7 +4012,7 @@
       "word": "COMPOSER"
     }
   ],
-  "ranking": 96,
+  "ranking": 95,
   "similar": [],
   "skill": "LARAVEL",
   "synonyms": [
@@ -4115,7 +4027,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 629.0,
-  "ranking": 97,
+  "ranking": 96,
   "skill": "HTTP",
   "synonyms": [
     {
@@ -4189,7 +4101,7 @@
       "word": "IT ASSET MANAGEMENT"
     }
   ],
-  "ranking": 98,
+  "ranking": 97,
   "similar": [
     {
       "gemini": true,
@@ -4216,7 +4128,7 @@
 }, {
   "parent": [],
   "positionsCount": 614.0,
-  "ranking": 99,
+  "ranking": 98,
   "skill": "DIREITO",
   "synonyms": [
     {
@@ -4226,6 +4138,29 @@
     {
       "skill": "ADVOCACIA",
       "positionsCount": 143.0
+    }
+  ]
+}, {
+  "parent": [
+    "TI",
+    "BACKEND",
+    "FRONTEND"
+  ],
+  "positionsCount": 612.0,
+  "ranking": 99,
+  "skill": "LOGS",
+  "synonyms": [
+    {
+      "skill": "LOGS",
+      "positionsCount": 364.0
+    },
+    {
+      "skill": "LOG",
+      "positionsCount": 182.0
+    },
+    {
+      "skill": "LOGGING",
+      "positionsCount": 66.0
     }
   ]
 }, {
@@ -4254,33 +4189,10 @@
 }, {
   "parent": [
     "TI",
-    "BACKEND",
-    "FRONTEND"
-  ],
-  "positionsCount": 612.0,
-  "ranking": 101,
-  "skill": "LOGS",
-  "synonyms": [
-    {
-      "skill": "LOGS",
-      "positionsCount": 364.0
-    },
-    {
-      "skill": "LOG",
-      "positionsCount": 182.0
-    },
-    {
-      "skill": "LOGGING",
-      "positionsCount": 66.0
-    }
-  ]
-}, {
-  "parent": [
-    "TI",
     "SEGURANCA"
   ],
   "positionsCount": 607.0,
-  "ranking": 102,
+  "ranking": 101,
   "similar": [
     {
       "gemini": true,
@@ -4344,7 +4256,7 @@
 }, {
   "parent": [],
   "positionsCount": 598.0,
-  "ranking": 103,
+  "ranking": 102,
   "skill": "PUBLICIDADE",
   "synonyms": [
     {
@@ -4374,7 +4286,7 @@
     "INTEGRATION"
   ],
   "positionsCount": 576.0,
-  "ranking": 104,
+  "ranking": 103,
   "skill": "MENSAGERIA",
   "synonyms": [
     {
@@ -4409,7 +4321,7 @@
       "word": "ABL"
     }
   ],
-  "ranking": 105,
+  "ranking": 104,
   "similar": [
     {
       "gemini": true,
@@ -4484,7 +4396,7 @@
     "MATH"
   ],
   "positionsCount": 502.0,
-  "ranking": 106,
+  "ranking": 105,
   "skill": "ECONOMIA",
   "synonyms": [
     {
@@ -4501,7 +4413,7 @@
     "TI"
   ],
   "positionsCount": 485.0,
-  "ranking": 107,
+  "ranking": 106,
   "skill": "BDD",
   "synonyms": [
     {
@@ -4516,7 +4428,7 @@
 }, {
   "parent": [],
   "positionsCount": 472.0,
-  "ranking": 108,
+  "ranking": 107,
   "skill": "ENFERMAGEM",
   "synonyms": [
     {
@@ -4531,7 +4443,7 @@
 }, {
   "parent": [],
   "positionsCount": 436.0,
-  "ranking": 109,
+  "ranking": 108,
   "skill": "MEDICINA",
   "synonyms": [
     {
@@ -4542,7 +4454,7 @@
 }, {
   "parent": [],
   "positionsCount": 426.0,
-  "ranking": 110,
+  "ranking": 109,
   "skill": "ALMOXARIFADO",
   "synonyms": [
     {
@@ -4553,7 +4465,7 @@
 }, {
   "parent": [],
   "positionsCount": 412.0,
-  "ranking": 111,
+  "ranking": 110,
   "skill": "SOLDA",
   "synonyms": [
     {
@@ -4567,7 +4479,7 @@
     "INTEGRACAO"
   ],
   "positionsCount": 410.0,
-  "ranking": 112,
+  "ranking": 111,
   "skill": "MIDDLEWARE",
   "synonyms": [
     {
@@ -4597,7 +4509,7 @@
     "FISICA"
   ],
   "positionsCount": 381.0,
-  "ranking": 113,
+  "ranking": 112,
   "skill": "QUIMICA",
   "synonyms": [
     {
@@ -4610,7 +4522,7 @@
     "TI"
   ],
   "positionsCount": 373.0,
-  "ranking": 114,
+  "ranking": 113,
   "skill": "BUILD",
   "synonyms": [
     {
@@ -4646,7 +4558,7 @@
       "word": "SPRING/STRUTS FRAMEWORK"
     }
   ],
-  "ranking": 115,
+  "ranking": 114,
   "similar": [
     {
       "gemini": true,
@@ -4693,7 +4605,7 @@
 }, {
   "parent": [],
   "positionsCount": 369.0,
-  "ranking": 116,
+  "ranking": 115,
   "skill": "EMPILHADEIRA",
   "synonyms": [
     {
@@ -4713,7 +4625,7 @@
   ],
   "positionsCount": 341.0,
   "prerequisites": [],
-  "ranking": 117,
+  "ranking": 116,
   "similar": [
     {
       "gemini": true,
@@ -4763,7 +4675,7 @@
       "word": "ROUTING AND SWITCHING"
     }
   ],
-  "ranking": 118,
+  "ranking": 117,
   "similar": [
     {
       "gemini": true,
@@ -4818,7 +4730,7 @@
     "MATH"
   ],
   "positionsCount": 333.0,
-  "ranking": 119,
+  "ranking": 118,
   "skill": "ESTATISTICA",
   "synonyms": [
     {
@@ -4849,7 +4761,7 @@
 }, {
   "parent": [],
   "positionsCount": 319.0,
-  "ranking": 120,
+  "ranking": 119,
   "skill": "TELECOMUNICACOES",
   "synonyms": [
     {
@@ -4876,7 +4788,7 @@
     "WS"
   ],
   "positionsCount": 304.0,
-  "ranking": 121,
+  "ranking": 120,
   "similar": [
     {
       "gemini": true,
@@ -4934,7 +4846,7 @@
       "word": "DATABASE MANAGEMENT (SQL/NOSQL)"
     }
   ],
-  "ranking": 122,
+  "ranking": 121,
   "similar": [
     {
       "gemini": true,
@@ -4959,7 +4871,7 @@
     "DB"
   ],
   "positionsCount": 288.0,
-  "ranking": 123,
+  "ranking": 122,
   "skill": "ORM",
   "synonyms": [
     {
@@ -4994,7 +4906,7 @@
       "word": "LUCENE QUERY SYNTAX"
     }
   ],
-  "ranking": 124,
+  "ranking": 123,
   "similar": [
     {
       "gemini": true,
@@ -5043,7 +4955,7 @@
   ],
   "positionsCount": 281.0,
   "prerequisites": [],
-  "ranking": 125,
+  "ranking": 124,
   "similar": [],
   "skill": "JPA",
   "synonyms": [
@@ -5058,7 +4970,7 @@
     "CLOUD"
   ],
   "positionsCount": 272.0,
-  "ranking": 126,
+  "ranking": 125,
   "skill": "ORACLE CLOUD",
   "synonyms": [
     {
@@ -5077,7 +4989,7 @@
 }, {
   "parent": [],
   "positionsCount": 260.0,
-  "ranking": 127,
+  "ranking": 126,
   "skill": "AUTOCAD",
   "synonyms": [
     {
@@ -5127,7 +5039,7 @@
       "word": "APEX SECURITY"
     }
   ],
-  "ranking": 128,
+  "ranking": 127,
   "similar": [
     {
       "gemini": true,
@@ -5241,7 +5153,7 @@
       "word": "JSF LISTENERS"
     }
   ],
-  "ranking": 129,
+  "ranking": 128,
   "similar": [
     {
       "gemini": true,
@@ -5273,7 +5185,7 @@
       "word": "PIG LATIN"
     }
   ],
-  "ranking": 130,
+  "ranking": 129,
   "similar": [
     {
       "gemini": true,
@@ -5362,7 +5274,7 @@
     "TI"
   ],
   "positionsCount": 233.0,
-  "ranking": 131,
+  "ranking": 130,
   "skill": "IAC",
   "synonyms": [
     {
@@ -5380,7 +5292,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 230.0,
-  "ranking": 132,
+  "ranking": 131,
   "skill": "CRIPTOGRAFIA",
   "synonyms": [
     {
@@ -5403,7 +5315,7 @@
 }, {
   "parent": [],
   "positionsCount": 217.0,
-  "ranking": 133,
+  "ranking": 132,
   "skill": "AGRICOLAS",
   "synonyms": [
     {
@@ -5426,7 +5338,7 @@
 }, {
   "parent": [],
   "positionsCount": 215.0,
-  "ranking": 134,
+  "ranking": 133,
   "skill": "PINTURA",
   "synonyms": [
     {
@@ -5439,7 +5351,7 @@
     "TI"
   ],
   "positionsCount": 197.0,
-  "ranking": 135,
+  "ranking": 134,
   "skill": "HCM",
   "synonyms": [
     {
@@ -5479,7 +5391,7 @@
       "word": "RELATIVE FILE PROCESSING"
     }
   ],
-  "ranking": 136,
+  "ranking": 135,
   "similar": [
     {
       "gemini": true,
@@ -5504,7 +5416,7 @@
     "CARRETO"
   ],
   "positionsCount": 184.0,
-  "ranking": 137,
+  "ranking": 136,
   "skill": "CARRETEIRO",
   "synonyms": [
     {
@@ -5540,7 +5452,7 @@
     "MVC"
   ],
   "positionsCount": 184.0,
-  "ranking": 138,
+  "ranking": 137,
   "skill": "SPA",
   "synonyms": [
     {
@@ -5558,7 +5470,7 @@
   ],
   "positionsCount": 178.0,
   "prerequisites": [],
-  "ranking": 139,
+  "ranking": 138,
   "similar": [
     {
       "gemini": true,
@@ -5593,7 +5505,7 @@
     "CLOUD"
   ],
   "positionsCount": 170.0,
-  "ranking": 140,
+  "ranking": 139,
   "skill": "SERVERLESS",
   "synonyms": [
     {
@@ -5616,7 +5528,7 @@
 }, {
   "parent": [],
   "positionsCount": 168.0,
-  "ranking": 141,
+  "ranking": 140,
   "skill": "FISIOTERAPIA",
   "synonyms": [
     {
@@ -5646,7 +5558,7 @@
       "word": "DATA STORAGE AND MANAGEMENT CONCEPTS"
     }
   ],
-  "ranking": 142,
+  "ranking": 141,
   "similar": [
     {
       "gemini": true,
@@ -5722,7 +5634,7 @@
       "word": "SENSORS AND ACTUATORS"
     }
   ],
-  "ranking": 143,
+  "ranking": 142,
   "similar": [],
   "skill": "IOT",
   "synonyms": [
@@ -5740,7 +5652,7 @@
     "TI"
   ],
   "positionsCount": 153.0,
-  "ranking": 144,
+  "ranking": 143,
   "skill": "VIRTUALIZATION",
   "synonyms": [
     {
@@ -5777,7 +5689,7 @@
       "word": "JAVABEANS"
     }
   ],
-  "ranking": 145,
+  "ranking": 144,
   "similar": [
     {
       "gemini": true,
@@ -5799,7 +5711,7 @@
 }, {
   "parent": [],
   "positionsCount": 147.0,
-  "ranking": 146,
+  "ranking": 145,
   "skill": "ESTETICA",
   "synonyms": [
     {
@@ -5817,7 +5729,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 144.0,
-  "ranking": 147,
+  "ranking": 146,
   "skill": "IP",
   "synonyms": [
     {
@@ -5840,7 +5752,7 @@
   ],
   "positionsCount": 135.0,
   "prerequisites": [],
-  "ranking": 148,
+  "ranking": 147,
   "similar": [
     {
       "gemini": true,
@@ -5862,7 +5774,7 @@
   ],
   "positionsCount": 126.0,
   "prerequisites": [],
-  "ranking": 149,
+  "ranking": 148,
   "similar": [],
   "skill": "EXPRESS",
   "synonyms": [
@@ -5899,7 +5811,7 @@
     "FRONTEND"
   ],
   "positionsCount": 126.0,
-  "ranking": 150,
+  "ranking": 149,
   "skill": "WEBDRIVER",
   "synonyms": [
     {
@@ -5916,7 +5828,7 @@
     "TI"
   ],
   "positionsCount": 121.0,
-  "ranking": 151,
+  "ranking": 150,
   "skill": "IDE",
   "synonyms": [
     {
@@ -5942,7 +5854,7 @@
       "word": "WORKFLOW DESIGN"
     }
   ],
-  "ranking": 152,
+  "ranking": 151,
   "similar": [
     {
       "gemini": true,
@@ -6060,7 +5972,7 @@
 }, {
   "parent": [],
   "positionsCount": 116.0,
-  "ranking": 153,
+  "ranking": 152,
   "skill": "MARCENARIA",
   "synonyms": [
     {
@@ -6074,7 +5986,7 @@
     "I A"
   ],
   "positionsCount": 114.0,
-  "ranking": 154,
+  "ranking": 153,
   "skill": "CHATBOT",
   "synonyms": [
     {
@@ -6097,7 +6009,7 @@
 }, {
   "parent": [],
   "positionsCount": 112.0,
-  "ranking": 155,
+  "ranking": 154,
   "skill": "NUTRICAO",
   "synonyms": [
     {
@@ -6108,7 +6020,7 @@
 }, {
   "parent": [],
   "positionsCount": 111.0,
-  "ranking": 156,
+  "ranking": 155,
   "skill": "PADARIA",
   "synonyms": [
     {
@@ -6142,7 +6054,7 @@
     "FRONTEND"
   ],
   "positionsCount": 110.0,
-  "ranking": 157,
+  "ranking": 156,
   "skill": "CMS",
   "synonyms": [
     {
@@ -6178,7 +6090,7 @@
       "word": "BUDGET MANAGEMENT"
     }
   ],
-  "ranking": 158,
+  "ranking": 157,
   "similar": [
     {
       "gemini": true,
@@ -6206,7 +6118,7 @@
 }, {
   "parent": [],
   "positionsCount": 103.0,
-  "ranking": 159,
+  "ranking": 158,
   "skill": "SECRETARIADO",
   "synonyms": [
     {
@@ -6258,7 +6170,7 @@
       "word": "DELTA LAKE"
     }
   ],
-  "ranking": 160,
+  "ranking": 159,
   "similar": [
     {
       "gemini": true,
@@ -6302,7 +6214,7 @@
       "word": "BDD TESTING PRINCIPLES"
     }
   ],
-  "ranking": 161,
+  "ranking": 160,
   "similar": [
     {
       "gemini": true,
@@ -6350,7 +6262,7 @@
       "word": "UNDERSTANDING OF PROJECT MANAGEMENT CONCEPTS"
     }
   ],
-  "ranking": 162,
+  "ranking": 161,
   "similar": [
     {
       "gemini": true,
@@ -6383,7 +6295,7 @@
     "BACKEND"
   ],
   "positionsCount": 82.0,
-  "ranking": 163,
+  "ranking": 162,
   "skill": "CONTAINERIZATION",
   "synonyms": [
     {
@@ -6394,7 +6306,7 @@
 }, {
   "parent": [],
   "positionsCount": 80.0,
-  "ranking": 164,
+  "ranking": 163,
   "skill": "JORNALISMO",
   "synonyms": [
     {
@@ -6407,7 +6319,7 @@
     "MEDICINA"
   ],
   "positionsCount": 79.0,
-  "ranking": 165,
+  "ranking": 164,
   "skill": "BIOMEDICINA",
   "synonyms": [
     {
@@ -6418,7 +6330,7 @@
 }, {
   "parent": [],
   "positionsCount": 77.0,
-  "ranking": 166,
+  "ranking": 165,
   "skill": "PEDAGOGIA",
   "synonyms": [
     {
@@ -6429,7 +6341,7 @@
 }, {
   "parent": [],
   "positionsCount": 76.0,
-  "ranking": 167,
+  "ranking": 166,
   "skill": "COSTURA",
   "synonyms": [
     {
@@ -6440,7 +6352,7 @@
 }, {
   "parent": [],
   "positionsCount": 68.0,
-  "ranking": 168,
+  "ranking": 167,
   "skill": "CALDEIRARIA",
   "synonyms": [
     {
@@ -6461,7 +6373,7 @@
       "word": "GROOVY PROGRAMMING LANGUAGE"
     }
   ],
-  "ranking": 169,
+  "ranking": 168,
   "similar": [
     {
       "gemini": true,
@@ -6479,7 +6391,7 @@
 }, {
   "parent": [],
   "positionsCount": 64.0,
-  "ranking": 170,
+  "ranking": 169,
   "skill": "DESIGN GRAFICO",
   "synonyms": [
     {
@@ -6492,7 +6404,7 @@
     "REDACAO"
   ],
   "positionsCount": 57.0,
-  "ranking": 171,
+  "ranking": 170,
   "skill": "REDATOR",
   "synonyms": [
     {
@@ -6526,7 +6438,7 @@
     "GERENCIAMENTO"
   ],
   "positionsCount": 57.0,
-  "ranking": 172,
+  "ranking": 171,
   "skill": "GOVERNANCE",
   "synonyms": [
     {
@@ -6567,7 +6479,7 @@
       "word": "JMS PROVIDER ADMINISTRATION"
     }
   ],
-  "ranking": 173,
+  "ranking": 172,
   "similar": [
     {
       "gemini": true,
@@ -6648,7 +6560,7 @@
     "CLOUD"
   ],
   "positionsCount": 51.0,
-  "ranking": 174,
+  "ranking": 173,
   "skill": "BUCKET",
   "synonyms": [
     {
@@ -6665,7 +6577,7 @@
     "TI"
   ],
   "positionsCount": 49.0,
-  "ranking": 175,
+  "ranking": 174,
   "similar": [
     {
       "gemini": true,
@@ -6703,7 +6615,7 @@
 }, {
   "parent": [],
   "positionsCount": 48.0,
-  "ranking": 176,
+  "ranking": 175,
   "skill": "JARDINAGEM",
   "synonyms": [
     {
@@ -6738,7 +6650,7 @@
       "word": "DOMAIN EXPERTISE"
     }
   ],
-  "ranking": 177,
+  "ranking": 176,
   "similar": [
     {
       "gemini": true,
@@ -6819,7 +6731,7 @@
       "word": "LDAP SECURITY"
     }
   ],
-  "ranking": 178,
+  "ranking": 177,
   "similar": [
     {
       "gemini": true,
@@ -6857,7 +6769,7 @@
 }, {
   "parent": [],
   "positionsCount": 47.0,
-  "ranking": 179,
+  "ranking": 178,
   "skill": "VETERINARIA",
   "synonyms": [
     {
@@ -6872,7 +6784,7 @@
   ],
   "positionsCount": 46.0,
   "prerequisites": [],
-  "ranking": 180,
+  "ranking": 179,
   "similar": [
     {
       "gemini": true,
@@ -6909,7 +6821,7 @@
       "word": "GALAXY"
     }
   ],
-  "ranking": 181,
+  "ranking": 180,
   "similar": [
     {
       "gemini": true,
@@ -6939,7 +6851,7 @@
     "TRADUCAO"
   ],
   "positionsCount": 36.0,
-  "ranking": 182,
+  "ranking": 181,
   "skill": "TRANSLATE",
   "synonyms": [
     {
@@ -6964,7 +6876,7 @@
     "REVISAO"
   ],
   "positionsCount": 34.0,
-  "ranking": 183,
+  "ranking": 182,
   "skill": "REVISOR",
   "synonyms": [
     {
@@ -6991,7 +6903,7 @@
 }, {
   "parent": [],
   "positionsCount": 34.0,
-  "ranking": 184,
+  "ranking": 183,
   "skill": "VIGILANTE",
   "synonyms": [
     {
@@ -7051,7 +6963,7 @@
       "word": "AGILE PRINCIPLES AND VALUES"
     }
   ],
-  "ranking": 185,
+  "ranking": 184,
   "similar": [
     {
       "gemini": true,
@@ -7114,7 +7026,7 @@
 }, {
   "parent": [],
   "positionsCount": 29.0,
-  "ranking": 186,
+  "ranking": 185,
   "skill": "CARPINTARIA",
   "synonyms": [
     {
@@ -7125,7 +7037,7 @@
 }, {
   "parent": [],
   "positionsCount": 27.0,
-  "ranking": 187,
+  "ranking": 186,
   "skill": "GASTRONOMIA",
   "synonyms": [
     {
@@ -7136,7 +7048,7 @@
 }, {
   "parent": [],
   "positionsCount": 25.0,
-  "ranking": 188,
+  "ranking": 187,
   "skill": "ODONTOLOGIA",
   "synonyms": [
     {
@@ -7150,7 +7062,7 @@
     "I A"
   ],
   "positionsCount": 23.0,
-  "ranking": 189,
+  "ranking": 188,
   "skill": "NLP",
   "synonyms": [
     {
@@ -7165,7 +7077,7 @@
     "FRONTEND"
   ],
   "positionsCount": 14.0,
-  "ranking": 190,
+  "ranking": 189,
   "skill": "PACKAGE MANAGER",
   "synonyms": [
     {
@@ -7180,7 +7092,7 @@
 }, {
   "parent": [],
   "positionsCount": 14.0,
-  "ranking": 191,
+  "ranking": 190,
   "skill": "DESIGN DE INTERIORES",
   "synonyms": [
     {
@@ -7194,7 +7106,7 @@
     "BACKEND"
   ],
   "positionsCount": 11.0,
-  "ranking": 192,
+  "ranking": 191,
   "skill": "ASSEMBLY",
   "synonyms": [
     {
@@ -7209,7 +7121,7 @@
 }, {
   "parent": [],
   "positionsCount": 10.0,
-  "ranking": 193,
+  "ranking": 192,
   "skill": "FONOAUDIOLOGIA",
   "synonyms": [
     {
@@ -7227,7 +7139,7 @@
     "HADOOP"
   ],
   "positionsCount": 10.0,
-  "ranking": 194,
+  "ranking": 193,
   "skill": "HDFS",
   "synonyms": [
     {
@@ -7240,7 +7152,7 @@
     "CIENCIA"
   ],
   "positionsCount": 9.0,
-  "ranking": 195,
+  "ranking": 194,
   "skill": "BIOQUIMICA",
   "synonyms": [
     {
@@ -7253,7 +7165,7 @@
     "CIENCIA"
   ],
   "positionsCount": 7.0,
-  "ranking": 196,
+  "ranking": 195,
   "skill": "GEOLOGIA",
   "synonyms": [
     {
@@ -7266,7 +7178,7 @@
     "CIENCIA"
   ],
   "positionsCount": 6.0,
-  "ranking": 197,
+  "ranking": 196,
   "skill": "MATH",
   "synonyms": [
     {
@@ -7284,7 +7196,7 @@
     "BACKEND"
   ],
   "positionsCount": 6.0,
-  "ranking": 198,
+  "ranking": 197,
   "skill": "ERLANG",
   "synonyms": [
     {
@@ -7295,7 +7207,7 @@
 }, {
   "parent": [],
   "positionsCount": 6.0,
-  "ranking": 199,
+  "ranking": 198,
   "skill": "TERAPIA OCUPACIONAL",
   "synonyms": [
     {
@@ -7309,7 +7221,7 @@
     "BACKEND"
   ],
   "positionsCount": 5.0,
-  "ranking": 200,
+  "ranking": 199,
   "skill": "CGI",
   "synonyms": [
     {
@@ -7323,7 +7235,7 @@
     "BACKEND"
   ],
   "positionsCount": 2.0,
-  "ranking": 201,
+  "ranking": 200,
   "skill": "LISP",
   "synonyms": [
     {
@@ -7334,7 +7246,7 @@
 }, {
   "parent": [],
   "positionsCount": 2.0,
-  "ranking": 202,
+  "ranking": 201,
   "skill": "PERFUME",
   "synonyms": [
     {
@@ -7349,7 +7261,7 @@
     "PERFORMANCE"
   ],
   "positionsCount": 2.0,
-  "ranking": 203,
+  "ranking": 202,
   "skill": "LOADBALANCE",
   "synonyms": [
     {
@@ -7360,7 +7272,7 @@
 }, {
   "parent": [],
   "positionsCount": 1.0,
-  "ranking": 204,
+  "ranking": 203,
   "skill": "MEDIATION",
   "synonyms": [
     {
@@ -7378,7 +7290,7 @@
     "FRONTEND"
   ],
   "positionsCount": 1.0,
-  "ranking": 205,
+  "ranking": 204,
   "skill": "WEB ASSEMBLY",
   "synonyms": [
     {
@@ -7397,7 +7309,7 @@
     "FRONTEND"
   ],
   "positionsCount": 0.0,
-  "ranking": 206,
+  "ranking": 205,
   "skill": "DEPENDENCY MANAGER",
   "synonyms": [
     {
@@ -7415,7 +7327,7 @@
     "CSS"
   ],
   "positionsCount": 0.0,
-  "ranking": 207,
+  "ranking": 206,
   "skill": "JSS",
   "synonyms": [
     {
@@ -7426,7 +7338,7 @@
 }, {
   "parent": [],
   "positionsCount": 0.0,
-  "ranking": 208,
+  "ranking": 207,
   "skill": "INSPECAO",
   "synonyms": [
     {
@@ -7437,7 +7349,7 @@
 }, {
   "parent": [],
   "positionsCount": 22018.0,
-  "ranking": 209,
+  "ranking": 208,
   "skill": "PROJETOS",
   "synonyms": [
     {
@@ -7460,7 +7372,7 @@
 }, {
   "parent": [],
   "positionsCount": 15563.0,
-  "ranking": 210,
+  "ranking": 209,
   "skill": "AUXILIAR",
   "synonyms": [
     {
@@ -7503,7 +7415,7 @@
 }, {
   "parent": [],
   "positionsCount": 10764.0,
-  "ranking": 211,
+  "ranking": 210,
   "skill": "VENDAS",
   "synonyms": [
     {
@@ -7602,7 +7514,7 @@
 }, {
   "parent": [],
   "positionsCount": 10566.0,
-  "ranking": 212,
+  "ranking": 211,
   "skill": "ADMINISTRACAO",
   "synonyms": [
     {
@@ -7645,7 +7557,7 @@
 }, {
   "parent": [],
   "positionsCount": 4793.0,
-  "ranking": 213,
+  "ranking": 212,
   "skill": "EXCEL",
   "synonyms": [
     {
@@ -7664,7 +7576,7 @@
 }, {
   "parent": [],
   "positionsCount": 4683.0,
-  "ranking": 214,
+  "ranking": 213,
   "skill": "LIDERANCA",
   "synonyms": [
     {
@@ -7727,7 +7639,7 @@
 }, {
   "parent": [],
   "positionsCount": 4569.0,
-  "ranking": 215,
+  "ranking": 214,
   "skill": "FISCAL",
   "synonyms": [
     {
@@ -7748,7 +7660,7 @@
     "MEDICINA"
   ],
   "positionsCount": 4562.0,
-  "ranking": 216,
+  "ranking": 215,
   "skill": "MEDICA",
   "synonyms": [
     {
@@ -7771,7 +7683,7 @@
 }, {
   "parent": [],
   "positionsCount": 4524.0,
-  "ranking": 217,
+  "ranking": 216,
   "skill": "INDUSTRIA",
   "synonyms": [
     {
@@ -7796,7 +7708,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 4492.0,
-  "ranking": 218,
+  "ranking": 217,
   "skill": "ENGENHEIRO",
   "synonyms": [
     {
@@ -7827,7 +7739,7 @@
 }, {
   "parent": [],
   "positionsCount": 4471.0,
-  "ranking": 219,
+  "ranking": 218,
   "skill": "COMERCIAL",
   "synonyms": [
     {
@@ -7838,7 +7750,7 @@
 }, {
   "parent": [],
   "positionsCount": 3525.0,
-  "ranking": 220,
+  "ranking": 219,
   "skill": "FLUENTE",
   "synonyms": [
     {
@@ -7863,7 +7775,7 @@
     "COORDENACAO"
   ],
   "positionsCount": 3413.0,
-  "ranking": 221,
+  "ranking": 220,
   "skill": "COORDENADOR",
   "synonyms": [
     {
@@ -7886,7 +7798,7 @@
 }, {
   "parent": [],
   "positionsCount": 3271.0,
-  "ranking": 222,
+  "ranking": 221,
   "skill": "CONTAS",
   "synonyms": [
     {
@@ -7915,7 +7827,7 @@
     "ARQUITETURA"
   ],
   "positionsCount": 2716.0,
-  "ranking": 223,
+  "ranking": 222,
   "skill": "ARQUITETO",
   "synonyms": [
     {
@@ -7946,7 +7858,7 @@
 }, {
   "parent": [],
   "positionsCount": 2452.0,
-  "ranking": 224,
+  "ranking": 223,
   "skill": "OPERADOR",
   "synonyms": [
     {
@@ -7969,7 +7881,7 @@
 }, {
   "parent": [],
   "positionsCount": 2234.0,
-  "ranking": 225,
+  "ranking": 224,
   "skill": "SUPERVISOR",
   "synonyms": [
     {
@@ -8002,7 +7914,7 @@
     "TI"
   ],
   "positionsCount": 1853.0,
-  "ranking": 226,
+  "ranking": 225,
   "skill": "SEGURANCA DA INFORMACAO",
   "synonyms": [
     {
@@ -8052,7 +7964,7 @@
     "BACKEND"
   ],
   "positionsCount": 1757.0,
-  "ranking": 227,
+  "ranking": 226,
   "skill": "ASP NET",
   "synonyms": [
     {
@@ -8083,7 +7995,7 @@
     "MOBILE"
   ],
   "positionsCount": 1694.0,
-  "ranking": 228,
+  "ranking": 227,
   "skill": "REACT NATIVE",
   "synonyms": [
     {
@@ -8109,7 +8021,7 @@
     "SQL"
   ],
   "positionsCount": 1666.0,
-  "ranking": 229,
+  "ranking": 228,
   "skill": "MYSQL",
   "synonyms": [
     {
@@ -8128,7 +8040,7 @@
 }, {
   "parent": [],
   "positionsCount": 1556.0,
-  "ranking": 230,
+  "ranking": 229,
   "skill": "DEPARTAMENTO PESSOAL",
   "synonyms": [
     {
@@ -8147,7 +8059,7 @@
     "FRONTEND"
   ],
   "positionsCount": 1545.0,
-  "ranking": 231,
+  "ranking": 230,
   "skill": "SCRIPT",
   "synonyms": [
     {
@@ -8166,7 +8078,7 @@
 }, {
   "parent": [],
   "positionsCount": 1503.0,
-  "ranking": 232,
+  "ranking": 231,
   "skill": "RESTAURANTE",
   "synonyms": [
     {
@@ -8201,7 +8113,7 @@
   ],
   "positionsCount": 1436.0,
   "prerequisites": [],
-  "ranking": 233,
+  "ranking": 232,
   "similar": [
     {
       "gemini": true,
@@ -8294,7 +8206,7 @@
       "word": "REPLICATION AND HIGH AVAILABILITY"
     }
   ],
-  "ranking": 234,
+  "ranking": 233,
   "similar": [
     {
       "gemini": true,
@@ -8357,7 +8269,7 @@
 }, {
   "parent": [],
   "positionsCount": 1415.0,
-  "ranking": 235,
+  "ranking": 234,
   "skill": "DESIGNER",
   "synonyms": [
     {
@@ -8372,7 +8284,7 @@
 }, {
   "parent": [],
   "positionsCount": 1407.0,
-  "ranking": 236,
+  "ranking": 235,
   "skill": "ESPANHOL",
   "synonyms": [
     {
@@ -8391,7 +8303,7 @@
 }, {
   "parent": [],
   "positionsCount": 1365.0,
-  "ranking": 237,
+  "ranking": 236,
   "skill": "LIMPEZA",
   "synonyms": [
     {
@@ -8404,7 +8316,7 @@
     "DIREITO"
   ],
   "positionsCount": 1342.0,
-  "ranking": 238,
+  "ranking": 237,
   "skill": "LEGISLACAO",
   "synonyms": [
     {
@@ -8419,7 +8331,7 @@
 }, {
   "parent": [],
   "positionsCount": 1276.0,
-  "ranking": 239,
+  "ranking": 238,
   "skill": "ESTRATEGIA",
   "synonyms": [
     {
@@ -8442,7 +8354,7 @@
 }, {
   "parent": [],
   "positionsCount": 1221.0,
-  "ranking": 240,
+  "ranking": 239,
   "skill": "ATENDENTE",
   "synonyms": [
     {
@@ -8532,7 +8444,7 @@
       "word": "FUNCTIONAL PROGRAMMING CONCEPTS"
     }
   ],
-  "ranking": 241,
+  "ranking": 240,
   "similar": [],
   "skill": "TYPESCRIPT",
   "synonyms": [
@@ -8562,7 +8474,7 @@
       "word": "INDEXING"
     }
   ],
-  "ranking": 242,
+  "ranking": 241,
   "similar": [
     {
       "gemini": true,
@@ -8632,7 +8544,7 @@
     "SPRING"
   ],
   "positionsCount": 1172.0,
-  "ranking": 243,
+  "ranking": 242,
   "similar": [
     {
       "gemini": true,
@@ -8680,7 +8592,7 @@
     "ERP"
   ],
   "positionsCount": 1147.0,
-  "ranking": 244,
+  "ranking": 243,
   "skill": "SD",
   "synonyms": [
     {
@@ -8698,7 +8610,7 @@
     "CICD"
   ],
   "positionsCount": 1147.0,
-  "ranking": 245,
+  "ranking": 244,
   "skill": "PIPELINES",
   "synonyms": [
     {
@@ -8713,7 +8625,7 @@
 }, {
   "parent": [],
   "positionsCount": 1137.0,
-  "ranking": 246,
+  "ranking": 245,
   "skill": "DIRETORIA",
   "synonyms": [
     {
@@ -8756,7 +8668,7 @@
       "word": "UNIT TESTING"
     }
   ],
-  "ranking": 247,
+  "ranking": 246,
   "similar": [
     {
       "gemini": true,
@@ -8812,7 +8724,7 @@
       "word": "D3.JS"
     }
   ],
-  "ranking": 248,
+  "ranking": 247,
   "similar": [
     {
       "gemini": true,
@@ -8898,7 +8810,7 @@
       "word": "ERROR HANDLING"
     }
   ],
-  "ranking": 249,
+  "ranking": 248,
   "similar": [
     {
       "gemini": true,
@@ -8941,7 +8853,7 @@
     "SERVER"
   ],
   "positionsCount": 1045.0,
-  "ranking": 250,
+  "ranking": 249,
   "skill": "JBOSS",
   "synonyms": [
     {
@@ -8975,7 +8887,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 1036.0,
-  "ranking": 251,
+  "ranking": 250,
   "skill": "KANBAN",
   "synonyms": [
     {
@@ -8986,7 +8898,7 @@
 }, {
   "parent": [],
   "positionsCount": 1014.0,
-  "ranking": 252,
+  "ranking": 251,
   "skill": "CAMPANHAS",
   "synonyms": [
     {
@@ -9011,7 +8923,7 @@
     "TI"
   ],
   "positionsCount": 1006.0,
-  "ranking": 253,
+  "ranking": 252,
   "skill": "GERENTE DE PROJETOS",
   "synonyms": [
     {
@@ -9028,7 +8940,7 @@
     "TI"
   ],
   "positionsCount": 996.0,
-  "ranking": 254,
+  "ranking": 253,
   "skill": "SUSTENTACAO",
   "synonyms": [
     {
@@ -9042,7 +8954,7 @@
     "BACKEND"
   ],
   "positionsCount": 991.0,
-  "ranking": 255,
+  "ranking": 254,
   "skill": "SHELL",
   "synonyms": [
     {
@@ -9065,7 +8977,7 @@
 }, {
   "parent": [],
   "positionsCount": 977.0,
-  "ranking": 256,
+  "ranking": 255,
   "skill": "LUCRO",
   "synonyms": [
     {
@@ -9090,7 +9002,7 @@
     "TI"
   ],
   "positionsCount": 975.0,
-  "ranking": 257,
+  "ranking": 256,
   "skill": "GESTAO DE PROJETOS",
   "synonyms": [
     {
@@ -9101,7 +9013,7 @@
 }, {
   "parent": [],
   "positionsCount": 951.0,
-  "ranking": 258,
+  "ranking": 257,
   "skill": "EXECUTIVO",
   "synonyms": [
     {
@@ -9127,7 +9039,7 @@
     "DB"
   ],
   "positionsCount": 938.0,
-  "ranking": 259,
+  "ranking": 258,
   "skill": "DBA",
   "synonyms": [
     {
@@ -9153,7 +9065,7 @@
     "DB"
   ],
   "positionsCount": 917.0,
-  "ranking": 260,
+  "ranking": 259,
   "skill": "MODELAGEM DE DADOS",
   "synonyms": [
     {
@@ -9171,7 +9083,7 @@
     "SCRUM"
   ],
   "positionsCount": 893.0,
-  "ranking": 261,
+  "ranking": 260,
   "skill": "SQUAD",
   "synonyms": [
     {
@@ -9186,7 +9098,7 @@
 }, {
   "parent": [],
   "positionsCount": 876.0,
-  "ranking": 262,
+  "ranking": 261,
   "skill": "FOLHA DE PAGAMENTO",
   "synonyms": [
     {
@@ -9226,7 +9138,7 @@
       "word": "FUNCTIONAL PROGRAMMING"
     }
   ],
-  "ranking": 263,
+  "ranking": 262,
   "similar": [
     {
       "gemini": true,
@@ -9264,7 +9176,7 @@
 }, {
   "parent": [],
   "positionsCount": 849.0,
-  "ranking": 264,
+  "ranking": 263,
   "skill": "ISO",
   "synonyms": [
     {
@@ -9283,7 +9195,7 @@
 }, {
   "parent": [],
   "positionsCount": 837.0,
-  "ranking": 265,
+  "ranking": 264,
   "skill": "VAREJO",
   "synonyms": [
     {
@@ -9297,7 +9209,7 @@
     "BACKEND"
   ],
   "positionsCount": 829.0,
-  "ranking": 266,
+  "ranking": 265,
   "skill": "CONTAINERS",
   "synonyms": [
     {
@@ -9315,7 +9227,7 @@
     "REACTJS"
   ],
   "positionsCount": 827.0,
-  "ranking": 267,
+  "ranking": 266,
   "skill": "REDUX",
   "synonyms": [
     {
@@ -9341,7 +9253,7 @@
     "SAP"
   ],
   "positionsCount": 827.0,
-  "ranking": 268,
+  "ranking": 267,
   "skill": "ABAP",
   "synonyms": [
     {
@@ -9382,7 +9294,7 @@
       "word": "ABILITY TO CREATE AND MANAGE JIRA ISSUES"
     }
   ],
-  "ranking": 269,
+  "ranking": 268,
   "similar": [
     {
       "gemini": true,
@@ -9484,7 +9396,7 @@
 }, {
   "parent": [],
   "positionsCount": 786.0,
-  "ranking": 270,
+  "ranking": 269,
   "skill": "INCIDENTES",
   "synonyms": [
     {
@@ -9514,7 +9426,7 @@
       "word": "DECLARATIVE PIPELINES"
     }
   ],
-  "ranking": 271,
+  "ranking": 270,
   "similar": [
     {
       "gemini": true,
@@ -9542,7 +9454,7 @@
 }, {
   "parent": [],
   "positionsCount": 744.0,
-  "ranking": 272,
+  "ranking": 271,
   "skill": "MOTORISTA",
   "synonyms": [
     {
@@ -9560,7 +9472,7 @@
     "IDE"
   ],
   "positionsCount": 723.0,
-  "ranking": 273,
+  "ranking": 272,
   "skill": "VISUAL STUDIO",
   "synonyms": [
     {
@@ -9600,7 +9512,7 @@
     "OOP"
   ],
   "positionsCount": 719.0,
-  "ranking": 274,
+  "ranking": 273,
   "skill": "SOLID",
   "synonyms": [
     {
@@ -9614,7 +9526,7 @@
     "ERP"
   ],
   "positionsCount": 717.0,
-  "ranking": 275,
+  "ranking": 274,
   "skill": "HANA",
   "synonyms": [
     {
@@ -9648,7 +9560,7 @@
     "BACKEND"
   ],
   "positionsCount": 705.0,
-  "ranking": 276,
+  "ranking": 275,
   "skill": "GO",
   "synonyms": [
     {
@@ -9671,7 +9583,7 @@
   ],
   "positionsCount": 697.0,
   "prerequisites": [],
-  "ranking": 277,
+  "ranking": 276,
   "similar": [
     {
       "gemini": true,
@@ -9703,7 +9615,7 @@
   ],
   "positionsCount": 694.0,
   "prerequisites": [],
-  "ranking": 278,
+  "ranking": 277,
   "similar": [
     {
       "gemini": true,
@@ -9758,7 +9670,7 @@
 }, {
   "parent": [],
   "positionsCount": 691.0,
-  "ranking": 279,
+  "ranking": 278,
   "skill": "TREINAMENTO E DESENVOLVIMENTO",
   "synonyms": [
     {
@@ -9781,7 +9693,7 @@
   ],
   "positionsCount": 674.0,
   "prerequisites": [],
-  "ranking": 280,
+  "ranking": 279,
   "similar": [
     {
       "gemini": true,
@@ -9834,7 +9746,7 @@
       "word": "WIDGET-BASED UI"
     }
   ],
-  "ranking": 281,
+  "ranking": 280,
   "similar": [],
   "skill": "FLUTTER",
   "synonyms": [
@@ -9861,7 +9773,7 @@
       "word": "REST APIS"
     }
   ],
-  "ranking": 282,
+  "ranking": 281,
   "similar": [
     {
       "gemini": true,
@@ -9918,7 +9830,7 @@
 }, {
   "parent": [],
   "positionsCount": 611.0,
-  "ranking": 283,
+  "ranking": 282,
   "skill": "GESTAO DE PESSOAS",
   "synonyms": [
     {
@@ -9929,7 +9841,7 @@
 }, {
   "parent": [],
   "positionsCount": 585.0,
-  "ranking": 284,
+  "ranking": 283,
   "skill": "COBRANCA",
   "synonyms": [
     {
@@ -9942,7 +9854,7 @@
     "ELETRICIDADE"
   ],
   "positionsCount": 584.0,
-  "ranking": 285,
+  "ranking": 284,
   "skill": "ELETRICISTA",
   "synonyms": [
     {
@@ -9960,7 +9872,7 @@
     "IOS"
   ],
   "positionsCount": 538.0,
-  "ranking": 286,
+  "ranking": 285,
   "skill": "SWIFT",
   "synonyms": [
     {
@@ -9978,7 +9890,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 534.0,
-  "ranking": 287,
+  "ranking": 286,
   "skill": "LEAN",
   "synonyms": [
     {
@@ -9991,7 +9903,7 @@
     "COMPRA"
   ],
   "positionsCount": 526.0,
-  "ranking": 288,
+  "ranking": 287,
   "skill": "COMPRADOR",
   "synonyms": [
     {
@@ -10031,7 +9943,7 @@
       "word": "MESSAGING PROTOCOLS"
     }
   ],
-  "ranking": 289,
+  "ranking": 288,
   "similar": [
     {
       "gemini": true,
@@ -10067,7 +9979,7 @@
 }, {
   "parent": [],
   "positionsCount": 508.0,
-  "ranking": 290,
+  "ranking": 289,
   "skill": "PHOTOSHOP",
   "synonyms": [
     {
@@ -10093,7 +10005,7 @@
     "OOP"
   ],
   "positionsCount": 497.0,
-  "ranking": 291,
+  "ranking": 290,
   "skill": "DDD",
   "synonyms": [
     {
@@ -10116,7 +10028,7 @@
 }, {
   "parent": [],
   "positionsCount": 497.0,
-  "ranking": 292,
+  "ranking": 291,
   "skill": "ENCARREGADO",
   "synonyms": [
     {
@@ -10169,7 +10081,7 @@
       "word": "KNOWLEDGE OF MARKDOWN FOR DOCUMENTATION"
     }
   ],
-  "ranking": 293,
+  "ranking": 292,
   "similar": [
     {
       "gemini": true,
@@ -10206,7 +10118,7 @@
     "CIENCIA"
   ],
   "positionsCount": 484.0,
-  "ranking": 294,
+  "ranking": 293,
   "skill": "LABORATORIO",
   "synonyms": [
     {
@@ -10221,7 +10133,7 @@
 }, {
   "parent": [],
   "positionsCount": 480.0,
-  "ranking": 295,
+  "ranking": 294,
   "skill": "CONTROLADORIA",
   "synonyms": [
     {
@@ -10232,7 +10144,7 @@
 }, {
   "parent": [],
   "positionsCount": 465.0,
-  "ranking": 296,
+  "ranking": 295,
   "skill": "E-SOCIAL",
   "synonyms": [
     {
@@ -10254,7 +10166,7 @@
     "ORM"
   ],
   "positionsCount": 462.0,
-  "ranking": 297,
+  "ranking": 296,
   "skill": "ENTITY FRAMEWORK",
   "synonyms": [
     {
@@ -10298,7 +10210,7 @@
       "word": "RAPID APPLICATION DEVELOPMENT"
     }
   ],
-  "ranking": 298,
+  "ranking": 297,
   "similar": [
     {
       "gemini": true,
@@ -10368,7 +10280,7 @@
       "word": "EBS ARCHITECTURE"
     }
   ],
-  "ranking": 299,
+  "ranking": 298,
   "similar": [
     {
       "gemini": true,
@@ -10397,7 +10309,7 @@
     "CIENCIA"
   ],
   "positionsCount": 440.0,
-  "ranking": 300,
+  "ranking": 299,
   "skill": "CIENTISTA",
   "synonyms": [
     {
@@ -10443,7 +10355,7 @@
       "word": "JUNIT FRAMEWORK"
     }
   ],
-  "ranking": 301,
+  "ranking": 300,
   "similar": [],
   "skill": "JUNIT",
   "synonyms": [
@@ -10458,7 +10370,7 @@
     "JS"
   ],
   "positionsCount": 436.0,
-  "ranking": 302,
+  "ranking": 301,
   "skill": "JSON",
   "synonyms": [
     {
@@ -10469,7 +10381,7 @@
 }, {
   "parent": [],
   "positionsCount": 424.0,
-  "ranking": 303,
+  "ranking": 302,
   "skill": "ELETRONICA",
   "synonyms": [
     {
@@ -10491,7 +10403,7 @@
       "word": "MERGE REQUESTS"
     }
   ],
-  "ranking": 304,
+  "ranking": 303,
   "similar": [
     {
       "gemini": true,
@@ -10554,7 +10466,7 @@
       "word": "COMMAND LINE"
     }
   ],
-  "ranking": 305,
+  "ranking": 304,
   "similar": [],
   "skill": "BITBUCKET",
   "synonyms": [
@@ -10570,7 +10482,7 @@
 }, {
   "parent": [],
   "positionsCount": 411.0,
-  "ranking": 306,
+  "ranking": 305,
   "skill": "CONFERENCIA",
   "synonyms": [
     {
@@ -10598,7 +10510,7 @@
   ],
   "positionsCount": 410.0,
   "prerequisites": [],
-  "ranking": 307,
+  "ranking": 306,
   "similar": [
     {
       "gemini": true,
@@ -11007,7 +10919,7 @@
     "SCRUM"
   ],
   "positionsCount": 410.0,
-  "ranking": 308,
+  "ranking": 307,
   "skill": "SPRINT",
   "synonyms": [
     {
@@ -11030,7 +10942,7 @@
   ],
   "positionsCount": 410.0,
   "prerequisites": [],
-  "ranking": 309,
+  "ranking": 308,
   "similar": [],
   "skill": "ASP",
   "synonyms": [
@@ -11048,7 +10960,7 @@
     "DIREITO"
   ],
   "positionsCount": 407.0,
-  "ranking": 310,
+  "ranking": 309,
   "skill": "ADVOGADO",
   "synonyms": [
     {
@@ -11096,7 +11008,7 @@
       "word": "ABILITY TO USE GIT BRANCHING AND MERGING"
     }
   ],
-  "ranking": 311,
+  "ranking": 310,
   "similar": [
     {
       "gemini": true,
@@ -11136,7 +11048,7 @@
 }, {
   "parent": [],
   "positionsCount": 395.0,
-  "ranking": 312,
+  "ranking": 311,
   "skill": "POWER POINT",
   "synonyms": [
     {
@@ -11151,7 +11063,7 @@
 }, {
   "parent": [],
   "positionsCount": 379.0,
-  "ranking": 313,
+  "ranking": 312,
   "skill": "TESOURARIA",
   "synonyms": [
     {
@@ -11185,7 +11097,7 @@
     "SAP"
   ],
   "positionsCount": 374.0,
-  "ranking": 314,
+  "ranking": 313,
   "skill": "BASIS",
   "synonyms": [
     {
@@ -11204,7 +11116,7 @@
   ],
   "positionsCount": 371.0,
   "prerequisites": [],
-  "ranking": 315,
+  "ranking": 314,
   "similar": [
     {
       "gemini": true,
@@ -11241,7 +11153,7 @@
     "SERVER"
   ],
   "positionsCount": 355.0,
-  "ranking": 316,
+  "ranking": 315,
   "skill": "WEBLOGIC",
   "synonyms": [
     {
@@ -11268,7 +11180,7 @@
 }, {
   "parent": [],
   "positionsCount": 354.0,
-  "ranking": 317,
+  "ranking": 316,
   "skill": "TELEFONIA",
   "synonyms": [
     {
@@ -11299,7 +11211,7 @@
       "word": "BASIC PROGRAMMING CONCEPTS"
     }
   ],
-  "ranking": 318,
+  "ranking": 317,
   "similar": [
     {
       "gemini": true,
@@ -11355,7 +11267,7 @@
     "AGIL"
   ],
   "positionsCount": 346.0,
-  "ranking": 319,
+  "ranking": 318,
   "skill": "AGILE COACH",
   "synonyms": [
     {
@@ -11381,7 +11293,7 @@
     "DB"
   ],
   "positionsCount": 345.0,
-  "ranking": 320,
+  "ranking": 319,
   "skill": "INTEGRIDADE",
   "synonyms": [
     {
@@ -11398,7 +11310,7 @@
     "TI"
   ],
   "positionsCount": 338.0,
-  "ranking": 321,
+  "ranking": 320,
   "skill": "AD",
   "synonyms": [
     {
@@ -11457,7 +11369,7 @@
       "word": "WORKFLOW CREATION"
     }
   ],
-  "ranking": 322,
+  "ranking": 321,
   "similar": [
     {
       "gemini": true,
@@ -11569,7 +11481,7 @@
 }, {
   "parent": [],
   "positionsCount": 330.0,
-  "ranking": 323,
+  "ranking": 322,
   "skill": "SUPPLY",
   "synonyms": [
     {
@@ -11602,7 +11514,7 @@
       "word": "TOMCAT ADMINISTRATION"
     }
   ],
-  "ranking": 324,
+  "ranking": 323,
   "similar": [
     {
       "gemini": true,
@@ -11695,7 +11607,7 @@
     "SAP"
   ],
   "positionsCount": 328.0,
-  "ranking": 325,
+  "ranking": 324,
   "skill": "SAP FI",
   "synonyms": [
     {
@@ -11708,7 +11620,7 @@
     "TI"
   ],
   "positionsCount": 323.0,
-  "ranking": 326,
+  "ranking": 325,
   "skill": "MVVM",
   "synonyms": [
     {
@@ -11739,7 +11651,7 @@
       "word": "DATA QUERY LANGUAGE (DQL)"
     }
   ],
-  "ranking": 327,
+  "ranking": 326,
   "similar": [
     {
       "gemini": true,
@@ -11784,7 +11696,7 @@
     "SAP"
   ],
   "positionsCount": 319.0,
-  "ranking": 328,
+  "ranking": 327,
   "skill": "SAP MM",
   "synonyms": [
     {
@@ -11836,7 +11748,7 @@
       "word": "SHELL/BASH SCRIPTING"
     }
   ],
-  "ranking": 329,
+  "ranking": 328,
   "similar": [
     {
       "gemini": true,
@@ -11883,7 +11795,7 @@
     "MARKETING"
   ],
   "positionsCount": 317.0,
-  "ranking": 330,
+  "ranking": 329,
   "skill": "MARKETING DIGITAL",
   "synonyms": [
     {
@@ -11919,7 +11831,7 @@
       "word": "HTTP/HTTPS"
     }
   ],
-  "ranking": 331,
+  "ranking": 330,
   "similar": [
     {
       "gemini": true,
@@ -11995,7 +11907,7 @@
       "word": "VSPHERE VIRTUAL MACHINES MANAGEMENT"
     }
   ],
-  "ranking": 332,
+  "ranking": 331,
   "similar": [
     {
       "gemini": true,
@@ -12164,7 +12076,7 @@
   ],
   "positionsCount": 307.0,
   "prerequisites": [],
-  "ranking": 333,
+  "ranking": 332,
   "similar": [
     {
       "gemini": true,
@@ -12208,7 +12120,7 @@
     "WS"
   ],
   "positionsCount": 306.0,
-  "ranking": 334,
+  "ranking": 333,
   "skill": "SOA",
   "synonyms": [
     {
@@ -12238,7 +12150,7 @@
       "word": "SWAGGER EDITOR"
     }
   ],
-  "ranking": 335,
+  "ranking": 334,
   "similar": [
     {
       "gemini": true,
@@ -12266,7 +12178,7 @@
 }, {
   "parent": [],
   "positionsCount": 303.0,
-  "ranking": 336,
+  "ranking": 335,
   "skill": "CORRETOR",
   "synonyms": [
     {
@@ -12300,7 +12212,7 @@
     "DB"
   ],
   "positionsCount": 303.0,
-  "ranking": 337,
+  "ranking": 336,
   "skill": "DW",
   "synonyms": [
     {
@@ -12327,7 +12239,7 @@
   ],
   "positionsCount": 300.0,
   "prerequisites": [],
-  "ranking": 338,
+  "ranking": 337,
   "similar": [],
   "skill": "LAMBDA",
   "synonyms": [
@@ -12349,7 +12261,7 @@
     "SECRETARIADO"
   ],
   "positionsCount": 298.0,
-  "ranking": 339,
+  "ranking": 338,
   "skill": "SECRETARIA",
   "synonyms": [
     {
@@ -12375,7 +12287,7 @@
     "TDD"
   ],
   "positionsCount": 294.0,
-  "ranking": 340,
+  "ranking": 339,
   "skill": "TESTER",
   "synonyms": [
     {
@@ -12398,7 +12310,7 @@
 }, {
   "parent": [],
   "positionsCount": 292.0,
-  "ranking": 341,
+  "ranking": 340,
   "skill": "ARTES",
   "synonyms": [
     {
@@ -12415,7 +12327,7 @@
     "TI"
   ],
   "positionsCount": 289.0,
-  "ranking": 342,
+  "ranking": 341,
   "skill": "LGPD",
   "synonyms": [
     {
@@ -12428,7 +12340,7 @@
     "MEDICINA"
   ],
   "positionsCount": 282.0,
-  "ranking": 343,
+  "ranking": 342,
   "skill": "DIAGNOSTICO",
   "synonyms": [
     {
@@ -12442,7 +12354,7 @@
     "BACKEND"
   ],
   "positionsCount": 281.0,
-  "ranking": 344,
+  "ranking": 343,
   "skill": "CPP",
   "synonyms": [
     {
@@ -12455,7 +12367,7 @@
     "GERENCIAMENTO"
   ],
   "positionsCount": 279.0,
-  "ranking": 345,
+  "ranking": 344,
   "skill": "GERENTE COMERCIAL",
   "synonyms": [
     {
@@ -12470,7 +12382,7 @@
 }, {
   "parent": [],
   "positionsCount": 278.0,
-  "ranking": 346,
+  "ranking": 345,
   "skill": "HISTORIA",
   "synonyms": [
     {
@@ -12484,7 +12396,7 @@
     "JSP"
   ],
   "positionsCount": 275.0,
-  "ranking": 347,
+  "ranking": 346,
   "skill": "EL",
   "synonyms": [
     {
@@ -12502,7 +12414,7 @@
     "PMBOOK"
   ],
   "positionsCount": 275.0,
-  "ranking": 348,
+  "ranking": 347,
   "skill": "PMO",
   "synonyms": [
     {
@@ -12515,7 +12427,7 @@
     "IMPOSTO"
   ],
   "positionsCount": 270.0,
-  "ranking": 349,
+  "ranking": 348,
   "skill": "ICMS",
   "synonyms": [
     {
@@ -12555,7 +12467,7 @@
       "word": "BDD PRINCIPLES"
     }
   ],
-  "ranking": 350,
+  "ranking": 349,
   "similar": [
     {
       "gemini": true,
@@ -12608,7 +12520,7 @@
       "word": "WORK ITEM TRACKING"
     }
   ],
-  "ranking": 351,
+  "ranking": 350,
   "similar": [
     {
       "gemini": true,
@@ -12661,7 +12573,7 @@
       "word": "SCRIPTING"
     }
   ],
-  "ranking": 352,
+  "ranking": 351,
   "similar": [
     {
       "gemini": true,
@@ -12706,7 +12618,7 @@
     "TI"
   ],
   "positionsCount": 261.0,
-  "ranking": 353,
+  "ranking": 352,
   "skill": "SRE",
   "synonyms": [
     {
@@ -12723,7 +12635,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 256.0,
-  "ranking": 354,
+  "ranking": 353,
   "skill": "ENGENHARIA DE PRODUCAO",
   "synonyms": [
     {
@@ -12737,7 +12649,7 @@
     "SAP"
   ],
   "positionsCount": 251.0,
-  "ranking": 355,
+  "ranking": 354,
   "skill": "FIORI",
   "synonyms": [
     {
@@ -12756,7 +12668,7 @@
   ],
   "positionsCount": 250.0,
   "prerequisites": [],
-  "ranking": 356,
+  "ranking": 355,
   "similar": [
     {
       "gemini": true,
@@ -12790,7 +12702,7 @@
     "SAP"
   ],
   "positionsCount": 250.0,
-  "ranking": 357,
+  "ranking": 356,
   "skill": "BUSINESS ONE",
   "synonyms": [
     {
@@ -12811,7 +12723,7 @@
     "FARMACIA"
   ],
   "positionsCount": 250.0,
-  "ranking": 358,
+  "ranking": 357,
   "skill": "FARMACEUTICO",
   "synonyms": [
     {
@@ -12871,7 +12783,7 @@
       "word": "EXCELLENT COMMUNICATION AND INTERPERSONAL SKILLS"
     }
   ],
-  "ranking": 359,
+  "ranking": 358,
   "similar": [
     {
       "gemini": true,
@@ -12961,7 +12873,7 @@
       "word": "CLOUD COMPUTING (GOOGLE CLOUD PLATFORM)"
     }
   ],
-  "ranking": 360,
+  "ranking": 359,
   "similar": [
     {
       "gemini": true,
@@ -13018,7 +12930,7 @@
     "UX"
   ],
   "positionsCount": 242.0,
-  "ranking": 361,
+  "ranking": 360,
   "skill": "UX DESIGNER",
   "synonyms": [
     {
@@ -13036,7 +12948,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 241.0,
-  "ranking": 362,
+  "ranking": 361,
   "skill": "TCPIP",
   "synonyms": [
     {
@@ -13058,7 +12970,7 @@
     "ERP"
   ],
   "positionsCount": 240.0,
-  "ranking": 363,
+  "ranking": 362,
   "skill": "FICO",
   "synonyms": [
     {
@@ -13073,7 +12985,7 @@
 }, {
   "parent": [],
   "positionsCount": 237.0,
-  "ranking": 364,
+  "ranking": 363,
   "skill": "MONTADOR",
   "synonyms": [
     {
@@ -13101,7 +13013,7 @@
   ],
   "positionsCount": 234.0,
   "prerequisites": [],
-  "ranking": 365,
+  "ranking": 364,
   "similar": [
     {
       "gemini": true,
@@ -13193,7 +13105,7 @@
       "word": "SLICK"
     }
   ],
-  "ranking": 366,
+  "ranking": 365,
   "similar": [],
   "skill": "SCALA",
   "synonyms": [
@@ -13208,7 +13120,7 @@
     "DB"
   ],
   "positionsCount": 232.0,
-  "ranking": 367,
+  "ranking": 366,
   "skill": "DATA LAKE",
   "synonyms": [
     {
@@ -13226,7 +13138,7 @@
     "SAP"
   ],
   "positionsCount": 228.0,
-  "ranking": 368,
+  "ranking": 367,
   "skill": "HYBRIS",
   "synonyms": [
     {
@@ -13243,7 +13155,7 @@
     "AUDITORIA"
   ],
   "positionsCount": 228.0,
-  "ranking": 369,
+  "ranking": 368,
   "skill": "AUDITOR",
   "synonyms": [
     {
@@ -13268,7 +13180,7 @@
       "word": "TABLEAU DESKTOP"
     }
   ],
-  "ranking": 370,
+  "ranking": 369,
   "similar": [
     {
       "gemini": true,
@@ -13317,7 +13229,7 @@
     "SOLDA"
   ],
   "positionsCount": 225.0,
-  "ranking": 371,
+  "ranking": 370,
   "skill": "SOLDADOR",
   "synonyms": [
     {
@@ -13338,7 +13250,7 @@
     "PRODUTOS"
   ],
   "positionsCount": 225.0,
-  "ranking": 372,
+  "ranking": 371,
   "skill": "PRODUCT MANAGER",
   "synonyms": [
     {
@@ -13357,7 +13269,7 @@
 }, {
   "parent": [],
   "positionsCount": 224.0,
-  "ranking": 373,
+  "ranking": 372,
   "skill": "PORTARIA",
   "synonyms": [
     {
@@ -13384,7 +13296,7 @@
     "FRONTEND"
   ],
   "positionsCount": 222.0,
-  "ranking": 374,
+  "ranking": 373,
   "skill": "LIBRARIES",
   "synonyms": [
     {
@@ -13421,7 +13333,7 @@
       "word": "TESTING AND DEBUGGING"
     }
   ],
-  "ranking": 375,
+  "ranking": 374,
   "similar": [
     {
       "gemini": true,
@@ -13446,7 +13358,7 @@
     "MEDICINA"
   ],
   "positionsCount": 220.0,
-  "ranking": 376,
+  "ranking": 375,
   "skill": "MEDICAMENTOS",
   "synonyms": [
     {
@@ -13464,7 +13376,7 @@
     "BACKEND"
   ],
   "positionsCount": 218.0,
-  "ranking": 377,
+  "ranking": 376,
   "skill": "VB",
   "synonyms": [
     {
@@ -13488,7 +13400,7 @@
   ],
   "positionsCount": 217.0,
   "prerequisites": [],
-  "ranking": 378,
+  "ranking": 377,
   "similar": [
     {
       "gemini": true,
@@ -13553,7 +13465,7 @@
     "GERENCIAMENTO"
   ],
   "positionsCount": 216.0,
-  "ranking": 379,
+  "ranking": 378,
   "skill": "GERENTE DE CONTAS",
   "synonyms": [
     {
@@ -13575,7 +13487,7 @@
     "SAP"
   ],
   "positionsCount": 216.0,
-  "ranking": 380,
+  "ranking": 379,
   "skill": "EWM",
   "synonyms": [
     {
@@ -13610,7 +13522,7 @@
       "word": "SECURITY PRINCIPLES AND PRACTICES"
     }
   ],
-  "ranking": 381,
+  "ranking": 380,
   "similar": [
     {
       "gemini": true,
@@ -13657,7 +13569,7 @@
       "word": "KNOWLEDGE MANAGEMENT"
     }
   ],
-  "ranking": 382,
+  "ranking": 381,
   "similar": [
     {
       "gemini": true,
@@ -13686,7 +13598,7 @@
     "PROCESSO"
   ],
   "positionsCount": 214.0,
-  "ranking": 383,
+  "ranking": 382,
   "skill": "WORKFLOW",
   "synonyms": [
     {
@@ -13707,7 +13619,7 @@
     "ENFERMAGEM"
   ],
   "positionsCount": 212.0,
-  "ranking": 384,
+  "ranking": 383,
   "skill": "ENFERMEIRO",
   "synonyms": [
     {
@@ -13755,7 +13667,7 @@
       "word": "SVN COMMANDS"
     }
   ],
-  "ranking": 385,
+  "ranking": 384,
   "similar": [
     {
       "gemini": true,
@@ -13779,7 +13691,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 206.0,
-  "ranking": 386,
+  "ranking": 385,
   "skill": "ENGENHARIA CIVIL",
   "synonyms": [
     {
@@ -13792,7 +13704,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 206.0,
-  "ranking": 387,
+  "ranking": 386,
   "skill": "ENGENHARIA MECANICA",
   "synonyms": [
     {
@@ -13807,7 +13719,7 @@
   ],
   "positionsCount": 200.0,
   "prerequisites": [],
-  "ranking": 388,
+  "ranking": 387,
   "similar": [
     {
       "gemini": true,
@@ -13846,7 +13758,7 @@
     "BUCKET"
   ],
   "positionsCount": 199.0,
-  "ranking": 389,
+  "ranking": 388,
   "skill": "S3",
   "synonyms": [
     {
@@ -13867,7 +13779,7 @@
     "QUIMICA"
   ],
   "positionsCount": 198.0,
-  "ranking": 390,
+  "ranking": 389,
   "skill": "QUIMICO",
   "synonyms": [
     {
@@ -13898,7 +13810,7 @@
       "word": "GRAPHITE"
     }
   ],
-  "ranking": 391,
+  "ranking": 390,
   "similar": [
     {
       "gemini": true,
@@ -13948,7 +13860,7 @@
     "COBOL"
   ],
   "positionsCount": 194.0,
-  "ranking": 392,
+  "ranking": 391,
   "skill": "DB2",
   "synonyms": [
     {
@@ -13966,7 +13878,7 @@
     "AUTOMACAO"
   ],
   "positionsCount": 191.0,
-  "ranking": 393,
+  "ranking": 392,
   "skill": "AUTOMATIZADOR",
   "synonyms": [
     {
@@ -14001,7 +13913,7 @@
       "word": "PRODUCT MANAGEMENT"
     }
   ],
-  "ranking": 394,
+  "ranking": 393,
   "similar": [
     {
       "gemini": true,
@@ -14078,7 +13990,7 @@
     "JAVA"
   ],
   "positionsCount": 189.0,
-  "ranking": 395,
+  "ranking": 394,
   "skill": "JDE",
   "synonyms": [
     {
@@ -14104,7 +14016,7 @@
     "DEPLOY"
   ],
   "positionsCount": 188.0,
-  "ranking": 396,
+  "ranking": 395,
   "similar": [
     {
       "gemini": true,
@@ -14160,7 +14072,7 @@
     "TI"
   ],
   "positionsCount": 187.0,
-  "ranking": 397,
+  "ranking": 396,
   "skill": "VPN",
   "synonyms": [
     {
@@ -14180,7 +14092,7 @@
       "word": "CUSTOMER RELATIONSHIP MANAGEMENT (CRM)"
     }
   ],
-  "ranking": 398,
+  "ranking": 397,
   "similar": [],
   "skill": "SAAS",
   "synonyms": [
@@ -14236,7 +14148,7 @@
       "word": "VB.NET SYNTAX"
     }
   ],
-  "ranking": 399,
+  "ranking": 398,
   "similar": [
     {
       "gemini": true,
@@ -14292,7 +14204,7 @@
       "word": "AWS CLI"
     }
   ],
-  "ranking": 400,
+  "ranking": 399,
   "similar": [
     {
       "gemini": true,
@@ -14350,7 +14262,7 @@
       "word": "COMMAND LINE INTERFACE"
     }
   ],
-  "ranking": 401,
+  "ranking": 400,
   "similar": [
     {
       "gemini": true,
@@ -14375,7 +14287,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 179.0,
-  "ranking": 402,
+  "ranking": 401,
   "skill": "IAM",
   "synonyms": [
     {
@@ -14433,7 +14345,7 @@
       "word": "DATA MAPPING"
     }
   ],
-  "ranking": 403,
+  "ranking": 402,
   "similar": [
     {
       "gemini": true,
@@ -14484,7 +14396,7 @@
 }, {
   "parent": [],
   "positionsCount": 175.0,
-  "ranking": 404,
+  "ranking": 403,
   "skill": "HOTEL",
   "synonyms": [
     {
@@ -14510,7 +14422,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 175.0,
-  "ranking": 405,
+  "ranking": 404,
   "similar": [
     {
       "gemini": true,
@@ -14553,7 +14465,7 @@
     "PUBLICIDADE"
   ],
   "positionsCount": 175.0,
-  "ranking": 406,
+  "ranking": 405,
   "skill": "PROPAGANDA",
   "synonyms": [
     {
@@ -14568,7 +14480,7 @@
 }, {
   "parent": [],
   "positionsCount": 171.0,
-  "ranking": 407,
+  "ranking": 406,
   "skill": "POLIMENTO",
   "synonyms": [
     {
@@ -14616,7 +14528,7 @@
       "word": "API MANAGEMENT"
     }
   ],
-  "ranking": 408,
+  "ranking": 407,
   "similar": [
     {
       "gemini": true,
@@ -14688,7 +14600,7 @@
       "word": "USER INTERFACE DESIGN"
     }
   ],
-  "ranking": 409,
+  "ranking": 408,
   "similar": [
     {
       "gemini": true,
@@ -14758,7 +14670,7 @@
     "PEDAGOGIA"
   ],
   "positionsCount": 167.0,
-  "ranking": 410,
+  "ranking": 409,
   "skill": "PROFESSOR",
   "synonyms": [
     {
@@ -14802,7 +14714,7 @@
       "word": "CONTENT OPTIMIZATION"
     }
   ],
-  "ranking": 411,
+  "ranking": 410,
   "similar": [
     {
       "gemini": true,
@@ -14853,7 +14765,7 @@
     "CMS"
   ],
   "positionsCount": 166.0,
-  "ranking": 412,
+  "ranking": 411,
   "similar": [],
   "skill": "WORDPRESS",
   "synonyms": [
@@ -14869,7 +14781,7 @@
 }, {
   "parent": [],
   "positionsCount": 166.0,
-  "ranking": 413,
+  "ranking": 412,
   "skill": "MEIO AMBIENTE",
   "synonyms": [
     {
@@ -14905,7 +14817,7 @@
       "word": "UNDERSTANDING OF BUSINESS PROCESSES"
     }
   ],
-  "ranking": 414,
+  "ranking": 413,
   "similar": [
     {
       "gemini": true,
@@ -14990,7 +14902,7 @@
     "EMPILHADEIRA"
   ],
   "positionsCount": 164.0,
-  "ranking": 415,
+  "ranking": 414,
   "skill": "OPERADOR DE EMPILHADEIRA",
   "synonyms": [
     {
@@ -15003,7 +14915,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 163.0,
-  "ranking": 416,
+  "ranking": 415,
   "skill": "ENGENHARIA ELETRICA",
   "synonyms": [
     {
@@ -15017,7 +14929,7 @@
     "CLOUD"
   ],
   "positionsCount": 162.0,
-  "ranking": 417,
+  "ranking": 416,
   "skill": "CLOUDFORMATION",
   "synonyms": [
     {
@@ -15043,7 +14955,7 @@
       "word": "RELATIONAL AND NOSQL DATABASES"
     }
   ],
-  "ranking": 418,
+  "ranking": 417,
   "similar": [
     {
       "gemini": true,
@@ -15075,7 +14987,7 @@
     "MARKETING"
   ],
   "positionsCount": 160.0,
-  "ranking": 419,
+  "ranking": 418,
   "skill": "TELEMARKETING",
   "synonyms": [
     {
@@ -15094,7 +15006,7 @@
   ],
   "positionsCount": 157.0,
   "prerequisites": [],
-  "ranking": 420,
+  "ranking": 419,
   "similar": [
     {
       "gemini": true,
@@ -15126,7 +15038,7 @@
     "ALMOXARIFADO"
   ],
   "positionsCount": 157.0,
-  "ranking": 421,
+  "ranking": 420,
   "skill": "ALMOXARIFE",
   "synonyms": [
     {
@@ -15157,7 +15069,7 @@
       "word": "TRIGONOMETRY"
     }
   ],
-  "ranking": 422,
+  "ranking": 421,
   "similar": [
     {
       "gemini": true,
@@ -15177,7 +15089,7 @@
     "PRODUTOS"
   ],
   "positionsCount": 154.0,
-  "ranking": 423,
+  "ranking": 422,
   "skill": "PRODUCT DESIGNER",
   "synonyms": [
     {
@@ -15217,7 +15129,7 @@
       "word": "MACRO CREATION"
     }
   ],
-  "ranking": 424,
+  "ranking": 423,
   "similar": [],
   "skill": "VBA",
   "synonyms": [
@@ -15240,7 +15152,7 @@
       "word": "IOS DEVELOPMENT"
     }
   ],
-  "ranking": 425,
+  "ranking": 424,
   "similar": [
     {
       "gemini": true,
@@ -15263,7 +15175,7 @@
 }, {
   "parent": [],
   "positionsCount": 153.0,
-  "ranking": 426,
+  "ranking": 425,
   "skill": "FACILITIES",
   "synonyms": [
     {
@@ -15277,7 +15189,7 @@
     "WS"
   ],
   "positionsCount": 152.0,
-  "ranking": 427,
+  "ranking": 426,
   "similar": [
     {
       "gemini": true,
@@ -15309,7 +15221,7 @@
 }, {
   "parent": [],
   "positionsCount": 152.0,
-  "ranking": 428,
+  "ranking": 427,
   "skill": "MARKETPLACE",
   "synonyms": [
     {
@@ -15327,7 +15239,7 @@
     "WS"
   ],
   "positionsCount": 151.0,
-  "ranking": 429,
+  "ranking": 428,
   "skill": "APIGEE",
   "synonyms": [
     {
@@ -15345,7 +15257,7 @@
     "SAP"
   ],
   "positionsCount": 149.0,
-  "ranking": 430,
+  "ranking": 429,
   "skill": "SOLMAN",
   "synonyms": [
     {
@@ -15412,7 +15324,7 @@
       "word": "OBJECT-ORIENTED DESIGN"
     }
   ],
-  "ranking": 431,
+  "ranking": 430,
   "similar": [],
   "skill": "OBJECTIVE-C",
   "synonyms": [
@@ -15436,7 +15348,7 @@
 }, {
   "parent": [],
   "positionsCount": 147.0,
-  "ranking": 432,
+  "ranking": 431,
   "skill": "FRAUDE",
   "synonyms": [
     {
@@ -15459,7 +15371,7 @@
 }, {
   "parent": [],
   "positionsCount": 147.0,
-  "ranking": 433,
+  "ranking": 432,
   "skill": "MS PROJECT",
   "synonyms": [
     {
@@ -15478,7 +15390,7 @@
 }, {
   "parent": [],
   "positionsCount": 144.0,
-  "ranking": 434,
+  "ranking": 433,
   "skill": "SERRALHEIRO",
   "synonyms": [
     {
@@ -15527,7 +15439,7 @@
       "word": "OWASP TOP 10"
     }
   ],
-  "ranking": 435,
+  "ranking": 434,
   "similar": [
     {
       "gemini": true,
@@ -15619,7 +15531,7 @@
   ],
   "positionsCount": 143.0,
   "prerequisites": [],
-  "ranking": 436,
+  "ranking": 435,
   "similar": [
     {
       "gemini": true,
@@ -15637,7 +15549,7 @@
 }, {
   "parent": [],
   "positionsCount": 141.0,
-  "ranking": 437,
+  "ranking": 436,
   "skill": "REPOSITOR",
   "synonyms": [
     {
@@ -15662,7 +15574,7 @@
     "GASTRONOMIA"
   ],
   "positionsCount": 139.0,
-  "ranking": 438,
+  "ranking": 437,
   "skill": "COZINHEIRO",
   "synonyms": [
     {
@@ -15695,7 +15607,7 @@
     "ESTATISTICA"
   ],
   "positionsCount": 139.0,
-  "ranking": 439,
+  "ranking": 438,
   "skill": "ESTATISTICOS",
   "synonyms": [
     {
@@ -15710,7 +15622,7 @@
 }, {
   "parent": [],
   "positionsCount": 139.0,
-  "ranking": 440,
+  "ranking": 439,
   "skill": "MODA",
   "synonyms": [
     {
@@ -15733,7 +15645,7 @@
       "word": "INFORMATION TECHNOLOGY"
     }
   ],
-  "ranking": 441,
+  "ranking": 440,
   "similar": [
     {
       "gemini": true,
@@ -15772,7 +15684,7 @@
       "word": "SPRING CORE"
     }
   ],
-  "ranking": 442,
+  "ranking": 441,
   "similar": [
     {
       "gemini": true,
@@ -15809,7 +15721,7 @@
       "word": "CRYPTOGRAPHY"
     }
   ],
-  "ranking": 443,
+  "ranking": 442,
   "similar": [
     {
       "gemini": true,
@@ -15871,7 +15783,7 @@
   ],
   "positionsCount": 132.0,
   "prerequisites": [],
-  "ranking": 444,
+  "ranking": 443,
   "similar": [],
   "skill": "DYNAMODB",
   "synonyms": [
@@ -15895,7 +15807,7 @@
   ],
   "positionsCount": 132.0,
   "prerequisites": [],
-  "ranking": 445,
+  "ranking": 444,
   "similar": [
     {
       "gemini": true,
@@ -15920,7 +15832,7 @@
     "WS"
   ],
   "positionsCount": 132.0,
-  "ranking": 446,
+  "ranking": 445,
   "skill": "OPENAPI",
   "synonyms": [
     {
@@ -15937,7 +15849,7 @@
     "TI"
   ],
   "positionsCount": 132.0,
-  "ranking": 447,
+  "ranking": 446,
   "skill": "ANTIVIRUS",
   "synonyms": [
     {
@@ -15957,7 +15869,7 @@
   ],
   "positionsCount": 131.0,
   "prerequisites": [],
-  "ranking": 448,
+  "ranking": 447,
   "similar": [
     {
       "gemini": true,
@@ -16029,7 +15941,7 @@
       "word": "FORTIGATE ADMINISTRATION"
     }
   ],
-  "ranking": 449,
+  "ranking": 448,
   "similar": [
     {
       "gemini": true,
@@ -16080,7 +15992,7 @@
   ],
   "positionsCount": 131.0,
   "prerequisites": [],
-  "ranking": 450,
+  "ranking": 449,
   "similar": [
     {
       "gemini": true,
@@ -16116,7 +16028,7 @@
   ],
   "positionsCount": 128.0,
   "prerequisites": [],
-  "ranking": 451,
+  "ranking": 450,
   "similar": [
     {
       "gemini": true,
@@ -16145,7 +16057,7 @@
     "IMPOSTO"
   ],
   "positionsCount": 127.0,
-  "ranking": 452,
+  "ranking": 451,
   "skill": "COFINS",
   "synonyms": [
     {
@@ -16172,7 +16084,7 @@
       "word": "NPM COMMAND LINE INTERFACE"
     }
   ],
-  "ranking": 453,
+  "ranking": 452,
   "similar": [
     {
       "gemini": true,
@@ -16225,7 +16137,7 @@
   ],
   "positionsCount": 125.0,
   "prerequisites": [],
-  "ranking": 454,
+  "ranking": 453,
   "similar": [
     {
       "gemini": true,
@@ -16341,7 +16253,7 @@
     "SAP"
   ],
   "positionsCount": 122.0,
-  "ranking": 455,
+  "ranking": 454,
   "skill": "ARIBA",
   "synonyms": [
     {
@@ -16372,7 +16284,7 @@
       "word": "SECURITY ARCHITECTURE"
     }
   ],
-  "ranking": 456,
+  "ranking": 455,
   "similar": [
     {
       "gemini": true,
@@ -16481,7 +16393,7 @@
       "word": "LOGGING"
     }
   ],
-  "ranking": 457,
+  "ranking": 456,
   "similar": [
     {
       "gemini": true,
@@ -16595,7 +16507,7 @@
     "HTML"
   ],
   "positionsCount": 120.0,
-  "ranking": 458,
+  "ranking": 457,
   "skill": "WEB DESIGN",
   "synonyms": [
     {
@@ -16635,7 +16547,7 @@
       "word": "HTTP/2"
     }
   ],
-  "ranking": 459,
+  "ranking": 458,
   "similar": [
     {
       "gemini": true,
@@ -16692,7 +16604,7 @@
       "word": "APPLICATION DEVELOPMENT"
     }
   ],
-  "ranking": 460,
+  "ranking": 459,
   "similar": [
     {
       "gemini": true,
@@ -16729,7 +16641,7 @@
       "word": "NESTJS FRAMEWORK"
     }
   ],
-  "ranking": 461,
+  "ranking": 460,
   "similar": [
     {
       "gemini": true,
@@ -16788,7 +16700,7 @@
       "word": "MULE ESB"
     }
   ],
-  "ranking": 462,
+  "ranking": 461,
   "similar": [
     {
       "gemini": true,
@@ -16833,7 +16745,7 @@
   ],
   "positionsCount": 116.0,
   "prerequisites": [],
-  "ranking": 463,
+  "ranking": 462,
   "similar": [
     {
       "gemini": true,
@@ -16895,7 +16807,7 @@
       "word": "APACHE AIRFLOW INTERFACE"
     }
   ],
-  "ranking": 464,
+  "ranking": 463,
   "similar": [],
   "skill": "AIRFLOW",
   "synonyms": [
@@ -16913,7 +16825,7 @@
     "SEGURO"
   ],
   "positionsCount": 114.0,
-  "ranking": 465,
+  "ranking": 464,
   "skill": "SEGURADORA",
   "synonyms": [
     {
@@ -16954,7 +16866,7 @@
       "word": "MOCKITO API"
     }
   ],
-  "ranking": 466,
+  "ranking": 465,
   "similar": [
     {
       "gemini": true,
@@ -17047,7 +16959,7 @@
       "word": "WCF COMMUNICATION STACKS"
     }
   ],
-  "ranking": 467,
+  "ranking": 466,
   "similar": [],
   "skill": "WCF",
   "synonyms": [
@@ -17059,7 +16971,7 @@
 }, {
   "parent": [],
   "positionsCount": 111.0,
-  "ranking": 468,
+  "ranking": 467,
   "skill": "GERENTE DE OPERACOES",
   "synonyms": [
     {
@@ -17076,7 +16988,7 @@
     "CONTABILIDADE"
   ],
   "positionsCount": 110.0,
-  "ranking": 469,
+  "ranking": 468,
   "skill": "CONTADOR",
   "synonyms": [
     {
@@ -17114,7 +17026,7 @@
       "word": "VISUAL DESIGN"
     }
   ],
-  "ranking": 470,
+  "ranking": 469,
   "similar": [
     {
       "gemini": true,
@@ -17168,7 +17080,7 @@
   ],
   "positionsCount": 108.0,
   "prerequisites": [],
-  "ranking": 471,
+  "ranking": 470,
   "similar": [],
   "skill": "ITSM",
   "synonyms": [
@@ -17183,7 +17095,7 @@
     "SAP"
   ],
   "positionsCount": 108.0,
-  "ranking": 472,
+  "ranking": 471,
   "skill": "SAP BW",
   "synonyms": [
     {
@@ -17197,7 +17109,7 @@
     "SQL"
   ],
   "positionsCount": 107.0,
-  "ranking": 473,
+  "ranking": 472,
   "similar": [
     {
       "gemini": true,
@@ -17235,7 +17147,7 @@
       "word": "XCODE"
     }
   ],
-  "ranking": 474,
+  "ranking": 473,
   "similar": [
     {
       "gemini": true,
@@ -17275,7 +17187,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 106.0,
-  "ranking": 475,
+  "ranking": 474,
   "similar": [
     {
       "gemini": true,
@@ -17323,7 +17235,7 @@
   ],
   "positionsCount": 105.0,
   "prerequisites": [],
-  "ranking": 476,
+  "ranking": 475,
   "similar": [
     {
       "gemini": true,
@@ -17362,7 +17274,7 @@
       "word": "GRADLE DSL"
     }
   ],
-  "ranking": 477,
+  "ranking": 476,
   "similar": [],
   "skill": "GRADLE",
   "synonyms": [
@@ -17384,7 +17296,7 @@
       "word": "XMLHTTPREQUEST"
     }
   ],
-  "ranking": 478,
+  "ranking": 477,
   "similar": [
     {
       "gemini": true,
@@ -17404,7 +17316,7 @@
     "MARKETING"
   ],
   "positionsCount": 100.0,
-  "ranking": 479,
+  "ranking": 478,
   "skill": "TRADE MARKETING",
   "synonyms": [
     {
@@ -17421,7 +17333,7 @@
     "PINTURA"
   ],
   "positionsCount": 99.0,
-  "ranking": 480,
+  "ranking": 479,
   "skill": "PINTOR",
   "synonyms": [
     {
@@ -17476,7 +17388,7 @@
       "word": "ADVANCED YAML"
     }
   ],
-  "ranking": 481,
+  "ranking": 480,
   "similar": [
     {
       "gemini": true,
@@ -17502,7 +17414,7 @@
     "SAP"
   ],
   "positionsCount": 98.0,
-  "ranking": 482,
+  "ranking": 481,
   "skill": "SAP CO",
   "synonyms": [
     {
@@ -17528,7 +17440,7 @@
       "word": "BPMN MODELING"
     }
   ],
-  "ranking": 483,
+  "ranking": 482,
   "similar": [
     {
       "gemini": true,
@@ -17580,7 +17492,7 @@
   ],
   "positionsCount": 97.0,
   "prerequisites": [],
-  "ranking": 484,
+  "ranking": 483,
   "similar": [
     {
       "gemini": true,
@@ -17605,7 +17517,7 @@
     "QUIMICA"
   ],
   "positionsCount": 95.0,
-  "ranking": 485,
+  "ranking": 484,
   "skill": "ENGENHARIA QUIMICA",
   "synonyms": [
     {
@@ -17619,7 +17531,7 @@
     "SAP"
   ],
   "positionsCount": 94.0,
-  "ranking": 486,
+  "ranking": 485,
   "skill": "SAP PP",
   "synonyms": [
     {
@@ -17628,35 +17540,9 @@
     }
   ]
 }, {
-  "parent": [
-    "TI",
-    "BACKEND"
-  ],
-  "positionsCount": 93.0,
-  "prerequisites": [
-    {
-      "gemini": true,
-      "vagas": 44.0,
-      "word": "ENTITY FRAMEWORK CORE"
-    }
-  ],
-  "ranking": 487,
-  "similar": [],
-  "skill": ".NETCORE",
-  "synonyms": [
-    {
-      "skill": ".NETCORE",
-      "positionsCount": 65.0
-    },
-    {
-      "skill": "NETCORE",
-      "positionsCount": 28.0
-    }
-  ]
-}, {
   "parent": [],
   "positionsCount": 92.0,
-  "ranking": 488,
+  "ranking": 486,
   "skill": "GERENTE ADMINISTRATIVO",
   "synonyms": [
     {
@@ -17692,7 +17578,7 @@
       "word": "STLC"
     }
   ],
-  "ranking": 489,
+  "ranking": 487,
   "similar": [
     {
       "gemini": true,
@@ -17723,7 +17609,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 90.0,
-  "ranking": 490,
+  "ranking": 488,
   "skill": "PALO ALTO",
   "synonyms": [
     {
@@ -17742,7 +17628,7 @@
   ],
   "positionsCount": 88.0,
   "prerequisites": [],
-  "ranking": 491,
+  "ranking": 489,
   "similar": [
     {
       "gemini": true,
@@ -17771,7 +17657,7 @@
     "CICD"
   ],
   "positionsCount": 88.0,
-  "ranking": 492,
+  "ranking": 490,
   "skill": "WSO2",
   "synonyms": [
     {
@@ -17792,7 +17678,7 @@
       "word": "IT GOVERNANCE"
     }
   ],
-  "ranking": 493,
+  "ranking": 491,
   "similar": [
     {
       "gemini": true,
@@ -17822,7 +17708,7 @@
     "MEDICINA"
   ],
   "positionsCount": 88.0,
-  "ranking": 494,
+  "ranking": 492,
   "skill": "MEDICINA DO TRABALHO",
   "synonyms": [
     {
@@ -17867,7 +17753,7 @@
       "word": "USER RESEARCH"
     }
   ],
-  "ranking": 495,
+  "ranking": 493,
   "similar": [
     {
       "gemini": true,
@@ -17920,7 +17806,7 @@
       "word": "DEBUGGING AND OPTIMIZATION"
     }
   ],
-  "ranking": 496,
+  "ranking": 494,
   "similar": [
     {
       "gemini": true,
@@ -17975,7 +17861,7 @@
     "DOCKER"
   ],
   "positionsCount": 85.0,
-  "ranking": 497,
+  "ranking": 495,
   "skill": "COMPOSER",
   "synonyms": [
     {
@@ -17986,7 +17872,7 @@
 }, {
   "parent": [],
   "positionsCount": 85.0,
-  "ranking": 498,
+  "ranking": 496,
   "skill": "RELACOES INTERNACIONAIS",
   "synonyms": [
     {
@@ -18022,7 +17908,7 @@
       "word": "ADVPL FUNDAMENTALS"
     }
   ],
-  "ranking": 499,
+  "ranking": 497,
   "similar": [],
   "skill": "ADVPL",
   "synonyms": [
@@ -18037,7 +17923,7 @@
     "CSHARP"
   ],
   "positionsCount": 84.0,
-  "ranking": 500,
+  "ranking": 498,
   "skill": "WINDOWS FORMS",
   "synonyms": [
     {
@@ -18064,7 +17950,7 @@
       "word": "JAVA EE"
     }
   ],
-  "ranking": 501,
+  "ranking": 499,
   "similar": [
     {
       "gemini": true,
@@ -18097,7 +17983,7 @@
   ],
   "positionsCount": 82.0,
   "prerequisites": [],
-  "ranking": 502,
+  "ranking": 500,
   "similar": [
     {
       "gemini": true,
@@ -18164,7 +18050,7 @@
       "word": "DATABASE MANAGEMENT CONCEPTS"
     }
   ],
-  "ranking": 503,
+  "ranking": 501,
   "similar": [
     {
       "gemini": true,
@@ -18452,7 +18338,7 @@
 }, {
   "parent": [],
   "positionsCount": 82.0,
-  "ranking": 504,
+  "ranking": 502,
   "skill": "OPERADOR DE MAQUINAS",
   "synonyms": [
     {
@@ -18473,7 +18359,7 @@
       "word": "ETL DESIGN"
     }
   ],
-  "ranking": 505,
+  "ranking": 503,
   "similar": [
     {
       "gemini": true,
@@ -18503,7 +18389,7 @@
     "LOWCODE"
   ],
   "positionsCount": 80.0,
-  "ranking": 506,
+  "ranking": 504,
   "skill": "POWER PLATFORM",
   "synonyms": [
     {
@@ -18521,7 +18407,7 @@
     "CSS"
   ],
   "positionsCount": 80.0,
-  "ranking": 507,
+  "ranking": 505,
   "skill": "MATERIAL DESIGN",
   "synonyms": [
     {
@@ -18534,7 +18420,7 @@
     "LOGISTICA"
   ],
   "positionsCount": 79.0,
-  "ranking": 508,
+  "ranking": 506,
   "skill": "TECNICO EM LOGISTICA",
   "synonyms": [
     {
@@ -18564,7 +18450,7 @@
       "word": "WEB APPLICATION DEVELOPMENT"
     }
   ],
-  "ranking": 509,
+  "ranking": 507,
   "similar": [],
   "skill": "ZEND",
   "synonyms": [
@@ -18582,7 +18468,7 @@
     "PSICOLOGIA"
   ],
   "positionsCount": 79.0,
-  "ranking": 510,
+  "ranking": 508,
   "skill": "PSICOLOGO",
   "synonyms": [
     {
@@ -18599,7 +18485,7 @@
     "FINANCAS"
   ],
   "positionsCount": 79.0,
-  "ranking": 511,
+  "ranking": 509,
   "skill": "GERENTE FINANCEIRO",
   "synonyms": [
     {
@@ -18630,7 +18516,7 @@
       "word": "BINDING"
     }
   ],
-  "ranking": 512,
+  "ranking": 510,
   "similar": [
     {
       "gemini": true,
@@ -18660,7 +18546,7 @@
     "ESTOQUE"
   ],
   "positionsCount": 78.0,
-  "ranking": 513,
+  "ranking": 511,
   "skill": "ESTOQUISTA",
   "synonyms": [
     {
@@ -18680,7 +18566,7 @@
   ],
   "positionsCount": 77.0,
   "prerequisites": [],
-  "ranking": 514,
+  "ranking": 512,
   "similar": [],
   "skill": "JASPER",
   "synonyms": [
@@ -18718,7 +18604,7 @@
       "word": "AGILE METHODOLOGY"
     }
   ],
-  "ranking": 515,
+  "ranking": 513,
   "similar": [
     {
       "gemini": true,
@@ -18754,7 +18640,7 @@
     "CLOUD"
   ],
   "positionsCount": 77.0,
-  "ranking": 516,
+  "ranking": 514,
   "skill": "SPRING CLOUD",
   "synonyms": [
     {
@@ -18765,7 +18651,7 @@
 }, {
   "parent": [],
   "positionsCount": 77.0,
-  "ranking": 517,
+  "ranking": 515,
   "skill": "TECNICO EM MANUTENCAO",
   "synonyms": [
     {
@@ -18780,7 +18666,7 @@
     "SUPPORT"
   ],
   "positionsCount": 76.0,
-  "ranking": 518,
+  "ranking": 516,
   "skill": "MCSA",
   "synonyms": [
     {
@@ -18826,7 +18712,7 @@
       "word": "ELASTICSEARCH KNOWLEDGE"
     }
   ],
-  "ranking": 519,
+  "ranking": 517,
   "similar": [
     {
       "gemini": true,
@@ -18862,7 +18748,7 @@
 }, {
   "parent": [],
   "positionsCount": 75.0,
-  "ranking": 520,
+  "ranking": 518,
   "skill": "BOMBEIRO",
   "synonyms": [
     {
@@ -18880,7 +18766,7 @@
     "SAP"
   ],
   "positionsCount": 75.0,
-  "ranking": 521,
+  "ranking": 519,
   "skill": "SUCCESSFACTORS",
   "synonyms": [
     {
@@ -18897,7 +18783,7 @@
     "SECRETARIADO"
   ],
   "positionsCount": 75.0,
-  "ranking": 522,
+  "ranking": 520,
   "skill": "SECRETARIA EXECUTIVA",
   "synonyms": [
     {
@@ -18915,7 +18801,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 75.0,
-  "ranking": 523,
+  "ranking": 521,
   "similar": [
     {
       "gemini": true,
@@ -18983,7 +18869,7 @@
       "word": "CHANGE AND CONFIGURATION MANAGEMENT"
     }
   ],
-  "ranking": 524,
+  "ranking": 522,
   "similar": [
     {
       "gemini": true,
@@ -19035,7 +18921,7 @@
     "CERTIFICACAO"
   ],
   "positionsCount": 75.0,
-  "ranking": 525,
+  "ranking": 523,
   "skill": "CCNA",
   "synonyms": [
     {
@@ -19049,7 +18935,7 @@
     "MONITORAMENTO"
   ],
   "positionsCount": 74.0,
-  "ranking": 526,
+  "ranking": 524,
   "skill": "APM",
   "synonyms": [
     {
@@ -19063,7 +18949,7 @@
   ],
   "positionsCount": 74.0,
   "prerequisites": [],
-  "ranking": 527,
+  "ranking": 525,
   "similar": [
     {
       "gemini": true,
@@ -19136,7 +19022,7 @@
   ],
   "positionsCount": 74.0,
   "prerequisites": [],
-  "ranking": 528,
+  "ranking": 526,
   "similar": [
     {
       "gemini": true,
@@ -19176,7 +19062,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 74.0,
-  "ranking": 529,
+  "ranking": 527,
   "skill": "ENGENHEIRO CIVIL",
   "synonyms": [
     {
@@ -19190,7 +19076,7 @@
     "CRM"
   ],
   "positionsCount": 73.0,
-  "ranking": 530,
+  "ranking": 528,
   "similar": [],
   "skill": "VISUALFORCE",
   "synonyms": [
@@ -19231,7 +19117,7 @@
       "word": "DAX SYNTAX AND FUNCTIONS"
     }
   ],
-  "ranking": 531,
+  "ranking": 529,
   "similar": [
     {
       "gemini": true,
@@ -19256,7 +19142,7 @@
     "CIENCIA"
   ],
   "positionsCount": 73.0,
-  "ranking": 532,
+  "ranking": 530,
   "skill": "BIOLOGIA",
   "synonyms": [
     {
@@ -19271,7 +19157,7 @@
   ],
   "positionsCount": 72.0,
   "prerequisites": [],
-  "ranking": 533,
+  "ranking": 531,
   "similar": [],
   "skill": "ELK",
   "synonyms": [
@@ -19294,7 +19180,7 @@
       "word": "REPORTING TOOLS"
     }
   ],
-  "ranking": 534,
+  "ranking": 532,
   "similar": [
     {
       "gemini": true,
@@ -19315,7 +19201,7 @@
     "BACKEND"
   ],
   "positionsCount": 71.0,
-  "ranking": 535,
+  "ranking": 533,
   "skill": "ORCHESTRATION",
   "synonyms": [
     {
@@ -19348,7 +19234,7 @@
       "word": "VM MANAGEMENT"
     }
   ],
-  "ranking": 536,
+  "ranking": 534,
   "similar": [
     {
       "gemini": true,
@@ -19376,7 +19262,7 @@
     "TI"
   ],
   "positionsCount": 71.0,
-  "ranking": 537,
+  "ranking": 535,
   "skill": "GERENTE DE TI",
   "synonyms": [
     {
@@ -19402,7 +19288,7 @@
       "word": "WEB ANALYTICS TOOLS (E.G., GOOGLE ANALYTICS)"
     }
   ],
-  "ranking": 538,
+  "ranking": 536,
   "similar": [
     {
       "gemini": true,
@@ -19536,7 +19422,7 @@
     "NEGOCIOS"
   ],
   "positionsCount": 71.0,
-  "ranking": 539,
+  "ranking": 537,
   "skill": "GERENTE DE NEGOCIOS",
   "synonyms": [
     {
@@ -19556,7 +19442,7 @@
   ],
   "positionsCount": 69.0,
   "prerequisites": [],
-  "ranking": 540,
+  "ranking": 538,
   "similar": [
     {
       "gemini": true,
@@ -19596,7 +19482,7 @@
     "TDD"
   ],
   "positionsCount": 69.0,
-  "ranking": 541,
+  "ranking": 539,
   "skill": "CTFL",
   "synonyms": [
     {
@@ -19642,7 +19528,7 @@
       "word": "RESPONSE"
     }
   ],
-  "ranking": 542,
+  "ranking": 540,
   "similar": [],
   "skill": "FLASK",
   "synonyms": [
@@ -19656,7 +19542,7 @@
     "TI"
   ],
   "positionsCount": 69.0,
-  "ranking": 543,
+  "ranking": 541,
   "skill": "SKETCH",
   "synonyms": [
     {
@@ -19677,7 +19563,7 @@
       "word": "MDX"
     }
   ],
-  "ranking": 544,
+  "ranking": 542,
   "similar": [
     {
       "gemini": true,
@@ -19709,7 +19595,7 @@
   ],
   "positionsCount": 68.0,
   "prerequisites": [],
-  "ranking": 545,
+  "ranking": 543,
   "similar": [
     {
       "gemini": true,
@@ -19755,7 +19641,7 @@
       "word": "CAPITAL ADEQUACY"
     }
   ],
-  "ranking": 546,
+  "ranking": 544,
   "similar": [
     {
       "gemini": true,
@@ -19812,7 +19698,7 @@
       "word": "TEMPLATING ENGINE (E.G., THYMELEAF, VELOCITY)"
     }
   ],
-  "ranking": 547,
+  "ranking": 545,
   "similar": [
     {
       "gemini": true,
@@ -19875,7 +19761,7 @@
       "word": "PROJECT MANAGEMENT CLOSURE"
     }
   ],
-  "ranking": 548,
+  "ranking": 546,
   "similar": [
     {
       "gemini": true,
@@ -19943,7 +19829,7 @@
       "word": "NETWORK PROTOCOLS"
     }
   ],
-  "ranking": 549,
+  "ranking": 547,
   "similar": [
     {
       "gemini": true,
@@ -19975,7 +19861,7 @@
   ],
   "positionsCount": 65.0,
   "prerequisites": [],
-  "ranking": 550,
+  "ranking": 548,
   "similar": [
     {
       "gemini": true,
@@ -20008,7 +19894,7 @@
       "word": "QUALITY OF SERVICE"
     }
   ],
-  "ranking": 551,
+  "ranking": 549,
   "similar": [],
   "skill": "CCNP",
   "synonyms": [
@@ -20035,7 +19921,7 @@
       "word": "LOG MANAGEMENT"
     }
   ],
-  "ranking": 552,
+  "ranking": 550,
   "similar": [
     {
       "gemini": true,
@@ -20085,7 +19971,7 @@
     "DESIGN GRAFICO"
   ],
   "positionsCount": 65.0,
-  "ranking": 553,
+  "ranking": 551,
   "skill": "DESIGNER GRAFICO",
   "synonyms": [
     {
@@ -20099,7 +19985,7 @@
     "MENSAGERIA"
   ],
   "positionsCount": 64.0,
-  "ranking": 554,
+  "ranking": 552,
   "skill": "OPERADOR DE CAIXA",
   "synonyms": [
     {
@@ -20115,7 +20001,7 @@
   ],
   "positionsCount": 63.0,
   "prerequisites": [],
-  "ranking": 555,
+  "ranking": 553,
   "similar": [
     {
       "gemini": true,
@@ -20190,7 +20076,7 @@
       "word": "XENSERVER"
     }
   ],
-  "ranking": 556,
+  "ranking": 554,
   "similar": [
     {
       "gemini": true,
@@ -20311,7 +20197,7 @@
       "word": "BROKERS"
     }
   ],
-  "ranking": 557,
+  "ranking": 555,
   "similar": [
     {
       "gemini": true,
@@ -20358,7 +20244,7 @@
 }, {
   "parent": [],
   "positionsCount": 62.0,
-  "ranking": 558,
+  "ranking": 556,
   "skill": "METALURGIA",
   "synonyms": [
     {
@@ -20385,7 +20271,7 @@
     "AZURE"
   ],
   "positionsCount": 62.0,
-  "ranking": 559,
+  "ranking": 557,
   "skill": "COSMOSDB",
   "synonyms": [
     {
@@ -20402,7 +20288,7 @@
     "MARCENARIA"
   ],
   "positionsCount": 62.0,
-  "ranking": 560,
+  "ranking": 558,
   "skill": "MARCENEIRO",
   "synonyms": [
     {
@@ -20422,7 +20308,7 @@
   ],
   "positionsCount": 61.0,
   "prerequisites": [],
-  "ranking": 561,
+  "ranking": 559,
   "similar": [
     {
       "gemini": true,
@@ -20464,7 +20350,7 @@
       "word": "PROGRESSIVE WEB APP DEVELOPMENT FRAMEWORKS"
     }
   ],
-  "ranking": 562,
+  "ranking": 560,
   "similar": [
     {
       "gemini": true,
@@ -20509,7 +20395,7 @@
   ],
   "positionsCount": 60.0,
   "prerequisites": [],
-  "ranking": 563,
+  "ranking": 561,
   "similar": [],
   "skill": "IAAS",
   "synonyms": [
@@ -20525,7 +20411,7 @@
 }, {
   "parent": [],
   "positionsCount": 60.0,
-  "ranking": 564,
+  "ranking": 562,
   "skill": "DESPACHO",
   "synonyms": [
     {
@@ -20544,7 +20430,7 @@
     "CLOUD"
   ],
   "positionsCount": 59.0,
-  "ranking": 565,
+  "ranking": 563,
   "skill": "CLOUD SECURITY",
   "synonyms": [
     {
@@ -20555,7 +20441,7 @@
 }, {
   "parent": [],
   "positionsCount": 58.0,
-  "ranking": 566,
+  "ranking": 564,
   "skill": "BOTANICO",
   "synonyms": [
     {
@@ -20572,7 +20458,7 @@
     "TI"
   ],
   "positionsCount": 58.0,
-  "ranking": 567,
+  "ranking": 565,
   "skill": "YAML",
   "synonyms": [
     {
@@ -20594,7 +20480,7 @@
       "word": "COMPUTER SCIENCE FUNDAMENTALS"
     }
   ],
-  "ranking": 568,
+  "ranking": 566,
   "similar": [
     {
       "gemini": true,
@@ -20621,7 +20507,7 @@
   ],
   "positionsCount": 57.0,
   "prerequisites": [],
-  "ranking": 569,
+  "ranking": 567,
   "similar": [],
   "skill": "RANCHER",
   "synonyms": [
@@ -20637,7 +20523,7 @@
     "MONITORIA"
   ],
   "positionsCount": 57.0,
-  "ranking": 570,
+  "ranking": 568,
   "skill": "CLOUDWATCH",
   "synonyms": [
     {
@@ -20651,7 +20537,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 56.0,
-  "ranking": 571,
+  "ranking": 569,
   "skill": "NAC",
   "synonyms": [
     {
@@ -20666,7 +20552,7 @@
 }, {
   "parent": [],
   "positionsCount": 56.0,
-  "ranking": 572,
+  "ranking": 570,
   "skill": "FRANCES",
   "synonyms": [
     {
@@ -20692,7 +20578,7 @@
       "word": "MAHOUT"
     }
   ],
-  "ranking": 573,
+  "ranking": 571,
   "similar": [],
   "skill": "CLOUDERA",
   "synonyms": [
@@ -20723,7 +20609,7 @@
       "word": "STRUTS FRAMEWORK"
     }
   ],
-  "ranking": 574,
+  "ranking": 572,
   "similar": [
     {
       "gemini": true,
@@ -20765,7 +20651,7 @@
       "word": "HTTP/S"
     }
   ],
-  "ranking": 575,
+  "ranking": 573,
   "similar": [
     {
       "gemini": true,
@@ -20841,7 +20727,7 @@
       "word": "ORACLE SOA SUITE ADMINISTRATOR"
     }
   ],
-  "ranking": 576,
+  "ranking": 574,
   "similar": [
     {
       "gemini": true,
@@ -20893,7 +20779,7 @@
   ],
   "positionsCount": 55.0,
   "prerequisites": [],
-  "ranking": 577,
+  "ranking": 575,
   "similar": [
     {
       "gemini": true,
@@ -20961,7 +20847,7 @@
       "word": "BUSINESS AND ARCHITECTURE MODELING"
     }
   ],
-  "ranking": 578,
+  "ranking": 576,
   "similar": [
     {
       "gemini": true,
@@ -21016,7 +20902,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 55.0,
-  "ranking": 579,
+  "ranking": 577,
   "skill": "ENGENHEIRO DE QUALIDADE",
   "synonyms": [
     {
@@ -21030,7 +20916,7 @@
     "JPA"
   ],
   "positionsCount": 54.0,
-  "ranking": 580,
+  "ranking": 578,
   "skill": "JPQL",
   "synonyms": [
     {
@@ -21060,7 +20946,7 @@
       "word": "SEARCH PROCESSING LANGUAGE (SPL)"
     }
   ],
-  "ranking": 581,
+  "ranking": 579,
   "similar": [
     {
       "gemini": true,
@@ -21134,7 +21020,7 @@
       "word": "ANGULAR/REACT"
     }
   ],
-  "ranking": 582,
+  "ranking": 580,
   "similar": [],
   "skill": "LIFERAY",
   "synonyms": [
@@ -21149,7 +21035,7 @@
     "UX"
   ],
   "positionsCount": 54.0,
-  "ranking": 583,
+  "ranking": 581,
   "skill": "ADOBE XD",
   "synonyms": [
     {
@@ -21164,7 +21050,7 @@
   ],
   "positionsCount": 53.0,
   "prerequisites": [],
-  "ranking": 584,
+  "ranking": 582,
   "similar": [
     {
       "gemini": true,
@@ -21220,7 +21106,7 @@
       "word": "REMOTE WORK"
     }
   ],
-  "ranking": 585,
+  "ranking": 583,
   "similar": [
     {
       "gemini": true,
@@ -21302,7 +21188,7 @@
       "word": "KNOWLEDGE OF LINUX AND WINDOWS OPERATING SYSTEMS"
     }
   ],
-  "ranking": 586,
+  "ranking": 584,
   "similar": [
     {
       "gemini": true,
@@ -21338,7 +21224,7 @@
     "IOS"
   ],
   "positionsCount": 53.0,
-  "ranking": 587,
+  "ranking": 585,
   "skill": "XCODE",
   "synonyms": [
     {
@@ -21352,7 +21238,7 @@
     "MENSAGERIA"
   ],
   "positionsCount": 53.0,
-  "ranking": 588,
+  "ranking": 586,
   "skill": "IBM MQ",
   "synonyms": [
     {
@@ -21363,7 +21249,7 @@
 }, {
   "parent": [],
   "positionsCount": 53.0,
-  "ranking": 589,
+  "ranking": 587,
   "skill": "LETRAS",
   "synonyms": [
     {
@@ -21374,7 +21260,7 @@
 }, {
   "parent": [],
   "positionsCount": 53.0,
-  "ranking": 590,
+  "ranking": 588,
   "skill": "TURISMO",
   "synonyms": [
     {
@@ -21389,7 +21275,7 @@
     "CERTIFICACAO"
   ],
   "positionsCount": 52.0,
-  "ranking": 591,
+  "ranking": 589,
   "skill": "CEH",
   "synonyms": [
     {
@@ -21406,17 +21292,17 @@
     "TI",
     "HIBERNATE"
   ],
-  "positionsCount": 52,
-  "ranking": 592,
+  "positionsCount": 52.0,
+  "ranking": 590,
   "skill": "HQL",
   "synonyms": [
     {
       "skill": "HQL",
-      "positionsCount": 52
+      "positionsCount": 52.0
     },
     {
       "skill": "HIBERNATE QUERY LANGUAGE",
-      "positionsCount": 0
+      "positionsCount": 0.0
     }
   ]
 }, {
@@ -21443,7 +21329,7 @@
       "word": "SECURITY POLICY DEVELOPMENT"
     }
   ],
-  "ranking": 593,
+  "ranking": 591,
   "similar": [
     {
       "gemini": true,
@@ -21495,7 +21381,7 @@
       "word": "OOP"
     }
   ],
-  "ranking": 594,
+  "ranking": 592,
   "similar": [
     {
       "gemini": true,
@@ -21573,7 +21459,7 @@
       "word": "INTRUSION DETECTION AND PREVENTION"
     }
   ],
-  "ranking": 595,
+  "ranking": 593,
   "similar": [
     {
       "gemini": true,
@@ -21624,7 +21510,7 @@
   ],
   "positionsCount": 52.0,
   "prerequisites": [],
-  "ranking": 596,
+  "ranking": 594,
   "similar": [
     {
       "gemini": true,
@@ -21668,7 +21554,7 @@
       "word": "BIRGIT"
     }
   ],
-  "ranking": 597,
+  "ranking": 595,
   "similar": [
     {
       "gemini": true,
@@ -21707,7 +21593,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 51.0,
-  "ranking": 598,
+  "ranking": 596,
   "skill": "SSO",
   "synonyms": [
     {
@@ -21728,7 +21614,7 @@
       "word": "PREDICTIVE ANALYTICS"
     }
   ],
-  "ranking": 599,
+  "ranking": 597,
   "similar": [],
   "skill": "ALTERYX",
   "synonyms": [
@@ -21742,7 +21628,7 @@
     "RH"
   ],
   "positionsCount": 51.0,
-  "ranking": 600,
+  "ranking": 598,
   "skill": "GERENTE DE RECURSOS HUMANOS",
   "synonyms": [
     {
@@ -21769,7 +21655,7 @@
       "word": "PROGRAMMING LANGUAGES (PYTHON, GO)"
     }
   ],
-  "ranking": 601,
+  "ranking": 599,
   "similar": [
     {
       "gemini": true,
@@ -21846,7 +21732,7 @@
       "word": "BGP ROUTING PROTOCOLS"
     }
   ],
-  "ranking": 602,
+  "ranking": 600,
   "similar": [],
   "skill": "BGP",
   "synonyms": [
@@ -21898,7 +21784,7 @@
       "word": "INVENTORY PLANNING"
     }
   ],
-  "ranking": 603,
+  "ranking": 601,
   "similar": [
     {
       "gemini": true,
@@ -21920,7 +21806,7 @@
   ],
   "positionsCount": 49.0,
   "prerequisites": [],
-  "ranking": 604,
+  "ranking": 602,
   "similar": [
     {
       "gemini": true,
@@ -22002,7 +21888,7 @@
       "word": "CI/CD AND AUTOMATION"
     }
   ],
-  "ranking": 605,
+  "ranking": 603,
   "similar": [
     {
       "gemini": true,
@@ -22024,7 +21910,7 @@
 }, {
   "parent": [],
   "positionsCount": 49.0,
-  "ranking": 606,
+  "ranking": 604,
   "skill": "FILOSOFIA",
   "synonyms": [
     {
@@ -22038,7 +21924,7 @@
     "PROCESS"
   ],
   "positionsCount": 49.0,
-  "ranking": 607,
+  "ranking": 605,
   "skill": "POWER AUTOMATE",
   "synonyms": [
     {
@@ -22074,7 +21960,7 @@
       "word": "REFERENCES"
     }
   ],
-  "ranking": 608,
+  "ranking": 606,
   "similar": [
     {
       "gemini": true,
@@ -22092,7 +21978,7 @@
 }, {
   "parent": [],
   "positionsCount": 48.0,
-  "ranking": 609,
+  "ranking": 607,
   "skill": "OPERADOR DE LOJA",
   "synonyms": [
     {
@@ -22103,7 +21989,7 @@
 }, {
   "parent": [],
   "positionsCount": 48.0,
-  "ranking": 610,
+  "ranking": 608,
   "skill": "RELACOES PUBLICAS",
   "synonyms": [
     {
@@ -22117,7 +22003,7 @@
     "JSS"
   ],
   "positionsCount": 47.0,
-  "ranking": 611,
+  "ranking": 609,
   "similar": [
     {
       "gemini": true,
@@ -22203,7 +22089,7 @@
   ],
   "positionsCount": 47.0,
   "prerequisites": [],
-  "ranking": 612,
+  "ranking": 610,
   "similar": [
     {
       "gemini": true,
@@ -22239,7 +22125,7 @@
     "ORM"
   ],
   "positionsCount": 47.0,
-  "ranking": 613,
+  "ranking": 611,
   "skill": "LINQ",
   "synonyms": [
     {
@@ -22260,7 +22146,7 @@
       "word": "TASK ORGANIZATION"
     }
   ],
-  "ranking": 614,
+  "ranking": 612,
   "similar": [
     {
       "gemini": true,
@@ -22336,7 +22222,7 @@
     "WS"
   ],
   "positionsCount": 47.0,
-  "ranking": 615,
+  "ranking": 613,
   "skill": "WEBSOCKET",
   "synonyms": [
     {
@@ -22351,7 +22237,7 @@
     "CLOUD"
   ],
   "positionsCount": 47.0,
-  "ranking": 616,
+  "ranking": 614,
   "skill": "AZURE DATA FACTORY",
   "synonyms": [
     {
@@ -22366,7 +22252,7 @@
     "JS"
   ],
   "positionsCount": 46.0,
-  "ranking": 617,
+  "ranking": 615,
   "skill": "ESLINT",
   "synonyms": [
     {
@@ -22385,7 +22271,7 @@
   ],
   "positionsCount": 46.0,
   "prerequisites": [],
-  "ranking": 618,
+  "ranking": 616,
   "similar": [
     {
       "gemini": true,
@@ -22467,7 +22353,7 @@
       "word": "TECHNICAL KNOWLEDGE"
     }
   ],
-  "ranking": 619,
+  "ranking": 617,
   "similar": [
     {
       "gemini": true,
@@ -22502,7 +22388,7 @@
     "AWS"
   ],
   "positionsCount": 46.0,
-  "ranking": 620,
+  "ranking": 618,
   "skill": "EC2",
   "synonyms": [
     {
@@ -22543,7 +22429,7 @@
       "word": "GENESYS CLOUD PLATFORM KNOWLEDGE"
     }
   ],
-  "ranking": 621,
+  "ranking": 619,
   "similar": [
     {
       "gemini": true,
@@ -22652,7 +22538,7 @@
     "NUTRICAO"
   ],
   "positionsCount": 45.0,
-  "ranking": 622,
+  "ranking": 620,
   "skill": "NUTRICIONISTA",
   "synonyms": [
     {
@@ -22677,7 +22563,7 @@
       "word": "SUBNETTING"
     }
   ],
-  "ranking": 623,
+  "ranking": 621,
   "similar": [
     {
       "gemini": true,
@@ -22718,7 +22604,7 @@
     "UX"
   ],
   "positionsCount": 45.0,
-  "ranking": 624,
+  "ranking": 622,
   "skill": "MOCKUPS",
   "synonyms": [
     {
@@ -22732,7 +22618,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 44.0,
-  "ranking": 625,
+  "ranking": 623,
   "similar": [
     {
       "gemini": true,
@@ -22799,7 +22685,7 @@
       "word": "SQL DEVELOPER"
     }
   ],
-  "ranking": 626,
+  "ranking": 624,
   "similar": [
     {
       "gemini": true,
@@ -22851,7 +22737,7 @@
       "word": "ORACLE FUSION MIDDLEWARE"
     }
   ],
-  "ranking": 627,
+  "ranking": 625,
   "similar": [
     {
       "gemini": true,
@@ -22897,7 +22783,7 @@
   ],
   "positionsCount": 44.0,
   "prerequisites": [],
-  "ranking": 628,
+  "ranking": 626,
   "similar": [],
   "skill": "BIZAGI",
   "synonyms": [
@@ -22912,7 +22798,7 @@
     "SAP"
   ],
   "positionsCount": 44.0,
-  "ranking": 629,
+  "ranking": 627,
   "skill": "SAP PS",
   "synonyms": [
     {
@@ -22927,7 +22813,7 @@
     "DOTNET"
   ],
   "positionsCount": 44.0,
-  "ranking": 630,
+  "ranking": 628,
   "skill": "ADO.NET",
   "synonyms": [
     {
@@ -22942,7 +22828,7 @@
     "SQL"
   ],
   "positionsCount": 43.0,
-  "ranking": 631,
+  "ranking": 629,
   "skill": "DYNAMICS CRM",
   "synonyms": [
     {
@@ -22960,7 +22846,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 43.0,
-  "ranking": 632,
+  "ranking": 630,
   "skill": "OSI",
   "synonyms": [
     {
@@ -22976,7 +22862,7 @@
   ],
   "positionsCount": 42.0,
   "prerequisites": [],
-  "ranking": 633,
+  "ranking": 631,
   "similar": [
     {
       "gemini": true,
@@ -23011,7 +22897,7 @@
     "MECANICA"
   ],
   "positionsCount": 42.0,
-  "ranking": 634,
+  "ranking": 632,
   "skill": "ENGENHEIRO MECANICO",
   "synonyms": [
     {
@@ -23032,7 +22918,7 @@
       "word": "VAULT"
     }
   ],
-  "ranking": 635,
+  "ranking": 633,
   "similar": [
     {
       "gemini": true,
@@ -23091,7 +22977,7 @@
     "DATABRICKS"
   ],
   "positionsCount": 41.0,
-  "ranking": 636,
+  "ranking": 634,
   "skill": "DELTA",
   "synonyms": [
     {
@@ -23116,7 +23002,7 @@
       "word": "JUPYTER NOTEBOOK INTERFACE"
     }
   ],
-  "ranking": 637,
+  "ranking": 635,
   "similar": [
     {
       "gemini": true,
@@ -23222,7 +23108,7 @@
     "JAVA"
   ],
   "positionsCount": 41.0,
-  "ranking": 638,
+  "ranking": 636,
   "skill": "NEO4J",
   "synonyms": [
     {
@@ -23236,7 +23122,7 @@
     "TDD"
   ],
   "positionsCount": 41.0,
-  "ranking": 639,
+  "ranking": 637,
   "skill": "ROBOT FRAMEWORK",
   "synonyms": [
     {
@@ -23249,7 +23135,7 @@
     "MARKETING"
   ],
   "positionsCount": 41.0,
-  "ranking": 640,
+  "ranking": 638,
   "skill": "OPERADOR DE TELEMARKETING",
   "synonyms": [
     {
@@ -23262,7 +23148,7 @@
     "COSTURA"
   ],
   "positionsCount": 40.0,
-  "ranking": 641,
+  "ranking": 639,
   "skill": "COSTUREIRO",
   "synonyms": [
     {
@@ -23318,7 +23204,7 @@
       "word": "AUTOSYS"
     }
   ],
-  "ranking": 642,
+  "ranking": 640,
   "similar": [
     {
       "gemini": true,
@@ -23388,7 +23274,7 @@
     "JAVA"
   ],
   "positionsCount": 40.0,
-  "ranking": 643,
+  "ranking": 641,
   "skill": "HBASE",
   "synonyms": [
     {
@@ -23418,7 +23304,7 @@
       "word": "TEST EXECUTION MANAGEMENT"
     }
   ],
-  "ranking": 644,
+  "ranking": 642,
   "similar": [
     {
       "gemini": true,
@@ -23464,7 +23350,7 @@
   ],
   "positionsCount": 40.0,
   "prerequisites": [],
-  "ranking": 645,
+  "ranking": 643,
   "similar": [
     {
       "gemini": true,
@@ -23540,7 +23426,7 @@
   ],
   "positionsCount": 40.0,
   "prerequisites": [],
-  "ranking": 646,
+  "ranking": 644,
   "similar": [],
   "skill": "DART",
   "synonyms": [
@@ -23572,7 +23458,7 @@
       "word": "CYBER THREAT INTELLIGENCE"
     }
   ],
-  "ranking": 647,
+  "ranking": 645,
   "similar": [
     {
       "gemini": true,
@@ -23614,7 +23500,7 @@
   ],
   "positionsCount": 40.0,
   "prerequisites": [],
-  "ranking": 648,
+  "ranking": 646,
   "similar": [],
   "skill": "PANDAS",
   "synonyms": [
@@ -23630,7 +23516,7 @@
   ],
   "positionsCount": 39.0,
   "prerequisites": [],
-  "ranking": 649,
+  "ranking": 647,
   "similar": [],
   "skill": "INTELLIJ",
   "synonyms": [
@@ -23653,7 +23539,7 @@
     "DB"
   ],
   "positionsCount": 39.0,
-  "ranking": 650,
+  "ranking": 648,
   "similar": [
     {
       "gemini": true,
@@ -23684,7 +23570,7 @@
     "JS"
   ],
   "positionsCount": 39.0,
-  "ranking": 651,
+  "ranking": 649,
   "skill": "RXJS",
   "synonyms": [
     {
@@ -23700,7 +23586,7 @@
   ],
   "positionsCount": 39.0,
   "prerequisites": [],
-  "ranking": 652,
+  "ranking": 650,
   "similar": [
     {
       "gemini": true,
@@ -23740,7 +23626,7 @@
   ],
   "positionsCount": 39.0,
   "prerequisites": [],
-  "ranking": 653,
+  "ranking": 651,
   "similar": [
     {
       "gemini": true,
@@ -23780,7 +23666,7 @@
     "BIOMEDICINA"
   ],
   "positionsCount": 38.0,
-  "ranking": 654,
+  "ranking": 652,
   "skill": "BIOMEDICO",
   "synonyms": [
     {
@@ -23807,7 +23693,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 38.0,
-  "ranking": 655,
+  "ranking": 653,
   "skill": "PENTESTER",
   "synonyms": [
     {
@@ -23826,7 +23712,7 @@
   ],
   "positionsCount": 38.0,
   "prerequisites": [],
-  "ranking": 656,
+  "ranking": 654,
   "similar": [
     {
       "gemini": true,
@@ -23906,7 +23792,7 @@
     "SAP"
   ],
   "positionsCount": 38.0,
-  "ranking": 657,
+  "ranking": 655,
   "skill": "SAP WM",
   "synonyms": [
     {
@@ -23921,7 +23807,7 @@
     "JAVA"
   ],
   "positionsCount": 37.0,
-  "ranking": 658,
+  "ranking": 656,
   "skill": "SOLR",
   "synonyms": [
     {
@@ -23940,7 +23826,7 @@
   ],
   "positionsCount": 37.0,
   "prerequisites": [],
-  "ranking": 659,
+  "ranking": 657,
   "similar": [
     {
       "gemini": true,
@@ -23991,7 +23877,7 @@
     "CLOUD"
   ],
   "positionsCount": 37.0,
-  "ranking": 660,
+  "ranking": 658,
   "similar": [],
   "skill": "HEROKU",
   "synonyms": [
@@ -24005,7 +23891,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 37.0,
-  "ranking": 661,
+  "ranking": 659,
   "skill": "ENGENHARIA AMBIENTAL",
   "synonyms": [
     {
@@ -24019,7 +23905,7 @@
     "CMS"
   ],
   "positionsCount": 37.0,
-  "ranking": 662,
+  "ranking": 660,
   "skill": "ADOBE EXPERIENCE MANAGER",
   "synonyms": [
     {
@@ -24041,7 +23927,7 @@
       "word": "APPLICATION PROGRAMMING"
     }
   ],
-  "ranking": 663,
+  "ranking": 661,
   "similar": [
     {
       "gemini": true,
@@ -24079,7 +23965,7 @@
     "GCP"
   ],
   "positionsCount": 36.0,
-  "ranking": 664,
+  "ranking": 662,
   "skill": "BIGTABLE",
   "synonyms": [
     {
@@ -24159,7 +24045,7 @@
       "word": "DATASTAGE DATA QUALITY"
     }
   ],
-  "ranking": 665,
+  "ranking": 663,
   "similar": [
     {
       "gemini": true,
@@ -24221,7 +24107,7 @@
       "word": "TIBCO BUSINESSWORKS"
     }
   ],
-  "ranking": 666,
+  "ranking": 664,
   "similar": [
     {
       "gemini": true,
@@ -24253,7 +24139,7 @@
   ],
   "positionsCount": 36.0,
   "prerequisites": [],
-  "ranking": 667,
+  "ranking": 665,
   "similar": [
     {
       "gemini": true,
@@ -24299,7 +24185,7 @@
     "HCM"
   ],
   "positionsCount": 36.0,
-  "ranking": 668,
+  "ranking": 666,
   "skill": "TOTVS RM",
   "synonyms": [
     {
@@ -24321,7 +24207,7 @@
       "word": "MVC FRAMEWORK"
     }
   ],
-  "ranking": 669,
+  "ranking": 667,
   "similar": [
     {
       "gemini": true,
@@ -24355,7 +24241,7 @@
     "INTEGRACAO"
   ],
   "positionsCount": 35.0,
-  "ranking": 670,
+  "ranking": 668,
   "skill": "GRPC",
   "synonyms": [
     {
@@ -24395,7 +24281,7 @@
       "word": "TERADATA QUERY LANGUAGE (TDQL)"
     }
   ],
-  "ranking": 671,
+  "ranking": 669,
   "similar": [],
   "skill": "TERADATA",
   "synonyms": [
@@ -24413,7 +24299,7 @@
     "CALDEIRARIA"
   ],
   "positionsCount": 35.0,
-  "ranking": 672,
+  "ranking": 670,
   "skill": "CALDEIREIRO",
   "synonyms": [
     {
@@ -24439,7 +24325,7 @@
       "word": "FLUIG API"
     }
   ],
-  "ranking": 673,
+  "ranking": 671,
   "similar": [
     {
       "gemini": true,
@@ -24495,7 +24381,7 @@
     "MONITORAMENTO"
   ],
   "positionsCount": 35.0,
-  "ranking": 674,
+  "ranking": 672,
   "skill": "NAGIOS",
   "synonyms": [
     {
@@ -24526,7 +24412,7 @@
       "word": "SOFTWARE CONFIGURATION MANAGEMENT"
     }
   ],
-  "ranking": 675,
+  "ranking": 673,
   "similar": [
     {
       "gemini": true,
@@ -24573,7 +24459,7 @@
   ],
   "positionsCount": 34.0,
   "prerequisites": [],
-  "ranking": 676,
+  "ranking": 674,
   "similar": [
     {
       "gemini": true,
@@ -24625,7 +24511,7 @@
 }, {
   "parent": [],
   "positionsCount": 34.0,
-  "ranking": 677,
+  "ranking": 675,
   "skill": "FOTOGRAFIA",
   "synonyms": [
     {
@@ -24642,7 +24528,7 @@
     "PUBLICIDADE"
   ],
   "positionsCount": 34.0,
-  "ranking": 678,
+  "ranking": 676,
   "skill": "PUBLICITARIO",
   "synonyms": [
     {
@@ -24661,7 +24547,7 @@
   ],
   "positionsCount": 34.0,
   "prerequisites": [],
-  "ranking": 679,
+  "ranking": 677,
   "similar": [],
   "skill": "SSRS",
   "synonyms": [
@@ -24698,7 +24584,7 @@
       "word": "SAP BW/4HANA"
     }
   ],
-  "ranking": 680,
+  "ranking": 678,
   "similar": [
     {
       "gemini": true,
@@ -24740,7 +24626,7 @@
     "SAP"
   ],
   "positionsCount": 34.0,
-  "ranking": 681,
+  "ranking": 679,
   "skill": "SAP CRM",
   "synonyms": [
     {
@@ -24836,7 +24722,7 @@
       "word": "SAP HCM CONFIGURATION"
     }
   ],
-  "ranking": 682,
+  "ranking": 680,
   "similar": [
     {
       "gemini": true,
@@ -24893,7 +24779,7 @@
     "GCP"
   ],
   "positionsCount": 34.0,
-  "ranking": 683,
+  "ranking": 681,
   "skill": "GOOGLE DATA STUDIO",
   "synonyms": [
     {
@@ -24904,7 +24790,7 @@
 }, {
   "parent": [],
   "positionsCount": 34.0,
-  "ranking": 684,
+  "ranking": 682,
   "skill": "ENGENHEIRO DE SEGURANCA DO TRABALHO",
   "synonyms": [
     {
@@ -24925,7 +24811,7 @@
       "word": "OBE/OBIEE"
     }
   ],
-  "ranking": 685,
+  "ranking": 683,
   "similar": [
     {
       "gemini": true,
@@ -24999,7 +24885,7 @@
     "BARRAMENTO"
   ],
   "positionsCount": 33.0,
-  "ranking": 686,
+  "ranking": 684,
   "skill": "SOA SUITE",
   "synonyms": [
     {
@@ -25013,7 +24899,7 @@
     "JAVA"
   ],
   "positionsCount": 32.0,
-  "ranking": 687,
+  "ranking": 685,
   "similar": [],
   "skill": "SWING",
   "synonyms": [
@@ -25030,7 +24916,7 @@
   ],
   "positionsCount": 32.0,
   "prerequisites": [],
-  "ranking": 688,
+  "ranking": 686,
   "similar": [],
   "skill": "AURORA",
   "synonyms": [
@@ -25045,7 +24931,7 @@
     "SAP"
   ],
   "positionsCount": 32.0,
-  "ranking": 689,
+  "ranking": 687,
   "skill": "SAP PM",
   "synonyms": [
     {
@@ -25060,7 +24946,7 @@
   ],
   "positionsCount": 32.0,
   "prerequisites": [],
-  "ranking": 690,
+  "ranking": 688,
   "similar": [
     {
       "gemini": true,
@@ -25086,7 +24972,7 @@
     "CICD"
   ],
   "positionsCount": 31.0,
-  "ranking": 691,
+  "ranking": 689,
   "skill": "BAMBOO",
   "synonyms": [
     {
@@ -25111,7 +24997,7 @@
       "word": "RESPONSIVE DESIGN"
     }
   ],
-  "ranking": 692,
+  "ranking": 690,
   "similar": [
     {
       "gemini": true,
@@ -25183,7 +25069,7 @@
       "word": "STORAGE MANAGEMENT KNOWLEDGE"
     }
   ],
-  "ranking": 693,
+  "ranking": 691,
   "similar": [],
   "skill": "RMAN",
   "synonyms": [
@@ -25200,7 +25086,7 @@
   ],
   "positionsCount": 31.0,
   "prerequisites": [],
-  "ranking": 694,
+  "ranking": 692,
   "similar": [
     {
       "gemini": true,
@@ -25218,7 +25104,7 @@
 }, {
   "parent": [],
   "positionsCount": 30.0,
-  "ranking": 695,
+  "ranking": 693,
   "skill": "MUSICA",
   "synonyms": [
     {
@@ -25238,7 +25124,7 @@
   ],
   "positionsCount": 30.0,
   "prerequisites": [],
-  "ranking": 696,
+  "ranking": 694,
   "similar": [],
   "skill": "CORDOVA",
   "synonyms": [
@@ -25257,7 +25143,7 @@
     "MAINFRAME"
   ],
   "positionsCount": 30.0,
-  "ranking": 697,
+  "ranking": 695,
   "skill": "JCL",
   "synonyms": [
     {
@@ -25272,7 +25158,7 @@
   ],
   "positionsCount": 30.0,
   "prerequisites": [],
-  "ranking": 698,
+  "ranking": 696,
   "similar": [
     {
       "gemini": true,
@@ -25620,7 +25506,7 @@
     "SCCM"
   ],
   "positionsCount": 30.0,
-  "ranking": 699,
+  "ranking": 697,
   "skill": "MCSE",
   "synonyms": [
     {
@@ -25651,7 +25537,7 @@
       "word": "DATA WAREHOUSING CONCEPTS"
     }
   ],
-  "ranking": 700,
+  "ranking": 698,
   "similar": [],
   "skill": "OLAP",
   "synonyms": [
@@ -25666,7 +25552,7 @@
     "DB"
   ],
   "positionsCount": 29.0,
-  "ranking": 701,
+  "ranking": 699,
   "skill": "PARQUET",
   "synonyms": [
     {
@@ -25721,7 +25607,7 @@
       "word": "HYPERION FINANCIAL MANAGEMENT"
     }
   ],
-  "ranking": 702,
+  "ranking": 700,
   "similar": [
     {
       "gemini": true,
@@ -25777,7 +25663,7 @@
 }, {
   "parent": [],
   "positionsCount": 29.0,
-  "ranking": 703,
+  "ranking": 701,
   "skill": "PEDREIRO",
   "synonyms": [
     {
@@ -25799,7 +25685,7 @@
     "FRONTEND"
   ],
   "positionsCount": 29.0,
-  "ranking": 704,
+  "ranking": 702,
   "skill": "ECM",
   "synonyms": [
     {
@@ -25814,7 +25700,7 @@
 }, {
   "parent": [],
   "positionsCount": 29.0,
-  "ranking": 705,
+  "ranking": 703,
   "skill": "BILINGUE",
   "synonyms": [
     {
@@ -25864,7 +25750,7 @@
       "word": "MPLS LABEL DISTRIBUTION PROTOCOLS (LDP, RSVP)"
     }
   ],
-  "ranking": 706,
+  "ranking": 704,
   "similar": [
     {
       "gemini": true,
@@ -25905,7 +25791,7 @@
     "BI"
   ],
   "positionsCount": 29.0,
-  "ranking": 707,
+  "ranking": 705,
   "skill": "COGNOS",
   "synonyms": [
     {
@@ -25920,7 +25806,7 @@
     "CLOUD"
   ],
   "positionsCount": 29.0,
-  "ranking": 708,
+  "ranking": 706,
   "skill": "SNOWFLAKE",
   "synonyms": [
     {
@@ -25934,7 +25820,7 @@
     "SUPPORT"
   ],
   "positionsCount": 28.0,
-  "ranking": 709,
+  "ranking": 707,
   "skill": "BMC",
   "synonyms": [
     {
@@ -25962,7 +25848,7 @@
   ],
   "positionsCount": 28.0,
   "prerequisites": [],
-  "ranking": 710,
+  "ranking": 708,
   "similar": [
     {
       "gemini": true,
@@ -26019,7 +25905,7 @@
     "ODONTOLOGIA"
   ],
   "positionsCount": 28.0,
-  "ranking": 711,
+  "ranking": 709,
   "skill": "DENTISTAS",
   "synonyms": [
     {
@@ -26036,7 +25922,7 @@
     "FATURAMENTO"
   ],
   "positionsCount": 28.0,
-  "ranking": 712,
+  "ranking": 710,
   "skill": "FATURISTA",
   "synonyms": [
     {
@@ -26061,7 +25947,7 @@
       "word": "NETWORKING AND SECURITY"
     }
   ],
-  "ranking": 713,
+  "ranking": 711,
   "similar": [
     {
       "gemini": true,
@@ -26309,7 +26195,7 @@
   ],
   "positionsCount": 28.0,
   "prerequisites": [],
-  "ranking": 714,
+  "ranking": 712,
   "similar": [
     {
       "gemini": true,
@@ -26372,7 +26258,7 @@
       "word": "EXPERIENCE USING REST APIS"
     }
   ],
-  "ranking": 715,
+  "ranking": 713,
   "similar": [
     {
       "gemini": true,
@@ -26471,7 +26357,7 @@
   ],
   "positionsCount": 27.0,
   "prerequisites": [],
-  "ranking": 716,
+  "ranking": 714,
   "similar": [
     {
       "gemini": true,
@@ -26513,7 +26399,7 @@
       "word": "SPRING CLOUD"
     }
   ],
-  "ranking": 717,
+  "ranking": 715,
   "similar": [
     {
       "gemini": true,
@@ -26582,7 +26468,7 @@
     "VETERINARIA"
   ],
   "positionsCount": 27.0,
-  "ranking": 718,
+  "ranking": 716,
   "skill": "VETERINARIO",
   "synonyms": [
     {
@@ -26600,7 +26486,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 27.0,
-  "ranking": 719,
+  "ranking": 717,
   "skill": "SSL",
   "synonyms": [
     {
@@ -26615,7 +26501,7 @@
     "BACKEND"
   ],
   "positionsCount": 27.0,
-  "ranking": 720,
+  "ranking": 718,
   "skill": "DEPENDENCY INJECTION",
   "synonyms": [
     {
@@ -26628,7 +26514,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 27.0,
-  "ranking": 721,
+  "ranking": 719,
   "skill": "ENGENHARIA ELETRONICA",
   "synonyms": [
     {
@@ -26644,7 +26530,7 @@
   ],
   "positionsCount": 26.0,
   "prerequisites": [],
-  "ranking": 722,
+  "ranking": 720,
   "similar": [
     {
       "gemini": true,
@@ -26720,7 +26606,7 @@
       "word": "REVERSE ENGINEERING"
     }
   ],
-  "ranking": 723,
+  "ranking": 721,
   "similar": [
     {
       "gemini": true,
@@ -26793,7 +26679,7 @@
       "word": "IDENTITY AND ACCESS MANAGEMENT"
     }
   ],
-  "ranking": 724,
+  "ranking": 722,
   "similar": [
     {
       "gemini": true,
@@ -26834,7 +26720,7 @@
     "JS"
   ],
   "positionsCount": 26.0,
-  "ranking": 725,
+  "ranking": 723,
   "skill": "HUBSPOT",
   "synonyms": [
     {
@@ -26861,7 +26747,7 @@
       "word": "BEHAT"
     }
   ],
-  "ranking": 726,
+  "ranking": 724,
   "similar": [
     {
       "gemini": true,
@@ -26888,7 +26774,7 @@
     "DATABRICKS"
   ],
   "positionsCount": 26.0,
-  "ranking": 727,
+  "ranking": 725,
   "skill": "AZURE DATABRICKS",
   "synonyms": [
     {
@@ -26901,7 +26787,7 @@
     "SECRETARIADO"
   ],
   "positionsCount": 26.0,
-  "ranking": 728,
+  "ranking": 726,
   "skill": "SECRETARIADO EXECUTIVO",
   "synonyms": [
     {
@@ -26914,7 +26800,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 26.0,
-  "ranking": 729,
+  "ranking": 727,
   "skill": "ENGENHARIA DE ALIMENTOS",
   "synonyms": [
     {
@@ -26929,7 +26815,7 @@
   ],
   "positionsCount": 25.0,
   "prerequisites": [],
-  "ranking": 730,
+  "ranking": 728,
   "similar": [
     {
       "gemini": true,
@@ -26963,7 +26849,7 @@
 }, {
   "parent": [],
   "positionsCount": 25.0,
-  "ranking": 731,
+  "ranking": 729,
   "skill": "ALEMAO",
   "synonyms": [
     {
@@ -27003,7 +26889,7 @@
       "word": "AKS FUNDAMENTALS"
     }
   ],
-  "ranking": 732,
+  "ranking": 730,
   "similar": [
     {
       "gemini": true,
@@ -27047,7 +26933,7 @@
     "PANIFICACAO"
   ],
   "positionsCount": 25.0,
-  "ranking": 733,
+  "ranking": 731,
   "skill": "PADEIRO",
   "synonyms": [
     {
@@ -27078,7 +26964,7 @@
       "word": "TESTING AND QUALITY ASSURANCE"
     }
   ],
-  "ranking": 734,
+  "ranking": 732,
   "similar": [
     {
       "gemini": true,
@@ -27120,7 +27006,7 @@
       "word": "SECURITY BEST PRACTICES"
     }
   ],
-  "ranking": 735,
+  "ranking": 733,
   "similar": [
     {
       "gemini": true,
@@ -27150,7 +27036,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 25.0,
-  "ranking": 736,
+  "ranking": 734,
   "skill": "UDP",
   "synonyms": [
     {
@@ -27164,7 +27050,7 @@
     "CSS"
   ],
   "positionsCount": 25.0,
-  "ranking": 737,
+  "ranking": 735,
   "skill": "STYLUS",
   "synonyms": [
     {
@@ -27175,7 +27061,7 @@
 }, {
   "parent": [],
   "positionsCount": 25.0,
-  "ranking": 738,
+  "ranking": 736,
   "skill": "GESTAO AMBIENTAL",
   "synonyms": [
     {
@@ -27188,7 +27074,7 @@
     "DIREITO"
   ],
   "positionsCount": 25.0,
-  "ranking": 739,
+  "ranking": 737,
   "skill": "ADVOGADO SOCIETARIO",
   "synonyms": [
     {
@@ -27203,7 +27089,7 @@
   ],
   "positionsCount": 24.0,
   "prerequisites": [],
-  "ranking": 740,
+  "ranking": 738,
   "similar": [
     {
       "gemini": true,
@@ -27262,7 +27148,7 @@
       "word": "EXT JS FRAMEWORK"
     }
   ],
-  "ranking": 741,
+  "ranking": 739,
   "similar": [
     {
       "gemini": true,
@@ -27318,7 +27204,7 @@
       "word": "KUBERNETES KNOWLEDGE"
     }
   ],
-  "ranking": 742,
+  "ranking": 740,
   "similar": [
     {
       "gemini": true,
@@ -27368,7 +27254,7 @@
       "word": "PROTOCOL BUFFERS"
     }
   ],
-  "ranking": 743,
+  "ranking": 741,
   "similar": [
     {
       "gemini": true,
@@ -27408,7 +27294,7 @@
     "ORM"
   ],
   "positionsCount": 24.0,
-  "ranking": 744,
+  "ranking": 742,
   "skill": "MYBATIS",
   "synonyms": [
     {
@@ -27427,7 +27313,7 @@
   ],
   "positionsCount": 24.0,
   "prerequisites": [],
-  "ranking": 745,
+  "ranking": 743,
   "similar": [
     {
       "gemini": true,
@@ -27471,7 +27357,7 @@
     "PERFUME"
   ],
   "positionsCount": 24.0,
-  "ranking": 746,
+  "ranking": 744,
   "skill": "PERFUMISTA",
   "synonyms": [
     {
@@ -27496,7 +27382,7 @@
       "word": "CONTEXT API CONCEPTS"
     }
   ],
-  "ranking": 747,
+  "ranking": 745,
   "similar": [
     {
       "gemini": true,
@@ -27573,7 +27459,7 @@
       "word": "PROCESSOR ARCHITECTURE AND INSTRUCTION SET"
     }
   ],
-  "ranking": 748,
+  "ranking": 746,
   "similar": [
     {
       "gemini": true,
@@ -27620,7 +27506,7 @@
   ],
   "positionsCount": 24.0,
   "prerequisites": [],
-  "ranking": 749,
+  "ranking": 747,
   "similar": [
     {
       "gemini": true,
@@ -27678,7 +27564,7 @@
     "XML"
   ],
   "positionsCount": 24.0,
-  "ranking": 750,
+  "ranking": 748,
   "skill": "SAML",
   "synonyms": [
     {
@@ -27693,7 +27579,7 @@
   ],
   "positionsCount": 24.0,
   "prerequisites": [],
-  "ranking": 751,
+  "ranking": 749,
   "similar": [
     {
       "gemini": true,
@@ -27725,7 +27611,7 @@
     "PYTHON"
   ],
   "positionsCount": 24.0,
-  "ranking": 752,
+  "ranking": 750,
   "skill": "NUMPY",
   "synonyms": [
     {
@@ -27761,7 +27647,7 @@
       "word": "GUI AUTOMATION"
     }
   ],
-  "ranking": 753,
+  "ranking": 751,
   "similar": [
     {
       "gemini": true,
@@ -27796,7 +27682,7 @@
     "RH"
   ],
   "positionsCount": 23.0,
-  "ranking": 754,
+  "ranking": 752,
   "skill": "GESTOR DE RH",
   "synonyms": [
     {
@@ -27841,7 +27727,7 @@
       "word": "BLOCKCHAIN ARCHITECTURE"
     }
   ],
-  "ranking": 755,
+  "ranking": 753,
   "similar": [
     {
       "gemini": true,
@@ -27881,7 +27767,7 @@
     "WS"
   ],
   "positionsCount": 23.0,
-  "ranking": 756,
+  "ranking": 754,
   "skill": "LOAD BALANCER",
   "synonyms": [
     {
@@ -27898,7 +27784,7 @@
     "FISIOTERAPIA"
   ],
   "positionsCount": 23.0,
-  "ranking": 757,
+  "ranking": 755,
   "skill": "FISIOTERAPEUTA",
   "synonyms": [
     {
@@ -27943,7 +27829,7 @@
       "word": "CICS PROGRAMMING"
     }
   ],
-  "ranking": 758,
+  "ranking": 756,
   "similar": [
     {
       "gemini": true,
@@ -27969,7 +27855,7 @@
     "VM"
   ],
   "positionsCount": 23.0,
-  "ranking": 759,
+  "ranking": 757,
   "skill": "ESXI",
   "synonyms": [
     {
@@ -27983,7 +27869,7 @@
     "ANGULAR"
   ],
   "positionsCount": 23.0,
-  "ranking": 760,
+  "ranking": 758,
   "skill": "NGRX",
   "synonyms": [
     {
@@ -27997,7 +27883,7 @@
     "SALESFORCE"
   ],
   "positionsCount": 23.0,
-  "ranking": 761,
+  "ranking": 759,
   "skill": "SOQL",
   "synonyms": [
     {
@@ -28010,7 +27896,7 @@
     "TI"
   ],
   "positionsCount": 23.0,
-  "ranking": 762,
+  "ranking": 760,
   "skill": "GENEXUS",
   "synonyms": [
     {
@@ -28024,7 +27910,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 23.0,
-  "ranking": 763,
+  "ranking": 761,
   "skill": "SIX SIGMA",
   "synonyms": [
     {
@@ -28038,7 +27924,7 @@
     "CLOUD"
   ],
   "positionsCount": 23.0,
-  "ranking": 764,
+  "ranking": 762,
   "skill": "CLOUD FUNCTIONS",
   "synonyms": [
     {
@@ -28049,7 +27935,7 @@
 }, {
   "parent": [],
   "positionsCount": 23.0,
-  "ranking": 765,
+  "ranking": 763,
   "skill": "EDUCACAO FISICA",
   "synonyms": [
     {
@@ -28065,7 +27951,7 @@
   ],
   "positionsCount": 22.0,
   "prerequisites": [],
-  "ranking": 766,
+  "ranking": 764,
   "similar": [
     {
       "gemini": true,
@@ -28106,7 +27992,7 @@
       "word": "WEBSPHERE DATAPOWER"
     }
   ],
-  "ranking": 767,
+  "ranking": 765,
   "similar": [],
   "skill": "DATAPOWER",
   "synonyms": [
@@ -28130,7 +28016,7 @@
     "APPIUM"
   ],
   "positionsCount": 22.0,
-  "ranking": 768,
+  "ranking": 766,
   "skill": "JAPONES",
   "synonyms": [
     {
@@ -28147,7 +28033,7 @@
     "JORNALISMO"
   ],
   "positionsCount": 22.0,
-  "ranking": 769,
+  "ranking": 767,
   "skill": "JORNALISTA",
   "synonyms": [
     {
@@ -28172,7 +28058,7 @@
       "word": "CRYSTAL SYNTAX"
     }
   ],
-  "ranking": 770,
+  "ranking": 768,
   "similar": [
     {
       "gemini": true,
@@ -28210,7 +28096,7 @@
       "word": "ITIL KNOWLEDGE"
     }
   ],
-  "ranking": 771,
+  "ranking": 769,
   "similar": [
     {
       "gemini": true,
@@ -28237,7 +28123,7 @@
     "JS"
   ],
   "positionsCount": 22.0,
-  "ranking": 772,
+  "ranking": 770,
   "skill": "AXIOS",
   "synonyms": [
     {
@@ -28252,7 +28138,7 @@
     "APPIUM"
   ],
   "positionsCount": 22.0,
-  "ranking": 773,
+  "ranking": 771,
   "skill": "KATALON",
   "synonyms": [
     {
@@ -28265,7 +28151,7 @@
     "AUTOCAD"
   ],
   "positionsCount": 21.0,
-  "ranking": 774,
+  "ranking": 772,
   "skill": "CADISTA",
   "synonyms": [
     {
@@ -28282,7 +28168,7 @@
     "MATH"
   ],
   "positionsCount": 21.0,
-  "ranking": 775,
+  "ranking": 773,
   "skill": "MATEMATICOS",
   "synonyms": [
     {
@@ -28303,7 +28189,7 @@
   ],
   "positionsCount": 21.0,
   "prerequisites": [],
-  "ranking": 776,
+  "ranking": 774,
   "similar": [
     {
       "gemini": true,
@@ -28371,7 +28257,7 @@
       "word": "FUNCTIONS"
     }
   ],
-  "ranking": 777,
+  "ranking": 775,
   "similar": [
     {
       "gemini": true,
@@ -28443,7 +28329,7 @@
   ],
   "positionsCount": 21.0,
   "prerequisites": [],
-  "ranking": 778,
+  "ranking": 776,
   "similar": [
     {
       "gemini": true,
@@ -28485,7 +28371,7 @@
   ],
   "positionsCount": 21.0,
   "prerequisites": [],
-  "ranking": 779,
+  "ranking": 777,
   "similar": [
     {
       "gemini": true,
@@ -28511,7 +28397,7 @@
     "ELIXIR"
   ],
   "positionsCount": 21.0,
-  "ranking": 780,
+  "ranking": 778,
   "skill": "PHOENIX",
   "synonyms": [
     {
@@ -28525,7 +28411,7 @@
     "SAP"
   ],
   "positionsCount": 21.0,
-  "ranking": 781,
+  "ranking": 779,
   "skill": "SAP APO",
   "synonyms": [
     {
@@ -28540,7 +28426,7 @@
     "ORM"
   ],
   "positionsCount": 21.0,
-  "ranking": 782,
+  "ranking": 780,
   "skill": "DOCTRINE",
   "synonyms": [
     {
@@ -28551,7 +28437,7 @@
 }, {
   "parent": [],
   "positionsCount": 21.0,
-  "ranking": 783,
+  "ranking": 781,
   "skill": "GERENTE DE RESTAURANTE",
   "synonyms": [
     {
@@ -28566,7 +28452,7 @@
   ],
   "positionsCount": 20.0,
   "prerequisites": [],
-  "ranking": 784,
+  "ranking": 782,
   "similar": [
     {
       "gemini": true,
@@ -28606,7 +28492,7 @@
     "ETL"
   ],
   "positionsCount": 20.0,
-  "ranking": 785,
+  "ranking": 783,
   "skill": "POWER QUERY",
   "synonyms": [
     {
@@ -28624,7 +28510,7 @@
     "DB"
   ],
   "positionsCount": 20.0,
-  "ranking": 786,
+  "ranking": 784,
   "skill": "APACHE DRUID",
   "synonyms": [
     {
@@ -28654,7 +28540,7 @@
       "word": "CARTOGRAPHY"
     }
   ],
-  "ranking": 787,
+  "ranking": 785,
   "similar": [
     {
       "gemini": true,
@@ -28706,7 +28592,7 @@
   ],
   "positionsCount": 20.0,
   "prerequisites": [],
-  "ranking": 788,
+  "ranking": 786,
   "similar": [
     {
       "gemini": true,
@@ -28732,7 +28618,7 @@
     "SAP"
   ],
   "positionsCount": 20.0,
-  "ranking": 789,
+  "ranking": 787,
   "skill": "SAP HR",
   "synonyms": [
     {
@@ -28768,7 +28654,7 @@
       "word": "SECURITY POLICY AND COMPLIANCE"
     }
   ],
-  "ranking": 790,
+  "ranking": 788,
   "similar": [
     {
       "gemini": true,
@@ -28851,7 +28737,7 @@
       "word": "INDEXES"
     }
   ],
-  "ranking": 791,
+  "ranking": 789,
   "similar": [
     {
       "gemini": true,
@@ -28871,7 +28757,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 20.0,
-  "ranking": 792,
+  "ranking": 790,
   "skill": "ENGENHEIRO DE MANUTENCAO",
   "synonyms": [
     {
@@ -28885,7 +28771,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 19.0,
-  "ranking": 793,
+  "ranking": 791,
   "similar": [
     {
       "gemini": true,
@@ -28951,7 +28837,7 @@
       "word": "BUSINESS PROCESS ANALYSIS"
     }
   ],
-  "ranking": 794,
+  "ranking": 792,
   "similar": [
     {
       "gemini": true,
@@ -28982,7 +28868,7 @@
     "CERTIFICACAO"
   ],
   "positionsCount": 19.0,
-  "ranking": 795,
+  "ranking": 793,
   "similar": [
     {
       "gemini": true,
@@ -29034,7 +28920,7 @@
       "word": "GRAPHICS"
     }
   ],
-  "ranking": 796,
+  "ranking": 794,
   "similar": [
     {
       "gemini": true,
@@ -29085,7 +28971,7 @@
     "AWS"
   ],
   "positionsCount": 19.0,
-  "ranking": 797,
+  "ranking": 795,
   "skill": "AZURE GIT",
   "synonyms": [
     {
@@ -29111,7 +28997,7 @@
       "word": "JAVA ENTERPRISE EDITION (JAVA EE)"
     }
   ],
-  "ranking": 798,
+  "ranking": 796,
   "similar": [
     {
       "gemini": true,
@@ -29147,7 +29033,7 @@
   ],
   "positionsCount": 19.0,
   "prerequisites": [],
-  "ranking": 799,
+  "ranking": 797,
   "similar": [
     {
       "gemini": true,
@@ -29173,7 +29059,7 @@
     "BACKEND"
   ],
   "positionsCount": 19.0,
-  "ranking": 800,
+  "ranking": 798,
   "skill": "RUST",
   "synonyms": [
     {
@@ -29204,7 +29090,7 @@
       "word": "HARDENING"
     }
   ],
-  "ranking": 801,
+  "ranking": 799,
   "similar": [
     {
       "gemini": true,
@@ -29258,7 +29144,7 @@
       "word": "RADIUS PROTOCOL CONCEPTS"
     }
   ],
-  "ranking": 802,
+  "ranking": 800,
   "similar": [
     {
       "gemini": true,
@@ -29285,7 +29171,7 @@
     "PERFORMANCE"
   ],
   "positionsCount": 19.0,
-  "ranking": 803,
+  "ranking": 801,
   "skill": "LOADRUNNER",
   "synonyms": [
     {
@@ -29300,7 +29186,7 @@
     "BARRAMENTO"
   ],
   "positionsCount": 19.0,
-  "ranking": 804,
+  "ranking": 802,
   "skill": "AZURE SERVICE BUS",
   "synonyms": [
     {
@@ -29313,7 +29199,7 @@
     "DIREITO"
   ],
   "positionsCount": 19.0,
-  "ranking": 805,
+  "ranking": 803,
   "skill": "ADVOGADO TRABALHISTA",
   "synonyms": [
     {
@@ -29326,7 +29212,7 @@
     "TELECOMUNICACAO"
   ],
   "positionsCount": 19.0,
-  "ranking": 806,
+  "ranking": 804,
   "skill": "ENGENHARIA DE TELECOMUNICACOES",
   "synonyms": [
     {
@@ -29353,7 +29239,7 @@
       "word": "ENGINEERING DESIGN"
     }
   ],
-  "ranking": 807,
+  "ranking": 805,
   "similar": [
     {
       "gemini": true,
@@ -29425,7 +29311,7 @@
       "word": "FIREBIRD ARCHITECTURE"
     }
   ],
-  "ranking": 808,
+  "ranking": 806,
   "similar": [],
   "skill": "FIREBIRD",
   "synonyms": [
@@ -29451,7 +29337,7 @@
       "word": "INFORMATION GOVERNANCE"
     }
   ],
-  "ranking": 809,
+  "ranking": 807,
   "similar": [
     {
       "gemini": true,
@@ -29563,7 +29449,7 @@
       "word": "FRONT-END TECHNOLOGIES"
     }
   ],
-  "ranking": 810,
+  "ranking": 808,
   "similar": [
     {
       "gemini": true,
@@ -29604,7 +29490,7 @@
     "MONITORAMENTO"
   ],
   "positionsCount": 18.0,
-  "ranking": 811,
+  "ranking": 809,
   "skill": "JAEGER",
   "synonyms": [
     {
@@ -29618,7 +29504,7 @@
     "SAP"
   ],
   "positionsCount": 18.0,
-  "ranking": 812,
+  "ranking": 810,
   "skill": "SAP QM",
   "synonyms": [
     {
@@ -29632,7 +29518,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 18.0,
-  "ranking": 813,
+  "ranking": 811,
   "skill": "ARCHIMATE",
   "synonyms": [
     {
@@ -29645,7 +29531,7 @@
     "DIREITO"
   ],
   "positionsCount": 18.0,
-  "ranking": 814,
+  "ranking": 812,
   "skill": "DIREITO TRIBUTARIO",
   "synonyms": [
     {
@@ -29658,7 +29544,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 18.0,
-  "ranking": 815,
+  "ranking": 813,
   "skill": "ENGENHARIA DE CONTROLE E AUTOMACAO",
   "synonyms": [
     {
@@ -29672,7 +29558,7 @@
     "JAVA"
   ],
   "positionsCount": 17.0,
-  "ranking": 816,
+  "ranking": 814,
   "skill": "ADF",
   "synonyms": [
     {
@@ -29698,7 +29584,7 @@
     "DB"
   ],
   "positionsCount": 17.0,
-  "ranking": 817,
+  "ranking": 815,
   "skill": "FLUME",
   "synonyms": [
     {
@@ -29749,7 +29635,7 @@
       "word": "TESTNG ANNOTATIONS"
     }
   ],
-  "ranking": 818,
+  "ranking": 816,
   "similar": [],
   "skill": "TESTNG",
   "synonyms": [
@@ -29790,7 +29676,7 @@
       "word": "CLOUD COMPUTING KNOWLEDGE"
     }
   ],
-  "ranking": 819,
+  "ranking": 817,
   "similar": [
     {
       "gemini": true,
@@ -29907,7 +29793,7 @@
   ],
   "positionsCount": 17.0,
   "prerequisites": [],
-  "ranking": 820,
+  "ranking": 818,
   "similar": [
     {
       "gemini": true,
@@ -29956,7 +29842,7 @@
     "JARDINAGEM"
   ],
   "positionsCount": 17.0,
-  "ranking": 821,
+  "ranking": 819,
   "skill": "JARDINEIRO",
   "synonyms": [
     {
@@ -29974,7 +29860,7 @@
     "SQL"
   ],
   "positionsCount": 17.0,
-  "ranking": 822,
+  "ranking": 820,
   "skill": "SQLALCHEMY",
   "synonyms": [
     {
@@ -29993,7 +29879,7 @@
   ],
   "positionsCount": 17.0,
   "prerequisites": [],
-  "ranking": 823,
+  "ranking": 821,
   "similar": [
     {
       "gemini": true,
@@ -30015,7 +29901,7 @@
 }, {
   "parent": [],
   "positionsCount": 17.0,
-  "ranking": 824,
+  "ranking": 822,
   "skill": "AUDIOVISUAL",
   "synonyms": [
     {
@@ -30035,7 +29921,7 @@
   ],
   "positionsCount": 17.0,
   "prerequisites": [],
-  "ranking": 825,
+  "ranking": 823,
   "similar": [],
   "skill": "CODEIGNITER",
   "synonyms": [
@@ -30053,7 +29939,7 @@
     "ESTETICA"
   ],
   "positionsCount": 17.0,
-  "ranking": 826,
+  "ranking": 824,
   "skill": "ESTETICISTA",
   "synonyms": [
     {
@@ -30079,7 +29965,7 @@
       "word": "ACTIVE RECORD"
     }
   ],
-  "ranking": 827,
+  "ranking": 825,
   "similar": [],
   "skill": "YII",
   "synonyms": [
@@ -30096,7 +29982,7 @@
   ],
   "positionsCount": 17.0,
   "prerequisites": [],
-  "ranking": 828,
+  "ranking": 826,
   "similar": [],
   "skill": "YARN",
   "synonyms": [
@@ -30108,7 +29994,7 @@
 }, {
   "parent": [],
   "positionsCount": 17.0,
-  "ranking": 829,
+  "ranking": 827,
   "skill": "CINEMA",
   "synonyms": [
     {
@@ -30123,7 +30009,7 @@
   ],
   "positionsCount": 17.0,
   "prerequisites": [],
-  "ranking": 830,
+  "ranking": 828,
   "similar": [],
   "skill": "IMPALA",
   "synonyms": [
@@ -30138,7 +30024,7 @@
     "BI"
   ],
   "positionsCount": 17.0,
-  "ranking": 831,
+  "ranking": 829,
   "skill": "LOOKER",
   "synonyms": [
     {
@@ -30164,7 +30050,7 @@
       "word": "FIORI"
     }
   ],
-  "ranking": 832,
+  "ranking": 830,
   "similar": [],
   "skill": "SAP IS-U",
   "synonyms": [
@@ -30178,7 +30064,7 @@
     "TI"
   ],
   "positionsCount": 17.0,
-  "ranking": 833,
+  "ranking": 831,
   "skill": "SALTSTACK",
   "synonyms": [
     {
@@ -30192,7 +30078,7 @@
     "CMS"
   ],
   "positionsCount": 17.0,
-  "ranking": 834,
+  "ranking": 832,
   "skill": "CLOUDFRONT",
   "synonyms": [
     {
@@ -30207,7 +30093,7 @@
     "ERP"
   ],
   "positionsCount": 16.0,
-  "ranking": 835,
+  "ranking": 833,
   "skill": "NETSUITE",
   "synonyms": [
     {
@@ -30229,7 +30115,7 @@
     "ETL"
   ],
   "positionsCount": 16.0,
-  "ranking": 836,
+  "ranking": 834,
   "skill": "FLINK",
   "synonyms": [
     {
@@ -30247,7 +30133,7 @@
     "DB"
   ],
   "positionsCount": 16.0,
-  "ranking": 837,
+  "ranking": 835,
   "skill": "INFLUXDB",
   "synonyms": [
     {
@@ -30266,7 +30152,7 @@
     "TDD"
   ],
   "positionsCount": 16.0,
-  "ranking": 838,
+  "ranking": 836,
   "skill": "PYTEST",
   "synonyms": [
     {
@@ -30281,7 +30167,7 @@
   ],
   "positionsCount": 16.0,
   "prerequisites": [],
-  "ranking": 839,
+  "ranking": 837,
   "similar": [
     {
       "gemini": true,
@@ -30309,7 +30195,7 @@
 }, {
   "parent": [],
   "positionsCount": 16.0,
-  "ranking": 840,
+  "ranking": 838,
   "skill": "URBANISMO",
   "synonyms": [
     {
@@ -30322,7 +30208,7 @@
     "DIREITO"
   ],
   "positionsCount": 16.0,
-  "ranking": 841,
+  "ranking": 839,
   "skill": "ADVOGADO CIVIL",
   "synonyms": [
     {
@@ -30337,7 +30223,7 @@
     "CICD"
   ],
   "positionsCount": 16.0,
-  "ranking": 842,
+  "ranking": 840,
   "skill": "AZURE PIPELINES",
   "synonyms": [
     {
@@ -30348,7 +30234,7 @@
 }, {
   "parent": [],
   "positionsCount": 16.0,
-  "ranking": 843,
+  "ranking": 841,
   "skill": "FISCAL DE CAIXA",
   "synonyms": [
     {
@@ -30362,7 +30248,7 @@
     "JS"
   ],
   "positionsCount": 15.0,
-  "ranking": 844,
+  "ranking": 842,
   "skill": "EMBER",
   "synonyms": [
     {
@@ -30396,7 +30282,7 @@
       "word": "PYTHON3"
     }
   ],
-  "ranking": 845,
+  "ranking": 843,
   "similar": [
     {
       "gemini": true,
@@ -30436,7 +30322,7 @@
 }, {
   "parent": [],
   "positionsCount": 15.0,
-  "ranking": 846,
+  "ranking": 844,
   "skill": "CAMAREIRA",
   "synonyms": [
     {
@@ -30470,7 +30356,7 @@
       "word": "TOAD AUTOMATION API"
     }
   ],
-  "ranking": 847,
+  "ranking": 845,
   "similar": [
     {
       "gemini": true,
@@ -30500,7 +30386,7 @@
   ],
   "positionsCount": 15.0,
   "prerequisites": [],
-  "ranking": 848,
+  "ranking": 846,
   "similar": [
     {
       "gemini": true,
@@ -30949,7 +30835,7 @@
     "VIGILANCIA"
   ],
   "positionsCount": 15.0,
-  "ranking": 849,
+  "ranking": 847,
   "skill": "VIGIA",
   "synonyms": [
     {
@@ -30966,7 +30852,7 @@
     "MARKETING"
   ],
   "positionsCount": 15.0,
-  "ranking": 850,
+  "ranking": 848,
   "skill": "ADWORDS",
   "synonyms": [
     {
@@ -30985,7 +30871,7 @@
   ],
   "positionsCount": 15.0,
   "prerequisites": [],
-  "ranking": 851,
+  "ranking": 849,
   "similar": [],
   "skill": "TENSORFLOW",
   "synonyms": [
@@ -31001,7 +30887,7 @@
 }, {
   "parent": [],
   "positionsCount": 15.0,
-  "ranking": 852,
+  "ranking": 850,
   "skill": "VIDEOMAKER",
   "synonyms": [
     {
@@ -31019,7 +30905,7 @@
     "PATTERNS"
   ],
   "positionsCount": 14.0,
-  "ranking": 853,
+  "ranking": 851,
   "skill": "GOF",
   "synonyms": [
     {
@@ -31038,7 +30924,7 @@
   ],
   "positionsCount": 14.0,
   "prerequisites": [],
-  "ranking": 854,
+  "ranking": 852,
   "similar": [
     {
       "gemini": true,
@@ -31067,7 +30953,7 @@
     "AGRONOMIA"
   ],
   "positionsCount": 14.0,
-  "ranking": 855,
+  "ranking": 853,
   "skill": "AGRONOMO",
   "synonyms": [
     {
@@ -31093,7 +30979,7 @@
       "word": "ELASTIC CLOUD COMPUTING (ECC)"
     }
   ],
-  "ranking": 856,
+  "ranking": 854,
   "similar": [],
   "skill": "GATSBY",
   "synonyms": [
@@ -31115,7 +31001,7 @@
       "word": "APPLICATION SERVER"
     }
   ],
-  "ranking": 857,
+  "ranking": 855,
   "similar": [
     {
       "gemini": true,
@@ -31208,7 +31094,7 @@
   ],
   "positionsCount": 14.0,
   "prerequisites": [],
-  "ranking": 858,
+  "ranking": 856,
   "similar": [
     {
       "gemini": true,
@@ -31335,7 +31221,7 @@
     "IDE"
   ],
   "positionsCount": 14.0,
-  "ranking": 859,
+  "ranking": 857,
   "skill": "SQL DEVELOPER",
   "synonyms": [
     {
@@ -31348,7 +31234,7 @@
     "DIREITO"
   ],
   "positionsCount": 14.0,
-  "ranking": 860,
+  "ranking": 858,
   "skill": "ADVOGADO TRIBUTARIO",
   "synonyms": [
     {
@@ -31362,7 +31248,7 @@
     "CLOUD"
   ],
   "positionsCount": 14.0,
-  "ranking": 861,
+  "ranking": 859,
   "skill": "SAP ANALYTICS CLOUD",
   "synonyms": [
     {
@@ -31373,7 +31259,7 @@
 }, {
   "parent": [],
   "positionsCount": 14.0,
-  "ranking": 862,
+  "ranking": 860,
   "skill": "ENGENHEIRO DE PRODUCAO",
   "synonyms": [
     {
@@ -31409,7 +31295,7 @@
       "word": "LOOPING STRUCTURES"
     }
   ],
-  "ranking": 863,
+  "ranking": 861,
   "similar": [],
   "skill": "VBSCRIPT",
   "synonyms": [
@@ -31433,7 +31319,7 @@
 }, {
   "parent": [],
   "positionsCount": 13.0,
-  "ranking": 864,
+  "ranking": 862,
   "skill": "TERRAPLANAGEM",
   "synonyms": [
     {
@@ -31471,7 +31357,7 @@
       "word": "IAC (INFRASTRUCTURE AS CODE)"
     }
   ],
-  "ranking": 865,
+  "ranking": 863,
   "similar": [],
   "skill": "PACKER",
   "synonyms": [
@@ -31494,7 +31380,7 @@
     "CSS"
   ],
   "positionsCount": 13.0,
-  "ranking": 866,
+  "ranking": 864,
   "skill": "POSTCSS",
   "synonyms": [
     {
@@ -31511,7 +31397,7 @@
     "MEDIACAO"
   ],
   "positionsCount": 13.0,
-  "ranking": 867,
+  "ranking": 865,
   "skill": "MEDIADOR",
   "synonyms": [
     {
@@ -31531,7 +31417,7 @@
   ],
   "positionsCount": 13.0,
   "prerequisites": [],
-  "ranking": 868,
+  "ranking": 866,
   "similar": [
     {
       "gemini": true,
@@ -31565,7 +31451,7 @@
     "FONOAUDIOLOGIA"
   ],
   "positionsCount": 13.0,
-  "ranking": 869,
+  "ranking": 867,
   "skill": "FONOAUDIOLOGO",
   "synonyms": [
     {
@@ -31583,7 +31469,7 @@
     "BI"
   ],
   "positionsCount": 13.0,
-  "ranking": 870,
+  "ranking": 868,
   "skill": "SPSS",
   "synonyms": [
     {
@@ -31620,7 +31506,7 @@
       "word": "KNOWLEDGE OF .NET FRAMEWORK"
     }
   ],
-  "ranking": 871,
+  "ranking": 869,
   "similar": [
     {
       "gemini": true,
@@ -31661,7 +31547,7 @@
     "BI"
   ],
   "positionsCount": 13.0,
-  "ranking": 872,
+  "ranking": 870,
   "skill": "SAP BI",
   "synonyms": [
     {
@@ -31677,7 +31563,7 @@
   ],
   "positionsCount": 13.0,
   "prerequisites": [],
-  "ranking": 873,
+  "ranking": 871,
   "similar": [
     {
       "gemini": true,
@@ -31732,7 +31618,7 @@
     "AGRONOMIA"
   ],
   "positionsCount": 13.0,
-  "ranking": 874,
+  "ranking": 872,
   "skill": "ENGENHARIA AGRONOMICA",
   "synonyms": [
     {
@@ -31745,7 +31631,7 @@
     "DESIGN DE INTERIORES"
   ],
   "positionsCount": 13.0,
-  "ranking": 875,
+  "ranking": 873,
   "skill": "DESIGNER DE INTERIORES",
   "synonyms": [
     {
@@ -31758,7 +31644,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 13.0,
-  "ranking": 876,
+  "ranking": 874,
   "skill": "ENGENHARIA MECATRONICA",
   "synonyms": [
     {
@@ -31773,7 +31659,7 @@
     "PYTHON"
   ],
   "positionsCount": 12.0,
-  "ranking": 877,
+  "ranking": 875,
   "skill": "SCIKIT-LEARN",
   "synonyms": [
     {
@@ -31799,7 +31685,7 @@
     "BIGDATA"
   ],
   "positionsCount": 12.0,
-  "ranking": 878,
+  "ranking": 876,
   "skill": "AVRO",
   "synonyms": [
     {
@@ -31814,7 +31700,7 @@
 }, {
   "parent": [],
   "positionsCount": 12.0,
-  "ranking": 879,
+  "ranking": 877,
   "skill": "CORTADOR",
   "synonyms": [
     {
@@ -31833,7 +31719,7 @@
     "AZURE"
   ],
   "positionsCount": 12.0,
-  "ranking": 880,
+  "ranking": 878,
   "skill": "DATA MART",
   "synonyms": [
     {
@@ -31851,7 +31737,7 @@
     "BIGDATA"
   ],
   "positionsCount": 12.0,
-  "ranking": 881,
+  "ranking": 879,
   "skill": "MAPREDUCE",
   "synonyms": [
     {
@@ -31870,7 +31756,7 @@
     "CLOUD"
   ],
   "positionsCount": 12.0,
-  "ranking": 882,
+  "ranking": 880,
   "skill": "SPINNAKER",
   "synonyms": [
     {
@@ -31887,7 +31773,7 @@
     "BIOQUIMICA"
   ],
   "positionsCount": 12.0,
-  "ranking": 883,
+  "ranking": 881,
   "skill": "BIOQUIMICO",
   "synonyms": [
     {
@@ -31905,7 +31791,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 12.0,
-  "ranking": 884,
+  "ranking": 882,
   "skill": "SSH",
   "synonyms": [
     {
@@ -31920,7 +31806,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 12.0,
-  "ranking": 885,
+  "ranking": 883,
   "skill": "AMQP",
   "synonyms": [
     {
@@ -31951,7 +31837,7 @@
       "word": "EL EXPRESSIONS"
     }
   ],
-  "ranking": 886,
+  "ranking": 884,
   "similar": [
     {
       "gemini": true,
@@ -32034,7 +31920,7 @@
       "word": "ASSESSMENT"
     }
   ],
-  "ranking": 887,
+  "ranking": 885,
   "similar": [
     {
       "gemini": true,
@@ -32076,7 +31962,7 @@
     "REACT"
   ],
   "positionsCount": 12.0,
-  "ranking": 888,
+  "ranking": 886,
   "skill": "ENZYME",
   "synonyms": [
     {
@@ -32091,7 +31977,7 @@
     "WS"
   ],
   "positionsCount": 12.0,
-  "ranking": 889,
+  "ranking": 887,
   "skill": "VERT.X",
   "synonyms": [
     {
@@ -32106,7 +31992,7 @@
   ],
   "positionsCount": 12.0,
   "prerequisites": [],
-  "ranking": 890,
+  "ranking": 888,
   "similar": [],
   "skill": "MATPLOTLIB",
   "synonyms": [
@@ -32120,7 +32006,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 12.0,
-  "ranking": 891,
+  "ranking": 889,
   "skill": "ENGENHEIRO QUIMICO",
   "synonyms": [
     {
@@ -32134,7 +32020,7 @@
     "CICD"
   ],
   "positionsCount": 11.0,
-  "ranking": 892,
+  "ranking": 890,
   "skill": "GITHUB ACTIONS",
   "synonyms": [
     {
@@ -32152,7 +32038,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 11.0,
-  "ranking": 893,
+  "ranking": 891,
   "skill": "FTP",
   "synonyms": [
     {
@@ -32166,7 +32052,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 11.0,
-  "ranking": 894,
+  "ranking": 892,
   "skill": "SNMP",
   "synonyms": [
     {
@@ -32180,7 +32066,7 @@
     "HADOOP"
   ],
   "positionsCount": 11.0,
-  "ranking": 895,
+  "ranking": 893,
   "skill": "SQOOP",
   "synonyms": [
     {
@@ -32194,7 +32080,7 @@
     "GIT"
   ],
   "positionsCount": 11.0,
-  "ranking": 896,
+  "ranking": 894,
   "skill": "GITOPS",
   "synonyms": [
     {
@@ -32208,7 +32094,7 @@
     "MATH"
   ],
   "positionsCount": 11.0,
-  "ranking": 897,
+  "ranking": 895,
   "skill": "MATLAB",
   "synonyms": [
     {
@@ -32223,7 +32109,7 @@
     "NLP"
   ],
   "positionsCount": 11.0,
-  "ranking": 898,
+  "ranking": 896,
   "skill": "PYTORCH",
   "synonyms": [
     {
@@ -32236,7 +32122,7 @@
     "MEDICINA"
   ],
   "positionsCount": 11.0,
-  "ranking": 899,
+  "ranking": 897,
   "skill": "PATOLOGIA",
   "synonyms": [
     {
@@ -32267,7 +32153,7 @@
       "word": "RETAIL OPERATIONS"
     }
   ],
-  "ranking": 900,
+  "ranking": 898,
   "similar": [
     {
       "gemini": true,
@@ -32287,7 +32173,7 @@
     "DIREITO"
   ],
   "positionsCount": 11.0,
-  "ranking": 901,
+  "ranking": 899,
   "skill": "DIREITO IMOBILIARIO",
   "synonyms": [
     {
@@ -32300,7 +32186,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 11.0,
-  "ranking": 902,
+  "ranking": 900,
   "skill": "ENGENHARIA DE MATERIAIS",
   "synonyms": [
     {
@@ -32313,7 +32199,7 @@
     "TI"
   ],
   "positionsCount": 10.0,
-  "ranking": 903,
+  "ranking": 901,
   "skill": "OPENGL",
   "synonyms": [
     {
@@ -32331,7 +32217,7 @@
     "LDAP"
   ],
   "positionsCount": 10.0,
-  "ranking": 904,
+  "ranking": 902,
   "skill": "OPENLDAP",
   "synonyms": [
     {
@@ -32348,7 +32234,7 @@
     "MODELAGEM"
   ],
   "positionsCount": 10.0,
-  "ranking": 905,
+  "ranking": 903,
   "skill": "MODELADOR",
   "synonyms": [
     {
@@ -32367,7 +32253,7 @@
     "SM"
   ],
   "positionsCount": 10.0,
-  "ranking": 906,
+  "ranking": 904,
   "skill": "CSPO",
   "synonyms": [
     {
@@ -32381,7 +32267,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 10.0,
-  "ranking": 907,
+  "ranking": 905,
   "skill": "SMTP",
   "synonyms": [
     {
@@ -32396,7 +32282,7 @@
     "BUILD"
   ],
   "positionsCount": 10.0,
-  "ranking": 908,
+  "ranking": 906,
   "skill": "BABEL",
   "synonyms": [
     {
@@ -32411,7 +32297,7 @@
     "SERVER"
   ],
   "positionsCount": 10.0,
-  "ranking": 909,
+  "ranking": 907,
   "skill": "JETTY",
   "synonyms": [
     {
@@ -32425,7 +32311,7 @@
     "LOWCODE"
   ],
   "positionsCount": 10.0,
-  "ranking": 910,
+  "ranking": 908,
   "skill": "MENDIX",
   "synonyms": [
     {
@@ -32439,7 +32325,7 @@
     "LISP"
   ],
   "positionsCount": 10.0,
-  "ranking": 911,
+  "ranking": 909,
   "skill": "CLOJURE",
   "synonyms": [
     {
@@ -32453,7 +32339,7 @@
     "SERVERLESS"
   ],
   "positionsCount": 10.0,
-  "ranking": 912,
+  "ranking": 910,
   "skill": "FARGATE",
   "synonyms": [
     {
@@ -32468,7 +32354,7 @@
     "CACHE"
   ],
   "positionsCount": 10.0,
-  "ranking": 913,
+  "ranking": 911,
   "skill": "VARNISH",
   "synonyms": [
     {
@@ -32482,7 +32368,7 @@
     "CICD"
   ],
   "positionsCount": 10.0,
-  "ranking": 914,
+  "ranking": 912,
   "skill": "TEAMCITY",
   "synonyms": [
     {
@@ -32497,7 +32383,7 @@
     "CICD"
   ],
   "positionsCount": 10.0,
-  "ranking": 915,
+  "ranking": 913,
   "skill": "CLOUDBEES",
   "synonyms": [
     {
@@ -32508,7 +32394,7 @@
 }, {
   "parent": [],
   "positionsCount": 10.0,
-  "ranking": 916,
+  "ranking": 914,
   "skill": "ZOOTECNIA",
   "synonyms": [
     {
@@ -32523,7 +32409,7 @@
     "ANGULAR"
   ],
   "positionsCount": 10.0,
-  "ranking": 917,
+  "ranking": 915,
   "skill": "PROTRACTOR",
   "synonyms": [
     {
@@ -32536,7 +32422,7 @@
     "TI"
   ],
   "positionsCount": 9.0,
-  "ranking": 918,
+  "ranking": 916,
   "skill": "SDN",
   "synonyms": [
     {
@@ -32555,7 +32441,7 @@
 }, {
   "parent": [],
   "positionsCount": 9.0,
-  "ranking": 919,
+  "ranking": 917,
   "skill": "PREVIDENCIA",
   "synonyms": [
     {
@@ -32577,7 +32463,7 @@
     "SAP"
   ],
   "positionsCount": 9.0,
-  "ranking": 920,
+  "ranking": 918,
   "skill": "FI-AA",
   "synonyms": [
     {
@@ -32591,10 +32477,12 @@
   ]
 }, {
   "parent": [
-    "TI", "BACKEND", "FRONTEND"
+    "TI",
+    "BACKEND",
+    "FRONTEND"
   ],
   "positionsCount": 9.0,
-  "ranking": 921,
+  "ranking": 919,
   "skill": "REGEX",
   "synonyms": [
     {
@@ -32612,7 +32500,7 @@
     "NOSQL"
   ],
   "positionsCount": 9.0,
-  "ranking": 922,
+  "ranking": 920,
   "skill": "COUCHDB",
   "synonyms": [
     {
@@ -32630,7 +32518,7 @@
     "CLOUD"
   ],
   "positionsCount": 9.0,
-  "ranking": 923,
+  "ranking": 921,
   "skill": "CLOUDTRAIL",
   "synonyms": [
     {
@@ -32648,7 +32536,7 @@
     "MONITORAMENTO"
   ],
   "positionsCount": 9.0,
-  "ranking": 924,
+  "ranking": 922,
   "skill": "IDS",
   "synonyms": [
     {
@@ -32664,7 +32552,7 @@
     "FRONTEND"
   ],
   "positionsCount": 9.0,
-  "ranking": 925,
+  "ranking": 923,
   "skill": "JSX",
   "synonyms": [
     {
@@ -32678,7 +32566,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 9.0,
-  "ranking": 926,
+  "ranking": 924,
   "skill": "RUP",
   "synonyms": [
     {
@@ -32692,7 +32580,7 @@
     "CERTIFICACAO"
   ],
   "positionsCount": 9.0,
-  "ranking": 927,
+  "ranking": 925,
   "skill": "EXIN",
   "synonyms": [
     {
@@ -32707,7 +32595,7 @@
     "CICD"
   ],
   "positionsCount": 9.0,
-  "ranking": 928,
+  "ranking": 926,
   "skill": "BITRISE",
   "synonyms": [
     {
@@ -32721,7 +32609,7 @@
     "SQL"
   ],
   "positionsCount": 9.0,
-  "ranking": 929,
+  "ranking": 927,
   "skill": "ZEPPELIN",
   "synonyms": [
     {
@@ -32736,7 +32624,7 @@
     "CLOUD"
   ],
   "positionsCount": 9.0,
-  "ranking": 930,
+  "ranking": 928,
   "skill": "CLOUD SQL",
   "synonyms": [
     {
@@ -32751,7 +32639,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 9.0,
-  "ranking": 931,
+  "ranking": 929,
   "skill": "AWS COGNITO",
   "synonyms": [
     {
@@ -32766,7 +32654,7 @@
     "DEPLOY"
   ],
   "positionsCount": 9.0,
-  "ranking": 932,
+  "ranking": 930,
   "skill": "CLOUD DEPLOYMENT",
   "synonyms": [
     {
@@ -32779,7 +32667,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 9.0,
-  "ranking": 933,
+  "ranking": 931,
   "skill": "ENGENHEIRO ELETRICO",
   "synonyms": [
     {
@@ -32793,7 +32681,7 @@
     "MECANICA"
   ],
   "positionsCount": 9.0,
-  "ranking": 934,
+  "ranking": 932,
   "skill": "INSPETOR DE MANUTENCAO",
   "synonyms": [
     {
@@ -32806,7 +32694,7 @@
     "DIREITO"
   ],
   "positionsCount": 9.0,
-  "ranking": 935,
+  "ranking": 933,
   "skill": "ADVOGADO PREVIDENCIARIO",
   "synonyms": [
     {
@@ -32819,7 +32707,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 9.0,
-  "ranking": 936,
+  "ranking": 934,
   "skill": "ENGENHEIRO DE CONTROLE E AUTOMACAO",
   "synonyms": [
     {
@@ -32833,7 +32721,7 @@
     "IDE"
   ],
   "positionsCount": 8.0,
-  "ranking": 937,
+  "ranking": 935,
   "skill": "RAD",
   "synonyms": [
     {
@@ -32855,7 +32743,7 @@
     "VM"
   ],
   "positionsCount": 8.0,
-  "ranking": 938,
+  "ranking": 936,
   "skill": "XENAPP",
   "synonyms": [
     {
@@ -32870,7 +32758,7 @@
 }, {
   "parent": [],
   "positionsCount": 8.0,
-  "ranking": 939,
+  "ranking": 937,
   "skill": "MANDARIM",
   "synonyms": [
     {
@@ -32887,7 +32775,7 @@
     "CARPINTARIA"
   ],
   "positionsCount": 8.0,
-  "ranking": 940,
+  "ranking": 938,
   "skill": "CARPINTEIRO",
   "synonyms": [
     {
@@ -32902,7 +32790,7 @@
 }, {
   "parent": [],
   "positionsCount": 8.0,
-  "ranking": 941,
+  "ranking": 939,
   "skill": "BIOTECNOLOGIA",
   "synonyms": [
     {
@@ -32921,7 +32809,7 @@
     "SALESFORCE"
   ],
   "positionsCount": 8.0,
-  "ranking": 942,
+  "ranking": 940,
   "skill": "SOSL",
   "synonyms": [
     {
@@ -32935,7 +32823,7 @@
     "SPA"
   ],
   "positionsCount": 8.0,
-  "ranking": 943,
+  "ranking": 941,
   "skill": "EXTJS",
   "synonyms": [
     {
@@ -32950,7 +32838,7 @@
     "GROOVY"
   ],
   "positionsCount": 8.0,
-  "ranking": 944,
+  "ranking": 942,
   "skill": "GRAILS",
   "synonyms": [
     {
@@ -32964,7 +32852,7 @@
     "PYTHON"
   ],
   "positionsCount": 8.0,
-  "ranking": 945,
+  "ranking": 943,
   "skill": "PLOTLY",
   "synonyms": [
     {
@@ -32978,7 +32866,7 @@
     "LOADBALANCE"
   ],
   "positionsCount": 8.0,
-  "ranking": 946,
+  "ranking": 944,
   "skill": "HAPROXY",
   "synonyms": [
     {
@@ -32992,7 +32880,7 @@
     "MONITORAMENTO"
   ],
   "positionsCount": 8.0,
-  "ranking": 947,
+  "ranking": 945,
   "skill": "PINGDOM",
   "synonyms": [
     {
@@ -33006,7 +32894,7 @@
     "AUTOMACAO"
   ],
   "positionsCount": 8.0,
-  "ranking": 948,
+  "ranking": 946,
   "skill": "RUNDECK",
   "synonyms": [
     {
@@ -33020,7 +32908,7 @@
     "VM"
   ],
   "positionsCount": 8.0,
-  "ranking": 949,
+  "ranking": 947,
   "skill": "VSPHERE",
   "synonyms": [
     {
@@ -33034,7 +32922,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 8.0,
-  "ranking": 950,
+  "ranking": 948,
   "skill": "KERBEROS",
   "synonyms": [
     {
@@ -33045,7 +32933,7 @@
 }, {
   "parent": [],
   "positionsCount": 8.0,
-  "ranking": 951,
+  "ranking": 949,
   "skill": "GEOGRAFIA",
   "synonyms": [
     {
@@ -33058,7 +32946,7 @@
     "MEDICINA"
   ],
   "positionsCount": 8.0,
-  "ranking": 952,
+  "ranking": 950,
   "skill": "PEDIATRIA",
   "synonyms": [
     {
@@ -33073,7 +32961,7 @@
     "DB"
   ],
   "positionsCount": 8.0,
-  "ranking": 953,
+  "ranking": 951,
   "skill": "STAR SCHEMA",
   "synonyms": [
     {
@@ -33087,7 +32975,7 @@
     "CRM"
   ],
   "positionsCount": 8.0,
-  "ranking": 954,
+  "ranking": 952,
   "skill": "MICROSOFT DYNAMICS 365",
   "synonyms": [
     {
@@ -33101,7 +32989,7 @@
     "CLOUD"
   ],
   "positionsCount": 7.0,
-  "ranking": 955,
+  "ranking": 953,
   "skill": "FOUNDRY",
   "synonyms": [
     {
@@ -33123,7 +33011,7 @@
     "SAP"
   ],
   "positionsCount": 7.0,
-  "ranking": 956,
+  "ranking": 954,
   "skill": "GTS",
   "synonyms": [
     {
@@ -33141,7 +33029,7 @@
     "JAVA"
   ],
   "positionsCount": 7.0,
-  "ranking": 957,
+  "ranking": 955,
   "skill": "POI",
   "synonyms": [
     {
@@ -33159,7 +33047,7 @@
     "CICD"
   ],
   "positionsCount": 7.0,
-  "ranking": 958,
+  "ranking": 956,
   "skill": "TRAVIS",
   "synonyms": [
     {
@@ -33176,7 +33064,7 @@
     "GEOLOGIA"
   ],
   "positionsCount": 7.0,
-  "ranking": 959,
+  "ranking": 957,
   "skill": "GEOLOGO",
   "synonyms": [
     {
@@ -33194,7 +33082,7 @@
     "IP"
   ],
   "positionsCount": 7.0,
-  "ranking": 960,
+  "ranking": 958,
   "skill": "IPTABLES",
   "synonyms": [
     {
@@ -33211,7 +33099,7 @@
     "MEDICINA"
   ],
   "positionsCount": 7.0,
-  "ranking": 961,
+  "ranking": 959,
   "skill": "OBSTETRA",
   "synonyms": [
     {
@@ -33226,7 +33114,7 @@
 }, {
   "parent": [],
   "positionsCount": 7.0,
-  "ranking": 962,
+  "ranking": 960,
   "skill": "SAPATEIRO",
   "synonyms": [
     {
@@ -33243,7 +33131,7 @@
     "ECONOMIA"
   ],
   "positionsCount": 7.0,
-  "ranking": 963,
+  "ranking": 961,
   "skill": "ECONOMISTA",
   "synonyms": [
     {
@@ -33258,7 +33146,7 @@
 }, {
   "parent": [],
   "positionsCount": 7.0,
-  "ranking": 964,
+  "ranking": 962,
   "skill": "MAQUINISTA",
   "synonyms": [
     {
@@ -33276,7 +33164,7 @@
     "BACKEND"
   ],
   "positionsCount": 7.0,
-  "ranking": 965,
+  "ranking": 963,
   "skill": "POWERBUILDER",
   "synonyms": [
     {
@@ -33293,7 +33181,7 @@
     "TELECOMUNICACOES"
   ],
   "positionsCount": 7.0,
-  "ranking": 966,
+  "ranking": 964,
   "skill": "ENGENHEIRO DE TELECOM",
   "synonyms": [
     {
@@ -33311,7 +33199,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 7.0,
-  "ranking": 967,
+  "ranking": 965,
   "skill": "VRRP",
   "synonyms": [
     {
@@ -33325,7 +33213,7 @@
     "TDD"
   ],
   "positionsCount": 7.0,
-  "ranking": 968,
+  "ranking": 966,
   "skill": "BAZEL",
   "synonyms": [
     {
@@ -33339,7 +33227,7 @@
     "HADOOP"
   ],
   "positionsCount": 7.0,
-  "ranking": 969,
+  "ranking": 967,
   "skill": "OOZIE",
   "synonyms": [
     {
@@ -33353,7 +33241,7 @@
     "LOWCODE"
   ],
   "positionsCount": 7.0,
-  "ranking": 970,
+  "ranking": 968,
   "skill": "APPIAN",
   "synonyms": [
     {
@@ -33367,7 +33255,7 @@
     "CISCO"
   ],
   "positionsCount": 7.0,
-  "ranking": 971,
+  "ranking": 969,
   "skill": "MERAKI",
   "synonyms": [
     {
@@ -33382,7 +33270,7 @@
     "BIGDATA"
   ],
   "positionsCount": 7.0,
-  "ranking": 972,
+  "ranking": 970,
   "skill": "KINESIS",
   "synonyms": [
     {
@@ -33396,7 +33284,7 @@
     "VERSION"
   ],
   "positionsCount": 7.0,
-  "ranking": 973,
+  "ranking": 971,
   "skill": "MERCURIAL",
   "synonyms": [
     {
@@ -33407,7 +33295,7 @@
 }, {
   "parent": [],
   "positionsCount": 7.0,
-  "ranking": 974,
+  "ranking": 972,
   "skill": "RADIOLOGIA",
   "synonyms": [
     {
@@ -33422,7 +33310,7 @@
     "SQL"
   ],
   "positionsCount": 7.0,
-  "ranking": 975,
+  "ranking": 973,
   "skill": "REDSHIFT SQL",
   "synonyms": [
     {
@@ -33433,7 +33321,7 @@
 }, {
   "parent": [],
   "positionsCount": 7.0,
-  "ranking": 976,
+  "ranking": 974,
   "skill": "BIBLIOTECONOMIA",
   "synonyms": [
     {
@@ -33448,7 +33336,7 @@
     "AZURE"
   ],
   "positionsCount": 7.0,
-  "ranking": 977,
+  "ranking": 975,
   "skill": "AZURE SQL DATABASE",
   "synonyms": [
     {
@@ -33461,7 +33349,7 @@
     "INGLES"
   ],
   "positionsCount": 7.0,
-  "ranking": 978,
+  "ranking": 976,
   "skill": "PROFESSOR DE INGLES",
   "synonyms": [
     {
@@ -33474,7 +33362,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 7.0,
-  "ranking": 979,
+  "ranking": 977,
   "skill": "ENGENHEIRO ELETRONICO",
   "synonyms": [
     {
@@ -33487,7 +33375,7 @@
     "TERAPIA OCUPACIONAL"
   ],
   "positionsCount": 7.0,
-  "ranking": 980,
+  "ranking": 978,
   "skill": "TERAPEUTA OCUPACIONAL",
   "synonyms": [
     {
@@ -33500,7 +33388,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 7.0,
-  "ranking": 981,
+  "ranking": 979,
   "skill": "ENGENHARIA METALURGICA",
   "synonyms": [
     {
@@ -33513,7 +33401,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 7.0,
-  "ranking": 982,
+  "ranking": 980,
   "skill": "ENGENHEIRO DA QUALIDADE",
   "synonyms": [
     {
@@ -33527,7 +33415,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 6.0,
-  "ranking": 983,
+  "ranking": 981,
   "skill": "CYBERARK",
   "synonyms": [
     {
@@ -33557,7 +33445,7 @@
     "CICD"
   ],
   "positionsCount": 6.0,
-  "ranking": 984,
+  "ranking": 982,
   "skill": "JFROG",
   "synonyms": [
     {
@@ -33579,7 +33467,7 @@
     "AWS"
   ],
   "positionsCount": 6.0,
-  "ranking": 985,
+  "ranking": 983,
   "skill": "AWS CLOUD FORMATION",
   "synonyms": [
     {
@@ -33598,7 +33486,7 @@
 }, {
   "parent": [],
   "positionsCount": 6.0,
-  "ranking": 986,
+  "ranking": 984,
   "skill": "FUNERARIO",
   "synonyms": [
     {
@@ -33613,7 +33501,7 @@
 }, {
   "parent": [],
   "positionsCount": 6.0,
-  "ranking": 987,
+  "ranking": 985,
   "skill": "GEOLOCALIZACAO",
   "synonyms": [
     {
@@ -33631,7 +33519,7 @@
     "BPM"
   ],
   "positionsCount": 6.0,
-  "ranking": 988,
+  "ranking": 986,
   "skill": "BPMS",
   "synonyms": [
     {
@@ -33646,7 +33534,7 @@
     "PACKAGE MANAGER"
   ],
   "positionsCount": 6.0,
-  "ranking": 989,
+  "ranking": 987,
   "skill": "BOWER",
   "synonyms": [
     {
@@ -33661,7 +33549,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 6.0,
-  "ranking": 990,
+  "ranking": 988,
   "skill": "CISSP",
   "synonyms": [
     {
@@ -33675,7 +33563,7 @@
     "MONITORACAO"
   ],
   "positionsCount": 6.0,
-  "ranking": 991,
+  "ranking": 989,
   "skill": "SENTRY",
   "synonyms": [
     {
@@ -33689,7 +33577,7 @@
     "JS"
   ],
   "positionsCount": 6.0,
-  "ranking": 992,
+  "ranking": 990,
   "skill": "STENCIL",
   "synonyms": [
     {
@@ -33703,7 +33591,7 @@
     "UX"
   ],
   "positionsCount": 6.0,
-  "ranking": 993,
+  "ranking": 991,
   "skill": "BALSAMIQ",
   "synonyms": [
     {
@@ -33717,7 +33605,7 @@
     "VERSION"
   ],
   "positionsCount": 6.0,
-  "ranking": 994,
+  "ranking": 992,
   "skill": "STARTEAM",
   "synonyms": [
     {
@@ -33732,7 +33620,7 @@
     "WS"
   ],
   "positionsCount": 6.0,
-  "ranking": 995,
+  "ranking": 993,
   "skill": "STERLING",
   "synonyms": [
     {
@@ -33746,7 +33634,7 @@
     "UX"
   ],
   "positionsCount": 6.0,
-  "ranking": 996,
+  "ranking": 994,
   "skill": "POWERMOCK",
   "synonyms": [
     {
@@ -33757,7 +33645,7 @@
 }, {
   "parent": [],
   "positionsCount": 6.0,
-  "ranking": 997,
+  "ranking": 995,
   "skill": "RADIO E TV",
   "synonyms": [
     {
@@ -33771,7 +33659,7 @@
     "SAP"
   ],
   "positionsCount": 6.0,
-  "ranking": 998,
+  "ranking": 996,
   "skill": "SAP PAYROLL",
   "synonyms": [
     {
@@ -33785,7 +33673,7 @@
     "AZURE"
   ],
   "positionsCount": 6.0,
-  "ranking": 999,
+  "ranking": 997,
   "skill": "AZURE BOARDS",
   "synonyms": [
     {
@@ -33798,7 +33686,7 @@
     "DIREITO"
   ],
   "positionsCount": 6.0,
-  "ranking": 1000,
+  "ranking": 998,
   "skill": "DIREITO CIVIL",
   "synonyms": [
     {
@@ -33812,7 +33700,7 @@
     "CICD"
   ],
   "positionsCount": 6.0,
-  "ranking": 1001,
+  "ranking": 999,
   "skill": "DATA PIPELINES",
   "synonyms": [
     {
@@ -33825,7 +33713,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 6.0,
-  "ranking": 1002,
+  "ranking": 1000,
   "skill": "ENGENHEIRO DE MINAS",
   "synonyms": [
     {
@@ -33839,7 +33727,7 @@
     "VM"
   ],
   "positionsCount": 6.0,
-  "ranking": 1003,
+  "ranking": 1001,
   "skill": "VREALIZE AUTOMATION",
   "synonyms": [
     {
@@ -33852,7 +33740,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 6.0,
-  "ranking": 1004,
+  "ranking": 1002,
   "skill": "ENGENHARIA FLORESTAL",
   "synonyms": [
     {
@@ -33867,7 +33755,7 @@
     "I A"
   ],
   "positionsCount": 6.0,
-  "ranking": 1005,
+  "ranking": 1003,
   "skill": "AZURE MACHINE LEARNING",
   "synonyms": [
     {
@@ -33878,7 +33766,7 @@
 }, {
   "parent": [],
   "positionsCount": 6.0,
-  "ranking": 1006,
+  "ranking": 1004,
   "skill": "INSPETOR DE EQUIPAMENTOS",
   "synonyms": [
     {
@@ -33892,7 +33780,7 @@
     "MAINFRAME"
   ],
   "positionsCount": 5.0,
-  "ranking": 1007,
+  "ranking": 1005,
   "skill": "EASYTRIEVE",
   "synonyms": [
     {
@@ -33914,7 +33802,7 @@
     "DB"
   ],
   "positionsCount": 5.0,
-  "ranking": 1008,
+  "ranking": 1006,
   "skill": "DATA HUB",
   "synonyms": [
     {
@@ -33932,7 +33820,7 @@
     "SEGURANCA"
   ],
   "positionsCount": 5.0,
-  "ranking": 1009,
+  "ranking": 1007,
   "skill": "CYBERBANK",
   "synonyms": [
     {
@@ -33950,7 +33838,7 @@
     "CICD"
   ],
   "positionsCount": 5.0,
-  "ranking": 1010,
+  "ranking": 1008,
   "skill": "CODE PIPELINE",
   "synonyms": [
     {
@@ -33969,7 +33857,7 @@
     "JAVA"
   ],
   "positionsCount": 5.0,
-  "ranking": 1011,
+  "ranking": 1009,
   "skill": "H2",
   "synonyms": [
     {
@@ -33984,7 +33872,7 @@
     "JAVA"
   ],
   "positionsCount": 5.0,
-  "ranking": 1012,
+  "ranking": 1010,
   "skill": "JTA",
   "synonyms": [
     {
@@ -33999,7 +33887,7 @@
     "CISCO"
   ],
   "positionsCount": 5.0,
-  "ranking": 1013,
+  "ranking": 1011,
   "skill": "CCIE",
   "synonyms": [
     {
@@ -34014,7 +33902,7 @@
     "CERTIFICACAO"
   ],
   "positionsCount": 5.0,
-  "ranking": 1014,
+  "ranking": 1012,
   "skill": "CCSP",
   "synonyms": [
     {
@@ -34029,7 +33917,7 @@
     "MOBILE"
   ],
   "positionsCount": 5.0,
-  "ranking": 1015,
+  "ranking": 1013,
   "skill": "EXPO",
   "synonyms": [
     {
@@ -34044,7 +33932,7 @@
     "IOT"
   ],
   "positionsCount": 5.0,
-  "ranking": 1016,
+  "ranking": 1014,
   "skill": "MQTT",
   "synonyms": [
     {
@@ -34059,7 +33947,7 @@
     "MODELING"
   ],
   "positionsCount": 5.0,
-  "ranking": 1017,
+  "ranking": 1015,
   "skill": "ERWIN",
   "synonyms": [
     {
@@ -34073,7 +33961,7 @@
     "JS"
   ],
   "positionsCount": 5.0,
-  "ranking": 1018,
+  "ranking": 1016,
   "skill": "FETCH",
   "synonyms": [
     {
@@ -34087,7 +33975,7 @@
     "AWS"
   ],
   "positionsCount": 5.0,
-  "ranking": 1019,
+  "ranking": 1017,
   "skill": "AWS VPC",
   "synonyms": [
     {
@@ -34101,7 +33989,7 @@
     "BPM"
   ],
   "positionsCount": 5.0,
-  "ranking": 1020,
+  "ranking": 1018,
   "skill": "IBM BPM",
   "synonyms": [
     {
@@ -34114,7 +34002,7 @@
     "MARKETING"
   ],
   "positionsCount": 5.0,
-  "ranking": 1021,
+  "ranking": 1019,
   "skill": "MARTECH",
   "synonyms": [
     {
@@ -34128,7 +34016,7 @@
     "CICD"
   ],
   "positionsCount": 5.0,
-  "ranking": 1022,
+  "ranking": 1020,
   "skill": "VAGRANT",
   "synonyms": [
     {
@@ -34139,7 +34027,7 @@
 }, {
   "parent": [],
   "positionsCount": 5.0,
-  "ranking": 1023,
+  "ranking": 1021,
   "skill": "ZACHMAN",
   "synonyms": [
     {
@@ -34155,7 +34043,7 @@
     "HTML"
   ],
   "positionsCount": 5.0,
-  "ranking": 1024,
+  "ranking": 1022,
   "skill": "THYMELEAF",
   "synonyms": [
     {
@@ -34166,7 +34054,7 @@
 }, {
   "parent": [],
   "positionsCount": 5.0,
-  "ranking": 1025,
+  "ranking": 1023,
   "skill": "ACUPUNTURA",
   "synonyms": [
     {
@@ -34180,7 +34068,7 @@
     "BARRAMENTO"
   ],
   "positionsCount": 5.0,
-  "ranking": 1026,
+  "ranking": 1024,
   "skill": "IBM BROKER",
   "synonyms": [
     {
@@ -34193,7 +34081,7 @@
     "MEDICINA"
   ],
   "positionsCount": 5.0,
-  "ranking": 1027,
+  "ranking": 1025,
   "skill": "OBSTETRICIA",
   "synonyms": [
     {
@@ -34208,7 +34096,7 @@
     "MONITORAMENTO"
   ],
   "positionsCount": 5.0,
-  "ranking": 1028,
+  "ranking": 1026,
   "skill": "AWS CLOUDWATCH",
   "synonyms": [
     {
@@ -34221,7 +34109,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 5.0,
-  "ranking": 1029,
+  "ranking": 1027,
   "skill": "ENGENHARIA TEXTIL",
   "synonyms": [
     {
@@ -34232,7 +34120,7 @@
 }, {
   "parent": [],
   "positionsCount": 5.0,
-  "ranking": 1030,
+  "ranking": 1028,
   "skill": "DESENHO INDUSTRIAL",
   "synonyms": [
     {
@@ -34245,7 +34133,7 @@
     "ENGENHARIA"
   ],
   "positionsCount": 5.0,
-  "ranking": 1031,
+  "ranking": 1029,
   "skill": "ENGENHARIA DE MINAS",
   "synonyms": [
     {
@@ -34256,7 +34144,7 @@
 }, {
   "parent": [],
   "positionsCount": 5.0,
-  "ranking": 1032,
+  "ranking": 1030,
   "skill": "MANUTENCAO DE AERONAVES",
   "synonyms": [
     {
@@ -34270,7 +34158,7 @@
     "BPM"
   ],
   "positionsCount": 5.0,
-  "ranking": 1033,
+  "ranking": 1031,
   "skill": "ORACLE E-BUSINESS SUITE",
   "synonyms": [
     {
@@ -34284,7 +34172,7 @@
     "SQL"
   ],
   "positionsCount": 5.0,
-  "ranking": 1034,
+  "ranking": 1032,
   "skill": "SQL INTEGRATION SERVICES",
   "synonyms": [
     {
@@ -34298,7 +34186,7 @@
     "CACHE"
   ],
   "positionsCount": 4.0,
-  "ranking": 1035,
+  "ranking": 1033,
   "skill": "MEMCACHED",
   "synonyms": [
     {
@@ -34317,7 +34205,7 @@
 }, {
   "parent": [],
   "positionsCount": 4.0,
-  "ranking": 1036,
+  "ranking": 1034,
   "skill": "ARABE",
   "synonyms": [
     {
@@ -34335,7 +34223,7 @@
     "BUILD"
   ],
   "positionsCount": 4.0,
-  "ranking": 1037,
+  "ranking": 1035,
   "skill": "MSBUILD",
   "synonyms": [
     {
@@ -34353,7 +34241,7 @@
     "JSF"
   ],
   "positionsCount": 4.0,
-  "ranking": 1038,
+  "ranking": 1036,
   "skill": "ICEFACES",
   "synonyms": [
     {
@@ -34371,7 +34259,7 @@
     "BACKEND"
   ],
   "positionsCount": 4.0,
-  "ranking": 1039,
+  "ranking": 1037,
   "skill": "LUA",
   "synonyms": [
     {
@@ -34385,7 +34273,7 @@
     "INTEGRACAO"
   ],
   "positionsCount": 4.0,
-  "ranking": 1040,
+  "ranking": 1038,
   "skill": "RPC",
   "synonyms": [
     {
@@ -34400,7 +34288,7 @@
     "METODOLOGIA"
   ],
   "positionsCount": 4.0,
-  "ranking": 1041,
+  "ranking": 1039,
   "skill": "ITBM",
   "synonyms": [
     {
@@ -34415,7 +34303,7 @@
     "FRONTEND"
   ],
   "positionsCount": 4.0,
-  "ranking": 1042,
+  "ranking": 1040,
   "skill": "D3.JS",
   "synonyms": [
     {
@@ -34429,7 +34317,7 @@
     "ORM"
   ],
   "positionsCount": 4.0,
-  "ranking": 1043,
+  "ranking": 1041,
   "skill": "IBATIS",
   "synonyms": [
     {
@@ -34443,7 +34331,7 @@
     "IOT"
   ],
   "positionsCount": 4.0,
-  "ranking": 1044,
+  "ranking": 1042,
   "skill": "ARDUINO",
   "synonyms": [
     {
@@ -34457,7 +34345,7 @@
     "SQL"
   ],
   "positionsCount": 4.0,
-  "ranking": 1045,
+  "ranking": 1043,
   "skill": "INFORMIX",
   "synonyms": [
     {
@@ -34471,7 +34359,7 @@
     "UX"
   ],
   "positionsCount": 4.0,
-  "ranking": 1046,
+  "ranking": 1044,
   "skill": "PROTO.IO",
   "synonyms": [
     {
@@ -34486,7 +34374,7 @@
     "PROTOCOL"
   ],
   "positionsCount": 4.0,
-  "ranking": 1047,
+  "ranking": 1045,
   "skill": "PROTOBUF",
   "synonyms": [
     {
@@ -34500,7 +34388,7 @@
     "JAVA"
   ],
   "positionsCount": 4.0,
-  "ranking": 1048,
+  "ranking": 1046,
   "skill": "MICRONAUT",
   "synonyms": [
     {
@@ -34515,7 +34403,7 @@
     "CACHE"
   ],
   "positionsCount": 4.0,
-  "ranking": 1049,
+  "ranking": 1047,
   "skill": "ELASTICACHE",
   "synonyms": [
     {
@@ -34530,7 +34418,7 @@
     "LOG"
   ],
   "positionsCount": 4.0,
-  "ranking": 1050,
+  "ranking": 1048,
   "skill": "CLOUD LOGGING",
   "synonyms": [
     {
@@ -34543,7 +34431,7 @@
     "DIREITO"
   ],
   "positionsCount": 4.0,
-  "ranking": 1051,
+  "ranking": 1049,
   "skill": "DIREITO CONTRATUAL",
   "synonyms": [
     {
@@ -34556,7 +34444,7 @@
     "DIREITO"
   ],
   "positionsCount": 4.0,
-  "ranking": 1052,
+  "ranking": 1050,
   "skill": "DIREITO TRABALHISTA",
   "synonyms": [
     {
@@ -34569,7 +34457,7 @@
     "DIREITO"
   ],
   "positionsCount": 4.0,
-  "ranking": 1053,
+  "ranking": 1051,
   "skill": "DIREITO ADMINISTRATIVO",
   "synonyms": [
     {

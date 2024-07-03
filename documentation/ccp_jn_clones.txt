@@ -23,3 +23,4 @@ git clone git@github.com:ccpjobsnow/jn-dependency-chooser-mensageria-consumer-gc
 git clone git@github.com:ccpjobsnow/jn-dependency-chooser-documentation-and-junit-testing.git
 git clone git@github.com:ccpjobsnow/jn-dependency-chooser-cron-tasks.git
 git clone git@github.com:ccpjobsnow/jn-dependency-chooser-sync-endpoints-spring.git
+git clone git@github.com:ccpjobsnow/ccp-local-testings-implementations.git

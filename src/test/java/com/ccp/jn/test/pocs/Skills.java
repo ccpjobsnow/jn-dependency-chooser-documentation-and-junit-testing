@@ -36,10 +36,27 @@ public class Skills {
 		CcpDependencyInjection.loadAllDependencies(new CcpElasticSearchQueryExecutor(), new CcpElasticSearchDbRequest(),
 				new CcpElasticSearchCrud(), new CcpGsonJsonHandler(), new CcpApacheMimeHttp());
 		adicionarPais();
-		listarQuemTemMaisPais();
-		listarFilhosDeTi();
+		listarTodosOsSinonimos();
+	}
+
+	static void listarTodosOsSinonimos() {
+		
+		CcpFileDecorator synonyms = new CcpStringDecorator("documentation\\skills\\synonyms.json").file();
+		List<CcpJsonRepresentation> skills = synonyms.asJsonList();
+		skills.sort((a,b) -> b.getAsIntegerNumber("positionsCount") - a.getAsIntegerNumber("positionsCount"));
+		for (CcpJsonRepresentation skill : skills) {
+			List<CcpJsonRepresentation> asJsonList = skill.getAsJsonList("synonyms");
+			System.out.println(skill.getAsIntegerNumber("positionsCount") + ": "+ asJsonList.stream().map(x -> x.getAsString("skill")).collect(Collectors.toList()));
+		}
+		
 	}
 	
+	static int getMedia(CcpJsonRepresentation skill) {
+		Integer positionsCount = skill.getAsIntegerNumber("positionsCount");
+		int size = skill.getAsJsonList("synonyms").size();
+		int i = positionsCount / size;
+		return i;
+	}
 	static void listarQuemTemMaisPais() {
 		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\newSynonyms.json").file();
 		List<CcpJsonRepresentation> skills = newSynonyms.asJsonList();
@@ -106,7 +123,7 @@ public class Skills {
 
 	static void adicionarPais() {
 		montarNovosSinonimos();
-		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\newSynonyms.json").file();
+		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\synonyms.json").file();
 		List<CcpJsonRepresentation> skills = newSynonyms.asJsonList();
 		Set<String> allSynonyms = new HashSet<>();
 		Set<String> allParents = new HashSet<>();
@@ -128,7 +145,7 @@ public class Skills {
 	static void montarNovosSinonimos() {
 		List<String> vagas = new CcpStringDecorator("C:\\jn\\vagas\\vagas.txt").file().getLines().stream()
 				.map(vaga -> sanitizeWord(vaga)).collect(Collectors.toList());
-		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\newSynonyms.json").file();
+		CcpFileDecorator newSynonyms = new CcpStringDecorator("documentation\\skills\\synonyms.json").file();
 		CcpFileDecorator synonyms = new CcpStringDecorator("documentation\\skills\\synonyms.json").file();
 		List<CcpJsonRepresentation> skills = synonyms.asJsonList();
 		List<String> lines = new CcpStringDecorator("documentation\\skills\\synonyms.txt").file().getLines();

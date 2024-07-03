@@ -35,11 +35,6 @@ public class Poc {
 	
 	public static void main(String[] args) {
 
-		String linha = "144956: Desenvolvedor Full Stack Java + AngularSêniorExperiência mínima de 5 anos na função.EJB 3.x;RMI para lookup via JNDI;SQL nativo e/ou JPQL/HQL (preferencialmente nativo);DB2 e/ou SQL Server;Montagem de relatórios usando iReport via JRBeanCollection DataSource ou SQL Nativo;Apache Poi;Open CSV;Jenkins, Sonar, GIT (GitLab) e JIRA;Maven;(JUnit, Mockito, PowerMock);Métodos e ferramentas de integração contínua (IC).Familiaridade com JavaScript, Angular 9 ou superior, ActionScript, Redux e TypeScript;Familiaridade com Adobe Flex.Home OfficePJBarbara SilvaE-mail: barbara.silva@pasqualisolution.com.brWhatsApp: +55 11 98358-0890N/D\r\n"
-				;
-		
-//		String sanitizeWord = Skills.sanitizeWord(linha);
-		System.out.println(Skills.sanitizeWord("onias/vieira"));
 	}
 
 	static void testarTempo() {
