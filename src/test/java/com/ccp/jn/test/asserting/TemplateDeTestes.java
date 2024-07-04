@@ -1,22 +1,17 @@
 package com.ccp.jn.test.asserting;
 
-import java.util.List;
-import java.util.function.Consumer;
 import java.util.function.Function;
 
 import com.ccp.constantes.CcpConstants;
-import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
-import com.ccp.especifications.db.bulk.CcpBulkOperationResult;
 import com.ccp.especifications.db.utils.CcpDbRequester;
 import com.ccp.especifications.http.CcpHttpHandler;
 import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.especifications.http.CcpHttpResponseTransform;
 import com.ccp.especifications.http.CcpHttpResponseType;
-import com.ccp.exceptions.db.CcpIncorrectEntityFields;
 import com.ccp.implementations.db.bulk.elasticsearch.CcpElasticSerchDbBulk;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -33,34 +28,14 @@ public abstract class TemplateDeTestes {
 				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp(), new CcpMindrotPasswordHandler(),
 				new CcpElasticSerchDbBulk());
 		
-		CcpDbRequester database = CcpDependencyInjection.getDependency(CcpDbRequester.class);
-
-		CcpFileDecorator mappingJnEntitiesErrorsFile = new CcpStringDecorator("c:\\logs\\mappingJnEntitiesErrors.json")
-				.file().reset();
 		String pathToCreateEntityScript = "documentation\\database\\elasticsearch\\scripts\\entities\\create";
 		String pathToJavaClasses = "..\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities";
-		String hostFolder = "java";
-
-		Consumer<CcpIncorrectEntityFields> whenIsIncorrectMapping = e -> {
-			String message = e.getMessage();
-			mappingJnEntitiesErrorsFile.append(message);
-		};
-		
-		Consumer<Throwable> whenOccursAnError = e -> {
-
-			if (e instanceof ClassNotFoundException) {
-				return;
-			}
-			throw new RuntimeException(e);
-		};
-		
-		List<CcpBulkOperationResult> executeDatabaseSetup = database.executeDatabaseSetup(pathToJavaClasses, hostFolder,
-				pathToCreateEntityScript, whenIsIncorrectMapping, whenOccursAnError);
-
-		CcpFileDecorator createJnEntitiesFile = new CcpStringDecorator("c:\\logs\\insertErrors.json").file().reset();
-		 
-		createJnEntitiesFile.write(executeDatabaseSetup.toString());
+		String mappingJnEntitiesErrors = "c:\\logs\\mappingJnEntitiesErrors.json";
+		String insertErrors = "c:\\logs\\insertErrors.json";
+		CcpDbRequester database = CcpDependencyInjection.getDependency(CcpDbRequester.class);
+		database.createTables(pathToCreateEntityScript, pathToJavaClasses, mappingJnEntitiesErrors, insertErrors);
 	}
+
 
 	public static void main(String[] args) {
 		
