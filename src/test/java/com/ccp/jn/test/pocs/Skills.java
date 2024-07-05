@@ -35,8 +35,46 @@ public class Skills {
 	public static void main(String[] args) {
 		CcpDependencyInjection.loadAllDependencies(new CcpElasticSearchQueryExecutor(), new CcpElasticSearchDbRequest(),
 				new CcpElasticSearchCrud(), new CcpGsonJsonHandler(), new CcpApacheMimeHttp());
-		adicionarPais();
-		listarTodosOsSinonimos();
+		adicionarTodosOsPaisEmTodasAsSkills();
+	}
+	
+	
+	static void adicionarTodosOsPaisEmTodasAsSkills(){
+		CcpFileDecorator synonyms = new CcpStringDecorator("documentation\\skills\\synonyms.json").file();
+		List<CcpJsonRepresentation> skills = synonyms.asJsonList();
+		List<CcpJsonRepresentation> newSkills = new ArrayList<>();
+		int k = 1;
+		getPais("ANDROID", skills);
+		for (CcpJsonRepresentation s : skills) {
+			String skill = s.getAsString("skill");
+			System.out.println(k++  + ": obtendo todos os parents de " + skill);
+			Set<String> pais = getPais(skill, skills);
+			CcpJsonRepresentation put = s.put("parent", pais);
+			newSkills.add(put);
+		}
+		synonyms.reset();
+		synonyms.append(newSkills.toString());
+		
+	}
+	
+	static Set<String> getPais(String skill, List<CcpJsonRepresentation> skills){
+		
+		List<String> parent = skills.stream().filter(x -> matches(skill, x)).findFirst().get().getAsStringList("parent");
+		Set<String> set = new HashSet<String>(parent);
+		for (String pai : parent) {
+			Set<String> pais = getPais(pai, skills);
+			set.addAll(pais);
+		}
+		return set;
+	
+	}
+
+
+	private static boolean matches(String skill, CcpJsonRepresentation x) {
+		List<CcpJsonRepresentation> asJsonList = x.getAsJsonList("synonym");
+		boolean contains = asJsonList.stream().map(y -> y.getAsString("skill"))
+		.collect(Collectors.toList()).contains(skill);
+		return contains;
 	}
 
 	static void listarTodosOsSinonimos() {
