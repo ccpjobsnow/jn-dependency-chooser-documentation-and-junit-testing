@@ -1,15 +1,3 @@
-A) FUNDIR SINONIMOS NAS SKILLS
-B) ADICIONAR PARENTS RESTANTES
-
-C) EVIDENCIAR SKILLS QUE PRECISAM DE SINONIMOS
-D) ADICIONAR SINONIMOS NAS SKILLS QUE PRECISAM
-E) EVIDENCIAR SKILLS FILHAS DIRETAS DE T.I ESTÉREIS
-F) INVESTIGAR SKILLS FILHAS DIRETAS DE T.I ESTÉREIS  
-
-AUTOMACAO E TDD
-filhas de webdriver (selenium)
-O QUE É SCCM?
-O QUE É JSS?
-BI TEM QUE SER FILHO DE RELATORIO
-ETL TEM QUE SER FILHO DE BI
-PACKAGE MANAGER
+1) obter todos os leafs
+2) descobrir os parents desses leafs
+3) para cada leaf encontrado no curriculo associar seus parents e o proprio leaf para cada ddd que este leaf tiver associação e associa-los ao curriculo

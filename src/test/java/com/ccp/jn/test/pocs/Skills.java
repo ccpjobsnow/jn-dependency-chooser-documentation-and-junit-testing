@@ -1599,16 +1599,10 @@ public class Skills {
 	}
 
 	static boolean contains(String text, String phrase) {
-		String sanitizeWord = sanitizeWord(phrase);
-		boolean notContains = text.contains(sanitizeWord) == false;
-		if (notContains) {
-			return false;
-		}
-
-		List<String> asList = Arrays.asList(sanitizeWord.split(" "));
-		List<String> asList2 = Arrays.asList(text.split(" "));
-		boolean containsAll = asList2.containsAll(asList);
-		return containsAll;
+		CcpStringDecorator csd = new CcpStringDecorator(text);
+		CcpTextDecorator ctd = csd.text();
+		boolean contains = ctd.contains(phrase);
+		return contains;
 	}
 
 	private static int sort(CcpJsonRepresentation a, CcpJsonRepresentation b) {
@@ -1668,18 +1662,8 @@ public class Skills {
 	}
 
 	static String sanitizeWord(String word) {
-		word = word.replace("C#", "CSHARP").replace("C++", "CPP");
-
-		
-		String[] array = new String[] {"/", ".",  "\n", ":", "," , ";", "!", "?", "[", "]", "{", "}", "<", ">", "=", "(", ")", "'", "`",  "\""};
-		
-		String upperCase = word.trim().toUpperCase()
-				;
-		for (String string : array) {
-			upperCase = upperCase.replace(string, " ");
-		}
-		
-		CcpTextDecorator text = new CcpStringDecorator(upperCase).text();
+		String replace = word.replace("C#", "CSHARP").replace("C++", "CPP");
+		CcpTextDecorator text = new CcpStringDecorator(replace).text().sanitize();
 		return text.content;
 	}
 
