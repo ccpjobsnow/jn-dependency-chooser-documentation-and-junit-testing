@@ -34,43 +34,6 @@ public class Poc {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(CcpConstants.EMPTY_JSON.put("teste", "Oportunidade: Pessoa Desenvolvedora Fullstack (NodeJs/PHP) - Pleno/Sênior - Home Office - PJ\r\n"
-				+ "\r\n"
-				+ " \r\n"
-				+ "\r\n"
-				+ " \r\n"
-				+ "\r\n"
-				+ "Buscando projetos inovadores?\r\n"
-				+ "\r\n"
-				+ "Então vem com a Mollica IT e encontre a oportunidade certa pra dar match!\r\n"
-				+ "\r\n"
-				+ "Estamos em busca de profissionais inovadores e criativos, que tenham paixão em crescer, evoluir e  aprender!\r\n"
-				+ "\r\n"
-				+ " \r\n"
-				+ "\r\n"
-				+ "📌 Dúvidas? Entre em contato com selecao@mollicait.com\r\n"
-				+ "\r\n"
-				+ " \r\n"
-				+ "\r\n"
-				+ "O que você precisa ter:\r\n"
-				+ "\r\n"
-				+ "Experiência com NodeJS, PHP;\r\n"
-				+ "Experiência com Javascrip, Bootstrap, Jquery, TypeScript, HTML, CSS; \r\n"
-				+ "Experiência com JQuery, Json, API Rest;\r\n"
-				+ "Experiência com AWS Lambda, GIT (Gitflow), MVC;\r\n"
-				+ "Experiência com Banco de dados (MySQL e MongoDB).\r\n"
-				+ "Desejável:\r\n"
-				+ "\r\n"
-				+ "Conhecimentos em React, Angular, VueJS;\r\n"
-				+ "Conhecimentos em Python;\r\n"
-				+ "Conhecimento em NestJS, Docker, Linux, CI/CD;\r\n"
-				+ "Conhecimento em AWS infra (EC2, S3, Lambda, RDS, Eventbridge…);\r\n"
-				+ "Conhecimento em Java, Tomcat, JDBC.\r\n"
-				+ "Contratação: PJ \r\n"
-				+ "\r\n"
-				+ "Prazo: Projeto de 6 meses (com chances de prorrogação)\r\n"
-				+ "\r\n"
-				+ "Local: Home Office - Aceitamos Pessoas Candidatas de todo o Brasil"));
 	}
 
 	static void testarTempo() {
