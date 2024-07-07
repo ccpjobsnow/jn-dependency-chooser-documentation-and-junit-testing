@@ -1,16 +1,14 @@
-Necessários para testes do Fernando
-A) validações
-B) scripts das tabelas
-C) salvar bucket
-D) excluir bucket 
-E) cache no compute engine
-F) memcache local 
-G) ligar memcache do google
-H) comunicar caches
-I) gemini
-J) subida do endpoint do VIS no eclipse 
+Necessários para término do endpoint de salvar curriculos
+A) Criar filter validador de sessao
+B) Criar filter transformador de e-mail em SHA-1
+C) Criar infra estrutura de teste para emular sesão
+D) Converter campos e status do JobsNow antigo
+E) Testar download de curriculos
+F) Injetar vagas
+G) Injetar visualizações
 
-Tarefas paralelas (Enquanto o Fernando estiver testando)
+
+Tarefas paralelas (Enquanto a equipe estiver testando match vaga/curriculo)
 A) suporte (contact-us)
 B) suporte por telegram (responder contact-us)
 C) curriculo no telegram

@@ -24,3 +24,4 @@ git clone git@github.com:ccpjobsnow/jn-dependency-chooser-documentation-and-juni
 git clone git@github.com:ccpjobsnow/jn-dependency-chooser-cron-tasks.git
 git clone git@github.com:ccpjobsnow/jn-dependency-chooser-sync-endpoints-spring.git
 git clone git@github.com:ccpjobsnow/ccp-local-testings-implementations.git
+git clone git@github.com:ccpjobsnow/ccp-text-extractor-apache-tika.git

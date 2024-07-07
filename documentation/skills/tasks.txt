@@ -1,3 +1,0 @@
-1) obter todos os leafs
-2) descobrir os parents desses leafs
-3) para cada leaf encontrado no curriculo associar seus parents e o proprio leaf para cada ddd que este leaf tiver associação e associa-los ao curriculo
