@@ -34,8 +34,10 @@ public class Poc {
 	}
 	
 	public static void main(String[] args) {
-		String asString = new CcpStringDecorator("a").hash().asString("SHA1");
-		System.out.println(asString);
+		String s = "onias";
+		StringBuilder sb = new StringBuilder(s);
+		sb.deleteCharAt(1);
+		System.out.println(sb);
 	}
 
 	static void testarTempo() {

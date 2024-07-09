@@ -1,8 +1,4 @@
 Necessários para término do endpoint de salvar curriculos
-A) Criar filter validador de sessao
-B) Criar filter transformador de e-mail em SHA-1
-C) Criar infra estrutura de teste para emular sesão
-D) Converter campos e status do JobsNow antigo
 E) Testar download de curriculos
 F) Injetar vagas
 G) Injetar visualizações
