@@ -5,6 +5,9 @@
             "email": {
                 "type": "keyword"
             },
+            "originalEmail": {
+                "type": "keyword"
+            },
             "tokenHash": {
                 "type": "text"
             },

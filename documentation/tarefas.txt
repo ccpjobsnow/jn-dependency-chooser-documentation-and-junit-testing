@@ -1,8 +1,5 @@
-Necessários para término do endpoint de salvar curriculos
-E) Testar download de curriculos
-F) Injetar vagas
-G) Injetar visualizações
-
+Necessários para importar curriculos
+A) 
 
 Tarefas paralelas (Enquanto a equipe estiver testando match vaga/curriculo)
 A) suporte (contact-us)

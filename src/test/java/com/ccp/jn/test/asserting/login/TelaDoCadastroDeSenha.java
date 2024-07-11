@@ -11,14 +11,14 @@ import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.StatusUpdatePassword;
 import com.ccp.jn.test.asserting.TemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
+import com.ccp.json.transformers.CcpJsonTransformerGenerateRandomToken;
+import com.ccp.json.transformers.CcpJsonTransformerGenerateRandomTokenWithHash;
 import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.entities.JnEntityLoginToken;
-import com.jn.commons.utils.JnGenerateRandomToken;
-import com.jn.commons.utils.JnGenerateRandomTokenWithHash;
 
 public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	public TelaDoCadastroDeSenha() {
@@ -70,7 +70,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	private String getToken(VariaveisParaTeste variaveisParaTeste) {
 		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 
-		JnGenerateRandomTokenWithHash transformer = new JnGenerateRandomTokenWithHash(8, "token", "tokenHash");
+		CcpJsonTransformerGenerateRandomTokenWithHash transformer = new CcpJsonTransformerGenerateRandomTokenWithHash(8, "token", "tokenHash");
 		CcpJsonRepresentation entityValue =  variaveisParaTeste.REQUEST_TO_LOGIN.getTransformed(transformer);
 		JnEntityLoginToken.INSTANCE.createOrUpdate(entityValue);
 		String token = entityValue.getAsString("token");
@@ -126,7 +126,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	private String getTokenToValidateLogin(VariaveisParaTeste variaveisParaTeste) {
 		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.INSTANCE.createOrUpdate( variaveisParaTeste.ANSWERS_JSON);
-		JnGenerateRandomToken transformer = new JnGenerateRandomToken(8, "token");
+		CcpJsonTransformerGenerateRandomToken transformer = new CcpJsonTransformerGenerateRandomToken(8, "token");
 		CcpJsonRepresentation loginToken =  variaveisParaTeste.REQUEST_TO_LOGIN.getTransformed(transformer);
 		String token = loginToken.getAsString("token");
 		return token;
