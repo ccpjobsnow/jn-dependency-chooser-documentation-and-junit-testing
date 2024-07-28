@@ -1,5 +1,7 @@
 package com.ccp.jn.test.pocs;
 
+import java.util.Set;
+
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
@@ -11,6 +13,7 @@ import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
 import com.ccp.especifications.http.CcpHttpRequester;
+import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -34,7 +37,21 @@ public class Poc {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(new CcpStringDecorator("c1a957beb7efafaf7e3d0aeb33eac0864a5237c").hash().asString("SHA1"));
+		String extractStringContent = new CcpStringDecorator("documentation\\rhs.txt").file().extractStringContent();
+		Set<String> extractFromText = new CcpStringDecorator(extractStringContent).email().extractFromText("\\/|\\s|\n|\\:|\\,|\\;|\\!|\\?|\\[|\\]|\\{|\\}|\\<|\\>|\\=|\\(|\\)\\ |\\'|\\\"|\\`");
+		for (String string : extractFromText) {
+			System.out.println(string);
+		}
+		
+		String body = CcpConstants.EMPTY_JSON.asPrettyJson();
+		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/profissionais2/_doc/lucascavalcantedeo@gmail.com", "POST", CcpConstants.EMPTY_JSON, body);
+		System.out.println(executeHttpRequest);
+
+	}
+
+	static void excluirCurriculo() {
+		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/profissionais2/_doc/lucascavalcantedeo@gmail.com", "DELETE", CcpConstants.EMPTY_JSON, "");
+		System.out.println(executeHttpRequest);
 	}
 
 	static void testarTempo() {
