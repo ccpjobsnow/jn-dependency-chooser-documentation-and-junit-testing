@@ -1,21 +1,15 @@
 package com.ccp.jn.test.pocs;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpCollectionDecorator;
 import com.ccp.decorators.CcpFileDecorator;
-import com.ccp.decorators.CcpFolderDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
@@ -48,46 +42,10 @@ public class Poc {
 				new CcpApacheMimeHttp()
 				);
 	}
+	
+	
 	public static void main(String[] args) throws SQLException {
 
-		CcpEntityField x;
-		CcpEntityField fieldName = new CcpEntityField() {
-			
-			@Override
-			public String name() {
-				// TODO Auto-generated method stub
-				return "ddd";
-			}
-			
-			@Override
-			public boolean isPrimaryKey() {
-				// TODO Auto-generated method stub
-				return false;
-			}
-		};
-		CcpEntityField fieldName2 = new CcpEntityField() {
-			
-			@Override
-			public String name() {
-				// TODO Auto-generated method stub
-				return "pretensaoClt";
-			}
-			
-			@Override
-			public boolean isPrimaryKey() {
-				// TODO Auto-generated method stub
-				return false;
-			}
-		};
-		
-		CcpDbQueryOptions z = CcpDbQueryOptions.INSTANCE.setSize(0).startAggregations().startBucket("pj", fieldName2, 100).startAggregations()
-				
-				.endAggregationsAndBackToBucket().endTermsBuckedAndBackToAggregations().endAggregationsAndBackToRequest();
-		
-		System.out.println(z);
-		
-		
-		
 	}
 
 	static void criarArquivoDeVagas() {
