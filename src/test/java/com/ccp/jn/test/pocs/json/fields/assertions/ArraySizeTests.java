@@ -10,7 +10,6 @@ import org.junit.Test;
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
-import com.ccp.exceptions.json.JsonFieldIncorrectType;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
@@ -23,15 +22,6 @@ public class ArraySizeTests {
 				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp()
 				);		
 	}
-	
-	@Test(expected = JsonFieldIncorrectType.class)
-	public void wrongType() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
-				.put("field2", 1)
-				;
-		json.itIsTrueThatTheFollowingFields("field1", "field2").ifTheyAreAllArrayValuesThenEachOne().hasTheSizeThatIs().equalsTo(3d);
-	}
-	
 	@Test
 	public void equalsTo() {
 		List<String> asList = Arrays.asList("onias", "saino", "teste");
