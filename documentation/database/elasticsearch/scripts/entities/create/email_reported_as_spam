@@ -14,7 +14,7 @@
                 "sender": {
                     "type": "keyword"
                 },
-                "emailMessage": {
+                "message": {
                     "type": "text"
                 }
                 
