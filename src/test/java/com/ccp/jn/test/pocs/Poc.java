@@ -1,7 +1,8 @@
 package com.ccp.jn.test.pocs;
 
-import java.sql.SQLException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -18,6 +19,7 @@ import com.ccp.especifications.db.crud.CcpCrud;
 import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
+import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.db.utils.CcpEntityField;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
@@ -27,8 +29,8 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.jn.commons.entities.JnEntityContactUs;
-import com.jn.commons.entities.JnEntityDisposableRecord;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
+import com.jn.commons.entities.JnEntityEmailReportedAsSpam;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 
@@ -44,8 +46,11 @@ public class Poc {
 	}
 	
 	
-	public static void main(String[] args) throws SQLException {
-
+	public static void main(String[] args) throws Exception {
+		Class<?>[] declaredClasses = JnEntityEmailReportedAsSpam.class.getDeclaredClasses();
+		Method method = declaredClasses[0].getMethod("values");
+		CcpEntityField[] invoke = (CcpEntityField[])method.invoke(null);
+		System.out.println(Arrays.asList(invoke));
 	}
 
 	static void criarArquivoDeVagas() {
@@ -245,12 +250,12 @@ public class Poc {
 
 	static void testarTempo() {
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "teste");
-		JnEntityJobsnowError.INSTANCE.delete(put);
-		JnEntityJobsnowError.INSTANCE.create(put);
+		JnEntityJobsnowError.ENTITY.delete(put);
+		JnEntityJobsnowError.ENTITY.create(put);
 		while(true) {
-			boolean x = JnEntityJobsnowError.INSTANCE.exists(put);
+			boolean x = JnEntityJobsnowError.ENTITY.exists(put);
 			if(!x) {
-				JnEntityJobsnowError.INSTANCE.create(put);
+				JnEntityJobsnowError.ENTITY.create(put);
 				System.out.println();
 			}
 			System.out.println(new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS") + " = " + x);
@@ -266,17 +271,17 @@ public class Poc {
 				+ "} ");
 		
 		CcpSelectUnionAll unionAll = dependency.unionAll(json
-				, JnEntityInstantMessengerParametersToSend.INSTANCE
-				, JnEntityEmailParametersToSend.INSTANCE
+				, JnEntityInstantMessengerParametersToSend.ENTITY
+				, JnEntityEmailParametersToSend.ENTITY
 				);
 		
-		CcpTimeDecorator.log(JnEntityInstantMessengerParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
-		CcpTimeDecorator.log(JnEntityEmailParametersToSend.INSTANCE.isPresentInThisUnionAll(unionAll, json));
+		CcpTimeDecorator.log(JnEntityInstantMessengerParametersToSend.ENTITY.isPresentInThisUnionAll(unionAll, json));
+		CcpTimeDecorator.log(JnEntityEmailParametersToSend.ENTITY.isPresentInThisUnionAll(unionAll, json));
 	}
 
 	static void testarDisposable() {
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "teste");
-		JnEntityJobsnowError instance = JnEntityJobsnowError.INSTANCE;
+		CcpEntity instance = JnEntityJobsnowError.ENTITY;
 //		instance.delete(put);
 		instance.create(put);
 		CcpCrud dependency = CcpDependencyInjection.getDependency(CcpCrud.class);
@@ -304,29 +309,29 @@ public class Poc {
 	}
 
 	static void extracted() {
-		CcpTimeDecorator.log("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
+//		CcpTimeDecorator.log("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
 		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("subjectType", "teste").put("email", "teste");
-		JnEntityContactUs.INSTANCE.create(put);
-		CcpJsonRepresentation oneById = JnEntityContactUs.INSTANCE.getOneById(put);
+		JnEntityContactUs.ENTITY.create(put);
+		CcpJsonRepresentation oneById = JnEntityContactUs.ENTITY.getOneById(put);
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById);
 		new CcpTimeDecorator().sleep(500);
-		CcpJsonRepresentation oneById1 = JnEntityContactUs.INSTANCE.getOneById(put);
+		CcpJsonRepresentation oneById1 = JnEntityContactUs.ENTITY.getOneById(put);
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById1);
 		new CcpTimeDecorator().sleep(400);
-		CcpJsonRepresentation oneById2 = JnEntityContactUs.INSTANCE.getOneById(put, x -> CcpConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
+		CcpJsonRepresentation oneById2 = JnEntityContactUs.ENTITY.getOneById(put, x -> CcpConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
 	}
 
 	static void diposableEntity() {
 		RuntimeException e = new RuntimeException("erro de teste");
 		CcpJsonRepresentation json = new CcpJsonRepresentation(e);
-		JnEntityJobsnowError.INSTANCE.create(json);
-		String id = JnEntityJobsnowError.INSTANCE.calculateId(json);
-		CcpJsonRepresentation value1 = JnEntityJobsnowError.INSTANCE.getOneById(id);
+		JnEntityJobsnowError.ENTITY.create(json);
+		String id = JnEntityJobsnowError.ENTITY.calculateId(json);
+		CcpJsonRepresentation value1 = JnEntityJobsnowError.ENTITY.getOneById(id);
 		CcpTimeDecorator.log(value1);
-		CcpJsonRepresentation copyIdToSearch = JnEntityJobsnowError.INSTANCE.getCopyIdToSearch(value1);
-		CcpJsonRepresentation value2 = JnEntityDisposableRecord.INSTANCE.getOneById(copyIdToSearch);
-		CcpTimeDecorator.log(value2);
+//		CcpJsonRepresentation copyIdToSearch = JnEntityJobsnowError.INSTANCE.getCopyIdToSearch(value1);
+//		CcpJsonRepresentation value2 = JnEntityDisposableRecord.INSTANCE.getOneById(copyIdToSearch);
+//		CcpTimeDecorator.log(value2);
 	}
 
 	static int counter;

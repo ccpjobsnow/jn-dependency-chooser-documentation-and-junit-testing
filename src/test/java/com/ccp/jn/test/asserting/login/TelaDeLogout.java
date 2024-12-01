@@ -29,8 +29,8 @@ public class TelaDeLogout extends TemplateDeTestes {
 	@Test 
 	public void caminhoFeliz() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.INSTANCE.create(variaveisParaTeste.REQUEST_TO_LOGIN);
-		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginEmail.ENTITY.create(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginSessionCurrent.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusExecuteLogout.expectedStatus);
 	}
 

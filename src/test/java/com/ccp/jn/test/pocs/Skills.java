@@ -804,7 +804,7 @@ public class Skills {
 		Set<String> collect = lines.stream().map(x -> new CcpJsonRepresentation(x).getAsString("word"))
 				.collect(Collectors.toSet());
 		System.out.println(collect.size());
-		String extractStringContent = new CcpStringDecorator("newSynonyms.json").file().extractStringContent();
+		String extractStringContent = new CcpStringDecorator("newSynonyms.json").file().getStringContent();
 		CcpJsonRepresentation json = new CcpJsonRepresentation(extractStringContent);
 		List<CcpJsonRepresentation> collect2 = json.fieldSet().stream().map(field -> json.getInnerJson(field))
 				.collect(Collectors.toList());
@@ -818,13 +818,13 @@ public class Skills {
 	}
 
 	static void atualizarSinonimos() {
-		String newSynonymsText = new CcpStringDecorator("newSynonyms.json").file().extractStringContent();
+		String newSynonymsText = new CcpStringDecorator("newSynonyms.json").file().getStringContent();
 		CcpJsonRepresentation newSynonyms = new CcpJsonRepresentation(newSynonymsText);
 		Set<String> fieldSet = newSynonyms.fieldSet();
 		List<CcpJsonRepresentation> skillsToUpdateSynonyms = fieldSet.stream()
 				.map(x -> newSynonyms.getInnerJson(x).put("word", x))
 				.filter(x -> x.getAsStringList("newSynonyms").isEmpty() == false).collect(Collectors.toList());
-		String skillsText = new CcpStringDecorator("documentation\\skills\\skills.json").file().extractStringContent();
+		String skillsText = new CcpStringDecorator("documentation\\skills\\skills.json").file().getStringContent();
 
 		List<CcpJsonRepresentation> skills = new CcpJsonRepresentation(skillsText).getAsJsonList("linhas");
 		List<String> vagas = new CcpStringDecorator("C:\\jn\\vagas\\vagas.txt").file().getLines().stream()
@@ -857,11 +857,11 @@ public class Skills {
 
 	static void inserirTermosDoGeminiQueNaoTenhamSidoRegistradosComoSinonimos() {
 		CcpFileDecorator file = new CcpStringDecorator("documentation\\skills\\updatedSkillList.json").file();
-		String geminiText = file.extractStringContent();
+		String geminiText = file.getStringContent();
 		CcpJsonHandler jsonHandler = CcpDependencyInjection.getDependency(CcpJsonHandler.class);
 		List<Map<String, Object>> list = jsonHandler.fromJson(geminiText);
 		CcpFileDecorator skillFile = new CcpStringDecorator("documentation\\skills\\skills.json").file();
-		String skillsText = skillFile.extractStringContent();
+		String skillsText = skillFile.getStringContent();
 		Set<String> allSynonyms = getAllSynonymsFromList(skillsText);
 
 		List<CcpJsonRepresentation> newSkills = list.stream().map(x -> new CcpJsonRepresentation(x))
@@ -883,7 +883,7 @@ public class Skills {
 	}
 
 	static void loadErrors() {
-		String extractStringContent = new CcpStringDecorator("erros.txt").file().extractStringContent();
+		String extractStringContent = new CcpStringDecorator("erros.txt").file().getStringContent();
 		List<String> collect = new CcpJsonRepresentation(extractStringContent).getAsJsonList("list").stream()
 				.map(x -> x.getInnerJson("response")).map(x -> x.getAsJsonList("candidates").get(0))
 				.map(x -> x.getInnerJson("content")).map(x -> x.getAsJsonList("parts").get(0))
@@ -901,7 +901,7 @@ public class Skills {
 				.collect(Collectors.toSet());
 
 		CcpFileDecorator file = new CcpStringDecorator("documentation\\skills\\updatedSkillList.json").file();
-		String skillsText = file.extractStringContent();
+		String skillsText = file.getStringContent();
 
 		Set<String> allSynonyms = getAllSynonyms(skillsText);
 		Set<String> newSkills = skillsFromErrors.stream().filter(x -> allSynonyms.contains(x) == false)
@@ -913,7 +913,7 @@ public class Skills {
 		List<CcpJsonRepresentation> newList = newSkills.stream()
 				.map(x -> getRelatorioDeUmaPalavra(x, vagas).put("gemini", true).renameField("skill", "word"))
 				.collect(Collectors.toList());
-		String updatedSkillList = file.extractStringContent();
+		String updatedSkillList = file.getStringContent();
 		CcpJsonHandler jsonHandler = CcpDependencyInjection.getDependency(CcpJsonHandler.class);
 		List<Map<String, Object>> list = jsonHandler.fromJson(updatedSkillList);
 		List<CcpJsonRepresentation> oldList = list.stream().map(x -> new CcpJsonRepresentation(x))
@@ -931,7 +931,7 @@ public class Skills {
 
 	static Set<String> getAllSynonymsFromList(String skillsText) {
 		String extractStringContent = new CcpStringDecorator("documentation\\skills\\skills.json").file()
-				.extractStringContent();
+				.getStringContent();
 		CcpJsonHandler jsonHandler = CcpDependencyInjection.getDependency(CcpJsonHandler.class);
 		List<Map<String, Object>> list = jsonHandler.fromJson(extractStringContent);
 
@@ -960,7 +960,7 @@ public class Skills {
 
 	static void showGeminiSkills() {
 		String extractStringContent = new CcpStringDecorator("documentation\\skills\\updatedSkillList.json").file()
-				.extractStringContent();
+				.getStringContent();
 		CcpJsonHandler jsonHandler = CcpDependencyInjection.getDependency(CcpJsonHandler.class);
 		List<Map<String, Object>> list = jsonHandler.fromJson(extractStringContent);
 		Set<String> collect = list.stream().map(x -> new CcpJsonRepresentation(x)).filter(x -> x.getAsBoolean("gemini"))
@@ -975,7 +975,7 @@ public class Skills {
 
 	static void loadSynonymsMatch() {
 		String extractStringContent = new CcpStringDecorator("documentation\\skills\\updatedSkillList.json").file()
-				.extractStringContent();
+				.getStringContent();
 		CcpJsonHandler jsonHandler = CcpDependencyInjection.getDependency(CcpJsonHandler.class);
 		List<Map<String, Object>> list = jsonHandler.fromJson(extractStringContent);
 		List<CcpJsonRepresentation> SkillsGemini = list.stream().map(x -> new CcpJsonRepresentation(x))
@@ -1066,7 +1066,7 @@ public class Skills {
 				.map(vaga -> sanitizeWord(vaga)).collect(Collectors.toList());
 
 		String extractStringContent = new CcpStringDecorator("documentation\\skills\\skills.json").file()
-				.extractStringContent();
+				.getStringContent();
 
 		List<CcpJsonRepresentation> skills = new CcpJsonRepresentation(extractStringContent).getAsJsonList("linhas");
 		CcpFileDecorator file = new CcpStringDecorator("documentation\\skills\\classificacao.txt").file();
@@ -1277,7 +1277,7 @@ public class Skills {
 
 	static void levantarSkillsAvulsas(String... palavras) {
 		String extractStringContent = new CcpStringDecorator("documentation\\skills\\skills.json").file()
-				.extractStringContent();
+				.getStringContent();
 		List<CcpJsonRepresentation> skills = new CcpJsonRepresentation(extractStringContent).getAsJsonList("linhas");
 		for (CcpJsonRepresentation skill : skills) {
 			boolean incorrectJson = skill.containsAllFields("somatoria") == false;
@@ -1294,7 +1294,7 @@ public class Skills {
 	static void criarArquivosFinais() {
 		// criarRelatoriosDosArquivos();
 		String extractStringContent = new CcpStringDecorator("documentation\\skills\\classificacao\\skills.json").file()
-				.extractStringContent();
+				.getStringContent();
 		List<CcpJsonRepresentation> skills = new CcpJsonRepresentation(extractStringContent).getAsJsonList("linhas");
 		List<String> classificados = new CcpStringDecorator("documentation\\skills\\classificacao\\perguntar.txt")
 				.file().getLines();
@@ -1319,7 +1319,7 @@ public class Skills {
 				.filter(x -> x.trim().endsWith("(1)") == false).map(x -> Integer.valueOf(x.split(":")[0]))
 				.map(x -> skills.get(x)).collect(Collectors.toList());
 		String extractStringContent2 = new CcpStringDecorator("documentation\\skills\\classificacao\\profissoes.json")
-				.file().extractStringContent();
+				.file().getStringContent();
 		List<CcpJsonRepresentation> profissoesParaPopularTabelaDeSkills = new CcpJsonRepresentation(
 				extractStringContent2).getAsJsonList("linhas").subList(0, 151);
 
@@ -1629,7 +1629,7 @@ public class Skills {
 
 	static Set<String> readTermosEstudaveis(String path) {
 		Set<String> result = new HashSet<String>();
-		String extractStringContent = new CcpStringDecorator(path).file().extractStringContent();
+		String extractStringContent = new CcpStringDecorator(path).file().getStringContent();
 		CcpJsonRepresentation data = new CcpJsonRepresentation(extractStringContent);
 		List<CcpJsonRepresentation> collect = data.getInnerJson("hits").getAsJsonList("hits");
 		for (CcpJsonRepresentation json : collect) {
@@ -1643,7 +1643,7 @@ public class Skills {
 	}
 
 	static Set<String> read(String path) {
-		String extractStringContent = new CcpStringDecorator(path).file().extractStringContent();
+		String extractStringContent = new CcpStringDecorator(path).file().getStringContent();
 		List<Map<String, Object>> list = CcpDependencyInjection.getDependency(CcpJsonHandler.class)
 				.fromJson(extractStringContent);
 		List<CcpJsonRepresentation> collect = list.stream().map(x -> new CcpJsonRepresentation(x))

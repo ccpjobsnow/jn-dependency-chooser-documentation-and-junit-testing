@@ -57,7 +57,7 @@ public class TestesDoDaniel {
 		telaDoCadastroDeSenha.execute(cenarioDeTeste, StatusUpdatePassword.expectedStatus, x -> token);
 		new CcpTimeDecorator().sleep(10_000);
 		telaDeLogout.execute(cenarioDeTeste, StatusExecuteLogout.expectedStatus);
-		boolean isLockedPassword = JnEntityLoginPassword.INSTANCE.getMirrorEntity().exists(cenarioDeTeste.REQUEST_TO_LOGIN);
+		boolean isLockedPassword = JnEntityLoginPassword.ENTITY.getTwinEntity().exists(cenarioDeTeste.REQUEST_TO_LOGIN);
 		assertFalse(isLockedPassword);
 		telaQuePedeSenhaParaEntrarNoSistema.execute(cenarioDeTeste, StatusExecuteLogin.expectedStatus, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}

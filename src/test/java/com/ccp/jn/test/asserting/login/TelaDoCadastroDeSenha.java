@@ -27,7 +27,7 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	@Test
 	public void tokenBloqueado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		CcpEntity mirrorEntity = JnEntityLoginToken.INSTANCE.getMirrorEntity();
+		CcpEntity mirrorEntity = JnEntityLoginToken.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
 		this.execute(variaveisParaTeste, StatusUpdatePassword.lockedToken, x -> token);
@@ -37,16 +37,16 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
-		JnEntityLoginEmail.INSTANCE.delete( variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginEmail.ENTITY.delete( variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusUpdatePassword.missingEmail, x -> token);
 	}
 
 	@Test
 	public void efetuarDesbloqueios() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		CcpEntity mirrorEntity = JnEntityLoginPassword.INSTANCE.getMirrorEntity();
+		CcpEntity mirrorEntity = JnEntityLoginPassword.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		JnEntityLoginSessionCurrent.INSTANCE.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginSessionCurrent.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.fluxoEsperado(variaveisParaTeste);
 	}
 
@@ -62,10 +62,10 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 	}
 
 	private String getToken(VariaveisParaTeste variaveisParaTeste) {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginEmail.ENTITY.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 
 		CcpJsonRepresentation entityValue =  variaveisParaTeste.REQUEST_TO_LOGIN.putRandomPassword(8, "token", "tokenHash");
-		JnEntityLoginToken.INSTANCE.createOrUpdate(entityValue);
+		JnEntityLoginToken.ENTITY.createOrUpdate(entityValue);
 		String token = entityValue.getAsString("token");
 		return token;
 	}
@@ -117,8 +117,8 @@ public class TelaDoCadastroDeSenha extends TemplateDeTestes{
 
 	
 	private String getTokenToValidateLogin(VariaveisParaTeste variaveisParaTeste) {
-		JnEntityLoginEmail.INSTANCE.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
-		JnEntityLoginAnswers.INSTANCE.createOrUpdate( variaveisParaTeste.ANSWERS_JSON);
+		JnEntityLoginEmail.ENTITY.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginAnswers.ENTITY.createOrUpdate( variaveisParaTeste.ANSWERS_JSON);
 		CcpJsonRepresentation loginToken =  variaveisParaTeste.REQUEST_TO_LOGIN.putRandomToken(8, "token");
 		String token = loginToken.getAsString("token");
 		return token;
