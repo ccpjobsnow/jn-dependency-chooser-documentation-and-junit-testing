@@ -1,8 +1,6 @@
 package com.ccp.jn.test.pocs;
 
-import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -21,6 +19,7 @@ import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.db.utils.CcpEntityField;
+import com.ccp.especifications.db.utils.decorators.CcpEntityFactory;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -28,9 +27,9 @@ import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecu
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.jn.commons.entities.JnEntityAsyncTask;
 import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
-import com.jn.commons.entities.JnEntityEmailReportedAsSpam;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 
@@ -47,10 +46,8 @@ public class Poc {
 	
 	
 	public static void main(String[] args) throws Exception {
-		Class<?>[] declaredClasses = JnEntityEmailReportedAsSpam.class.getDeclaredClasses();
-		Method method = declaredClasses[0].getMethod("values");
-		CcpEntityField[] invoke = (CcpEntityField[])method.invoke(null);
-		System.out.println(Arrays.asList(invoke));
+		CcpEntityFactory factory = new CcpEntityFactory(JnEntityAsyncTask.class);
+		System.out.println(factory);
 	}
 
 	static void criarArquivoDeVagas() {

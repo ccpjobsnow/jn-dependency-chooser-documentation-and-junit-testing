@@ -18,15 +18,23 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
+import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.ccp.process.CcpProcessStatus;
 
 public abstract class TemplateDeTestes {
 	protected final String ENDPOINT_URL = "http://localhost:8080/";
 
 	static {
-		CcpDependencyInjection.loadAllDependencies(new CcpGsonJsonHandler(), new CcpElasticSearchCrud(),
-				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp(), new CcpMindrotPasswordHandler(),
-				new CcpElasticSerchDbBulk());
+		CcpDependencyInjection.loadAllDependencies(
+				new CcpElasticSearchDbRequest(), 
+				new CcpMindrotPasswordHandler(),
+				CcpLocalCacheInstances.mock,
+				new CcpElasticSearchCrud(),
+				new CcpGsonJsonHandler(), 
+				new CcpApacheMimeHttp(), 
+				new CcpElasticSerchDbBulk()
+				
+				);
 		
 		String pathToCreateEntityScript = "documentation\\database\\elasticsearch\\scripts\\entities\\create";
 		String pathToJavaClasses = "..\\jn-business-commons\\src\\main\\java\\com\\jn\\commons\\entities";
