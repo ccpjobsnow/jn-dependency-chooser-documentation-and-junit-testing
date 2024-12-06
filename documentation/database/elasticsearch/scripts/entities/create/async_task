@@ -10,8 +10,11 @@
 					"dynamic": "true",
 					"properties": {}
 			},
+			"data": {
+				"type": "text"
+			},
 			"messageId": {
-				"type": "long"
+				"type": "text"
 			},
 			"success": {
 				"type": "boolean"
