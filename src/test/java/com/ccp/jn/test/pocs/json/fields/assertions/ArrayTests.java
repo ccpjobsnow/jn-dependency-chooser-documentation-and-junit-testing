@@ -68,7 +68,7 @@ public class ArrayTests {
 		String[] fields = new String[] {"field1", "field2", "field3", "field4", "field5"};
 		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
 				.put("field1", Arrays.asList(1, 2, 3))
-				.put("field2", Arrays.asList(1d, 2d, 3d))//TODO REVER ESSA LOGICA
+				.put("field2", Arrays.asList(1d, 2d, 3d))//FORGOT REVER ESSA LOGICA
 				.put("field3","[['A', 'B', 'C'], ['D', 'B', 'C']]")
 				.put("field4","[1.0, 2.0, 3.0]")
 				.put("field5","[true, false]")
@@ -80,7 +80,7 @@ public class ArrayTests {
 		String[] fields = new String[] {"field1", "field2", "field3", "field4", "field5"};
 		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
 				.put("field1", Arrays.asList(1, 2, 3))
-				.put("field2", Arrays.asList(1d, 2d, 3d))//TODO REVER ESSA LOGICA
+				.put("field2", Arrays.asList(1d, 2d, 3d))//FORGOT REVER ESSA LOGICA
 				.put("field3","[['A', 'B', 'C'], ['D', 'B', 'C']]")
 				.put("field4","[1.0, 2.0, 3.0]")
 				.put("field5","[true, false]")
