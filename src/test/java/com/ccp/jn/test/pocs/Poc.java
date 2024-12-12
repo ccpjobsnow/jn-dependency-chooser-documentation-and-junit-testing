@@ -34,6 +34,7 @@ import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 import com.jn.commons.entities.JnEntityLoginPassword;
 
+
 public class Poc {
 	static{
 		CcpDependencyInjection.loadAllDependencies(
@@ -278,6 +279,7 @@ public class Poc {
 				+ "} ");
 		
 		CcpSelectUnionAll unionAll = dependency.unionAll(json
+				
 				, JnEntityInstantMessengerParametersToSend.ENTITY
 				, JnEntityEmailParametersToSend.ENTITY
 				);
