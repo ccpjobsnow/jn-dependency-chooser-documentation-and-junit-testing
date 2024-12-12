@@ -27,17 +27,19 @@ import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecu
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
-import com.jn.commons.entities.JnEntityAsyncTask;
+import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
+import com.jn.commons.entities.JnEntityLoginPassword;
 
 public class Poc {
 	static{
 		CcpDependencyInjection.loadAllDependencies(
 				new CcpElasticSearchQueryExecutor(),
 				new CcpElasticSearchDbRequest(), 
+				CcpLocalCacheInstances.mock,
 				new CcpElasticSearchCrud(),
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
@@ -46,8 +48,16 @@ public class Poc {
 	
 	
 	public static void main(String[] args) throws Exception {
-		CcpEntityFactory factory = new CcpEntityFactory(JnEntityAsyncTask.class);
-		System.out.println(factory);
+		CcpEntity ent = new CcpEntityFactory(JnEntityLoginPassword.class).entityInstance;
+		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("email", "xxx");
+		CcpEntity twinEntity = ent.getTwinEntity();
+		CcpCrud crud = CcpDependencyInjection.getDependency(CcpCrud.class);
+		CcpEntity[] thisEntityAndHisTwinEntity = ent.getThisEntityAndHisTwinEntity();
+		CcpSelectUnionAll unionAll = crud.unionAll(put, thisEntityAndHisTwinEntity);
+		twinEntity.isPresentInThisUnionAll(unionAll, put);
+		CcpEntity t2 = twinEntity.getTwinEntity();
+		t2.isPresentInThisUnionAll(unionAll, put);
+		ent.isPresentInThisUnionAll(unionAll, put);
 	}
 
 	static void criarArquivoDeVagas() {
