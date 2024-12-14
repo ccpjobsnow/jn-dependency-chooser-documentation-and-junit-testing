@@ -33,6 +33,7 @@ import com.jn.commons.entities.JnEntityEmailParametersToSend;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 import com.jn.commons.entities.JnEntityLoginPassword;
+import com.jn.commons.utils.JnDeleteKeysFromCache;
 
 
 public class Poc {
@@ -54,7 +55,7 @@ public class Poc {
 		CcpEntity twinEntity = ent.getTwinEntity();
 		CcpCrud crud = CcpDependencyInjection.getDependency(CcpCrud.class);
 		CcpEntity[] thisEntityAndHisTwinEntity = ent.getThisEntityAndHisTwinEntity();
-		CcpSelectUnionAll unionAll = crud.unionAll(put, thisEntityAndHisTwinEntity);
+		CcpSelectUnionAll unionAll = crud.unionAll(put, JnDeleteKeysFromCache.INSTANCE, thisEntityAndHisTwinEntity);
 		twinEntity.isPresentInThisUnionAll(unionAll, put);
 		CcpEntity t2 = twinEntity.getTwinEntity();
 		t2.isPresentInThisUnionAll(unionAll, put);
@@ -279,7 +280,7 @@ public class Poc {
 				+ "} ");
 		
 		CcpSelectUnionAll unionAll = dependency.unionAll(json
-				
+				, JnDeleteKeysFromCache.INSTANCE
 				, JnEntityInstantMessengerParametersToSend.ENTITY
 				, JnEntityEmailParametersToSend.ENTITY
 				);
@@ -296,7 +297,7 @@ public class Poc {
 		CcpCrud dependency = CcpDependencyInjection.getDependency(CcpCrud.class);
 		while(true) {
 			CcpTimeDecorator ccpTimeDecorator = new CcpTimeDecorator();
-			CcpSelectUnionAll unionAll = dependency.unionAll(put, instance);
+			CcpSelectUnionAll unionAll = dependency.unionAll(put, JnDeleteKeysFromCache.INSTANCE, instance);
 			boolean presentInThisUnionAll = instance.isPresentInThisUnionAll(unionAll, put);
 			String formattedDateTime = ccpTimeDecorator.getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS");
 			CcpTimeDecorator.log(presentInThisUnionAll + " - " + formattedDateTime);

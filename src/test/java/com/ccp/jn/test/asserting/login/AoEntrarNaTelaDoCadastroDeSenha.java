@@ -46,6 +46,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends TemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
+		//FIXME CORRIGIR O ENVIO DO E-MAIL
 		this.execute(variaveisParaTeste, StatusCreateLoginToken.statusExpectedStatus);
 	}
 	//
