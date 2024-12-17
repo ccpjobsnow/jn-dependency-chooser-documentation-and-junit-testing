@@ -19,7 +19,6 @@ import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.db.utils.CcpEntityField;
-import com.ccp.especifications.db.utils.decorators.CcpEntityFactory;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -32,7 +31,6 @@ import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
-import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.utils.JnDeleteKeysFromCache;
 
 
@@ -41,7 +39,7 @@ public class Poc {
 		CcpDependencyInjection.loadAllDependencies(
 				new CcpElasticSearchQueryExecutor(),
 				new CcpElasticSearchDbRequest(), 
-				CcpLocalCacheInstances.mock,
+				CcpLocalCacheInstances.map,
 				new CcpElasticSearchCrud(),
 				new CcpGsonJsonHandler(), 
 				new CcpApacheMimeHttp()
@@ -50,16 +48,7 @@ public class Poc {
 	
 	
 	public static void main(String[] args) throws Exception {
-		CcpEntity ent = new CcpEntityFactory(JnEntityLoginPassword.class).entityInstance;
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("email", "xxx");
-		CcpEntity twinEntity = ent.getTwinEntity();
-		CcpCrud crud = CcpDependencyInjection.getDependency(CcpCrud.class);
-		CcpEntity[] thisEntityAndHisTwinEntity = ent.getThisEntityAndHisTwinEntity();
-		CcpSelectUnionAll unionAll = crud.unionAll(put, JnDeleteKeysFromCache.INSTANCE, thisEntityAndHisTwinEntity);
-		twinEntity.isPresentInThisUnionAll(unionAll, put);
-		CcpEntity t2 = twinEntity.getTwinEntity();
-		t2.isPresentInThisUnionAll(unionAll, put);
-		ent.isPresentInThisUnionAll(unionAll, put);
+		testarTempo();
 	}
 
 	static void criarArquivoDeVagas() {
@@ -258,16 +247,19 @@ public class Poc {
 	}
 
 	static void testarTempo() {
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "teste");
-		JnEntityJobsnowError.ENTITY.delete(put);
-		JnEntityJobsnowError.ENTITY.create(put);
+		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON.
+				put("cause", new CcpJsonRepresentation("{'nome':'onias'}"))
+				.put("stackTrace", "{'nome':'vieira'}")
+				.put("type", "any")
+				;
+		JnEntityJobsnowError.ENTITY.delete(json);
+		JnEntityJobsnowError.ENTITY.create(json);
 		while(true) {
-			boolean x = JnEntityJobsnowError.ENTITY.exists(put);
-			if(!x) {
-				JnEntityJobsnowError.ENTITY.create(put);
-				System.out.println();
+			boolean exists = JnEntityJobsnowError.ENTITY.exists(json);
+			if(exists == false) {
+				JnEntityJobsnowError.ENTITY.create(json);
+				System.out.println(new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS"));
 			}
-			System.out.println(new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS") + " = " + x);
 			new CcpTimeDecorator().sleep(1000);
 			
 		}
