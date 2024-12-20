@@ -10,7 +10,7 @@ import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.StatusExistsLoginEmail;
-import com.ccp.jn.test.asserting.TemplateDeTestes;
+import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
@@ -20,7 +20,7 @@ import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.entities.JnEntityLoginToken;
 import com.jn.commons.status.StatusExecuteLogin;
 
-public class TelaQuePedeSenhaParaEntrarNoSistema extends TemplateDeTestes{
+public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {

@@ -7,13 +7,13 @@ import org.junit.Test;
 import com.ccp.constantes.CcpConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.sync.status.login.StatusExecuteLogout;
-import com.ccp.jn.test.asserting.TemplateDeTestes;
+import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 
-public class TelaDeLogout extends TemplateDeTestes {
+public class TelaDeLogout extends JnTemplateDeTestes {
 
 	@Test
 	public void emailInvalido() {

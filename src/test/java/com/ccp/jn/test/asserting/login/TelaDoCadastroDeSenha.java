@@ -9,7 +9,7 @@ import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.jn.sync.status.login.StatusUpdatePassword;
-import com.ccp.jn.test.asserting.TemplateDeTestes;
+import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
@@ -18,7 +18,7 @@ import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.entities.JnEntityLoginToken;
 
-public class TelaDoCadastroDeSenha extends TemplateDeTestes{
+public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	@Test
 	public void emailInvalido() {
 		this.requisicaoFake(VariaveisParaTeste.INVALID_EMAIL, "abcdefgh", StatusUpdatePassword.invalidEmail);

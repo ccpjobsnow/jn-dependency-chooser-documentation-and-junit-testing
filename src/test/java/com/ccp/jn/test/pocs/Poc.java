@@ -48,7 +48,14 @@ public class Poc {
 	
 	
 	public static void main(String[] args) throws Exception {
-		testarTempo();
+		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+				.put("cause", new CcpJsonRepresentation("{'nome':'onias'}"))
+				.put("stackTrace", "{'nome':'vieira'}")
+				.put("type", "any")
+				;
+		CcpJsonRepresentation oneById = JnEntityJobsnowError.ENTITY.getOneById(json, CcpConstants.RETURNS_EMPTY_JSON);
+		System.out.println(oneById);
+
 	}
 
 	static void criarArquivoDeVagas() {

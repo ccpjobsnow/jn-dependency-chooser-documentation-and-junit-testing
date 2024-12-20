@@ -21,7 +21,7 @@ import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.ccp.process.CcpProcessStatus;
 
-public abstract class TemplateDeTestes {
+public abstract class JnTemplateDeTestes {
 	protected final String ENDPOINT_URL = "http://localhost:8080/";
 
 	static {
