@@ -12,6 +12,7 @@ import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.commons.utils.JnLanguage;
 
 public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 
@@ -59,7 +60,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	private void criarTokenDeLogin(String email, CcpProcessStatus expectedStatus) {
 		String uri = "login/"
 				+ email
-				+ "/token/language/portuguese";
+				+ "/token/language/"+ JnLanguage.portuguese.name();
 		this.testarEndpoint(uri, expectedStatus);
 	}
 	
