@@ -9,6 +9,7 @@ import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 import com.ccp.decorators.CcpFileDecorator;
+import com.ccp.decorators.CcpHashAlgorithm;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
 
@@ -143,7 +144,7 @@ public class ContarMensagensDoTelegram {
 		List<String> asList = Arrays.asList(split).stream().map(x -> transform(x)).filter(x -> x.length() > 2)
 				.collect(Collectors.toList());
 		TreeSet<String> treeSet = new TreeSet<String>(asList);
-		String hash = new CcpStringDecorator(treeSet.toString()).hash().asString("SHA1");
+		String hash = new CcpStringDecorator(treeSet.toString()).hash().asString(CcpHashAlgorithm.SHA1);
 		return hash;
 	}
 }

@@ -12,7 +12,7 @@ import java.util.Set;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpCollectionDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
@@ -72,7 +72,7 @@ public class CcpTestJsonRepresentation {
 
 	@Test (expected = RuntimeException.class)
 	public void obterPropriedadeQueNaoExiste() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON;
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON;
 		json.getAsLongNumber("minhaPropriedadeJson");
 		//		CcpJsonRepresentation.getMap(null);
 	}
@@ -571,7 +571,7 @@ public class CcpTestJsonRepresentation {
 				+ "  ] "
 				+ "}";
 		
-		CcpJsonRepresentation addToItem = CcpConstants.EMPTY_JSON.addToItem("filho", "pai", "abacaxi");
+		CcpJsonRepresentation addToItem = CcpOtherConstants.EMPTY_JSON.addToItem("filho", "pai", "abacaxi");
 		
 		CcpJsonRepresentation json = new CcpJsonRepresentation(cadastro);
 		String valueFromPath = addToItem.getValueFromPath("-","filho","pai");

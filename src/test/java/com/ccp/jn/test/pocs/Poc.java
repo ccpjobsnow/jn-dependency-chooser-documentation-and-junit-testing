@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpCollectionDecorator;
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
@@ -48,12 +48,12 @@ public class Poc {
 	
 	
 	public static void main(String[] args) throws Exception {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("cause", new CcpJsonRepresentation("{'nome':'onias'}"))
 				.put("stackTrace", "{'nome':'vieira'}")
 				.put("type", "any")
 				;
-		CcpJsonRepresentation oneById = JnEntityJobsnowError.ENTITY.getOneById(json, CcpConstants.RETURNS_EMPTY_JSON);
+		CcpJsonRepresentation oneById = JnEntityJobsnowError.ENTITY.getOneById(json, CcpOtherConstants.RETURNS_EMPTY_JSON);
 		System.out.println(oneById);
 
 	}
@@ -69,7 +69,7 @@ public class Poc {
 		
 		List<Object> intersectList = new CcpCollectionDecorator(emailsDasVisualizacoes).getIntersectList(emailsDasVagas);
 		
-		CcpJsonRepresentation mgetJson = CcpConstants.EMPTY_JSON;
+		CcpJsonRepresentation mgetJson = CcpOtherConstants.EMPTY_JSON;
 		CcpEntityField idField = new CcpEntityField() {
 			public String name() {
 				return "email";
@@ -103,7 +103,7 @@ public class Poc {
 			mgetJson = mgetJson.addToList("docs", doc);
 		}
 		
-		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/_mget", "POST", CcpConstants.EMPTY_JSON, mgetJson.asUgglyJson());
+		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/_mget", "POST", CcpOtherConstants.EMPTY_JSON, mgetJson.asUgglyJson());
 		CcpJsonRepresentation asSingleJson = executeHttpRequest.asSingleJson();
 		
 		List<CcpJsonRepresentation> collect = asSingleJson.getAsJsonList("docs").stream().map(json -> {
@@ -113,7 +113,7 @@ public class Poc {
 			return put;
 		}).collect(Collectors.toList());
 		
-		CcpJsonRepresentation resumes = CcpConstants.EMPTY_JSON;
+		CcpJsonRepresentation resumes = CcpOtherConstants.EMPTY_JSON;
 		
 		for (CcpJsonRepresentation curriculo : collect) {
 			String id = curriculo.getAsString("id");
@@ -146,7 +146,7 @@ public class Poc {
 	
 	static class AgruparVagasPorRecrutadores implements java.util.function.Consumer<CcpJsonRepresentation>{
 		
-		CcpJsonRepresentation vagasAgrupadasPorRecrutadores = CcpConstants.EMPTY_JSON;
+		CcpJsonRepresentation vagasAgrupadasPorRecrutadores = CcpOtherConstants.EMPTY_JSON;
 		
 		public void accept(CcpJsonRepresentation json) {
 			
@@ -156,7 +156,7 @@ public class Poc {
 			String contactChannel =  new CcpStringDecorator(contato.trim()).email().isValid() ? "email" : "link";
 			
 			CcpJsonRepresentation vaga = 
-			CcpConstants.EMPTY_JSON
+			CcpOtherConstants.EMPTY_JSON
 			.put("channel", contato)
 			.put("email", recrutador)
 			.put("description", texto)
@@ -170,7 +170,7 @@ public class Poc {
 	
 	static class AgruparCandidatosPorRecrutadores implements java.util.function.Consumer<CcpJsonRepresentation>{
 		
-		CcpJsonRepresentation candidatosAgrupadosPorRecrutadores = CcpConstants.EMPTY_JSON;
+		CcpJsonRepresentation candidatosAgrupadosPorRecrutadores = CcpOtherConstants.EMPTY_JSON;
 		
 		public void accept(CcpJsonRepresentation json) {
 			String candidato = json.getAsObject("candidate", "candidato");
@@ -249,12 +249,12 @@ public class Poc {
 	}
 
 	static void excluirCurriculo() {
-		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/profissionais2/_doc/lucascavalcantedeo@gmail.com", "DELETE", CcpConstants.EMPTY_JSON, "");
+		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/profissionais2/_doc/lucascavalcantedeo@gmail.com", "DELETE", CcpOtherConstants.EMPTY_JSON, "");
 		System.out.println(executeHttpRequest);
 	}
 
 	static void testarTempo() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON.
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON.
 				put("cause", new CcpJsonRepresentation("{'nome':'onias'}"))
 				.put("stackTrace", "{'nome':'vieira'}")
 				.put("type", "any")
@@ -289,7 +289,7 @@ public class Poc {
 	}
 
 	static void testarDisposable() {
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("type", "teste");
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("type", "teste");
 		CcpEntity instance = JnEntityJobsnowError.ENTITY;
 //		instance.delete(put);
 		instance.create(put);
@@ -312,14 +312,14 @@ public class Poc {
 		CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
 
 		while(true) {
-			dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", "GET", CcpConstants.EMPTY_JSON, "");
+			dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", "GET", CcpOtherConstants.EMPTY_JSON, "");
 			ccpTimeDecorator.sleep(60_000);
 		}
 	}
 
 	static void extracted() {
 //		CcpTimeDecorator.log("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("subjectType", "teste").put("email", "teste");
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("subjectType", "teste").put("email", "teste");
 		JnEntityContactUs.ENTITY.create(put);
 		CcpJsonRepresentation oneById = JnEntityContactUs.ENTITY.getOneById(put);
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById);
@@ -327,7 +327,7 @@ public class Poc {
 		CcpJsonRepresentation oneById1 = JnEntityContactUs.ENTITY.getOneById(put);
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById1);
 		new CcpTimeDecorator().sleep(400);
-		CcpJsonRepresentation oneById2 = JnEntityContactUs.ENTITY.getOneById(put, x -> CcpConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
+		CcpJsonRepresentation oneById2 = JnEntityContactUs.ENTITY.getOneById(put, x -> CcpOtherConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
 	}
 

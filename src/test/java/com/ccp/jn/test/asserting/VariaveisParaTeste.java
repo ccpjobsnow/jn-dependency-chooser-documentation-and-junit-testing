@@ -1,6 +1,7 @@
 package com.ccp.jn.test.asserting;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
+import com.ccp.decorators.CcpHashAlgorithm;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 
@@ -10,12 +11,12 @@ public class VariaveisParaTeste {
 	public final static String INCORRECT_TOKEN_TO_SAVE_PASSWORD = "qualquerCoisa";
 	public final static String INVALID_EMAIL = "devs.jobsnowgmail.com";
 
-	public final static String SESSION_TOKEN = CcpConstants.EMPTY_JSON.putRandomToken(8, "token").getAsString("token");
+	public final static String SESSION_TOKEN = CcpOtherConstants.EMPTY_JSON.putRandomToken(8, "token").getAsString("token");
 	
-	public CcpJsonRepresentation REQUEST_TO_LOGIN = CcpConstants.EMPTY_JSON
+	public CcpJsonRepresentation REQUEST_TO_LOGIN = CcpOtherConstants.EMPTY_JSON
 			.put("userAgent", "Apache-HttpClient/4.5.4 (Java/17.0.9)")
 			.put("sessionToken", SESSION_TOKEN)
-			.put("ip", "localhost:8080")
+			.put("ip", "localhost")
 			;
 			
 	public final String VALID_EMAIL;
@@ -29,7 +30,7 @@ public class VariaveisParaTeste {
 	}
 	public VariaveisParaTeste(String email) {
 	
-		this.REQUEST_TO_LOGIN = this.REQUEST_TO_LOGIN.put("email", email).putEmailHash("SHA1");
+		this.REQUEST_TO_LOGIN = this.REQUEST_TO_LOGIN.put("email", email).putEmailHash(CcpHashAlgorithm.SHA1);
 		this.VALID_EMAIL = email;
 		this.ANSWERS_JSON = this.REQUEST_TO_LOGIN.put("goal", "jobs").put("channel", "linkedin");
 	}	

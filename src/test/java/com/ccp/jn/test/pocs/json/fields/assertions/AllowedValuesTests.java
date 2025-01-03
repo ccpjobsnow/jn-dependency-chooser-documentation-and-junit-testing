@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -23,7 +23,7 @@ public class AllowedValuesTests {
 
 	@Test
 	public void arrayWithAllowedNumbers() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 		.put("field1", "[1, 3.1]")
 		.put("field2", "[2, 3.1]")
 		.put("field3", "[1, 2]");
@@ -32,7 +32,7 @@ public class AllowedValuesTests {
 
 	@Test
 	public void arrayWithAllowedTexts() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 		.put("field1", "['A', 'B']")
 		.put("field2", "['B', 'C']")
 		.put("field3", "['A', 'C']")
@@ -42,7 +42,7 @@ public class AllowedValuesTests {
 
 	@Test
 	public void objectWithAllowedNumbers() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 		.put("field1", "1")
 		.put("field2", "2")
 		.put("field3", "3");
@@ -53,7 +53,7 @@ public class AllowedValuesTests {
 
 	@Test
 	public void objectWithAllowedTexts() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 		.put("field1", "A")
 		.put("field2", "B")
 		.put("field3", "C")

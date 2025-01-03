@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
@@ -68,7 +68,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 
 	@Test
 	public void caminhoFeliz() {
-		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias85@gmail.com");
 		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);;
 		new CcpTimeDecorator().sleep(10000);
 		JnEntityLoginSessionCurrent.ENTITY.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
@@ -126,7 +126,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 	}
 	
 	private void executarLogin(String email, String senha, CcpProcessStatus expectedStatus) {
-		CcpJsonRepresentation body = CcpConstants.EMPTY_JSON.put("password", senha);
+		CcpJsonRepresentation body = CcpOtherConstants.EMPTY_JSON.put("password", senha);
 		String uri = "login/"
 		+ email;
 		this.testarEndpoint(expectedStatus, body, uri, CcpHttpResponseType.singleRecord);

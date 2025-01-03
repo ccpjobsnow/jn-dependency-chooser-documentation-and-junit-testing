@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -25,7 +25,7 @@ public class ArraySizeTests {
 	@Test
 	public void equalsTo() {
 		List<String> asList = Arrays.asList("onias", "saino", "teste");
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList)
 
@@ -37,7 +37,7 @@ public class ArraySizeTests {
 	@Test
 	public void greaterOrEqualsTo() {
 		List<String> asList = Arrays.asList("onias", "saino", "teste");
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList) 
 
@@ -51,7 +51,7 @@ public class ArraySizeTests {
 	@Test
 	public void equalsOrLessThan() {
 		List<String> asList = Arrays.asList("onias", "saino", "teste");
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList) 
 
@@ -66,7 +66,7 @@ public class ArraySizeTests {
 	@Test
 	public void greaterThan() {
 		List<String> asList = Arrays.asList("onias", "saino", "teste");
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList) 
 
@@ -78,7 +78,7 @@ public class ArraySizeTests {
 	@Test
 	public void lessThan() {
 		List<String> asList = Arrays.asList("onias", "saino", "teste");
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", Arrays.asList("onias", "saino", "teste")) 
 				;

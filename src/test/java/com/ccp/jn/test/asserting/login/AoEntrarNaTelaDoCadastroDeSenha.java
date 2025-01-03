@@ -44,10 +44,9 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	
 	@Test
 	public void caminhoFeliz() {
-		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias85@gmail.com");
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
-		//FIXME CORRIGIR O ENVIO DO E-MAIL
 		this.execute(variaveisParaTeste, StatusCreateLoginToken.statusExpectedStatus);
 	}
 	//TODO MELHORAR A GESTAO DO JOBSNOW_ERROR

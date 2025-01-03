@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -24,7 +24,7 @@ public class ObjectTextsSizeTests {
 	@Test
 	public void equalsTo() {
 		String str = "onias";
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", str)
 				.put("field2", str)
 				;
@@ -37,7 +37,7 @@ public class ObjectTextsSizeTests {
 	@Test
 	public void equalsOrGreaterThan() {
 		String str = "onias";
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", str)
 				.put("field2", str) 
 
@@ -51,7 +51,7 @@ public class ObjectTextsSizeTests {
 	@Test
 	public void equalsOrLessThan() {
 		String str = "onias";
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", str)
 				.put("field2", str) 
 
@@ -66,7 +66,7 @@ public class ObjectTextsSizeTests {
 	@Test
 	public void greaterThan() {
 		String str = "onias";
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", str)
 				.put("field2", str) 
 
@@ -78,7 +78,7 @@ public class ObjectTextsSizeTests {
 	@Test
 	public void lessThan() {
 		String str = "onias";
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", str)
 				.put("field2", str) 
 				;

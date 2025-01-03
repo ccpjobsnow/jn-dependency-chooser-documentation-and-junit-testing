@@ -1,6 +1,7 @@
 package com.ccp.jn.test.performance;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
+import com.ccp.decorators.CcpHashAlgorithm;
 import com.ccp.decorators.CcpHashDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
@@ -26,7 +27,7 @@ public class PocHashPerformance {
 				new CcpElasticSearchDbRequest(), new CcpApacheMimeHttp(), new CcpMindrotPasswordHandler(),
 				new CcpElasticSerchDbBulk());
 
-		Object exists = JnEntityJobsnowError.ENTITY.calculateId(CcpConstants.EMPTY_JSON.put("type", "org.springframework.web.HttpRequestMethodNotSupportedException"));
+		Object exists = JnEntityJobsnowError.ENTITY.calculateId(CcpOtherConstants.EMPTY_JSON.put("type", "org.springframework.web.HttpRequestMethodNotSupportedException"));
 		System.out.println("" + exists);
 		
 	}
@@ -51,25 +52,25 @@ public class PocHashPerformance {
 		long currentTimeMillis = System.currentTimeMillis();
 		int limite = 1000000;
 		for(int k = 0; k < limite; k++) {
-			hash.asString("MD5");
+			hash.asString(CcpHashAlgorithm.MD5);
 		}
 		long diff = System.currentTimeMillis() - currentTimeMillis;
 		currentTimeMillis = System.currentTimeMillis();
 		CcpTimeDecorator.log(diff);
 		for(int k = 0; k < limite; k++) {
-			hash.asString("SHA1");
+			hash.asString(CcpHashAlgorithm.SHA1);
 		}
 		diff = System.currentTimeMillis() - currentTimeMillis;
 		currentTimeMillis = System.currentTimeMillis();
 		CcpTimeDecorator.log(diff);
 		for(int k = 0; k < limite; k++) {
-			hash.asString("SHA-256");
+			hash.asString(CcpHashAlgorithm.SHA256);
 		}
 		diff = System.currentTimeMillis() - currentTimeMillis;
 		currentTimeMillis = System.currentTimeMillis();
 		CcpTimeDecorator.log(diff);
 		for(int k = 0; k < limite; k++) {
-			hash.asString("SHA-512");
+			hash.asString(CcpHashAlgorithm.SHA512);
 		}
 		diff = System.currentTimeMillis() - currentTimeMillis;
 		currentTimeMillis = System.currentTimeMillis();

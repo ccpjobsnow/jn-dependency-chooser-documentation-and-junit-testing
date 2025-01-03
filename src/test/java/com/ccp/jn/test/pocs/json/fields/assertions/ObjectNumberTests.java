@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -24,7 +24,7 @@ public class ObjectNumberTests {
 	@Test
 	public void equalsTo() {
 		int number = 5;
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", number)
 				.put("field2", number)
 
@@ -38,7 +38,7 @@ public class ObjectNumberTests {
 	@Test
 	public void equalsOrGreaterThan() {
 		int number = 5;;
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", number)
 				.put("field2", number) 
 
@@ -51,7 +51,7 @@ public class ObjectNumberTests {
 	@Test
 	public void equalsOrLessThan() {
 		int number = 5;
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", number)
 				.put("field2", number) 
 
@@ -66,7 +66,7 @@ public class ObjectNumberTests {
 	@Test
 	public void greaterThan() {
 		int number = 5;;
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", number)
 				.put("field2", number) 
 
@@ -78,7 +78,7 @@ public class ObjectNumberTests {
 	@Test
 	public void lessThan() {
 		int number = 5;
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", number)
 				.put("field2", 5) 
 				;

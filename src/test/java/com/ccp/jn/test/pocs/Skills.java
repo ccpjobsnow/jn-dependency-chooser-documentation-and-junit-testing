@@ -14,7 +14,7 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
@@ -442,7 +442,7 @@ public class Skills {
 		synonyms.sort((a, b) -> ordenarSkillsNaLinha(a, b));
 		CcpJsonRepresentation skill = synonyms.get(0);
 		String s = skill.getAsString("skill");
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON
 				.put("skill", s)
 				.put("synonyms", synonyms)
 				.put("positionsCount", positionsCount)
@@ -498,7 +498,7 @@ public class Skills {
 
 		Set<String> arrayList = new HashSet<>();
 
-		CcpJsonRepresentation gemini = CcpConstants.EMPTY_JSON;
+		CcpJsonRepresentation gemini = CcpOtherConstants.EMPTY_JSON;
 		for (CcpJsonRepresentation skill : skillList) {
 			Set<String> collect = skill.getAsJsonList("synonyms").stream().map(x -> x.getAsString("skill"))
 					.collect(Collectors.toSet());
@@ -524,7 +524,7 @@ public class Skills {
 				.mapToInt(x -> x.intValue()).sum();
 		String skill = synonyms.get(0).getAsString("skill");
 		CcpJsonRepresentation geminiData = gemini.getInnerJson(skill);
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("skill", skill).put("positionsCount", positionsCount)
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("skill", skill).put("positionsCount", positionsCount)
 				.put("synonyms", synonyms).putAll(geminiData);
 		return put;
 	}
@@ -986,7 +986,7 @@ public class Skills {
 				.filter(x -> x.getAsBoolean("gemini") == false).filter(x -> x.containsAllFields("somatoria"))
 				.filter(x -> x.getAsIntegerNumber("somatoria") >= 2).collect(Collectors.toList());
 
-		CcpJsonRepresentation newSynonyms = CcpConstants.EMPTY_JSON;
+		CcpJsonRepresentation newSynonyms = CcpOtherConstants.EMPTY_JSON;
 
 		for (CcpJsonRepresentation skillNonGemini : skillsNonGemini) {
 			for (CcpJsonRepresentation skillGemini : SkillsGemini) {
@@ -1119,7 +1119,7 @@ public class Skills {
 		CcpHttpRequester ccpHttp = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
 		CcpHttpResponse executeHttpRequest = ccpHttp.executeHttpRequest(
 				"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=AIzaSyAZ2ARz1sOqBk7V41_gUTh_qapRKw1vxdM",
-				"POST", CcpConstants.EMPTY_JSON, request, 200);
+				"POST", CcpOtherConstants.EMPTY_JSON, request, 200);
 
 		CcpJsonRepresentation geminiResponse = executeHttpRequest.asSingleJson();
 
@@ -1182,7 +1182,7 @@ public class Skills {
 	}
 
 	static void logGeminiResponse(String request, CcpJsonRepresentation geminiResponse, String content) {
-		String asUgglyJson = CcpConstants.EMPTY_JSON.put("response", geminiResponse).put("request", request)
+		String asUgglyJson = CcpOtherConstants.EMPTY_JSON.put("response", geminiResponse).put("request", request)
 				.asUgglyJson();
 		new CcpStringDecorator(content).file().append(asUgglyJson);
 	}
@@ -1200,7 +1200,7 @@ public class Skills {
 		boolean notFound = findFirst.isPresent() == false;
 
 		if (notFound) {
-			return CcpConstants.EMPTY_JSON;
+			return CcpOtherConstants.EMPTY_JSON;
 		}
 		CcpJsonRepresentation json = findFirst.get();
 		return json;
@@ -1376,12 +1376,12 @@ public class Skills {
 
 		for (CcpJsonRepresentation relatorio : relatorios) {
 			String word = relatorio.getValueFromPath("", "skill", "skill");
-			CcpJsonRepresentation putAll = CcpConstants.EMPTY_JSON.put("ranking", ranking++).put("word", word)
+			CcpJsonRepresentation putAll = CcpOtherConstants.EMPTY_JSON.put("ranking", ranking++).put("word", word)
 					.putAll(relatorio);
 			linhas.add(putAll);
 		}
 
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("linhas", linhas).put("mediaGeral", mediaGeral)
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("linhas", linhas).put("mediaGeral", mediaGeral)
 				.put("totalGeralDeSkills", totalGeralDeSkills)
 				.put("totalGeralDeVagasEncontradas", totalGeralDeVagasEncontradas);
 
@@ -1397,7 +1397,7 @@ public class Skills {
 
 		boolean hasNoWords = collect.isEmpty();
 		if (hasNoWords) {
-			return CcpConstants.EMPTY_JSON;
+			return CcpOtherConstants.EMPTY_JSON;
 		}
 
 		List<CcpJsonRepresentation> jsons = collect.stream().map(skill -> getRelatorioDeUmaPalavra(skill, vagas))
@@ -1413,7 +1413,7 @@ public class Skills {
 		ArrayList<CcpJsonRepresentation> synonyms = new ArrayList<>(jsons);
 		synonyms.sort((a, b) -> ordenarSkillsNaLinha(a, b));
 		CcpJsonRepresentation skill = synonyms.remove(0);
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("somatoria", somatoria).put("listSize", listSize)
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("somatoria", somatoria).put("listSize", listSize)
 				.put("media", media).put("skill", skill).put("synonyms", synonyms);
 
 		return put;
@@ -1480,7 +1480,7 @@ public class Skills {
 	static CcpJsonRepresentation getRelatorioDeUmaPalavra(String palavra, List<String> vagas) {
 
 		long count = vagas.stream().filter(vaga -> contains(vaga, palavra)).count();
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("skill", palavra).put("positionsCount", count);
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("skill", palavra).put("positionsCount", count);
 
 		return put;
 	}
@@ -1547,7 +1547,7 @@ public class Skills {
 
 		for (String skill : novasPalavras) {
 			long count = vagas.stream().filter(vaga -> contains(vaga, skill)).count();
-			CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("skill", skill).put("vagas", count);
+			CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("skill", skill).put("vagas", count);
 			ocorrencias.add(put);
 			System.out.println(k++ + " = " + put);
 		}

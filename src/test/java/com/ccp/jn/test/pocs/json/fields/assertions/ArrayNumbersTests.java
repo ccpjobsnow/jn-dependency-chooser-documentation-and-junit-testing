@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -27,7 +27,7 @@ public class ArrayNumbersTests {
 	@Test
 	public void equalsTo() {
 		List<Integer> asList = Arrays.asList(5,5,5);
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList)
 
@@ -39,7 +39,7 @@ public class ArrayNumbersTests {
 	@Test
 	public void equalsOrGreaterThan() {
 		List<Integer> asList = Arrays.asList(5,5,5);
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList) 
 
@@ -53,7 +53,7 @@ public class ArrayNumbersTests {
 	@Test
 	public void equalsOrLessThan() {
 		List<Integer> asList = Arrays.asList(5,5,5);
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList) 
 
@@ -68,7 +68,7 @@ public class ArrayNumbersTests {
 	@Test
 	public void greaterThan() {
 		List<Integer> asList = Arrays.asList(5,5,5);
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", asList) 
 
@@ -80,7 +80,7 @@ public class ArrayNumbersTests {
 	@Test
 	public void lessThan() {
 		List<Integer> asList = Arrays.asList(0,1,-2);
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", asList)
 				.put("field2", Arrays.asList(3,4,5)) 
 				;

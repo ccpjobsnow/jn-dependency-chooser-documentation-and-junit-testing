@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.jn.sync.status.login.StatusExecuteLogout;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
@@ -35,7 +35,7 @@ public class TelaDeLogout extends JnTemplateDeTestes {
 	}
 
 	protected CcpJsonRepresentation getHeaders() {
-		CcpJsonRepresentation put = CcpConstants.EMPTY_JSON.put("sessionToken", VariaveisParaTeste.SESSION_TOKEN);
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("sessionToken", VariaveisParaTeste.SESSION_TOKEN);
 		return put;
 	}
 	

@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import com.ccp.constantes.CcpConstants;
+import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
@@ -24,7 +24,7 @@ public class ArrayTests {
 
 	@Test
 	public void booleanFields() {
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON.put("field1", "[false]").put("field2", "[true]");
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON.put("field1", "[false]").put("field2", "[true]");
 		String[] fields = new String[] {"field1", "field2"};
 		assertTrue(SimpleArrayValidations.booleanItems.isValidJson(json, fields));
 	}
@@ -32,21 +32,21 @@ public class ArrayTests {
 	@Test
 	public void doubleFields() {
 		String[] fields = new String[] {"field1", "field2", "field3", "field4"};
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON.put("field1", "[1.5]").put("field2", "[2.5, 1]").put("field3", "[3]").put("field4", "[]");
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON.put("field1", "[1.5]").put("field2", "[2.5, 1]").put("field3", "[3]").put("field4", "[]");
 		assertTrue(SimpleArrayValidations.doubleItems.isValidJson(json, fields));
 	}
 	
 	@Test
 	public void integerFields() {
 		String[] fields = new String[] {"field1", "field2", "field3", "field4"};
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON.put("field1", "[1]").put("field2", Arrays.asList(2)).put("field3", "[3]").put("field4", "[4]");
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON.put("field1", "[1]").put("field2", Arrays.asList(2)).put("field3", "[3]").put("field4", "[4]");
 		assertTrue(SimpleArrayValidations.integerItems.isValidJson(json, fields));
 	}
 	
 	@Test
 	public void jsonFields() {
 		String[] fields = new String[] {"field1", "field2"};
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON.put("field1",Arrays.asList(CcpConstants.EMPTY_JSON)).put("field2", "[" +CcpConstants.EMPTY_JSON.put("teste", 1) + "]");
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON.put("field1",Arrays.asList(CcpOtherConstants.EMPTY_JSON)).put("field2", "[" +CcpOtherConstants.EMPTY_JSON.put("teste", 1) + "]");
 		assertTrue(SimpleArrayValidations.jsonItems.isValidJson(json, fields));
 	}
 
@@ -54,7 +54,7 @@ public class ArrayTests {
 	@Test
 	public void listFields() {
 		String[] fields = new String[] {"field1", "field2", "field3", "field4"};
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", Arrays.asList())
 				.put("field2","[[1, 2], [3, 4]]")
 				.put("field3","[['A', 'B']]")
@@ -66,7 +66,7 @@ public class ArrayTests {
 	@Test
 	public void nonRepeatedLists() {
 		String[] fields = new String[] {"field1", "field2", "field3", "field4", "field5"};
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", Arrays.asList(1, 2, 3))
 				.put("field2", Arrays.asList(1d, 2d, 3d))//FORGOT REVER ESSA LOGICA
 				.put("field3","[['A', 'B', 'C'], ['D', 'B', 'C']]")
@@ -78,7 +78,7 @@ public class ArrayTests {
 	@Test
 	public void notEmptyArray() {
 		String[] fields = new String[] {"field1", "field2", "field3", "field4", "field5"};
-		CcpJsonRepresentation json = CcpConstants.EMPTY_JSON
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("field1", Arrays.asList(1, 2, 3))
 				.put("field2", Arrays.asList(1d, 2d, 3d))//FORGOT REVER ESSA LOGICA
 				.put("field3","[['A', 'B', 'C'], ['D', 'B', 'C']]")
