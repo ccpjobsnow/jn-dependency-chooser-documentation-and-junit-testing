@@ -1,7 +1,6 @@
 package com.ccp.jn.test.performance;
 
 import com.ccp.constantes.CcpOtherConstants;
-import com.ccp.decorators.CcpHashAlgorithm;
 import com.ccp.decorators.CcpHashDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
@@ -16,6 +15,7 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
+import com.ccp.utils.CcpHashAlgorithm;
 import com.jn.commons.entities.JnEntityJobsnowError;
 
 public class PocHashPerformance {

@@ -79,7 +79,8 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 	@Test
 	public void bloquearSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);
+		TelaDoCadastroDeSenha telaDoCadastroDeSenha = new TelaDoCadastroDeSenha();
+		telaDoCadastroDeSenha.fluxoEsperado(variaveisParaTeste);
 		new CcpTimeDecorator().sleep(10000);
 		JnEntityLoginSessionCurrent.ENTITY.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusExecuteLogin.wrongPassword, x -> VariaveisParaTeste.WRONG_PASSWORD);

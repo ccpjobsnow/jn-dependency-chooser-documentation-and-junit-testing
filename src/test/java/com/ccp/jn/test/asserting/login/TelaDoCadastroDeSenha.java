@@ -17,6 +17,7 @@ import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.commons.json.transformers.JnJsonTransformerPutRandomTokenSecret;
 
 public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	@Test
@@ -64,9 +65,9 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	private String getToken(VariaveisParaTeste variaveisParaTeste) {
 		JnEntityLoginEmail.ENTITY.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 
-		CcpJsonRepresentation entityValue =  variaveisParaTeste.REQUEST_TO_LOGIN.putRandomPassword(8, "token", "tokenHash");
-		JnEntityLoginToken.ENTITY.createOrUpdate(entityValue);
-		String token = entityValue.getAsString("token");
+		CcpJsonRepresentation entityValue =  variaveisParaTeste.REQUEST_TO_LOGIN;
+		CcpJsonRepresentation createOrUpdate = JnEntityLoginToken.ENTITY.createOrUpdate(entityValue);
+		String token = createOrUpdate.getAsString("originalToken");
 		return token;
 	}
 
@@ -119,7 +120,7 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	private String getTokenToValidateLogin(VariaveisParaTeste variaveisParaTeste) {
 		JnEntityLoginEmail.ENTITY.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate( variaveisParaTeste.ANSWERS_JSON);
-		CcpJsonRepresentation loginToken =  variaveisParaTeste.REQUEST_TO_LOGIN.putRandomToken(8, "token");
+		CcpJsonRepresentation loginToken =  variaveisParaTeste.REQUEST_TO_LOGIN.getTransformedJson(JnJsonTransformerPutRandomTokenSecret.INSTANCE);
 		String token = loginToken.getAsString("token");
 		return token;
 

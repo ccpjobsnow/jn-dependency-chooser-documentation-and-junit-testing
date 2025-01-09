@@ -5,10 +5,7 @@
             "email": {
                 "type": "keyword"
             },
-            "originalEmail": {
-                "type": "keyword"
-            },
-            "tokenHash": {
+            "token": {
                 "type": "text"
             },
             "coordinates": {

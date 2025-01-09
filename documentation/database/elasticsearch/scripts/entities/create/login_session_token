@@ -14,7 +14,7 @@
                  "macAddress": {
                     "type": "text"
                 },
-                 "sessionToken": {
+                 "token": {
                     "type": "text"
                 },
                  "userAgent": {

@@ -9,9 +9,9 @@ import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 import com.ccp.decorators.CcpFileDecorator;
-import com.ccp.decorators.CcpHashAlgorithm;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
+import com.ccp.utils.CcpHashAlgorithm;
 
 public class ContarMensagensDoTelegram {
 
