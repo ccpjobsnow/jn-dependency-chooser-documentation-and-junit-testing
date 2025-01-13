@@ -49,7 +49,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		this.execute(variaveisParaTeste, StatusCreateLoginToken.statusExpectedStatus);
 	}
-	//TODO MELHORAR A GESTAO DO JOBSNOW_ERROR
+
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {
 		this.criarTokenDeLogin(variaveisParaTeste.VALID_EMAIL, expectedStatus);
 		String apply = producer.apply(variaveisParaTeste);

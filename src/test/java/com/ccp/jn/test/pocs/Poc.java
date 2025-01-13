@@ -327,7 +327,7 @@ public class Poc {
 		CcpJsonRepresentation oneById1 = JnEntityContactUs.ENTITY.getOneById(put);
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById1);
 		new CcpTimeDecorator().sleep(400);
-		CcpJsonRepresentation oneById2 = JnEntityContactUs.ENTITY.getOneById(put, x -> CcpOtherConstants.EMPTY_JSON.put("msg", "Registro já obsoleto no banco de dados, não será mais listado"));
+		CcpJsonRepresentation oneById2 = JnEntityContactUs.ENTITY.getOneById(put, x -> CcpOtherConstants.EMPTY_JSON.put("message", "Registro já obsoleto no banco de dados, não será mais listado"));
 		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
 	}
 
