@@ -13,7 +13,6 @@ public class VariaveisParaTeste {
 	
 	public CcpJsonRepresentation REQUEST_TO_LOGIN = CcpOtherConstants.EMPTY_JSON
 			.put("userAgent", "Apache-HttpClient/4.5.4 (Java/17.0.9)")
-//			.put("sessionToken", SESSION_TOKEN)//FIXME
 			.put("ip", "localhost")
 			;
 			

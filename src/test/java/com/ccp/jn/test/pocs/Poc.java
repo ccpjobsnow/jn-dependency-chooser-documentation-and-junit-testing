@@ -21,16 +21,20 @@ import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.db.utils.CcpEntityField;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
+import com.ccp.implementations.db.bulk.elasticsearch.CcpElasticSerchDbBulk;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
+import com.ccp.jn.async.business.login.JnAsyncBusinessExecuteLogout;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
+import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.utils.JnDeleteKeysFromCache;
 
 
@@ -39,6 +43,8 @@ public class Poc {
 		CcpDependencyInjection.loadAllDependencies(
 				new CcpElasticSearchQueryExecutor(),
 				new CcpElasticSearchDbRequest(), 
+				new CcpMindrotPasswordHandler(),
+				new CcpElasticSerchDbBulk(),
 				CcpLocalCacheInstances.map,
 				new CcpElasticSearchCrud(),
 				new CcpGsonJsonHandler(), 
@@ -49,13 +55,23 @@ public class Poc {
 	
 	public static void main(String[] args) throws Exception {
 		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
+				.put("email", "onias85@gmail.com")
+				
+				;
+		
+		JnEntityLoginSessionCurrent.ENTITY.create(json);
+		JnAsyncBusinessExecuteLogout.INSTANCE.apply(json);
+		
+	}
+
+	static void testarExpurgableEntity() {
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("cause", new CcpJsonRepresentation("{'nome':'onias'}"))
 				.put("stackTrace", "{'nome':'vieira'}")
 				.put("type", "any")
 				;
 		CcpJsonRepresentation oneById = JnEntityJobsnowError.ENTITY.getOneById(json, CcpOtherConstants.RETURNS_EMPTY_JSON);
 		System.out.println(oneById);
-
 	}
 
 	static void criarArquivoDeVagas() {

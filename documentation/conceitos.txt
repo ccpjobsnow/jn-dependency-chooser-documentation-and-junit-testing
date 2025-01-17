@@ -6,6 +6,9 @@ Complex Query Dsl (CQD)
 Disposable Entity
 Auditable Entity
 Mirror Entity
+Cache Entity
+Entity Validation
+Entity Transformation
 Flow Status Entity Dsl (FSED)
 Flow Batch Operation Entity (FBOE)
 Online Query Less (OQL)
