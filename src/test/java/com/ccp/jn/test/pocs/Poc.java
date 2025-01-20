@@ -34,6 +34,8 @@ import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
+import com.jn.commons.entities.JnEntityLoginPassword;
+import com.jn.commons.entities.JnEntityLoginPasswordAttempts;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.utils.JnDeleteKeysFromCache;
 
@@ -54,10 +56,14 @@ public class Poc {
 	
 	
 	public static void main(String[] args) throws Exception {
+		
 		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("email", "onias85@gmail.com")
 				
 				;
+		List<CcpJsonRepresentation> parametersToSearch = JnEntityLoginSessionCurrent.ENTITY.getParametersToSearch(json);
+		
+		System.out.println(parametersToSearch);
 		
 		JnEntityLoginSessionCurrent.ENTITY.create(json);
 		JnAsyncBusinessExecuteLogout.INSTANCE.apply(json);
