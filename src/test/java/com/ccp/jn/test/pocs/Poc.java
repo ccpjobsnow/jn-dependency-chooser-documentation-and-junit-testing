@@ -34,8 +34,6 @@ import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
-import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginPasswordAttempts;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.utils.JnDeleteKeysFromCache;
 

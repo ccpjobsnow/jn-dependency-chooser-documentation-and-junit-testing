@@ -61,8 +61,8 @@ public abstract class JnTemplateDeTestes {
 		return testarEndpoint;
 	}
 
-	protected <V> V testarEndpoint(CcpProcessStatus scenarioName, CcpJsonRepresentation body, String uri,
-			CcpHttpResponseTransform<V> transformer) {
+	protected CcpJsonRepresentation testarEndpoint(CcpProcessStatus scenarioName, CcpJsonRepresentation body, String uri,
+			CcpHttpResponseTransform<CcpJsonRepresentation> transformer) {
 
 		String method = this.getMethod();
 		CcpJsonRepresentation headers = this.getHeaders();
@@ -75,15 +75,15 @@ public abstract class JnTemplateDeTestes {
 
 		CcpHttpResponse response = http.ccpHttp.executeHttpRequest(path, method, headers, asUgglyJson);
 
-		V executeHttpRequest = http.executeHttpRequest(name, path, method, headers, asUgglyJson, transformer, response);
+		CcpJsonRepresentation responseFromEndpoint = http.executeHttpRequest(name, path, method, headers, asUgglyJson, transformer, response);
 
 		int actualStatus = response.httpStatus;
 
-		this.logRequestAndResponse(path, method, scenarioName, actualStatus, body, headers, executeHttpRequest);
+		this.logRequestAndResponse(path, method, scenarioName, actualStatus, body, headers, responseFromEndpoint);
 
 		scenarioName.verifyStatus(actualStatus);
 
-		return executeHttpRequest;
+		return responseFromEndpoint;
 	}
 
 	private <V> void logRequestAndResponse(String url, String method, CcpProcessStatus status, int actualStatus,
