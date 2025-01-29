@@ -76,6 +76,11 @@
 			<artifactId>ccp-db-bulk-elasticsearch</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.ccp.jn.vis</groupId>
+			<artifactId>vis-business-commons</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 </project>
