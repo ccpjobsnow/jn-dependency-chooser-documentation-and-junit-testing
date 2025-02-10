@@ -28,19 +28,25 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
+import com.ccp.jn.async.business.factory.CcpJnAsyncBusinessFactory;
 import com.ccp.jn.async.business.login.JnAsyncBusinessExecuteLogout;
+import com.ccp.jn.sync.mensageria.JnSyncMensageriaSender;
+import com.ccp.local.testings.implementations.CcpLocalInstances;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
+import com.ccp.validation.CcpJsonInvalid;
 import com.jn.commons.entities.JnEntityContactUs;
 import com.jn.commons.entities.JnEntityEmailParametersToSend;
 import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
 import com.jn.commons.utils.JnDeleteKeysFromCache;
+import com.vis.commons.utils.VisAsyncBusiness;
 
 
 public class Poc {
 	static{
 		CcpDependencyInjection.loadAllDependencies(
+				CcpLocalInstances.mensageriaSender.getLocalImplementation(new CcpJnAsyncBusinessFactory()),
 				new CcpElasticSearchQueryExecutor(),
 				new CcpElasticSearchDbRequest(), 
 				new CcpMindrotPasswordHandler(),
@@ -55,6 +61,28 @@ public class Poc {
 	
 	public static void main(String[] args) throws Exception {
 		
+		
+		
+	}
+
+	static void testarValidacoes() {
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
+				.put("name", "L")
+				.put("ddd", 20)
+				;
+		try {
+			
+			new JnSyncMensageriaSender(VisAsyncBusiness.resume).apply(json);
+		} catch (CcpJsonInvalid e) {
+			new CcpStringDecorator("C:\\RH\\errosDeCurriculo.json")
+			.file()
+			.reset()
+			.append(e.result.asPrettyJson())
+			;
+		}
+	}
+
+	static void metodoDoLucas() {
 		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
 				.put("email", "onias85@gmail.com")
 				
@@ -65,7 +93,6 @@ public class Poc {
 		
 		JnEntityLoginSessionCurrent.ENTITY.getTwinEntity().create(json);
 		JnAsyncBusinessExecuteLogout.INSTANCE.apply(json);
-		
 	}
 
 	static void testarExpurgableEntity() {
