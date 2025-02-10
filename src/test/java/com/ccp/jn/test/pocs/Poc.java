@@ -63,7 +63,7 @@ public class Poc {
 		
 		System.out.println(parametersToSearch);
 		
-		JnEntityLoginSessionCurrent.ENTITY.create(json);
+		JnEntityLoginSessionCurrent.ENTITY.getTwinEntity().create(json);
 		JnAsyncBusinessExecuteLogout.INSTANCE.apply(json);
 		
 	}

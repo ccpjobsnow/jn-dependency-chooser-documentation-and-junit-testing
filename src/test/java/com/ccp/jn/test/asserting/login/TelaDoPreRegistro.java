@@ -66,7 +66,7 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 
 	@Test
 	public void caminhoFeliz() { 
-		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias85@gmail.com");
+		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginPassword.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusSaveAnswers.expectedStatus);
