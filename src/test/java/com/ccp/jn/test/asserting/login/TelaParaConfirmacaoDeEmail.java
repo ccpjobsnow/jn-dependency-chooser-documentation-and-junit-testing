@@ -53,7 +53,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.missingPassword);
+		this.execute(variaveisParaTeste, StatusCreateLoginEmail.missingSavePassword);
 	}
 	
 	@Test
@@ -61,7 +61,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginPassword.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.missingAnswers);
+		this.execute(variaveisParaTeste, StatusCreateLoginEmail.missingSaveAnswers);
 	}
 	
 	@Test

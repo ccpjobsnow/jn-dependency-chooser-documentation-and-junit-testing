@@ -13,9 +13,6 @@
                 },
                 "sender": {
                     "type": "keyword"
-                },
-                "message": {
-                    "type": "text"
                 }
                 
             }

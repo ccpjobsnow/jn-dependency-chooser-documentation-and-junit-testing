@@ -38,7 +38,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.execute(variaveisParaTeste, StatusExecuteLogin.missingEmail, x -> VariaveisParaTeste.CORRECT_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.missingSaveEmail, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
@@ -46,7 +46,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
-		this.execute(variaveisParaTeste, StatusExecuteLogin.missingPassword, x-> VariaveisParaTeste.CORRECT_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.missingSavePassword, x-> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
