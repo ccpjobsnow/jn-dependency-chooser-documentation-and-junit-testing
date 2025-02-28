@@ -1,6 +1,7 @@
 package com.ccp.jn.test.pocs;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -61,8 +62,8 @@ public class Poc {
 	
 	public static void main(String[] args) throws Exception {
 		
-		
-		
+		Object x = new String[] {"a"};
+		System.out.println(Arrays.asList((Object[])x));
 	}
 
 	static void testarValidacoes() {
