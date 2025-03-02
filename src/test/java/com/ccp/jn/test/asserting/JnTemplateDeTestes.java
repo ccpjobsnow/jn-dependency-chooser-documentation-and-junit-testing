@@ -98,8 +98,14 @@ public abstract class JnTemplateDeTestes {
 		String date = new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss");
 
 		int expectedStatus = status.asNumber();
-		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("url", url).put("method", method).put("actualStatus", actualStatus)
-				.put("expectedStatus", expectedStatus).put("headers", headers).put("request", body).put("response", md)
+		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON
+				.put("url", url)
+				.put("method", method)
+				.put("actualStatus", actualStatus)
+				.put("expectedStatus", expectedStatus)
+				.put("headers", headers)
+				.put("request", body)
+				.put("response", md)
 				.put("timestamp", date);
 		String asPrettyJson = put.asPrettyJson();
 

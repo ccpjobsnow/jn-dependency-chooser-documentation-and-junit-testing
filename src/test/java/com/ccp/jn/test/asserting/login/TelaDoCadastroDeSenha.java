@@ -98,8 +98,8 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		+ variaveisParaTeste.VALID_EMAIL
 		+ "/password";
 		
-		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put("password", VariaveisParaTeste.CORRECT_PASSWORD)
-				.put("token", tokenToValidateLogin);
+		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put(JnEntityLoginPassword.Fields.password.name(), VariaveisParaTeste.CORRECT_PASSWORD)
+				.put(JnEntityLoginToken.Fields.token.name(), tokenToValidateLogin);
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
 		String apply = producer.apply(variaveisParaTeste);
 		return apply;
@@ -110,8 +110,8 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		+ email
 		+ "/password";
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put("password", VariaveisParaTeste.CORRECT_PASSWORD)
-				.put("token", tokenToValidateLogin);
+		CcpJsonRepresentation body =  variaveisParaTeste.REQUEST_TO_LOGIN.put(JnEntityLoginPassword.Fields.password.name(), VariaveisParaTeste.CORRECT_PASSWORD)
+				.put(JnEntityLoginToken.Fields.token.name(), tokenToValidateLogin);
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
 	}
 

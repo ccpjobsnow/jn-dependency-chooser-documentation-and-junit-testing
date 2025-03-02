@@ -79,7 +79,11 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 	}
 	
 	private void cadastrarPreRegistration(String email, CcpProcessStatus expectedStatus) {
-		CcpJsonRepresentation body = CcpOtherConstants.EMPTY_JSON.put("goal", "jobs").put("channel", "linkedin");
+		CcpJsonRepresentation body = CcpOtherConstants
+				.EMPTY_JSON
+				.put(JnEntityLoginAnswers.Fields.goal.name(), "jobs")
+				.put(JnEntityLoginAnswers.Fields.channel.name(), "linkedin")
+				;
 		String uri = "login/"+ email 	+ "/pre-registration";
 		this.testarEndpoint(expectedStatus, body, uri,  CcpHttpResponseType.singleRecord);
 	}

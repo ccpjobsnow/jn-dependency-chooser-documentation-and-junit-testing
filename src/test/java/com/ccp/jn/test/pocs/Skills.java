@@ -29,6 +29,7 @@ import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecu
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
+import com.vis.commons.entities.VisEntitySkill;
 
 public class Skills {
 
@@ -71,7 +72,7 @@ public class Skills {
 
 
 	private static boolean matches(String skill, CcpJsonRepresentation x) {
-		List<CcpJsonRepresentation> asJsonList = x.getAsJsonList("synonym");
+		List<CcpJsonRepresentation> asJsonList = x.getAsJsonList(VisEntitySkill.Fields.synonym.name());
 		boolean contains = asJsonList.stream().map(y -> y.getAsString("skill"))
 		.collect(Collectors.toList()).contains(skill);
 		return contains;
@@ -320,9 +321,9 @@ public class Skills {
 				.asJsonList();
 		Set<String> response = new HashSet<>();
 		for (CcpJsonRepresentation skill : skills) {
-			Set<String> similar = skill.getAsJsonList("similar").stream().filter(x -> x.getAsIntegerNumber("vagas") > 9)
+			Set<String> similar = skill.getAsJsonList(VisEntitySkill.Fields.similar.name()).stream().filter(x -> x.getAsIntegerNumber("vagas") > 9)
 					.map(x -> x.getAsString("word").toUpperCase().trim()).collect(Collectors.toSet());
-			Set<String> prerequisites = skill.getAsJsonList("prerequisites").stream()
+			Set<String> prerequisites = skill.getAsJsonList(VisEntitySkill.Fields.prerequisite.name()).stream()
 					.filter(x -> x.getAsIntegerNumber("vagas") > 9).map(x -> x.getAsString("word").toUpperCase().trim())
 					.collect(Collectors.toSet());
 			response.addAll(prerequisites);
@@ -505,7 +506,7 @@ public class Skills {
 			String word = skill.getAsString("word");
 			arrayList.addAll(collect);
 			arrayList.add(word);
-			CcpJsonRepresentation jsonPiece = skill.getJsonPiece("similar", "prerequisites");
+			CcpJsonRepresentation jsonPiece = skill.getJsonPiece(VisEntitySkill.Fields.similar.name(), "prerequisites");
 			gemini = gemini.put(word, jsonPiece);
 		}
 
@@ -633,7 +634,7 @@ public class Skills {
 					continue;
 				}
 
-				CcpJsonRepresentation jsonPiece = skillFromGemini.getJsonPiece("similar", "prerequisites");
+				CcpJsonRepresentation jsonPiece = skillFromGemini.getJsonPiece(VisEntitySkill.Fields.similar.name(), VisEntitySkill.Fields.prerequisite.name());
 				CcpJsonRepresentation putAll = skill.putAll(jsonPiece);
 				map.put(word, putAll);
 			}
@@ -1093,7 +1094,7 @@ public class Skills {
 			long started = System.currentTimeMillis();
 			skills = answerToGemini(
 					"Using the information technology context I ask you all similar skills like '{skill}'? Answer only these skills (without explanations) and return these skill list in programming syntax list, eg: ['requiredSkill1', 'requiredSkill2'] without break line",
-					word, "similar", vagas, skills, allSynonyms);
+					word, VisEntitySkill.Fields.similar.name(), vagas, skills, allSynonyms);
 			skills = answerToGemini(
 					"Using the information technology context I ask you all required skills it is needed indeed to know to have proficiency in '{skill}'? Answer only these skills (without explanations and without optional skills) and return these skill list in programming syntax list, eg: ['requiredSkill1', 'requiredSkill2'] without break line",
 					word, "prerequisites", vagas, skills, allSynonyms);

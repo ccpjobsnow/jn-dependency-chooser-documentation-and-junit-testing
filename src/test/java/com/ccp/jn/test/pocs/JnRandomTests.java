@@ -1,15 +1,17 @@
 package com.ccp.jn.test.pocs;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpCollectionDecorator;
 import com.ccp.decorators.CcpFileDecorator;
+import com.ccp.decorators.CcpFolderDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
@@ -44,7 +46,7 @@ import com.jn.commons.utils.JnDeleteKeysFromCache;
 import com.vis.commons.utils.VisAsyncBusiness;
 
 
-public class Poc {
+public class JnRandomTests {
 	static{
 		CcpDependencyInjection.loadAllDependencies(
 				CcpLocalInstances.mensageriaSender.getLocalImplementation(new CcpJnAsyncBusinessFactory()),
@@ -61,9 +63,25 @@ public class Poc {
 	
 	
 	public static void main(String[] args) throws Exception {
-		
-		Object x = new String[] {"a"};
-		System.out.println(Arrays.asList((Object[])x));
+		CcpFolderDecorator folder = new CcpStringDecorator("documentation/database/elasticsearch/scripts/entities/create").folder();
+		Map<String, List<String>> map = new TreeMap<>();
+		folder.readFiles(file -> {
+			String fileName = file.getName();
+			String javaClassName = "JnEntity" + new CcpStringDecorator(fileName).text().toCamelCase().toString();
+			CcpJsonRepresentation json = file.asSingleJson().getInnerJsonFromPath("mappings", "properties");
+			Set<String> fields = json.fieldSet();
+			for (String field : fields) {
+				List<String> javaClassesName = map.getOrDefault(field, new ArrayList<>());
+				javaClassesName.add(javaClassName);
+				map.put(field, javaClassesName);
+			}
+		});
+		CcpFileDecorator reset = new CcpStringDecorator("c:\\logs\\fields.txt").file().reset();
+		Set<String> keySet = map.keySet();
+		for (String string : keySet) {
+			List<String> list = map.get(string);
+			reset.append(string + " = " + list);
+		}
 	}
 
 	static void testarValidacoes() {

@@ -216,7 +216,6 @@ public class CcpTestJsonRepresentation {
 
 	@Test (expected = RuntimeException.class)
 	public void getOrDefaultErroTest() {
-		String json = "{'veiculo':25}";
 		CcpJsonRepresentation objJson = new CcpJsonRepresentation("");
 		String resultado = objJson.getOrDefault("veiculo", "default");
 
@@ -550,30 +549,8 @@ public class CcpTestJsonRepresentation {
 	@Test
 	//Esse método está retornando o default ou o próprio path ao invés do value
 	public void getValueFromPathTest() {
-		String cadastro =  ""
-				+ "{ "
-				+ "  'nome': 'João', "
-				+ "  'idade': 30, "
-				+ "  'endereço': { "
-				+ "    'rua': 'Av. Paulista', "
-				+ "    'cidade': 'São Paulo', "
-				+ "    'estado': 'SP' "
-				+ "  }, "
-				+ "  'contatos': [ "
-				+ "    { "
-				+ "      'tipo': 'telefone', "
-				+ "      'numero': '1234-5678' "
-				+ "    }, "
-				+ "    { "
-				+ "      'tipo': 'email', "
-				+ "      'endereco': 'joao@example.com' "
-				+ "    } "
-				+ "  ] "
-				+ "}";
-		
 		CcpJsonRepresentation addToItem = CcpOtherConstants.EMPTY_JSON.addToItem("filho", "pai", "abacaxi");
 		
-		CcpJsonRepresentation json = new CcpJsonRepresentation(cadastro);
 		String valueFromPath = addToItem.getValueFromPath("-","filho","pai");
 		System.out.println("getValueFromPathTest() = "+ valueFromPath);
 	}
@@ -808,28 +785,7 @@ public class CcpTestJsonRepresentation {
 		System.out.println("\n"+json.addToList("campo",jsonJaPreenchido));
 	}
 	
-	@Test
-	public void whenHasFieldTest() {
-		String elemento = "{'nome':'Lucas'}";
-		CcpJsonRepresentation json = new CcpJsonRepresentation(elemento);
-		
-		json.whenHasField("nome", funcao ->{
-			System.out.println("Encontrei o field");
-			return funcao;
-		});
-	}
 	
-	@Test
-	public void whenHasNotFieldTest() {
-		String elemento = "{'campoQualquer': 'Lucas'}";
-		CcpJsonRepresentation json = new CcpJsonRepresentation(elemento);
-		
-		json.whenHasNotField("nome", funcao ->{
-			CcpJsonRepresentation jsonComCampoNome = new CcpJsonRepresentation("{'nome' : "+json.getAsString("campoQualquer")+"}");
-			System.out.println(jsonComCampoNome);
-			return funcao;
-		});
-	}
 	
 	
 	//VERIFICAR SE MÉTODO ESTÁ FUNCIONANDO
@@ -934,67 +890,4 @@ public class CcpTestJsonRepresentation {
 		
 		System.out.println(json.equals(json2));
 	}
-	
-	@Test
-	public void getAsTextDecoratorListTest() {
-		String registro = ""
-				+ "{ "
-				+ "    'nome': 'André Gabriel Diogo Araújo', "
-				+ "    'idade': 21, "
-				+ "    'cpf': '61170540503', "
-				+ "    'rg': '486855004', "
-				+ "    'data_nasc': '01/02/2003', "
-				+ "    'sexo': 'Masculino', "
-				+ "    'signo': 'Aquário', "
-				+ "    'mae': 'Rebeca Sophia Rayssa', "
-				+ "    'pai': 'Davi Joaquim Araújo', "
-				+ "    'email': 'andre_gabriel_araujo@agnet.com.br', "
-				+ "    'senha': 'f7KbmxukNj', "
-				+ "    'cep': '49072540', "
-				+ "    'endereco': 'Rua Coronel Elias Gonzaga', "
-				+ "    'numero': 378, "
-				+ "    'bairro': 'Dezoito do Forte', "
-				+ "    'cidade': 'Aracaju', "
-				+ "    'estado': 'SE', "
-				+ "    'telefone_fixo': '7935018009', "
-				+ "    'celular': '79992335171', "
-				+ "    'altura': '1,88', "
-				+ "    'peso': 72, "
-				+ "    'tipo_sanguineo': 'AB+', "
-				+ "    'cor': 'roxo' "
-				+ "}";
-		
-		CcpJsonRepresentation json = new CcpJsonRepresentation(registro);
-		
-		//No debug é possível constatar a lista
-		List<CcpTextDecorator> asTextDecoratorList = json.getAsTextDecoratorList(registro);
-		System.out.println(asTextDecoratorList.toString());
-		System.out.println("***");
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-
-
-	
-	
-
-	
-
-
-
-
-
-
-
 }
