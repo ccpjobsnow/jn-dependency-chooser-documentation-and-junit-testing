@@ -16,11 +16,8 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
-import com.ccp.especifications.db.crud.CcpCrud;
-import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
-import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.db.utils.CcpEntityField;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
@@ -37,12 +34,8 @@ import com.ccp.jn.sync.mensageria.JnSyncMensageriaSender;
 import com.ccp.local.testings.implementations.CcpLocalInstances;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.ccp.validation.CcpJsonInvalid;
-import com.jn.commons.entities.JnEntityContactUs;
-import com.jn.commons.entities.JnEntityEmailParametersToSend;
-import com.jn.commons.entities.JnEntityInstantMessengerParametersToSend;
 import com.jn.commons.entities.JnEntityJobsnowError;
 import com.jn.commons.entities.JnEntityLoginSessionCurrent;
-import com.jn.commons.utils.JnDeleteKeysFromCache;
 import com.vis.commons.utils.VisAsyncBusiness;
 
 
@@ -338,41 +331,6 @@ public class JnRandomTests {
 		}
 	}
 
-	static void testarNotifyError() {
-		CcpCrud dependency = CcpDependencyInjection.getDependency(CcpCrud.class);
-		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
-				+ "  \"templateId\": \"notifyError\"\r\n"
-				+ "} ");
-		
-		CcpSelectUnionAll unionAll = dependency.unionAll(json
-				, JnDeleteKeysFromCache.INSTANCE
-				, JnEntityInstantMessengerParametersToSend.ENTITY
-				, JnEntityEmailParametersToSend.ENTITY
-				);
-		
-		CcpTimeDecorator.log(JnEntityInstantMessengerParametersToSend.ENTITY.isPresentInThisUnionAll(unionAll, json));
-		CcpTimeDecorator.log(JnEntityEmailParametersToSend.ENTITY.isPresentInThisUnionAll(unionAll, json));
-	}
-
-	static void testarDisposable() {
-		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("type", "teste");
-		CcpEntity instance = JnEntityJobsnowError.ENTITY;
-//		instance.delete(put);
-		instance.create(put);
-		CcpCrud dependency = CcpDependencyInjection.getDependency(CcpCrud.class);
-		while(true) {
-			CcpTimeDecorator ccpTimeDecorator = new CcpTimeDecorator();
-			CcpSelectUnionAll unionAll = dependency.unionAll(put, JnDeleteKeysFromCache.INSTANCE, instance);
-			boolean presentInThisUnionAll = instance.isPresentInThisUnionAll(unionAll, put);
-			String formattedDateTime = ccpTimeDecorator.getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS");
-			CcpTimeDecorator.log(presentInThisUnionAll + " - " + formattedDateTime);
-			if(presentInThisUnionAll == false) {
-				instance.create(put);
-			}
-			ccpTimeDecorator.sleep(10_000);
-		}
-	}
-
 	static void errarInfinitamente() {
 		CcpTimeDecorator ccpTimeDecorator = new CcpTimeDecorator();
 		CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
@@ -383,31 +341,6 @@ public class JnRandomTests {
 		}
 	}
 
-	static void extracted() {
-//		CcpTimeDecorator.log("A frequência de expurgo da entidade " + JnEntityContactUs.INSTANCE + " é " + JnEntityContactUs.INSTANCE.timeOption );
-		CcpJsonRepresentation put = CcpOtherConstants.EMPTY_JSON.put("subjectType", "teste").put("email", "teste");
-		JnEntityContactUs.ENTITY.create(put);
-		CcpJsonRepresentation oneById = JnEntityContactUs.ENTITY.getOneById(put);
-		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById);
-		new CcpTimeDecorator().sleep(500);
-		CcpJsonRepresentation oneById1 = JnEntityContactUs.ENTITY.getOneById(put);
-		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById1);
-		new CcpTimeDecorator().sleep(400);
-		CcpJsonRepresentation oneById2 = JnEntityContactUs.ENTITY.getOneById(put, x -> CcpOtherConstants.EMPTY_JSON.put("message", "Registro já obsoleto no banco de dados, não será mais listado"));
-		CcpTimeDecorator.log(new CcpTimeDecorator().getFormattedDateTime("HH:mm:ss.SSS") + ". Veio: " + oneById2);
-	}
-
-	static void diposableEntity() {
-		RuntimeException e = new RuntimeException("erro de teste");
-		CcpJsonRepresentation json = new CcpJsonRepresentation(e);
-		JnEntityJobsnowError.ENTITY.create(json);
-		String id = JnEntityJobsnowError.ENTITY.calculateId(json);
-		CcpJsonRepresentation value1 = JnEntityJobsnowError.ENTITY.getOneById(id);
-		CcpTimeDecorator.log(value1);
-//		CcpJsonRepresentation copyIdToSearch = JnEntityJobsnowError.INSTANCE.getCopyIdToSearch(value1);
-//		CcpJsonRepresentation value2 = JnEntityDisposableRecord.INSTANCE.getOneById(copyIdToSearch);
-//		CcpTimeDecorator.log(value2);
-	}
 
 	static int counter;
 	
@@ -428,7 +361,7 @@ public class JnRandomTests {
 					String texto = vaga.getAsString("vaga").replace("\n", "").trim();
 					String completeLeft = new CcpStringDecorator("" + ++counter).text().completeLeft('0', 6).content;
 					file.append(completeLeft + ": " + texto);
-					CcpTimeDecorator.log(counter);
+//					CcpTimeDecorator.appendLog(counter);
 				}, "vaga");
 	}
 }

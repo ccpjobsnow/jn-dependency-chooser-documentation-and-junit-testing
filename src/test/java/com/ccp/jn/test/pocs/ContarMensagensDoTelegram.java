@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 
 import com.ccp.decorators.CcpFileDecorator;
 import com.ccp.decorators.CcpStringDecorator;
-import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.utils.CcpHashAlgorithm;
 
 public class ContarMensagensDoTelegram {
@@ -64,9 +63,10 @@ public class ContarMensagensDoTelegram {
 			for (String line : lines2) {
 				arquivoDeSaida.append(line);
 			}
-			CcpTimeDecorator.log(format);
+//			CcpTimeDecorator.appendLog(format);
+			System.out.println(format);
 		}
-		CcpTimeDecorator.log("Total geral: " + totalGeral + ". Total de aceitos: " + totalDeAceitos);
+//		CcpTimeDecorator.appendLog("Total geral: " + totalGeral + ". Total de aceitos: " + totalDeAceitos);
 	}
 	private static String sanitizarLinha(String line) {
 		
