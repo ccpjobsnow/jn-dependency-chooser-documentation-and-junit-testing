@@ -47,7 +47,6 @@ public class TelaDeLogout extends JnTemplateDeTestes {
 		return "DELETE";
 	}
 
-	@Override
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus,
 			Function<VariaveisParaTeste, String> producer) {
 		String uri = "/login/" + variaveisParaTeste.VALID_EMAIL;
