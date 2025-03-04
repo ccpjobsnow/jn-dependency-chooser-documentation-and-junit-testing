@@ -2,6 +2,7 @@ package com.ccp.jn.test.asserting;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.io.FileInputStream;
@@ -161,8 +162,9 @@ public class CcpJsonRepresentationTests {
 		
 		assertTrue(json.getAsString("valor").equals("1"));
 
-		assertTrue(json.getAsString("valor2").isEmpty());
+		assertTrue(json.getAsString("valor2").isEmpty()); 
 		assertTrue(json.getAsString("valor3").isEmpty());
+		assertTrue(CcpOtherConstants.EMPTY_JSON.put("json", (Object)json).getAsTextDecorator("json").isValidSingleJson());
 	}
 	
 	@Test
@@ -662,17 +664,22 @@ public class CcpJsonRepresentationTests {
 				 + "'Tiago']"
 				 + "}";
 		
-		CcpJsonRepresentation json = new CcpJsonRepresentation(nomes).put("nomes2", Arrays.asList("Pedro", "Tiago"));
+		CcpJsonRepresentation json = new CcpJsonRepresentation(nomes)
+				.put("nomes2", Arrays.asList("Pedro", "Tiago"))
+				.put("nomes5", Arrays.asList("Pedro",null, "Tiago"))
+				;
 		
 		assertTrue(json.getAsStringList("nomes3", "nomes2", "nomes").size() == 2);
 		assertTrue(json.getAsStringList("nomes3", "nomes", "nomes2").size() == 3);
 		assertTrue(json.getAsStringList("nomes", "nomes2").size() == 3);
 		assertTrue(json.getAsStringList("nomes2", "nomes").size() == 2);
+		assertTrue(json.getAsStringList("nomes5").size() == 2);
 		assertTrue(json.getAsStringList("nomes2").size() == 2);
 		assertTrue(json.getAsStringList("nomes").size() == 3);
 		assertTrue(json.getAsStringList("nomes3", "nomes4").isEmpty());
 		assertTrue(json.getAsStringList("nomes3").isEmpty());
 		assertTrue(json.getAsStringList().isEmpty());
+		
 	}
 	
 	@Test
@@ -742,6 +749,10 @@ public class CcpJsonRepresentationTests {
 	    Collection<String> fields = Arrays.asList("nome", "idade", "peso");
 
 	    boolean result = json.containsAllFields(fields);
+	    assertTrue(result);	
+	    boolean result2 = json.containsAllFields("nome", "idade", "peso", "campoQueNaoExiste");
+	    assertFalse(result2);	
+	    assertFalse(json.containsAnyFields("onias", "juliana", "luciellen", "andré", "camila", "welton"));	
 	    
 	    System.out.println("\ncontainsAllFieldsJsonTest() " + result+"\n");
 	    
@@ -833,9 +844,15 @@ public class CcpJsonRepresentationTests {
 		CcpJsonRepresentation json = new CcpJsonRepresentation(campos);
 		
 		//Muda para qualquer tipo sem a necessidade de fazer o casting
-		Double valorConvertidoEmObjeto =  json.getAsObject("peso");
+		Double valorConvertidoEmObjeto =  json.getAsObject("onias", "juliana", "luciellen", "andré", "camila", "welton","peso");
 		
 		assertTrue(valorConvertidoEmObjeto instanceof Double);
+		try {
+			json.getAsObject("onias", "juliana", "luciellen", "andré", "camila", "welton");
+			assertTrue(false);
+		} catch (JsonFieldNotFound e) {
+			assertTrue(true);
+		}
 	}
 	
 	@Test
@@ -850,17 +867,19 @@ public class CcpJsonRepresentationTests {
 	//VERIFICAR SE MÉTODO ESTÁ FUNCIONANDO
 	@Test
 	public void copyIfNotContainsTest() {
-		String json = "{'nome':'Lucas'," + "'nomeCopiado':''}";
+		String json = "{'nome':'Lucas'}";
 
-		CcpJsonRepresentation objJson = new CcpJsonRepresentation(json).removeField("nomeCopiado");
+		CcpJsonRepresentation objJson = new CcpJsonRepresentation(json);
 		assertFalse(objJson.containsAllFields("nomeCopiado"));
 		CcpJsonRepresentation copyIfNotContains = objJson.copyIfNotContains("nome", "nomeCopiado");
 		assertTrue(copyIfNotContains.containsAllFields("nomeCopiado"));
 		String nomeCopiado = copyIfNotContains.getAsString("nomeCopiado");
 		String nome = copyIfNotContains.getAsString("nome");
 		assertEquals(nome, nomeCopiado);
-		
-		System.out.println(copyIfNotContains);// O valor do campo nome não foi colado em nomeCopiado
+		String actual = "merda";
+		CcpJsonRepresentation copyIfNotContains2 = copyIfNotContains.put("nome", actual).copyIfNotContains("nomeCopiado", "nome");
+		assertNotEquals(copyIfNotContains2.getAsString("nome"), copyIfNotContains.getAsString("nomeCopiado"));
+		assertEquals(copyIfNotContains2.getAsString("nome"), actual);
 	}
 	
 	//VERIFICAR SE MÉTODO ESTÁ FUNCIONANDO
@@ -873,7 +892,8 @@ public class CcpJsonRepresentationTests {
 		assertFalse(objJson.containsAllFields("valor"));
 		CcpJsonRepresentation putIfNotContains = objJson.putIfNotContains("valor", "teste");
 		assertTrue(putIfNotContains.containsAllFields("valor"));
-		System.out.println(putIfNotContains);
+		CcpJsonRepresentation putIfNotContains2 = putIfNotContains.putIfNotContains("valor", "teste2");
+		assertTrue("teste".equals(putIfNotContains2.getAsString("valor")));
 	}	
 	
 	@Test
@@ -945,7 +965,8 @@ public class CcpJsonRepresentationTests {
 		CcpJsonRepresentation json2 = new CcpJsonRepresentation(registro);
 		
 		
-		System.out.println(json.equals(json2));
+		assertTrue(json.equals(json2));
+		assertFalse(json.equals(""));
 	}
 	
 	

@@ -56,6 +56,43 @@ public class JnRandomTests {
 	
 	
 	public static void main(String[] args) throws Exception {
+		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
+				+ "  \"disposable_record\": {\r\n"
+				+ "    \"372c39ceb3f0dd0af8016b3b1ce3e24d5438708\": {},\r\n"
+				+ "    \"74c20d578a0ac3fcd66b5fc2dd22d6fcbdf7c215\": {}\r\n"
+				+ "  },\r\n"
+				+ "  \"login_answers\": {\r\n"
+				+ "    \"-59b2d0bbc256a21ddec4620fa6dfd624a3096935\": {}\r\n"
+				+ "  },\r\n"
+				+ "  \"login_email\": {\r\n"
+				+ "    \"-59b2d0bbc256a21ddec4620fa6dfd624a3096935\": {\r\n"
+				+ "      \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\"\r\n"
+				+ "    }\r\n"
+				+ "  },\r\n"
+				+ "  \"login_password\": {\r\n"
+				+ "    \"-59b2d0bbc256a21ddec4620fa6dfd624a3096935\": {}\r\n"
+				+ "  },\r\n"
+				+ "  \"login_password_locked\": {\r\n"
+				+ "    \"-59b2d0bbc256a21ddec4620fa6dfd624a3096935\": {}\r\n"
+				+ "  },\r\n"
+				+ "  \"login_session_current\": {\r\n"
+				+ "    \"-49e850250782b8ab27111e06be0240dd17addfa2\": {\r\n"
+				+ "      \"userAgent\": \"Apache-HttpClient/4.5.4 (Java/17.0.9)\",\r\n"
+				+ "      \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\",\r\n"
+				+ "      \"ip\": \"localhost\",\r\n"
+				+ "      \"token\": \"$2a$12$JA1R43oR7ZIPTgd5.Moicu.7XFYviIsF3UKbkhdIjbq7WCXXf7gaS\"\r\n"
+				+ "    }\r\n"
+				+ "  },\r\n"
+				+ "  \"login_token_locked\": {\r\n"
+				+ "    \"17896d5692afc890894327713ebdd6145afa1628\": {}\r\n"
+				+ "  }\r\n"
+				+ "}");
+		
+		CcpJsonRepresentation innerJsonFromPath = json.getInnerJsonFromPath("login_session_current", "-49e850250782b8ab27111e06be0240dd17addfa2");
+		System.out.println(innerJsonFromPath);
+	}
+
+	static void extracted() {
 		CcpFolderDecorator folder = new CcpStringDecorator("documentation/database/elasticsearch/scripts/entities/create").folder();
 		Map<String, List<String>> map = new TreeMap<>();
 		folder.readFiles(file -> {
