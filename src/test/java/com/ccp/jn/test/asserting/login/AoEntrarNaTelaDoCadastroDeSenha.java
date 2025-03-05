@@ -39,7 +39,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	public void faltandoPreRegistro() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginToken.missingAnswers);
+		this.execute(variaveisParaTeste, StatusCreateLoginToken.missingSaveAnswers);
 	}
 	
 	@Test
