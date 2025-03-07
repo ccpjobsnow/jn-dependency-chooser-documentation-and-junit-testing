@@ -194,7 +194,7 @@ public class CcpJsonRepresentationTests {
 	
 	@Test
 	public void extractInformationFromJsonTest() {
-		Integer multiplicador = 2;
+		Integer multiplicador = 2; 
 		Integer numero = 37;
 		String str = "{'valor' : '" + numero + "'}";
 
@@ -286,7 +286,7 @@ public class CcpJsonRepresentationTests {
 	}
 
 	@Test
-	public void testarInputStream() throws FileNotFoundException {
+	public void testarConstrutores() throws FileNotFoundException {
 		FileInputStream jsonFile = new FileInputStream("newSynonyms.json");
 		new CcpJsonRepresentation(jsonFile);
 		FileInputStream propsFile = new FileInputStream("teste.properties");
@@ -294,6 +294,19 @@ public class CcpJsonRepresentationTests {
 		new CcpJsonRepresentation(new RuntimeException());
 		new CcpJsonRepresentation((RuntimeException) null);
 		new CcpJsonRepresentation(new RuntimeException(new RuntimeException()));
+		try {
+			this.getNumeroIncrementado(1); 
+		} catch (Exception e) {
+			new CcpJsonRepresentation(e);
+		}
+	}
+	
+	private int getNumeroIncrementado(int numero) {
+		if(numero>=200) {
+			throw new RuntimeException();
+		}
+		int numeroIncrementado = this.getNumeroIncrementado(numero + 1);
+		return numeroIncrementado;
 	}
 	
 	@Test

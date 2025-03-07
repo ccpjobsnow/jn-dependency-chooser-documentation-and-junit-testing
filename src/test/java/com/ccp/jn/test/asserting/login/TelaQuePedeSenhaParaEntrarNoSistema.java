@@ -38,7 +38,7 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.execute(variaveisParaTeste, StatusExecuteLogin.missingSaveEmail, x -> VariaveisParaTeste.CORRECT_PASSWORD);
+		this.execute(variaveisParaTeste, StatusExecuteLogin.missingSavingEmail, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
 
 	@Test
