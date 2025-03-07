@@ -20,7 +20,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	public void emailInvalido() {
 		this.criarTokenDeLogin(VariaveisParaTeste.INVALID_EMAIL, StatusCreateLoginToken.statusInvalidEmail);
 	} 
-	
+	 
 	@Test
 	public void tokenBloqueado() { 
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
