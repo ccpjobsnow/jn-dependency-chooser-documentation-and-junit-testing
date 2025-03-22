@@ -13,7 +13,7 @@ import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginSessionCurrent;
+import com.jn.commons.entities.JnEntityLoginSessionConflict;
 import com.jn.commons.entities.JnEntityLoginToken;
 
 public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
@@ -43,7 +43,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 	@Test
 	public void usuarioJaLogado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginSessionCurrent.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginSessionConflict.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusCreateLoginEmail.loginConflict);
 	}

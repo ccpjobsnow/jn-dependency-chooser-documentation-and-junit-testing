@@ -30,12 +30,12 @@ import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
 import com.ccp.jn.async.business.factory.CcpJnAsyncBusinessFactory;
 import com.ccp.jn.async.business.login.JnAsyncBusinessExecuteLogout;
-import com.ccp.jn.sync.mensageria.JnSyncMensageriaSender;
 import com.ccp.local.testings.implementations.CcpLocalInstances;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.ccp.validation.CcpJsonInvalid;
 import com.jn.commons.entities.JnEntityJobsnowError;
-import com.jn.commons.entities.JnEntityLoginSessionCurrent;
+import com.jn.commons.entities.JnEntityLoginSessionValidation;
+import com.jn.sync.mensageria.JnSyncMensageriaSender;
 import com.vis.commons.utils.VisAsyncBusiness;
 
 
@@ -136,11 +136,11 @@ public class JnRandomTests {
 				.put("email", "onias85@gmail.com")
 				
 				;
-		List<CcpJsonRepresentation> parametersToSearch = JnEntityLoginSessionCurrent.ENTITY.getParametersToSearch(json);
+		List<CcpJsonRepresentation> parametersToSearch = JnEntityLoginSessionValidation.ENTITY.getParametersToSearch(json);
 		
 		System.out.println(parametersToSearch);
 		
-		JnEntityLoginSessionCurrent.ENTITY.getTwinEntity().create(json);
+		JnEntityLoginSessionValidation.ENTITY.getTwinEntity().createOrUpdate(json);
 		JnAsyncBusinessExecuteLogout.INSTANCE.apply(json);
 	}
 
@@ -356,11 +356,11 @@ public class JnRandomTests {
 				.put("type", "any")
 				;
 		JnEntityJobsnowError.ENTITY.delete(json);
-		JnEntityJobsnowError.ENTITY.create(json);
+		JnEntityJobsnowError.ENTITY.createOrUpdate(json);
 		while(true) {
 			boolean exists = JnEntityJobsnowError.ENTITY.exists(json);
 			if(exists == false) {
-				JnEntityJobsnowError.ENTITY.create(json);
+				JnEntityJobsnowError.ENTITY.createOrUpdate(json);
 				System.out.println(new CcpTimeDecorator().getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS"));
 			}
 			new CcpTimeDecorator().sleep(1000);

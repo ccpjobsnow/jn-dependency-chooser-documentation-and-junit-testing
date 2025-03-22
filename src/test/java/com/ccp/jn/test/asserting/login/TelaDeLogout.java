@@ -11,7 +11,7 @@ import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
 import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginSessionCurrent;
+import com.jn.commons.entities.JnEntityLoginSessionConflict;
 
 public class TelaDeLogout extends JnTemplateDeTestes {
 
@@ -29,8 +29,8 @@ public class TelaDeLogout extends JnTemplateDeTestes {
 	@Test 
 	public void caminhoFeliz() { 
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		JnEntityLoginEmail.ENTITY.create(variaveisParaTeste.REQUEST_TO_LOGIN);
-		JnEntityLoginSessionCurrent.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
+		JnEntityLoginSessionConflict.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusExecuteLogout.expectedStatus);
 	}
 
