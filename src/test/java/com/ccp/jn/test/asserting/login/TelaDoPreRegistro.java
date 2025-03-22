@@ -63,13 +63,13 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusSaveAnswers.lockedPassword);
 	}
-
+	
 	@Test
 	public void caminhoFeliz() { 
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginPassword.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusSaveAnswers.expectedStatus);
+		this.execute(variaveisParaTeste, StatusSaveAnswers.expectedStatus); 
 	}
 	//
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {

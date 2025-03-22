@@ -116,7 +116,7 @@ public abstract class JnTemplateDeTestes {
 	
 	public final String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus) {
 		String execute = this.execute(variaveisParaTeste, expectedStatus, x -> "");
-		return execute;
+		return execute; 
 	}
 	
 	public abstract String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer); 
