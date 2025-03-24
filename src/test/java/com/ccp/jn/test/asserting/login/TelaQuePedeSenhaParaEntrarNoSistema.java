@@ -9,6 +9,7 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.jn.sync.status.login.StatusExistsLoginEmail;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
@@ -17,7 +18,6 @@ import com.jn.commons.entities.JnEntityLoginAnswers;
 import com.jn.commons.entities.JnEntityLoginEmail;
 import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionConflict;
-import com.jn.commons.entities.JnEntityLoginSessionValidation;
 import com.jn.commons.entities.JnEntityLoginToken;
 import com.jn.commons.status.StatusExecuteLogin;
 
@@ -71,12 +71,12 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 	public void caminhoFeliz() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias85@gmail.com");
 		new TelaDoCadastroDeSenha().fluxoEsperado(variaveisParaTeste);;
-		new CcpTimeDecorator().sleep(10000);
+		new CcpTimeDecorator().sleep(10000); 
 		JnEntityLoginSessionConflict.ENTITY.delete(variaveisParaTeste.REQUEST_TO_LOGIN);
 		this.execute(variaveisParaTeste, StatusExecuteLogin.expectedStatus, x -> VariaveisParaTeste.CORRECT_PASSWORD);
 	}
-
-	
+ 
+	 
 	@Test
 	public void bloquearSenha() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
@@ -135,8 +135,8 @@ public class TelaQuePedeSenhaParaEntrarNoSistema extends JnTemplateDeTestes{
 	}
 
 	
-	protected String getMethod() {
-		return "POST";
+	protected CcpHttpMethods getMethod() {
+		return CcpHttpMethods.POST;
 	}
 	
 }

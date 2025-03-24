@@ -12,6 +12,7 @@ import com.ccp.especifications.http.CcpHttpHandler;
 import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.especifications.http.CcpHttpResponseTransform;
 import com.ccp.especifications.http.CcpHttpResponseType;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.implementations.db.bulk.elasticsearch.CcpElasticSerchDbBulk;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -49,7 +50,7 @@ public abstract class JnTemplateDeTestes {
 		
 	}
 	
-	protected abstract String getMethod();
+	protected abstract CcpHttpMethods getMethod();
 
 	protected CcpJsonRepresentation getHeaders() {
 		return CcpOtherConstants.EMPTY_JSON;
@@ -64,7 +65,7 @@ public abstract class JnTemplateDeTestes {
 	protected CcpJsonRepresentation testarEndpoint(CcpProcessStatus scenarioName, CcpJsonRepresentation body, String uri,
 			CcpHttpResponseTransform<CcpJsonRepresentation> transformer) {
 
-		String method = this.getMethod();
+		CcpHttpMethods method = this.getMethod();
 		CcpJsonRepresentation headers = this.getHeaders();
 
 		int expectedStatus = scenarioName.asNumber();
@@ -86,7 +87,7 @@ public abstract class JnTemplateDeTestes {
 		return responseFromEndpoint;
 	}
 
-	private <V> void logRequestAndResponse(String url, String method, CcpProcessStatus status, int actualStatus,
+	private <V> void logRequestAndResponse(String url, CcpHttpMethods method, CcpProcessStatus status, int actualStatus,
 			CcpJsonRepresentation body, CcpJsonRepresentation headers, V executeHttpRequest) {
 
 		CcpJsonRepresentation md = CcpOtherConstants.EMPTY_JSON.put("x", executeHttpRequest);

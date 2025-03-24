@@ -5,6 +5,7 @@ import java.util.function.Function;
 import org.junit.Test;
 
 import com.ccp.especifications.db.utils.CcpEntity;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.jn.sync.status.login.StatusExistsLoginEmail;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
@@ -92,7 +93,7 @@ public class TelaQuePedeEmail extends JnTemplateDeTestes{
 	}
 
 	
-	protected String getMethod() {
-		return "HEAD";
+	protected CcpHttpMethods getMethod() {
+		return CcpHttpMethods.HEAD;
 	}
 }

@@ -24,6 +24,7 @@ import com.ccp.dependency.injection.CcpDependencyInjection;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
 import com.ccp.especifications.json.CcpJsonHandler;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
 import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
@@ -1120,7 +1121,7 @@ public class Skills {
 		CcpHttpRequester ccpHttp = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
 		CcpHttpResponse executeHttpRequest = ccpHttp.executeHttpRequest(
 				"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=AIzaSyAZ2ARz1sOqBk7V41_gUTh_qapRKw1vxdM",
-				"POST", CcpOtherConstants.EMPTY_JSON, request, 200);
+				CcpHttpMethods.POST, CcpOtherConstants.EMPTY_JSON, request, 200);
 
 		CcpJsonRepresentation geminiResponse = executeHttpRequest.asSingleJson();
 

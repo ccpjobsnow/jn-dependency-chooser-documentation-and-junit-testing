@@ -8,6 +8,7 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.jn.sync.status.login.StatusUpdatePassword;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
@@ -123,8 +124,8 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 
 	}
 	
-	protected String getMethod() {
-		return "POST";
+	protected CcpHttpMethods getMethod() {
+		return CcpHttpMethods.POST;
 	}
 
 

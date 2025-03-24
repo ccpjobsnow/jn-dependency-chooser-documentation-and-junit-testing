@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.db.utils.CcpEntity;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.jn.sync.status.login.StatusCreateLoginEmail;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
@@ -90,8 +91,8 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 
 
 	
-	protected String getMethod() {
-		return "POST";
+	protected CcpHttpMethods getMethod() {
+		return CcpHttpMethods.POST;
 	}
 
 }

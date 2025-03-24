@@ -63,7 +63,6 @@ F) Contratar o advogado tributarista;
 G) Implementar conselhos do advogado tributarista;
 H) Avisar candidatos sobre a possibilidade de ganhar dinheiro;I) Notificações para recrutadores e candidatos
 
-Não está localizando a senha
 Não está validando sessão
 Precisa terminar o fluxo do endpoint de salvamento de curriculos
 Precisa paralelizar as filas

@@ -5,6 +5,7 @@ import java.util.function.Function;
 import org.junit.Test;
 
 import com.ccp.especifications.db.utils.CcpEntity;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.jn.sync.status.login.StatusCreateLoginToken;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
@@ -47,9 +48,11 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
-		this.execute(variaveisParaTeste, StatusCreateLoginToken.statusExpectedStatus);
+		this.execute(variaveisParaTeste, StatusCreateLoginToken.expectedStatus);
 	}
 
+	
+	
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {
 		this.criarTokenDeLogin(variaveisParaTeste.VALID_EMAIL, expectedStatus);
 		String apply = producer.apply(variaveisParaTeste);
@@ -64,8 +67,8 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	}
 	
 	
-	protected String getMethod() {
-		return "POST";
+	protected CcpHttpMethods getMethod() {
+		return CcpHttpMethods.POST;
 	}
 
 }

@@ -16,11 +16,15 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
 import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
+import com.ccp.especifications.db.crud.CcpCrud;
+import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
+import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.db.utils.CcpEntityField;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
+import com.ccp.http.CcpHttpMethods;
 import com.ccp.implementations.db.bulk.elasticsearch.CcpElasticSerchDbBulk;
 import com.ccp.implementations.db.crud.elasticsearch.CcpElasticSearchCrud;
 import com.ccp.implementations.db.query.elasticsearch.CcpElasticSearchQueryExecutor;
@@ -34,8 +38,9 @@ import com.ccp.local.testings.implementations.CcpLocalInstances;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.ccp.validation.CcpJsonInvalid;
 import com.jn.commons.entities.JnEntityJobsnowError;
-import com.jn.commons.entities.JnEntityLoginAnswers;
+import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionValidation;
+import com.jn.commons.utils.JnDeleteKeysFromCache;
 import com.jn.sync.mensageria.JnSyncMensageriaSender;
 import com.vis.commons.utils.VisAsyncBusiness;
 
@@ -55,16 +60,59 @@ public class JnRandomTests {
 				);
 	}
 	
-	
 	public static void main(String[] args) throws Exception {
+		
+		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
+				+ "  \"email\": \"onias85@gmail.com\",\r\n"
+				+ "  \"ip\": \"localhost\",\r\n"
+				+ "  \"password\": \"Jobsnow1!\",\r\n"
+				+ "  \"sessionToken\": \"M6ZRDQ83\",\r\n"
+				+ "  \"token\": \"M6ZRDQ83\",\r\n"
+				+ "  \"userAgent\": \"Apache-HttpClient/4.5.4 (Java/17.0.9)\"\r\n"
+				+ "}");
+		CcpEntity entity = JnEntityLoginSessionValidation.ENTITY;
+		testarExpurgable(json, entity);
+	}
+
+	static void testarExpurgable() {
+		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON.put("type", "teste").put("stackTrace", "teste").put("cause", "teste");
+		CcpEntity entity = JnEntityJobsnowError.ENTITY;
+		testarExpurgable(json, entity);
+		
+		testarExpurgable();
+	}
+
+	private static void testarExpurgable(CcpJsonRepresentation json, CcpEntity entity) {
+		entity.createOrUpdate(json);
+		CcpCrud crud = CcpDependencyInjection.getDependency(CcpCrud.class);
+		for(int k = 0; k < 65; k++) {
+			CcpTimeDecorator ctd = new CcpTimeDecorator();
+			System.out.println("Teste1: " + ctd.getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS") + " = " + entity.exists(json));
+			CcpSelectUnionAll unionAll = crud.unionAll(new CcpJsonRepresentation[] {json}, JnDeleteKeysFromCache.INSTANCE, entity);
+			System.out.println("unionAll1: " + ctd.getFormattedDateTime("dd/MM/yyyy HH:mm:ss.SSS") + " = " + entity.isPresentInThisUnionAll(unionAll, json));
+			ctd.sleep(1000);
+		}
+		
+		testarExpurgable(json, entity);
+	}
+
+	static void testarSalvamentoDeSenha() {
 		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON
-				.addToItem("pai", "entidade1", JnEntityLoginSessionValidation.ENTITY)
-				.addToItem("pai2", "entidade2", JnEntityLoginAnswers.ENTITY)
-				.addToItem("pai", "classe", String.class)
+				.put(JnEntityLoginPassword.Fields.password.name(), "123456")
+				.put("email", "onias85@gmail.com")
 				;
-		System.out.println(json); 
+		JnEntityLoginPassword.ENTITY.createOrUpdate(json);
+
+		CcpCrud crud = CcpDependencyInjection.getDependency(CcpCrud.class);
+		CcpSelectUnionAll unionAll = crud.unionAll(new CcpJsonRepresentation[] {json}, JnDeleteKeysFromCache.INSTANCE, JnEntityLoginPassword.ENTITY);
+		System.out.println(unionAll);
 		
-		
+		System.out.println(com.ccp.dependency.injection.CcpDependencyInjection
+				.getDependency(com.ccp.especifications.password.CcpPasswordHandler.class)
+				.matches("123456", "$2a$12$mjfndltYxA2TsM9Eo8rnSOaNCr3QTTerfoVcj5ucAGO5C/vavQofC"));
+		System.out.println(com.ccp.dependency.injection.CcpDependencyInjection
+				.getDependency(com.ccp.especifications.password.CcpPasswordHandler.class)
+				.matches("123456", "$2a$12$FYwjF4ysRKHCwg9cp1H/meLBRLeevbDlT5ZQvoSGQX6D1osAtWVde"));
 	}
 
 	static void extracted() {
@@ -174,7 +222,7 @@ public class JnRandomTests {
 			mgetJson = mgetJson.addToList("docs", doc);
 		}
 		
-		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/_mget", "POST", CcpOtherConstants.EMPTY_JSON, mgetJson.asUgglyJson());
+		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/_mget", CcpHttpMethods.POST, CcpOtherConstants.EMPTY_JSON, mgetJson.asUgglyJson());
 		CcpJsonRepresentation asSingleJson = executeHttpRequest.asSingleJson();
 		
 		List<CcpJsonRepresentation> collect = asSingleJson.getAsJsonList("docs").stream().map(json -> {
@@ -320,7 +368,7 @@ public class JnRandomTests {
 	}
 
 	static void excluirCurriculo() {
-		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/profissionais2/_doc/lucascavalcantedeo@gmail.com", "DELETE", CcpOtherConstants.EMPTY_JSON, "");
+		CcpHttpResponse executeHttpRequest = CcpDependencyInjection.getDependency(CcpHttpRequester.class).executeHttpRequest("http://localhost:9200/profissionais2/_doc/lucascavalcantedeo@gmail.com", CcpHttpMethods.DELETE, CcpOtherConstants.EMPTY_JSON, "");
 		System.out.println(executeHttpRequest);
 	}
 
@@ -348,7 +396,7 @@ public class JnRandomTests {
 		CcpHttpRequester dependency = CcpDependencyInjection.getDependency(CcpHttpRequester.class);
 
 		while(true) {
-			dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", "GET", CcpOtherConstants.EMPTY_JSON, "");
+			dependency.executeHttpRequest("http://localhost:8080/login/r066u1bd@teste.com", CcpHttpMethods.GET, CcpOtherConstants.EMPTY_JSON, "");
 			ccpTimeDecorator.sleep(60_000);
 		}
 	}

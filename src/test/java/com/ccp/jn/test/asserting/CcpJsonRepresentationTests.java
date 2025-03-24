@@ -23,9 +23,9 @@ import com.ccp.decorators.CcpCollectionDecorator;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpTextDecorator;
 import com.ccp.dependency.injection.CcpDependencyInjection;
-import com.ccp.exceptions.json.JsonFieldIsNotValidJsonList;
-import com.ccp.exceptions.json.JsonFieldNotFound;
-import com.ccp.exceptions.json.JsonPathIsMissing;
+import com.ccp.exceptions.json.CCpJsonFieldIsNotValidJsonList;
+import com.ccp.exceptions.json.CcpJsonFieldNotFound;
+import com.ccp.exceptions.json.CcpJsonPathIsMissing;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 
 public class CcpJsonRepresentationTests {
@@ -606,7 +606,7 @@ public class CcpJsonRepresentationTests {
 		try {
 			addToItem.getValueFromPath("minha string");
 			assertTrue(false);
-		} catch (JsonPathIsMissing e) {
+		} catch (CcpJsonPathIsMissing e) {
 			assertTrue(true);
 		};
 	}
@@ -840,7 +840,7 @@ public class CcpJsonRepresentationTests {
 		try {
 			json.get("peso2");
 			assertTrue(false);
-		} catch (JsonFieldNotFound e) {
+		} catch (CcpJsonFieldNotFound e) {
 			assertTrue(true);
 		}
 	}
@@ -863,7 +863,7 @@ public class CcpJsonRepresentationTests {
 		try {
 			json.getAsObject("onias", "juliana", "luciellen", "andré", "camila", "welton");
 			assertTrue(false);
-		} catch (JsonFieldNotFound e) {
+		} catch (CcpJsonFieldNotFound e) {
 			assertTrue(true);
 		}
 	}
@@ -1006,7 +1006,7 @@ public class CcpJsonRepresentationTests {
 		try {
 			json.getInnerJsonListFromPath("avo", "pai", "filho", "netos");
 			assertTrue(false);
-		} catch (JsonFieldIsNotValidJsonList e) {
+		} catch (CCpJsonFieldIsNotValidJsonList e) {
 			assertTrue(true);
 		}
 		pai = CcpOtherConstants.EMPTY_JSON.addToItem("filho", "netos", netos);
