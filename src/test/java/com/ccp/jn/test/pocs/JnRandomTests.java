@@ -46,7 +46,7 @@ import com.vis.commons.utils.VisAsyncBusiness;
 
 
 public class JnRandomTests {
-	static{
+	static{ 
 		CcpDependencyInjection.loadAllDependencies(
 				CcpLocalInstances.mensageriaSender.getLocalImplementation(new CcpJnAsyncBusinessFactory()),
 				new CcpElasticSearchQueryExecutor(),
@@ -61,13 +61,56 @@ public class JnRandomTests {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		
+		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
+				+ "  \"_entities\": {\r\n"
+				+ "    \"login_session_conflict\": {\r\n"
+				+ "      \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\"\r\n"
+				+ "    },\r\n"
+				+ "    \"login_session_validation\": {\r\n"
+				+ "      \"userAgent\": \"teste\",\r\n"
+				+ "      \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\",\r\n"
+				+ "      \"ip\": \"teste\",\r\n"
+				+ "      \"token\": \"6bb3f103b0b1c2851ea1e6cb2312a2a0406df2e5\"\r\n"
+				+ "    }\r\n"
+				+ "  },\r\n"
+				+ "  \"data\": \"24032025 01:23:08\",\r\n"
+				+ "  \"email\": \"onias85@gmail.com\",\r\n"
+				+ "  \"ip\": \"teste\",\r\n"
+				+ "  \"messageId\": \"d7b026ac-471d-4cdc-976e-28cd580082fc\",\r\n"
+				+ "  \"request\": {\r\n"
+				+ "    \"userAgent\": \"teste\",\r\n"
+				+ "    \"email\": \"onias85@gmail.com\",\r\n"
+				+ "    \"ip\": \"teste\",\r\n"
+				+ "    \"token\": \"CO8HTJU0\",\r\n"
+				+ "    \"_entities\": {\r\n"
+				+ "      \"login_session_conflict\": {\r\n"
+				+ "        \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\"\r\n"
+				+ "      },\r\n"
+				+ "      \"login_session_validation\": {\r\n"
+				+ "        \"userAgent\": \"teste\",\r\n"
+				+ "        \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\",\r\n"
+				+ "        \"ip\": \"teste\",\r\n"
+				+ "        \"token\": \"6bb3f103b0b1c2851ea1e6cb2312a2a0406df2e5\"\r\n"
+				+ "      }\r\n"
+				+ "    },\r\n"
+				+ "    \"topic\": \"executeLogout\"\r\n"
+				+ "  },\r\n"
+				+ "  \"started\": 1742790188666,\r\n"
+				+ "  \"token\": \"CO8HTJU0\",\r\n"
+				+ "  \"topic\": \"executeLogout\",\r\n"
+				+ "  \"userAgent\": \"teste\"\r\n"
+				+ "}");
+		boolean exists = JnEntityLoginSessionValidation.ENTITY.exists(json);
+		System.out.println(exists);
+	}
+
+	static void testarExpurgable2() {
 		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
 				+ "  \"email\": \"onias85@gmail.com\",\r\n"
 				+ "  \"ip\": \"localhost\",\r\n"
 				+ "  \"password\": \"Jobsnow1!\",\r\n"
-				+ "  \"sessionToken\": \"M6ZRDQ83\",\r\n"
 				+ "  \"token\": \"M6ZRDQ83\",\r\n"
+				+ "  \"originalToken\": \"M6ZRDQ83\",\r\n"
 				+ "  \"userAgent\": \"Apache-HttpClient/4.5.4 (Java/17.0.9)\"\r\n"
 				+ "}");
 		CcpEntity entity = JnEntityLoginSessionValidation.ENTITY;
@@ -78,8 +121,6 @@ public class JnRandomTests {
 		CcpJsonRepresentation json = CcpOtherConstants.EMPTY_JSON.put("type", "teste").put("stackTrace", "teste").put("cause", "teste");
 		CcpEntity entity = JnEntityJobsnowError.ENTITY;
 		testarExpurgable(json, entity);
-		
-		testarExpurgable();
 	}
 
 	private static void testarExpurgable(CcpJsonRepresentation json, CcpEntity entity) {
