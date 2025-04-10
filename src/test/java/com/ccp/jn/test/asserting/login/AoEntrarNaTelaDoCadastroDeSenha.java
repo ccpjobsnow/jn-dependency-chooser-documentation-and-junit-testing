@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.sync.status.login.StatusCreateLoginToken;
+import com.ccp.jn.commons.status.login.StatusCreateLoginToken;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;

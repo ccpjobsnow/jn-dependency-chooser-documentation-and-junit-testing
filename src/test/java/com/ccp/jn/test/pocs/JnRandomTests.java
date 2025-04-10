@@ -21,6 +21,7 @@ import com.ccp.especifications.db.crud.CcpSelectUnionAll;
 import com.ccp.especifications.db.query.CcpDbQueryOptions;
 import com.ccp.especifications.db.query.CcpQueryExecutor;
 import com.ccp.especifications.db.utils.CcpEntity;
+import com.ccp.especifications.db.utils.CcpEntityCrudOperationType;
 import com.ccp.especifications.db.utils.CcpEntityField;
 import com.ccp.especifications.http.CcpHttpRequester;
 import com.ccp.especifications.http.CcpHttpResponse;
@@ -32,23 +33,20 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
-import com.ccp.jn.async.business.factory.CcpJnAsyncBusinessFactory;
-import com.ccp.jn.async.business.login.JnAsyncBusinessExecuteLogout;
-import com.ccp.local.testings.implementations.CcpLocalInstances;
+import com.ccp.jn.commons.business.JnAsyncBusinessExecuteLogout;
+import com.ccp.jn.commons.mensageria.JnMensageriaSender;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.ccp.validation.CcpJsonInvalid;
 import com.jn.commons.entities.JnEntityJobsnowError;
 import com.jn.commons.entities.JnEntityLoginPassword;
 import com.jn.commons.entities.JnEntityLoginSessionValidation;
 import com.jn.commons.utils.JnDeleteKeysFromCache;
-import com.jn.sync.mensageria.JnSyncMensageriaSender;
-import com.vis.commons.utils.VisAsyncBusiness;
+import com.vis.commons.entities.VisEntityResume;
 
 
 public class JnRandomTests {
 	static{ 
 		CcpDependencyInjection.loadAllDependencies(
-				CcpLocalInstances.mensageriaSender.getLocalImplementation(new CcpJnAsyncBusinessFactory()),
 				new CcpElasticSearchQueryExecutor(),
 				new CcpElasticSearchDbRequest(), 
 				new CcpMindrotPasswordHandler(),
@@ -61,47 +59,9 @@ public class JnRandomTests {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		CcpJsonRepresentation json = new CcpJsonRepresentation("{\r\n"
-				+ "  \"_entities\": {\r\n"
-				+ "    \"login_session_conflict\": {\r\n"
-				+ "      \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\"\r\n"
-				+ "    },\r\n"
-				+ "    \"login_session_validation\": {\r\n"
-				+ "      \"userAgent\": \"teste\",\r\n"
-				+ "      \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\",\r\n"
-				+ "      \"ip\": \"teste\",\r\n"
-				+ "      \"token\": \"6bb3f103b0b1c2851ea1e6cb2312a2a0406df2e5\"\r\n"
-				+ "    }\r\n"
-				+ "  },\r\n"
-				+ "  \"data\": \"24032025 01:23:08\",\r\n"
-				+ "  \"email\": \"onias85@gmail.com\",\r\n"
-				+ "  \"ip\": \"teste\",\r\n"
-				+ "  \"messageId\": \"d7b026ac-471d-4cdc-976e-28cd580082fc\",\r\n"
-				+ "  \"request\": {\r\n"
-				+ "    \"userAgent\": \"teste\",\r\n"
-				+ "    \"email\": \"onias85@gmail.com\",\r\n"
-				+ "    \"ip\": \"teste\",\r\n"
-				+ "    \"token\": \"CO8HTJU0\",\r\n"
-				+ "    \"_entities\": {\r\n"
-				+ "      \"login_session_conflict\": {\r\n"
-				+ "        \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\"\r\n"
-				+ "      },\r\n"
-				+ "      \"login_session_validation\": {\r\n"
-				+ "        \"userAgent\": \"teste\",\r\n"
-				+ "        \"email\": \"376e139c1a4b8ae34a3efe9bf12623a2fbdd3622\",\r\n"
-				+ "        \"ip\": \"teste\",\r\n"
-				+ "        \"token\": \"6bb3f103b0b1c2851ea1e6cb2312a2a0406df2e5\"\r\n"
-				+ "      }\r\n"
-				+ "    },\r\n"
-				+ "    \"topic\": \"executeLogout\"\r\n"
-				+ "  },\r\n"
-				+ "  \"started\": 1742790188666,\r\n"
-				+ "  \"token\": \"CO8HTJU0\",\r\n"
-				+ "  \"topic\": \"executeLogout\",\r\n"
-				+ "  \"userAgent\": \"teste\"\r\n"
-				+ "}");
-		boolean exists = JnEntityLoginSessionValidation.ENTITY.exists(json);
-		System.out.println(exists);
+		String[] array = new String[] {"onias", "juliana","luciellen"};
+		
+		System.out.println(array[-0]);
 	}
 
 	static void testarExpurgable2() {
@@ -185,7 +145,7 @@ public class JnRandomTests {
 				;
 		try {
 			
-			new JnSyncMensageriaSender(VisAsyncBusiness.resume).apply(json);
+			new JnMensageriaSender(VisEntityResume.ENTITY, CcpEntityCrudOperationType.save).apply(json);
 		} catch (CcpJsonInvalid e) {
 			new CcpStringDecorator("C:\\RH\\errosDeCurriculo.json")
 			.file()

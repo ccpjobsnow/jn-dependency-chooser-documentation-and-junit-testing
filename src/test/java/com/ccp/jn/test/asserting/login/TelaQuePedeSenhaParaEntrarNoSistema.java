@@ -10,7 +10,7 @@ import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.sync.status.login.StatusExistsLoginEmail;
+import com.ccp.jn.commons.status.login.StatusExistsLoginEmail;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;

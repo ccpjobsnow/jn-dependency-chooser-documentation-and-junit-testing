@@ -7,7 +7,7 @@ import org.junit.Test;
 import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.sync.status.login.StatusExecuteLogout;
+import com.ccp.jn.commons.status.login.StatusExecuteLogout;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;

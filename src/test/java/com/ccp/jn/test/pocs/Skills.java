@@ -38,7 +38,10 @@ public class Skills {
 		CcpDependencyInjection.loadAllDependencies(new CcpElasticSearchQueryExecutor(), new CcpElasticSearchDbRequest(),
 				new CcpElasticSearchCrud(), new CcpGsonJsonHandler(), new CcpApacheMimeHttp());
 		
-		adicionarPais();
+
+		
+		
+		
 	}
 	
 	

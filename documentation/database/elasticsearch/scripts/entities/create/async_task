@@ -16,6 +16,9 @@
 			"messageId": {
 				"type": "text"
 			},
+			"operation": {
+				"type": "keyword"
+			},
 			"success": {
 				"type": "boolean"
 			},
