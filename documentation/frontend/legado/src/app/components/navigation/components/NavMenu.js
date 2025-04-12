@@ -50,7 +50,6 @@ export default class NavMenu extends React.Component {
     };
 
 
-    //@todo get rid of jquery stuff
 
     // Extend our default options with those provided.
     const opts = $.extend({}, defaults, this.props);
