@@ -8,7 +8,7 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
-import com.jn.commons.entities.JnEntityJobsnowError;
+import com.jn.entities.JnEntityJobsnowError;
 
 public class PocHashPerformance {
 	static{

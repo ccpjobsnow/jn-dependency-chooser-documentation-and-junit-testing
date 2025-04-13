@@ -3,8 +3,8 @@ package com.ccp.jn.test.asserting;
 import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.decorators.CcpStringDecorator;
-import com.jn.commons.entities.JnEntityLoginAnswers;
-import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.entities.JnEntityLoginAnswers;
+import com.jn.entities.JnEntityLoginToken;
 
 public class VariaveisParaTeste {
 	public final static String CORRECT_PASSWORD = "Jobsnow1!";

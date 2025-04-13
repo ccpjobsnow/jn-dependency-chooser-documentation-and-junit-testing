@@ -9,20 +9,20 @@ import com.ccp.decorators.CcpTimeDecorator;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.commons.status.login.StatusUpdatePassword;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
-import com.jn.commons.entities.JnEntityLoginAnswers;
-import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginSessionConflict;
-import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.entities.JnEntityLoginAnswers;
+import com.jn.entities.JnEntityLoginEmail;
+import com.jn.entities.JnEntityLoginPassword;
+import com.jn.entities.JnEntityLoginSessionConflict;
+import com.jn.entities.JnEntityLoginToken;
+import com.jn.status.login.JnStatusUpdatePassword;
 
 public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 	@Test
 	public void emailInvalido() {
-		this.requisicaoFake(VariaveisParaTeste.INVALID_EMAIL, "abcdefgh", StatusUpdatePassword.invalidEmail);
+		this.requisicaoFake(VariaveisParaTeste.INVALID_EMAIL, "abcdefgh", JnStatusUpdatePassword.invalidEmail);
 	}
 
 	@Test
@@ -31,7 +31,7 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		CcpEntity mirrorEntity = JnEntityLoginToken.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate( variaveisParaTeste.REQUEST_TO_LOGIN);
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
-		this.execute(variaveisParaTeste, StatusUpdatePassword.lockedToken, x -> token);
+		this.execute(variaveisParaTeste, JnStatusUpdatePassword.lockedToken, x -> token);
 	}
 
 	@Test
@@ -39,7 +39,7 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getTokenToValidateLogin(variaveisParaTeste);
 		JnEntityLoginEmail.ENTITY.delete( variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusUpdatePassword.missingEmail, x -> token);
+		this.execute(variaveisParaTeste, JnStatusUpdatePassword.missingEmail, x -> token);
 	}
 
 	@Test
@@ -59,7 +59,7 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 
 	public void fluxoEsperado(VariaveisParaTeste variaveisParaTeste) {
 		String token = this.getToken(variaveisParaTeste);
-		this.execute(variaveisParaTeste,StatusUpdatePassword.expectedStatus, x -> token);
+		this.execute(variaveisParaTeste,JnStatusUpdatePassword.expectedStatus, x -> token);
 	}
 
 	private String getToken(VariaveisParaTeste variaveisParaTeste) {
@@ -76,9 +76,9 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getToken(variaveisParaTeste);
 		for(int k = 1; k < 3; k++) {
-			this.execute(variaveisParaTeste, StatusUpdatePassword.wrongToken, x -> "abcdefgh");
+			this.execute(variaveisParaTeste, JnStatusUpdatePassword.wrongToken, x -> "abcdefgh");
 		}
-		this.execute(variaveisParaTeste, StatusUpdatePassword.expectedStatus, x -> token);
+		this.execute(variaveisParaTeste, JnStatusUpdatePassword.expectedStatus, x -> token);
 	}
 	
 	@Test
@@ -86,11 +86,11 @@ public class TelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		String token = this.getToken(variaveisParaTeste);
 		for(int k = 1; k <= 3; k++) {
-			this.execute(variaveisParaTeste, StatusUpdatePassword.wrongToken, x -> "abcdefgh");
+			this.execute(variaveisParaTeste, JnStatusUpdatePassword.wrongToken, x -> "abcdefgh");
 		}
-		this.execute(variaveisParaTeste, StatusUpdatePassword.tokenLockedRecently, x -> "abcdefgh");
+		this.execute(variaveisParaTeste, JnStatusUpdatePassword.tokenLockedRecently, x -> "abcdefgh");
 		new CcpTimeDecorator().sleep(10_000);
-		this.execute(variaveisParaTeste, StatusUpdatePassword.lockedToken, x -> token);
+		this.execute(variaveisParaTeste, JnStatusUpdatePassword.lockedToken, x -> token);
 	}
 
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {

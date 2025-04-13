@@ -6,20 +6,20 @@ import org.junit.Test;
 
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.commons.status.login.StatusCreateLoginToken;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
-import com.jn.commons.entities.JnEntityLoginAnswers;
-import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginToken;
-import com.jn.commons.utils.JnLanguage;
+import com.jn.entities.JnEntityLoginAnswers;
+import com.jn.entities.JnEntityLoginEmail;
+import com.jn.entities.JnEntityLoginToken;
+import com.jn.status.login.JnStatusCreateLoginToken;
+import com.jn.utils.JnLanguage;
 
 public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.criarTokenDeLogin(VariaveisParaTeste.INVALID_EMAIL, StatusCreateLoginToken.statusInvalidEmail);
+		this.criarTokenDeLogin(VariaveisParaTeste.INVALID_EMAIL, JnStatusCreateLoginToken.statusInvalidEmail);
 	} 
 	 
 	@Test
@@ -27,20 +27,20 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		CcpEntity mirrorEntity = JnEntityLoginToken.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginToken.statusLockedToken);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginToken.statusLockedToken);
 	}
 	
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.execute(variaveisParaTeste, StatusCreateLoginToken.statusMissingEmail);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginToken.statusMissingEmail);
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginToken.missingSaveAnswers);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginToken.missingSaveAnswers);
 	}
 	
 	@Test
@@ -48,7 +48,7 @@ public class AoEntrarNaTelaDoCadastroDeSenha extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
-		this.execute(variaveisParaTeste, StatusCreateLoginToken.expectedStatus);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginToken.expectedStatus);
 	}
 
 	

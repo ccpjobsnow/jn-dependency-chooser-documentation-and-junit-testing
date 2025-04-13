@@ -19,6 +19,9 @@
 			"operation": {
 				"type": "keyword"
 			},
+			"operationType": {
+				"type": "keyword"
+			},
 			"success": {
 				"type": "boolean"
 			},

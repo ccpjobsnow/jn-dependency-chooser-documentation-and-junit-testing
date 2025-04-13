@@ -9,21 +9,21 @@ import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.especifications.http.CcpHttpResponseType;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.commons.status.login.StatusSaveAnswers;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
-import com.jn.commons.entities.JnEntityLoginAnswers;
-import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginSessionConflict;
-import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.entities.JnEntityLoginAnswers;
+import com.jn.entities.JnEntityLoginEmail;
+import com.jn.entities.JnEntityLoginPassword;
+import com.jn.entities.JnEntityLoginSessionConflict;
+import com.jn.entities.JnEntityLoginToken;
+import com.jn.status.login.JnStatusSaveAnswers;
 
 public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.cadastrarPreRegistration(VariaveisParaTeste.INVALID_EMAIL, StatusSaveAnswers.invalidEmail);
+		this.cadastrarPreRegistration(VariaveisParaTeste.INVALID_EMAIL, JnStatusSaveAnswers.invalidEmail);
 	}
  
 	@Test
@@ -31,13 +31,13 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		CcpEntity mirrorEntity = JnEntityLoginToken.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusSaveAnswers.lockedToken);
+		this.execute(variaveisParaTeste, JnStatusSaveAnswers.lockedToken);
 	}
 
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.execute(variaveisParaTeste, StatusSaveAnswers.tokenFaltando);
+		this.execute(variaveisParaTeste, JnStatusSaveAnswers.tokenFaltando);
 	}
 
 	@Test
@@ -45,7 +45,7 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginSessionConflict.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusSaveAnswers.loginConflict);
+		this.execute(variaveisParaTeste, JnStatusSaveAnswers.loginConflict);
 	}
 
 	@Test
@@ -53,7 +53,7 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusSaveAnswers.missingPassword);
+		this.execute(variaveisParaTeste, JnStatusSaveAnswers.missingPassword);
 	}
 
 	@Test
@@ -62,7 +62,7 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		CcpEntity mirrorEntity = JnEntityLoginPassword.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusSaveAnswers.lockedPassword);
+		this.execute(variaveisParaTeste, JnStatusSaveAnswers.lockedPassword);
 	}
 	
 	@Test
@@ -70,7 +70,7 @@ public class TelaDoPreRegistro  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginPassword.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusSaveAnswers.expectedStatus); 
+		this.execute(variaveisParaTeste, JnStatusSaveAnswers.expectedStatus); 
 	}
 	//
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {

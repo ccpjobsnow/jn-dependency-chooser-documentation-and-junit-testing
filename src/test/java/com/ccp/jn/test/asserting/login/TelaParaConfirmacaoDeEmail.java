@@ -7,21 +7,21 @@ import org.junit.Test;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.commons.status.login.StatusCreateLoginEmail;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
-import com.jn.commons.entities.JnEntityLoginAnswers;
-import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginSessionConflict;
-import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.entities.JnEntityLoginAnswers;
+import com.jn.entities.JnEntityLoginEmail;
+import com.jn.entities.JnEntityLoginPassword;
+import com.jn.entities.JnEntityLoginSessionConflict;
+import com.jn.entities.JnEntityLoginToken;
+import com.jn.status.login.JnStatusCreateLoginEmail;
 
 public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 
 	@Test
 	public void emailInvalido() {
-		this.confirmarEmail(VariaveisParaTeste.INVALID_EMAIL, StatusCreateLoginEmail.invalidEmail);
+		this.confirmarEmail(VariaveisParaTeste.INVALID_EMAIL, JnStatusCreateLoginEmail.invalidEmail);
 	}
 	
 	@Test
@@ -29,7 +29,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		CcpEntity mirrorEntity = JnEntityLoginToken.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.lockedToken);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginEmail.lockedToken);
 	}
 	
 	@Test
@@ -38,7 +38,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		CcpEntity mirrorEntity = JnEntityLoginPassword.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.lockedPassword);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginEmail.lockedPassword);
 	}
 	
 	@Test
@@ -46,7 +46,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginSessionConflict.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.loginConflict);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginEmail.loginConflict);
 	}
 	
 	@Test
@@ -54,7 +54,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.missingSavePassword);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginEmail.missingSavePassword);
 	}
 	
 	@Test
@@ -62,7 +62,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginPassword.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.missingSaveAnswers);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginEmail.missingSaveAnswers);
 	}
 	
 	@Test
@@ -71,7 +71,7 @@ public class TelaParaConfirmacaoDeEmail  extends JnTemplateDeTestes{
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginPassword.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
-		this.execute(variaveisParaTeste, StatusCreateLoginEmail.expectedStatus);
+		this.execute(variaveisParaTeste, JnStatusCreateLoginEmail.expectedStatus);
 	}
 	//
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {

@@ -6,21 +6,21 @@ import org.junit.Test;
 
 import com.ccp.especifications.db.utils.CcpEntity;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.commons.status.login.StatusExistsLoginEmail;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
-import com.jn.commons.entities.JnEntityLoginAnswers;
-import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginSessionConflict;
-import com.jn.commons.entities.JnEntityLoginToken;
+import com.jn.entities.JnEntityLoginAnswers;
+import com.jn.entities.JnEntityLoginEmail;
+import com.jn.entities.JnEntityLoginPassword;
+import com.jn.entities.JnEntityLoginSessionConflict;
+import com.jn.entities.JnEntityLoginToken;
+import com.jn.status.login.JnStatusExistsLoginEmail;
 
 public class TelaQuePedeEmail extends JnTemplateDeTestes{
 	
 	@Test
 	public void emailInvalido() {
-		this.verificarExistenciaDeEmail(StatusExistsLoginEmail.invalidEmail, VariaveisParaTeste.INVALID_EMAIL);
+		this.verificarExistenciaDeEmail(JnStatusExistsLoginEmail.invalidEmail, VariaveisParaTeste.INVALID_EMAIL);
 	}
 	
 	@Test
@@ -28,13 +28,13 @@ public class TelaQuePedeEmail extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		CcpEntity mirrorEntity = JnEntityLoginToken.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusExistsLoginEmail.lockedToken);
+		this.execute(variaveisParaTeste, JnStatusExistsLoginEmail.lockedToken);
 	}
 	
 	@Test
 	public void tokenFaltando() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.execute(variaveisParaTeste, StatusExistsLoginEmail.missingEmail);		
+		this.execute(variaveisParaTeste, JnStatusExistsLoginEmail.missingEmail);		
 	}
 	
 	@Test
@@ -43,7 +43,7 @@ public class TelaQuePedeEmail extends JnTemplateDeTestes{
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		CcpEntity mirrorEntity = JnEntityLoginPassword.ENTITY.getTwinEntity();
 		mirrorEntity.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN); 
-		this.execute(variaveisParaTeste, StatusExistsLoginEmail.lockedPassword);		
+		this.execute(variaveisParaTeste, JnStatusExistsLoginEmail.lockedPassword);		
 	}
 	
 	@Test
@@ -51,7 +51,7 @@ public class TelaQuePedeEmail extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste("onias85@gmail.com");
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginSessionConflict.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusExistsLoginEmail.loginConflict);		
+		this.execute(variaveisParaTeste, JnStatusExistsLoginEmail.loginConflict);		
 	}
 	
 	@Test
@@ -59,14 +59,14 @@ public class TelaQuePedeEmail extends JnTemplateDeTestes{
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusExistsLoginEmail.missingPassword);		
+		this.execute(variaveisParaTeste, JnStatusExistsLoginEmail.missingPassword);		
 	}
 	
 	@Test
 	public void faltandoPreRegistro() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusExistsLoginEmail.missingAnswers);		
+		this.execute(variaveisParaTeste, JnStatusExistsLoginEmail.missingAnswers);		
 	}
 	
 	@Test
@@ -75,7 +75,7 @@ public class TelaQuePedeEmail extends JnTemplateDeTestes{
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginAnswers.ENTITY.createOrUpdate(variaveisParaTeste.ANSWERS_JSON);
 		JnEntityLoginPassword.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
-		this.execute(variaveisParaTeste, StatusExistsLoginEmail.expectedStatus);		
+		this.execute(variaveisParaTeste, JnStatusExistsLoginEmail.expectedStatus);		
 	}
 	
 	public String execute(VariaveisParaTeste variaveisParaTeste, CcpProcessStatus expectedStatus, Function<VariaveisParaTeste, String> producer) {

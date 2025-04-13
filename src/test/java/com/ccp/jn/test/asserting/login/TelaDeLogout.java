@@ -7,27 +7,27 @@ import org.junit.Test;
 import com.ccp.constantes.CcpOtherConstants;
 import com.ccp.decorators.CcpJsonRepresentation;
 import com.ccp.http.CcpHttpMethods;
-import com.ccp.jn.commons.status.login.StatusExecuteLogout;
 import com.ccp.jn.test.asserting.JnTemplateDeTestes;
 import com.ccp.jn.test.asserting.VariaveisParaTeste;
 import com.ccp.process.CcpProcessStatus;
-import com.jn.commons.entities.JnEntityLoginEmail;
-import com.jn.commons.entities.JnEntityLoginSessionConflict;
-import com.jn.commons.entities.JnEntityLoginSessionValidation;
-import com.jn.commons.json.transformers.JnJsonTransformerPutRandomTokenHash;
+import com.jn.entities.JnEntityLoginEmail;
+import com.jn.entities.JnEntityLoginSessionConflict;
+import com.jn.entities.JnEntityLoginSessionValidation;
+import com.jn.json.transformers.JnJsonTransformerPutRandomTokenHash;
+import com.jn.status.login.JnStatusExecuteLogout;
 
 public class TelaDeLogout extends JnTemplateDeTestes {
 
 	@Test
 	public void emailInvalido() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste(VariaveisParaTeste.INVALID_EMAIL);
-		this.execute(variaveisParaTeste, StatusExecuteLogout.invalidEmail, variaveis -> "qualquerToken");
+		this.execute(variaveisParaTeste, JnStatusExecuteLogout.invalidEmail, variaveis -> "qualquerToken");
 	}
 
 	@Test
 	public void usuarioNaoLogado() {
 		VariaveisParaTeste variaveisParaTeste = new VariaveisParaTeste();
-		this.execute(variaveisParaTeste, StatusExecuteLogout.missingLogin, variaveis -> "qualquerToken");
+		this.execute(variaveisParaTeste, JnStatusExecuteLogout.missingLogin, variaveis -> "qualquerToken");
 	}
 
 	@Test
@@ -38,7 +38,7 @@ public class TelaDeLogout extends JnTemplateDeTestes {
 		Function<VariaveisParaTeste, String> producer = variaveis -> JnEntityLoginSessionValidation.ENTITY
 				.createOrUpdate(variaveis.REQUEST_TO_LOGIN.getTransformedJson(JnJsonTransformerPutRandomTokenHash.INSTANCE))
 				.getAsString("originalToken");
-		this.execute(variaveisParaTeste, StatusExecuteLogout.expectedStatus, producer);
+		this.execute(variaveisParaTeste, JnStatusExecuteLogout.expectedStatus, producer);
 	}
 	
 	public void caminhoFeliz2() {

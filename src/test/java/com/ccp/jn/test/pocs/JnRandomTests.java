@@ -33,16 +33,20 @@ import com.ccp.implementations.db.utils.elasticsearch.CcpElasticSearchDbRequest;
 import com.ccp.implementations.http.apache.mime.CcpApacheMimeHttp;
 import com.ccp.implementations.json.gson.CcpGsonJsonHandler;
 import com.ccp.implementations.password.mindrot.CcpMindrotPasswordHandler;
-import com.ccp.jn.commons.business.JnAsyncBusinessExecuteLogout;
-import com.ccp.jn.commons.mensageria.JnMensageriaSender;
 import com.ccp.local.testings.implementations.cache.CcpLocalCacheInstances;
 import com.ccp.validation.CcpJsonInvalid;
-import com.jn.commons.entities.JnEntityJobsnowError;
-import com.jn.commons.entities.JnEntityLoginPassword;
-import com.jn.commons.entities.JnEntityLoginSessionValidation;
-import com.jn.commons.utils.JnDeleteKeysFromCache;
+import com.jn.business.JnBusinessExecuteLogout;
+import com.jn.entities.JnEntityJobsnowError;
+import com.jn.entities.JnEntityLoginPassword;
+import com.jn.entities.JnEntityLoginSessionValidation;
+import com.jn.mensageria.JnMensageriaSender;
+import com.jn.utils.JnDeleteKeysFromCache;
 import com.vis.commons.entities.VisEntityResume;
 
+//FIXME VALIDACAO E TRANSFORMACAO AQUI
+//FIXME VALIDACAO E TRANSFORMACAO NO DELETE
+//FIXME VALIDACAO E TRANSFORMACAO NO SAVE
+//FIXME IGNORAR CAMPOS INVALIDOS EM CASO DE TRANSFORMACAO DO JSON
 
 public class JnRandomTests {
 	static{ 
@@ -165,7 +169,7 @@ public class JnRandomTests {
 		System.out.println(parametersToSearch);
 		
 		JnEntityLoginSessionValidation.ENTITY.getTwinEntity().createOrUpdate(json);
-		JnAsyncBusinessExecuteLogout.INSTANCE.apply(json);
+		JnBusinessExecuteLogout.INSTANCE.apply(json);
 	}
 
 	static void testarExpurgableEntity() {
