@@ -13,7 +13,7 @@ import com.ccp.process.CcpProcessStatus;
 import com.jn.entities.JnEntityLoginEmail;
 import com.jn.entities.JnEntityLoginSessionConflict;
 import com.jn.entities.JnEntityLoginSessionValidation;
-import com.jn.json.transformers.JnJsonTransformerPutRandomTokenHash;
+import com.jn.json.transformers.JnDefaultEntityFields;
 import com.jn.status.login.JnStatusExecuteLogout;
 
 public class TelaDeLogout extends JnTemplateDeTestes {
@@ -36,7 +36,7 @@ public class TelaDeLogout extends JnTemplateDeTestes {
 		JnEntityLoginEmail.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		JnEntityLoginSessionConflict.ENTITY.createOrUpdate(variaveisParaTeste.REQUEST_TO_LOGIN);
 		Function<VariaveisParaTeste, String> producer = variaveis -> JnEntityLoginSessionValidation.ENTITY
-				.createOrUpdate(variaveis.REQUEST_TO_LOGIN.getTransformedJson(JnJsonTransformerPutRandomTokenHash.INSTANCE))
+				.createOrUpdate(variaveis.REQUEST_TO_LOGIN.getTransformedJson(JnDefaultEntityFields.tokenHash))
 				.getAsString("originalToken");
 		this.execute(variaveisParaTeste, JnStatusExecuteLogout.expectedStatus, producer);
 	}
